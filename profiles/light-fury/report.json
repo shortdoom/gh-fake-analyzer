@@ -1,0 +1,159 @@
+{
+    "mutual_followers": [
+        "junguler"
+    ],
+    "contributors": {
+        "absin-backend": [
+            "light-fury"
+        ],
+        "absin-frontend": [
+            "light-fury"
+        ],
+        "absin-points-sdk": [
+            "light-fury"
+        ],
+        "balance": [
+            "kittyapes",
+            "CuriouslyCory",
+            "0xKey",
+            "light-fury",
+            "ryuheimat"
+        ],
+        "Chat_App": [
+            "light-fury"
+        ],
+        "Defis-Contract": [
+            "light-fury"
+        ],
+        "Distribute-Optimization": [
+            "light-fury"
+        ],
+        "ERC721-Royalty": [
+            "light-fury"
+        ],
+        "Fantom-Analysis-API": [
+            "light-fury"
+        ],
+        "Fantom-Artion-Image-Server": [
+            "light-fury"
+        ],
+        "GaimzMobile": [
+            "DiedrikDM",
+            "Coala1010",
+            "glitch100",
+            "sofianegargouri"
+        ],
+        "GaimzWeb": [
+            "glitch100",
+            "jkwonny",
+            "Anthonyhelka",
+            "conradjonp",
+            "DiedrikDM",
+            "light-fury"
+        ],
+        "Indexed-DeFi": [
+            "light-fury"
+        ],
+        "interval_timer": [
+            "light-fury"
+        ],
+        "keybate-backend": [
+            "light-fury",
+            "dependabot[bot]"
+        ],
+        "light-fury.github.io": [
+            "light-fury"
+        ],
+        "Loteo-Frontend": [
+            "wladimiiir",
+            "light-fury",
+            "dependabot[bot]"
+        ],
+        "MerkleProofWrapper": [
+            "light-fury"
+        ],
+        "MobileApp": [
+            "light-fury"
+        ]
+    },
+    "followers": [
+        "https://github.com/miohtama",
+        "https://github.com/ramijames",
+        "https://github.com/desinabl",
+        "https://github.com/albertwh1te",
+        "https://github.com/0xCatalyst",
+        "https://github.com/thebrumby",
+        "https://github.com/silvstar0",
+        "https://github.com/sebastiantf",
+        "https://github.com/ShowenPeng",
+        "https://github.com/hero-ktiger",
+        "https://github.com/marcomiduri",
+        "https://github.com/yhoungdev",
+        "https://github.com/duncan4123",
+        "https://github.com/junguler",
+        "https://github.com/tumelo-mapheto",
+        "https://github.com/Micah-Shallom",
+        "https://github.com/JohnAgeno",
+        "https://github.com/Blockchainyou",
+        "https://github.com/hishammohamed101",
+        "https://github.com/kamiebisu",
+        "https://github.com/HazardCyrus",
+        "https://github.com/deep-quality-dev",
+        "https://github.com/imnutzovacb3",
+        "https://github.com/oppizzllss15",
+        "https://github.com/DarkClan2",
+        "https://github.com/w36d",
+        "https://github.com/Dwunz86",
+        "https://github.com/Steven-Blockgein3",
+        "https://github.com/WaleedMaghraby",
+        "https://github.com/Gsaxton114"
+    ],
+    "following": [
+        "https://github.com/mikegarite",
+        "https://github.com/hoanganhbk94",
+        "https://github.com/SingularTnT",
+        "https://github.com/MerlinEgalite",
+        "https://github.com/0xYao",
+        "https://github.com/junguler",
+        "https://github.com/oikos1",
+        "https://github.com/john082Coder"
+    ],
+    "unique_emails": {
+        "leech.developer@gmail.com": "Light Fury",
+        "noreply@github.com": "GitHub",
+        "kittyapes@gmail.com": "kittyapes",
+        "ryuheimat3@gmail.com": "ryuheimat",
+        "cory@hau.me": "Cory Sougstad",
+        "davidlee152025@gmail.com": "0xKey",
+        "krislender0104@gmail.com": "krislender0104",
+        "sergeypt423@mail.ru": "Sergey Vetrov",
+        "kwon_jason@yahoo.com": "jason",
+        "pituhin98@gmail.com": "light-fury",
+        "diedrikdm@hotmail.com": "Diedrik DM",
+        "DiedrikDM@users.noreply.github.com": "Diedrik De Mits",
+        "ip@gaimz.com": "light-fury",
+        "dm@gaimz.com": "Diedrik DM",
+        "glitch100@gmail.com": "Jon Evans",
+        "contact@sofianeg.com": "Sofiane Gargouri",
+        "stevenlee.mywork@gmail.com": "stevenlee1010",
+        "justinkwon123@gmail.com": "jkwizzle",
+        "conradjonp@gmail.com": "Conlat",
+        "helkaanthony1997@gmail.com": "Anthony Helka",
+        "49699333+dependabot[bot]@users.noreply.github.com": "dependabot[bot]",
+        "vladimir.hrusovsky@hotovo.org": "Vladimir Hrusovsky"
+    },
+    "original_repos_count": 20,
+    "forked_repos_count": 10,
+    "pull_requests_to_other_repos": [
+        "DefiLlama/DefiLlama-Adapters",
+        "byteball/obyte-gui-wallet",
+        "NirajBhattarai/Marketplace",
+        "lastrust/community-modules",
+        "cryptol0g1c/solidity-challenge",
+        "Fantom-foundation/FtmStableCoin",
+        "snapshot-labs/snapshot.js",
+        "reserve-protocol/register",
+        "cryptonative-ch/aqua-interface",
+        "HorizenOfficial/keys"
+    ]
+}

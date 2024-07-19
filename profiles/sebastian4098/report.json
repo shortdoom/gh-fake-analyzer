@@ -1,0 +1,27 @@
+{
+    "mutual_followers": [],
+    "contributors": {
+        "express-server": [
+            "sebastian4098"
+        ],
+        "portfolio": [
+            "sebastian4098"
+        ],
+        "portfolio-GASP": [
+            "sebastian4098"
+        ]
+    },
+    "followers": [],
+    "following": [
+        "https://github.com/concur",
+        "https://github.com/eduales99"
+    ],
+    "unique_emails": {
+        "ortegamontenegrosebastian@gmail.com": "sebastian4098",
+        "157417285+sebastian4098@users.noreply.github.com": "sebastian4098",
+        "noreply@github.com": "GitHub"
+    },
+    "original_repos_count": 3,
+    "forked_repos_count": 3,
+    "pull_requests_to_other_repos": []
+}

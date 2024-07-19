@@ -1,0 +1,78 @@
+{
+    "mutual_followers": [],
+    "contributors": {
+        "itsgoingtobeokay": [
+            "tayvano"
+        ],
+        "lazarus-bluenoroff-research": [
+            "0xKoda",
+            "Crypt0Hackers",
+            "tayvano"
+        ],
+        "tincan-website": [
+            "tayvano"
+        ]
+    },
+    "followers": [
+        "https://github.com/lgs",
+        "https://github.com/adulau",
+        "https://github.com/gene-smith",
+        "https://github.com/kaichen",
+        "https://github.com/rudyryk",
+        "https://github.com/siong1987",
+        "https://github.com/ryana",
+        "https://github.com/fundon",
+        "https://github.com/kenneth",
+        "https://github.com/diegochavez",
+        "https://github.com/mikeyb",
+        "https://github.com/stonegao",
+        "https://github.com/yalu",
+        "https://github.com/miohtama",
+        "https://github.com/andiradulescu",
+        "https://github.com/carlok",
+        "https://github.com/mrmx",
+        "https://github.com/gaia",
+        "https://github.com/christianrojas",
+        "https://github.com/kamalx",
+        "https://github.com/anicholson",
+        "https://github.com/mrsinguyen",
+        "https://github.com/anomit",
+        "https://github.com/schmidsi",
+        "https://github.com/rafaelcaricio",
+        "https://github.com/ligi",
+        "https://github.com/alexvandesande",
+        "https://github.com/rombob",
+        "https://github.com/crenz",
+        "https://github.com/takeratta"
+    ],
+    "following": [
+        "https://github.com/zupzup",
+        "https://github.com/kumavis",
+        "https://github.com/FrederikBolding",
+        "https://github.com/IstoraMandiri",
+        "https://github.com/jpuri",
+        "https://github.com/409H",
+        "https://github.com/danielmcclure",
+        "https://github.com/rob05c",
+        "https://github.com/infosec-au",
+        "https://github.com/mandatoryprogrammer",
+        "https://github.com/alee046",
+        "https://github.com/dternyak",
+        "https://github.com/karthik4444",
+        "https://github.com/kvhnuke",
+        "https://github.com/GuillaumeRx",
+        "https://github.com/Balozar",
+        "https://github.com/alixlahuec",
+        "https://github.com/realdevknow"
+    ],
+    "unique_emails": {
+        "xoxoxox@gmail.com": "Taylor xoxoxox"
+    },
+    "original_repos_count": 3,
+    "forked_repos_count": 27,
+    "pull_requests_to_other_repos": [
+        "MetaMask/eth-phishing-detect",
+        "iancoleman/bip39",
+        "jlopp/physical-bitcoin-attacks"
+    ]
+}
