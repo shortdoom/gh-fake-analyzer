@@ -1,3 +1,5 @@
 venv
 .env
 out/*
+targets
+script.log
