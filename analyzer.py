@@ -33,12 +33,9 @@ if GH_TOKEN:
     HEADERS["Authorization"] = f"token {GH_TOKEN}"
 
 RETRY_LIMIT = 10
-ITEMS_PER_PAGE = 30
+ITEMS_PER_PAGE = 100
 SLEEP_INTERVAL = 1  # Interval between requests to avoid rate limiting
 GIT_OUT_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "out")
-
-# Increase buffer size for git
-# Git().update_environment(GIT_HTTP_MAX_REQUEST_BUFFER='104857600')
 
 
 def github_api_request(url, params=None):
@@ -54,7 +51,7 @@ def github_api_request(url, params=None):
                     and response.headers["X-RateLimit-Remaining"] == "0"
                 ):
                     reset_time = int(response.headers["X-RateLimit-Reset"])
-                    sleep_time = max(0, time.time() - reset_time)
+                    sleep_time = max(0, reset_time - time.time())
                     print(
                         f"Primary rate limit exceeded. Sleeping for {sleep_time} seconds."
                     )
@@ -95,23 +92,23 @@ def github_api_request(url, params=None):
                     continue
             elif response.status_code == 200:
                 time.sleep(SLEEP_INTERVAL)  # Slow down requests to avoid rate limiting
-                return response.json()
+                return response.json(), response.headers
             elif response.status_code == 451:
                 print("Resource is unavailable due to legal reasons (status 451).")
                 logging.error(
                     "Resource is unavailable due to legal reasons (status 451)."
                 )
-                return None
+                return None, None
             else:
                 print(f"Request failed with status {response.status_code}.")
                 logging.error(f"Request failed with status {response.status_code}.")
-                return None
+                return None, None
         except requests.exceptions.RequestException as e:
             logging.error(f"An error occurred: {e}")
-            return None
+            return None, None
 
     # If all retries are done, return None
-    return None
+    return None, None
 
 
 class GitHubProfileAnalyzer:
@@ -176,7 +173,7 @@ class GitHubProfileAnalyzer:
                 if not repo["fork"]:
                     repo_name = repo["name"]
                     url = f"{GITHUB_API_URL}/repos/{self.username}/{repo_name}/contributors"
-                    repo_contributors = github_api_request(url)
+                    repo_contributors, _ = github_api_request(url)
                     if repo_contributors:
                         for contributor in repo_contributors:
                             contributors[repo_name].add(contributor["login"])
@@ -205,7 +202,7 @@ class GitHubProfileAnalyzer:
                 "q": f"type:pr author:{self.username}",
                 "per_page": ITEMS_PER_PAGE,
             }
-            search_results = github_api_request(search_url, search_params)
+            search_results, _ = github_api_request(search_url, search_params)
             pull_requests_to_other_repos = {}
 
             if search_results and "items" in search_results:
@@ -225,7 +222,7 @@ class GitHubProfileAnalyzer:
                 "q": f"author:{self.username}",
                 "per_page": ITEMS_PER_PAGE,
             }
-            search_commits_results = github_api_request(
+            search_commits_results, _ = github_api_request(
                 search_commits_url, search_commits_params
             )
             commits_to_other_repos = {}
@@ -310,7 +307,7 @@ class GitHubProfileAnalyzer:
                             }
 
                             try:
-                                search_results = github_api_request(
+                                search_results, _ = github_api_request(
                                     search_url, params=search_params
                                 )
 
@@ -351,14 +348,32 @@ class GitHubProfileAnalyzer:
     def fetch_profile_data(self):
         try:
             url = f"{GITHUB_API_URL}/users/{self.username}"
-            self.profile_data = github_api_request(url)
+            self.profile_data, _ = github_api_request(url)
         except Exception as e:
             logging.error(f"Error in fetch_profile_data: {e}")
 
     def fetch_profile_repos(self):
         try:
             url = f"{GITHUB_API_URL}/users/{self.username}/repos"
-            self.all_repos = github_api_request(url)
+            repos = []
+            params = {"per_page": ITEMS_PER_PAGE}
+            while url:
+                response, headers = github_api_request(url, params)
+                if response:
+                    repos.extend(response)
+                    if 'Link' in headers:
+                        links = requests.utils.parse_header_links(headers['Link'])
+                        url = None
+                        for link in links:
+                            if link['rel'] == 'next':
+                                url = link['url']
+                                params = None
+                                break
+                    else:
+                        break
+                else:
+                    break
+            self.all_repos = repos
             if not self.all_repos:
                 self.all_repos = []
         except Exception as e:
@@ -367,7 +382,25 @@ class GitHubProfileAnalyzer:
     def fetch_followers(self):
         try:
             url = f"{GITHUB_API_URL}/users/{self.username}/followers"
-            self.followers = github_api_request(url)
+            params = {"per_page": ITEMS_PER_PAGE, "page": 1}
+            followers = []
+            while url:
+                response, headers = github_api_request(url, params)
+                if response:
+                    followers.extend(response)
+                    if 'Link' in headers:
+                        links = requests.utils.parse_header_links(headers['Link'])
+                        url = None
+                        for link in links:
+                            if link['rel'] == 'next':
+                                url = link['url']
+                                params = None
+                                break
+                    else:
+                        break
+                else:
+                    break
+            self.followers = followers
             if not self.followers:
                 self.followers = []
         except Exception as e:
@@ -376,7 +409,25 @@ class GitHubProfileAnalyzer:
     def fetch_following(self):
         try:
             url = f"{GITHUB_API_URL}/users/{self.username}/following"
-            self.following = github_api_request(url)
+            params = {"per_page": ITEMS_PER_PAGE, "page": 1}
+            following = []
+            while url:
+                response, headers = github_api_request(url, params)
+                if response:
+                    following.extend(response)
+                    if 'Link' in headers:
+                        links = requests.utils.parse_header_links(headers['Link'])
+                        url = None
+                        for link in links:
+                            if link['rel'] == 'next':
+                                url = link['url']
+                                params = None
+                                break
+                    else:
+                        break
+                else:
+                    break
+            self.following = following
             if not self.following:
                 self.following = []
         except Exception as e:
@@ -548,7 +599,6 @@ class GitHubProfileAnalyzer:
             logging.error(f"Error in save_to_json: {e}")
 
 
-# Parse command-line arguments
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Analyze a GitHub profile.")
     parser.add_argument("username", type=str, help="GitHub username to analyze")
@@ -580,6 +630,7 @@ if __name__ == "__main__":
 
         logging.info("Generating report...")
         analyzer.generate_report()
+        
     except Exception as e:
         logging.error(f"Error in main execution: {e}")
 
