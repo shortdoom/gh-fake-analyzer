@@ -111,6 +111,30 @@ def github_api_request(url, params=None):
     return None, None
 
 
+def fetch_all_pages(url, params=None):
+    results = []
+    while url:
+        response, headers = github_api_request(url, params)
+        if response:
+            if isinstance(response, dict) and "items" in response:
+                results.extend(response["items"])
+            else:
+                results.extend(response)
+            if 'Link' in headers:
+                links = requests.utils.parse_header_links(headers['Link'])
+                url = None
+                for link in links:
+                    if link['rel'] == 'next':
+                        url = link['url']
+                        params = None
+                        break
+            else:
+                break
+        else:
+            break
+    return results
+
+
 class GitHubProfileAnalyzer:
     def __init__(self, username):
         self.exists = False
@@ -173,7 +197,7 @@ class GitHubProfileAnalyzer:
                 if not repo["fork"]:
                     repo_name = repo["name"]
                     url = f"{GITHUB_API_URL}/repos/{self.username}/{repo_name}/contributors"
-                    repo_contributors, _ = github_api_request(url)
+                    repo_contributors = fetch_all_pages(url)
                     if repo_contributors:
                         for contributor in repo_contributors:
                             contributors[repo_name].add(contributor["login"])
@@ -202,11 +226,11 @@ class GitHubProfileAnalyzer:
                 "q": f"type:pr author:{self.username}",
                 "per_page": ITEMS_PER_PAGE,
             }
-            search_results, _ = github_api_request(search_url, search_params)
             pull_requests_to_other_repos = {}
+            search_results = fetch_all_pages(search_url, search_params)
 
-            if search_results and "items" in search_results:
-                for item in search_results["items"]:
+            if search_results:
+                for item in search_results:
                     repo_name = item["repository_url"].split("/")[-1]
                     owner_name = item["repository_url"].split("/")[-2]
                     if owner_name != self.username:
@@ -222,13 +246,11 @@ class GitHubProfileAnalyzer:
                 "q": f"author:{self.username}",
                 "per_page": ITEMS_PER_PAGE,
             }
-            search_commits_results, _ = github_api_request(
-                search_commits_url, search_commits_params
-            )
             commits_to_other_repos = {}
+            search_commits_results = fetch_all_pages(search_commits_url, search_commits_params)
 
-            if search_commits_results and "items" in search_commits_results:
-                for item in search_commits_results["items"]:
+            if search_commits_results:
+                for item in search_commits_results:
                     repo_name = item["repository"]["html_url"].split("/")[-1]
                     owner_name = item["repository"]["owner"]["login"]
                     if owner_name != self.username:
@@ -355,24 +377,7 @@ class GitHubProfileAnalyzer:
     def fetch_profile_repos(self):
         try:
             url = f"{GITHUB_API_URL}/users/{self.username}/repos"
-            repos = []
-            params = {"per_page": ITEMS_PER_PAGE}
-            while url:
-                response, headers = github_api_request(url, params)
-                if response:
-                    repos.extend(response)
-                    if 'Link' in headers:
-                        links = requests.utils.parse_header_links(headers['Link'])
-                        url = None
-                        for link in links:
-                            if link['rel'] == 'next':
-                                url = link['url']
-                                params = None
-                                break
-                    else:
-                        break
-                else:
-                    break
+            repos = fetch_all_pages(url, {"per_page": ITEMS_PER_PAGE})
             self.all_repos = repos
             if not self.all_repos:
                 self.all_repos = []
@@ -382,24 +387,7 @@ class GitHubProfileAnalyzer:
     def fetch_followers(self):
         try:
             url = f"{GITHUB_API_URL}/users/{self.username}/followers"
-            params = {"per_page": ITEMS_PER_PAGE, "page": 1}
-            followers = []
-            while url:
-                response, headers = github_api_request(url, params)
-                if response:
-                    followers.extend(response)
-                    if 'Link' in headers:
-                        links = requests.utils.parse_header_links(headers['Link'])
-                        url = None
-                        for link in links:
-                            if link['rel'] == 'next':
-                                url = link['url']
-                                params = None
-                                break
-                    else:
-                        break
-                else:
-                    break
+            followers = fetch_all_pages(url, {"per_page": ITEMS_PER_PAGE})
             self.followers = followers
             if not self.followers:
                 self.followers = []
@@ -409,24 +397,7 @@ class GitHubProfileAnalyzer:
     def fetch_following(self):
         try:
             url = f"{GITHUB_API_URL}/users/{self.username}/following"
-            params = {"per_page": ITEMS_PER_PAGE, "page": 1}
-            following = []
-            while url:
-                response, headers = github_api_request(url, params)
-                if response:
-                    following.extend(response)
-                    if 'Link' in headers:
-                        links = requests.utils.parse_header_links(headers['Link'])
-                        url = None
-                        for link in links:
-                            if link['rel'] == 'next':
-                                url = link['url']
-                                params = None
-                                break
-                    else:
-                        break
-                else:
-                    break
+            following = fetch_all_pages(url, {"per_page": ITEMS_PER_PAGE})
             self.following = following
             if not self.following:
                 self.following = []
