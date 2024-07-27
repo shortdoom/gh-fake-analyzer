@@ -8,15 +8,21 @@ It's possible, to a certain degree, to define some metrics for classifying GitHu
 4. Does any commit message appear copied from another repository? If yes - suspicious; owner probably copied the original repository and edited .git history.
 5. While getting "all repositories" for an onwer account, do some repositories return an error with DMCA takedown? If yes, suspicious.
 
+# How to install & run
+
 `analyzer.py` performs all of that and outputs into `/out` directory two files. `{username}.json` file contains the full github profile dump and `report.json` contains specific info pertaining to the above. It's best to have both open. Script also downloads `.git` folder of every non-forked repository to parse commit messages without using github API, feel free to remove those after.
 
 to run, do the:
 
 `pip install -r requirements.txt`
 
-`python analyzer.py <username>` - this will run the analysis without searching for commit messages (takes time)
+`python analyzer.py <username>` - this will run the analysis without searching for commit messages
 
-`python analyzer.py <username> --commit_search` - will run search for copied commits (optional)
+`python analyzer.py <username> --commit_search` - will run search for copied commits (optional, can take a lot of time)
+
+`python runner.py` - will read from `targets` file and dump data for every profile (optional)
+
+`script.log` file is created after the first run
 
 # Regular, Skid and DPRK-style profile
 
