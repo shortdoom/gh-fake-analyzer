@@ -24,9 +24,19 @@ to run, do the:
 
 `script.log` file is created after the first run
 
+# How to read the output
+
+Inside `/out` directory there will be `<username>` subdirectory for each account scanned. 
+
+File `{username}.json` contains user's profile data, all repositories hosted on user's account (fork and not), all commit data, including commit message to any of repositories hosted on user's account, as well as following and followers data. `date_filter` and `commit_filter` will only be non-empty if suspicious flag is raised. 
+
+File `report.json` contains more of a external data, user's pull requests created to any repository as well as commits added to any repository - including repositories not hosted on user's account. It also contains list of `unique_emails` extracted from commit data. Additionally, for easier access followers/following data is repeated.
+
+It's best to navigate both files for getting a clearer picture of user's activity.
+
 # Regular, Skid and DPRK-style profile
 
-For Regular accounts I've ran the analysis on my own profile and Tayvano's
+For Regular accounts I've ran the analysis on my own profile
 
 ### Features of regular accounts
 
