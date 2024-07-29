@@ -261,7 +261,6 @@ class GitHubProfileAnalyzer:
                         commits_to_other_repos[key].append(commit_url)
 
             # Construct full GitHub HTML links for followers and following
-            BASE_GITHUB_URL = "https://github.com/"
             followers_list = [f"{BASE_GITHUB_URL}{f['login']}" for f in self.followers]
             following_list = [f"{BASE_GITHUB_URL}{f['login']}" for f in self.following]
 
@@ -606,4 +605,5 @@ if __name__ == "__main__":
         logging.error(f"Error in main execution: {e}")
 
     end_time = time.time()
+    print(f"Analysis completed in {end_time - start_time:.2f} seconds.")
     logging.info(f"Analysis completed in {end_time - start_time:.2f} seconds.")
