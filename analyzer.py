@@ -1,13 +1,11 @@
 import shutil
 import requests
-from datetime import datetime
 import json
 import argparse
 from collections import defaultdict
 import time
 import os
 import git
-from git import Git
 from dotenv import load_dotenv
 from dateutil import parser
 import logging
