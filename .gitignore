@@ -1,3 +1,6 @@
+__pycache__
 venv
 .env
 out/*
+targets
+script.log
