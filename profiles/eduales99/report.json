@@ -47,6 +47,7 @@
         ]
     },
     "followers": [
+        "https://github.com/AlessandroDu",
         "https://github.com/kartikey315",
         "https://github.com/sammorozov",
         "https://github.com/sebastian4098",
@@ -68,7 +69,16 @@
     },
     "original_repos_count": 14,
     "forked_repos_count": 0,
-    "pull_requests_to_other_repos": [],
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {
+        "sebastian4098/portfolio-GASP": [
+            "https://github.com/sebastian4098/portfolio-GASP/commit/2cf64d2ccb957eb37e6ee86d886f5ba19f268196",
+            "https://github.com/sebastian4098/portfolio-GASP/commit/a9e0971b14138fbe7baa467256072fd56afbefca"
+        ],
+        "sebastian4098/express-server": [
+            "https://github.com/sebastian4098/express-server/commit/97c305583102afb9d904e9dd7b8f941dd926d3ca"
+        ]
+    },
     "potential_copy": [
         {
             "repo": "auction-dApp-Ethereum",

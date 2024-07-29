@@ -1,3 +1,7 @@
+# About
+
+Dump github profile data using cli commands for any user account. Build with OSINT in mind. 
+
 # Malicious Github Accounts
 
 It's possible, to a certain degree, to define some metrics for classifying GitHub profiles as potentially malicious. However, motivated enough attackers can still bypass most of those checks and appear as professional engineers. If that's the case, a company should fall back to regular methods of judging a potential employee/contact. The following script can help out with finding some dark patterns if the attacker is not motivated enough :)
@@ -20,25 +24,29 @@ to run, do the:
 
 `python analyzer.py <username> --commit_search` - will run search for copied commits (optional, can take a lot of time)
 
-`python runner.py` - will read from `targets` file and dump data for every profile (optional)
+`python runner.py` - read from `targets` file and dump data for every profile (optional)
 
 `script.log` file is created after the first run
 
 # How to read the output
 
-Inside `/out` directory there will be `<username>` subdirectory for each account scanned. 
+Inside `/out` directory there will be a `<username>` subdirectory for each account scanned. 
 
-File `{username}.json` contains user's profile data, all repositories hosted on user's account (fork and not), all commit data, including commit message to any of repositories hosted on user's account, as well as following and followers data. `date_filter` and `commit_filter` will only be non-empty if suspicious flag is raised. 
+File `{username}.json` contains user's profile data, all repositories hosted on user's account (forked and not), all commit data, including commit message to any of repositories hosted on user's account, as well as following and followers data. `date_filter` and `commit_filter` will only be non-empty if a suspicious flag is raised. 
 
-File `report.json` contains more of a external data, user's pull requests created to any repository as well as commits added to any repository - including repositories not hosted on user's account. It also contains list of `unique_emails` extracted from commit data. Additionally, for easier access followers/following data is repeated.
+File `report.json` contains more of a *external data*, user's pull requests created to any repository, as well as commits added to any repository - including repositories not hosted on user's account. It also contains list of `unique_emails` (emails of contributors to user's hosted repositories) extracted from the commit data. Additionally, for an easier access, followers/following data is repeated as a github URL.
 
-It's best to navigate both files for getting a clearer picture of user's activity.
+File `failed_repos.json` inside of the subdirectory will contain data on repositories that script failed to `git clone`. There are many reasons why this can happen, sometimes it's a network error, sometimes it's a DMCA takedown.
 
-# Regular, Skid and DPRK-style profile
+It's best to navigate all files for getting a clearer picture of user's activity.
 
-For Regular accounts I've ran the analysis on my own profile
+# Regular, Skid and DPRK-style profile (WIP)
+
+Heuristics here is only informational. There can be a lot of edge cases, false positives and positive falses both happen and are hard to deduce from report files.
 
 ### Features of regular accounts
+
+For Regular accounts I've ran the analysis on my own profile
 
 1. No commits before the account creation date
 2. Contributors (to the owner's repositories) are none/small amount and if there are any, the contributor profile itself is not suspicious

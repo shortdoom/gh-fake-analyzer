@@ -1,12 +1,1 @@
-[
-    {
-        "repo_name": "express-server",
-        "clone_url": "https://github.com/sebastian4098/express-server.git",
-        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/sebastian4098/express-server.git /home/user/Github/Plishka/contagion-interview/out/sebastian4098/sebastian4098_express-server.git\n  stderr: 'Cloning into bare repository '/home/user/Github/Plishka/contagion-interview/out/sebastian4098/sebastian4098_express-server.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 4824 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
-    },
-    {
-        "repo_name": "portfolio-GASP",
-        "clone_url": "https://github.com/sebastian4098/portfolio-GASP.git",
-        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/sebastian4098/portfolio-GASP.git /home/user/Github/Plishka/contagion-interview/out/sebastian4098/sebastian4098_portfolio-GASP.git\n  stderr: 'Cloning into bare repository '/home/user/Github/Plishka/contagion-interview/out/sebastian4098/sebastian4098_portfolio-GASP.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 7503 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
-    }
-]
+[]
