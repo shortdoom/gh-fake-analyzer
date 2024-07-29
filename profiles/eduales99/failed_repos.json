@@ -2,6 +2,6 @@
     {
         "repo_name": "Javascript-Drawio",
         "clone_url": "https://github.com/eduales99/Javascript-Drawio.git",
-        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/eduales99/Javascript-Drawio.git /home/user/Github/Plishka/contagion-interview/out/eduales99/eduales99_Javascript-Drawio.git\n  stderr: 'Cloning into bare repository '/home/user/Github/Plishka/contagion-interview/out/eduales99/eduales99_Javascript-Drawio.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 2371 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/eduales99/Javascript-Drawio.git /home/user/Github/PRs/gh-fake-analyzer/out/eduales99/eduales99_Javascript-Drawio.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/eduales99/eduales99_Javascript-Drawio.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 6428 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
     }
 ]
