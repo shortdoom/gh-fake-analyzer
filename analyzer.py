@@ -300,7 +300,7 @@ class GitHubProfileAnalyzer:
                         self.date_filter.append(
                             {
                                 "repo": repo_name,
-                                "reason": "account created earlier than the first commit",
+                                "reason": "account creation date later than the first commit to the repository",
                                 "commit_date": first_commit_date.isoformat(),
                             }
                         )
