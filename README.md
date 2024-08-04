@@ -56,7 +56,7 @@ It's possible, to a certain degree, to define some metrics for classifying GitHu
 
 # Regular, Skid and DPRK-style profile (WIP)
 
-Heuristics here is only informational. There can be a lot of edge cases, false positives and positive falses both happen and are hard to deduce from report files, the following are nothing else than a list of rules-of-thumb.
+Heuristics here is only informational. There can be a lot of edge cases, false positives and false negatives both happen and are hard to deduce from report files, the following are nothing else than a list of rules-of-thumb.
 
 ### Features of regular accounts
 
