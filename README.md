@@ -67,6 +67,20 @@ It's possible, to a certain degree, to define some metrics for classifying GitHu
 4. Does any commit message appear copied from another repository? If yes - suspicious; owner probably copied the original repository and edited .git history.
 5. While getting "all repositories" for an onwer account, do some repositories return an error with DMCA takedown? If yes, suspicious.
 
+Great list of flags by ZachXBT: https://x.com/zachxbt/status/1824047480121729425
+
+Some indicators teams can look out for in the future includes: 
+
+1) They refer each other for roles 
+2) Good looking resumes / GitHub activity although sometimes lie about work history. 
+3) Typically are happy to KYC but submit fake IDs in hopes teams do not investigate further
+4) Ask specific questions about locations they claim to be from. 
+5) Dev is fired and immediately new accounts appear looking for work
+6) May be good devs initially but typically start to underperform
+7) Review logs
+8) Like using popular NFT pfps 
+9) Asia accent
+
 # Regular, Skid and DPRK-style profile (WIP)
 
 Heuristics here is only informational. There can be a lot of edge cases, false positives and false negatives both happen and are hard to deduce from report files, the following are nothing else than a list of rules-of-thumb.
