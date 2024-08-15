@@ -1,10 +1,5 @@
 [
     {
-        "repo_name": "anonymous_zether",
-        "clone_url": "https://github.com/keizir/anonymous_zether.git",
-        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/keizir/anonymous_zether.git /home/user/Github/PRs/gh-fake-analyzer/out/keizir/keizir_anonymous_zether.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/keizir/keizir_anonymous_zether.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 64 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
-    },
-    {
         "repo_name": "react_decisiv",
         "clone_url": "https://github.com/keizir/react_decisiv.git",
         "reason": "DMCA takedown"

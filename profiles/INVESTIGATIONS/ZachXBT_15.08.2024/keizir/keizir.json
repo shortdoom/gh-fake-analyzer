@@ -2795,6 +2795,3076 @@
         }
     ],
     "commits": {
+        "anonymous_zether": [
+            {
+                "sha": "d1c1bddb2857db4ba7e8bbad209e19a3b0282817",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-05-14T11:40:44-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-05-14T11:40:49-04:00"
+                    },
+                    "message": "yarn upgrade\n\nthere are a huge amount of warnings from yarn, so at some point all of that should probably be looked at\n\nalso, do i really need 2 yarn files, one in `protocol` and one in the main directory?\n"
+                },
+                "parents": [
+                    "d5e61ad2f2b86d038e3a1068c35ec4a9e82e1d3b"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/d1c1bddb2857db4ba7e8bbad209e19a3b0282817"
+            },
+            {
+                "sha": "d5e61ad2f2b86d038e3a1068c35ec4a9e82e1d3b",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-05-14T11:30:07-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-05-14T11:32:18-04:00"
+                    },
+                    "message": "add escape clause for spurious events\n\ntruffle is emitting these for some reason. we need to figure out why. in the mean time, we can easily just work around it by adding this return statement.\n"
+                },
+                "parents": [
+                    "08697a337ad80e86e8cd8b9dd301613f0fc1b735"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/d5e61ad2f2b86d038e3a1068c35ec4a9e82e1d3b"
+            },
+            {
+                "sha": "08697a337ad80e86e8cd8b9dd301613f0fc1b735",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-01-06T22:39:41-05:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-01-06T22:39:41-05:00"
+                    },
+                    "message": "a few additional small readme changes"
+                },
+                "parents": [
+                    "72f0f5be66fa0bae539508c8782dfaa349dcbeb8"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/08697a337ad80e86e8cd8b9dd301613f0fc1b735"
+            },
+            {
+                "sha": "72f0f5be66fa0bae539508c8782dfaa349dcbeb8",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-01-06T22:36:54-05:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-01-06T22:36:54-05:00"
+                    },
+                    "message": "Merge pull request #7 from JohnSt99/patch-1\n\nimproved intuitiveness & added example code"
+                },
+                "parents": [
+                    "b0d761f12f3838fea7b0409b63f3de35db6daeef",
+                    "8e7919518113edce77bb900084d5cd4cf19a2e9e"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/72f0f5be66fa0bae539508c8782dfaa349dcbeb8"
+            },
+            {
+                "sha": "8e7919518113edce77bb900084d5cd4cf19a2e9e",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-01-06T22:34:59-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-01-06T22:34:59-05:00"
+                    },
+                    "message": "some additional touchups and code style things\n\ni guess we are adding semicolons in the README now.\n"
+                },
+                "parents": [
+                    "37f5a60d8aa74d457ff206a461fc0354b3fd9284"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/8e7919518113edce77bb900084d5cd4cf19a2e9e"
+            },
+            {
+                "sha": "37f5a60d8aa74d457ff206a461fc0354b3fd9284",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-01-06T22:26:38-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2021-01-06T22:26:38-05:00"
+                    },
+                    "message": "some touchups?\n"
+                },
+                "parents": [
+                    "095f3ba9be89288b5021dc8a934d0038e9b4eee9"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/37f5a60d8aa74d457ff206a461fc0354b3fd9284"
+            },
+            {
+                "sha": "095f3ba9be89288b5021dc8a934d0038e9b4eee9",
+                "commit": {
+                    "author": {
+                        "name": "JohnSt99",
+                        "email": "jsm@hotmail.gr",
+                        "date": "2021-01-07T04:23:11+02:00"
+                    },
+                    "committer": {
+                        "name": "JohnSt99",
+                        "email": "jsm@hotmail.gr",
+                        "date": "2021-01-07T04:23:11+02:00"
+                    },
+                    "message": "Update README.md\n"
+                },
+                "parents": [
+                    "b0d761f12f3838fea7b0409b63f3de35db6daeef"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/095f3ba9be89288b5021dc8a934d0038e9b4eee9"
+            },
+            {
+                "sha": "b0d761f12f3838fea7b0409b63f3de35db6daeef",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-10-30T16:21:07-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-10-30T16:21:37-04:00"
+                    },
+                    "message": "final docs update\n\nmirrored at https://eprint.iacr.org/2020/293\n"
+                },
+                "parents": [
+                    "9af157ffda21ad8d652924434851cfccd7d68317"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/b0d761f12f3838fea7b0409b63f3de35db6daeef"
+            },
+            {
+                "sha": "9af157ffda21ad8d652924434851cfccd7d68317",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T19:56:43-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T19:59:59-04:00"
+                    },
+                    "message": "fix bug: register the \"empty\" account\n\nactually, it's interesting. even with no \"beneficiary\" argument supplied, the [0x00, 0x00] account will be credited, and this can (probably) be spent from using a secret key of 0. so in this way miners could make \"raking\" transactions. probably'd be better to have a special \"rake\" method in the contract, so that the extra gas doesn't have to be spent.\n\nor maybe it's better this way, so that the miner's identity can be kept private... intriguing.\n"
+                },
+                "parents": [
+                    "a7373ed4fe2a8675ab44ffa0a35ff48336df7d33"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/9af157ffda21ad8d652924434851cfccd7d68317"
+            },
+            {
+                "sha": "a7373ed4fe2a8675ab44ffa0a35ff48336df7d33",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T19:38:23-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T19:40:17-04:00"
+                    },
+                    "message": "update readme with fee instructions\n"
+                },
+                "parents": [
+                    "89d425ed9938fe2a11ce383d859b36e68d4d0ddb"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/a7373ed4fe2a8675ab44ffa0a35ff48336df7d33"
+            },
+            {
+                "sha": "89d425ed9938fe2a11ce383d859b36e68d4d0ddb",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T19:15:50-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T19:27:19-04:00"
+                    },
+                    "message": "various fees fixes\n\nupdated the truffle test to dynamically retrieve the fee. made the \"beneficiary\" argument optional (especially useful in case fee is 0). in this case it will burn the fees to the empty account.\n"
+                },
+                "parents": [
+                    "0c6c71fb24c1c719f83f74da8be62036e071e774"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/89d425ed9938fe2a11ce383d859b36e68d4d0ddb"
+            },
+            {
+                "sha": "0c6c71fb24c1c719f83f74da8be62036e071e774",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T13:07:08-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-09-18T13:07:08-04:00"
+                    },
+                    "message": "merge branch for \"transaction fees\" (#2)\n\nnow, we have an intrinsic mechanism for transaction fees. a sender can specify a \"beneficiary\" who will receive the fixed fee. In practice, this could be a \"miner\", who will then mine the transaction voluntarily, even though it (say) offers no gas."
+                },
+                "parents": [
+                    "acb6afa900e36f8ad057f4c259c6fcd383ba2ba1",
+                    "50a8b1b7e77d64bf5fdc5c67f5de36a6a097e940"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/0c6c71fb24c1c719f83f74da8be62036e071e774"
+            },
+            {
+                "sha": "50a8b1b7e77d64bf5fdc5c67f5de36a6a097e940",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T13:04:03-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T13:04:03-04:00"
+                    },
+                    "message": "set fee back to 0\n"
+                },
+                "parents": [
+                    "65b69d75dd12916e4d029f91c14a86602a33700e"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/50a8b1b7e77d64bf5fdc5c67f5de36a6a097e940"
+            },
+            {
+                "sha": "65b69d75dd12916e4d029f91c14a86602a33700e",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T11:40:30-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-18T13:01:33-04:00"
+                    },
+                    "message": "refactors. only define fee once...\n\n...in the contract. then pull it in and use it elsewhere. various other improvements.\n"
+                },
+                "parents": [
+                    "e17805da5ff1aa361833a761227fc24b08b7f408"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/65b69d75dd12916e4d029f91c14a86602a33700e"
+            },
+            {
+                "sha": "e17805da5ff1aa361833a761227fc24b08b7f408",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-17T21:41:05-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-17T21:41:05-04:00"
+                    },
+                    "message": "first commit for fees\n"
+                },
+                "parents": [
+                    "acb6afa900e36f8ad057f4c259c6fcd383ba2ba1"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/e17805da5ff1aa361833a761227fc24b08b7f408"
+            },
+            {
+                "sha": "acb6afa900e36f8ad057f4c259c6fcd383ba2ba1",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-17T21:39:24-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-17T21:39:24-04:00"
+                    },
+                    "message": "small rework\n"
+                },
+                "parents": [
+                    "a30cb33cc9b635e158c649a9447f4ac51299bcfa"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/acb6afa900e36f8ad057f4c259c6fcd383ba2ba1"
+            },
+            {
+                "sha": "a30cb33cc9b635e158c649a9447f4ac51299bcfa",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-08T15:00:03+00:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-08T11:07:00-04:00"
+                    },
+                    "message": "some refactors and improvements in client\n"
+                },
+                "parents": [
+                    "4dae3d3b4bb47d366ede9eef4fc60bd248c71b71"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/a30cb33cc9b635e158c649a9447f4ac51299bcfa"
+            },
+            {
+                "sha": "4dae3d3b4bb47d366ede9eef4fc60bd248c71b71",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-01T12:25:18-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-04T23:42:07-04:00"
+                    },
+                    "message": "client-side FFT optimizations.\n\nonly compute the array of roots of unity once. pass it into subcalls. only FFT the base vector once; use the FFT in both hadamards / convolutions. significantly improves the prover time.\n"
+                },
+                "parents": [
+                    "45dd24667fc325cf0ad4142118fc3a6a17b0a41f"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/4dae3d3b4bb47d366ede9eef4fc60bd248c71b71"
+            },
+            {
+                "sha": "45dd24667fc325cf0ad4142118fc3a6a17b0a41f",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-31T23:59:48-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-04T23:42:07-04:00"
+                    },
+                    "message": "more contract optimizations\n\nin the FFT and the recursive polynomial evaluation calculation.\n"
+                },
+                "parents": [
+                    "139a0d17e6c807bc897a4073ccf4e62e14c53fc1"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/45dd24667fc325cf0ad4142118fc3a6a17b0a41f"
+            },
+            {
+                "sha": "139a0d17e6c807bc897a4073ccf4e62e14c53fc1",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-31T10:58:59-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-04T23:41:43-04:00"
+                    },
+                    "message": "significant optimizations of contracts\n\navoiding using exp() and inv(). various improvements. save a couple hundred thousand gas per zether verification, at least. a few million for larger anonsets.\n"
+                },
+                "parents": [
+                    "8fb27843c0b3d89a3b218c77e65ef9aa05c1b2bd"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/139a0d17e6c807bc897a4073ccf4e62e14c53fc1"
+            },
+            {
+                "sha": "8fb27843c0b3d89a3b218c77e65ef9aa05c1b2bd",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-28T17:22:45-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-09-02T14:52:43-04:00"
+                    },
+                    "message": "modernization for contracts and testing\n\nupgrade all contracts to Solidity 0.7.0. now use Truffle and Ganache for a proper testing and deployment infrastructure. got rid of the old tests. This should be a better experience for everyone.\n"
+                },
+                "parents": [
+                    "b73f003821b859ae59b82443de83b0364cd8efda"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/8fb27843c0b3d89a3b218c77e65ef9aa05c1b2bd"
+            },
+            {
+                "sha": "b73f003821b859ae59b82443de83b0364cd8efda",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-28T01:30:45+00:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-27T21:31:17-04:00"
+                    },
+                    "message": "modernize truffle test\n"
+                },
+                "parents": [
+                    "a12da68686325ef06a863953a8918b5232afccd0"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/b73f003821b859ae59b82443de83b0364cd8efda"
+            },
+            {
+                "sha": "a12da68686325ef06a863953a8918b5232afccd0",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-27T21:02:43-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-27T21:02:43-04:00"
+                    },
+                    "message": "huge refactor. improved efficiency\n\n...of the prover by at least a few-hundred milliseconds. code should also now be clearer and more concise.\n"
+                },
+                "parents": [
+                    "50af5d8fdba6cf2b739f921928849f518df2a525"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/a12da68686325ef06a863953a8918b5232afccd0"
+            },
+            {
+                "sha": "50af5d8fdba6cf2b739f921928849f518df2a525",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-26T12:31:45-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-08-26T12:31:45-04:00"
+                    },
+                    "message": "yarn upgrade\n"
+                },
+                "parents": [
+                    "94a6d19a6a6d616c25e3fe2a0bea0fe17a3011c6"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/50af5d8fdba6cf2b739f921928849f518df2a525"
+            },
+            {
+                "sha": "94a6d19a6a6d616c25e3fe2a0bea0fe17a3011c6",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-06-03T12:27:46-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-06-05T15:16:27-04:00"
+                    },
+                    "message": "significant docs update\n"
+                },
+                "parents": [
+                    "da67279322b6c565c7bcf346eaa2d1638077b80c"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/94a6d19a6a6d616c25e3fe2a0bea0fe17a3011c6"
+            },
+            {
+                "sha": "da67279322b6c565c7bcf346eaa2d1638077b80c",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-04-01T16:44:23-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-04-01T16:44:23-04:00"
+                    },
+                    "message": "another round of maintenance: docs + yarn\n"
+                },
+                "parents": [
+                    "898073ea89f1fc34ab278b23053db83f918425a6"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/da67279322b6c565c7bcf346eaa2d1638077b80c"
+            },
+            {
+                "sha": "898073ea89f1fc34ab278b23053db83f918425a6",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-03-17T14:27:18-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-03-22T12:20:25-04:00"
+                    },
+                    "message": "yarn upgrade\n"
+                },
+                "parents": [
+                    "4f24f0e6f331f677e25acd12c1860216b69fcbf5"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/898073ea89f1fc34ab278b23053db83f918425a6"
+            },
+            {
+                "sha": "4f24f0e6f331f677e25acd12c1860216b69fcbf5",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-03-17T11:45:26-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-03-22T12:20:04-04:00"
+                    },
+                    "message": "adopt Esgin et al.'s optimization\n\nsee \\S 1.3 of https://eprint.iacr.org/2019/1287.pdf. the pairs (A, B), (C, D), and (E, F) can be combined into a single pair. reduces proof size by a few hundred bytes. thanks to them!\n"
+                },
+                "parents": [
+                    "187c6db54d59f1bb7710b8f6255fad2fe8369652"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/4f24f0e6f331f677e25acd12c1860216b69fcbf5"
+            },
+            {
+                "sha": "187c6db54d59f1bb7710b8f6255fad2fe8369652",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-03-10T21:05:50-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-03-10T21:05:50-04:00"
+                    },
+                    "message": "fix double declaration\n\nthanks @ibudisteanu!\n"
+                },
+                "parents": [
+                    "3a1283403e2a616065baa03b48a8ff460edf57d0"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/187c6db54d59f1bb7710b8f6255fad2fe8369652"
+            },
+            {
+                "sha": "3a1283403e2a616065baa03b48a8ff460edf57d0",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-03-05T20:46:16-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-03-05T21:27:53-05:00"
+                    },
+                    "message": "another round of docs improvements.\n"
+                },
+                "parents": [
+                    "6514b72f583895b5f1c1cbb20441b4c861b1e3ce"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/3a1283403e2a616065baa03b48a8ff460edf57d0"
+            },
+            {
+                "sha": "6514b72f583895b5f1c1cbb20441b4c861b1e3ce",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-02-02T13:34:32-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-02-03T13:03:14-05:00"
+                    },
+                    "message": "more docs improvements!\n"
+                },
+                "parents": [
+                    "c826e67bb4c2b4f72063ffb7df9a13b3580cad15"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/6514b72f583895b5f1c1cbb20441b4c861b1e3ce"
+            },
+            {
+                "sha": "c826e67bb4c2b4f72063ffb7df9a13b3580cad15",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-28T10:44:56-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-28T10:44:56-05:00"
+                    },
+                    "message": "improve some error messages\n\nalso improve behavior upon failure of registration: account remains un-set, so that error message triggers in fund / burn methods.\n"
+                },
+                "parents": [
+                    "6bceb9f3b31315934a171033e6fb74d1aaacd588"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/c826e67bb4c2b4f72063ffb7df9a13b3580cad15"
+            },
+            {
+                "sha": "6bceb9f3b31315934a171033e6fb74d1aaacd588",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-27T11:30:27-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-27T11:31:21-05:00"
+                    },
+                    "message": "small refactor: remove bTransfer from burn proof\n\nisn't used at all in proving and verifying, and doesn't need to be part of the statement hash / salt.\n"
+                },
+                "parents": [
+                    "e9c041bcf62c585802a3d3b3c2410b46b7e808da"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/6bceb9f3b31315934a171033e6fb74d1aaacd588"
+            },
+            {
+                "sha": "e9c041bcf62c585802a3d3b3c2410b46b7e808da",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-24T15:44:45-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-25T21:29:56-05:00"
+                    },
+                    "message": "maintenance: yarn upgrade + docs\n"
+                },
+                "parents": [
+                    "80c9859f167376dfef4101b835910c1e210da5b7"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/e9c041bcf62c585802a3d3b3c2410b46b7e808da"
+            },
+            {
+                "sha": "80c9859f167376dfef4101b835910c1e210da5b7",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-21T12:06:53-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-21T12:06:53-05:00"
+                    },
+                    "message": "improved version of Sigma-Bullets\n\nthe latest ePrint version of the Zether paper (https://eprint.iacr.org/2019/191.pdf) actually features a better Sigma-Bullets protocol, which is correct and secure (i.e., cf. the old version https://crypto.stanford.edu/~buenz/papers/zether.pdf). It's also slighly more efficient and elegant than our version. Thus we've adopted the new version, and also adjusted both the implementation and the technical report accordingly. thanks to them for their work. in particular, we _no longer_ use a variant derived from bbuenz / BulletProofLib (which was correct but not secure, and which we had to amend).\n"
+                },
+                "parents": [
+                    "1fa6637e228fc71da2b1f2245e8b20c981cd0d30"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/80c9859f167376dfef4101b835910c1e210da5b7"
+            },
+            {
+                "sha": "1fa6637e228fc71da2b1f2245e8b20c981cd0d30",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-15T15:58:40-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-15T16:54:53-05:00"
+                    },
+                    "message": "refactor: ZSC uses Utils\n\nand all points are of type G1Point, isntead of being \"emulated\" as bytes32[2]'s.\n\nthe advantage of this is essentially that the ZSC can use the \"heavy\" tools for scalar and point manipulation, and doesn't have to rely on inline assembly. there are a few things that Solidity doesn't properly support yet, so we've had to work around those. but it's an improvement.\n"
+                },
+                "parents": [
+                    "2a6f0662e58e8f5c4806a54ce1618adea3a491e9"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/1fa6637e228fc71da2b1f2245e8b20c981cd0d30"
+            },
+            {
+                "sha": "2a6f0662e58e8f5c4806a54ce1618adea3a491e9",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-14T13:42:34-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-14T13:42:34-05:00"
+                    },
+                    "message": "security update: registration\n\nnow everyone must first demonstrate possession of his _own_ secret key (i.e., by publishing a signature) before participating. this is to prevent a \"rogue key\" insider attack on multi-recipient El Gamal, see Bellare, Boldyreva and Staddon 2003. In short, an attacker could have generated a \"false key\" derived from an honest one, and (if he can trick other users into including both him and said honest account in an anonset together) could have used the false key to decrypt the balance change in the honest key. this is thwarted if we just ensure that people know their _own_ secret key.\n\nalso, docs now feature _full_ security proofs.\n"
+                },
+                "parents": [
+                    "6645a300c70daf6e763881cff9bfef3f88623b47"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/2a6f0662e58e8f5c4806a54ce1618adea3a491e9"
+            },
+            {
+                "sha": "6645a300c70daf6e763881cff9bfef3f88623b47",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2020-01-10T10:02:49-05:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-01-10T10:02:49-05:00"
+                    },
+                    "message": "Merge pull request #23 from ibudisteanu/patch-1\n\npackage name is `bn.js`. Node.js on Linux it is case sensitive"
+                },
+                "parents": [
+                    "7f478cd148632630831c4a60a01adbc7f75261fa",
+                    "a9e810dc3a8471da905c17d769402a9356093834"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/6645a300c70daf6e763881cff9bfef3f88623b47"
+            },
+            {
+                "sha": "a9e810dc3a8471da905c17d769402a9356093834",
+                "commit": {
+                    "author": {
+                        "name": "Alexandru Ionut Budisteanu",
+                        "email": "ibudisteanu@users.noreply.github.com",
+                        "date": "2020-01-10T10:33:25+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-01-10T10:33:25+02:00"
+                    },
+                    "message": "package name is `bn.js`. Node.js on Linux it is case sensitive\n\nThe packages `bn.js` is lowercase and node.js on Linux is case sensitive. Probably you have either another package called BN.js which is uppercase or you got a link with BN.js in the node_modules"
+                },
+                "parents": [
+                    "7f478cd148632630831c4a60a01adbc7f75261fa"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/a9e810dc3a8471da905c17d769402a9356093834"
+            },
+            {
+                "sha": "7f478cd148632630831c4a60a01adbc7f75261fa",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-12-28T16:24:50-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-12-29T11:11:36-05:00"
+                    },
+                    "message": "refactor: IP verifier own contract\n\nand deployments are now cheap enough for mainnet use.\n\nthe most significant change is that the \"g, h, gs, and hs\" parameters are now hard-coded into the contract code, which cuts down on storage costs. in particular, each individual deployment can be carried out for 4-6 million gas. this recourse was suggested in the original zether paper, and also by @ibudisteanu (thanks to them).\n\nadditionally, the inner product verifier is now a separate contract, used by both the ZetherVerifier and BurnVerifier contracts. this cuts down on repeated code and is more elegant.\n"
+                },
+                "parents": [
+                    "1febb4f3827ad7deb3aafc3ba37163686f91e214"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/7f478cd148632630831c4a60a01adbc7f75261fa"
+            },
+            {
+                "sha": "1febb4f3827ad7deb3aafc3ba37163686f91e214",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-12-23T12:46:24-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-12-26T15:31:12-05:00"
+                    },
+                    "message": "version bump for BN.js\n\nupdates as per fix of https://github.com/indutny/elliptic/issues/191. also a few other adjustments. thanks @ibudisteanu for noticing a naming inconsistency.\n"
+                },
+                "parents": [
+                    "b6d37f879ae06fbac58d5ef451c4a13df3a8fffb"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/1febb4f3827ad7deb3aafc3ba37163686f91e214"
+            },
+            {
+                "sha": "b6d37f879ae06fbac58d5ef451c4a13df3a8fffb",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-12-12T14:03:27-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-12-20T17:09:53-05:00"
+                    },
+                    "message": "more shuffling and renaming.\n\nalso, now use different randomnesses for \\bar g and \\bar D. finally, substantial updates to the docs.\n"
+                },
+                "parents": [
+                    "8339215dfab7148630fbcac685f3e90b50ff8d57"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/b6d37f879ae06fbac58d5ef451c4a13df3a8fffb"
+            },
+            {
+                "sha": "8339215dfab7148630fbcac685f3e90b50ff8d57",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-25T21:04:04-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-26T11:40:43-05:00"
+                    },
+                    "message": "infrastructure docs updates.\n\nminor typos and improvements\n"
+                },
+                "parents": [
+                    "9336472cca01fdf38bd74393aab50d167fe40138"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/8339215dfab7148630fbcac685f3e90b50ff8d57"
+            },
+            {
+                "sha": "9336472cca01fdf38bd74393aab50d167fe40138",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-24T15:06:16-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-26T11:40:31-05:00"
+                    },
+                    "message": "maintenance update for truffle\n\nbumped a number of versions (now use mainline web3 1.x). significantly expanded the truffle tests. also now change web3.transactionConfirmationBlocks _within_ the Client object (less error-prone).\n"
+                },
+                "parents": [
+                    "10555c0b3b9046e67064a3c2a0662a584c3dd221"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/9336472cca01fdf38bd74393aab50d167fe40138"
+            },
+            {
+                "sha": "10555c0b3b9046e67064a3c2a0662a584c3dd221",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-20T15:01:12-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-20T21:02:17-05:00"
+                    },
+                    "message": "now featuring logarithmically-sized proofs.\n\nproof _size_ now grows logarithmically in the size of the anonset. i also have security proof sketches in this new setting, which are significantly more involved. please see docs/AnonZether.pdf for a precise specification of the new protocol, as well as for the proofs. these are only sketches at this point, and are liable to change.\n"
+                },
+                "parents": [
+                    "fc82b2a6b74d9e8a2afe924da8afcf2af2eaebbb"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/10555c0b3b9046e67064a3c2a0662a584c3dd221"
+            },
+            {
+                "sha": "fc82b2a6b74d9e8a2afe924da8afcf2af2eaebbb",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-17T11:44:19-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-17T11:44:19-05:00"
+                    },
+                    "message": "yarn upgrade\n"
+                },
+                "parents": [
+                    "99880db55b5ae17d2c9db0cd11daeeea8df700a9"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/fc82b2a6b74d9e8a2afe924da8afcf2af2eaebbb"
+            },
+            {
+                "sha": "99880db55b5ae17d2c9db0cd11daeeea8df700a9",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-13T15:36:39-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-15T11:21:05-05:00"
+                    },
+                    "message": "more adjustments: separate randomnesses\n\nfor each i, j (instead of just for each i), also separate randomness pi for (C_Ln, C_Rn). It is a bit difficult to show that this is _strictly necessary_ for zero-knowledge, but it makes the proofs go through more naturally, and doesn't affect performance much (just have to generate a few extra random scalars). Thus probably the right thing to do. open question to make this exact.\n\nalso: the docs now feature (sketches of) security proofs!\n"
+                },
+                "parents": [
+                    "282e4cd8aec1f29c2b4500023a56c4e7bf64a3fd"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/99880db55b5ae17d2c9db0cd11daeeea8df700a9"
+            },
+            {
+                "sha": "282e4cd8aec1f29c2b4500023a56c4e7bf64a3fd",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-11T11:42:07-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-11T14:10:24-05:00"
+                    },
+                    "message": "security update: zero knowledge\n\nmitigates an \"insider attack\" on zero knowledge, whereby a member of the anonset could have determined the sender _or_ receiver (depending on his position). in brief: some member y_k could have computed \\bar{g}^{sk_k}, and compared the resulting quantity to each \\bar{y_j,i}. the result would have revealed the value of idx_j (for one value j). a similar procedure could have been done against \\bar{D} and \\bar{C_j,i}.\n\nthe issue was essentially that randomness was being re-used across re-encryptions for each value i. now fixed.\n"
+                },
+                "parents": [
+                    "b1c33cf63df795804f954c64625b374f422b46b0"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/282e4cd8aec1f29c2b4500023a56c4e7bf64a3fd"
+            },
+            {
+                "sha": "b1c33cf63df795804f954c64625b374f422b46b0",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-06T13:48:16-05:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-11-07T16:59:07-05:00"
+                    },
+                    "message": "a number of security updates and refactors\n\nmade a number of substantial changes to the protocol, mainly to the effect of making \"sigma bullets\" more secure. the protocol, previously, was not sound as written (for reasons separate from my prior zero knowledge fix). this re-orders a number of things, and changes the reduction from ElGamal to Bulleproofs.\n\nthe main issue can be briefly described as follows: there was no proof that the _message_ of (C, D) was well-formed, i.e. an exponent of g alone. If the prover put an _arbitrary_ Pedersen commitment in the message (i.e., with an \"h\" part) the prover could have still succeeded, breaking his account and the recipient's.\n\nin addition, we now conduct our one-out-of-many proofs \"first\". this is important for witness extraction (in the security proofs, forthcoming). finally, we made substantial changes to the docs.\n"
+                },
+                "parents": [
+                    "d5763d66ec545373a1a21af6fc2184500b19a205"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/b1c33cf63df795804f954c64625b374f422b46b0"
+            },
+            {
+                "sha": "d5763d66ec545373a1a21af6fc2184500b19a205",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-28T12:29:04-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-28T13:04:06-04:00"
+                    },
+                    "message": "a number of docs updates...\n\nwhich reflect the adjustments to the protocol made in recent commits.\n"
+                },
+                "parents": [
+                    "7b1733d59f31acbed90a8b7b9db829e49ceb09a4"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/d5763d66ec545373a1a21af6fc2184500b19a205"
+            },
+            {
+                "sha": "7b1733d59f31acbed90a8b7b9db829e49ceb09a4",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-28T10:32:34-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-28T10:33:19-04:00"
+                    },
+                    "message": "adjust variable names to match docs\n\nthough the diff is unfortunately large, this will make things much easier in the future for people who want to cross-reference the two.\n"
+                },
+                "parents": [
+                    "0f153ba6ef5b85e2279c583bcf962050b6d036ce"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/7b1733d59f31acbed90a8b7b9db829e49ceb09a4"
+            },
+            {
+                "sha": "0f153ba6ef5b85e2279c583bcf962050b6d036ce",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-28T09:32:55-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-28T09:32:55-04:00"
+                    },
+                    "message": "now use rho = r * sigma, pi = r' * sigma\n\nthis choice is more parsimonious, and slightly more efficient, for the prover; it also avoids an edge case in which w = sigma and r-bar required division by 0. it should still have zero knowledge. details will be described in the docs.\n"
+                },
+                "parents": [
+                    "f671c1cf9dbb97ebe0e2891b1eff348bb43d5990"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/0f153ba6ef5b85e2279c583bcf962050b6d036ce"
+            },
+            {
+                "sha": "f671c1cf9dbb97ebe0e2891b1eff348bb43d5990",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-26T13:17:35-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-26T13:17:35-04:00"
+                    },
+                    "message": "small README update\n\nregistration doesn't exist anymore... adjust the mock printout accordingly.\n"
+                },
+                "parents": [
+                    "a62bc1b5163c6f82b235459955c1dbc6e627aa70"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/f671c1cf9dbb97ebe0e2891b1eff348bb43d5990"
+            },
+            {
+                "sha": "a62bc1b5163c6f82b235459955c1dbc6e627aa70",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-26T13:08:50-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-10-26T13:11:38-04:00"
+                    },
+                    "message": "eliminate division by challenge w\n\nthough this is only _theoretically_ relevant in the exceptional case that w == 0 (negligibly probable under Fiat--Shamir), we can get some concrete gains in efficiency (and elegance!) if we never divide by w. details will be forthcoming in the docs.\n"
+                },
+                "parents": [
+                    "14c458cd3d0e2e3c1f2627c25e21ada2e012edd6"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/a62bc1b5163c6f82b235459955c1dbc6e627aa70"
+            },
+            {
+                "sha": "14c458cd3d0e2e3c1f2627c25e21ada2e012edd6",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-09-10T12:41:47-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-09-11T11:17:50-04:00"
+                    },
+                    "message": "fix zero-knowledge vulnerability\n\nThis commit mitigates a serious zero-knowledge vulnerability in basic Zether (Sigma-Bullets), which could have allowed an observer to determine b' and b* using only 2^64 work (and far less in some cases). The full amended protocol is implemented in this commit; it's also specified in AnonZether.pdf (the attack and its fix are described on page 6).\n"
+                },
+                "parents": [
+                    "60e70a46acb87524f4ecb8bd2e7ffd0820c55466"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/14c458cd3d0e2e3c1f2627c25e21ada2e012edd6"
+            },
+            {
+                "sha": "60e70a46acb87524f4ecb8bd2e7ffd0820c55466",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-09-04T09:00:10-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-09-04T10:33:20-04:00"
+                    },
+                    "message": "various fixes\n\ndocs, plus BN.js capitalization, plus EC stuff (upgrade to 6.5.1 relase)\n"
+                },
+                "parents": [
+                    "7936b40c7b17d5ddf98ee26bb771af47746737df"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/60e70a46acb87524f4ecb8bd2e7ffd0820c55466"
+            },
+            {
+                "sha": "7936b40c7b17d5ddf98ee26bb771af47746737df",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-27T16:18:46-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-27T16:18:46-04:00"
+                    },
+                    "message": "yarn upgrade\n"
+                },
+                "parents": [
+                    "0a93cd4964d4f203b23a276222019e9ef8c92414"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/7936b40c7b17d5ddf98ee26bb771af47746737df"
+            },
+            {
+                "sha": "0a93cd4964d4f203b23a276222019e9ef8c92414",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-27T10:22:43-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-27T16:18:27-04:00"
+                    },
+                    "message": "improve parity check proof\n"
+                },
+                "parents": [
+                    "fe59d9abd4c699fd91e3a67a31b85f8daac1453f"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/0a93cd4964d4f203b23a276222019e9ef8c92414"
+            },
+            {
+                "sha": "fe59d9abd4c699fd91e3a67a31b85f8daac1453f",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-26T12:00:57-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-26T16:06:42-04:00"
+                    },
+                    "message": "more docs updates\n"
+                },
+                "parents": [
+                    "5e37ae58cdbe226de2aee7f32a84e9e22e854e9d"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/fe59d9abd4c699fd91e3a67a31b85f8daac1453f"
+            },
+            {
+                "sha": "5e37ae58cdbe226de2aee7f32a84e9e22e854e9d",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-22T13:55:20-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-22T14:55:34-04:00"
+                    },
+                    "message": "eliminate registration\n\nAs far as mitigating the \"front-running\" issues goes, a simpler, more elegant and equally secure alternative to account pre-registration is the \"Schnorr signature\" approach, where the generic Burn proof is converted to one which _in addition_ serves to sign `msg.sender`. Indeed, if we just include `msg.sender` in the list of things which get hashed to produce the sigma protocol challenge, the effect is that the proof simultaneously signs it. In particular, if `msg.sender` changes, the proof will become invalid, and further can't be modified to suit the new value without access to the private key. Thanks to Benedikt B\u00fcnz for suggesting this approach.\n"
+                },
+                "parents": [
+                    "5452156e41e03d80a12c9ce0580458e8d806d954"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/5e37ae58cdbe226de2aee7f32a84e9e22e854e9d"
+            },
+            {
+                "sha": "5452156e41e03d80a12c9ce0580458e8d806d954",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-22T12:35:08-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-22T12:38:04-04:00"
+                    },
+                    "message": "account recovery fix\n\nthanks @stuarth1!\n"
+                },
+                "parents": [
+                    "e4b9d471d573fe9f31a23a8afa4b4e776f51e42d"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/5452156e41e03d80a12c9ce0580458e8d806d954"
+            },
+            {
+                "sha": "e4b9d471d573fe9f31a23a8afa4b4e776f51e42d",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-12T13:13:12-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-12T13:16:04-04:00"
+                    },
+                    "message": "some maintenance\n\nrunning `yarn upgrade` switches certain things to web3 1.2.1, which breaks things?\n"
+                },
+                "parents": [
+                    "5e20b72747d2e8a47a4303f4fe743381b29de81e"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/e4b9d471d573fe9f31a23a8afa4b4e776f51e42d"
+            },
+            {
+                "sha": "5e20b72747d2e8a47a4303f4fe743381b29de81e",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-08T13:40:44-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-09T15:31:33-04:00"
+                    },
+                    "message": "a number of readme changes\n"
+                },
+                "parents": [
+                    "f3697c61268406bfec5321e2324c6b9d8b321a0e"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/5e20b72747d2e8a47a4303f4fe743381b29de81e"
+            },
+            {
+                "sha": "f3697c61268406bfec5321e2324c6b9d8b321a0e",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-08T10:43:43-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-08T12:34:17-04:00"
+                    },
+                    "message": "include web3 version, etc.\n"
+                },
+                "parents": [
+                    "cddd68f5d8320b0330b4c74009b18fe24a5f517b"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/f3697c61268406bfec5321e2324c6b9d8b321a0e"
+            },
+            {
+                "sha": "cddd68f5d8320b0330b4c74009b18fe24a5f517b",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-07T16:55:06-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-07T16:55:30-04:00"
+                    },
+                    "message": "IBFT support\n\n... with `--istanbul.blockperiod 1`. Everything works; I have had to bump up epoch length by a couple of seconds, because of the increased block time. This has more of a (relative) impact for smaller anonsets, of course. However it seems that the more sophisticated consensus protocol is worth the wait.\n"
+                },
+                "parents": [
+                    "caa00a1b28432f54cc1f4bea94690f92c54cd047"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/cddd68f5d8320b0330b4c74009b18fe24a5f517b"
+            },
+            {
+                "sha": "caa00a1b28432f54cc1f4bea94690f92c54cd047",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-06T15:47:51-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-06T16:11:53-04:00"
+                    },
+                    "message": "fairly substantial docs updates\n"
+                },
+                "parents": [
+                    "f07d62f3c815648647ca7f473eee2e8b2dcb9fb3"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/caa00a1b28432f54cc1f4bea94690f92c54cd047"
+            },
+            {
+                "sha": "f07d62f3c815648647ca7f473eee2e8b2dcb9fb3",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-05T12:49:39-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-05T12:49:39-04:00"
+                    },
+                    "message": "truffle fixes!\n\nmigrate and test should now be working for both develop and \"quorum\" networks.\n"
+                },
+                "parents": [
+                    "9db2bb4720d99d29c1ecc408065ee9ea981bfab5"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/f07d62f3c815648647ca7f473eee2e8b2dcb9fb3"
+            },
+            {
+                "sha": "9db2bb4720d99d29c1ecc408065ee9ea981bfab5",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-08-05T09:59:57-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-08-05T09:59:57-04:00"
+                    },
+                    "message": "better IBFT explanation in README\n\nUpdate to give a better explanation for why the code as currently written only supports Raft."
+                },
+                "parents": [
+                    "3d4f8f70596cf304735904249bc20e282a0d4464"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/9db2bb4720d99d29c1ecc408065ee9ea981bfab5"
+            },
+            {
+                "sha": "3d4f8f70596cf304735904249bc20e282a0d4464",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-07-30T14:53:30-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-07-30T14:53:30-04:00"
+                    },
+                    "message": "update Node version in README\n\nNode v12 is necessary in order to properly execute `.flat()`, i.e. https://github.com/jpmorganchase/anonymous-zether/blob/d228d63cf53a7369602b4f4c87b354e7cc94d41b/packages/anonymous.js/src/prover/zether/anon.js#L86."
+                },
+                "parents": [
+                    "dafaa2cc77dc0d88962439e1510af4b25a887243"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/3d4f8f70596cf304735904249bc20e282a0d4464"
+            },
+            {
+                "sha": "dafaa2cc77dc0d88962439e1510af4b25a887243",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-07-22T17:02:53-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-07-22T17:02:53-04:00"
+                    },
+                    "message": "readme update\n\nmention that IBFT is not supported.\r\n\r\nthe reason for this is actually quite silly: Raft reports `block.timestamp` in nanoseconds, as opposed to milliseconds. As a consequence, we have to divide by 1000000 at https://github.com/jpmorganchase/anonymous-zether/blob/3621c933ea500320da3dae7e970ff01abe22ca6d/packages/protocol/contracts/ZSC.sol#L66 and https://github.com/jpmorganchase/anonymous-zether/blob/3621c933ea500320da3dae7e970ff01abe22ca6d/packages/anonymous.js/src/client.js#L37; on the other hand, this makes it incompatible with regular Ethereum and with IBFT. In the future, Raft should be updated to use the standard semantics."
+                },
+                "parents": [
+                    "880372a3f9ec76b113d72f942d259e5b6a26933f"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/dafaa2cc77dc0d88962439e1510af4b25a887243"
+            },
+            {
+                "sha": "880372a3f9ec76b113d72f942d259e5b6a26933f",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-07-11T11:09:55-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-07-11T11:09:55-04:00"
+                    },
+                    "message": "yarn upgrade\n"
+                },
+                "parents": [
+                    "f333eb40e38904e5682ff5af455f01c272513ad6"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/880372a3f9ec76b113d72f942d259e5b6a26933f"
+            },
+            {
+                "sha": "f333eb40e38904e5682ff5af455f01c272513ad6",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-07-07T17:36:21-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-07-07T17:36:21-04:00"
+                    },
+                    "message": "miscellaneous docs updates\n"
+                },
+                "parents": [
+                    "eea1a601db332d1985b84c5cc5df68a469f7acd7"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/f333eb40e38904e5682ff5af455f01c272513ad6"
+            },
+            {
+                "sha": "eea1a601db332d1985b84c5cc5df68a469f7acd7",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-27T15:27:50-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-27T15:27:50-04:00"
+                    },
+                    "message": "some more yarn maintenance\n"
+                },
+                "parents": [
+                    "32db91c8e3459c7ce2d4bf3720c9f265d62627b4"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/eea1a601db332d1985b84c5cc5df68a469f7acd7"
+            },
+            {
+                "sha": "32db91c8e3459c7ce2d4bf3720c9f265d62627b4",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-27T15:21:34-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-27T15:21:34-04:00"
+                    },
+                    "message": "minor refactor: move \"initialize\" to top level\n\ndidn't make sense as a method of the account object alone (it modifies the class-wide _epochLength attribute).\n"
+                },
+                "parents": [
+                    "6c5493d3a391eda53f2756c8158c53f1d2c8e3d6"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/32db91c8e3459c7ce2d4bf3720c9f265d62627b4"
+            },
+            {
+                "sha": "6c5493d3a391eda53f2756c8158c53f1d2c8e3d6",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-27T14:28:39-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-27T14:28:39-04:00"
+                    },
+                    "message": "remove async declaration from initialize\n\nsince the function returns a promise anyway, it seems like this is unnecessary / a \"no-op\".\n\nalso, a few adjustments to the readme\n"
+                },
+                "parents": [
+                    "bfdffef98c9317c8325495a9859252a1c97bb70c"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/6c5493d3a391eda53f2756c8158c53f1d2c8e3d6"
+            },
+            {
+                "sha": "bfdffef98c9317c8325495a9859252a1c97bb70c",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-26T14:08:30-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-26T14:08:30-04:00"
+                    },
+                    "message": "even further FFT optimizations\n\nfor elegance as much as performance... if i conduct my circular shifts in the opposite direction (arbitrary which one), then a few \"flip\"s become unnecessary later, and the convolution is more natural. also, see AnonZether.pdf for updated performance measurements, encompassing this commit and the last.\n"
+                },
+                "parents": [
+                    "35ea5467c6d083198ff7b884360169f66be06438"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/bfdffef98c9317c8325495a9859252a1c97bb70c"
+            },
+            {
+                "sha": "35ea5467c6d083198ff7b884360169f66be06438",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-26T12:25:18-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-26T12:25:18-04:00"
+                    },
+                    "message": "FFT even-indexed outputs optimization\n\nbecause I only use circular shifts of _even_ order, i only require the even-indexed values of the result of circular convolution. thus i can use this optimization https://dsp.stackexchange.com/a/30699 on the inverse transform (instead of just tossing the odd values). this leads to modest but pretty substantial improvements in all measurements of runtime, especially for larger anonsets\n"
+                },
+                "parents": [
+                    "fbc916c0a431a2963e72e1ecd6eba354b3dfaeb5"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/35ea5467c6d083198ff7b884360169f66be06438"
+            },
+            {
+                "sha": "fbc916c0a431a2963e72e1ecd6eba354b3dfaeb5",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T17:22:24-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T17:22:24-04:00"
+                    },
+                    "message": "various readme touchups\n"
+                },
+                "parents": [
+                    "7bfff29a4282d307ae83ffe5a46a2d04149200f8"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/fbc916c0a431a2963e72e1ecd6eba354b3dfaeb5"
+            },
+            {
+                "sha": "7bfff29a4282d307ae83ffe5a46a2d04149200f8",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T17:05:04-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-06-25T17:05:04-04:00"
+                    },
+                    "message": "merge in branch: re-rewrite prover in Javascript.\n\nsee PR for details. merges in a significant refactor in which the whole prover is re-written in Javascript."
+                },
+                "parents": [
+                    "d403ee790e5dfebad9791ec9f8e2eb24f24ec074",
+                    "8a59cb1a0f9e1b520b66476651fe1f0426f71714"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/7bfff29a4282d307ae83ffe5a46a2d04149200f8"
+            },
+            {
+                "sha": "8a59cb1a0f9e1b520b66476651fe1f0426f71714",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T16:47:57-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T16:47:57-04:00"
+                    },
+                    "message": "new web3 dependency magically appeared?\n\nprobably a good idea to fill out  with a more complete list.\n"
+                },
+                "parents": [
+                    "e9141c49891db8fd036e2b6795c7929c23fe7720"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/8a59cb1a0f9e1b520b66476651fe1f0426f71714"
+            },
+            {
+                "sha": "e9141c49891db8fd036e2b6795c7929c23fe7720",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T16:25:23-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T16:25:23-04:00"
+                    },
+                    "message": "bump epoch estimation...\n\nthis is tricky. javascript is slightly slower than Java, which is causing me to miss epochs.\n"
+                },
+                "parents": [
+                    "9a58b7ef5db42827654c2491d90226dbcc0e9e35"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/e9141c49891db8fd036e2b6795c7929c23fe7720"
+            },
+            {
+                "sha": "9a58b7ef5db42827654c2491d90226dbcc0e9e35",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T16:03:35-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T16:03:35-04:00"
+                    },
+                    "message": "small client fixes\n"
+                },
+                "parents": [
+                    "8415ded37ac5c5362fc95a9220965ece360211b8"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/9a58b7ef5db42827654c2491d90226dbcc0e9e35"
+            },
+            {
+                "sha": "8415ded37ac5c5362fc95a9220965ece360211b8",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T14:15:51-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T14:15:51-04:00"
+                    },
+                    "message": "everything working?\n\nmore bugs fixed involving unserialization.\n"
+                },
+                "parents": [
+                    "3061de80ba1b9625b1fc939f3bac3d1463f96a6b"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/8415ded37ac5c5362fc95a9220965ece360211b8"
+            },
+            {
+                "sha": "3061de80ba1b9625b1fc939f3bac3d1463f96a6b",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T12:48:40-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T12:48:40-04:00"
+                    },
+                    "message": "fixing a few bugs\n"
+                },
+                "parents": [
+                    "46cb0e3487ab8dc13ac0e7688c7ae5b4add204b9"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/3061de80ba1b9625b1fc939f3bac3d1463f96a6b"
+            },
+            {
+                "sha": "46cb0e3487ab8dc13ac0e7688c7ae5b4add204b9",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T12:32:08-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T12:32:08-04:00"
+                    },
+                    "message": "a few adjustments\n"
+                },
+                "parents": [
+                    "5d94acfb6b959da256ba67540d6dc6cba01854e0"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/46cb0e3487ab8dc13ac0e7688c7ae5b4add204b9"
+            },
+            {
+                "sha": "5d94acfb6b959da256ba67540d6dc6cba01854e0",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T11:43:12-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T11:43:12-04:00"
+                    },
+                    "message": "transfer proofs work\n\nappear to be wrapping up...\n"
+                },
+                "parents": [
+                    "950e700e4c0666a5f2977dd7d2582b6e993f11e0"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/5d94acfb6b959da256ba67540d6dc6cba01854e0"
+            },
+            {
+                "sha": "950e700e4c0666a5f2977dd7d2582b6e993f11e0",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T10:54:00-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T10:54:00-04:00"
+                    },
+                    "message": "more small bug fixes\n\ni blame https://www.wsj.com/graphics/apple-still-hasnt-fixed-its-macbook-keyboard-problem/ for some of them\n"
+                },
+                "parents": [
+                    "278cf08648ed1e2ea1266d89ebd7f57f933873bd"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/950e700e4c0666a5f2977dd7d2582b6e993f11e0"
+            },
+            {
+                "sha": "278cf08648ed1e2ea1266d89ebd7f57f933873bd",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T10:34:42-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-25T10:34:42-04:00"
+                    },
+                    "message": "addressed some subtle bugs...\n\nessentially, i need to transpose the bytes32[2][][2]s into bytes32[2][2][]s, because _the latter_ are what Solidity accepts.\n"
+                },
+                "parents": [
+                    "e9d2b02db6cbf6a2279a10ab41f4d017fa9c128b"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/278cf08648ed1e2ea1266d89ebd7f57f933873bd"
+            },
+            {
+                "sha": "e9d2b02db6cbf6a2279a10ab41f4d017fa9c128b",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T21:49:49-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T21:49:49-04:00"
+                    },
+                    "message": "miscellaneous bug fixes\n"
+                },
+                "parents": [
+                    "9d64275457413f1c7b6a9453347bb5c8213e7444"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/e9d2b02db6cbf6a2279a10ab41f4d017fa9c128b"
+            },
+            {
+                "sha": "9d64275457413f1c7b6a9453347bb5c8213e7444",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T20:57:03-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T20:57:03-04:00"
+                    },
+                    "message": "burns working\n\nfixed a few things\n"
+                },
+                "parents": [
+                    "5a7b03b2001af0947a1955efaea706edec405a48"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/9d64275457413f1c7b6a9453347bb5c8213e7444"
+            },
+            {
+                "sha": "5a7b03b2001af0947a1955efaea706edec405a48",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T16:32:24-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T16:32:24-04:00"
+                    },
+                    "message": "fixing a few bugs\n"
+                },
+                "parents": [
+                    "fe1fa6905c2de6185dba1c841a304fbbeeb76f51"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/5a7b03b2001af0947a1955efaea706edec405a48"
+            },
+            {
+                "sha": "fe1fa6905c2de6185dba1c841a304fbbeeb76f51",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T15:51:29-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T15:51:29-04:00"
+                    },
+                    "message": "a number of bugs fixed\n\nthe thing actually runs now...let's test the output\n"
+                },
+                "parents": [
+                    "63b69844dd5697c46116bad819d8df1e998b13aa"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/fe1fa6905c2de6185dba1c841a304fbbeeb76f51"
+            },
+            {
+                "sha": "63b69844dd5697c46116bad819d8df1e998b13aa",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T14:38:25-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T14:38:25-04:00"
+                    },
+                    "message": "fix various bugs\n"
+                },
+                "parents": [
+                    "a2f69bd956ed19dfd6434945d85d4f815384c0df"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/63b69844dd5697c46116bad819d8df1e998b13aa"
+            },
+            {
+                "sha": "a2f69bd956ed19dfd6434945d85d4f815384c0df",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T13:02:07-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T13:02:07-04:00"
+                    },
+                    "message": "added burn stuff\n\ntentatively ready to start testing\n"
+                },
+                "parents": [
+                    "105400288440bb3b6b83120e3248019ff806f994"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/a2f69bd956ed19dfd6434945d85d4f815384c0df"
+            },
+            {
+                "sha": "105400288440bb3b6b83120e3248019ff806f994",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T12:25:39-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T12:25:39-04:00"
+                    },
+                    "message": "serializations done?\n\neverything in draft state, not tested\n"
+                },
+                "parents": [
+                    "712231a15a49df76304edf776ebf21d30c6906d9"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/105400288440bb3b6b83120e3248019ff806f994"
+            },
+            {
+                "sha": "712231a15a49df76304edf776ebf21d30c6906d9",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T11:27:35-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T11:27:35-04:00"
+                    },
+                    "message": "refresh the truffle artifacts\n\nhopefully this doesn't break anything\n"
+                },
+                "parents": [
+                    "03737849dc5f2e2fa42786b3780542d2eb0814e1"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/712231a15a49df76304edf776ebf21d30c6906d9"
+            },
+            {
+                "sha": "03737849dc5f2e2fa42786b3780542d2eb0814e1",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T11:17:18-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-24T11:17:18-04:00"
+                    },
+                    "message": "finishing up the ip prover...\n\nthings are shaping up\n"
+                },
+                "parents": [
+                    "ac813b004e1fa361e549a4ada418cde501e119c3"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/03737849dc5f2e2fa42786b3780542d2eb0814e1"
+            },
+            {
+                "sha": "ac813b004e1fa361e549a4ada418cde501e119c3",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-23T20:29:43-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-23T20:29:43-04:00"
+                    },
+                    "message": "some refactors\n\ntrying to save from having to regenerate the params each time.\n"
+                },
+                "parents": [
+                    "ab5e73451485f1782313c57ff913aed83697f440"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/ac813b004e1fa361e549a4ada418cde501e119c3"
+            },
+            {
+                "sha": "ab5e73451485f1782313c57ff913aed83697f440",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-23T13:39:52-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-23T13:39:52-04:00"
+                    },
+                    "message": "readme touchups\n"
+                },
+                "parents": [
+                    "758c52763771a9cb918586856150e4eaf9c24bc9"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/ab5e73451485f1782313c57ff913aed83697f440"
+            },
+            {
+                "sha": "758c52763771a9cb918586856150e4eaf9c24bc9",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-23T13:35:26-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-23T13:35:26-04:00"
+                    },
+                    "message": "filling out more of the sigma protocol\n\nstill of course not tested, and probably full of bugs\n"
+                },
+                "parents": [
+                    "2d8f940bc412cf63b991072b07bb798d035768f8"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/758c52763771a9cb918586856150e4eaf9c24bc9"
+            },
+            {
+                "sha": "2d8f940bc412cf63b991072b07bb798d035768f8",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-23T12:57:24-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-23T12:57:24-04:00"
+                    },
+                    "message": "refactors to avoid circular dependency\n\nFFTs now appear to be working smoothly\n"
+                },
+                "parents": [
+                    "45f52dde0114e255c71f9de54e5126869fca4609"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/2d8f940bc412cf63b991072b07bb798d035768f8"
+            },
+            {
+                "sha": "45f52dde0114e255c71f9de54e5126869fca4609",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-22T15:28:07-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-22T15:28:07-04:00"
+                    },
+                    "message": "ffts appear to be working\n\ncould be some weird bugs with committing?\n"
+                },
+                "parents": [
+                    "57f10d0ad1783ba66931b0d2b98c299a072bf645"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/45f52dde0114e255c71f9de54e5126869fca4609"
+            },
+            {
+                "sha": "57f10d0ad1783ba66931b0d2b98c299a072bf645",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T17:46:26-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T17:46:26-04:00"
+                    },
+                    "message": "more progress... saving for now\n"
+                },
+                "parents": [
+                    "359f1362148885ed187d39deda1456315b759fbb"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/57f10d0ad1783ba66931b0d2b98c299a072bf645"
+            },
+            {
+                "sha": "359f1362148885ed187d39deda1456315b759fbb",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T16:49:42-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T16:49:42-04:00"
+                    },
+                    "message": "more progress. storing for now\n\nbasically ready to start writing the fourier-theoretic stuff.\n"
+                },
+                "parents": [
+                    "229aab8f9d6b2079693c2a49575189502110ab24"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/359f1362148885ed187d39deda1456315b759fbb"
+            },
+            {
+                "sha": "229aab8f9d6b2079693c2a49575189502110ab24",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T14:11:06-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T14:11:06-04:00"
+                    },
+                    "message": "moving things around a bit, more progress\n"
+                },
+                "parents": [
+                    "68662d08f480fc8b2c965a4930c9318e3230b6ea"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/229aab8f9d6b2079693c2a49575189502110ab24"
+            },
+            {
+                "sha": "68662d08f480fc8b2c965a4930c9318e3230b6ea",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T13:43:26-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T13:43:26-04:00"
+                    },
+                    "message": "more progress...\n\nfilling out some of the algebra functions, Pedersen Commitments, etc.\n"
+                },
+                "parents": [
+                    "8a353bfbdda1fb93f99453858bf2e859ed0d02e7"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/68662d08f480fc8b2c965a4930c9318e3230b6ea"
+            },
+            {
+                "sha": "8a353bfbdda1fb93f99453858bf2e859ed0d02e7",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T10:06:22-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-21T10:06:22-04:00"
+                    },
+                    "message": "various other refactors\n\nsort of alternating on when / whether the proof arguments should be \"flattened\".\n"
+                },
+                "parents": [
+                    "8fa571b4f9277b183754c1653187e662d5fee989"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/8a353bfbdda1fb93f99453858bf2e859ed0d02e7"
+            },
+            {
+                "sha": "d403ee790e5dfebad9791ec9f8e2eb24f24ec074",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-20T10:15:31-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-20T10:15:31-04:00"
+                    },
+                    "message": "upgrade package versions---axios, etc.\n"
+                },
+                "parents": [
+                    "c5f195454f8469c7a70dd066b3ce69af79ff6dee"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/d403ee790e5dfebad9791ec9f8e2eb24f24ec074"
+            },
+            {
+                "sha": "c5f195454f8469c7a70dd066b3ce69af79ff6dee",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-20T09:52:37-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-06-20T09:52:37-04:00"
+                    },
+                    "message": "Merge pull request #5 from libby\n\nUpdating README / install / setup instructions."
+                },
+                "parents": [
+                    "72588c67a804633130ee631b3d4073a5d18130d4",
+                    "39d108a90000818f8a7e4c800f3123599e6290c3"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/c5f195454f8469c7a70dd066b3ce69af79ff6dee"
+            },
+            {
+                "sha": "39d108a90000818f8a7e4c800f3123599e6290c3",
+                "commit": {
+                    "author": {
+                        "name": "Libby Kent",
+                        "email": "viskovitzzz@gmail.com",
+                        "date": "2019-06-18T03:57:02-04:00"
+                    },
+                    "committer": {
+                        "name": "Libby Kent",
+                        "email": "viskovitzzz@gmail.com",
+                        "date": "2019-06-20T06:30:32-04:00"
+                    },
+                    "message": "Updating README / install / setup instructions.\n\n* add Quickstart copy and paste commands.\n* add requirements for running quorum network with websockets.\n"
+                },
+                "parents": [
+                    "72588c67a804633130ee631b3d4073a5d18130d4"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/39d108a90000818f8a7e4c800f3123599e6290c3"
+            },
+            {
+                "sha": "72588c67a804633130ee631b3d4073a5d18130d4",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-10T10:56:25-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-10T10:56:25-04:00"
+                    },
+                    "message": "add license (apache)\n"
+                },
+                "parents": [
+                    "eed81352202bf7b304d5e70f2523ce10b658036b"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/72588c67a804633130ee631b3d4073a5d18130d4"
+            },
+            {
+                "sha": "eed81352202bf7b304d5e70f2523ce10b658036b",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-03T20:58:17-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-03T20:58:17-04:00"
+                    },
+                    "message": "add high-level overview to readme\n\nthis should provide more orientation regarding what Anonymous Zether is and how it works.\n"
+                },
+                "parents": [
+                    "9a24130f07b638a369c31a98339da92069508f5c"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/eed81352202bf7b304d5e70f2523ce10b658036b"
+            },
+            {
+                "sha": "9a24130f07b638a369c31a98339da92069508f5c",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-03T09:30:47-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-03T09:32:49-04:00"
+                    },
+                    "message": "more docs updates\n\nadded asymptotic characteristics to performance section of whitepaper\n"
+                },
+                "parents": [
+                    "3701bc31a6853046fcb49317c1200ca7d07b5e09"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/9a24130f07b638a369c31a98339da92069508f5c"
+            },
+            {
+                "sha": "3701bc31a6853046fcb49317c1200ca7d07b5e09",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-01T13:06:32-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-01T13:06:32-04:00"
+                    },
+                    "message": "docs updates: use blue text in docs/AnonZether.pdf\n\nalso updated a few comments in client file\n"
+                },
+                "parents": [
+                    "ff8865b94f26505a7e7185c02bf514caedb97821"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/3701bc31a6853046fcb49317c1200ca7d07b5e09"
+            },
+            {
+                "sha": "ff8865b94f26505a7e7185c02bf514caedb97821",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-01T10:05:53-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-06-01T10:05:53-04:00"
+                    },
+                    "message": "add \"initiating\" message for deposit\n\nmakes things more consistent with withdrawal and transfer\n"
+                },
+                "parents": [
+                    "cdf729b80d7c0ffa27d7dbb1b889e2bc59597697"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/ff8865b94f26505a7e7185c02bf514caedb97821"
+            },
+            {
+                "sha": "cdf729b80d7c0ffa27d7dbb1b889e2bc59597697",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-29T19:55:19+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-05-29T19:55:19+01:00"
+                    },
+                    "message": "resolve promises with receipt\n\nmight as well pass these in"
+                },
+                "parents": [
+                    "92420a22f40cbfa7c68e928233f1fc55f3a41ef0"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/cdf729b80d7c0ffa27d7dbb1b889e2bc59597697"
+            },
+            {
+                "sha": "92420a22f40cbfa7c68e928233f1fc55f3a41ef0",
+                "commit": {
+                    "author": {
+                        "name": "Samer Falah",
+                        "email": "samer.falah@jpmchase.com",
+                        "date": "2019-05-28T13:57:38-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-05-28T13:57:38-04:00"
+                    },
+                    "message": "verification contracts"
+                },
+                "parents": [
+                    "490265422ebd85e92faa03993bbf86dc02a76645"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/92420a22f40cbfa7c68e928233f1fc55f3a41ef0"
+            },
+            {
+                "sha": "490265422ebd85e92faa03993bbf86dc02a76645",
+                "commit": {
+                    "author": {
+                        "name": "Samer Falah",
+                        "email": "samer.falah@jpmchase.com",
+                        "date": "2019-05-23T11:18:51-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-05-23T11:18:51-04:00"
+                    },
+                    "message": "updated url to correct repo"
+                },
+                "parents": [
+                    "88ef28c6f397d9198f2864323d9eb19385efa64c"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/490265422ebd85e92faa03993bbf86dc02a76645"
+            },
+            {
+                "sha": "88ef28c6f397d9198f2864323d9eb19385efa64c",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T16:12:17-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T16:12:17-04:00"
+                    },
+                    "message": "proper recovery of accounts\n\nnote: only necessary to pass in the secret (of course the pubkey is deterministic).\n"
+                },
+                "parents": [
+                    "ea2814a946249d7656522f6de4e42601e407cacb"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/88ef28c6f397d9198f2864323d9eb19385efa64c"
+            },
+            {
+                "sha": "ea2814a946249d7656522f6de4e42601e407cacb",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T15:09:35-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T15:09:35-04:00"
+                    },
+                    "message": "add \"infrastructure\" docs file\n"
+                },
+                "parents": [
+                    "46d3cbfb5aefca73cedc7d0f46591f4feadc23c9"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/ea2814a946249d7656522f6de4e42601e407cacb"
+            },
+            {
+                "sha": "46d3cbfb5aefca73cedc7d0f46591f4feadc23c9",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T14:14:55-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T14:14:55-04:00"
+                    },
+                    "message": "overhaul README... getting there\n\nwe still probably need better / more thorough installation / use instructions. cf. also truffle, etc.\n"
+                },
+                "parents": [
+                    "f84838016b8490b45a4d3587726cfaa9c8d7c87a"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/46d3cbfb5aefca73cedc7d0f46591f4feadc23c9"
+            },
+            {
+                "sha": "f84838016b8490b45a4d3587726cfaa9c8d7c87a",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T11:08:16-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T11:08:16-04:00"
+                    },
+                    "message": "more merge stuff\n"
+                },
+                "parents": [
+                    "ac991e49e75dc5142331826cc73c7de69207653b"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/f84838016b8490b45a4d3587726cfaa9c8d7c87a"
+            },
+            {
+                "sha": "ac991e49e75dc5142331826cc73c7de69207653b",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T11:06:25-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T11:06:25-04:00"
+                    },
+                    "message": "attempting to merge\n"
+                },
+                "parents": [
+                    "c24ce56df6d6332e97b50ff870d5f86fdbdc6c77",
+                    "bf05db2784faf5fbf4e40c5938457ebccc193e88"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/ac991e49e75dc5142331826cc73c7de69207653b"
+            },
+            {
+                "sha": "c24ce56df6d6332e97b50ff870d5f86fdbdc6c77",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T10:42:07-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-17T10:42:07-04:00"
+                    },
+                    "message": "beginning the refactoring process\n"
+                },
+                "parents": [
+                    "51fa052b1545832768917a777cd1ff48edad830d"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/c24ce56df6d6332e97b50ff870d5f86fdbdc6c77"
+            },
+            {
+                "sha": "bf05db2784faf5fbf4e40c5938457ebccc193e88",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T22:39:02-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T22:40:56-04:00"
+                    },
+                    "message": "success: full support for \"proper\" async\n\ndeposits, withdraws and transfers... even in the \"recursive\" case. it was tricky\n"
+                },
+                "parents": [
+                    "428ee25459e6bed08e1a847e27278134975a9269"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/bf05db2784faf5fbf4e40c5938457ebccc193e88"
+            },
+            {
+                "sha": "428ee25459e6bed08e1a847e27278134975a9269",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T21:34:18-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T21:34:18-04:00"
+                    },
+                    "message": "making everything \"side-effect style\" for now\n\nnamely, the main client methods are not blocking and return basically nothing, or useless strings, and achieve their entire functions through asynchronous side effects. the goal is to make these proper async functions, which return promises. but hard given the \"recursion\" (i.e., the delaying).\n"
+                },
+                "parents": [
+                    "da254ef0560e1fb60ff2e1d73d7002098408c9cb"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/428ee25459e6bed08e1a847e27278134975a9269"
+            },
+            {
+                "sha": "da254ef0560e1fb60ff2e1d73d7002098408c9cb",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T19:02:19-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T19:02:19-04:00"
+                    },
+                    "message": "linting\n"
+                },
+                "parents": [
+                    "abd0c4056901cbd44d72e2c73359ce391a570c05"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/da254ef0560e1fb60ff2e1d73d7002098408c9cb"
+            },
+            {
+                "sha": "abd0c4056901cbd44d72e2c73359ce391a570c05",
+                "commit": {
+                    "author": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T18:17:54-04:00"
+                    },
+                    "committer": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T18:17:54-04:00"
+                    },
+                    "message": "examples working up to transfer, make sure you are using quorum raft\n"
+                },
+                "parents": [
+                    "e19f7695ad5e75d2fb9064df8bf513d622647c84"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/abd0c4056901cbd44d72e2c73359ce391a570c05"
+            },
+            {
+                "sha": "e19f7695ad5e75d2fb9064df8bf513d622647c84",
+                "commit": {
+                    "author": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T17:57:45-04:00"
+                    },
+                    "committer": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T17:57:45-04:00"
+                    },
+                    "message": "allan's java changes and refactored client\n"
+                },
+                "parents": [
+                    "36a0dd1a3ef3bf04de961298dc440826bcf0c855"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/e19f7695ad5e75d2fb9064df8bf513d622647c84"
+            },
+            {
+                "sha": "36a0dd1a3ef3bf04de961298dc440826bcf0c855",
+                "commit": {
+                    "author": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T16:56:15-04:00"
+                    },
+                    "committer": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T16:56:15-04:00"
+                    },
+                    "message": "Merge branch 'master' of /Users/stuarthunter/Downloads/anonymous-zether_6\n"
+                },
+                "parents": [
+                    "351f464925c5aa6adcf3acd450ddb8e3a2f32048",
+                    "857a8db65e230ef4c7188af888a18475225dceac"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/36a0dd1a3ef3bf04de961298dc440826bcf0c855"
+            },
+            {
+                "sha": "351f464925c5aa6adcf3acd450ddb8e3a2f32048",
+                "commit": {
+                    "author": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T16:55:42-04:00"
+                    },
+                    "committer": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T16:55:42-04:00"
+                    },
+                    "message": "updated exampels\n"
+                },
+                "parents": [
+                    "da5290486136c96ff473efe46d46dc1925232c31"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/351f464925c5aa6adcf3acd450ddb8e3a2f32048"
+            },
+            {
+                "sha": "857a8db65e230ef4c7188af888a18475225dceac",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T16:35:31-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T16:35:31-04:00"
+                    },
+                    "message": "taking a different approach\n\nactually, it works to merely simulate things for _the next_ epoch, and carry on. the only drawback is that if you have active pendings, then things will fail until this epoch ends. but after that, you should be good\n"
+                },
+                "parents": [
+                    "67fceabd89c6a8f5c6b20c3d31e19a6a36548f0b"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/857a8db65e230ef4c7188af888a18475225dceac"
+            },
+            {
+                "sha": "67fceabd89c6a8f5c6b20c3d31e19a6a36548f0b",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T15:26:18-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T15:26:18-04:00"
+                    },
+                    "message": "added the ability to \"mount\" an existing account\n"
+                },
+                "parents": [
+                    "dea382be2d9cdf1645bc46e661eca8368f9b1a1f"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/67fceabd89c6a8f5c6b20c3d31e19a6a36548f0b"
+            },
+            {
+                "sha": "da5290486136c96ff473efe46d46dc1925232c31",
+                "commit": {
+                    "author": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T13:52:00-04:00"
+                    },
+                    "committer": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T13:52:00-04:00"
+                    },
+                    "message": "Merge branch 'master' of /Users/stuarthunter/Downloads/anonymous-zether_5\n"
+                },
+                "parents": [
+                    "dbac9c07a264686ccc4e5790137108626dd54381",
+                    "dea382be2d9cdf1645bc46e661eca8368f9b1a1f"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/da5290486136c96ff473efe46d46dc1925232c31"
+            },
+            {
+                "sha": "dbac9c07a264686ccc4e5790137108626dd54381",
+                "commit": {
+                    "author": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T13:51:14-04:00"
+                    },
+                    "committer": {
+                        "name": "stuarth1",
+                        "email": "stuarth323@gmail.com",
+                        "date": "2019-05-16T13:51:14-04:00"
+                    },
+                    "message": "refacted examples for bens changes\n"
+                },
+                "parents": [
+                    "b35663ce8199a74a60cd244e0b6856b2abdf5fb2"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/dbac9c07a264686ccc4e5790137108626dd54381"
+            },
+            {
+                "sha": "dea382be2d9cdf1645bc46e661eca8368f9b1a1f",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T13:49:35-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T13:49:35-04:00"
+                    },
+                    "message": "trying to add \"mount existing account\" functionality\n"
+                },
+                "parents": [
+                    "4bd0d4c76e9f3d1a5f42d68106ab2f44fb8a0b78"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/dea382be2d9cdf1645bc46e661eca8368f9b1a1f"
+            },
+            {
+                "sha": "4bd0d4c76e9f3d1a5f42d68106ab2f44fb8a0b78",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T12:43:41-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T12:43:41-04:00"
+                    },
+                    "message": "add prover folder\n"
+                },
+                "parents": [
+                    "b35663ce8199a74a60cd244e0b6856b2abdf5fb2"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/4bd0d4c76e9f3d1a5f42d68106ab2f44fb8a0b78"
+            },
+            {
+                "sha": "b35663ce8199a74a60cd244e0b6856b2abdf5fb2",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T12:31:57-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-16T12:31:57-04:00"
+                    },
+                    "message": "refactors: getting there.\n\nno longer supporting \"multiple accounts\". didn't make much sense: you can just make multiple trackers. this makes things somewhat cleaner\n"
+                },
+                "parents": [
+                    "01b4324288f00346ce64580a0ba2db34b98e5214"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/b35663ce8199a74a60cd244e0b6856b2abdf5fb2"
+            },
+            {
+                "sha": "01b4324288f00346ce64580a0ba2db34b98e5214",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-15T21:01:52-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-15T21:01:52-04:00"
+                    },
+                    "message": "success also for transfers received.\n"
+                },
+                "parents": [
+                    "4fae75d891613310be0e24b62cee527b6235e1c6"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/01b4324288f00346ce64580a0ba2db34b98e5214"
+            },
+            {
+                "sha": "4fae75d891613310be0e24b62cee527b6235e1c6",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-15T18:21:47-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-15T18:21:47-04:00"
+                    },
+                    "message": "success!!!\n\nthings are looking good\n"
+                },
+                "parents": [
+                    "7e491c35444e34dcda5f0f0a334efeedb3bd9f2a"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/4fae75d891613310be0e24b62cee527b6235e1c6"
+            },
+            {
+                "sha": "7e491c35444e34dcda5f0f0a334efeedb3bd9f2a",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-15T18:12:24-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-15T18:12:24-04:00"
+                    },
+                    "message": "a few fixes here and there\n\nstill all kinds of errors, but should be relatively easily fixable\n"
+                },
+                "parents": [
+                    "bcfbe2a3aac6248b5a153292ad43ccd8e8f47fde"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/7e491c35444e34dcda5f0f0a334efeedb3bd9f2a"
+            },
+            {
+                "sha": "51fa052b1545832768917a777cd1ff48edad830d",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-12T22:50:39-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-12T22:50:39-04:00"
+                    },
+                    "message": "techspec update\n"
+                },
+                "parents": [
+                    "da5bcc4afee2a0f4e295332c181dd6f1905e7e38"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/51fa052b1545832768917a777cd1ff48edad830d"
+            },
+            {
+                "sha": "da5bcc4afee2a0f4e295332c181dd6f1905e7e38",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-12T19:42:20-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-12T19:42:20-04:00"
+                    },
+                    "message": "more adjustments\n\nsee also https://github.com/QuorumEngineering/BulletProofLib/commit/269b7cd30998836457ab8d9bd1cde378ae64560a\n"
+                },
+                "parents": [
+                    "390076019255c1f08ebb19e2445ee35ff9a81a7b"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/da5bcc4afee2a0f4e295332c181dd6f1905e7e38"
+            },
+            {
+                "sha": "390076019255c1f08ebb19e2445ee35ff9a81a7b",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-12T15:31:52-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-12T15:31:52-04:00"
+                    },
+                    "message": "use a \"dummy proof\" to force classes to load\n\nabsent special measures, the first proof will take extra long because of loading of java classes. add a dummy proof as the Java service starts up to jog this process. hack, but works...\n"
+                },
+                "parents": [
+                    "b29cae4181f461d9d7c2bebc85569e69b46c738e"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/390076019255c1f08ebb19e2445ee35ff9a81a7b"
+            },
+            {
+                "sha": "b29cae4181f461d9d7c2bebc85569e69b46c738e",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-12T14:31:30-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-12T14:31:30-04:00"
+                    },
+                    "message": "use secure randomness\n\ncompanion to https://github.com/QuorumEngineering/BulletProofLib/commit/3cc413a60721a0724b63c34ac367795eafb82b0c\n"
+                },
+                "parents": [
+                    "e44c8823b516824f6eb1caedfde0275c1c1cac9f"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/b29cae4181f461d9d7c2bebc85569e69b46c738e"
+            },
+            {
+                "sha": "e44c8823b516824f6eb1caedfde0275c1c1cac9f",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-11T20:05:58-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-11T20:05:58-04:00"
+                    },
+                    "message": "important optimization: simulate accounts \"online\"\n\nsee comments for details. making tons of account-simulation RPC calls during statement construction slowed things down a lot, can be much improved by moving the entire thing to a contract method\n"
+                },
+                "parents": [
+                    "4b014c8f863c6890e7f233585035a45ec7839a72"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/e44c8823b516824f6eb1caedfde0275c1c1cac9f"
+            },
+            {
+                "sha": "4b014c8f863c6890e7f233585035a45ec7839a72",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-08T15:26:42-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-08T15:26:42-04:00"
+                    },
+                    "message": "various readme touchups / small refactors\n\nalso included the technical report pdf.\n"
+                },
+                "parents": [
+                    "0d71791098cf971606792bfca55bebbd61c153e9"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/4b014c8f863c6890e7f233585035a45ec7839a72"
+            },
+            {
+                "sha": "0d71791098cf971606792bfca55bebbd61c153e9",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-08T11:26:44-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-08T11:26:44-04:00"
+                    },
+                    "message": "SUCCESS\n\nin fully asynchronous, simultaneous, cross-talk, etc. etc. etc. all appears to be working\n\nused a highly unexpected trick where i directly poll the _calldata_ of a transaction in order to extract how much it credited me. this way, i have no need to pull my own account state to determine how much I got; similarly, if multiple transactions wind up packed within a single block, i can still parse their gains independently. works like a charm. lacking proper web3 i tools, i had to emulate this functionality myself, but...\n"
+                },
+                "parents": [
+                    "821d48376157a083e1c7475ba4195c5d8d821f4a"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/0d71791098cf971606792bfca55bebbd61c153e9"
+            },
+            {
+                "sha": "821d48376157a083e1c7475ba4195c5d8d821f4a",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-07T16:44:43-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-07T16:44:43-04:00"
+                    },
+                    "message": "taking a different approach, using calldata\n\nstashing for now\n"
+                },
+                "parents": [
+                    "d9fa2c4f29473026ba29103f3bf5965da1db0767"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/821d48376157a083e1c7475ba4195c5d8d821f4a"
+            },
+            {
+                "sha": "d9fa2c4f29473026ba29103f3bf5965da1db0767",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-07T13:17:20-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-07T13:17:20-04:00"
+                    },
+                    "message": "major progress towards good epochs\n\nstill occasional hiccup. balance scanning starts too high and then runs forever...\n"
+                },
+                "parents": [
+                    "854647ba61a98ebcccfdf8b09ca7340a595751d6"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/d9fa2c4f29473026ba29103f3bf5965da1db0767"
+            },
+            {
+                "sha": "854647ba61a98ebcccfdf8b09ca7340a595751d6",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-07T10:14:12-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-07T10:14:12-04:00"
+                    },
+                    "message": "getting closer on difficult race conditions\n\nstill not quite there\n"
+                },
+                "parents": [
+                    "6879aca91f0e50c7d68f73dbfd56414f21549273"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/854647ba61a98ebcccfdf8b09ca7340a595751d6"
+            },
+            {
+                "sha": "6879aca91f0e50c7d68f73dbfd56414f21549273",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-06T16:37:04-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-06T16:37:04-04:00"
+                    },
+                    "message": "first steps towards time-based epochs\n"
+                },
+                "parents": [
+                    "04e91cc2b7bafbb5840b4634eb3b0499a79d54e1"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/6879aca91f0e50c7d68f73dbfd56414f21549273"
+            },
+            {
+                "sha": "04e91cc2b7bafbb5840b4634eb3b0499a79d54e1",
+                "commit": {
+                    "author": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-06T12:11:11-04:00"
+                    },
+                    "committer": {
+                        "name": "keizir",
+                        "email": "ultimatesofteng.work@gmail.com",
+                        "date": "2019-05-06T12:11:11-04:00"
+                    },
+                    "message": "more fourier optimizations\n\nby storing a temporary, can compute only half as many ellpitic curve scalar multiplications (i.e., can replace them with field negations). this results in moderate verification time and significant verification gas-use improvements.\n"
+                },
+                "parents": [
+                    "33334bbf5a4d92e3dd326a28f0846591ff868f9a"
+                ],
+                "url": "https://github.com/keizir/anonymous_zether/commit/04e91cc2b7bafbb5840b4634eb3b0499a79d54e1"
+            }
+        ],
         "blockchain-game": [
             {
                 "sha": "92f807dcd9dc2b8413b8c99ae82adad1f9b2cc7c",
@@ -5421,6 +8491,161 @@
         ]
     },
     "commits_msgs": {
+        "anonymous_zether": [
+            "yarn upgrade\n\nthere are a huge amount of warnings from yarn, so at some point all of that should probably be looked at\n\nalso, do i really need 2 yarn files, one in `protocol` and one in the main directory?\n",
+            "add escape clause for spurious events\n\ntruffle is emitting these for some reason. we need to figure out why. in the mean time, we can easily just work around it by adding this return statement.\n",
+            "a few additional small readme changes",
+            "Merge pull request #7 from JohnSt99/patch-1\n\nimproved intuitiveness & added example code",
+            "some additional touchups and code style things\n\ni guess we are adding semicolons in the README now.\n",
+            "some touchups?\n",
+            "Update README.md\n",
+            "final docs update\n\nmirrored at https://eprint.iacr.org/2020/293\n",
+            "fix bug: register the \"empty\" account\n\nactually, it's interesting. even with no \"beneficiary\" argument supplied, the [0x00, 0x00] account will be credited, and this can (probably) be spent from using a secret key of 0. so in this way miners could make \"raking\" transactions. probably'd be better to have a special \"rake\" method in the contract, so that the extra gas doesn't have to be spent.\n\nor maybe it's better this way, so that the miner's identity can be kept private... intriguing.\n",
+            "update readme with fee instructions\n",
+            "various fees fixes\n\nupdated the truffle test to dynamically retrieve the fee. made the \"beneficiary\" argument optional (especially useful in case fee is 0). in this case it will burn the fees to the empty account.\n",
+            "merge branch for \"transaction fees\" (#2)\n\nnow, we have an intrinsic mechanism for transaction fees. a sender can specify a \"beneficiary\" who will receive the fixed fee. In practice, this could be a \"miner\", who will then mine the transaction voluntarily, even though it (say) offers no gas.",
+            "set fee back to 0\n",
+            "refactors. only define fee once...\n\n...in the contract. then pull it in and use it elsewhere. various other improvements.\n",
+            "first commit for fees\n",
+            "small rework\n",
+            "some refactors and improvements in client\n",
+            "client-side FFT optimizations.\n\nonly compute the array of roots of unity once. pass it into subcalls. only FFT the base vector once; use the FFT in both hadamards / convolutions. significantly improves the prover time.\n",
+            "more contract optimizations\n\nin the FFT and the recursive polynomial evaluation calculation.\n",
+            "significant optimizations of contracts\n\navoiding using exp() and inv(). various improvements. save a couple hundred thousand gas per zether verification, at least. a few million for larger anonsets.\n",
+            "modernization for contracts and testing\n\nupgrade all contracts to Solidity 0.7.0. now use Truffle and Ganache for a proper testing and deployment infrastructure. got rid of the old tests. This should be a better experience for everyone.\n",
+            "modernize truffle test\n",
+            "huge refactor. improved efficiency\n\n...of the prover by at least a few-hundred milliseconds. code should also now be clearer and more concise.\n",
+            "yarn upgrade\n",
+            "significant docs update\n",
+            "another round of maintenance: docs + yarn\n",
+            "yarn upgrade\n",
+            "adopt Esgin et al.'s optimization\n\nsee \\S 1.3 of https://eprint.iacr.org/2019/1287.pdf. the pairs (A, B), (C, D), and (E, F) can be combined into a single pair. reduces proof size by a few hundred bytes. thanks to them!\n",
+            "fix double declaration\n\nthanks @ibudisteanu!\n",
+            "another round of docs improvements.\n",
+            "more docs improvements!\n",
+            "improve some error messages\n\nalso improve behavior upon failure of registration: account remains un-set, so that error message triggers in fund / burn methods.\n",
+            "small refactor: remove bTransfer from burn proof\n\nisn't used at all in proving and verifying, and doesn't need to be part of the statement hash / salt.\n",
+            "maintenance: yarn upgrade + docs\n",
+            "improved version of Sigma-Bullets\n\nthe latest ePrint version of the Zether paper (https://eprint.iacr.org/2019/191.pdf) actually features a better Sigma-Bullets protocol, which is correct and secure (i.e., cf. the old version https://crypto.stanford.edu/~buenz/papers/zether.pdf). It's also slighly more efficient and elegant than our version. Thus we've adopted the new version, and also adjusted both the implementation and the technical report accordingly. thanks to them for their work. in particular, we _no longer_ use a variant derived from bbuenz / BulletProofLib (which was correct but not secure, and which we had to amend).\n",
+            "refactor: ZSC uses Utils\n\nand all points are of type G1Point, isntead of being \"emulated\" as bytes32[2]'s.\n\nthe advantage of this is essentially that the ZSC can use the \"heavy\" tools for scalar and point manipulation, and doesn't have to rely on inline assembly. there are a few things that Solidity doesn't properly support yet, so we've had to work around those. but it's an improvement.\n",
+            "security update: registration\n\nnow everyone must first demonstrate possession of his _own_ secret key (i.e., by publishing a signature) before participating. this is to prevent a \"rogue key\" insider attack on multi-recipient El Gamal, see Bellare, Boldyreva and Staddon 2003. In short, an attacker could have generated a \"false key\" derived from an honest one, and (if he can trick other users into including both him and said honest account in an anonset together) could have used the false key to decrypt the balance change in the honest key. this is thwarted if we just ensure that people know their _own_ secret key.\n\nalso, docs now feature _full_ security proofs.\n",
+            "Merge pull request #23 from ibudisteanu/patch-1\n\npackage name is `bn.js`. Node.js on Linux it is case sensitive",
+            "package name is `bn.js`. Node.js on Linux it is case sensitive\n\nThe packages `bn.js` is lowercase and node.js on Linux is case sensitive. Probably you have either another package called BN.js which is uppercase or you got a link with BN.js in the node_modules",
+            "refactor: IP verifier own contract\n\nand deployments are now cheap enough for mainnet use.\n\nthe most significant change is that the \"g, h, gs, and hs\" parameters are now hard-coded into the contract code, which cuts down on storage costs. in particular, each individual deployment can be carried out for 4-6 million gas. this recourse was suggested in the original zether paper, and also by @ibudisteanu (thanks to them).\n\nadditionally, the inner product verifier is now a separate contract, used by both the ZetherVerifier and BurnVerifier contracts. this cuts down on repeated code and is more elegant.\n",
+            "version bump for BN.js\n\nupdates as per fix of https://github.com/indutny/elliptic/issues/191. also a few other adjustments. thanks @ibudisteanu for noticing a naming inconsistency.\n",
+            "more shuffling and renaming.\n\nalso, now use different randomnesses for \\bar g and \\bar D. finally, substantial updates to the docs.\n",
+            "infrastructure docs updates.\n\nminor typos and improvements\n",
+            "maintenance update for truffle\n\nbumped a number of versions (now use mainline web3 1.x). significantly expanded the truffle tests. also now change web3.transactionConfirmationBlocks _within_ the Client object (less error-prone).\n",
+            "now featuring logarithmically-sized proofs.\n\nproof _size_ now grows logarithmically in the size of the anonset. i also have security proof sketches in this new setting, which are significantly more involved. please see docs/AnonZether.pdf for a precise specification of the new protocol, as well as for the proofs. these are only sketches at this point, and are liable to change.\n",
+            "yarn upgrade\n",
+            "more adjustments: separate randomnesses\n\nfor each i, j (instead of just for each i), also separate randomness pi for (C_Ln, C_Rn). It is a bit difficult to show that this is _strictly necessary_ for zero-knowledge, but it makes the proofs go through more naturally, and doesn't affect performance much (just have to generate a few extra random scalars). Thus probably the right thing to do. open question to make this exact.\n\nalso: the docs now feature (sketches of) security proofs!\n",
+            "security update: zero knowledge\n\nmitigates an \"insider attack\" on zero knowledge, whereby a member of the anonset could have determined the sender _or_ receiver (depending on his position). in brief: some member y_k could have computed \\bar{g}^{sk_k}, and compared the resulting quantity to each \\bar{y_j,i}. the result would have revealed the value of idx_j (for one value j). a similar procedure could have been done against \\bar{D} and \\bar{C_j,i}.\n\nthe issue was essentially that randomness was being re-used across re-encryptions for each value i. now fixed.\n",
+            "a number of security updates and refactors\n\nmade a number of substantial changes to the protocol, mainly to the effect of making \"sigma bullets\" more secure. the protocol, previously, was not sound as written (for reasons separate from my prior zero knowledge fix). this re-orders a number of things, and changes the reduction from ElGamal to Bulleproofs.\n\nthe main issue can be briefly described as follows: there was no proof that the _message_ of (C, D) was well-formed, i.e. an exponent of g alone. If the prover put an _arbitrary_ Pedersen commitment in the message (i.e., with an \"h\" part) the prover could have still succeeded, breaking his account and the recipient's.\n\nin addition, we now conduct our one-out-of-many proofs \"first\". this is important for witness extraction (in the security proofs, forthcoming). finally, we made substantial changes to the docs.\n",
+            "a number of docs updates...\n\nwhich reflect the adjustments to the protocol made in recent commits.\n",
+            "adjust variable names to match docs\n\nthough the diff is unfortunately large, this will make things much easier in the future for people who want to cross-reference the two.\n",
+            "now use rho = r * sigma, pi = r' * sigma\n\nthis choice is more parsimonious, and slightly more efficient, for the prover; it also avoids an edge case in which w = sigma and r-bar required division by 0. it should still have zero knowledge. details will be described in the docs.\n",
+            "small README update\n\nregistration doesn't exist anymore... adjust the mock printout accordingly.\n",
+            "eliminate division by challenge w\n\nthough this is only _theoretically_ relevant in the exceptional case that w == 0 (negligibly probable under Fiat--Shamir), we can get some concrete gains in efficiency (and elegance!) if we never divide by w. details will be forthcoming in the docs.\n",
+            "fix zero-knowledge vulnerability\n\nThis commit mitigates a serious zero-knowledge vulnerability in basic Zether (Sigma-Bullets), which could have allowed an observer to determine b' and b* using only 2^64 work (and far less in some cases). The full amended protocol is implemented in this commit; it's also specified in AnonZether.pdf (the attack and its fix are described on page 6).\n",
+            "various fixes\n\ndocs, plus BN.js capitalization, plus EC stuff (upgrade to 6.5.1 relase)\n",
+            "yarn upgrade\n",
+            "improve parity check proof\n",
+            "more docs updates\n",
+            "eliminate registration\n\nAs far as mitigating the \"front-running\" issues goes, a simpler, more elegant and equally secure alternative to account pre-registration is the \"Schnorr signature\" approach, where the generic Burn proof is converted to one which _in addition_ serves to sign `msg.sender`. Indeed, if we just include `msg.sender` in the list of things which get hashed to produce the sigma protocol challenge, the effect is that the proof simultaneously signs it. In particular, if `msg.sender` changes, the proof will become invalid, and further can't be modified to suit the new value without access to the private key. Thanks to Benedikt B\u00fcnz for suggesting this approach.\n",
+            "account recovery fix\n\nthanks @stuarth1!\n",
+            "some maintenance\n\nrunning `yarn upgrade` switches certain things to web3 1.2.1, which breaks things?\n",
+            "a number of readme changes\n",
+            "include web3 version, etc.\n",
+            "IBFT support\n\n... with `--istanbul.blockperiod 1`. Everything works; I have had to bump up epoch length by a couple of seconds, because of the increased block time. This has more of a (relative) impact for smaller anonsets, of course. However it seems that the more sophisticated consensus protocol is worth the wait.\n",
+            "fairly substantial docs updates\n",
+            "truffle fixes!\n\nmigrate and test should now be working for both develop and \"quorum\" networks.\n",
+            "better IBFT explanation in README\n\nUpdate to give a better explanation for why the code as currently written only supports Raft.",
+            "update Node version in README\n\nNode v12 is necessary in order to properly execute `.flat()`, i.e. https://github.com/jpmorganchase/anonymous-zether/blob/d228d63cf53a7369602b4f4c87b354e7cc94d41b/packages/anonymous.js/src/prover/zether/anon.js#L86.",
+            "readme update\n\nmention that IBFT is not supported.\r\n\r\nthe reason for this is actually quite silly: Raft reports `block.timestamp` in nanoseconds, as opposed to milliseconds. As a consequence, we have to divide by 1000000 at https://github.com/jpmorganchase/anonymous-zether/blob/3621c933ea500320da3dae7e970ff01abe22ca6d/packages/protocol/contracts/ZSC.sol#L66 and https://github.com/jpmorganchase/anonymous-zether/blob/3621c933ea500320da3dae7e970ff01abe22ca6d/packages/anonymous.js/src/client.js#L37; on the other hand, this makes it incompatible with regular Ethereum and with IBFT. In the future, Raft should be updated to use the standard semantics.",
+            "yarn upgrade\n",
+            "miscellaneous docs updates\n",
+            "some more yarn maintenance\n",
+            "minor refactor: move \"initialize\" to top level\n\ndidn't make sense as a method of the account object alone (it modifies the class-wide _epochLength attribute).\n",
+            "remove async declaration from initialize\n\nsince the function returns a promise anyway, it seems like this is unnecessary / a \"no-op\".\n\nalso, a few adjustments to the readme\n",
+            "even further FFT optimizations\n\nfor elegance as much as performance... if i conduct my circular shifts in the opposite direction (arbitrary which one), then a few \"flip\"s become unnecessary later, and the convolution is more natural. also, see AnonZether.pdf for updated performance measurements, encompassing this commit and the last.\n",
+            "FFT even-indexed outputs optimization\n\nbecause I only use circular shifts of _even_ order, i only require the even-indexed values of the result of circular convolution. thus i can use this optimization https://dsp.stackexchange.com/a/30699 on the inverse transform (instead of just tossing the odd values). this leads to modest but pretty substantial improvements in all measurements of runtime, especially for larger anonsets\n",
+            "various readme touchups\n",
+            "merge in branch: re-rewrite prover in Javascript.\n\nsee PR for details. merges in a significant refactor in which the whole prover is re-written in Javascript.",
+            "new web3 dependency magically appeared?\n\nprobably a good idea to fill out  with a more complete list.\n",
+            "bump epoch estimation...\n\nthis is tricky. javascript is slightly slower than Java, which is causing me to miss epochs.\n",
+            "small client fixes\n",
+            "everything working?\n\nmore bugs fixed involving unserialization.\n",
+            "fixing a few bugs\n",
+            "a few adjustments\n",
+            "transfer proofs work\n\nappear to be wrapping up...\n",
+            "more small bug fixes\n\ni blame https://www.wsj.com/graphics/apple-still-hasnt-fixed-its-macbook-keyboard-problem/ for some of them\n",
+            "addressed some subtle bugs...\n\nessentially, i need to transpose the bytes32[2][][2]s into bytes32[2][2][]s, because _the latter_ are what Solidity accepts.\n",
+            "miscellaneous bug fixes\n",
+            "burns working\n\nfixed a few things\n",
+            "fixing a few bugs\n",
+            "a number of bugs fixed\n\nthe thing actually runs now...let's test the output\n",
+            "fix various bugs\n",
+            "added burn stuff\n\ntentatively ready to start testing\n",
+            "serializations done?\n\neverything in draft state, not tested\n",
+            "refresh the truffle artifacts\n\nhopefully this doesn't break anything\n",
+            "finishing up the ip prover...\n\nthings are shaping up\n",
+            "some refactors\n\ntrying to save from having to regenerate the params each time.\n",
+            "readme touchups\n",
+            "filling out more of the sigma protocol\n\nstill of course not tested, and probably full of bugs\n",
+            "refactors to avoid circular dependency\n\nFFTs now appear to be working smoothly\n",
+            "ffts appear to be working\n\ncould be some weird bugs with committing?\n",
+            "more progress... saving for now\n",
+            "more progress. storing for now\n\nbasically ready to start writing the fourier-theoretic stuff.\n",
+            "moving things around a bit, more progress\n",
+            "more progress...\n\nfilling out some of the algebra functions, Pedersen Commitments, etc.\n",
+            "various other refactors\n\nsort of alternating on when / whether the proof arguments should be \"flattened\".\n",
+            "upgrade package versions---axios, etc.\n",
+            "Merge pull request #5 from libby\n\nUpdating README / install / setup instructions.",
+            "Updating README / install / setup instructions.\n\n* add Quickstart copy and paste commands.\n* add requirements for running quorum network with websockets.\n",
+            "add license (apache)\n",
+            "add high-level overview to readme\n\nthis should provide more orientation regarding what Anonymous Zether is and how it works.\n",
+            "more docs updates\n\nadded asymptotic characteristics to performance section of whitepaper\n",
+            "docs updates: use blue text in docs/AnonZether.pdf\n\nalso updated a few comments in client file\n",
+            "add \"initiating\" message for deposit\n\nmakes things more consistent with withdrawal and transfer\n",
+            "resolve promises with receipt\n\nmight as well pass these in",
+            "verification contracts",
+            "updated url to correct repo",
+            "proper recovery of accounts\n\nnote: only necessary to pass in the secret (of course the pubkey is deterministic).\n",
+            "add \"infrastructure\" docs file\n",
+            "overhaul README... getting there\n\nwe still probably need better / more thorough installation / use instructions. cf. also truffle, etc.\n",
+            "more merge stuff\n",
+            "attempting to merge\n",
+            "beginning the refactoring process\n",
+            "success: full support for \"proper\" async\n\ndeposits, withdraws and transfers... even in the \"recursive\" case. it was tricky\n",
+            "making everything \"side-effect style\" for now\n\nnamely, the main client methods are not blocking and return basically nothing, or useless strings, and achieve their entire functions through asynchronous side effects. the goal is to make these proper async functions, which return promises. but hard given the \"recursion\" (i.e., the delaying).\n",
+            "linting\n",
+            "examples working up to transfer, make sure you are using quorum raft\n",
+            "allan's java changes and refactored client\n",
+            "Merge branch 'master' of /Users/stuarthunter/Downloads/anonymous-zether_6\n",
+            "updated exampels\n",
+            "taking a different approach\n\nactually, it works to merely simulate things for _the next_ epoch, and carry on. the only drawback is that if you have active pendings, then things will fail until this epoch ends. but after that, you should be good\n",
+            "added the ability to \"mount\" an existing account\n",
+            "Merge branch 'master' of /Users/stuarthunter/Downloads/anonymous-zether_5\n",
+            "refacted examples for bens changes\n",
+            "trying to add \"mount existing account\" functionality\n",
+            "add prover folder\n",
+            "refactors: getting there.\n\nno longer supporting \"multiple accounts\". didn't make much sense: you can just make multiple trackers. this makes things somewhat cleaner\n",
+            "success also for transfers received.\n",
+            "success!!!\n\nthings are looking good\n",
+            "a few fixes here and there\n\nstill all kinds of errors, but should be relatively easily fixable\n",
+            "techspec update\n",
+            "more adjustments\n\nsee also https://github.com/QuorumEngineering/BulletProofLib/commit/269b7cd30998836457ab8d9bd1cde378ae64560a\n",
+            "use a \"dummy proof\" to force classes to load\n\nabsent special measures, the first proof will take extra long because of loading of java classes. add a dummy proof as the Java service starts up to jog this process. hack, but works...\n",
+            "use secure randomness\n\ncompanion to https://github.com/QuorumEngineering/BulletProofLib/commit/3cc413a60721a0724b63c34ac367795eafb82b0c\n",
+            "important optimization: simulate accounts \"online\"\n\nsee comments for details. making tons of account-simulation RPC calls during statement construction slowed things down a lot, can be much improved by moving the entire thing to a contract method\n",
+            "various readme touchups / small refactors\n\nalso included the technical report pdf.\n",
+            "SUCCESS\n\nin fully asynchronous, simultaneous, cross-talk, etc. etc. etc. all appears to be working\n\nused a highly unexpected trick where i directly poll the _calldata_ of a transaction in order to extract how much it credited me. this way, i have no need to pull my own account state to determine how much I got; similarly, if multiple transactions wind up packed within a single block, i can still parse their gains independently. works like a charm. lacking proper web3 i tools, i had to emulate this functionality myself, but...\n",
+            "taking a different approach, using calldata\n\nstashing for now\n",
+            "major progress towards good epochs\n\nstill occasional hiccup. balance scanning starts too high and then runs forever...\n",
+            "getting closer on difficult race conditions\n\nstill not quite there\n",
+            "first steps towards time-based epochs\n",
+            "more fourier optimizations\n\nby storing a temporary, can compute only half as many ellpitic curve scalar multiplications (i.e., can replace them with field negations). this results in moderate verification time and significant verification gas-use improvements.\n"
+        ],
         "blockchain-game": [
             "Adds final tutorial code\n",
             "Resets app for tutorial\n",
