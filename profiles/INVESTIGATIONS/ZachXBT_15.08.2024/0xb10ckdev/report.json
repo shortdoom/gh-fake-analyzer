@@ -1,0 +1,304 @@
+{
+    "mutual_followers": [
+        "silochad",
+        "jurgisjaska"
+    ],
+    "contributors": {
+        "Aera-Vault-V1": [
+            "satoshi-gauntlet",
+            "bschreck",
+            "Pet3ris",
+            "yorhodes",
+            "0xb10ckdev",
+            "syakunin",
+            "feizerl"
+        ],
+        "Aera-Vault-V2": [
+            "satoshi-gauntlet",
+            "bschreck",
+            "JuliusDegesys",
+            "Pet3ris",
+            "nickborg",
+            "0xb10ckdev",
+            "syakunin"
+        ],
+        "BadgerDAO-TVL": [
+            "0xb10ckdev"
+        ],
+        "Cab-Configurator": [
+            "dependabot[bot]",
+            "0xb10ckdev"
+        ],
+        "Pancakeswap-V2-Simple-Subgraph": [
+            "0xb10ckdev"
+        ],
+        "Popcorn-Stargate-Vault": [
+            "0xb10ckdev"
+        ],
+        "React-Chat-App": [
+            "0xb10ckdev"
+        ],
+        "Tixl-Blockchain_Logic-Test": [
+            "0xb10ckdev"
+        ],
+        "Wevest-Protocol": [
+            "0xb10ckdev"
+        ]
+    },
+    "followers": [
+        "https://github.com/jurgisjaska",
+        "https://github.com/wusimo",
+        "https://github.com/Wapaca",
+        "https://github.com/ersanyakit",
+        "https://github.com/bdhughes1984",
+        "https://github.com/Olyno",
+        "https://github.com/fl0wo",
+        "https://github.com/eves8",
+        "https://github.com/Cryptogenysis",
+        "https://github.com/henrimahal",
+        "https://github.com/ShowenPeng",
+        "https://github.com/luzhajka",
+        "https://github.com/Depth-Hoar",
+        "https://github.com/olegkron",
+        "https://github.com/IvanSeagull",
+        "https://github.com/noyyyy",
+        "https://github.com/telcontarboi",
+        "https://github.com/KBroArtist",
+        "https://github.com/silochad",
+        "https://github.com/0xkryptstein"
+    ],
+    "following": [
+        "https://github.com/jurgisjaska",
+        "https://github.com/hensha256",
+        "https://github.com/ororopickpocket",
+        "https://github.com/silochad",
+        "https://github.com/0xboots"
+    ],
+    "unique_emails": {
+        "ben@benschreck.com": "Ben Schreck",
+        "noreply@github.com": "GitHub",
+        "julius@gauntlet.network": "Julius Degesys",
+        "ben.schreck@gauntlet.network": "Ben",
+        "peteris.erins@gmail.com": "Peteris Erins",
+        "astermiracle1009@gmail.com": "astermiracle",
+        "simon@blockvis.com": "Simon Yakunin",
+        "87081282+sat-naoki@users.noreply.github.com": "sat-naoki",
+        "88751631+feizerl@users.noreply.github.com": "Sandeep Gupta",
+        "sandeep@gauntlet.network": "feizerl",
+        "benjaminschreck93@gmail.com": "Ben Schreck",
+        "Julius.Degesys@gmail.com": "Julius Degesys",
+        "julius.degesys@gmail.com": "Julius Degesys",
+        "nickborg@gauntlet.network": "nickborg",
+        "SenWebDev1009@gmail.com": "Satoshi Naoki",
+        "49699333+dependabot[bot]@users.noreply.github.com": "dependabot[bot]",
+        "SenWebDev1009@outlook.com": "Reo Naoki",
+        "asteroid@Alexeys-iMac.local": "Reo Naoki",
+        "67144842+Reo-Naoki@users.noreply.github.com": "Reo Naoki",
+        "senwebdev1009@gmail.com": "Satoshi Naoki"
+    },
+    "original_repos_count": 10,
+    "forked_repos_count": 17,
+    "pull_requests_to_other_repos": {
+        "defi-wonderland/prophet-core": [
+            "https://github.com/defi-wonderland/prophet-core/pull/2",
+            "https://github.com/defi-wonderland/prophet-core/pull/1"
+        ],
+        "foundry-rs/book": [
+            "https://github.com/foundry-rs/book/pull/955"
+        ],
+        "foundry-rs/forge-std": [
+            "https://github.com/foundry-rs/forge-std/pull/415"
+        ],
+        "z0r0z/v4-core": [
+            "https://github.com/z0r0z/v4-core/pull/1"
+        ],
+        "Uniswap/v4-core": [
+            "https://github.com/Uniswap/v4-core/pull/245"
+        ],
+        "vetherasset/vader-dapp": [
+            "https://github.com/vetherasset/vader-dapp/pull/64",
+            "https://github.com/vetherasset/vader-dapp/pull/45",
+            "https://github.com/vetherasset/vader-dapp/pull/44",
+            "https://github.com/vetherasset/vader-dapp/pull/28",
+            "https://github.com/vetherasset/vader-dapp/pull/27",
+            "https://github.com/vetherasset/vader-dapp/pull/26",
+            "https://github.com/vetherasset/vader-dapp/pull/23",
+            "https://github.com/vetherasset/vader-dapp/pull/22"
+        ],
+        "vetherasset/vaderprotocol-contracts": [
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/281",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/280",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/279",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/278",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/277",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/275",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/230",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/220",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/170",
+            "https://github.com/vetherasset/vaderprotocol-contracts/pull/169"
+        ]
+    },
+    "commits_to_other_repos": {
+        "vetherasset/vader-subgraph-v2": [
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/b1ae70280934c6f22c9ec0a3e798639ca1ffc608",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/8b34d30abb445208d5b6cd591819ec0c766bd75f",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/bdb1c44369aeec24e447de1ae7a40b8f9372220d",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/2e142d45f09bb7fbc8d9e145184616738120b93e",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/5afd03078555f1dc34625af8b3fb4e4b83ba6a25",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/c19f49ecd02b201fdce75eb83ab37b4fbfec61e2",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/e37c77b065e34c5aef4e650a3daf92c01d9c927d",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/2fae171bfd01a22a04f346dc2c106d6444a4b795",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/5e5e0511d7dd46d2a1f41b4c0c8e350ad17e91da",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/c97e3bdfa0f6052fa973eab5083360867cb5dc29",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/8fa05205ccce398479f06d3d057eda4718ba73c1",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/08893401a39b440fa850d3506a672d23004bbba4",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/4884c92f827dc90d6c0cf2e00412f853fc9c6e04",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/3ac1e90191261676b6b2b51b1bd15c33d7217412",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/27b471f35f08e22d04ec7c180877cc1a29bb015c",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/b3bcf190f9a53bde7cb8db4d0642f49ba37de052",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/8a9b5dd18718aea0e8c7d851b534ff993a83d132",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/73844caa11b889664bfcae75ae436fa7cb8ac59a",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/3c473a4c281f86ac0389738cbb802f62d74fc7e5",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/049cf3a367a64258e91bc3429a7d786d38933ac5",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/7c0e8cff2b24d99c77a48f6e4a798d7a247f6bff",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/1f6a15411aafae8c33eee367063fcbb41327446b",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/13a7a06f66671e65646e31b4f8eba8138ca0d631",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/d3cd1e3e986463b526a957d00e2e27c5b08a8561",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/110c203dfd3eb601a1eae5ed49df08d95253587e",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/31e87547ed34d491355fd32bd5ccdb91762ab554",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/2ed7c111d030f429c78eb98cc560ccdf96946f19",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/1efdcfac3cbcd5d649629f9fde5131e656988ae5",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/3b460e922bfbd62a6a5586a9244b4ef2b6616a15",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/8c4ec9d2cc61121a0d70d09c41b3620ebbf21a2d",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/f4ba175180173b2c68f9d3b6752daa3c548b7b9d",
+            "https://github.com/vetherasset/vader-subgraph-v2/commit/de9ae09c5544e4b5058c28935d0bcb8e5e468164"
+        ],
+        "bchainhub/foundry-book": [
+            "https://github.com/bchainhub/foundry-book/commit/da529c21ca1f758b714a773912a73771bf295ecf"
+        ],
+        "Uniswap/v4-core": [
+            "https://github.com/Uniswap/v4-core/commit/ff1dc91a496a329ada6c410a7b1b3cd8cf782160"
+        ],
+        "vetherasset/vader-dapp": [
+            "https://github.com/vetherasset/vader-dapp/commit/125b044ccc709ef4acad0ff6ae35be205c42780c",
+            "https://github.com/vetherasset/vader-dapp/commit/f818c1cae8710165f3ae529f2f3c003f809476cd",
+            "https://github.com/vetherasset/vader-dapp/commit/bc75fb0558787ff49530d753fe82ae65c3113a11",
+            "https://github.com/vetherasset/vader-dapp/commit/92702ead4e601293915e529c5dc4e67ca7ce2353",
+            "https://github.com/vetherasset/vader-dapp/commit/d99bfd25aa37220d9cdf46c99045188f4239c2df",
+            "https://github.com/vetherasset/vader-dapp/commit/859cb41a17a21c596e2156a9e6e9eea8bc645b7e",
+            "https://github.com/vetherasset/vader-dapp/commit/f05599cd0edae18b51295e2d3fb1f7682fa57d61",
+            "https://github.com/vetherasset/vader-dapp/commit/770258cd30a2f2d4b215cb6cefbd3f8245211889",
+            "https://github.com/vetherasset/vader-dapp/commit/bb7e42f245588b1d131b6911ce1460c58e2b991e",
+            "https://github.com/vetherasset/vader-dapp/commit/bb6cfa64c6ae021aefc9c7778260fe513f4bed60",
+            "https://github.com/vetherasset/vader-dapp/commit/bd3bc2498ac40895ad3e3d0e956752240a0213cc",
+            "https://github.com/vetherasset/vader-dapp/commit/4bcb45e10fb812b1982b3c3ebc3d44dab6d9b430",
+            "https://github.com/vetherasset/vader-dapp/commit/04b6d865a92758cf71bf8fcf588486c3b62d31a0",
+            "https://github.com/vetherasset/vader-dapp/commit/03551f69ead329b60b5548de349f145e100a1f45",
+            "https://github.com/vetherasset/vader-dapp/commit/60f2cf48e410d365c354e9fa3f056c9f789adbd2",
+            "https://github.com/vetherasset/vader-dapp/commit/a8beafd12f0c9df746acf7bee1e1c1ae1d3345d7",
+            "https://github.com/vetherasset/vader-dapp/commit/f541a950c9bf0200ac6be4ca89bbabc0ab62f5f3",
+            "https://github.com/vetherasset/vader-dapp/commit/5e013ef8460b1622a5e364ae06c51ad8025060cb",
+            "https://github.com/vetherasset/vader-dapp/commit/7cc60b8d67782ddf16e41d097781fc8380955db1",
+            "https://github.com/vetherasset/vader-dapp/commit/11387e69844ab8922a197402be1d3421b31a8ee8",
+            "https://github.com/vetherasset/vader-dapp/commit/c24dfebdf8bdf06168442fda5748d34c3af37f1a",
+            "https://github.com/vetherasset/vader-dapp/commit/13dcc11f6a9cf0bb22dda8368f784cc7e970e509",
+            "https://github.com/vetherasset/vader-dapp/commit/3e7e107139c0bd7fcd2fc2b01705304b937b4a78",
+            "https://github.com/vetherasset/vader-dapp/commit/84d633d6db56c969657ec1bf10626f377d0d4aca"
+        ],
+        "bchainhub/spark-std": [
+            "https://github.com/bchainhub/spark-std/commit/adec12de5e4575a23df075ee4917cb058c2c617d"
+        ],
+        "AphraFinance/aphra-dapp": [
+            "https://github.com/AphraFinance/aphra-dapp/commit/125b044ccc709ef4acad0ff6ae35be205c42780c",
+            "https://github.com/AphraFinance/aphra-dapp/commit/f818c1cae8710165f3ae529f2f3c003f809476cd",
+            "https://github.com/AphraFinance/aphra-dapp/commit/bc75fb0558787ff49530d753fe82ae65c3113a11",
+            "https://github.com/AphraFinance/aphra-dapp/commit/92702ead4e601293915e529c5dc4e67ca7ce2353",
+            "https://github.com/AphraFinance/aphra-dapp/commit/d99bfd25aa37220d9cdf46c99045188f4239c2df",
+            "https://github.com/AphraFinance/aphra-dapp/commit/859cb41a17a21c596e2156a9e6e9eea8bc645b7e",
+            "https://github.com/AphraFinance/aphra-dapp/commit/f05599cd0edae18b51295e2d3fb1f7682fa57d61",
+            "https://github.com/AphraFinance/aphra-dapp/commit/770258cd30a2f2d4b215cb6cefbd3f8245211889",
+            "https://github.com/AphraFinance/aphra-dapp/commit/bb7e42f245588b1d131b6911ce1460c58e2b991e",
+            "https://github.com/AphraFinance/aphra-dapp/commit/bb6cfa64c6ae021aefc9c7778260fe513f4bed60",
+            "https://github.com/AphraFinance/aphra-dapp/commit/bd3bc2498ac40895ad3e3d0e956752240a0213cc",
+            "https://github.com/AphraFinance/aphra-dapp/commit/4bcb45e10fb812b1982b3c3ebc3d44dab6d9b430",
+            "https://github.com/AphraFinance/aphra-dapp/commit/04b6d865a92758cf71bf8fcf588486c3b62d31a0",
+            "https://github.com/AphraFinance/aphra-dapp/commit/03551f69ead329b60b5548de349f145e100a1f45",
+            "https://github.com/AphraFinance/aphra-dapp/commit/60f2cf48e410d365c354e9fa3f056c9f789adbd2",
+            "https://github.com/AphraFinance/aphra-dapp/commit/a8beafd12f0c9df746acf7bee1e1c1ae1d3345d7",
+            "https://github.com/AphraFinance/aphra-dapp/commit/f541a950c9bf0200ac6be4ca89bbabc0ab62f5f3",
+            "https://github.com/AphraFinance/aphra-dapp/commit/5e013ef8460b1622a5e364ae06c51ad8025060cb",
+            "https://github.com/AphraFinance/aphra-dapp/commit/7cc60b8d67782ddf16e41d097781fc8380955db1",
+            "https://github.com/AphraFinance/aphra-dapp/commit/11387e69844ab8922a197402be1d3421b31a8ee8",
+            "https://github.com/AphraFinance/aphra-dapp/commit/c24dfebdf8bdf06168442fda5748d34c3af37f1a",
+            "https://github.com/AphraFinance/aphra-dapp/commit/13dcc11f6a9cf0bb22dda8368f784cc7e970e509",
+            "https://github.com/AphraFinance/aphra-dapp/commit/3e7e107139c0bd7fcd2fc2b01705304b937b4a78",
+            "https://github.com/AphraFinance/aphra-dapp/commit/84d633d6db56c969657ec1bf10626f377d0d4aca"
+        ],
+        "vetherasset/vether-analytics": [
+            "https://github.com/vetherasset/vether-analytics/commit/165760e6da489466fa8c6af540f0b5ae00f320aa",
+            "https://github.com/vetherasset/vether-analytics/commit/f5c0aa8ae8d6ad423f73482b0a91b812fdc559ff",
+            "https://github.com/vetherasset/vether-analytics/commit/6e4eb159d4eae9bdf4e71a728c03adf1f4108ecd",
+            "https://github.com/vetherasset/vether-analytics/commit/02f93d357ae3118cf46129255057466d699121de",
+            "https://github.com/vetherasset/vether-analytics/commit/e6715b19bc5fb3ff1edd3a87e5cd4f61bc981947",
+            "https://github.com/vetherasset/vether-analytics/commit/ab361e33a1488905d5025785e907d011a4f7f738",
+            "https://github.com/vetherasset/vether-analytics/commit/87bb8d035f41b1ac5033c146ac4698c916f38e9f",
+            "https://github.com/vetherasset/vether-analytics/commit/d02b45378422bdc55a409ac12d46ce6782d38b8a",
+            "https://github.com/vetherasset/vether-analytics/commit/083f436a35122432e4440ede5a5932d9ad20b605"
+        ],
+        "foundry-rs/book": [
+            "https://github.com/foundry-rs/book/commit/da529c21ca1f758b714a773912a73771bf295ecf"
+        ],
+        "vetherasset/vader-tokens": [
+            "https://github.com/vetherasset/vader-tokens/commit/b399f2533c1ebf88aad5dab149691b9a2bf98a95",
+            "https://github.com/vetherasset/vader-tokens/commit/3e05deb66a53248f6bdafa10d5570b5c8c479b79",
+            "https://github.com/vetherasset/vader-tokens/commit/5359e3aee020a25c47eba507549311c9c2558084",
+            "https://github.com/vetherasset/vader-tokens/commit/8412cf9324b40846066d5a994ab09d2583341caf",
+            "https://github.com/vetherasset/vader-tokens/commit/872f2b6197924491c4d53798f1cc009c56cdaeaa",
+            "https://github.com/vetherasset/vader-tokens/commit/51ffc90e90d6db1ebce1785b15767ced68352eaf"
+        ],
+        "WizzyDev/uniswap-v4": [
+            "https://github.com/WizzyDev/uniswap-v4/commit/ff1dc91a496a329ada6c410a7b1b3cd8cf782160"
+        ],
+        "EazyReal/VannaSwapContracts": [
+            "https://github.com/EazyReal/VannaSwapContracts/commit/ff1dc91a496a329ada6c410a7b1b3cd8cf782160"
+        ],
+        "vetherasset/vaderprotocol-contracts": [
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/9f43f647b7577b47eedb2f369d9c37d74a417036",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/930650627e4563b2b272c8feb4c9fe3deac75c33",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/d5a57df8266a19642e45c14a697f85dd0cf74bb7",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/de6a72ef593fb639207ffc21e7dc10a8ee5f5876",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/2b8095fffe3ecb9c6618aa3495ac75e6f5d8f529",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/6e80b95a8320c41e16ea8b6b33262531d2a1c489",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/50dcb8c89c43cd3824046fd1728bedfc1424a128",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/ee56c38c7db075eed91b9e4be3f3655565ba470f",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/341faeaa2717929ce014652ca811fa1e31cf2045",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/e6c751aaadf367356b4247fa833bebd821a40b0c",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/d5549c1657bec65e2733d5d819d52e57426e64b1",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/35bcf9689f85a8531b7dca1b0a64e297447e67cc",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/c6e7673a8b8f3ee8d3f98e236a7bb95021d21c94",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/563c8fab305e09051f6ae1cb540230f984e1f18e",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/fcfb8d0a3435cc0d73ae278451b2a9d039bde7ca",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/b3f628f5f9385829fb6fa07619f7cec2e955c9d6",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/8cedbc5ac4ffa6c3e4a9a40b5b05a7614c2fcd09",
+            "https://github.com/vetherasset/vaderprotocol-contracts/commit/b045371ec14f862425e0e3873f2498f3e7a0cf54"
+        ],
+        "foundry-rs/forge-std": [
+            "https://github.com/foundry-rs/forge-std/commit/adec12de5e4575a23df075ee4917cb058c2c617d"
+        ],
+        "JordiMartinezDev/SolidityWallet": [
+            "https://github.com/JordiMartinezDev/SolidityWallet/commit/adec12de5e4575a23df075ee4917cb058c2c617d"
+        ]
+    },
+    "potential_copy": [
+        {
+            "repo": "Cab-Configurator",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2017-10-12T08:23:51+09:00"
+        },
+        {
+            "repo": "React-Chat-App",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2019-05-04T16:20:42+10:00"
+        }
+    ]
+}
