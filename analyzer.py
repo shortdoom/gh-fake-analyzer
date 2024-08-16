@@ -32,7 +32,7 @@ if GH_TOKEN:
 
 RETRY_LIMIT = 10
 ITEMS_PER_PAGE = 100
-SLEEP_INTERVAL = 1  # Interval between requests to avoid rate limiting
+SLEEP_INTERVAL = 1  # Be polite to the API
 GIT_OUT_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "out")
 
 
@@ -118,12 +118,12 @@ def fetch_all_pages(url, params=None):
                 results.extend(response["items"])
             else:
                 results.extend(response)
-            if 'Link' in headers:
-                links = requests.utils.parse_header_links(headers['Link'])
+            if "Link" in headers:
+                links = requests.utils.parse_header_links(headers["Link"])
                 url = None
                 for link in links:
-                    if link['rel'] == 'next':
-                        url = link['url']
+                    if link["rel"] == "next":
+                        url = link["url"]
                         params = None
                         break
             else:
@@ -200,6 +200,10 @@ class GitHubProfileAnalyzer:
                         for contributor in repo_contributors:
                             contributors[repo_name].add(contributor["login"])
 
+            # Classify repos as forked or original
+            repo_list = [repo["name"] for repo in self.all_repos if not repo["fork"]]
+            forked_repo_list = [repo["name"] for repo in self.all_repos if repo["fork"]]
+
             # Find unique emails in commits
             unique_emails = {}
             for repo_name, commits in self.commits.items():
@@ -245,7 +249,9 @@ class GitHubProfileAnalyzer:
                 "per_page": ITEMS_PER_PAGE,
             }
             commits_to_other_repos = {}
-            search_commits_results = fetch_all_pages(search_commits_url, search_commits_params)
+            search_commits_results = fetch_all_pages(
+                search_commits_url, search_commits_params
+            )
 
             if search_commits_results:
                 for item in search_commits_results:
@@ -262,16 +268,44 @@ class GitHubProfileAnalyzer:
             followers_list = [f"{BASE_GITHUB_URL}{f['login']}" for f in self.followers]
             following_list = [f"{BASE_GITHUB_URL}{f['login']}" for f in self.following]
 
+            # Extract desired fields from profile_data
+            profile_info = {
+                "login": self.profile_data["login"],
+                "id": self.profile_data["id"],
+                "node_id": self.profile_data["node_id"],
+                "avatar_url": self.profile_data["avatar_url"],
+                "html_url": self.profile_data["html_url"],
+                "type": self.profile_data["type"],
+                "site_admin": self.profile_data["site_admin"],
+                "name": self.profile_data["name"],
+                "company": self.profile_data.get("company"),
+                "blog": self.profile_data.get("blog"),
+                "location": self.profile_data.get("location"),
+                "email": self.profile_data.get("email"),
+                "hireable": self.profile_data.get("hireable"),
+                "bio": self.profile_data.get("bio"),
+                "twitter_username": self.profile_data.get("twitter_username"),
+                "public_repos": self.profile_data["public_repos"],
+                "public_gists": self.profile_data["public_gists"],
+                "followers": self.profile_data["followers"],
+                "following": self.profile_data["following"],
+                "created_at": self.profile_data["created_at"],
+                "updated_at": self.profile_data["updated_at"],
+            }
+
             report_data = {
+                "profile_info": profile_info,
+                "original_repos_count": original_repos_count,
+                "forked_repos_count": forked_repos_count,
+                "unique_emails": unique_emails,
                 "mutual_followers": list(mutual_followers),
+                "following": following_list,
+                "followers": followers_list,
+                "repo_list": repo_list,
+                "forked_repo_list": forked_repo_list,
                 "contributors": {
                     repo: list(users) for repo, users in contributors.items()
                 },
-                "followers": followers_list,
-                "following": following_list,
-                "unique_emails": unique_emails,
-                "original_repos_count": original_repos_count,
-                "forked_repos_count": forked_repos_count,
                 "pull_requests_to_other_repos": pull_requests_to_other_repos,
                 "commits_to_other_repos": commits_to_other_repos,
             }
@@ -403,62 +437,73 @@ class GitHubProfileAnalyzer:
 
     def fetch_from_git_clone(self):
         failed_repos = []
-        try:
-            for repo in self.all_repos:
-                if not repo["fork"]:
-                    repo_name = repo["name"]
-                    clone_url = repo["clone_url"]
-                    repo_dir = os.path.join(
-                        self.user_dir, f"{self.username}_{repo_name}.git"
-                    )
 
-                    if not os.path.exists(repo_dir):
-                        try:
-                            print(f"Git clone: {clone_url}")
-                            logging.info(f"Git clone: {clone_url}")
-                            git.Repo.clone_from(
-                                clone_url, repo_dir, bare=True, depth=100
-                            )
-                        except git.exc.GitCommandError as e:
-                            if "DMCA" in str(e):
-                                print(
-                                    f"Repository {repo_name} is unavailable due to DMCA takedown."
-                                )
-                                logging.error(
-                                    f"Repository {repo_name} is unavailable due to DMCA takedown."
-                                )
-                                failed_repos.append(
-                                    {
-                                        "repo_name": repo_name,
-                                        "clone_url": clone_url,
-                                        "reason": "DMCA takedown",
-                                    }
-                                )
-                            else:
-                                print(f"Error in {repo_name}: {e}")
-                                logging.error(
-                                    f"fetch_from_git_clone() error in {repo_name}: {e}"
-                                )
-                                failed_repos.append(
-                                    {
-                                        "repo_name": repo_name,
-                                        "clone_url": clone_url,
-                                        "reason": str(e),
-                                    }
-                                )
+        for repo in self.all_repos:
+            print(f"Processing repo: {repo['name']}")
+            logging.info(f"Processing repo: {repo['name']}")
+
+            repo_name = repo["name"]
+            clone_url = repo["clone_url"]
+            repo_dir = os.path.join(self.user_dir, f"{self.username}_{repo_name}.git")
+
+            if not repo["fork"] and not os.path.exists(repo_dir):
+                try:
+                    # Attempt to clone the repository
+                    print(f"Git clone: {clone_url}")
+                    logging.info(f"Git clone: {clone_url}")
+                    git.Repo.clone_from(clone_url, repo_dir, bare=True, depth=100)
+
+                    # Fetch commits if the clone was successful
+                    self.commits[repo_name] = self.fetch_repo_commits(repo_dir)
 
                     if os.path.exists(repo_dir):
-                        self.commits[repo_name] = self.fetch_repo_commits(repo_dir)
-                        try:
-                            shutil.rmtree(repo_dir)
-                            logging.info(f"Deleted {repo_dir}")
-                        except Exception as e:
-                            logging.error(f"Error deleting {repo_dir}: {e}")
+                        shutil.rmtree(repo_dir)
+                        logging.info(f"Deleted {repo_dir}")
 
-        except Exception as e:
-            logging.error(f"Error in fetch_from_git_clone: {e}")
-        finally:
-            self.save_failed_repos(failed_repos)
+                except git.exc.GitCommandError as e:
+                    # Handle cloning errors, including specific ones like DMCA takedown
+                    if "DMCA" in str(e):
+                        print(
+                            f"Repository {repo_name} is unavailable due to DMCA takedown."
+                        )
+                        logging.error(
+                            f"Repository {repo_name} is unavailable due to DMCA takedown."
+                        )
+                        failed_repos.append(
+                            {
+                                "repo_name": repo_name,
+                                "clone_url": clone_url,
+                                "reason": "DMCA takedown",
+                            }
+                        )
+                    else:
+                        print(f"Error in git.Repo.clone_from() - {repo_name}: {e}")
+                        logging.error(f"Git clone failed for {repo_name}: {e}")
+                        failed_repos.append(
+                            {
+                                "repo_name": repo_name,
+                                "clone_url": clone_url,
+                                "reason": str(e),
+                            }
+                        )
+                except Exception as e:
+                    # Handle any other exceptions
+                    print(f"Unexpected error fetch_from_git_clone() - {repo_name}: {e}")
+                    logging.error(f"Unexpected error for {repo_name}: {e}")
+                    failed_repos.append(
+                        {
+                            "repo_name": repo_name,
+                            "clone_url": clone_url,
+                            "reason": str(e),
+                        }
+                    )
+                finally:
+                    if os.path.exists(repo_dir):
+                        shutil.rmtree(repo_dir)
+                        logging.info(f"Deleted {repo_dir}")
+
+        # Save the list of repositories that failed to clone
+        self.save_failed_repos(failed_repos)
 
     def fetch_repo_commits(self, repo_dir):
         try:
@@ -493,14 +538,24 @@ class GitHubProfileAnalyzer:
         except git.exc.NoSuchPathError as e:
             logging.error(f"fetch_repo_commits() Path error: {e}")
             return []
+        except Exception as e:
+            logging.error(f"fetch_repo_commits() Unexpected Error: {e}")
+            return []
 
     def fetch_commit_messages(self):
         try:
             for repo_name, commits in self.commits.items():
                 if commits:
                     for commit in commits:
-                        # NOTE: Only commit messages
-                        self.commit_msgs[repo_name].append(commit["commit"]["message"])
+                        try:
+                            # Collect commit messages
+                            self.commit_msgs[repo_name].append(
+                                commit["commit"]["message"]
+                            )
+                        except KeyError as e:
+                            logging.error(
+                                f"Error processing commit for {repo_name}: {e}"
+                            )
                 else:
                     self.commit_msgs[repo_name] = []
         except Exception as e:
@@ -598,7 +653,7 @@ if __name__ == "__main__":
 
         logging.info("Generating report...")
         analyzer.generate_report()
-        
+
     except Exception as e:
         logging.error(f"Error in main execution: {e}")
 
