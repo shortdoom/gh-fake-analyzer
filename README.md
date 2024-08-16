@@ -23,8 +23,10 @@ DISCLAIMER: The confidence in detecting "malicious" GitHub profiles is low. Many
 4. To search for copied commits (optional/experimental, can take a lot of time):
 
    ```sh
-   python analyzer.py <username> --commit_search
+   python github_analyzer.py <username> --commit_search
    ```
+
+   `--commit_search` can be re-run using the existing data without the need to re-run the whole analysis, script will check if <username> exsists. 
 
 5. To read from the `targets` (see `targets.example`) file and dump data for every profile specified just run:
 
@@ -35,11 +37,12 @@ DISCLAIMER: The confidence in detecting "malicious" GitHub profiles is low. Many
    Optionally, you can specify the path to custom `targets` file:
 
    ```sh
-   python github_analyzer.py <path>
+   python github_analyzer.py --targets <path>
    ```
 
-
 6. A `script.log` file is created after the first run.
+
+You can also run `analyzer.py` directly with same arguments.
 
 # How to Read the Output
 
