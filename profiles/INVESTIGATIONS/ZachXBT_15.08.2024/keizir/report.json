@@ -20,7 +20,7 @@
         "followers": 4,
         "following": 0,
         "created_at": "2018-01-10T15:06:22Z",
-        "updated_at": "2024-07-31T16:03:42Z"
+        "updated_at": "2024-08-16T05:38:29Z"
     },
     "original_repos_count": 13,
     "forked_repos_count": 12,
@@ -31,7 +31,29 @@
         "ibudisteanu@users.noreply.github.com": "Alexandru Ionut Budisteanu",
         "viskovitzzz@gmail.com": "Libby Kent",
         "samer.falah@jpmchase.com": "Samer Falah",
-        "stuarth323@gmail.com": "stuarth1"
+        "stuarth323@gmail.com": "stuarth1",
+        "m@42.am": "Manfred Touron",
+        "karmelylle@rambler.ru": "Nelly Asher",
+        "ahamidullah@gmail.com": "ahh",
+        "shawn111@gmail.com": "Shawn Wang",
+        "tech@uniplug.ru": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0428\u0443\u043b\u044c\u0433\u0430\u0447\u0438\u043a",
+        "alenn.masic@gmail.com": "Alen Masic",
+        "valentin.daviot@alterway.fr": "valentin.daviot",
+        "bot@renovateapp.com": "Renovate Bot",
+        "julien.dessaux@adyxax.org": "Julien Dessaux",
+        "msa@nbs-system.com": "Manuel Sabban",
+        "julien.dessaux@alterway.fr": "Julien Dessaux",
+        "manuel.sabban@nbs-system.com": "Manuel",
+        "jonathan.lestrelin@gmail.com": "Jonathan Lestrelin",
+        "mathieu.pasquet@alterway.fr": "Mathieu Pasquet",
+        "manu@sabban.eu": "Manuel Sabban",
+        "qperez42@gmail.com": "Quentin Perez",
+        "me@alexturner.co": "Alexander Turner",
+        "badges@fossa.io": "fossabot",
+        "magicmikevv@gmail.com": "mikzol",
+        "1383577+Ligemer@users.noreply.github.com": "Dustin Alan",
+        "dev@dustinalan.com": "Dustin Alan",
+        "morseusz@gmail.com": "Piotr Nowakowski"
     },
     "mutual_followers": [],
     "following": [],
@@ -41,64 +63,6 @@
         "https://github.com/jac0x",
         "https://github.com/albertleva1"
     ],
-    "contributors": {
-        "anonymous_zether": [
-            "JohnSt99",
-            "zzy96",
-            "stubocka",
-            "jpmsam",
-            "keizir",
-            "libby",
-            "ibudisteanu"
-        ],
-        "blockchain-game": [
-            "keizir"
-        ],
-        "dashboard-react": [
-            "keizir",
-            "basarevych"
-        ],
-        "erc1155-nft": [
-            "keizir"
-        ],
-        "gmx-task": [
-            "keizir"
-        ],
-        "ihsm-hfod": [
-            "keizir"
-        ],
-        "parlai_mturk": [
-            "keizir"
-        ],
-        "pop_proof-of-pickup": [
-            "keizir"
-        ],
-        "ssh-golang": [
-            "renovate-bot",
-            "alexanderturner",
-            "adyxax",
-            "fossabot",
-            "Raerten",
-            "moul",
-            "alenn-m",
-            "jle64",
-            "QuentinPerez",
-            "shawn111",
-            "ahamidullah"
-        ],
-        "strainrx": [
-            "piotrek-nowakowski",
-            "nikogonzalez",
-            "straintech",
-            "knoha",
-            "morzel",
-            "thisjustin",
-            "mickydionisio"
-        ],
-        "zunaverse-backend": [
-            "keizir"
-        ]
-    },
     "repo_list": [
         "anonymous_zether",
         "blockchain-game",
@@ -128,6 +92,64 @@
         "pythondotorg",
         "typeshed"
     ],
+    "contributors": {
+        "anonymous_zether": [
+            "zzy96",
+            "JohnSt99",
+            "keizir",
+            "libby",
+            "stubocka",
+            "ibudisteanu",
+            "jpmsam"
+        ],
+        "blockchain-game": [
+            "keizir"
+        ],
+        "dashboard-react": [
+            "keizir",
+            "basarevych"
+        ],
+        "erc1155-nft": [
+            "keizir"
+        ],
+        "gmx-task": [
+            "keizir"
+        ],
+        "ihsm-hfod": [
+            "keizir"
+        ],
+        "parlai_mturk": [
+            "keizir"
+        ],
+        "pop_proof-of-pickup": [
+            "keizir"
+        ],
+        "ssh-golang": [
+            "alexanderturner",
+            "Raerten",
+            "moul",
+            "QuentinPerez",
+            "shawn111",
+            "jle64",
+            "renovate-bot",
+            "adyxax",
+            "fossabot",
+            "ahamidullah",
+            "alenn-m"
+        ],
+        "strainrx": [
+            "morzel",
+            "mickydionisio",
+            "knoha",
+            "straintech",
+            "nikogonzalez",
+            "thisjustin",
+            "piotrek-nowakowski"
+        ],
+        "zunaverse-backend": [
+            "keizir"
+        ]
+    },
     "pull_requests_to_other_repos": {
         "DeltaPrimeLabs/deltaprime-primeloans": [
             "https://github.com/DeltaPrimeLabs/deltaprime-primeloans/pull/309",
@@ -187,5 +209,12 @@
             "https://github.com/nikolaykrkn/coupon/commit/eb82ddd4be22380739ecca79a87760b1d9ff0c33",
             "https://github.com/nikolaykrkn/coupon/commit/a1f90a0f5b2051e2c214472dbf0941c1a57aca34"
         ]
-    }
+    },
+    "potential_copy": [
+        {
+            "repo": "ssh-golang",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2017-11-20T10:24:30+01:00"
+        }
+    ]
 }

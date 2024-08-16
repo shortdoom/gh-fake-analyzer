@@ -28,9 +28,9 @@
     "mutual_followers": [],
     "following": [],
     "followers": [],
-    "contributors": {},
     "repo_list": [],
     "forked_repo_list": [],
+    "contributors": {},
     "pull_requests_to_other_repos": {},
     "commits_to_other_repos": {
         "mono300genuine/truflation-contracts": [

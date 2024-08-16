@@ -47,8 +47,8 @@
         "senwebdev1009@gmail.com": "Satoshi Naoki"
     },
     "mutual_followers": [
-        "jurgisjaska",
-        "silochad"
+        "silochad",
+        "jurgisjaska"
     ],
     "following": [
         "https://github.com/jurgisjaska",
@@ -80,48 +80,6 @@
         "https://github.com/silochad",
         "https://github.com/0xkryptstein"
     ],
-    "contributors": {
-        "Aera-Vault-V1": [
-            "satoshi-gauntlet",
-            "feizerl",
-            "syakunin",
-            "0xb10ckdev",
-            "Pet3ris",
-            "bschreck",
-            "yorhodes"
-        ],
-        "Aera-Vault-V2": [
-            "satoshi-gauntlet",
-            "JuliusDegesys",
-            "nickborg",
-            "0xb10ckdev",
-            "Pet3ris",
-            "bschreck",
-            "syakunin"
-        ],
-        "BadgerDAO-TVL": [
-            "0xb10ckdev"
-        ],
-        "Cab-Configurator": [
-            "dependabot[bot]",
-            "0xb10ckdev"
-        ],
-        "Pancakeswap-V2-Simple-Subgraph": [
-            "0xb10ckdev"
-        ],
-        "Popcorn-Stargate-Vault": [
-            "0xb10ckdev"
-        ],
-        "React-Chat-App": [
-            "0xb10ckdev"
-        ],
-        "Tixl-Blockchain_Logic-Test": [
-            "0xb10ckdev"
-        ],
-        "Wevest-Protocol": [
-            "0xb10ckdev"
-        ]
-    },
     "repo_list": [
         "Aera-Vault-V1",
         "Aera-Vault-V2",
@@ -153,6 +111,48 @@
         "Uniswap-V4-Core",
         "vfat-tools"
     ],
+    "contributors": {
+        "Aera-Vault-V1": [
+            "syakunin",
+            "yorhodes",
+            "satoshi-gauntlet",
+            "feizerl",
+            "0xb10ckdev",
+            "bschreck",
+            "Pet3ris"
+        ],
+        "Aera-Vault-V2": [
+            "syakunin",
+            "satoshi-gauntlet",
+            "0xb10ckdev",
+            "bschreck",
+            "Pet3ris",
+            "JuliusDegesys",
+            "nickborg"
+        ],
+        "BadgerDAO-TVL": [
+            "0xb10ckdev"
+        ],
+        "Cab-Configurator": [
+            "0xb10ckdev",
+            "dependabot[bot]"
+        ],
+        "Pancakeswap-V2-Simple-Subgraph": [
+            "0xb10ckdev"
+        ],
+        "Popcorn-Stargate-Vault": [
+            "0xb10ckdev"
+        ],
+        "React-Chat-App": [
+            "0xb10ckdev"
+        ],
+        "Tixl-Blockchain_Logic-Test": [
+            "0xb10ckdev"
+        ],
+        "Wevest-Protocol": [
+            "0xb10ckdev"
+        ]
+    },
     "pull_requests_to_other_repos": {
         "defi-wonderland/prophet-core": [
             "https://github.com/defi-wonderland/prophet-core/pull/2",
