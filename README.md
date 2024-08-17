@@ -1,48 +1,28 @@
-# About
+# Github Profile Analyzer
 
-Dump profile data of any user or organization on GitHub. Built with the OSINT/security community in mind. Can be used for good too!
+Download and analyze profile data of any user or organization on GitHub. A reconnaissance tool for OSINT/security community, use to inspect for dark patterns in potential bot/scammer/blackhat/fake-employee type of accounts.
 
-DISCLAIMER: The confidence in detecting "malicious" GitHub profiles is low. Many regular user accounts may appear in the analysis files; this does not indicate their participation in any illegal activity. ANYBODY can edit the `.git` file, and ANYBODY can commit code to GitHub. This tool is intended for reconnaissance purposes only.
+### Install
 
-# How to Install & Run
+Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow). 
 
-1. Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow). Github API tokens are only alive for 30 days, you'll need to regenerate your token after that time. 
+<small><i>Optionally, rename `targets.example` to `targets` and supply list of profiles to analyze.</i></small>
 
-2. Install the required packages:
+<small><i>Github API tokens are only alive for 30 days, you'll need to regenerate your token after that time.</i></small>
+ 
+### Run
 
-   ```sh
+```sh
    pip install -r requirements.txt
-   ```
+   python analyze.py <username> # analyze a single user
 
-3. Run the analysis:
+   # Optional
+   python analyze.py # read from "targets" and analyze all
+   python analyze.py <username> --commit_search # search github for commit messages (slow, experimental)
+   python analyze.py --targets <path> # custom_file.txt to read from as "targets"   
+```
 
-   ```sh
-   python github_analyzer.py <username>
-   ```
-
-4. To search for copied commits (optional/experimental, can take a lot of time):
-
-   ```sh
-   python github_analyzer.py <username> --commit_search
-   ```
-
-   `--commit_search` can be re-run using the existing data without the need to re-run the whole analysis, script will check if <username> exsists. 
-
-5. To read from the `targets` (see `targets.example`) file and dump data for every profile specified just run:
-
-   ```sh
-   python github_analyzer.py
-   ```
-
-   Optionally, you can specify the path to custom `targets` file:
-
-   ```sh
-   python github_analyzer.py --targets <path>
-   ```
-
-6. A `script.log` file is created after the first run.
-
-You can also run `analyzer.py` directly with same arguments.
+A `script.log` file is created after the first run. All profile data is downloaded to `/out`.
 
 # How to Read the Output
 
@@ -50,7 +30,7 @@ Inside the `/out` directory, there will be a `<username>` subdirectory for each 
 
 Report file is main output file, `{username}.json` file is the full data dump (can be long). Cross-search both files for the best effect.
 
-- The `{username}.json` file contains the user's profile data, all repositories hosted on the user's account (forked and not), all commit data (including commit messages to any repositories hosted on the user's account), as well as following and followers data. The `date_filter` and `commit_filter` will only be non-empty if a suspicious flag is raised (experimental, low confidence). It's a "big" data dump file.
+- The `{username}.json` file contains the user's profile data, all repositories hosted on the user's account (forked and not), all commit data (including commit messages to any repositories hosted on the user's account), as well as following and followers data. The `date_filter` will only be non-empty if a suspicious flag is raised (experimental, low confidence). The `commit_filter` will only be present if `--commit_search` flag was used.
 
 - The `report.json` is built on top off `{username}.json` file. Additionally, it contains more of external data for profile, such as the user's pull requests created to any repository, as well as commits added to any repository (including repositories not hosted on the user's account). It also contains a list of `unique_emails` (emails of contributors to the user's hosted repositories) extracted from the commit data. Additionally, for easier access, followers/following data is repeated as a GitHub URL.
 
@@ -61,6 +41,8 @@ IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repo
 It's best to navigate all files to get a clearer picture of the user's activity.
 
 # Malicious Github Accounts
+
+DISCLAIMER: The confidence in detecting "malicious" GitHub profiles is low. Many regular user accounts may appear in the analysis files; this does not indicate their participation in any illegal activity. ANYBODY can edit the `.git` file, and ANYBODY can commit code to GitHub. This tool is intended for reconnaissance purposes only.
 
 It's possible, to a certain degree, to define some metrics for classifying GitHub profiles as potentially malicious. However, motivated enough attackers can still bypass most of those checks and appear as professional engineers. If that's the case, a company should fall back to regular methods of judging a potential employee/contact. The following script can help out with finding some dark patterns if the attacker is not motivated enough :)
 
