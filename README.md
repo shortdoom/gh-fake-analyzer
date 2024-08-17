@@ -1,6 +1,6 @@
 # Github Profile Analyzer
 
-Download and analyze profile data of any user or organization on GitHub. A reconnaissance tool for OSINT/security community, use to inspect for dark patterns in potential bot/scammer/blackhat/fake-employee type of accounts.
+Download and analyze profile data for any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
 ### Install
 
@@ -13,10 +13,11 @@ Rename `.env.example` to `.env` and supply your GitHub API Key (generated in you
 ### Run
 
 ```sh
-   pip install -r requirements.txt
+   # In new venv
+   pip install -r requirements.txt # install required packages
    python analyze.py <username> # analyze a single user
 
-   # Optional
+   # Optionally
    python analyze.py # read from "targets" and analyze all
    python analyze.py <username> --commit_search # search github for commit messages (slow, experimental)
    python analyze.py --targets <path> # custom_file.txt to read from as "targets"   
