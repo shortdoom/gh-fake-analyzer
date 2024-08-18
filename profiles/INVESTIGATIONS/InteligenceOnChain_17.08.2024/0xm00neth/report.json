@@ -1,0 +1,534 @@
+{
+    "profile_info": {
+        "login": "0xm00neth",
+        "id": 93987216,
+        "node_id": "U_kgDOBZohkA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/93987216?v=4",
+        "html_url": "https://github.com/0xm00neth",
+        "type": "User",
+        "site_admin": false,
+        "name": "m00n",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": "0xm00neth",
+        "public_repos": 24,
+        "public_gists": 0,
+        "followers": 21,
+        "following": 40,
+        "created_at": "2021-11-09T12:25:57Z",
+        "updated_at": "2024-08-14T16:02:24Z"
+    },
+    "original_repos_count": 16,
+    "forked_repos_count": 8,
+    "unique_emails": {
+        "0xm00neth@gmail.com": "0xm00neth",
+        "90406700+Gornutz@users.noreply.github.com": "Gornutz",
+        "noreply@github.com": "GitHub"
+    },
+    "mutual_followers": [
+        "imcoolbean",
+        "silochad",
+        "beam00n",
+        "pmgrc",
+        "Space-Bean",
+        "Kos-M",
+        "ZrowGz",
+        "fabiohild",
+        "arodundef"
+    ],
+    "following": [
+        "https://github.com/jaekwon",
+        "https://github.com/gorgos",
+        "https://github.com/chrisbarry",
+        "https://github.com/michwill",
+        "https://github.com/puzzithinker",
+        "https://github.com/0xNikolas",
+        "https://github.com/gtsui",
+        "https://github.com/burbabull",
+        "https://github.com/bam4564",
+        "https://github.com/fabiohild",
+        "https://github.com/zetsuchan",
+        "https://github.com/maltseasy",
+        "https://github.com/hellofromguy",
+        "https://github.com/outdoteth",
+        "https://github.com/Kos-M",
+        "https://github.com/Ragulcv",
+        "https://github.com/pmgrc",
+        "https://github.com/reflexer-labs",
+        "https://github.com/ethwallet13",
+        "https://github.com/dezcalimese",
+        "https://github.com/ZrowGz",
+        "https://github.com/eigmax",
+        "https://github.com/publiuss",
+        "https://github.com/chadury2021",
+        "https://github.com/Gornutz",
+        "https://github.com/arodundef",
+        "https://github.com/Layr-Labs",
+        "https://github.com/GoSteadily",
+        "https://github.com/beanjoyer",
+        "https://github.com/rarddd",
+        "https://github.com/sbneo2022",
+        "https://github.com/imcoolbean",
+        "https://github.com/BeanstalkFarms",
+        "https://github.com/silochad",
+        "https://github.com/savvy-finance",
+        "https://github.com/0xMisaka",
+        "https://github.com/spniyant",
+        "https://github.com/teamspice",
+        "https://github.com/Space-Bean",
+        "https://github.com/beam00n"
+    ],
+    "followers": [
+        "https://github.com/aallamaa",
+        "https://github.com/fabiohild",
+        "https://github.com/Wertusser",
+        "https://github.com/Yellow-Cake",
+        "https://github.com/jaimindp",
+        "https://github.com/Kos-M",
+        "https://github.com/pmgrc",
+        "https://github.com/Sebcuadros",
+        "https://github.com/adarshswaminath",
+        "https://github.com/ZrowGz",
+        "https://github.com/RubyAquaMarine",
+        "https://github.com/arodundef",
+        "https://github.com/imcoolbean",
+        "https://github.com/silochad",
+        "https://github.com/Joshgabbitus",
+        "https://github.com/hungng157",
+        "https://github.com/Marcus-Defi",
+        "https://github.com/Space-Bean",
+        "https://github.com/beam00n",
+        "https://github.com/cmillisdumb",
+        "https://github.com/Winner960111"
+    ],
+    "repo_list": [
+        "cosmwasm-token-distributor",
+        "cw-nft-marketplace",
+        "erc20-token",
+        "eth-pool",
+        "hcaptcha-worker",
+        "ibc-balance-tracker",
+        "lazy-arb",
+        "name-registrar",
+        "nft-lending-contracts",
+        "nft-sale",
+        "pool-router",
+        "relayer-service",
+        "solidity-test",
+        "stargate-finance-vault",
+        "stUSD",
+        "uniswap-v3-price-changer"
+    ],
+    "forked_repo_list": [
+        "cosmwasm-contracts",
+        "cw-contracts",
+        "defi-by-example",
+        "DefiLlama-Adapters",
+        "paraswap-dex-lib",
+        "SolidityInterviewTest",
+        "studio",
+        "yield-server"
+    ],
+    "contributors": {
+        "cosmwasm-token-distributor": [
+            "0xm00neth"
+        ],
+        "cw-nft-marketplace": [
+            "0xm00neth"
+        ],
+        "erc20-token": [
+            "0xm00neth"
+        ],
+        "eth-pool": [
+            "0xm00neth"
+        ],
+        "hcaptcha-worker": [
+            "0xm00neth"
+        ],
+        "ibc-balance-tracker": [
+            "0xm00neth"
+        ],
+        "lazy-arb": [
+            "0xm00neth"
+        ],
+        "name-registrar": [
+            "0xm00neth"
+        ],
+        "nft-lending-contracts": [
+            "0xm00neth"
+        ],
+        "nft-sale": [
+            "0xm00neth"
+        ],
+        "pool-router": [
+            "0xm00neth"
+        ],
+        "relayer-service": [
+            "0xm00neth"
+        ],
+        "solidity-test": [
+            "0xm00neth"
+        ],
+        "stargate-finance-vault": [
+            "0xm00neth"
+        ],
+        "stUSD": [
+            "Gornutz",
+            "0xm00neth"
+        ],
+        "uniswap-v3-price-changer": [
+            "0xm00neth"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "Blueberryfi/blueberry-core": [
+            "https://github.com/Blueberryfi/blueberry-core/pull/104",
+            "https://github.com/Blueberryfi/blueberry-core/pull/102",
+            "https://github.com/Blueberryfi/blueberry-core/pull/101",
+            "https://github.com/Blueberryfi/blueberry-core/pull/100",
+            "https://github.com/Blueberryfi/blueberry-core/pull/98",
+            "https://github.com/Blueberryfi/blueberry-core/pull/91",
+            "https://github.com/Blueberryfi/blueberry-core/pull/90",
+            "https://github.com/Blueberryfi/blueberry-core/pull/89",
+            "https://github.com/Blueberryfi/blueberry-core/pull/88",
+            "https://github.com/Blueberryfi/blueberry-core/pull/87",
+            "https://github.com/Blueberryfi/blueberry-core/pull/85",
+            "https://github.com/Blueberryfi/blueberry-core/pull/84",
+            "https://github.com/Blueberryfi/blueberry-core/pull/83",
+            "https://github.com/Blueberryfi/blueberry-core/pull/81",
+            "https://github.com/Blueberryfi/blueberry-core/pull/78",
+            "https://github.com/Blueberryfi/blueberry-core/pull/75",
+            "https://github.com/Blueberryfi/blueberry-core/pull/74",
+            "https://github.com/Blueberryfi/blueberry-core/pull/73",
+            "https://github.com/Blueberryfi/blueberry-core/pull/72",
+            "https://github.com/Blueberryfi/blueberry-core/pull/71",
+            "https://github.com/Blueberryfi/blueberry-core/pull/63",
+            "https://github.com/Blueberryfi/blueberry-core/pull/62",
+            "https://github.com/Blueberryfi/blueberry-core/pull/61",
+            "https://github.com/Blueberryfi/blueberry-core/pull/60",
+            "https://github.com/Blueberryfi/blueberry-core/pull/58",
+            "https://github.com/Blueberryfi/blueberry-core/pull/56",
+            "https://github.com/Blueberryfi/blueberry-core/pull/54",
+            "https://github.com/Blueberryfi/blueberry-core/pull/53",
+            "https://github.com/Blueberryfi/blueberry-core/pull/51",
+            "https://github.com/Blueberryfi/blueberry-core/pull/48",
+            "https://github.com/Blueberryfi/blueberry-core/pull/47",
+            "https://github.com/Blueberryfi/blueberry-core/pull/46",
+            "https://github.com/Blueberryfi/blueberry-core/pull/38",
+            "https://github.com/Blueberryfi/blueberry-core/pull/37"
+        ],
+        "DefiLlama/DefiLlama-Adapters": [
+            "https://github.com/DefiLlama/DefiLlama-Adapters/pull/6786",
+            "https://github.com/DefiLlama/DefiLlama-Adapters/pull/5384"
+        ],
+        "DefiLlama/yield-server": [
+            "https://github.com/DefiLlama/yield-server/pull/849",
+            "https://github.com/DefiLlama/yield-server/pull/819",
+            "https://github.com/DefiLlama/yield-server/pull/719",
+            "https://github.com/DefiLlama/yield-server/pull/696",
+            "https://github.com/DefiLlama/yield-server/pull/606"
+        ],
+        "Blueberryfi/Bloom-protocol": [
+            "https://github.com/Blueberryfi/Bloom-protocol/pull/4",
+            "https://github.com/Blueberryfi/Bloom-protocol/pull/2",
+            "https://github.com/Blueberryfi/Bloom-protocol/pull/1"
+        ],
+        "paraswap/paraswap-dex-lib": [
+            "https://github.com/paraswap/paraswap-dex-lib/pull/392"
+        ],
+        "Zapper-fi/studio": [
+            "https://github.com/Zapper-fi/studio/pull/2582",
+            "https://github.com/Zapper-fi/studio/pull/2556"
+        ],
+        "BeanstalkFarms/Beanstalk": [
+            "https://github.com/BeanstalkFarms/Beanstalk/pull/107",
+            "https://github.com/BeanstalkFarms/Beanstalk/pull/95",
+            "https://github.com/BeanstalkFarms/Beanstalk/pull/68"
+        ],
+        "GrantStenger/n3rp": [
+            "https://github.com/GrantStenger/n3rp/pull/18"
+        ],
+        "cosmic-horizon/QWOYN": [
+            "https://github.com/cosmic-horizon/QWOYN/pull/7"
+        ]
+    },
+    "commits_to_other_repos": {
+        "DefiLlama/yield-server": [
+            "https://github.com/DefiLlama/yield-server/commit/5491f34319e4a8928c856fc2f66ef85a13e62b37",
+            "https://github.com/DefiLlama/yield-server/commit/74f961d3db85327cee2b87fc75f4d6baff5086aa",
+            "https://github.com/DefiLlama/yield-server/commit/12ec911d6eb6861ba2e925e966b1dd6b661608c6",
+            "https://github.com/DefiLlama/yield-server/commit/fb5a80d13ea258b3a12bdc3529d9824914b8d10e",
+            "https://github.com/DefiLlama/yield-server/commit/0bf422f81cbdf4d3ca7c168f424cf154e94828b8"
+        ],
+        "Fingerprints-DAO/maschine-contracts": [
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/50f537715a790c68f50a68e8201c22fab72dc8d1",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/44f9fb8f8146bf19dafcbb0d9f2c28d748c0c9fa",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/4f8c5ff0f54431b061977b9aac9544d07b73c4f1",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/0c1de52748ad23b40e863fc48837a00a05379204",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/fa7ffe8956df8ca066d8208185d8175dbfeb6553",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/f25799e1d5dcab14edce03b793589f7a3a91068d",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/ff4a3ee6d8c38761e7d544b02809dc90480be06a",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/ab2dbd6f8bf78649b5ee7076bd000fb3560e35c6",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/a3665321065bca2444a711b9daf2060d116b6d30",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/1f99aee677de005f81a09a2784215ed47e19a056",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/ea1aad3955ce6e5be42d7c1811bf98e5dd02171c",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/40e70d62a60354bc61fa888a06e3c6828fafe6b0",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/e119c53b951d7cdf996c7fd8dc0ba76f4f515614",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/05c53ee0a270b43a5404969b5707b1b04a06f7c1",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/3386c38c53d5dd4b1c2acee1b86f179d89dc5295",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/93b403d7f7501f132e57bbcd72a3a338fdaeb17a",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/f168cb155e40d6f5dac2666b2b1b8a9348cf68f4",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/ee297fdadc6b853c7e0769a908dbfceaeceda361",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/800ec821ec2a6f48913e0ef8b6a98f7bd44c783a",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/841f112020b64ca7b0015ed668fc53a0ce404c6e",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/a13eb77992bd9d5c9481a712375a82d3636abcd3",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/5d6eb39b43f0ba373c716edbc52aef6520ec28ba",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/28d88a944e2bd848181b4e663e835c9baf2e6710",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/a9e3d838ce9991cd64393adef22c2cda1e2edae7",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/c5c3c75682adfbefecfebb7c60e9850f8edc6e76",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/8df41dafc3c16ffc3cc1ff94de0226dc68f9b6be",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/765f9f186e9fe7257058b73bf88eb1aae352ce34",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/aad80d853f7a7037c80e6aa4a021c3b722f68c53",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/9d1fa80d8e1517018518c17f8c79c7aeac7857c0",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/5e0e3861e27cbf1e5d3596d249a77f20e3122a3d",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/4a2e28e403351e5b7f25d344fe908b6ac521726f",
+            "https://github.com/Fingerprints-DAO/maschine-contracts/commit/9199c771a5041e8365c376a6c7f486bd04ad6af3"
+        ],
+        "0xllaCh/crypto-prophecies-contract": [
+            "https://github.com/0xllaCh/crypto-prophecies-contract/commit/80a2788ac383a38b9a405d29c0c918286ca8d62a",
+            "https://github.com/0xllaCh/crypto-prophecies-contract/commit/5acf85aaf2c166cf5922ddaeab8a941f320c4dbc",
+            "https://github.com/0xllaCh/crypto-prophecies-contract/commit/bdfed9155ac8e6605149bb72183a91e62f20ea15"
+        ],
+        "offsideswap/Moonmage": [
+            "https://github.com/offsideswap/Moonmage/commit/40689806c3fc6e738918c5b4b4b107dc70e66f7c",
+            "https://github.com/offsideswap/Moonmage/commit/97490a9b8de29923e542f0ee229e6ed3ebf9c03f",
+            "https://github.com/offsideswap/Moonmage/commit/e4b08990ddca589e87e35ad9f80e865d4e05d8e5"
+        ],
+        "Zapper-fi/studio": [
+            "https://github.com/Zapper-fi/studio/commit/5d6fb49a95bade532a7aa3b488aada38ed8e892e",
+            "https://github.com/Zapper-fi/studio/commit/c2f2002cd74070e69b91cc3825d989553ffb03b6"
+        ],
+        "0xalecks/btest": [
+            "https://github.com/0xalecks/btest/commit/40689806c3fc6e738918c5b4b4b107dc70e66f7c",
+            "https://github.com/0xalecks/btest/commit/97490a9b8de29923e542f0ee229e6ed3ebf9c03f",
+            "https://github.com/0xalecks/btest/commit/e4b08990ddca589e87e35ad9f80e865d4e05d8e5"
+        ],
+        "Blueberryfi/blueberry-core": [
+            "https://github.com/Blueberryfi/blueberry-core/commit/64eb54a846e4d6b7c70d8ac8f7da18a065b914b0",
+            "https://github.com/Blueberryfi/blueberry-core/commit/ba689ae9a80679c828a0fab0b0f8cc63e4bff25c",
+            "https://github.com/Blueberryfi/blueberry-core/commit/599a73df151e197bbdbc099785c2b3471b885a28",
+            "https://github.com/Blueberryfi/blueberry-core/commit/0ca935da657d20b8585e5cec3ead3b789fffb266",
+            "https://github.com/Blueberryfi/blueberry-core/commit/7507d97cf38ca0139ab4d153aed52d9e77b1c169",
+            "https://github.com/Blueberryfi/blueberry-core/commit/5ddcc6761cd04ec6e61208b240be65c90b19b5e2",
+            "https://github.com/Blueberryfi/blueberry-core/commit/e4c23fe67c43ef4aa6b3a40c6f57697e1654a9f4",
+            "https://github.com/Blueberryfi/blueberry-core/commit/31e2cbcfe786b55ce34af205b95e5287785ce120",
+            "https://github.com/Blueberryfi/blueberry-core/commit/d1b222f46a3a45b14c8f66d4e52c228153f608ff",
+            "https://github.com/Blueberryfi/blueberry-core/commit/b0549767123ccabea7980ffa75e24406f13229f2",
+            "https://github.com/Blueberryfi/blueberry-core/commit/995a39a9c472aa145122eeb4d9ee526ac2910974",
+            "https://github.com/Blueberryfi/blueberry-core/commit/3c171d6cc929c8918cdcaba2c0736bf6dfd162e9",
+            "https://github.com/Blueberryfi/blueberry-core/commit/f13a74440e502df186afd968a2caf0e4a812eee8",
+            "https://github.com/Blueberryfi/blueberry-core/commit/c17ea7d8cf30fd846b9f58235a5fa054dc62f18e",
+            "https://github.com/Blueberryfi/blueberry-core/commit/c9648de9d471d25691fef4f53e69c8004d063bb9",
+            "https://github.com/Blueberryfi/blueberry-core/commit/d13e4ba43ea6f118c11a94aa248fcff27d6167cf",
+            "https://github.com/Blueberryfi/blueberry-core/commit/1e37dd5b462d0630920d4f8f55ade7a1a73a0073",
+            "https://github.com/Blueberryfi/blueberry-core/commit/15c0067265cb66bae0199a1b4e697b30f6d4a9e1",
+            "https://github.com/Blueberryfi/blueberry-core/commit/bfca10c1865efe7d7d7297578a167e8f0d16304d",
+            "https://github.com/Blueberryfi/blueberry-core/commit/d16d0308c08cb8bf82885902938146d7468beaef",
+            "https://github.com/Blueberryfi/blueberry-core/commit/57197cd7354c305600a8220895da1643fa89ff65",
+            "https://github.com/Blueberryfi/blueberry-core/commit/e3459eacaa25bce4428ce6f145bd9f41d62befe4",
+            "https://github.com/Blueberryfi/blueberry-core/commit/6bf316ef32d6ae33864f977589b118e9598a8e84",
+            "https://github.com/Blueberryfi/blueberry-core/commit/fba29b75d2d825555c69c7f3b6f759a42aad1c5c",
+            "https://github.com/Blueberryfi/blueberry-core/commit/cf0aae268048654daf0e5106d0a55fdd5adf44cc",
+            "https://github.com/Blueberryfi/blueberry-core/commit/c1cdc2adc91a2868d4a457478e0913ae72577bd4",
+            "https://github.com/Blueberryfi/blueberry-core/commit/752bc08b86962700bae3916df6856c505492c36f",
+            "https://github.com/Blueberryfi/blueberry-core/commit/b615103af9d6eafa462ec06e2ed3136aafe1e224",
+            "https://github.com/Blueberryfi/blueberry-core/commit/395d0b5333474cd4d0ded2c193c2a4fa9737e1ce",
+            "https://github.com/Blueberryfi/blueberry-core/commit/37ce864581aa82b471a2db3967215c5b7dc4af5b",
+            "https://github.com/Blueberryfi/blueberry-core/commit/3bc8444882389e934a72fc77955b7a6ebefde868",
+            "https://github.com/Blueberryfi/blueberry-core/commit/7b5e27dafcfd5aaa3bdb19756ee8c6e75e969573",
+            "https://github.com/Blueberryfi/blueberry-core/commit/8c4c9be10cac72380359276c201edf2fd0982835",
+            "https://github.com/Blueberryfi/blueberry-core/commit/823ac4a1df3603cd17bf79ffe9a5ca33cc052957",
+            "https://github.com/Blueberryfi/blueberry-core/commit/cc96fa29e9d61632df5359c05c6cfe3eb73c16e0",
+            "https://github.com/Blueberryfi/blueberry-core/commit/89f119594587866fd231c959cbd9c63620d8b9f6",
+            "https://github.com/Blueberryfi/blueberry-core/commit/2de2e52da60e899692d7ce40bc1505f27b2e9eb8",
+            "https://github.com/Blueberryfi/blueberry-core/commit/289f932c9f5bc96df353c857778d6145ddefa12b",
+            "https://github.com/Blueberryfi/blueberry-core/commit/b48715744e53099d2f5858f46a66078fe14a3d9e",
+            "https://github.com/Blueberryfi/blueberry-core/commit/a64d45e8cf7152245233097636f00b40965b87ef",
+            "https://github.com/Blueberryfi/blueberry-core/commit/74b0c03a2121b3333542842dc0af932b099bb587",
+            "https://github.com/Blueberryfi/blueberry-core/commit/f58a8455f7fcddac9bb517d3b17dc1189bd39364",
+            "https://github.com/Blueberryfi/blueberry-core/commit/ff16dcb1975e9e24b7707634463daf7bd810aca4",
+            "https://github.com/Blueberryfi/blueberry-core/commit/b6b2e86135b507f67f75a4ad2c2d2b0383eb3685",
+            "https://github.com/Blueberryfi/blueberry-core/commit/5e48efe4983f17b6cfd8aff414e461aea1f32833",
+            "https://github.com/Blueberryfi/blueberry-core/commit/5d88a609022f4e5af1f5f194ccfb34f26f1537a4",
+            "https://github.com/Blueberryfi/blueberry-core/commit/a77648bd7c5995f7ba0d5a7492bd1b027824c068",
+            "https://github.com/Blueberryfi/blueberry-core/commit/fed6d7c7e3eab497d1880224693277ccf811cfb4",
+            "https://github.com/Blueberryfi/blueberry-core/commit/96a49cbb5f460e1ff6b92313f363567b5baadb79",
+            "https://github.com/Blueberryfi/blueberry-core/commit/927d63cdb453fd4b0f617df9f0dc56bb0afc2c3e",
+            "https://github.com/Blueberryfi/blueberry-core/commit/753663fc70e904d381e7fd87547162eb53a7497e",
+            "https://github.com/Blueberryfi/blueberry-core/commit/81c358b765da50bbd18885505a01c941bf2c7502",
+            "https://github.com/Blueberryfi/blueberry-core/commit/564d2e71d8132ea55eb8406109a3b37fbbfa8da7",
+            "https://github.com/Blueberryfi/blueberry-core/commit/481d6cf2ea2f39e03cf186b16f795d8120ce0e53",
+            "https://github.com/Blueberryfi/blueberry-core/commit/127fd185c0eac10e18c470def32c8913ca1a5213",
+            "https://github.com/Blueberryfi/blueberry-core/commit/58cbcbf608df8ee4a685b457002d89f3d7a63962",
+            "https://github.com/Blueberryfi/blueberry-core/commit/938444d69e6b5e9420bc805e1af5f91e9846981b",
+            "https://github.com/Blueberryfi/blueberry-core/commit/8cf5cfdf103c33f820faa7c4f70a354ac548896f",
+            "https://github.com/Blueberryfi/blueberry-core/commit/211d309d3b3d2f8fd71b338681f4840a2356f15a",
+            "https://github.com/Blueberryfi/blueberry-core/commit/bb1b4b88aa10683b9bccbe9b98e0c0a48a7d121d",
+            "https://github.com/Blueberryfi/blueberry-core/commit/cc4347617307c888f7eb13a5d77de13eee0127f6",
+            "https://github.com/Blueberryfi/blueberry-core/commit/85ce670d0eca4dd2aae578cbfa8f20fdaf602fc2",
+            "https://github.com/Blueberryfi/blueberry-core/commit/ca95e233306148bc1e78f680a3b4b5201fcf7ca7",
+            "https://github.com/Blueberryfi/blueberry-core/commit/86b26d5b5291fd6b05463443fc97ed062ca6fbba",
+            "https://github.com/Blueberryfi/blueberry-core/commit/a52d180474da9b38e866251712d643b944f62ceb",
+            "https://github.com/Blueberryfi/blueberry-core/commit/2f5dd11f97a46597230b560bb1b3bb46a7d8b5b1",
+            "https://github.com/Blueberryfi/blueberry-core/commit/a096579e94a6567173eac898b4cf107e69bb99e9",
+            "https://github.com/Blueberryfi/blueberry-core/commit/942e6a45d5d10f6a52ecdfab47cc8f6f47fe2f5d",
+            "https://github.com/Blueberryfi/blueberry-core/commit/e94129936abfd52ddb36a847c1fdce183d054ddb",
+            "https://github.com/Blueberryfi/blueberry-core/commit/f6763830853bc8cc26d53c25ad8fe8b7198455ae",
+            "https://github.com/Blueberryfi/blueberry-core/commit/abea15912e9d09a978b97bfbcf9f506a65181879",
+            "https://github.com/Blueberryfi/blueberry-core/commit/2d8dfef8a3f8cf000dd2e1d3e4744cbb92d048f6",
+            "https://github.com/Blueberryfi/blueberry-core/commit/e1ae78dd6134cc03a3fd09791ccd583623fb9cdb",
+            "https://github.com/Blueberryfi/blueberry-core/commit/6fa78f290a785690c38932ed04dc83071635e551",
+            "https://github.com/Blueberryfi/blueberry-core/commit/89b84efe300f22a0a398988d281b0909d990a6ba",
+            "https://github.com/Blueberryfi/blueberry-core/commit/98af7554bc66327efc73240d4b2389922c01ff97",
+            "https://github.com/Blueberryfi/blueberry-core/commit/b32ac3e369c5164a91c839d8520529874d72e402",
+            "https://github.com/Blueberryfi/blueberry-core/commit/e248c6feb53db6663c448fba0626814253cbfc85",
+            "https://github.com/Blueberryfi/blueberry-core/commit/3b693881b7e1db7b3dffedae2b77ca38843a84e2",
+            "https://github.com/Blueberryfi/blueberry-core/commit/014cf3f3bd3a6655bccc019efbda7c0dec3cbabc",
+            "https://github.com/Blueberryfi/blueberry-core/commit/a071da1a17c187c2abb51a25382f47570b97d3dd",
+            "https://github.com/Blueberryfi/blueberry-core/commit/abaf2fcd53cb9eca519495c2638ffec1d17b9466",
+            "https://github.com/Blueberryfi/blueberry-core/commit/ea94e6e530cbb435290cf064a42ecd6385e1f65e",
+            "https://github.com/Blueberryfi/blueberry-core/commit/c9802a4eacc6387ebf4a9565be9058e17be10e6d",
+            "https://github.com/Blueberryfi/blueberry-core/commit/5779a30b2b8e983e99b8377d85d27435e950737d",
+            "https://github.com/Blueberryfi/blueberry-core/commit/5e49b9e322d4479b973fe6867686c9fa35540208",
+            "https://github.com/Blueberryfi/blueberry-core/commit/ec23a19e8fc3470c1f512e4ccd7f4a261753886a",
+            "https://github.com/Blueberryfi/blueberry-core/commit/a9b96c45d2a410f63443292f7df342eddae929ec",
+            "https://github.com/Blueberryfi/blueberry-core/commit/1a7c184f82375cb00e79053b169f4bf2ef178407",
+            "https://github.com/Blueberryfi/blueberry-core/commit/9bf37ae9bae71913fca805052331158ce22025fe",
+            "https://github.com/Blueberryfi/blueberry-core/commit/a87247101e80945ed203a15d6ab6281904335eaa",
+            "https://github.com/Blueberryfi/blueberry-core/commit/892a7469bf40b0b522f17fee2db715f98def776d",
+            "https://github.com/Blueberryfi/blueberry-core/commit/5279147197418ddbbf797b46b9e925f1dc4c5346",
+            "https://github.com/Blueberryfi/blueberry-core/commit/a0840f8014d06f0ca335ef4ace9c7b021f24413b",
+            "https://github.com/Blueberryfi/blueberry-core/commit/009c1da57be1eaa31cc5b4adc33dfaf9b9cee750",
+            "https://github.com/Blueberryfi/blueberry-core/commit/bf84bda9db6eaa6fa6f50b41d79dc8e734d988a0",
+            "https://github.com/Blueberryfi/blueberry-core/commit/cef81c7e84847bf5ae4fc6b0aaa1b38bfaf85106",
+            "https://github.com/Blueberryfi/blueberry-core/commit/22f8dd168992b99e5b0e18d374fa8f674279ec5d",
+            "https://github.com/Blueberryfi/blueberry-core/commit/b92a861673969ba5f7bb1497c8de8cee2d21e26a",
+            "https://github.com/Blueberryfi/blueberry-core/commit/51ae6ba82b137442d6c4cb3e0a3af72879f072be",
+            "https://github.com/Blueberryfi/blueberry-core/commit/3526b416f90ed664f9e6917ec11bd215ff758963",
+            "https://github.com/Blueberryfi/blueberry-core/commit/80de24220e00cd9cf1dac00f9b05660864ad0ea1",
+            "https://github.com/Blueberryfi/blueberry-core/commit/6a58c16eca6e95a581ed8cf60725bba616c99c15",
+            "https://github.com/Blueberryfi/blueberry-core/commit/2e31b466ad1642ba9b96486aeb3867b339d428ee",
+            "https://github.com/Blueberryfi/blueberry-core/commit/560e44c1fb2e470ffa73ee843610b9dd8517b552",
+            "https://github.com/Blueberryfi/blueberry-core/commit/1380a3049038f3ce76f912b39c070f0af345cd9d",
+            "https://github.com/Blueberryfi/blueberry-core/commit/2710d4e212e2f3335898ed39fa3501376455996f",
+            "https://github.com/Blueberryfi/blueberry-core/commit/5db3ce53b430cb40f3fc2af0a958bd846fcde9f8",
+            "https://github.com/Blueberryfi/blueberry-core/commit/71d461555a1cf06c0defbdb71fcaf1fa88ea0818",
+            "https://github.com/Blueberryfi/blueberry-core/commit/568557ed7d46ddf636a66f40f8302996f65af292",
+            "https://github.com/Blueberryfi/blueberry-core/commit/5b616e6c8a564f308f7001ce6788200346b959e4",
+            "https://github.com/Blueberryfi/blueberry-core/commit/2e4e40069e49b17bbaefa8eb079f4162a2edf65e"
+        ],
+        "cosmic-horizon/QWOYN": [
+            "https://github.com/cosmic-horizon/QWOYN/commit/ada725c87e8c32dce45800aa76c084849320182e",
+            "https://github.com/cosmic-horizon/QWOYN/commit/8339187f21aa93b059799a400cc3304627b0caf3",
+            "https://github.com/cosmic-horizon/QWOYN/commit/3c27a15c893b89def407af2aa91d200262b11418",
+            "https://github.com/cosmic-horizon/QWOYN/commit/7daceaabaa8a0a2f08e88dd70cf247e756583284",
+            "https://github.com/cosmic-horizon/QWOYN/commit/68636654186e04123f76f6c08703c8fd4f7d269d",
+            "https://github.com/cosmic-horizon/QWOYN/commit/133503681b6a14e9d8560c4638f295bb3217048c",
+            "https://github.com/cosmic-horizon/QWOYN/commit/3d6d01fc47c1e9f1013f4658ed205b90880957fd"
+        ],
+        "HooliganhordeTurfs/Profury": [
+            "https://github.com/HooliganhordeTurfs/Profury/commit/40689806c3fc6e738918c5b4b4b107dc70e66f7c",
+            "https://github.com/HooliganhordeTurfs/Profury/commit/97490a9b8de29923e542f0ee229e6ed3ebf9c03f",
+            "https://github.com/HooliganhordeTurfs/Profury/commit/e4b08990ddca589e87e35ad9f80e865d4e05d8e5"
+        ],
+        "HooliganhordeTurfs/Hooliganhorde-22": [
+            "https://github.com/HooliganhordeTurfs/Hooliganhorde-22/commit/40689806c3fc6e738918c5b4b4b107dc70e66f7c",
+            "https://github.com/HooliganhordeTurfs/Hooliganhorde-22/commit/97490a9b8de29923e542f0ee229e6ed3ebf9c03f",
+            "https://github.com/HooliganhordeTurfs/Hooliganhorde-22/commit/e4b08990ddca589e87e35ad9f80e865d4e05d8e5"
+        ],
+        "DefiLlama/DefiLlama-Adapters": [
+            "https://github.com/DefiLlama/DefiLlama-Adapters/commit/318e79afe74251fa5cffaa399ddc5ac34ef54d2f",
+            "https://github.com/DefiLlama/DefiLlama-Adapters/commit/cf5b593adee0ae222379a5b3247b2bdca4124561"
+        ],
+        "Cyfrin/beanstalk-code-review": [
+            "https://github.com/Cyfrin/beanstalk-code-review/commit/40689806c3fc6e738918c5b4b4b107dc70e66f7c",
+            "https://github.com/Cyfrin/beanstalk-code-review/commit/97490a9b8de29923e542f0ee229e6ed3ebf9c03f",
+            "https://github.com/Cyfrin/beanstalk-code-review/commit/e4b08990ddca589e87e35ad9f80e865d4e05d8e5"
+        ],
+        "BeanstalkFarms/Beanstalk": [
+            "https://github.com/BeanstalkFarms/Beanstalk/commit/40689806c3fc6e738918c5b4b4b107dc70e66f7c",
+            "https://github.com/BeanstalkFarms/Beanstalk/commit/97490a9b8de29923e542f0ee229e6ed3ebf9c03f",
+            "https://github.com/BeanstalkFarms/Beanstalk/commit/e4b08990ddca589e87e35ad9f80e865d4e05d8e5"
+        ],
+        "infinix-finance/protocol": [
+            "https://github.com/infinix-finance/protocol/commit/830365f7461f794046efdf27ca0b444d78ba653a",
+            "https://github.com/infinix-finance/protocol/commit/e7751d3c02c725a6e9382cbd03c9a1f91f95386c",
+            "https://github.com/infinix-finance/protocol/commit/0a2c6b11c7ee30c7fea09a734c9834069cbf0306",
+            "https://github.com/infinix-finance/protocol/commit/88f57ce5e04b693063d57059670ef074156b0b36",
+            "https://github.com/infinix-finance/protocol/commit/3d4014ef0414cd3ab1906d0249c814ff6d4be24d",
+            "https://github.com/infinix-finance/protocol/commit/984a6cee1c3cb13b3e78c04763da152cadd8f4f1",
+            "https://github.com/infinix-finance/protocol/commit/0b89eb7a22bf637ba4b2168764bc24240f1e9da0",
+            "https://github.com/infinix-finance/protocol/commit/74920848303b728771c866bdb154e9ea1258208c",
+            "https://github.com/infinix-finance/protocol/commit/ac7cc81897831180c4ec3370a7797044a9d45eec",
+            "https://github.com/infinix-finance/protocol/commit/7fcb4bf73ad86c06b191f034dacfcb8486a0cd19",
+            "https://github.com/infinix-finance/protocol/commit/b429db29bec5362f3808b2fce59b66f98e40319f",
+            "https://github.com/infinix-finance/protocol/commit/f15c8bc4b214b2c9db4defc96c76f4d2406f4444",
+            "https://github.com/infinix-finance/protocol/commit/1a4fde15bfac3e1fa4a1e3b6006048978b05ca88",
+            "https://github.com/infinix-finance/protocol/commit/93ccae5f5b13be463bcb905aaf94efe0fdd1ae35",
+            "https://github.com/infinix-finance/protocol/commit/44780bb0ad12de05992fcc9449262fd23dea8039",
+            "https://github.com/infinix-finance/protocol/commit/dfc992350d97454630bfe85182624eb3e5741b38",
+            "https://github.com/infinix-finance/protocol/commit/e07684bdf88fba106a5880093e3b34474609c527",
+            "https://github.com/infinix-finance/protocol/commit/85e633388a0c2e0a1441a62971e5a3d442e57388"
+        ],
+        "WIM3/protocol": [
+            "https://github.com/WIM3/protocol/commit/e7751d3c02c725a6e9382cbd03c9a1f91f95386c",
+            "https://github.com/WIM3/protocol/commit/0a2c6b11c7ee30c7fea09a734c9834069cbf0306",
+            "https://github.com/WIM3/protocol/commit/88f57ce5e04b693063d57059670ef074156b0b36",
+            "https://github.com/WIM3/protocol/commit/3d4014ef0414cd3ab1906d0249c814ff6d4be24d",
+            "https://github.com/WIM3/protocol/commit/984a6cee1c3cb13b3e78c04763da152cadd8f4f1",
+            "https://github.com/WIM3/protocol/commit/0b89eb7a22bf637ba4b2168764bc24240f1e9da0",
+            "https://github.com/WIM3/protocol/commit/74920848303b728771c866bdb154e9ea1258208c",
+            "https://github.com/WIM3/protocol/commit/ac7cc81897831180c4ec3370a7797044a9d45eec",
+            "https://github.com/WIM3/protocol/commit/7fcb4bf73ad86c06b191f034dacfcb8486a0cd19",
+            "https://github.com/WIM3/protocol/commit/b429db29bec5362f3808b2fce59b66f98e40319f",
+            "https://github.com/WIM3/protocol/commit/f15c8bc4b214b2c9db4defc96c76f4d2406f4444",
+            "https://github.com/WIM3/protocol/commit/1a4fde15bfac3e1fa4a1e3b6006048978b05ca88",
+            "https://github.com/WIM3/protocol/commit/93ccae5f5b13be463bcb905aaf94efe0fdd1ae35",
+            "https://github.com/WIM3/protocol/commit/44780bb0ad12de05992fcc9449262fd23dea8039",
+            "https://github.com/WIM3/protocol/commit/dfc992350d97454630bfe85182624eb3e5741b38",
+            "https://github.com/WIM3/protocol/commit/e07684bdf88fba106a5880093e3b34474609c527",
+            "https://github.com/WIM3/protocol/commit/85e633388a0c2e0a1441a62971e5a3d442e57388"
+        ],
+        "BrendanSanderson/Beanstalk": [
+            "https://github.com/BrendanSanderson/Beanstalk/commit/40689806c3fc6e738918c5b4b4b107dc70e66f7c",
+            "https://github.com/BrendanSanderson/Beanstalk/commit/97490a9b8de29923e542f0ee229e6ed3ebf9c03f",
+            "https://github.com/BrendanSanderson/Beanstalk/commit/e4b08990ddca589e87e35ad9f80e865d4e05d8e5"
+        ],
+        "Blueberryfi/Bloom-protocol": [
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/e76e8f794b67041b28c3a07a931ca9c4abc4d25e",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/cb63e78e9a721ba5eeb53d16a2636918d389897b",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/711ef25bdc09612127775026bea6d2296d22e027",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/5fe269cd95ba237e2d3b7385a6effe4644dad796",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/8a28d56c7532761a1b27c4d6bedc8f3a8b804f36",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/9669c58ae339dfc1d8cfb9b7d1202a0328e062ff",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/4951f45eba551009b8e4412e0669c4d520731dbb",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/cf453ea4032b84a6c75df33789e517c589cc7a64",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/c750be73f80b250611d70d5eb0d9b78a4343adea",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/4772990afaa34b67ad0fb6ad95f18891d2921dcb",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/64ab5219e7961411e30ca8eeeb261cc1730c09ff",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/a10986f5a5e922c88dfacb9bddf17ef38649180b",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/455427ca14883180e7133f179ae7a1bad76d2d14",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/a2f640522a0b475d2cc365a8c5fad4d109f4e8a8",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/26e80ff521b8c07d2a6699062fe632d0ddeae11c",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/afc829f542543a08c486f594b1638492e337a38b",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/81d729da27706549ed7f4200a14165ff4ba856f3",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/6e7524ceecba7ec9f430e2c0a804e852c73005e0",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/df76b97e9d0631139fdbef64246ff11f47cd3545",
+            "https://github.com/Blueberryfi/Bloom-protocol/commit/fa608c2fc9c617afb8967b4413427df2ad984c62"
+        ]
+    }
+}

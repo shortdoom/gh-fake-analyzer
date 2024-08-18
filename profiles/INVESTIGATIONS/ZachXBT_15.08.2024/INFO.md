@@ -4,6 +4,8 @@ https://x.com/zachxbt/status/1824047480121729425
 
 Only "alive" accounts were selected from the list:
 
+https://github.com/0xlock (Jason Kwon / 0xm00neth)
+
 https://github.com/keizir
 
 https://github.com/Supermutecx
