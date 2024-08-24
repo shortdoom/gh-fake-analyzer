@@ -6,8 +6,6 @@ Download and analyze profile data for any GitHub user or organization. This reco
 
 Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow). 
 
-<small><i>Optionally, rename `targets.example` to `targets` and supply list of profiles to analyze.</i></small>
-
 <small><i>Github API tokens are only alive for 30 days, you'll need to regenerate your token after that time.</i></small>
  
 ### Run
@@ -16,11 +14,12 @@ Rename `.env.example` to `.env` and supply your GitHub API Key (generated in you
    # In new venv
    pip install -r requirements.txt # install required packages
    python analyze.py <username> # analyze a single user
+   python analyze.py <username> --out_path /path/to/dir # save to different than /out dir
 
-   # Optionally
+   # Optionally, rename `targets.example` to `targets` 
    python analyze.py # read from "targets" and analyze all
-   python analyze.py <username> --commit_search # search github for commit messages (slow, experimental)
    python analyze.py --targets <path> # custom_file.txt to read from as "targets"   
+   python analyze.py <username> --commit_search # search github for commit messages (slow, experimental)
 ```
 
 A `script.log` file is created after the first run. All profile data is downloaded to `/out`.

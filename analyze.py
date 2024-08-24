@@ -111,18 +111,51 @@ class APIUtils:
 
 
 class DataManager:
-    def __init__(self, username):
-        self.username = username
-        self.user_dir = os.path.join(
-            os.path.dirname(os.path.realpath(__file__)), "out", username
-        )
-        self.data_file = os.path.join(self.user_dir, f"{username}.json")
+    # Clutter to remove from profile data
+    KEYS_TO_REMOVE = [
+        "followers_url", "following_url", "gists_url", "starred_url",
+        "subscriptions_url", "organizations_url", "repos_url", "events_url",
+        "received_events_url", "forks_url", "keys_url", "collaborators_url",
+        "teams_url", "hooks_url", "issue_events_url", "assignees_url",
+        "branches_url", "tags_url", "blobs_url", "git_tags_url", "git_refs_url",
+        "trees_url", "statuses_url", "languages_url", "stargazers_url",
+        "contributors_url", "subscribers_url", "subscription_url", "commits_url",
+        "git_commits_url", "comments_url", "issue_comment_url", "contents_url",
+        "compare_url", "merges_url", "archive_url", "downloads_url", "issues_url",
+        "pulls_url", "milestones_url", "notifications_url", "labels_url",
+        "releases_url", "deployments_url", "git_url", "ssh_url", "clone_url", "svn_url"
+    ]
 
-        if not os.path.exists(self.user_dir):
-            os.makedirs(self.user_dir)
+    def __init__(self, username, out_path=None):
+        self.username = username
+        if out_path:
+            self.user_dir = os.path.join(out_path, username)
+            self.data_file = os.path.join(self.user_dir, f"{username}.json")
+            if not os.path.exists(self.user_dir):
+                os.makedirs(self.user_dir)
+        else:
+            self.user_dir = os.path.join(
+                os.path.dirname(os.path.realpath(__file__)), "out", username
+            )
+            self.data_file = os.path.join(self.user_dir, f"{username}.json")
+            if not os.path.exists(self.user_dir):
+                os.makedirs(self.user_dir)
 
     def save_output(self, data):
-        self.save_to_json(data, self.data_file)
+        filtered_data = self.remove_unwanted_keys(data)
+        self.save_to_json(filtered_data, self.data_file)
+
+    def remove_unwanted_keys(self, data):
+        if isinstance(data, dict):
+            return {
+                key: self.remove_unwanted_keys(value)
+                for key, value in data.items()
+                if key not in self.KEYS_TO_REMOVE
+            }
+        elif isinstance(data, list):
+            return [self.remove_unwanted_keys(item) for item in data]
+        else:
+            return data
 
     def load_existing(self):
         try:
@@ -142,6 +175,7 @@ class DataManager:
     def save_failed_repos(self, failed_repos):
         failed_repos_file = os.path.join(self.user_dir, "failed_repos.json")
         self.save_to_json(failed_repos, failed_repos_file)
+
 
 
 class GitManager:
@@ -196,12 +230,12 @@ class GitManager:
 
 
 class GitHubProfileAnalyzer:
-    def __init__(self, username):
+    def __init__(self, username, out_path=None):
         self.username = username
-        self.data_manager = DataManager(username)
+        self.data_manager = DataManager(username, out_path)
         self.git_manager = GitManager(username, self.data_manager.user_dir)
         self.api_utils = APIUtils()
-        
+
         # NOTE: Read-in previous analysis results, useful if you use Class directly
         self.data = self.data_manager.load_existing() or {}
 
@@ -284,9 +318,9 @@ class GitHubProfileAnalyzer:
     def generate_report(self):
         try:
             # Find mutual followers
-            mutual_followers = set(f["login"] for f in self.data["followers"]) & set(
-                f["login"] for f in self.data["following"]
-            )
+            mutual_followers = set(
+                f["login"] for f in self.data.get("followers", [])
+            ) & set(f["login"] for f in self.data.get("following", []))
 
             # Find contributors to owner's repos
             contributors = defaultdict(set)
@@ -368,17 +402,18 @@ class GitHubProfileAnalyzer:
                         if key not in commits_to_other_repos:
                             commits_to_other_repos[key] = []
                         commits_to_other_repos[key].append(commit_url)
-                        
+
             # Construct full GitHub HTML links for followers and following
             followers_list = [
                 f"{self.api_utils.BASE_GITHUB_URL}{f['login']}"
                 for f in self.data["followers"]
             ]
+
             following_list = [
                 f"{self.api_utils.BASE_GITHUB_URL}{f['login']}"
-                for f in self.data["following"]
+                for f in self.data.get("following", [])
             ]
-            
+
             # Extract desired fields from profile_data
             profile_info = {
                 key: self.data["profile_data"].get(key)
@@ -508,10 +543,17 @@ def read_targets(file_path):
         return []
 
 
-def process_target(username, commit_search=False):
+def process_target(username, commit_search=False, only_profile=False, out_path=None):
     """Process an individual GitHub profile."""
     try:
-        analyzer = GitHubProfileAnalyzer(username)
+        analyzer = GitHubProfileAnalyzer(username, out_path=out_path)
+
+        if only_profile:
+            logging.info(f"Only fetching profile data for {username}...")
+            analyzer.fetch_profile_data()
+            analyzer.data_manager.save_output(analyzer.data)
+            return
+
         if not analyzer.data:
             logging.info(f"Analyzing profile data for {username}...")
             analyzer.run_analysis()
@@ -538,6 +580,11 @@ def main():
         help="GitHub username to analyze (if omitted, reads from targets file)",
     )
     parser.add_argument(
+        "--only_profile",
+        action="store_true",
+        help="Only fetch profile data (no commits, followers, etc.)",
+    )
+    parser.add_argument(
         "--targets",
         nargs="?",
         const="targets",
@@ -548,33 +595,48 @@ def main():
         action="store_true",
         help="Query GitHub API search for similar commits",
     )
+    parser.add_argument(
+        "--out_path",
+        type=str,
+        nargs="?",
+        help="Output directory for analysis results",
+    )
+
     args = parser.parse_args()
     start_time = time.time()
+
+    if args.only_profile:
+        logging.info(f"Only fetching profile data for {args.username}...")
+        process_target(args.username, only_profile=True, out_path=args.out_path)
+        return
 
     if args.username:
         # Process single target
         logging.info(f"Processing single target: {args.username}")
-        process_target(args.username, args.commit_search)
+        process_target(args.username, args.commit_search, out_path=args.out_path)
     else:
         # Determine targets file
         targets_file = args.targets if args.targets is not None else "targets"
         logging.info(f"Processing targets from file: {targets_file}")
         print(f"Processing targets from file: {targets_file}")
-        
+
         targets = read_targets(targets_file)
         if not targets:
             logging.error(f"No targets found in {targets_file}. Exiting.")
-            print(f"No targets found in {targets_file}. Please provide a valid targets file or specify a username.")
+            print(
+                f"No targets found in {targets_file}. Please provide a valid targets file or specify a username."
+            )
             return
-        
+
         # Process each target
         for target in targets:
             logging.info(f"Processing target: {target}")
-            process_target(target, args.commit_search)
+            process_target(target, args.commit_search, out_path=args.out_path)
 
     end_time = time.time()
     print(f"Processing completed in {end_time - start_time:.2f} seconds.")
     logging.info(f"Processing completed in {end_time - start_time:.2f} seconds.")
+
 
 if __name__ == "__main__":
     main()
