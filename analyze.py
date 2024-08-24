@@ -111,13 +111,26 @@ class APIUtils:
 
 
 class DataManager:
+    # Clutter to remove from profile data
+    KEYS_TO_REMOVE = [
+        "followers_url", "following_url", "gists_url", "starred_url",
+        "subscriptions_url", "organizations_url", "repos_url", "events_url",
+        "received_events_url", "forks_url", "keys_url", "collaborators_url",
+        "teams_url", "hooks_url", "issue_events_url", "assignees_url",
+        "branches_url", "tags_url", "blobs_url", "git_tags_url", "git_refs_url",
+        "trees_url", "statuses_url", "languages_url", "stargazers_url",
+        "contributors_url", "subscribers_url", "subscription_url", "commits_url",
+        "git_commits_url", "comments_url", "issue_comment_url", "contents_url",
+        "compare_url", "merges_url", "archive_url", "downloads_url", "issues_url",
+        "pulls_url", "milestones_url", "notifications_url", "labels_url",
+        "releases_url", "deployments_url", "git_url", "ssh_url", "clone_url", "svn_url"
+    ]
+
     def __init__(self, username, out_path=None):
         self.username = username
-
         if out_path:
             self.user_dir = os.path.join(out_path, username)
             self.data_file = os.path.join(self.user_dir, f"{username}.json")
-            
             if not os.path.exists(self.user_dir):
                 os.makedirs(self.user_dir)
         else:
@@ -125,12 +138,24 @@ class DataManager:
                 os.path.dirname(os.path.realpath(__file__)), "out", username
             )
             self.data_file = os.path.join(self.user_dir, f"{username}.json")
-
             if not os.path.exists(self.user_dir):
                 os.makedirs(self.user_dir)
 
     def save_output(self, data):
-        self.save_to_json(data, self.data_file)
+        filtered_data = self.remove_unwanted_keys(data)
+        self.save_to_json(filtered_data, self.data_file)
+
+    def remove_unwanted_keys(self, data):
+        if isinstance(data, dict):
+            return {
+                key: self.remove_unwanted_keys(value)
+                for key, value in data.items()
+                if key not in self.KEYS_TO_REMOVE
+            }
+        elif isinstance(data, list):
+            return [self.remove_unwanted_keys(item) for item in data]
+        else:
+            return data
 
     def load_existing(self):
         try:
@@ -150,6 +175,7 @@ class DataManager:
     def save_failed_repos(self, failed_repos):
         failed_repos_file = os.path.join(self.user_dir, "failed_repos.json")
         self.save_to_json(failed_repos, failed_repos_file)
+
 
 
 class GitManager:
