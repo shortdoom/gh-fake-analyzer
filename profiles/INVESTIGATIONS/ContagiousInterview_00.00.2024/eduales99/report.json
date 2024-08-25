@@ -1,0 +1,191 @@
+{
+    "profile_info": {
+        "login": "eduales99",
+        "id": 156386147,
+        "node_id": "U_kgDOCVJDYw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/156386147?v=4",
+        "html_url": "https://github.com/eduales99",
+        "type": "User",
+        "site_admin": false,
+        "name": "Eduardo Morales Cortes",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": "Full Stack | Blockchain Engineer",
+        "twitter_username": null,
+        "public_repos": 14,
+        "public_gists": 0,
+        "followers": 8,
+        "following": 1,
+        "created_at": "2024-01-12T01:08:34Z",
+        "updated_at": "2024-04-24T20:27:33Z"
+    },
+    "original_repos_count": 14,
+    "forked_repos_count": 0,
+    "unique_emails": {
+        "eduales9829@gmail.com": "eduales99",
+        "finaldev.dream119@gmail.com": "Never Give Up",
+        "noreply@github.com": "GitHub",
+        "49699333+dependabot[bot]@users.noreply.github.com": "dependabot[bot]",
+        "121861323+ngud-0119@users.noreply.github.com": "NGUD-0119: ACE",
+        "finaldev.dream.119@gmail.com": "NGUD-0119",
+        "156386147+eduales99@users.noreply.github.com": "Eduardo Morales Cortes",
+        "ortegamontenegrosebastian@gmail.com": "sebastian4098"
+    },
+    "mutual_followers": [],
+    "following": [
+        "https://github.com/vinniejames"
+    ],
+    "followers": [
+        "https://github.com/vancelin",
+        "https://github.com/AlessandroDu",
+        "https://github.com/kartikey315",
+        "https://github.com/tudorpintea999",
+        "https://github.com/bryon-cryptoconsults",
+        "https://github.com/sebastian4098",
+        "https://github.com/wahajdevcode",
+        "https://github.com/Merkler00t"
+    ],
+    "repo_list": [
+        "auction-dApp-Ethereum",
+        "bancor-protocol-contracts",
+        "boilerplate-ethereum",
+        "borrowAndrepayNFT",
+        "cryptowallet-app",
+        "d3-chart",
+        "Developer-Dashboard",
+        "dfs-token-contracts",
+        "eduales99",
+        "hardhart-smart-contract",
+        "Javascript-Drawio",
+        "lottery-contract",
+        "TensorFlow-Models",
+        "Viking-P2E-Game"
+    ],
+    "forked_repo_list": [],
+    "contributors": {
+        "auction-dApp-Ethereum": [
+            "eduales99"
+        ],
+        "bancor-protocol-contracts": [
+            "eduales99"
+        ],
+        "boilerplate-ethereum": [
+            "eduales99"
+        ],
+        "borrowAndrepayNFT": [
+            "eduales99"
+        ],
+        "cryptowallet-app": [
+            "eduales99"
+        ],
+        "d3-chart": [
+            "eduales99"
+        ],
+        "Developer-Dashboard": [
+            "ngud-0119",
+            "dependabot[bot]"
+        ],
+        "dfs-token-contracts": [
+            "eduales99"
+        ],
+        "eduales99": [
+            "eduales99"
+        ],
+        "hardhart-smart-contract": [
+            "eduales99"
+        ],
+        "Javascript-Drawio": [
+            "eduales99"
+        ],
+        "lottery-contract": [
+            "sebastian4098",
+            "eduales99"
+        ],
+        "TensorFlow-Models": [
+            "eduales99"
+        ],
+        "Viking-P2E-Game": [
+            "eduales99"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {
+        "sebastian4098/portfolio-GASP": [
+            "https://github.com/sebastian4098/portfolio-GASP/commit/2cf64d2ccb957eb37e6ee86d886f5ba19f268196",
+            "https://github.com/sebastian4098/portfolio-GASP/commit/a9e0971b14138fbe7baa467256072fd56afbefca"
+        ],
+        "sebastian4098/express-server": [
+            "https://github.com/sebastian4098/express-server/commit/97c305583102afb9d904e9dd7b8f941dd926d3ca"
+        ]
+    },
+    "potential_copy": [
+        {
+            "repo": "auction-dApp-Ethereum",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2017-07-01T00:13:16-05:00"
+        },
+        {
+            "repo": "bancor-protocol-contracts",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2020-08-07T13:57:17+03:00"
+        },
+        {
+            "repo": "boilerplate-ethereum",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2021-10-31T12:02:11+02:00"
+        },
+        {
+            "repo": "borrowAndrepayNFT",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-09-17T23:49:03+09:00"
+        },
+        {
+            "repo": "cryptowallet-app",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-04-01T12:28:29+02:00"
+        },
+        {
+            "repo": "d3-chart",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2021-09-25T19:32:31+03:00"
+        },
+        {
+            "repo": "Developer-Dashboard",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-01-09T13:59:02-08:00"
+        },
+        {
+            "repo": "dfs-token-contracts",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-06-11T03:08:33+09:00"
+        },
+        {
+            "repo": "eduales99",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2021-11-19T05:32:48+02:00"
+        },
+        {
+            "repo": "hardhart-smart-contract",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2020-12-16T12:03:05+02:00"
+        },
+        {
+            "repo": "lottery-contract",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-01-02T08:23:22+01:00"
+        },
+        {
+            "repo": "TensorFlow-Models",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2018-04-04T13:59:41-04:00"
+        },
+        {
+            "repo": "Viking-P2E-Game",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-03-31T13:31:22+02:00"
+        }
+    ]
+}

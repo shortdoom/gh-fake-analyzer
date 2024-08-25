@@ -1,0 +1,68 @@
+{
+    "profile_info": {
+        "login": "sebastian4098",
+        "id": 157417285,
+        "node_id": "U_kgDOCWH_RQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/157417285?v=4",
+        "html_url": "https://github.com/sebastian4098",
+        "type": "User",
+        "site_admin": false,
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 6,
+        "public_gists": 0,
+        "followers": 0,
+        "following": 2,
+        "created_at": "2024-01-22T19:54:22Z",
+        "updated_at": "2024-08-01T00:33:26Z"
+    },
+    "original_repos_count": 3,
+    "forked_repos_count": 3,
+    "unique_emails": {
+        "anselmstephen561@gmail.com": "Stephen56111",
+        "157417285+sebastian4098@users.noreply.github.com": "sebastian4098",
+        "noreply@github.com": "GitHub",
+        "ortegamontenegrosebastian@gmail.com": "sebastian4098"
+    },
+    "mutual_followers": [],
+    "following": [
+        "https://github.com/concur",
+        "https://github.com/eduales99"
+    ],
+    "followers": [],
+    "repo_list": [
+        "express-server",
+        "portfolio",
+        "portfolio-GASP"
+    ],
+    "forked_repo_list": [
+        "cvat",
+        "docs",
+        "TensorFlow-Models"
+    ],
+    "contributors": {
+        "express-server": [
+            "sebastian4098"
+        ],
+        "portfolio": [
+            "sebastian4098"
+        ],
+        "portfolio-GASP": [
+            "sebastian4098"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {
+        "eduales99/lottery-contract": [
+            "https://github.com/eduales99/lottery-contract/commit/2e71c4beeda2de3fa0fe1d5ca35614dc12e8e5bc",
+            "https://github.com/eduales99/lottery-contract/commit/780fa0b771c6aef914ea528105f1d0ce1cfe3dc1",
+            "https://github.com/eduales99/lottery-contract/commit/07167f176d8f05c5050cce6da7954eef0a7280d0"
+        ]
+    }
+}

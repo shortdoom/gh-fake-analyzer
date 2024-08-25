@@ -1,0 +1,421 @@
+{
+    "profile_info": {
+        "login": "niceDeve",
+        "id": 132147539,
+        "node_id": "U_kgDOB-BpUw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/132147539?v=4",
+        "html_url": "https://github.com/niceDeve",
+        "type": "User",
+        "site_admin": false,
+        "name": "Nice Deve",
+        "company": null,
+        "blog": "",
+        "location": "Sarnia, Ontario, Canada",
+        "email": null,
+        "hireable": true,
+        "bio": "Blockchain | Web3 Engineer, \r\nExtensive experience in the blockchain industry with a deep understanding of the Ethereum and Cosmos ecosystem. ",
+        "twitter_username": null,
+        "public_repos": 27,
+        "public_gists": 1,
+        "followers": 38,
+        "following": 72,
+        "created_at": "2023-04-29T13:58:22Z",
+        "updated_at": "2023-10-25T13:56:01Z"
+    },
+    "original_repos_count": 27,
+    "forked_repos_count": 0,
+    "unique_emails": {
+        "nicedeve785@gmail.com": "niceDeve",
+        "niceDeve785@gmail.com": "niceDeve",
+        "132147539+niceDeve@users.noreply.github.com": "Jackson Mori",
+        "noreply@github.com": "GitHub"
+    },
+    "mutual_followers": [
+        "black-harry",
+        "Calebtan978",
+        "kevinleeelsa",
+        "kelleymartin872",
+        "LoveNuna",
+        "ITexpLee",
+        "goaldev",
+        "WarnerDemon",
+        "zealotry1developer",
+        "web3gru",
+        "kenjinote",
+        "smartman1234",
+        "Swanstonn",
+        "afsalat",
+        "keeneyetact",
+        "elicohen12",
+        "silent-sea1119",
+        "DevHunter128",
+        "smart-maker",
+        "CodyStone-boy",
+        "DarkLorenEstrada",
+        "K-Najwno",
+        "lovelypuppy0607",
+        "Sherifrancis",
+        "BestFriend67",
+        "vhkechichian",
+        "SWxEng",
+        "PeterPan627"
+    ],
+    "following": [
+        "https://github.com/kenjinote",
+        "https://github.com/wisnesky",
+        "https://github.com/ethanfrey",
+        "https://github.com/longcpp",
+        "https://github.com/ProgramCpp",
+        "https://github.com/andrewkmin",
+        "https://github.com/amityadav0",
+        "https://github.com/MSalopek",
+        "https://github.com/gbuchukuri",
+        "https://github.com/ZaradarBH",
+        "https://github.com/SWxEng",
+        "https://github.com/thonguyen14",
+        "https://github.com/afsalat",
+        "https://github.com/Blacc4bama",
+        "https://github.com/coral-xyz",
+        "https://github.com/vhkechichian",
+        "https://github.com/Swanstonn",
+        "https://github.com/Honest0",
+        "https://github.com/SmartDev0910",
+        "https://github.com/Osmosis-Talent",
+        "https://github.com/cryptimex",
+        "https://github.com/Mentado111",
+        "https://github.com/Legendaryoz",
+        "https://github.com/Yell0wflash",
+        "https://github.com/lovelypuppy0607",
+        "https://github.com/Athena-angel",
+        "https://github.com/MagicUI-Front",
+        "https://github.com/zealotry1developer",
+        "https://github.com/K-Najwno",
+        "https://github.com/universeguy",
+        "https://github.com/LovelyRobert",
+        "https://github.com/SnowBlueChain",
+        "https://github.com/frozen-dev71",
+        "https://github.com/ds-astroboy",
+        "https://github.com/black-harry",
+        "https://github.com/CodyStone-boy",
+        "https://github.com/kelleymartin872",
+        "https://github.com/LamSiuMing",
+        "https://github.com/keeneyetact",
+        "https://github.com/DarkLorenEstrada",
+        "https://github.com/Sherifrancis",
+        "https://github.com/silent-sea1119",
+        "https://github.com/conqueror62821",
+        "https://github.com/WorldWideDevelop",
+        "https://github.com/supersenior017",
+        "https://github.com/PeterPan627",
+        "https://github.com/LoveNuna",
+        "https://github.com/margalingibhubclt",
+        "https://github.com/Calebtan978",
+        "https://github.com/Azure-Phoenix",
+        "https://github.com/kevinleeelsa",
+        "https://github.com/BraxtonJames",
+        "https://github.com/terriellis120",
+        "https://github.com/WarnerDemon",
+        "https://github.com/miniTalDev",
+        "https://github.com/elicohen12",
+        "https://github.com/smart-maker",
+        "https://github.com/apple0441",
+        "https://github.com/ITexpLee",
+        "https://github.com/BestFriend67",
+        "https://github.com/Tyrese-BlockStacker",
+        "https://github.com/AI-General",
+        "https://github.com/goaldev",
+        "https://github.com/smartman1234",
+        "https://github.com/frozenflux3",
+        "https://github.com/DevHunter128",
+        "https://github.com/HERODevelope",
+        "https://github.com/pokemon918",
+        "https://github.com/QsageHint",
+        "https://github.com/web3gru",
+        "https://github.com/leftwinger10",
+        "https://github.com/LoveNui"
+    ],
+    "followers": [
+        "https://github.com/kenjinote",
+        "https://github.com/IDouble",
+        "https://github.com/standardgalactic",
+        "https://github.com/SWxEng",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/afsalat",
+        "https://github.com/george0st",
+        "https://github.com/hmltn-0",
+        "https://github.com/luckyengineer053",
+        "https://github.com/vhkechichian",
+        "https://github.com/Swanstonn",
+        "https://github.com/lovelypuppy0607",
+        "https://github.com/zealotry1developer",
+        "https://github.com/K-Najwno",
+        "https://github.com/black-harry",
+        "https://github.com/CodyStone-boy",
+        "https://github.com/kelleymartin872",
+        "https://github.com/keeneyetact",
+        "https://github.com/DarkLorenEstrada",
+        "https://github.com/Sherifrancis",
+        "https://github.com/silent-sea1119",
+        "https://github.com/PeterPan627",
+        "https://github.com/LoveNuna",
+        "https://github.com/Calebtan978",
+        "https://github.com/kevinleeelsa",
+        "https://github.com/WarnerDemon",
+        "https://github.com/elicohen12",
+        "https://github.com/smart-maker",
+        "https://github.com/ITexpLee",
+        "https://github.com/BestFriend67",
+        "https://github.com/goaldev",
+        "https://github.com/smartman1234",
+        "https://github.com/DevHunter128",
+        "https://github.com/web3gru",
+        "https://github.com/warmice71",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/nana9292",
+        "https://github.com/SerKore"
+    ],
+    "repo_list": [
+        "avalanche_subnet_faucet",
+        "balancer-core",
+        "booklist",
+        "bridge-cosmos-eth",
+        "bridge-frontend",
+        "cascadia-chain",
+        "cascadia_evm_chain",
+        "cosmjs_integration",
+        "cosmos-network-deployment",
+        "cosmos-terraform",
+        "Crypto-trading-bot",
+        "customized_nft",
+        "ethermint",
+        "evm-explorer",
+        "evmos-block-explorer",
+        "human-subquery",
+        "humans",
+        "humans-explorer",
+        "human_ai_marketplace_contract",
+        "human_marketplace",
+        "maui-frontend",
+        "movie-cosmos-test",
+        "new-crosstalk-sample",
+        "router-chain-ts-sdk",
+        "TerpDAO",
+        "terra-bridge-shuttle",
+        "wtest"
+    ],
+    "forked_repo_list": [],
+    "contributors": {
+        "avalanche_subnet_faucet": [
+            "niceDeve"
+        ],
+        "balancer-core": [
+            "niceDeve"
+        ],
+        "booklist": [
+            "niceDeve"
+        ],
+        "bridge-cosmos-eth": [
+            "niceDeve"
+        ],
+        "bridge-frontend": [
+            "niceDeve"
+        ],
+        "cascadia-chain": [
+            "niceDeve"
+        ],
+        "cascadia_evm_chain": [
+            "niceDeve"
+        ],
+        "cosmjs_integration": [
+            "niceDeve"
+        ],
+        "cosmos-network-deployment": [
+            "niceDeve"
+        ],
+        "cosmos-terraform": [
+            "niceDeve"
+        ],
+        "Crypto-trading-bot": [
+            "niceDeve"
+        ],
+        "customized_nft": [
+            "niceDeve"
+        ],
+        "ethermint": [
+            "niceDeve"
+        ],
+        "evm-explorer": [
+            "niceDeve"
+        ],
+        "evmos-block-explorer": [
+            "niceDeve"
+        ],
+        "human-subquery": [
+            "niceDeve"
+        ],
+        "humans": [
+            "niceDeve"
+        ],
+        "humans-explorer": [
+            "niceDeve"
+        ],
+        "human_ai_marketplace_contract": [
+            "niceDeve"
+        ],
+        "human_marketplace": [
+            "niceDeve"
+        ],
+        "maui-frontend": [
+            "niceDeve"
+        ],
+        "movie-cosmos-test": [
+            "niceDeve"
+        ],
+        "new-crosstalk-sample": [
+            "niceDeve"
+        ],
+        "router-chain-ts-sdk": [
+            "niceDeve"
+        ],
+        "TerpDAO": [
+            "niceDeve"
+        ],
+        "terra-bridge-shuttle": [
+            "niceDeve"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {},
+    "potential_copy": [
+        {
+            "repo": "avalanche_subnet_faucet",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-05-12T00:36:40+05:30"
+        },
+        {
+            "repo": "balancer-core",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2019-09-27T09:14:34-04:00"
+        },
+        {
+            "repo": "booklist",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-04-11T03:54:20+09:00"
+        },
+        {
+            "repo": "bridge-cosmos-eth",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2019-04-09T14:56:38+02:00"
+        },
+        {
+            "repo": "bridge-frontend",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-01-10T12:56:15+08:00"
+        },
+        {
+            "repo": "cascadia-chain",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-08-05T10:13:25+02:00"
+        },
+        {
+            "repo": "cascadia_evm_chain",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-06-21T14:55:03+02:00"
+        },
+        {
+            "repo": "cosmjs_integration",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-02-04T04:58:56+08:00"
+        },
+        {
+            "repo": "cosmos-network-deployment",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-02-04T12:07:51-05:00"
+        },
+        {
+            "repo": "cosmos-terraform",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-01-06T22:13:06+00:00"
+        },
+        {
+            "repo": "Crypto-trading-bot",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2020-09-28T07:48:54+02:00"
+        },
+        {
+            "repo": "customized_nft",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-02-16T19:06:51+08:00"
+        },
+        {
+            "repo": "ethermint",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-11-23T11:11:34-06:00"
+        },
+        {
+            "repo": "evm-explorer",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-05-20T16:25:39+03:00"
+        },
+        {
+            "repo": "evmos-block-explorer",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2020-02-17T10:37:08+00:00"
+        },
+        {
+            "repo": "human-subquery",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-10-26T14:58:56+00:00"
+        },
+        {
+            "repo": "humans",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-08-03T09:46:51+00:00"
+        },
+        {
+            "repo": "humans-explorer",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-09-20T14:19:43+03:00"
+        },
+        {
+            "repo": "human_ai_marketplace_contract",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-09-13T14:35:48+08:00"
+        },
+        {
+            "repo": "human_marketplace",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-04-23T17:18:33-04:00"
+        },
+        {
+            "repo": "maui-frontend",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-01-03T06:19:20+09:00"
+        },
+        {
+            "repo": "movie-cosmos-test",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-02-06T01:21:47+00:00"
+        },
+        {
+            "repo": "new-crosstalk-sample",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-12-30T19:15:55+05:30"
+        },
+        {
+            "repo": "router-chain-ts-sdk",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-10-13T03:36:47+05:30"
+        },
+        {
+            "repo": "TerpDAO",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2020-01-07T17:33:19+01:00"
+        },
+        {
+            "repo": "terra-bridge-shuttle",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2021-03-11T16:13:48+09:00"
+        }
+    ]
+}

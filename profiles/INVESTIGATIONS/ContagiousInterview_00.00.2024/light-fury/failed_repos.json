@@ -1,0 +1,22 @@
+[
+    {
+        "repo_name": "balance",
+        "clone_url": "https://github.com/light-fury/balance.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/light-fury/balance.git /home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_balance.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_balance.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.\nerror: 1601 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Chat_App",
+        "clone_url": "https://github.com/light-fury/Chat_App.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/light-fury/Chat_App.git /home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_Chat_App.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_Chat_App.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 10 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Jak-Backend",
+        "clone_url": "https://github.com/light-fury/Jak-Backend.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/light-fury/Jak-Backend.git /home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_Jak-Backend.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_Jak-Backend.git'...\nremote: Repository unavailable due to DMCA takedown.\nremote: See the takedown notice for more details:\nremote:   https://github.com/github/dmca/blob/master/2020/07/2020-07-13-jak.md.\nfatal: unable to access 'https://github.com/light-fury/Jak-Backend.git/': The requested URL returned error: 403\n'"
+    },
+    {
+        "repo_name": "Loteo-Frontend",
+        "clone_url": "https://github.com/light-fury/Loteo-Frontend.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/light-fury/Loteo-Frontend.git /home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_Loteo-Frontend.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_Loteo-Frontend.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 2268 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]
