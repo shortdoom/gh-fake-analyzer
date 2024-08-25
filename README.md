@@ -80,9 +80,6 @@ For Regular accounts I've ran the analysis on my own profile
 4. No commit messages copied
 5. No DMCA takedowns
 
-[shortdoom analysis](/profiles/shortdoom/shortdoom.json)
-
-[shortdoom report](/profiles/shortdoom/report.json)
 
 ### Features of Skid accounts
 
@@ -96,13 +93,13 @@ For Skid accounts - Example: eduales99 and sebastian4098
 
 Basically, Skids are retarded. They buy accounts from some farms, and farms themselves only run those accounts in automatic way, breadcrumbs to follow are everywhere. A further modeling would probably unearth some dark patterns of such clusters.
 
-[eduales99 analysis](/profiles/eduales99/eduales99.json)
+[eduales99 analysis](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/eduales99/eduales99.json)
 
-[eduales99 report](/profiles/eduales99/report.json)
+[eduales99 report](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/eduales99/report.json)
 
-[sebastian4098 analysis](/profiles/sebastian4098/sebastian4098.json)
+[sebastian4098 analysis](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/sebastian4098/sebastian4098.json)
 
-[sebastian4098 report](/profiles/sebastian4098/report.json)
+[sebastian4098 report](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/sebastian4098/report.json)
 
 ### Features of DPRK-style accounts
 
@@ -115,6 +112,6 @@ For DPRK-style - Example: light-fury
 
 Very hard to distinguish from the regular accounts, but there are some flags. Analyzing clusters of activity on such account and checking the merit of their work is basically the only way to distinguish DPRK-style hacker from regular account.
 
-[light-fury analysis](/profiles/light-furty/light-fury.json)
+[light-fury analysis](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/light-fury/light-fury.json)
 
-[light-fury report](/profiles/light-fury/report.json)
+[light-fury report](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/light-fury/report.json)
