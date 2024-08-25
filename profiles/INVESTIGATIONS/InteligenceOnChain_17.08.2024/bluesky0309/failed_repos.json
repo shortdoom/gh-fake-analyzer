@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "cardano-transaction",
+        "clone_url": "https://github.com/bluesky0309/cardano-transaction.git",
+        "reason": "Cmd('git') failed due to: exit code(255)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/bluesky0309/cardano-transaction.git /home/user/Github/PRs/gh-fake-analyzer/out/bluesky0309/bluesky0309_cardano-transaction.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/bluesky0309/bluesky0309_cardano-transaction.git'...\nPOST git-upload-pack (164 bytes)\n'"
+    }
+]

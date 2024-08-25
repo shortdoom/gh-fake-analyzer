@@ -1,0 +1,135 @@
+{
+    "profile_info": {
+        "login": "bluesky0309",
+        "id": 177713516,
+        "node_id": "U_kgDOCpexbA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/177713516?v=4",
+        "html_url": "https://github.com/bluesky0309",
+        "type": "User",
+        "site_admin": false,
+        "name": "Blue Sky",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": "royhensley0309@gmail.com",
+        "hireable": null,
+        "bio": "A highly skilled software engineer seeking a challenging position in a dynamic and innovative company where my technical skills and experience can be utilized t",
+        "twitter_username": null,
+        "public_repos": 11,
+        "public_gists": 0,
+        "followers": 2,
+        "following": 5,
+        "created_at": "2024-08-07T05:39:05Z",
+        "updated_at": "2024-08-23T06:59:59Z"
+    },
+    "original_repos_count": 11,
+    "forked_repos_count": 0,
+    "unique_emails": {
+        "royhensley0309@gmail.com": "bluesky0309",
+        "noreply@github.com": "GitHub",
+        "rioneymar644@gmail.com": "topdevelbluoper55"
+    },
+    "mutual_followers": [],
+    "following": [
+        "https://github.com/Destiner",
+        "https://github.com/jacobwillemsma",
+        "https://github.com/arredr2",
+        "https://github.com/microgift",
+        "https://github.com/ProScriptSlinger"
+    ],
+    "followers": [
+        "https://github.com/lovelyfriend272",
+        "https://github.com/lovelyfriend1106"
+    ],
+    "repo_list": [
+        "bag-app",
+        "bluesky0309",
+        "cardano-transaction",
+        "dexter-on-radix",
+        "eth-infinitism",
+        "Go_Fiber",
+        "kom_bot",
+        "last-haven",
+        "rubyContract",
+        "valueswap",
+        "web3platform"
+    ],
+    "forked_repo_list": [],
+    "contributors": {
+        "bag-app": [
+            "bluesky0309"
+        ],
+        "bluesky0309": [
+            "bluesky0309"
+        ],
+        "dexter-on-radix": [
+            "bluesky0309"
+        ],
+        "eth-infinitism": [
+            "bluesky0309"
+        ],
+        "Go_Fiber": [
+            "bluesky0309"
+        ],
+        "kom_bot": [
+            "bluesky0309"
+        ],
+        "last-haven": [
+            "bluesky0309"
+        ],
+        "rubyContract": [
+            "bluesky0309"
+        ],
+        "valueswap": [
+            "bluesky0309"
+        ],
+        "web3platform": [
+            "bluesky0309",
+            "topdeveloper55"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {},
+    "potential_copy": [
+        {
+            "repo": "bag-app",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2024-02-02T13:16:07+00:00"
+        },
+        {
+            "repo": "dexter-on-radix",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2024-01-20T11:00:50+04:00"
+        },
+        {
+            "repo": "eth-infinitism",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-11-27T17:37:40+02:00"
+        },
+        {
+            "repo": "Go_Fiber",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-05-01T10:34:53+03:00"
+        },
+        {
+            "repo": "kom_bot",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2024-07-26T21:38:26+08:00"
+        },
+        {
+            "repo": "rubyContract",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-05-11T13:26:47+01:00"
+        },
+        {
+            "repo": "valueswap",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2024-06-19T10:55:41+05:30"
+        },
+        {
+            "repo": "web3platform",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-07-12T04:56:53+09:00"
+        }
+    ]
+}
