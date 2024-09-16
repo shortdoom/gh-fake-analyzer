@@ -4,3 +4,4 @@ venv
 out/*
 targets
 script.log
+monitoring.log

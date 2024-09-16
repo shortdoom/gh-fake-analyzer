@@ -2,6 +2,8 @@
 
 Download and analyze profile data for any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
+Jump to [Monitoring user](#monitoring-user) to setup script for continous username monitoring and/or retriving last 90 days of account activity.
+
 ### Install
 
 Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow). 
@@ -39,6 +41,24 @@ IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repo
 - The `failed_repos.json` file inside the subdirectory will contain data on repositories that the script failed to `git clone`. There are many reasons why this can happen, such as network errors or DMCA takedowns.
 
 It's best to navigate all files to get a clearer picture of the user's activity.
+
+# Monitoring user
+
+The `monitor.py` script is designed to continously monitor the activity of specified Gituhb users. It works as an event watcher. On first run, it will return last past 90 days of events for an account.
+
+```sh
+
+python monitor.py --username <username> # Monitor single user
+python monitor.py --targets <file> # Monitor multiple usernames
+
+```
+
+The script logs activity to both a file (`monitoring.log`) and the console. It captures various events such as:
+
+- New followers
+- Profile updates (e.g., changes in name, company, blog, location, email, bio, Twitter username)
+- GitHub events (e.g., stars, pushes, forks, issues, pull requests)
+
 
 # Malicious Github Accounts
 
