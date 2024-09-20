@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "JAVA",
+        "clone_url": "https://github.com/HeannaReis/JAVA.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/HeannaReis/JAVA.git /home/user/Github/PRs/gh-fake-analyzer/out/HeannaReis/HeannaReis_JAVA.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/HeannaReis/HeannaReis_JAVA.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 2971 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

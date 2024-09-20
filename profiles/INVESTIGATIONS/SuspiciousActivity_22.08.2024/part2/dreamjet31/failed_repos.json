@@ -1,0 +1,12 @@
+[
+    {
+        "repo_name": "AppStack-React",
+        "clone_url": "https://github.com/dreamjet31/AppStack-React.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/dreamjet31/AppStack-React.git /home/user/Github/PRs/gh-fake-analyzer/out/dreamjet31/dreamjet31_AppStack-React.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/dreamjet31/dreamjet31_AppStack-React.git'...\nremote: Repository unavailable due to DMCA takedown.\nremote: See the takedown notice for more details:\nremote:   https://github.com/github/dmca/blob/master/2024/09/2024-09-04-appstack-react.md.\nfatal: unable to access 'https://github.com/dreamjet31/AppStack-React.git/': The requested URL returned error: 403\n'"
+    },
+    {
+        "repo_name": "portfolio-template",
+        "clone_url": "https://github.com/dreamjet31/portfolio-template.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/dreamjet31/portfolio-template.git /home/user/Github/PRs/gh-fake-analyzer/out/dreamjet31/dreamjet31_portfolio-template.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/dreamjet31/dreamjet31_portfolio-template.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 6955 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "repo_name": "dapp-mint",
+        "clone_url": "https://github.com/horizonvert1027/dapp-mint.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/horizonvert1027/dapp-mint.git /home/user/Github/PRs/gh-fake-analyzer/out/horizonvert1027/horizonvert1027_dapp-mint.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/horizonvert1027/horizonvert1027_dapp-mint.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 29954 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "flutter-multivendor-integration-wordpress",
+        "clone_url": "https://github.com/horizonvert1027/flutter-multivendor-integration-wordpress.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/horizonvert1027/flutter-multivendor-integration-wordpress.git /home/user/Github/PRs/gh-fake-analyzer/out/horizonvert1027/horizonvert1027_flutter-multivendor-integration-wordpress.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/horizonvert1027/horizonvert1027_flutter-multivendor-integration-wordpress.git'...\nremote: Repository unavailable due to DMCA takedown.\nremote: See the takedown notice for more details:\nremote:   https://github.com/github/dmca/blob/master/2023/04/2023-04-21-inspireui.md.\nfatal: unable to access 'https://github.com/horizonvert1027/flutter-multivendor-integration-wordpress.git/': The requested URL returned error: 403\n'"
+    },
+    {
+        "repo_name": "woocommerce-flutter",
+        "clone_url": "https://github.com/horizonvert1027/woocommerce-flutter.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/horizonvert1027/woocommerce-flutter.git /home/user/Github/PRs/gh-fake-analyzer/out/horizonvert1027/horizonvert1027_woocommerce-flutter.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/horizonvert1027/horizonvert1027_woocommerce-flutter.git'...\nremote: Repository unavailable due to DMCA takedown.\nremote: See the takedown notice for more details:\nremote:   https://github.com/github/dmca/blob/master/2023/04/2023-04-21-inspireui.md.\nfatal: unable to access 'https://github.com/horizonvert1027/woocommerce-flutter.git/': The requested URL returned error: 403\n'"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "repo_name": "music-app-react-native",
+        "clone_url": "https://github.com/robustsolution/music-app-react-native.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/robustsolution/music-app-react-native.git /home/user/Github/PRs/gh-fake-analyzer/out/robustsolution/robustsolution_music-app-react-native.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/robustsolution/robustsolution_music-app-react-native.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 5946 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Swift-Messenger",
+        "clone_url": "https://github.com/robustsolution/Swift-Messenger.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/robustsolution/Swift-Messenger.git /home/user/Github/PRs/gh-fake-analyzer/out/robustsolution/robustsolution_Swift-Messenger.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/robustsolution/robustsolution_Swift-Messenger.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 1155 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

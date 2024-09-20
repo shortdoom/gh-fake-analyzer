@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "Estates-codebase",
+        "clone_url": "https://github.com/LoveNuna/Estates-codebase.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/LoveNuna/Estates-codebase.git /home/user/Github/PRs/gh-fake-analyzer/out/LoveNuna/LoveNuna_Estates-codebase.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/LoveNuna/LoveNuna_Estates-codebase.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 4994 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

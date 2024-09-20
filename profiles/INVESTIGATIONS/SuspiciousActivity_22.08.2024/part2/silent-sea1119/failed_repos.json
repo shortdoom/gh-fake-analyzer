@@ -1,0 +1,17 @@
+[
+    {
+        "repo_name": "Augcast",
+        "clone_url": "https://github.com/silent-sea1119/Augcast.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/silent-sea1119/Augcast.git /home/user/Github/PRs/gh-fake-analyzer/out/silent-sea1119/silent-sea1119_Augcast.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/silent-sea1119/silent-sea1119_Augcast.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.\nerror: 2 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "site",
+        "clone_url": "https://github.com/silent-sea1119/site.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/silent-sea1119/site.git /home/user/Github/PRs/gh-fake-analyzer/out/silent-sea1119/silent-sea1119_site.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/silent-sea1119/silent-sea1119_site.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 4745 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "WakalaRealtor",
+        "clone_url": "https://github.com/silent-sea1119/WakalaRealtor.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/silent-sea1119/WakalaRealtor.git /home/user/Github/PRs/gh-fake-analyzer/out/silent-sea1119/silent-sea1119_WakalaRealtor.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/silent-sea1119/silent-sea1119_WakalaRealtor.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 6115 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

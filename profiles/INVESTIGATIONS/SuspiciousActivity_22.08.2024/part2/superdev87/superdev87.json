@@ -1,0 +1,3104 @@
+{
+    "repos": [
+        {
+            "id": 722843162,
+            "node_id": "R_kgDOKxW2Gg",
+            "name": "168backend-NodeJS",
+            "full_name": "superdev87/168backend-NodeJS",
+            "private": false,
+            "owner": {
+                "login": "superdev87",
+                "id": 140258985,
+                "node_id": "U_kgDOCFwuqQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/140258985?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/superdev87",
+                "html_url": "https://github.com/superdev87",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/superdev87/168backend-NodeJS",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/superdev87/168backend-NodeJS",
+            "created_at": "2023-11-24T04:50:03Z",
+            "updated_at": "2024-04-22T08:23:54Z",
+            "pushed_at": "2023-11-29T20:25:20Z",
+            "homepage": null,
+            "size": 20,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 685436643,
+            "node_id": "R_kgDOKNru4w",
+            "name": "19-Tracker",
+            "full_name": "superdev87/19-Tracker",
+            "private": false,
+            "owner": {
+                "login": "superdev87",
+                "id": 140258985,
+                "node_id": "U_kgDOCFwuqQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/140258985?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/superdev87",
+                "html_url": "https://github.com/superdev87",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/superdev87/19-Tracker",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/superdev87/19-Tracker",
+            "created_at": "2023-08-31T08:19:28Z",
+            "updated_at": "2024-04-22T08:23:30Z",
+            "pushed_at": "2024-02-15T07:59:16Z",
+            "homepage": null,
+            "size": 212,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 715820894,
+            "node_id": "R_kgDOKqqPXg",
+            "name": "lotteryVideo",
+            "full_name": "superdev87/lotteryVideo",
+            "private": false,
+            "owner": {
+                "login": "superdev87",
+                "id": 140258985,
+                "node_id": "U_kgDOCFwuqQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/140258985?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/superdev87",
+                "html_url": "https://github.com/superdev87",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/superdev87/lotteryVideo",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/superdev87/lotteryVideo",
+            "created_at": "2023-11-07T22:38:19Z",
+            "updated_at": "2024-04-22T08:24:29Z",
+            "pushed_at": "2023-11-27T16:08:35Z",
+            "homepage": null,
+            "size": 5181,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 686897872,
+            "node_id": "R_kgDOKPE60A",
+            "name": "project_car_showcase",
+            "full_name": "superdev87/project_car_showcase",
+            "private": false,
+            "owner": {
+                "login": "superdev87",
+                "id": 140258985,
+                "node_id": "U_kgDOCFwuqQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/140258985?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/superdev87",
+                "html_url": "https://github.com/superdev87",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/superdev87/project_car_showcase",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/superdev87/project_car_showcase",
+            "created_at": "2023-09-04T07:21:03Z",
+            "updated_at": "2024-04-22T08:24:48Z",
+            "pushed_at": "2023-09-04T07:22:10Z",
+            "homepage": null,
+            "size": 10701,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "TypeScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 1,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 794728581,
+            "node_id": "R_kgDOL16YhQ",
+            "name": "ramble-backend",
+            "full_name": "superdev87/ramble-backend",
+            "private": false,
+            "owner": {
+                "login": "superdev87",
+                "id": 140258985,
+                "node_id": "U_kgDOCFwuqQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/140258985?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/superdev87",
+                "html_url": "https://github.com/superdev87",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/superdev87/ramble-backend",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/superdev87/ramble-backend",
+            "created_at": "2024-05-01T20:34:05Z",
+            "updated_at": "2024-05-01T20:39:22Z",
+            "pushed_at": "2024-05-01T20:39:19Z",
+            "homepage": null,
+            "size": 67,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 694202672,
+            "node_id": "R_kgDOKWCxMA",
+            "name": "superdev87",
+            "full_name": "superdev87/superdev87",
+            "private": false,
+            "owner": {
+                "login": "superdev87",
+                "id": 140258985,
+                "node_id": "U_kgDOCFwuqQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/140258985?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/superdev87",
+                "html_url": "https://github.com/superdev87",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/superdev87/superdev87",
+            "description": "Config files for my GitHub profile.",
+            "fork": false,
+            "url": "https://api.github.com/repos/superdev87/superdev87",
+            "created_at": "2023-09-20T14:25:23Z",
+            "updated_at": "2024-07-16T13:24:07Z",
+            "pushed_at": "2024-07-16T13:24:04Z",
+            "homepage": "https://github.com/superdev87",
+            "size": 15,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "config",
+                "github-config"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "168backend-NodeJS": [
+            {
+                "sha": "35dba01e3425de0f61e36ce56c70290d7bc0db84",
+                "commit": {
+                    "author": {
+                        "name": "Natural Spirit",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-12-20T11:42:41-05:00"
+                    },
+                    "committer": {
+                        "name": "Natural Spirit",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-12-20T11:42:41-05:00"
+                    },
+                    "message": "update get_past_data\n"
+                },
+                "parents": [
+                    "9f5209935c9d627b5bed33ffdb832b343f32354c"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/35dba01e3425de0f61e36ce56c70290d7bc0db84"
+            },
+            {
+                "sha": "9f5209935c9d627b5bed33ffdb832b343f32354c",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-12-20T16:27:37+00:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-12-20T16:27:37+00:00"
+                    },
+                    "message": "Merge branch 'main' of https://github.com/superdev87/168backend-NodeJS\n"
+                },
+                "parents": [
+                    "04deb4c194a5f5de8bda7311eaf897dcc86563d8",
+                    "21a6fefa1fb2b426622ecb9f3848a11718a2dd4b"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/9f5209935c9d627b5bed33ffdb832b343f32354c"
+            },
+            {
+                "sha": "04deb4c194a5f5de8bda7311eaf897dcc86563d8",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-12-20T16:24:33+00:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-12-20T16:24:33+00:00"
+                    },
+                    "message": "update planHistory\n"
+                },
+                "parents": [
+                    "d5981ca47dd87bcfdb3cb1e385de8b18a4d82210"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/04deb4c194a5f5de8bda7311eaf897dcc86563d8"
+            },
+            {
+                "sha": "21a6fefa1fb2b426622ecb9f3848a11718a2dd4b",
+                "commit": {
+                    "author": {
+                        "name": "Dark Man",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-11-29T23:25:20+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-29T23:25:20+03:00"
+                    },
+                    "message": "Merge pull request #2 from superdev87/optimize-data-analysis\n\nOptimize data analysis"
+                },
+                "parents": [
+                    "3e37f26c20986cef4846e4db2811a88b7d57ae83",
+                    "12c76b90185cee379788923c45b3d116e68dff59"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/21a6fefa1fb2b426622ecb9f3848a11718a2dd4b"
+            },
+            {
+                "sha": "12c76b90185cee379788923c45b3d116e68dff59",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T04:24:14+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T04:24:14+08:00"
+                    },
+                    "message": "merge optimize-data-analysis to main\n"
+                },
+                "parents": [
+                    "504685433dd87397bea211e72f8b5c11977002e2",
+                    "3e37f26c20986cef4846e4db2811a88b7d57ae83"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/12c76b90185cee379788923c45b3d116e68dff59"
+            },
+            {
+                "sha": "504685433dd87397bea211e72f8b5c11977002e2",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T04:13:35+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T04:13:35+08:00"
+                    },
+                    "message": "remove line\n"
+                },
+                "parents": [
+                    "3a0b90d00c4e151bf13c651543d3254d191857a9"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/504685433dd87397bea211e72f8b5c11977002e2"
+            },
+            {
+                "sha": "3a0b90d00c4e151bf13c651543d3254d191857a9",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-30T04:09:04+08:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-30T04:09:04+08:00"
+                    },
+                    "message": "add new line\n"
+                },
+                "parents": [
+                    "445927436ce2be2aa12d099fef6ecc31a1f11203"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/3a0b90d00c4e151bf13c651543d3254d191857a9"
+            },
+            {
+                "sha": "445927436ce2be2aa12d099fef6ecc31a1f11203",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T04:07:28+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T04:07:28+08:00"
+                    },
+                    "message": "remove all urls\n"
+                },
+                "parents": [
+                    "d5981ca47dd87bcfdb3cb1e385de8b18a4d82210"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/445927436ce2be2aa12d099fef6ecc31a1f11203"
+            },
+            {
+                "sha": "3e37f26c20986cef4846e4db2811a88b7d57ae83",
+                "commit": {
+                    "author": {
+                        "name": "Dark Man",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-11-29T23:00:45+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-29T23:00:45+03:00"
+                    },
+                    "message": "Merge pull request #1 from superdev87/optimize-data\n\nOptimize data"
+                },
+                "parents": [
+                    "d5981ca47dd87bcfdb3cb1e385de8b18a4d82210",
+                    "b166d2402b6ba08fe53f18595beeda215eea3fa0"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/3e37f26c20986cef4846e4db2811a88b7d57ae83"
+            },
+            {
+                "sha": "b166d2402b6ba08fe53f18595beeda215eea3fa0",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T03:59:25+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T03:59:25+08:00"
+                    },
+                    "message": "merge\n"
+                },
+                "parents": [
+                    "017db18eba82d5d83fa9e394b0abbb0641fde345",
+                    "c8d12cc2f8cc29c1b3a1aa6973e9d639ad50dfdc"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/b166d2402b6ba08fe53f18595beeda215eea3fa0"
+            },
+            {
+                "sha": "017db18eba82d5d83fa9e394b0abbb0641fde345",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T03:56:54+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-30T03:56:54+08:00"
+                    },
+                    "message": "update url to historyUrl\n"
+                },
+                "parents": [
+                    "703c229bcd9bc7f9c0cb5d025b2cf73d5f3d4c34"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/017db18eba82d5d83fa9e394b0abbb0641fde345"
+            },
+            {
+                "sha": "c8d12cc2f8cc29c1b3a1aa6973e9d639ad50dfdc",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-30T03:55:49+08:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-30T03:55:49+08:00"
+                    },
+                    "message": "update url to pastUrl\n"
+                },
+                "parents": [
+                    "703c229bcd9bc7f9c0cb5d025b2cf73d5f3d4c34"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/c8d12cc2f8cc29c1b3a1aa6973e9d639ad50dfdc"
+            },
+            {
+                "sha": "703c229bcd9bc7f9c0cb5d025b2cf73d5f3d4c34",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-30T03:39:44+08:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-30T03:39:44+08:00"
+                    },
+                    "message": "update url to pastUrl\n"
+                },
+                "parents": [
+                    "d5981ca47dd87bcfdb3cb1e385de8b18a4d82210"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/703c229bcd9bc7f9c0cb5d025b2cf73d5f3d4c34"
+            },
+            {
+                "sha": "d5981ca47dd87bcfdb3cb1e385de8b18a4d82210",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-29T00:47:57+08:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-29T00:47:57+08:00"
+                    },
+                    "message": "update db.js\n"
+                },
+                "parents": [
+                    "6cf2c22c0fe68767debb64e392560a39e8d728ac"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/d5981ca47dd87bcfdb3cb1e385de8b18a4d82210"
+            },
+            {
+                "sha": "6cf2c22c0fe68767debb64e392560a39e8d728ac",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T16:48:53+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T16:48:53+08:00"
+                    },
+                    "message": "correct database\n"
+                },
+                "parents": [
+                    "5711cc9374a8bc8f191721b74fa6861ba9fa5524"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/6cf2c22c0fe68767debb64e392560a39e8d728ac"
+            },
+            {
+                "sha": "5711cc9374a8bc8f191721b74fa6861ba9fa5524",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T15:25:46+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T15:25:46+08:00"
+                    },
+                    "message": "update doublecombination\n"
+                },
+                "parents": [
+                    "ad257091fff19a3bece40ffc6c4ff5372ffa2ede"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/5711cc9374a8bc8f191721b74fa6861ba9fa5524"
+            },
+            {
+                "sha": "ad257091fff19a3bece40ffc6c4ff5372ffa2ede",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T15:15:33+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T15:15:33+08:00"
+                    },
+                    "message": "update conbination forecast\n"
+                },
+                "parents": [
+                    "96039bfe6213f7d8f720b5ce55dbef5064d21bd3"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/ad257091fff19a3bece40ffc6c4ff5372ffa2ede"
+            },
+            {
+                "sha": "96039bfe6213f7d8f720b5ce55dbef5064d21bd3",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T01:47:14+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T01:47:14+08:00"
+                    },
+                    "message": "update generating random\n"
+                },
+                "parents": [
+                    "4fd7543e1cc4fc139e8ff7bc7082a5eec26fbec4"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/96039bfe6213f7d8f720b5ce55dbef5064d21bd3"
+            },
+            {
+                "sha": "4fd7543e1cc4fc139e8ff7bc7082a5eec26fbec4",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T00:58:56+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T00:58:56+08:00"
+                    },
+                    "message": "update result\n"
+                },
+                "parents": [
+                    "83038dc83f13538dcf8731e2759469cc1c852a0e"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/4fd7543e1cc4fc139e8ff7bc7082a5eec26fbec4"
+            },
+            {
+                "sha": "83038dc83f13538dcf8731e2759469cc1c852a0e",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-27T23:36:10+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-27T23:36:10+08:00"
+                    },
+                    "message": "update statistics\n"
+                },
+                "parents": [
+                    "57476398e597bbda9d46d37c9585d02dab114e06"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/83038dc83f13538dcf8731e2759469cc1c852a0e"
+            },
+            {
+                "sha": "57476398e597bbda9d46d37c9585d02dab114e06",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-27T02:07:37+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-27T02:07:37+08:00"
+                    },
+                    "message": "update api\n"
+                },
+                "parents": [
+                    "bb473bf9d7d17061d324e920d6832f18ed7bc2ad"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/57476398e597bbda9d46d37c9585d02dab114e06"
+            },
+            {
+                "sha": "bb473bf9d7d17061d324e920d6832f18ed7bc2ad",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-25T05:15:08+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-25T05:15:08+08:00"
+                    },
+                    "message": "update\n"
+                },
+                "parents": [
+                    "ee6c938841f6ca4f6ed879d1fe8798366349eb31"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/bb473bf9d7d17061d324e920d6832f18ed7bc2ad"
+            },
+            {
+                "sha": "ee6c938841f6ca4f6ed879d1fe8798366349eb31",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-24T17:02:42+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-24T17:02:42+08:00"
+                    },
+                    "message": "fix spellerror\n"
+                },
+                "parents": [
+                    "769f1242f713c7d9842be37ca297b7cbf5f54d0c"
+                ],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/ee6c938841f6ca4f6ed879d1fe8798366349eb31"
+            },
+            {
+                "sha": "769f1242f713c7d9842be37ca297b7cbf5f54d0c",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-23T23:52:02-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-23T23:52:02-05:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/superdev87/168backend-NodeJS/commit/769f1242f713c7d9842be37ca297b7cbf5f54d0c"
+            }
+        ],
+        "19-Tracker": [
+            {
+                "sha": "cd188f2941d6473c5581797a1d19cd312fa1d41b",
+                "commit": {
+                    "author": {
+                        "name": "Dark Man",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2024-02-15T02:59:16-05:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-15T02:59:16-05:00"
+                    },
+                    "message": "Delete yarn.lock"
+                },
+                "parents": [
+                    "eb3fa41d4af07b358948687c8d606783d1bf521f"
+                ],
+                "url": "https://github.com/superdev87/19-Tracker/commit/cd188f2941d6473c5581797a1d19cd312fa1d41b"
+            },
+            {
+                "sha": "eb3fa41d4af07b358948687c8d606783d1bf521f",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2021-05-24T13:19:52+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2021-05-24T13:19:52+05:30"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "2a969e639d1dc5e86c7edfd7697dd6e739bab502"
+                ],
+                "url": "https://github.com/superdev87/19-Tracker/commit/eb3fa41d4af07b358948687c8d606783d1bf521f"
+            },
+            {
+                "sha": "2a969e639d1dc5e86c7edfd7697dd6e739bab502",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2021-05-21T15:48:35+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2021-05-21T15:48:35+05:30"
+                    },
+                    "message": "Initialize project using Create React App\n"
+                },
+                "parents": [],
+                "url": "https://github.com/superdev87/19-Tracker/commit/2a969e639d1dc5e86c7edfd7697dd6e739bab502"
+            }
+        ],
+        "lotteryVideo": [
+            {
+                "sha": "3695b12dd17ecac2eaa68c77f2c8bd5a0f91d805",
+                "commit": {
+                    "author": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T00:08:20+08:00"
+                    },
+                    "committer": {
+                        "name": "Natural",
+                        "email": "128178042+naturalspirit-dev@users.noreply.github.com",
+                        "date": "2023-11-28T00:08:20+08:00"
+                    },
+                    "message": "update API of canada and taiwan 28 games\n"
+                },
+                "parents": [
+                    "3c77a5d20985da38a01c66c3cc8253daf07b8e20"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/3695b12dd17ecac2eaa68c77f2c8bd5a0f91d805"
+            },
+            {
+                "sha": "3c77a5d20985da38a01c66c3cc8253daf07b8e20",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-17T13:56:28-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-17T13:56:28-05:00"
+                    },
+                    "message": "update 28 APIs\n"
+                },
+                "parents": [
+                    "78bc9ddf5add40f037cec85430bb5b76ba07d39e"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/3c77a5d20985da38a01c66c3cc8253daf07b8e20"
+            },
+            {
+                "sha": "78bc9ddf5add40f037cec85430bb5b76ba07d39e",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-10T02:32:43-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-10T02:32:43-05:00"
+                    },
+                    "message": "update api of taiwan28\n"
+                },
+                "parents": [
+                    "aaabce608e38ca01955c0f1748c73ef09f0f5689"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/78bc9ddf5add40f037cec85430bb5b76ba07d39e"
+            },
+            {
+                "sha": "aaabce608e38ca01955c0f1748c73ef09f0f5689",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T14:13:14-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T14:13:14-05:00"
+                    },
+                    "message": "add pk10 mark image\n"
+                },
+                "parents": [
+                    "44e3179fddddf21070b3381ee2d398ae9008feac"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/aaabce608e38ca01955c0f1748c73ef09f0f5689"
+            },
+            {
+                "sha": "44e3179fddddf21070b3381ee2d398ae9008feac",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T13:16:53-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T13:16:53-05:00"
+                    },
+                    "message": "add images and add circle5 game\n"
+                },
+                "parents": [
+                    "43c7e5e1f1f97bbc702bd1c053699b5fa54b2726"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/44e3179fddddf21070b3381ee2d398ae9008feac"
+            },
+            {
+                "sha": "43c7e5e1f1f97bbc702bd1c053699b5fa54b2726",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T11:05:43-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T11:05:43-05:00"
+                    },
+                    "message": "rename video.html to index.html\n"
+                },
+                "parents": [
+                    "271a1a3a3fc201701bbdd009fa5c0e737e914128"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/43c7e5e1f1f97bbc702bd1c053699b5fa54b2726"
+            },
+            {
+                "sha": "271a1a3a3fc201701bbdd009fa5c0e737e914128",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T11:02:32-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T11:02:32-05:00"
+                    },
+                    "message": "add car game\n"
+                },
+                "parents": [
+                    "c7f2eac3e71ac3c951091639d9ae297c519c6748"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/271a1a3a3fc201701bbdd009fa5c0e737e914128"
+            },
+            {
+                "sha": "c7f2eac3e71ac3c951091639d9ae297c519c6748",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T10:06:54-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T10:06:54-05:00"
+                    },
+                    "message": "add another type\n"
+                },
+                "parents": [
+                    "be96af16c9aad55b78a5a82cf3b8f7376dd825a4"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/c7f2eac3e71ac3c951091639d9ae297c519c6748"
+            },
+            {
+                "sha": "be96af16c9aad55b78a5a82cf3b8f7376dd825a4",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T06:28:45-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-09T06:28:45-05:00"
+                    },
+                    "message": "add winner3.png\n"
+                },
+                "parents": [
+                    "2111cd9847ce088f3b4c79e306833449f1650ae4"
+                ],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/be96af16c9aad55b78a5a82cf3b8f7376dd825a4"
+            },
+            {
+                "sha": "2111cd9847ce088f3b4c79e306833449f1650ae4",
+                "commit": {
+                    "author": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-07T17:38:35-05:00"
+                    },
+                    "committer": {
+                        "name": "superdev87",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-11-07T17:38:35-05:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/superdev87/lotteryVideo/commit/2111cd9847ce088f3b4c79e306833449f1650ae4"
+            }
+        ],
+        "project_car_showcase": [
+            {
+                "sha": "7e118678b1c0a92d8a98607bb20e90ad3e49022c",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-06-09T11:49:11+02:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-06-09T11:49:11+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a560663fd6f8cd4cb91eade7c09af5be566ed052"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/7e118678b1c0a92d8a98607bb20e90ad3e49022c"
+            },
+            {
+                "sha": "a560663fd6f8cd4cb91eade7c09af5be566ed052",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-29T16:40:40+02:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-29T16:40:40+02:00"
+                    },
+                    "message": "refactor\n"
+                },
+                "parents": [
+                    "54fd9daae7b0e47bbb12ae0ba7d3527373138e44",
+                    "f32b71a27c9f0b1fc431ee1354987add3e5372bd"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/a560663fd6f8cd4cb91eade7c09af5be566ed052"
+            },
+            {
+                "sha": "54fd9daae7b0e47bbb12ae0ba7d3527373138e44",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-29T16:37:17+02:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-29T16:37:17+02:00"
+                    },
+                    "message": "refactor\n"
+                },
+                "parents": [
+                    "e8ec9ba948643bf2e2158ea3d713bdd93cc76eed"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/54fd9daae7b0e47bbb12ae0ba7d3527373138e44"
+            },
+            {
+                "sha": "f32b71a27c9f0b1fc431ee1354987add3e5372bd",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-29T18:37:49+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-29T18:37:49+05:30"
+                    },
+                    "message": "model placeholder update\n"
+                },
+                "parents": [
+                    "c814bbb16dd31f065ddfeab851f727c1d9c2c3ac"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/f32b71a27c9f0b1fc431ee1354987add3e5372bd"
+            },
+            {
+                "sha": "c814bbb16dd31f065ddfeab851f727c1d9c2c3ac",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-29T18:17:38+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-29T18:17:38+05:30"
+                    },
+                    "message": "searchbar position fix\n"
+                },
+                "parents": [
+                    "9cde748d86247a43b04957478f42649f548b195b"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/c814bbb16dd31f065ddfeab851f727c1d9c2c3ac"
+            },
+            {
+                "sha": "9cde748d86247a43b04957478f42649f548b195b",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-28T01:03:26+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-28T01:03:26+05:30"
+                    },
+                    "message": "remove id part\n"
+                },
+                "parents": [
+                    "68647aba711bee24aedcf901c496482fa2c0bf00"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/9cde748d86247a43b04957478f42649f548b195b"
+            },
+            {
+                "sha": "68647aba711bee24aedcf901c496482fa2c0bf00",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-28T00:21:18+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-28T00:21:18+05:30"
+                    },
+                    "message": "fix deployment\n"
+                },
+                "parents": [
+                    "88827dc4b037cb4e30eeb4ef43ff0839c904e65d"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/68647aba711bee24aedcf901c496482fa2c0bf00"
+            },
+            {
+                "sha": "88827dc4b037cb4e30eeb4ef43ff0839c904e65d",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-28T00:18:04+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-28T00:19:16+05:30"
+                    },
+                    "message": "more comments\n"
+                },
+                "parents": [
+                    "67b61b94e01cbcd5e36ed0fb4370b7a3a8cdb6c2"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/88827dc4b037cb4e30eeb4ef43ff0839c904e65d"
+            },
+            {
+                "sha": "67b61b94e01cbcd5e36ed0fb4370b7a3a8cdb6c2",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-28T00:06:43+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-28T00:06:43+05:30"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "681d66e2e0ae58d15b5edc80350ed6fbffe33e63"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/67b61b94e01cbcd5e36ed0fb4370b7a3a8cdb6c2"
+            },
+            {
+                "sha": "681d66e2e0ae58d15b5edc80350ed6fbffe33e63",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T22:18:26+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T22:18:26+05:30"
+                    },
+                    "message": "search manufacturer style fix\n"
+                },
+                "parents": [
+                    "01d3079df9d5675cfe9a1d5e4dfb28d69b1dafb4"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/681d66e2e0ae58d15b5edc80350ed6fbffe33e63"
+            },
+            {
+                "sha": "01d3079df9d5675cfe9a1d5e4dfb28d69b1dafb4",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T09:29:16-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T09:29:16-07:00"
+                    },
+                    "message": "Merge branch 'main' of https://github.com/TidbitsJS/carhub\n"
+                },
+                "parents": [
+                    "758c2f313086fe06c69443fe4c133d2557b8d901"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/01d3079df9d5675cfe9a1d5e4dfb28d69b1dafb4"
+            },
+            {
+                "sha": "758c2f313086fe06c69443fe4c133d2557b8d901",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:30:21-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:30:21-07:00"
+                    },
+                    "message": "show more styles\n"
+                },
+                "parents": [
+                    "575e84d60a080bb8aca51a54c2213ba0d886af85"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/758c2f313086fe06c69443fe4c133d2557b8d901"
+            },
+            {
+                "sha": "575e84d60a080bb8aca51a54c2213ba0d886af85",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:29:39-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:29:39-07:00"
+                    },
+                    "message": "search manufacturer styles\n"
+                },
+                "parents": [
+                    "b95b058545f7138ef5f008b21bebd370b1d9ac01"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/575e84d60a080bb8aca51a54c2213ba0d886af85"
+            },
+            {
+                "sha": "b95b058545f7138ef5f008b21bebd370b1d9ac01",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:25:28-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:25:28-07:00"
+                    },
+                    "message": "style issue fix\n"
+                },
+                "parents": [
+                    "9f833a0d3c302041c9ef94162a3095ad1a296958"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/b95b058545f7138ef5f008b21bebd370b1d9ac01"
+            },
+            {
+                "sha": "9f833a0d3c302041c9ef94162a3095ad1a296958",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:23:01-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:23:01-07:00"
+                    },
+                    "message": "searchbar styles\n"
+                },
+                "parents": [
+                    "8d8edfef0beeac4c9ccdccb30db81db2e28274f2"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/9f833a0d3c302041c9ef94162a3095ad1a296958"
+            },
+            {
+                "sha": "8d8edfef0beeac4c9ccdccb30db81db2e28274f2",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:20:34-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:20:34-07:00"
+                    },
+                    "message": "navbar styles\n"
+                },
+                "parents": [
+                    "87d425de42bcd6872217e310df71c5f1b8e8954c"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/8d8edfef0beeac4c9ccdccb30db81db2e28274f2"
+            },
+            {
+                "sha": "87d425de42bcd6872217e310df71c5f1b8e8954c",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:17:38-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:17:38-07:00"
+                    },
+                    "message": "footer styles\n"
+                },
+                "parents": [
+                    "57e53921a86cace58947c58efb1cc23c51a1d922"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/87d425de42bcd6872217e310df71c5f1b8e8954c"
+            },
+            {
+                "sha": "57e53921a86cace58947c58efb1cc23c51a1d922",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:13:22-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:13:22-07:00"
+                    },
+                    "message": "custom filter styles\n"
+                },
+                "parents": [
+                    "8d4fe918294bfe75bbde4e26186d51ce185931c6"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/57e53921a86cace58947c58efb1cc23c51a1d922"
+            },
+            {
+                "sha": "8d4fe918294bfe75bbde4e26186d51ce185931c6",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:10:57-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:10:57-07:00"
+                    },
+                    "message": "custom button styles\n"
+                },
+                "parents": [
+                    "89544c84588da2ed0bb5340d1bd3229d38237dba"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/8d4fe918294bfe75bbde4e26186d51ce185931c6"
+            },
+            {
+                "sha": "89544c84588da2ed0bb5340d1bd3229d38237dba",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:08:48-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T08:08:48-07:00"
+                    },
+                    "message": "car details refactor & styles\n"
+                },
+                "parents": [
+                    "cf5e70248e97f1b045e21eefd69b36d20632279b"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/89544c84588da2ed0bb5340d1bd3229d38237dba"
+            },
+            {
+                "sha": "cf5e70248e97f1b045e21eefd69b36d20632279b",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T07:22:43-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T07:22:43-07:00"
+                    },
+                    "message": "car card styles\n"
+                },
+                "parents": [
+                    "a726420785f5ae279523ce268b5586a04b32f44a"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/cf5e70248e97f1b045e21eefd69b36d20632279b"
+            },
+            {
+                "sha": "a726420785f5ae279523ce268b5586a04b32f44a",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T07:06:01-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T07:06:01-07:00"
+                    },
+                    "message": "home styles\n"
+                },
+                "parents": [
+                    "744e7062308c88c087a35f8a082bdc73129f3612"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/a726420785f5ae279523ce268b5586a04b32f44a"
+            },
+            {
+                "sha": "744e7062308c88c087a35f8a082bdc73129f3612",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T06:57:12-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T06:57:12-07:00"
+                    },
+                    "message": "hero styles\n"
+                },
+                "parents": [
+                    "bbffe95ed769a463ebe1b37724e7bb522dd40c41"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/744e7062308c88c087a35f8a082bdc73129f3612"
+            },
+            {
+                "sha": "bbffe95ed769a463ebe1b37724e7bb522dd40c41",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T06:48:07-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T06:48:07-07:00"
+                    },
+                    "message": "search button modifications\n"
+                },
+                "parents": [
+                    "2269ad8ee04fb7a27607ae68924a69e73c411c7a"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/bbffe95ed769a463ebe1b37724e7bb522dd40c41"
+            },
+            {
+                "sha": "2269ad8ee04fb7a27607ae68924a69e73c411c7a",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T06:40:49-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-27T06:40:49-07:00"
+                    },
+                    "message": "remove favorites functionality\n"
+                },
+                "parents": [
+                    "e8ec9ba948643bf2e2158ea3d713bdd93cc76eed"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/2269ad8ee04fb7a27607ae68924a69e73c411c7a"
+            },
+            {
+                "sha": "e8ec9ba948643bf2e2158ea3d713bdd93cc76eed",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T18:15:10+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T18:15:10+05:30"
+                    },
+                    "message": "UI changes\n"
+                },
+                "parents": [
+                    "25c1684a58c7afab29581daf32ae61af440df455"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/e8ec9ba948643bf2e2158ea3d713bdd93cc76eed"
+            },
+            {
+                "sha": "25c1684a58c7afab29581daf32ae61af440df455",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T17:11:39+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T17:11:39+05:30"
+                    },
+                    "message": "typescript error fix\n"
+                },
+                "parents": [
+                    "7faa1ca7f63cb339474e98987bd0483a51eeaa2d"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/25c1684a58c7afab29581daf32ae61af440df455"
+            },
+            {
+                "sha": "7faa1ca7f63cb339474e98987bd0483a51eeaa2d",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T17:06:52+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T17:06:52+05:30"
+                    },
+                    "message": "footer fix\n"
+                },
+                "parents": [
+                    "c6332c83302f1e83032dd071a1b372044f2e64e2"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/7faa1ca7f63cb339474e98987bd0483a51eeaa2d"
+            },
+            {
+                "sha": "c6332c83302f1e83032dd071a1b372044f2e64e2",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T17:05:20+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T17:05:20+05:30"
+                    },
+                    "message": "hero bg changes\n"
+                },
+                "parents": [
+                    "aabbcc5f34fbad3738b6de16212c72af2674d857"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/c6332c83302f1e83032dd071a1b372044f2e64e2"
+            },
+            {
+                "sha": "aabbcc5f34fbad3738b6de16212c72af2674d857",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T14:37:14+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T14:37:14+05:30"
+                    },
+                    "message": "proper car filters\n"
+                },
+                "parents": [
+                    "c8d9827e77892a11b7b7e3db9387261cd46bca00"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/aabbcc5f34fbad3738b6de16212c72af2674d857"
+            },
+            {
+                "sha": "c8d9827e77892a11b7b7e3db9387261cd46bca00",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T14:31:08+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T14:31:08+05:30"
+                    },
+                    "message": "favorites\n"
+                },
+                "parents": [
+                    "13b0b58e0de8b06cc5698170b55cda46e02adccc"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/c8d9827e77892a11b7b7e3db9387261cd46bca00"
+            },
+            {
+                "sha": "13b0b58e0de8b06cc5698170b55cda46e02adccc",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T13:45:51+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T13:45:51+05:30"
+                    },
+                    "message": "footer changes\n"
+                },
+                "parents": [
+                    "94ad9f32a59ce1e73e934c696d1208f3833a79e1"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/13b0b58e0de8b06cc5698170b55cda46e02adccc"
+            },
+            {
+                "sha": "94ad9f32a59ce1e73e934c696d1208f3833a79e1",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T13:13:54+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-25T13:13:54+05:30"
+                    },
+                    "message": "hero section\n"
+                },
+                "parents": [
+                    "fc6eccd2ccc4b562937b85e4d7bebe3ab0f3700a"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/94ad9f32a59ce1e73e934c696d1208f3833a79e1"
+            },
+            {
+                "sha": "fc6eccd2ccc4b562937b85e4d7bebe3ab0f3700a",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T23:17:42+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T23:17:42+05:30"
+                    },
+                    "message": "few fixes II\n"
+                },
+                "parents": [
+                    "5ea5a7b72944a94dbafa521fd4332793c1bb15f6"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/fc6eccd2ccc4b562937b85e4d7bebe3ab0f3700a"
+            },
+            {
+                "sha": "5ea5a7b72944a94dbafa521fd4332793c1bb15f6",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T22:59:20+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T22:59:20+05:30"
+                    },
+                    "message": "hide show more\n"
+                },
+                "parents": [
+                    "f065c32cf157b67f987106198833d259e5534bfa"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/5ea5a7b72944a94dbafa521fd4332793c1bb15f6"
+            },
+            {
+                "sha": "f065c32cf157b67f987106198833d259e5534bfa",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T22:56:44+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T22:56:44+05:30"
+                    },
+                    "message": "car details modal\n"
+                },
+                "parents": [
+                    "5f11a5a19fe0b4a6f5897faa329bb123e9c26fc6"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/f065c32cf157b67f987106198833d259e5534bfa"
+            },
+            {
+                "sha": "5f11a5a19fe0b4a6f5897faa329bb123e9c26fc6",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T20:24:39+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T20:24:39+05:30"
+                    },
+                    "message": "replace pagination with show more\n"
+                },
+                "parents": [
+                    "e987b77a1c46e8a374fc3a98c8ad28220dced81b"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/5f11a5a19fe0b4a6f5897faa329bb123e9c26fc6"
+            },
+            {
+                "sha": "e987b77a1c46e8a374fc3a98c8ad28220dced81b",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T19:52:54+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T19:52:54+05:30"
+                    },
+                    "message": "no data fix\n"
+                },
+                "parents": [
+                    "7129d6df135f46b55c2253f2b8c972f80d06afac"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/e987b77a1c46e8a374fc3a98c8ad28220dced81b"
+            },
+            {
+                "sha": "7129d6df135f46b55c2253f2b8c972f80d06afac",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T19:49:08+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T19:49:08+05:30"
+                    },
+                    "message": "new search fix\n"
+                },
+                "parents": [
+                    "743a0fe2b2dcb1ab25c9f6bc62e731c0ab8d5727"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/7129d6df135f46b55c2253f2b8c972f80d06afac"
+            },
+            {
+                "sha": "743a0fe2b2dcb1ab25c9f6bc62e731c0ab8d5727",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T18:37:48+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T18:37:48+05:30"
+                    },
+                    "message": "new searchbar changes\n"
+                },
+                "parents": [
+                    "b34c626d372776cd7eb48c583847a4cc8ba4f977"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/743a0fe2b2dcb1ab25c9f6bc62e731c0ab8d5727"
+            },
+            {
+                "sha": "b34c626d372776cd7eb48c583847a4cc8ba4f977",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T18:10:24+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T18:10:24+05:30"
+                    },
+                    "message": "remove old filter\n"
+                },
+                "parents": [
+                    "62b2736c194fd1965f03987384eedabe14f478a5"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/b34c626d372776cd7eb48c583847a4cc8ba4f977"
+            },
+            {
+                "sha": "62b2736c194fd1965f03987384eedabe14f478a5",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T18:09:06+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-24T18:09:06+05:30"
+                    },
+                    "message": "headlessui filter\n"
+                },
+                "parents": [
+                    "29871b2faaa2fd6af41967b04fee402e0fece368"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/62b2736c194fd1965f03987384eedabe14f478a5"
+            },
+            {
+                "sha": "29871b2faaa2fd6af41967b04fee402e0fece368",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-22T23:54:20+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-22T23:54:20+05:30"
+                    },
+                    "message": "search manufacturer combobox\n"
+                },
+                "parents": [
+                    "290f0a41e21445ef9cd0a67ac0bd1d3bf78ac2e4"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/29871b2faaa2fd6af41967b04fee402e0fece368"
+            },
+            {
+                "sha": "290f0a41e21445ef9cd0a67ac0bd1d3bf78ac2e4",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-22T12:54:23+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-22T12:54:23+05:30"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "1d23dd455103a6b4dded2597559290eb6efdc147"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/290f0a41e21445ef9cd0a67ac0bd1d3bf78ac2e4"
+            },
+            {
+                "sha": "1d23dd455103a6b4dded2597559290eb6efdc147",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-22T11:10:44+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-22T11:10:44+05:30"
+                    },
+                    "message": "pagination button and color fix\n"
+                },
+                "parents": [
+                    "ad21c02e2fd9fe8db24a82cd893f7b1d24025979"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/1d23dd455103a6b4dded2597559290eb6efdc147"
+            },
+            {
+                "sha": "ad21c02e2fd9fe8db24a82cd893f7b1d24025979",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-22T11:01:28+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-22T11:01:28+05:30"
+                    },
+                    "message": "search button fix\n"
+                },
+                "parents": [
+                    "62a8967ac383b18844f007d5f9bd5089e97aac40"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/ad21c02e2fd9fe8db24a82cd893f7b1d24025979"
+            },
+            {
+                "sha": "62a8967ac383b18844f007d5f9bd5089e97aac40",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T12:31:19-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T12:31:19-07:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "3f5af1ad6ec9eb01357fedd17a6672de5304231e"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/62a8967ac383b18844f007d5f9bd5089e97aac40"
+            },
+            {
+                "sha": "3f5af1ad6ec9eb01357fedd17a6672de5304231e",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T11:41:23-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T11:41:23-07:00"
+                    },
+                    "message": "added comments\n"
+                },
+                "parents": [
+                    "9214902ae7b954423728eec657c2362c2b9a5e63"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/3f5af1ad6ec9eb01357fedd17a6672de5304231e"
+            },
+            {
+                "sha": "9214902ae7b954423728eec657c2362c2b9a5e63",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:34:17-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:34:17-07:00"
+                    },
+                    "message": "Merge pull request #2 from TidbitsJS/dev\n\nDev"
+                },
+                "parents": [
+                    "36b929d26c2c63265312065b0895a9d6615c6b8e",
+                    "3b92a2ae06972749e3f6ecb19a3eeea1c5ef0c30"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/9214902ae7b954423728eec657c2362c2b9a5e63"
+            },
+            {
+                "sha": "3b92a2ae06972749e3f6ecb19a3eeea1c5ef0c30",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:33:11-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:33:11-07:00"
+                    },
+                    "message": "Merge branch 'main' into dev\n"
+                },
+                "parents": [
+                    "7cbadba78de9de5cb4268134519e26fd1eaa182e",
+                    "36b929d26c2c63265312065b0895a9d6615c6b8e"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/3b92a2ae06972749e3f6ecb19a3eeea1c5ef0c30"
+            },
+            {
+                "sha": "7cbadba78de9de5cb4268134519e26fd1eaa182e",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:31:56-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:31:56-07:00"
+                    },
+                    "message": "remove console log\n"
+                },
+                "parents": [
+                    "d07f36b37314a47d72c168a5adca776cfec3c7d5"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/7cbadba78de9de5cb4268134519e26fd1eaa182e"
+            },
+            {
+                "sha": "d07f36b37314a47d72c168a5adca776cfec3c7d5",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:29:39-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:29:39-07:00"
+                    },
+                    "message": "tailwind colors\n"
+                },
+                "parents": [
+                    "0aace8117db13cdef6d3b7d47c3cfeadf0b6d4de"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/d07f36b37314a47d72c168a5adca776cfec3c7d5"
+            },
+            {
+                "sha": "0aace8117db13cdef6d3b7d47c3cfeadf0b6d4de",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:23:55-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T10:23:55-07:00"
+                    },
+                    "message": "meta info update\n"
+                },
+                "parents": [
+                    "46517bb33413f5572e822a5050e73ff89e90cc0e"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/0aace8117db13cdef6d3b7d47c3cfeadf0b6d4de"
+            },
+            {
+                "sha": "36b929d26c2c63265312065b0895a9d6615c6b8e",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T09:50:43-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T09:50:43-07:00"
+                    },
+                    "message": "Merge pull request #1 from TidbitsJS/dev\n\nDev"
+                },
+                "parents": [
+                    "29b2e19e9863e45655d303d2d691ee7bb3f82205",
+                    "46517bb33413f5572e822a5050e73ff89e90cc0e"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/36b929d26c2c63265312065b0895a9d6615c6b8e"
+            },
+            {
+                "sha": "46517bb33413f5572e822a5050e73ff89e90cc0e",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T20:57:17+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T20:57:17+05:30"
+                    },
+                    "message": "no gradient\n"
+                },
+                "parents": [
+                    "23fae98524181127c397c69caeec24852ab9c506"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/46517bb33413f5572e822a5050e73ff89e90cc0e"
+            },
+            {
+                "sha": "23fae98524181127c397c69caeec24852ab9c506",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T20:53:54+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T20:53:54+05:30"
+                    },
+                    "message": "gradient color\n"
+                },
+                "parents": [
+                    "3438cb1ae30e3ec99bb36ab7e7cd5a6a6219798c"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/23fae98524181127c397c69caeec24852ab9c506"
+            },
+            {
+                "sha": "3438cb1ae30e3ec99bb36ab7e7cd5a6a6219798c",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T20:48:10+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T20:48:10+05:30"
+                    },
+                    "message": "color changes\n"
+                },
+                "parents": [
+                    "e84b45148fb8727c0c6f257692b443b3f286b259"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/3438cb1ae30e3ec99bb36ab7e7cd5a6a6219798c"
+            },
+            {
+                "sha": "e84b45148fb8727c0c6f257692b443b3f286b259",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T08:12:13-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T08:12:13-07:00"
+                    },
+                    "message": "error handling\n"
+                },
+                "parents": [
+                    "2f3e2339a5b30c33c32f6f9bd811dedb6a9d3dea"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/e84b45148fb8727c0c6f257692b443b3f286b259"
+            },
+            {
+                "sha": "2f3e2339a5b30c33c32f6f9bd811dedb6a9d3dea",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T08:02:47-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T08:02:47-07:00"
+                    },
+                    "message": "img to Next.js Image\n"
+                },
+                "parents": [
+                    "8157e549d18752f0746a8eed1aeb29ee4c81c969"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/2f3e2339a5b30c33c32f6f9bd811dedb6a9d3dea"
+            },
+            {
+                "sha": "8157e549d18752f0746a8eed1aeb29ee4c81c969",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T07:46:54-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T07:46:54-07:00"
+                    },
+                    "message": "separate typescript types\n"
+                },
+                "parents": [
+                    "e990263e83b2c5663bac7d778c7f36b030e03eec"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/8157e549d18752f0746a8eed1aeb29ee4c81c969"
+            },
+            {
+                "sha": "e990263e83b2c5663bac7d778c7f36b030e03eec",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T07:22:00-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T07:22:00-07:00"
+                    },
+                    "message": "clear filters II\n"
+                },
+                "parents": [
+                    "f81e29974503f7dae6eca482a59f11c29ab76084"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/e990263e83b2c5663bac7d778c7f36b030e03eec"
+            },
+            {
+                "sha": "f81e29974503f7dae6eca482a59f11c29ab76084",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T07:10:22-07:00"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T07:10:22-07:00"
+                    },
+                    "message": "clear filters\n"
+                },
+                "parents": [
+                    "b23d227edd5dd700f1c65b225848c366c4f58699"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/f81e29974503f7dae6eca482a59f11c29ab76084"
+            },
+            {
+                "sha": "b23d227edd5dd700f1c65b225848c366c4f58699",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T18:45:04+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T18:45:04+05:30"
+                    },
+                    "message": "searchbar and filter changes\n"
+                },
+                "parents": [
+                    "ead2b9aac502f05dd397e6ca40576dbd026c17d0"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/b23d227edd5dd700f1c65b225848c366c4f58699"
+            },
+            {
+                "sha": "ead2b9aac502f05dd397e6ca40576dbd026c17d0",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T18:22:37+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T18:22:37+05:30"
+                    },
+                    "message": "little updateParams refactor\n"
+                },
+                "parents": [
+                    "820d18f635e28cccbad51ec9fb6f0be2eb357b10"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/ead2b9aac502f05dd397e6ca40576dbd026c17d0"
+            },
+            {
+                "sha": "820d18f635e28cccbad51ec9fb6f0be2eb357b10",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T14:08:38+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T14:08:38+05:30"
+                    },
+                    "message": "few UI changes II\n"
+                },
+                "parents": [
+                    "c178527da3a5c61e657b51a47fcd9c92c997324b"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/820d18f635e28cccbad51ec9fb6f0be2eb357b10"
+            },
+            {
+                "sha": "c178527da3a5c61e657b51a47fcd9c92c997324b",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T13:58:48+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T13:58:48+05:30"
+                    },
+                    "message": "search bar changes\n"
+                },
+                "parents": [
+                    "0fac44550d6de4581811ea353a452a92679024b5"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/c178527da3a5c61e657b51a47fcd9c92c997324b"
+            },
+            {
+                "sha": "0fac44550d6de4581811ea353a452a92679024b5",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T13:36:00+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T13:36:00+05:30"
+                    },
+                    "message": "layout changes\n"
+                },
+                "parents": [
+                    "2a297e230b5a57fff03dc06815112f0c18b680af"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/0fac44550d6de4581811ea353a452a92679024b5"
+            },
+            {
+                "sha": "2a297e230b5a57fff03dc06815112f0c18b680af",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T12:40:52+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T12:40:52+05:30"
+                    },
+                    "message": "car card ui changes\n"
+                },
+                "parents": [
+                    "29b2e19e9863e45655d303d2d691ee7bb3f82205"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/2a297e230b5a57fff03dc06815112f0c18b680af"
+            },
+            {
+                "sha": "29b2e19e9863e45655d303d2d691ee7bb3f82205",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T12:04:38+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T12:04:38+05:30"
+                    },
+                    "message": "clean filters\n"
+                },
+                "parents": [
+                    "dde6493aba8a57208806b749304030afcbb5dfe7"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/29b2e19e9863e45655d303d2d691ee7bb3f82205"
+            },
+            {
+                "sha": "dde6493aba8a57208806b749304030afcbb5dfe7",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T12:01:37+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T12:01:37+05:30"
+                    },
+                    "message": "typescript types and carrent price\n"
+                },
+                "parents": [
+                    "b8be5befec7a69872d53e12ff9d71a8b76e56982"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/dde6493aba8a57208806b749304030afcbb5dfe7"
+            },
+            {
+                "sha": "b8be5befec7a69872d53e12ff9d71a8b76e56982",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T11:29:30+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T11:29:30+05:30"
+                    },
+                    "message": "searchbar types\n"
+                },
+                "parents": [
+                    "aaf8d5d5472ee416e8a4ee83d9fb86c928dab6e7"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/b8be5befec7a69872d53e12ff9d71a8b76e56982"
+            },
+            {
+                "sha": "aaf8d5d5472ee416e8a4ee83d9fb86c928dab6e7",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T00:33:14+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T00:33:14+05:30"
+                    },
+                    "message": "set params changes\n"
+                },
+                "parents": [
+                    "27f131d90a8cc96d59774b521f75d6ea41c64d91"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/aaf8d5d5472ee416e8a4ee83d9fb86c928dab6e7"
+            },
+            {
+                "sha": "27f131d90a8cc96d59774b521f75d6ea41c64d91",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T00:26:31+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-21T00:26:31+05:30"
+                    },
+                    "message": "searchbar functionality\n"
+                },
+                "parents": [
+                    "25993a6137fcc22fb8caf6ee47792909a0ec9486"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/27f131d90a8cc96d59774b521f75d6ea41c64d91"
+            },
+            {
+                "sha": "25993a6137fcc22fb8caf6ee47792909a0ec9486",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-20T23:55:01+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-20T23:55:01+05:30"
+                    },
+                    "message": "pagination complete\n"
+                },
+                "parents": [
+                    "79a3650cbfc5a35e18d6ecae30b19b1e7516dea8"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/25993a6137fcc22fb8caf6ee47792909a0ec9486"
+            },
+            {
+                "sha": "79a3650cbfc5a35e18d6ecae30b19b1e7516dea8",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-20T17:35:27+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-20T17:35:27+05:30"
+                    },
+                    "message": "fetch cars on server side\n"
+                },
+                "parents": [
+                    "7e136d57fe6188f907870b8bcfea32ba64e3bab6"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/79a3650cbfc5a35e18d6ecae30b19b1e7516dea8"
+            },
+            {
+                "sha": "7e136d57fe6188f907870b8bcfea32ba64e3bab6",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-20T16:58:23+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-20T16:58:23+05:30"
+                    },
+                    "message": "filter params\n"
+                },
+                "parents": [
+                    "cc713a1d5fa76165e24d6f6f69b39c0a882adcce"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/7e136d57fe6188f907870b8bcfea32ba64e3bab6"
+            },
+            {
+                "sha": "cc713a1d5fa76165e24d6f6f69b39c0a882adcce",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-20T15:29:42+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-20T15:29:42+05:30"
+                    },
+                    "message": "transition I\n"
+                },
+                "parents": [
+                    "0201b7f82f6ee49d59c52c5894f702b51f11ea6b"
+                ],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/cc713a1d5fa76165e24d6f6f69b39c0a882adcce"
+            },
+            {
+                "sha": "0201b7f82f6ee49d59c52c5894f702b51f11ea6b",
+                "commit": {
+                    "author": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-19T23:06:39+05:30"
+                    },
+                    "committer": {
+                        "name": "superdev77",
+                        "email": "superdevdream7777@gmail.com",
+                        "date": "2023-05-19T23:06:39+05:30"
+                    },
+                    "message": "Initial commit from Create Next App\n"
+                },
+                "parents": [],
+                "url": "https://github.com/superdev87/project_car_showcase/commit/0201b7f82f6ee49d59c52c5894f702b51f11ea6b"
+            }
+        ],
+        "ramble-backend": [
+            {
+                "sha": "d95bac22c21b96cf897c5f3ee1fc414e16265245",
+                "commit": {
+                    "author": {
+                        "name": "BritnessDev",
+                        "email": "britness.gmd@gmail.com",
+                        "date": "2024-05-01T16:39:15-04:00"
+                    },
+                    "committer": {
+                        "name": "BritnessDev",
+                        "email": "britness.gmd@gmail.com",
+                        "date": "2024-05-01T16:39:15-04:00"
+                    },
+                    "message": "update\n"
+                },
+                "parents": [
+                    "19c4ff7a908e63d24779cffc2e1e64b42e350211"
+                ],
+                "url": "https://github.com/superdev87/ramble-backend/commit/d95bac22c21b96cf897c5f3ee1fc414e16265245"
+            },
+            {
+                "sha": "19c4ff7a908e63d24779cffc2e1e64b42e350211",
+                "commit": {
+                    "author": {
+                        "name": "BritnessDev",
+                        "email": "britness.gmd@gmail.com",
+                        "date": "2024-05-01T16:38:03-04:00"
+                    },
+                    "committer": {
+                        "name": "BritnessDev",
+                        "email": "britness.gmd@gmail.com",
+                        "date": "2024-05-01T16:38:03-04:00"
+                    },
+                    "message": "update\n"
+                },
+                "parents": [
+                    "b1d4c5e1d2cf6b94e183928475a03c57e4f5d772"
+                ],
+                "url": "https://github.com/superdev87/ramble-backend/commit/19c4ff7a908e63d24779cffc2e1e64b42e350211"
+            },
+            {
+                "sha": "b1d4c5e1d2cf6b94e183928475a03c57e4f5d772",
+                "commit": {
+                    "author": {
+                        "name": "A.S Dev",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2024-05-01T16:34:05-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-01T16:34:05-04:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/superdev87/ramble-backend/commit/b1d4c5e1d2cf6b94e183928475a03c57e4f5d772"
+            }
+        ],
+        "superdev87": [
+            {
+                "sha": "fed24229975c901ecc37f8fe7ac6efa8f874bc3b",
+                "commit": {
+                    "author": {
+                        "name": "A.S Dev",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2024-07-16T09:24:03-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-16T09:24:03-04:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "b3045887328aa30013b94a050c63618703bb3df5"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/fed24229975c901ecc37f8fe7ac6efa8f874bc3b"
+            },
+            {
+                "sha": "b3045887328aa30013b94a050c63618703bb3df5",
+                "commit": {
+                    "author": {
+                        "name": "A.S Dev",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2024-07-14T12:50:41+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-14T12:50:41+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "71dfc424c2076ff9216dbc30113b0af14cfe60ea"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/b3045887328aa30013b94a050c63618703bb3df5"
+            },
+            {
+                "sha": "71dfc424c2076ff9216dbc30113b0af14cfe60ea",
+                "commit": {
+                    "author": {
+                        "name": "A.S Dev",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2024-06-14T23:31:27+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-14T23:31:27+09:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "56c04ec7ef6f8aeab59b31f105bc9803da114ff1"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/71dfc424c2076ff9216dbc30113b0af14cfe60ea"
+            },
+            {
+                "sha": "56c04ec7ef6f8aeab59b31f105bc9803da114ff1",
+                "commit": {
+                    "author": {
+                        "name": "A.S Dev",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2024-06-10T12:18:38-03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-10T12:18:38-03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "c80e80fd81a208824a937749e9feacf92326758c"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/56c04ec7ef6f8aeab59b31f105bc9803da114ff1"
+            },
+            {
+                "sha": "c80e80fd81a208824a937749e9feacf92326758c",
+                "commit": {
+                    "author": {
+                        "name": "Dark Man",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-11-28T18:14:15+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-28T18:14:15+03:00"
+                    },
+                    "message": "Merge pull request #2 from superdev87/superdev87-patch-2\n\nRearrange skillset"
+                },
+                "parents": [
+                    "4276d15512947955eac06e641f0daceb19b3ecb8",
+                    "326eccf5e76802657e0fb488db95e49789deddca"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/c80e80fd81a208824a937749e9feacf92326758c"
+            },
+            {
+                "sha": "326eccf5e76802657e0fb488db95e49789deddca",
+                "commit": {
+                    "author": {
+                        "name": "Dark Man",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-11-28T23:12:11+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-28T23:12:11+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "4276d15512947955eac06e641f0daceb19b3ecb8"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/326eccf5e76802657e0fb488db95e49789deddca"
+            },
+            {
+                "sha": "4276d15512947955eac06e641f0daceb19b3ecb8",
+                "commit": {
+                    "author": {
+                        "name": "Dark Man",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-11-28T12:26:19+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-28T12:26:19+03:00"
+                    },
+                    "message": "Merge pull request #1 from superdev87/superdev87-patch-1\n\nUpdate README.md"
+                },
+                "parents": [
+                    "4da6c484b14d87a1dedefa0c49b8f3abb62e8115",
+                    "f276081217b808de6f9423d3f79aece8976d3897"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/4276d15512947955eac06e641f0daceb19b3ecb8"
+            },
+            {
+                "sha": "f276081217b808de6f9423d3f79aece8976d3897",
+                "commit": {
+                    "author": {
+                        "name": "Dark Man",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-11-28T17:25:39+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-28T17:25:39+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "4da6c484b14d87a1dedefa0c49b8f3abb62e8115"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/f276081217b808de6f9423d3f79aece8976d3897"
+            },
+            {
+                "sha": "4da6c484b14d87a1dedefa0c49b8f3abb62e8115",
+                "commit": {
+                    "author": {
+                        "name": "James Tay",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-09-22T02:37:52-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-09-22T02:37:52-04:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "3f44ba0885adea456acc8cc07f6e56e625287932"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/4da6c484b14d87a1dedefa0c49b8f3abb62e8115"
+            },
+            {
+                "sha": "3f44ba0885adea456acc8cc07f6e56e625287932",
+                "commit": {
+                    "author": {
+                        "name": "James Tay",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-09-21T03:42:07-04:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-09-21T03:42:07-04:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "37dbc9aa129d9d7eadeb3c900bdc6289e3d44b40"
+                ],
+                "url": "https://github.com/superdev87/superdev87/commit/3f44ba0885adea456acc8cc07f6e56e625287932"
+            },
+            {
+                "sha": "37dbc9aa129d9d7eadeb3c900bdc6289e3d44b40",
+                "commit": {
+                    "author": {
+                        "name": "James Tay",
+                        "email": "140258985+superdev87@users.noreply.github.com",
+                        "date": "2023-09-20T07:26:23-07:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-09-20T07:26:23-07:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [],
+                "url": "https://github.com/superdev87/superdev87/commit/37dbc9aa129d9d7eadeb3c900bdc6289e3d44b40"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "168backend-NodeJS": [
+            "update get_past_data\n",
+            "Merge branch 'main' of https://github.com/superdev87/168backend-NodeJS\n",
+            "update planHistory\n",
+            "Merge pull request #2 from superdev87/optimize-data-analysis\n\nOptimize data analysis",
+            "merge optimize-data-analysis to main\n",
+            "remove line\n",
+            "add new line\n",
+            "remove all urls\n",
+            "Merge pull request #1 from superdev87/optimize-data\n\nOptimize data",
+            "merge\n",
+            "update url to historyUrl\n",
+            "update url to pastUrl\n",
+            "update url to pastUrl\n",
+            "update db.js\n",
+            "correct database\n",
+            "update doublecombination\n",
+            "update conbination forecast\n",
+            "update generating random\n",
+            "update result\n",
+            "update statistics\n",
+            "update api\n",
+            "update\n",
+            "fix spellerror\n",
+            "first commit\n"
+        ],
+        "19-Tracker": [
+            "Delete yarn.lock",
+            "Update README.md",
+            "Initialize project using Create React App\n"
+        ],
+        "lotteryVideo": [
+            "update API of canada and taiwan 28 games\n",
+            "update 28 APIs\n",
+            "update api of taiwan28\n",
+            "add pk10 mark image\n",
+            "add images and add circle5 game\n",
+            "rename video.html to index.html\n",
+            "add car game\n",
+            "add another type\n",
+            "add winner3.png\n",
+            "first commit\n"
+        ],
+        "project_car_showcase": [
+            "Update README.md",
+            "refactor\n",
+            "refactor\n",
+            "model placeholder update\n",
+            "searchbar position fix\n",
+            "remove id part\n",
+            "fix deployment\n",
+            "more comments\n",
+            "Update README.md",
+            "search manufacturer style fix\n",
+            "Merge branch 'main' of https://github.com/TidbitsJS/carhub\n",
+            "show more styles\n",
+            "search manufacturer styles\n",
+            "style issue fix\n",
+            "searchbar styles\n",
+            "navbar styles\n",
+            "footer styles\n",
+            "custom filter styles\n",
+            "custom button styles\n",
+            "car details refactor & styles\n",
+            "car card styles\n",
+            "home styles\n",
+            "hero styles\n",
+            "search button modifications\n",
+            "remove favorites functionality\n",
+            "UI changes\n",
+            "typescript error fix\n",
+            "footer fix\n",
+            "hero bg changes\n",
+            "proper car filters\n",
+            "favorites\n",
+            "footer changes\n",
+            "hero section\n",
+            "few fixes II\n",
+            "hide show more\n",
+            "car details modal\n",
+            "replace pagination with show more\n",
+            "no data fix\n",
+            "new search fix\n",
+            "new searchbar changes\n",
+            "remove old filter\n",
+            "headlessui filter\n",
+            "search manufacturer combobox\n",
+            "Update README.md",
+            "pagination button and color fix\n",
+            "search button fix\n",
+            "Update README.md",
+            "added comments\n",
+            "Merge pull request #2 from TidbitsJS/dev\n\nDev",
+            "Merge branch 'main' into dev\n",
+            "remove console log\n",
+            "tailwind colors\n",
+            "meta info update\n",
+            "Merge pull request #1 from TidbitsJS/dev\n\nDev",
+            "no gradient\n",
+            "gradient color\n",
+            "color changes\n",
+            "error handling\n",
+            "img to Next.js Image\n",
+            "separate typescript types\n",
+            "clear filters II\n",
+            "clear filters\n",
+            "searchbar and filter changes\n",
+            "little updateParams refactor\n",
+            "few UI changes II\n",
+            "search bar changes\n",
+            "layout changes\n",
+            "car card ui changes\n",
+            "clean filters\n",
+            "typescript types and carrent price\n",
+            "searchbar types\n",
+            "set params changes\n",
+            "searchbar functionality\n",
+            "pagination complete\n",
+            "fetch cars on server side\n",
+            "filter params\n",
+            "transition I\n",
+            "Initial commit from Create Next App\n"
+        ],
+        "ramble-backend": [
+            "update\n",
+            "update\n",
+            "Initial commit"
+        ],
+        "superdev87": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Merge pull request #2 from superdev87/superdev87-patch-2\n\nRearrange skillset",
+            "Update README.md",
+            "Merge pull request #1 from superdev87/superdev87-patch-1\n\nUpdate README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Create README.md"
+        ]
+    },
+    "date_filter": [
+        {
+            "repo": "19-Tracker",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2021-05-21T15:48:35+05:30"
+        },
+        {
+            "repo": "project_car_showcase",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-05-19T23:06:39+05:30"
+        }
+    ],
+    "potential_copy": {}
+}

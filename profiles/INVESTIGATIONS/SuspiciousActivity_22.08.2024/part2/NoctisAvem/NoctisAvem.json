@@ -1,0 +1,475 @@
+{
+    "repos": [
+        {
+            "id": 379208454,
+            "node_id": "MDEwOlJlcG9zaXRvcnkzNzkyMDg0NTQ=",
+            "name": "NoctisAvem",
+            "full_name": "NoctisAvem/NoctisAvem",
+            "private": false,
+            "owner": {
+                "login": "NoctisAvem",
+                "id": 74150853,
+                "node_id": "MDQ6VXNlcjc0MTUwODUz",
+                "avatar_url": "https://avatars.githubusercontent.com/u/74150853?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/NoctisAvem",
+                "html_url": "https://github.com/NoctisAvem",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/NoctisAvem/NoctisAvem",
+            "description": "Config files for my GitHub profile.",
+            "fork": false,
+            "url": "https://api.github.com/repos/NoctisAvem/NoctisAvem",
+            "created_at": "2021-06-22T09:10:50Z",
+            "updated_at": "2024-04-17T13:31:20Z",
+            "pushed_at": "2023-04-02T12:15:33Z",
+            "homepage": "https://github.com/NoctisAvem",
+            "size": 109,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Jupyter Notebook",
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "config",
+                "github-config"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 772354534,
+            "node_id": "R_kgDOLgkx5g",
+            "name": "OUTSCAL-FULLSTACK-GAME-DEVELOPER",
+            "full_name": "NoctisAvem/OUTSCAL-FULLSTACK-GAME-DEVELOPER",
+            "private": false,
+            "owner": {
+                "login": "NoctisAvem",
+                "id": 74150853,
+                "node_id": "MDQ6VXNlcjc0MTUwODUz",
+                "avatar_url": "https://avatars.githubusercontent.com/u/74150853?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/NoctisAvem",
+                "html_url": "https://github.com/NoctisAvem",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/NoctisAvem/OUTSCAL-FULLSTACK-GAME-DEVELOPER",
+            "description": "Excellent bootcamp from Outscal - a professional fullstack  game developer course.",
+            "fork": false,
+            "url": "https://api.github.com/repos/NoctisAvem/OUTSCAL-FULLSTACK-GAME-DEVELOPER",
+            "created_at": "2024-03-15T02:56:34Z",
+            "updated_at": "2024-04-17T13:31:21Z",
+            "pushed_at": "2024-03-15T10:30:08Z",
+            "homepage": "https://outscal.com/course/full-stack-game-development/",
+            "size": 4,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "bootcamp",
+                "cpp",
+                "game-development",
+                "gamedev",
+                "outscal"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "NoctisAvem": [
+            {
+                "sha": "68df7304817f12839971b169f8884d924c94aaaf",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2023-04-02T14:15:32+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-04-02T14:15:32+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a1f270905a577b2f77a8a8ed95b6241bccc62dec"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/68df7304817f12839971b169f8884d924c94aaaf"
+            },
+            {
+                "sha": "a1f270905a577b2f77a8a8ed95b6241bccc62dec",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2023-03-28T09:07:07+02:00"
+                    },
+                    "committer": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2023-03-28T09:07:07+02:00"
+                    },
+                    "message": "Ustvarjeno s storitvijo Colaboratory"
+                },
+                "parents": [
+                    "70e1e1cc316555bcc62a3cf68555cf04cc4116c9"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/a1f270905a577b2f77a8a8ed95b6241bccc62dec"
+            },
+            {
+                "sha": "70e1e1cc316555bcc62a3cf68555cf04cc4116c9",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2023-02-07T10:47:01+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-02-07T10:47:01+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e3a5bbbe7f7dab23a1125209c61c84bc92d7f0fc"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/70e1e1cc316555bcc62a3cf68555cf04cc4116c9"
+            },
+            {
+                "sha": "e3a5bbbe7f7dab23a1125209c61c84bc92d7f0fc",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2023-02-07T10:44:18+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-02-07T10:44:18+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "ead5c23ef4997a96b6a0233c6226876d36e1069d"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/e3a5bbbe7f7dab23a1125209c61c84bc92d7f0fc"
+            },
+            {
+                "sha": "ead5c23ef4997a96b6a0233c6226876d36e1069d",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2023-02-06T19:01:47+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-02-06T19:01:47+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "7a7dddca82c05aeb2d627c68a05f53e4c8bfcf75"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/ead5c23ef4997a96b6a0233c6226876d36e1069d"
+            },
+            {
+                "sha": "7a7dddca82c05aeb2d627c68a05f53e4c8bfcf75",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2022-09-07T11:00:12+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-09-07T11:00:12+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "c18040e06feb0c8e679ae48a874ba02e182b6cec"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/7a7dddca82c05aeb2d627c68a05f53e4c8bfcf75"
+            },
+            {
+                "sha": "c18040e06feb0c8e679ae48a874ba02e182b6cec",
+                "commit": {
+                    "author": {
+                        "name": "NoctisAvem",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2022-05-17T22:44:38+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-05-17T22:44:38+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "5aeebc96817b9fa36795ebf9e234e18683dcae34"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/c18040e06feb0c8e679ae48a874ba02e182b6cec"
+            },
+            {
+                "sha": "5aeebc96817b9fa36795ebf9e234e18683dcae34",
+                "commit": {
+                    "author": {
+                        "name": "NoctisAvem",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2022-05-17T22:34:48+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-05-17T22:34:48+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "9129900b7a26ca8fe0a4dc3aa8eb422f9efb3ec9"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/5aeebc96817b9fa36795ebf9e234e18683dcae34"
+            },
+            {
+                "sha": "9129900b7a26ca8fe0a4dc3aa8eb422f9efb3ec9",
+                "commit": {
+                    "author": {
+                        "name": "NoctisAvem",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2022-05-17T00:30:34+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-05-17T00:30:34+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f40d333f5ce109b8295c62f896e39a166a0180c5"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/9129900b7a26ca8fe0a4dc3aa8eb422f9efb3ec9"
+            },
+            {
+                "sha": "f40d333f5ce109b8295c62f896e39a166a0180c5",
+                "commit": {
+                    "author": {
+                        "name": "NoctisAvem",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2021-06-22T19:32:32+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-06-22T19:32:32+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e9e3868eb80b5cfe3065edcc56686c64b855d720"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/f40d333f5ce109b8295c62f896e39a166a0180c5"
+            },
+            {
+                "sha": "e9e3868eb80b5cfe3065edcc56686c64b855d720",
+                "commit": {
+                    "author": {
+                        "name": "NoctisAvem",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2021-06-22T19:28:56+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-06-22T19:28:56+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "92837497db720f5bd61d1de434994783eb56ff62"
+                ],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/e9e3868eb80b5cfe3065edcc56686c64b855d720"
+            },
+            {
+                "sha": "92837497db720f5bd61d1de434994783eb56ff62",
+                "commit": {
+                    "author": {
+                        "name": "NoctisAvem",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2021-06-22T11:25:56+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-06-22T11:25:56+02:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [],
+                "url": "https://github.com/NoctisAvem/NoctisAvem/commit/92837497db720f5bd61d1de434994783eb56ff62"
+            }
+        ],
+        "OUTSCAL-FULLSTACK-GAME-DEVELOPER": [
+            {
+                "sha": "fdce7c595c919cd1f50464b3440c787a075e9104",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2024-03-15T11:30:08+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-15T11:30:08+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f79b8571d647a42d944ab00b23101d488e250c03"
+                ],
+                "url": "https://github.com/NoctisAvem/OUTSCAL-FULLSTACK-GAME-DEVELOPER/commit/fdce7c595c919cd1f50464b3440c787a075e9104"
+            },
+            {
+                "sha": "f79b8571d647a42d944ab00b23101d488e250c03",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2024-03-15T11:29:47+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-15T11:29:47+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "783ca7b7cc7589989a81a060ae157c4874435825"
+                ],
+                "url": "https://github.com/NoctisAvem/OUTSCAL-FULLSTACK-GAME-DEVELOPER/commit/f79b8571d647a42d944ab00b23101d488e250c03"
+            },
+            {
+                "sha": "783ca7b7cc7589989a81a060ae157c4874435825",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2024-03-15T04:01:51+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-15T04:01:51+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "679efc00eeb1e8928331da5f379002a6a593b12b"
+                ],
+                "url": "https://github.com/NoctisAvem/OUTSCAL-FULLSTACK-GAME-DEVELOPER/commit/783ca7b7cc7589989a81a060ae157c4874435825"
+            },
+            {
+                "sha": "679efc00eeb1e8928331da5f379002a6a593b12b",
+                "commit": {
+                    "author": {
+                        "name": "c0d3c4t",
+                        "email": "74150853+NoctisAvem@users.noreply.github.com",
+                        "date": "2024-03-15T03:56:34+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-15T03:56:34+01:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/NoctisAvem/OUTSCAL-FULLSTACK-GAME-DEVELOPER/commit/679efc00eeb1e8928331da5f379002a6a593b12b"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "NoctisAvem": [
+            "Update README.md",
+            "Ustvarjeno s storitvijo Colaboratory",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Create README.md"
+        ],
+        "OUTSCAL-FULLSTACK-GAME-DEVELOPER": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Initial commit"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

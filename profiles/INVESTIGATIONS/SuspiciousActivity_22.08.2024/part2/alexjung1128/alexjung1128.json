@@ -1,0 +1,654 @@
+{
+    "repos": [
+        {
+            "id": 660277499,
+            "node_id": "R_kgDOJ1sI-w",
+            "name": "aspect-media-player",
+            "full_name": "alexjung1128/aspect-media-player",
+            "private": false,
+            "owner": {
+                "login": "alexjung1128",
+                "id": 22346211,
+                "node_id": "MDQ6VXNlcjIyMzQ2MjEx",
+                "avatar_url": "https://avatars.githubusercontent.com/u/22346211?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alexjung1128",
+                "html_url": "https://github.com/alexjung1128",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alexjung1128/aspect-media-player",
+            "description": "This media player plays the media with several different aspect ratio.",
+            "fork": false,
+            "url": "https://api.github.com/repos/alexjung1128/aspect-media-player",
+            "created_at": "2023-06-29T16:28:25Z",
+            "updated_at": "2024-06-13T14:05:16Z",
+            "pushed_at": "2023-06-29T16:40:28Z",
+            "homepage": null,
+            "size": 120,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 720927344,
+            "node_id": "R_kgDOKvh6cA",
+            "name": "OAuth",
+            "full_name": "alexjung1128/OAuth",
+            "private": false,
+            "owner": {
+                "login": "alexjung1128",
+                "id": 22346211,
+                "node_id": "MDQ6VXNlcjIyMzQ2MjEx",
+                "avatar_url": "https://avatars.githubusercontent.com/u/22346211?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alexjung1128",
+                "html_url": "https://github.com/alexjung1128",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alexjung1128/OAuth",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/alexjung1128/OAuth",
+            "created_at": "2023-11-20T01:39:44Z",
+            "updated_at": "2024-06-13T14:05:15Z",
+            "pushed_at": "2023-11-20T01:48:11Z",
+            "homepage": null,
+            "size": 83,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "PHP",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 851627225,
+            "node_id": "R_kgDOMsLM2Q",
+            "name": "Open-Custom-GPT",
+            "full_name": "alexjung1128/Open-Custom-GPT",
+            "private": false,
+            "owner": {
+                "login": "alexjung1128",
+                "id": 22346211,
+                "node_id": "MDQ6VXNlcjIyMzQ2MjEx",
+                "avatar_url": "https://avatars.githubusercontent.com/u/22346211?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alexjung1128",
+                "html_url": "https://github.com/alexjung1128",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alexjung1128/Open-Custom-GPT",
+            "description": "Create Custom GPT and add/embed on your site using Assistants api",
+            "fork": true,
+            "url": "https://api.github.com/repos/alexjung1128/Open-Custom-GPT",
+            "created_at": "2024-09-03T12:46:45Z",
+            "updated_at": "2024-09-03T12:46:45Z",
+            "pushed_at": "2024-07-24T07:58:07Z",
+            "homepage": "https://customgpt.thesamur.ai",
+            "size": 48,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 68816043,
+            "node_id": "MDEwOlJlcG9zaXRvcnk2ODgxNjA0Mw==",
+            "name": "swot",
+            "full_name": "alexjung1128/swot",
+            "private": false,
+            "owner": {
+                "login": "alexjung1128",
+                "id": 22346211,
+                "node_id": "MDQ6VXNlcjIyMzQ2MjEx",
+                "avatar_url": "https://avatars.githubusercontent.com/u/22346211?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alexjung1128",
+                "html_url": "https://github.com/alexjung1128",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alexjung1128/swot",
+            "description": "Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.",
+            "fork": true,
+            "url": "https://api.github.com/repos/alexjung1128/swot",
+            "created_at": "2016-09-21T12:47:43Z",
+            "updated_at": "2016-09-21T12:47:49Z",
+            "pushed_at": "2016-09-21T12:49:46Z",
+            "homepage": "",
+            "size": 4841,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Kotlin",
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 350158876,
+            "node_id": "MDEwOlJlcG9zaXRvcnkzNTAxNTg4NzY=",
+            "name": "xw",
+            "full_name": "alexjung1128/xw",
+            "private": false,
+            "owner": {
+                "login": "alexjung1128",
+                "id": 22346211,
+                "node_id": "MDQ6VXNlcjIyMzQ2MjEx",
+                "avatar_url": "https://avatars.githubusercontent.com/u/22346211?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alexjung1128",
+                "html_url": "https://github.com/alexjung1128",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alexjung1128/xw",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/alexjung1128/xw",
+            "created_at": "2021-03-22T00:38:58Z",
+            "updated_at": "2024-06-13T14:05:16Z",
+            "pushed_at": "2021-03-22T00:40:09Z",
+            "homepage": null,
+            "size": 6,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "aspect-media-player": [
+            {
+                "sha": "17909c23c7c6d2013ec46bdb7b94c136cce8a969",
+                "commit": {
+                    "author": {
+                        "name": "Full Stack Developer!",
+                        "email": "alex.jung.1128@gmail.com",
+                        "date": "2023-06-29T09:40:27-07:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-06-29T09:40:27-07:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [
+                    "4b7b873180d24925e8557787bb2e8cb2104e0845"
+                ],
+                "url": "https://github.com/alexjung1128/aspect-media-player/commit/17909c23c7c6d2013ec46bdb7b94c136cce8a969"
+            },
+            {
+                "sha": "4b7b873180d24925e8557787bb2e8cb2104e0845",
+                "commit": {
+                    "author": {
+                        "name": "alexjung1128",
+                        "email": "alex.jung.1128@gmail.com",
+                        "date": "2023-06-29T09:27:52-07:00"
+                    },
+                    "committer": {
+                        "name": "alexjung1128",
+                        "email": "alex.jung.1128@gmail.com",
+                        "date": "2023-06-29T09:27:52-07:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alexjung1128/aspect-media-player/commit/4b7b873180d24925e8557787bb2e8cb2104e0845"
+            }
+        ],
+        "OAuth": [
+            {
+                "sha": "2574bbb4ff771d77e8fa4d4737fa2c39d3bdb5b9",
+                "commit": {
+                    "author": {
+                        "name": "Full Stack Developer!",
+                        "email": "alex.jung.1128@gmail.com",
+                        "date": "2023-11-19T20:48:11-05:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-19T20:48:11-05:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "67ce12b9694431bb318a243f48985ed99c6c1a65"
+                ],
+                "url": "https://github.com/alexjung1128/OAuth/commit/2574bbb4ff771d77e8fa4d4737fa2c39d3bdb5b9"
+            },
+            {
+                "sha": "67ce12b9694431bb318a243f48985ed99c6c1a65",
+                "commit": {
+                    "author": {
+                        "name": "Full Stack Developer!",
+                        "email": "alex.jung.1128@gmail.com",
+                        "date": "2023-11-19T20:46:32-05:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-19T20:46:32-05:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [
+                    "f989e1343f4ba8505c21de7fca1f95c1852c4069"
+                ],
+                "url": "https://github.com/alexjung1128/OAuth/commit/67ce12b9694431bb318a243f48985ed99c6c1a65"
+            },
+            {
+                "sha": "f989e1343f4ba8505c21de7fca1f95c1852c4069",
+                "commit": {
+                    "author": {
+                        "name": "alexjung1128",
+                        "email": "alex.jung.1128@gmail.com",
+                        "date": "2023-11-19T20:40:41-05:00"
+                    },
+                    "committer": {
+                        "name": "alexjung1128",
+                        "email": "alex.jung.1128@gmail.com",
+                        "date": "2023-11-19T20:40:41-05:00"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alexjung1128/OAuth/commit/f989e1343f4ba8505c21de7fca1f95c1852c4069"
+            }
+        ],
+        "xw": [
+            {
+                "sha": "ca3a8325854a7d2e2a7d886dfe83c3746b87d9d2",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:40:09+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:40:09+08:00"
+                    },
+                    "message": "Create wxadawdxwadxwa"
+                },
+                "parents": [
+                    "67a030704e0db40cfb92aed576451495438712d4"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/ca3a8325854a7d2e2a7d886dfe83c3746b87d9d2"
+            },
+            {
+                "sha": "67a030704e0db40cfb92aed576451495438712d4",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:54+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:54+08:00"
+                    },
+                    "message": "Create wxadawdxwad"
+                },
+                "parents": [
+                    "a99eec6534823eabc623a9cd1213beb62589c773"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/67a030704e0db40cfb92aed576451495438712d4"
+            },
+            {
+                "sha": "a99eec6534823eabc623a9cd1213beb62589c773",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:50+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:50+08:00"
+                    },
+                    "message": "Create wxadawd"
+                },
+                "parents": [
+                    "332ca17f03690c15af07448f1c89eaf20a5ee79f"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/a99eec6534823eabc623a9cd1213beb62589c773"
+            },
+            {
+                "sha": "332ca17f03690c15af07448f1c89eaf20a5ee79f",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:45+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:45+08:00"
+                    },
+                    "message": "Create waaxadaw"
+                },
+                "parents": [
+                    "9eab0fe40304bc800b44512465ff8cce67d549b6"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/332ca17f03690c15af07448f1c89eaf20a5ee79f"
+            },
+            {
+                "sha": "9eab0fe40304bc800b44512465ff8cce67d549b6",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:39+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:39+08:00"
+                    },
+                    "message": "Create xwadwadxwa"
+                },
+                "parents": [
+                    "b8b8df25a768bd62629e45d9c676cca6b1a37875"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/9eab0fe40304bc800b44512465ff8cce67d549b6"
+            },
+            {
+                "sha": "b8b8df25a768bd62629e45d9c676cca6b1a37875",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:35+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:35+08:00"
+                    },
+                    "message": "Create xwadwad"
+                },
+                "parents": [
+                    "0bc70ac2cee5259ef0b83bc48a0e230c083e1dad"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/b8b8df25a768bd62629e45d9c676cca6b1a37875"
+            },
+            {
+                "sha": "0bc70ac2cee5259ef0b83bc48a0e230c083e1dad",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:30+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:30+08:00"
+                    },
+                    "message": "Create wawadaw"
+                },
+                "parents": [
+                    "89a06d22bfa8be4a28d7cb8bc5acc04d24630346"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/0bc70ac2cee5259ef0b83bc48a0e230c083e1dad"
+            },
+            {
+                "sha": "89a06d22bfa8be4a28d7cb8bc5acc04d24630346",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:25+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:25+08:00"
+                    },
+                    "message": "Create xwadxwadxwa"
+                },
+                "parents": [
+                    "99dfee3796955d20be43a52b5663fe75d2796c0c"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/89a06d22bfa8be4a28d7cb8bc5acc04d24630346"
+            },
+            {
+                "sha": "99dfee3796955d20be43a52b5663fe75d2796c0c",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:21+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:21+08:00"
+                    },
+                    "message": "Create xwadxwad"
+                },
+                "parents": [
+                    "15fc2cef3d509a971826acf4a78c398b704303f2"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/99dfee3796955d20be43a52b5663fe75d2796c0c"
+            },
+            {
+                "sha": "15fc2cef3d509a971826acf4a78c398b704303f2",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:17+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:17+08:00"
+                    },
+                    "message": "Create xwad"
+                },
+                "parents": [
+                    "a61b619621f38365f457b76b9a44ce3a97bdbb32"
+                ],
+                "url": "https://github.com/alexjung1128/xw/commit/15fc2cef3d509a971826acf4a78c398b704303f2"
+            },
+            {
+                "sha": "a61b619621f38365f457b76b9a44ce3a97bdbb32",
+                "commit": {
+                    "author": {
+                        "name": "VgSiLon",
+                        "email": "home@sharklasers.com",
+                        "date": "2021-03-22T08:39:06+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-03-22T08:39:06+08:00"
+                    },
+                    "message": "Create xwax"
+                },
+                "parents": [],
+                "url": "https://github.com/alexjung1128/xw/commit/a61b619621f38365f457b76b9a44ce3a97bdbb32"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "aspect-media-player": [
+            "Create README.md",
+            "first commit\n"
+        ],
+        "OAuth": [
+            "Update README.md",
+            "Create README.md",
+            "Initial commit\n"
+        ],
+        "xw": [
+            "Create wxadawdxwadxwa",
+            "Create wxadawdxwad",
+            "Create wxadawd",
+            "Create waaxadaw",
+            "Create xwadwadxwa",
+            "Create xwadwad",
+            "Create wawadaw",
+            "Create xwadxwadxwa",
+            "Create xwadxwad",
+            "Create xwad",
+            "Create xwax"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

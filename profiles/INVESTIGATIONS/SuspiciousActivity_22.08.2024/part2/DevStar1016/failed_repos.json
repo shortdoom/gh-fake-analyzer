@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "React-360",
+        "clone_url": "https://github.com/DevStar1016/React-360.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/DevStar1016/React-360.git /home/user/Github/PRs/gh-fake-analyzer/out/DevStar1016/DevStar1016_React-360.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/DevStar1016/DevStar1016_React-360.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 3203 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

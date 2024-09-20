@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "Fullstack-projects-frontend-with-react-and-backend-with-various-stacks",
+        "clone_url": "https://github.com/WarnerDemon/Fullstack-projects-frontend-with-react-and-backend-with-various-stacks.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/WarnerDemon/Fullstack-projects-frontend-with-react-and-backend-with-various-stacks.git /home/user/Github/PRs/gh-fake-analyzer/out/WarnerDemon/WarnerDemon_Fullstack-projects-frontend-with-react-and-backend-with-various-stacks.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/WarnerDemon/WarnerDemon_Fullstack-projects-frontend-with-react-and-backend-with-various-stacks.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 5203 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

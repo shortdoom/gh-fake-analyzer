@@ -1,0 +1,1067 @@
+{
+    "profile_info": {
+        "login": "devpro",
+        "id": 1216802,
+        "node_id": "MDQ6VXNlcjEyMTY4MDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1216802?v=4",
+        "html_url": "https://github.com/devpro",
+        "type": "User",
+        "site_admin": false,
+        "name": "Bertrand THOMAS",
+        "company": "@SUSE",
+        "blog": "www.devpro.fr",
+        "location": "Annecy, France",
+        "email": "bertrand.thomas@suse.com",
+        "hireable": true,
+        "bio": "Developer, Solutions Architect, DevOps practitioner \ud83d\ude04",
+        "twitter_username": "devprofr",
+        "public_repos": 68,
+        "public_gists": 4,
+        "followers": 184,
+        "following": 241,
+        "created_at": "2011-11-23T22:52:06Z",
+        "updated_at": "2024-09-13T11:39:14Z"
+    },
+    "original_repos_count": 66,
+    "forked_repos_count": 2,
+    "unique_emails": {
+        "27856297+dependabot-preview[bot]@users.noreply.github.com": "dependabot-preview[bot]",
+        "noreply@github.com": "GitHub",
+        "bertrand@devpro.fr": "Bertrand THOMAS",
+        "JamiePed@users.noreply.github.com": "Jamie Ped",
+        "bthomas@pivotal.io": "Bertrand Thomas",
+        "bertrand.thomas@suse.com": "Bertrand THOMAS",
+        "b.thomas@devpro.fr": "Bertrand Thomas",
+        "matthieu.fatrez@suse.com": "mfatrez",
+        "asartan@pivotal.io": "Alex Sartan",
+        "mgehard@pivotal.io": "Mike Gehard",
+        "b.thomas@arkadin.com": "Bertrand THOMAS",
+        "49699333+dependabot[bot]@users.noreply.github.com": "dependabot[bot]",
+        "60524992+bmaxime-c@users.noreply.github.com": "Maxime BLANC"
+    },
+    "mutual_followers": [
+        "fgiuliani",
+        "george0st",
+        "whoamiazhar",
+        "EpicDeveloper0928",
+        "00mjk",
+        "N3v1",
+        "kenjinote",
+        "hamzalodhi2023",
+        "mahseema",
+        "alcjohn",
+        "0xr0ss",
+        "ashkan0201",
+        "pitch7900",
+        "johnolson2219",
+        "DevStar1016",
+        "JohnMwendwa",
+        "christophefromparis",
+        "Ronan-Bernard",
+        "0x0geek",
+        "chavi362",
+        "otuominen",
+        "saber21feki",
+        "arjuncvinod",
+        "jarvis-acv",
+        "dongwookkim3",
+        "sarah0146",
+        "Pedr0Ross1",
+        "darknoon29",
+        "AlpetG",
+        "abdorrahmani",
+        "AHGh1386",
+        "Tataiv01",
+        "Emakiflom",
+        "MathieuTricoire",
+        "1cbyc",
+        "iliyan-s-petkov",
+        "henryMenng",
+        "Mathenge-Alex",
+        "harshit0209",
+        "tahershaker",
+        "warmice71",
+        "fabburst",
+        "nab0404",
+        "Youssefouah",
+        "Thizh",
+        "pushitICP",
+        "Ela-Fhd",
+        "NinjaCrypto0831",
+        "jsmoro",
+        "cryptoforge318",
+        "wassimans",
+        "Furkanprlk",
+        "chase-weiser88",
+        "David-VTUK",
+        "Pbhandari1120",
+        "paajake",
+        "Sam666O",
+        "yaroslav0114",
+        "pranavhunagund1993",
+        "viaches001",
+        "octovry",
+        "in-jun",
+        "MUAZAlimi",
+        "srgunukula",
+        "Tarasyonok",
+        "ravzakorkma",
+        "OsmanMR99",
+        "a-delannoy",
+        "oskoljack",
+        "Syipmong",
+        "nizar787",
+        "Malihashahi",
+        "darkhorse0311",
+        "CarlosAlexandre197",
+        "ChavinduShirantha",
+        "rverchere",
+        "Kimyagar",
+        "Tewr",
+        "grnxi",
+        "cumsoft",
+        "c6era",
+        "MaximeBlaise",
+        "hansvdh",
+        "ashawka",
+        "mxmnk",
+        "berdfandrade",
+        "urtokk",
+        "serhiidev23",
+        "AlexNesvit",
+        "prytoegrian",
+        "rclarofynpal",
+        "adonis0302",
+        "NATHANIELCROSBY1",
+        "rayansinha",
+        "sharechiwai",
+        "CharlesDerek",
+        "axornam",
+        "tigerhunter318",
+        "aldrshan",
+        "cedev935",
+        "Amrish-Sharma",
+        "EloyMuniz",
+        "Makitey",
+        "dfranco",
+        "foxier25",
+        "Omar95-A",
+        "vodkabebi",
+        "Ruth12mak",
+        "goldyfruit",
+        "SelimEminoglu61",
+        "BEPb",
+        "eastermukora",
+        "Ambesawi",
+        "seo-asif"
+    ],
+    "following": [
+        "https://github.com/jponge",
+        "https://github.com/diconico07",
+        "https://github.com/cobysy",
+        "https://github.com/fcrozat",
+        "https://github.com/rverchere",
+        "https://github.com/MathieuTricoire",
+        "https://github.com/e-minguez",
+        "https://github.com/urtokk",
+        "https://github.com/fgiuliani",
+        "https://github.com/dfranco",
+        "https://github.com/Amrish-Sharma",
+        "https://github.com/jfrog",
+        "https://github.com/bellingard",
+        "https://github.com/goldyfruit",
+        "https://github.com/xoofx",
+        "https://github.com/openshift",
+        "https://github.com/sharechiwai",
+        "https://github.com/mfatrez",
+        "https://github.com/dirkmueller",
+        "https://github.com/SUSE",
+        "https://github.com/jsmoro",
+        "https://github.com/wassimans",
+        "https://github.com/ebuildy",
+        "https://github.com/iximiuz",
+        "https://github.com/Ronan-Bernard",
+        "https://github.com/kenjinote",
+        "https://github.com/Tewr",
+        "https://github.com/otuominen",
+        "https://github.com/thiagopac",
+        "https://github.com/posttk421",
+        "https://github.com/lpmi-13",
+        "https://github.com/iliyan-s-petkov",
+        "https://github.com/prytoegrian",
+        "https://github.com/a-delannoy",
+        "https://github.com/srgunukula",
+        "https://github.com/coconux",
+        "https://github.com/containers",
+        "https://github.com/David-VTUK",
+        "https://github.com/PCSX2",
+        "https://github.com/matttrach",
+        "https://github.com/os-autoinst",
+        "https://github.com/Yu-Jack",
+        "https://github.com/thomasboni",
+        "https://github.com/obsproject",
+        "https://github.com/hkawano",
+        "https://github.com/bvankampen",
+        "https://github.com/voxpupuli",
+        "https://github.com/cteyton",
+        "https://github.com/rancher",
+        "https://github.com/MaximeBlaise",
+        "https://github.com/ngrok",
+        "https://github.com/redhat-developer",
+        "https://github.com/skywalke34",
+        "https://github.com/jtktam",
+        "https://github.com/Pedr0Ross1",
+        "https://github.com/henryMenng",
+        "https://github.com/opencontainers",
+        "https://github.com/paajake",
+        "https://github.com/darknoon29",
+        "https://github.com/jorn-k",
+        "https://github.com/Martin-Weiss",
+        "https://github.com/rayansinha",
+        "https://github.com/MohammedRashad",
+        "https://github.com/kubernetes",
+        "https://github.com/Ozrenko",
+        "https://github.com/openai",
+        "https://github.com/bitwarden",
+        "https://github.com/felipecruz91",
+        "https://github.com/bloriot",
+        "https://github.com/nvuillam",
+        "https://github.com/DanielArturoAlejoAlvarez",
+        "https://github.com/Furkanprlk",
+        "https://github.com/neuvector",
+        "https://github.com/hansvdh",
+        "https://github.com/CharlesDerek",
+        "https://github.com/instruqt",
+        "https://github.com/Artmorse",
+        "https://github.com/christophefromparis",
+        "https://github.com/vjanz",
+        "https://github.com/saber21feki",
+        "https://github.com/Kwynto",
+        "https://github.com/eminemahjoub",
+        "https://github.com/HeyHeyChicken",
+        "https://github.com/Vladyslav-Miletskyi",
+        "https://github.com/promyze",
+        "https://github.com/RedHatOfficial",
+        "https://github.com/ashawka",
+        "https://github.com/Ujjawalmaurya",
+        "https://github.com/1cbyc",
+        "https://github.com/vodkabebi",
+        "https://github.com/tahershaker",
+        "https://github.com/c6era",
+        "https://github.com/alcjohn",
+        "https://github.com/horantj",
+        "https://github.com/rclarofynpal",
+        "https://github.com/fabburst",
+        "https://github.com/pitch7900",
+        "https://github.com/iamakshaykumar",
+        "https://github.com/MrBElga",
+        "https://github.com/harshit0209",
+        "https://github.com/byteloop",
+        "https://github.com/dcermak",
+        "https://github.com/mxmnk",
+        "https://github.com/KevinTrinh1227",
+        "https://github.com/k3s-io",
+        "https://github.com/i12cu84",
+        "https://github.com/NATHANIELCROSBY1",
+        "https://github.com/open-telemetry",
+        "https://github.com/hobbyfarm",
+        "https://github.com/grnxi",
+        "https://github.com/longhorn",
+        "https://github.com/claudioser",
+        "https://github.com/abdorrahmani",
+        "https://github.com/spacelift-io",
+        "https://github.com/Good4lien",
+        "https://github.com/n0mer1",
+        "https://github.com/axornam",
+        "https://github.com/Youssefouah",
+        "https://github.com/foxier25",
+        "https://github.com/eastermukora",
+        "https://github.com/marvelefe",
+        "https://github.com/SelimEminoglu61",
+        "https://github.com/BEPb",
+        "https://github.com/bpradiip",
+        "https://github.com/Mathenge-Alex",
+        "https://github.com/AhmadrezaHamidi",
+        "https://github.com/paketo-buildpacks",
+        "https://github.com/Maxime-CLS",
+        "https://github.com/AlpetG",
+        "https://github.com/emanuelsacoman",
+        "https://github.com/redhat-scholars",
+        "https://github.com/strong-network",
+        "https://github.com/OmarElsakka1",
+        "https://github.com/arjuncvinod",
+        "https://github.com/H-K-R",
+        "https://github.com/alvinlimsx",
+        "https://github.com/Malihashahi",
+        "https://github.com/Thizh",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/00mjk",
+        "https://github.com/Pbhandari1120",
+        "https://github.com/SUSE-Rancher-Community",
+        "https://github.com/mohammadhasanii",
+        "https://github.com/Totara-thib",
+        "https://github.com/ashkan0201",
+        "https://github.com/0vm",
+        "https://github.com/ariagaluh02",
+        "https://github.com/jarvis-acv",
+        "https://github.com/hobbyfarm-suse",
+        "https://github.com/Omar95-A",
+        "https://github.com/jrohitofficial",
+        "https://github.com/Ela-Fhd",
+        "https://github.com/whoamiazhar",
+        "https://github.com/Swag666baby",
+        "https://github.com/vishakh-abhayan",
+        "https://github.com/nizar787",
+        "https://github.com/okd-project",
+        "https://github.com/FerretDB",
+        "https://github.com/techsolutioncat",
+        "https://github.com/george0st",
+        "https://github.com/laluxx",
+        "https://github.com/chase-weiser88",
+        "https://github.com/berdfandrade",
+        "https://github.com/aldrshan",
+        "https://github.com/cumsoft",
+        "https://github.com/nab0404",
+        "https://github.com/coconux3",
+        "https://github.com/Syipmong",
+        "https://github.com/k3d-io",
+        "https://github.com/Chaitanya0311",
+        "https://github.com/EloyMuniz",
+        "https://github.com/r2devops",
+        "https://github.com/EpicDeveloper0928",
+        "https://github.com/airadulescu",
+        "https://github.com/timewn1",
+        "https://github.com/Kimyagar",
+        "https://github.com/farhan7reza7",
+        "https://github.com/sadrax4",
+        "https://github.com/wr0110",
+        "https://github.com/FFUV",
+        "https://github.com/MUAZAlimi",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/mdashrafali-cs",
+        "https://github.com/in-jun",
+        "https://github.com/voidrlm",
+        "https://github.com/Ambesawi",
+        "https://github.com/yaroslav0114",
+        "https://github.com/seo-asif",
+        "https://github.com/Tarasyonok",
+        "https://github.com/Ruth12mak",
+        "https://github.com/sarah0146",
+        "https://github.com/OracleBrain",
+        "https://github.com/ChavinduShirantha",
+        "https://github.com/ITlodestar",
+        "https://github.com/Vikranth3140",
+        "https://github.com/HappyMicky0317",
+        "https://github.com/DanielTomazi",
+        "https://github.com/Emakiflom",
+        "https://github.com/Makitey",
+        "https://github.com/suse-edge",
+        "https://github.com/johnolson2219",
+        "https://github.com/dongwookkim3",
+        "https://github.com/NinjaDevOps0831",
+        "https://github.com/N3v1",
+        "https://github.com/rajatcantcode",
+        "https://github.com/cryptoforge318",
+        "https://github.com/techtronixnepal",
+        "https://github.com/mehmetpolat46",
+        "https://github.com/jinhyeon-dev",
+        "https://github.com/hamzalodhi2023",
+        "https://github.com/tigerhunter318",
+        "https://github.com/0x0geek",
+        "https://github.com/0xr0ss",
+        "https://github.com/warmice71",
+        "https://github.com/pranavhunagund1993",
+        "https://github.com/chavi362",
+        "https://github.com/AHGh1386",
+        "https://github.com/cedev935",
+        "https://github.com/adonis0302",
+        "https://github.com/OsmanMR99",
+        "https://github.com/Sam666O",
+        "https://github.com/opentofu",
+        "https://github.com/mahseema",
+        "https://github.com/viaches001",
+        "https://github.com/olehrab",
+        "https://github.com/DevStar1016",
+        "https://github.com/serhiidev23",
+        "https://github.com/mohamadSaleh82",
+        "https://github.com/darkhorse0311",
+        "https://github.com/gitechnologi",
+        "https://github.com/oskoljack",
+        "https://github.com/TeckZ0rd",
+        "https://github.com/AlexNesvit",
+        "https://github.com/Tataiv01",
+        "https://github.com/octovry",
+        "https://github.com/pikachu-sentinel",
+        "https://github.com/NinjaCrypto0831",
+        "https://github.com/cometsheepboy",
+        "https://github.com/Octonho",
+        "https://github.com/ravzakorkma",
+        "https://github.com/pushitICP"
+    ],
+    "followers": [
+        "https://github.com/rverchere",
+        "https://github.com/MathieuTricoire",
+        "https://github.com/urtokk",
+        "https://github.com/fgiuliani",
+        "https://github.com/dfranco",
+        "https://github.com/Amrish-Sharma",
+        "https://github.com/goldyfruit",
+        "https://github.com/sharechiwai",
+        "https://github.com/evinw",
+        "https://github.com/PivotLogix",
+        "https://github.com/jsmoro",
+        "https://github.com/wassimans",
+        "https://github.com/Ronan-Bernard",
+        "https://github.com/kenjinote",
+        "https://github.com/petrozavodsky",
+        "https://github.com/Tewr",
+        "https://github.com/otuominen",
+        "https://github.com/victorbjorklund",
+        "https://github.com/iliyan-s-petkov",
+        "https://github.com/prytoegrian",
+        "https://github.com/a-delannoy",
+        "https://github.com/srgunukula",
+        "https://github.com/gduprez",
+        "https://github.com/angusshire",
+        "https://github.com/David-VTUK",
+        "https://github.com/gamemann",
+        "https://github.com/mustafacagri",
+        "https://github.com/jigarce",
+        "https://github.com/tango-charly",
+        "https://github.com/MaximeBlaise",
+        "https://github.com/Pedr0Ross1",
+        "https://github.com/henryMenng",
+        "https://github.com/paajake",
+        "https://github.com/darknoon29",
+        "https://github.com/rayansinha",
+        "https://github.com/justinraydev",
+        "https://github.com/xuan2261",
+        "https://github.com/IDouble",
+        "https://github.com/Furkanprlk",
+        "https://github.com/hansvdh",
+        "https://github.com/CharlesDerek",
+        "https://github.com/abennehhou",
+        "https://github.com/christophefromparis",
+        "https://github.com/saber21feki",
+        "https://github.com/IndieNation",
+        "https://github.com/amaxime",
+        "https://github.com/yedekmoderator",
+        "https://github.com/chipnertkj",
+        "https://github.com/opengineer",
+        "https://github.com/MafujShikder",
+        "https://github.com/ashawka",
+        "https://github.com/1cbyc",
+        "https://github.com/vodkabebi",
+        "https://github.com/tahershaker",
+        "https://github.com/danieljvsa",
+        "https://github.com/c6era",
+        "https://github.com/Lester016",
+        "https://github.com/alcjohn",
+        "https://github.com/rclarofynpal",
+        "https://github.com/fabburst",
+        "https://github.com/SelimHorri",
+        "https://github.com/kulikov-dev",
+        "https://github.com/pitch7900",
+        "https://github.com/dirambora",
+        "https://github.com/BionStt",
+        "https://github.com/O-Mercier",
+        "https://github.com/harshit0209",
+        "https://github.com/vitasha10",
+        "https://github.com/mxmnk",
+        "https://github.com/PremChapagain",
+        "https://github.com/MohmdAzhar",
+        "https://github.com/215339530",
+        "https://github.com/NATHANIELCROSBY1",
+        "https://github.com/grnxi",
+        "https://github.com/Valwiler",
+        "https://github.com/abdorrahmani",
+        "https://github.com/axornam",
+        "https://github.com/Youssefouah",
+        "https://github.com/foxier25",
+        "https://github.com/eastermukora",
+        "https://github.com/Cyebukayire",
+        "https://github.com/SelimEminoglu61",
+        "https://github.com/BEPb",
+        "https://github.com/ogunsoladebayo",
+        "https://github.com/lennylenny161",
+        "https://github.com/Mathenge-Alex",
+        "https://github.com/AlpetG",
+        "https://github.com/qpeckin",
+        "https://github.com/kokzin",
+        "https://github.com/arjuncvinod",
+        "https://github.com/Malihashahi",
+        "https://github.com/motasimbillah628",
+        "https://github.com/Thizh",
+        "https://github.com/xdrps",
+        "https://github.com/OfficialCodeVoyage",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/00mjk",
+        "https://github.com/deepsea514",
+        "https://github.com/Pbhandari1120",
+        "https://github.com/IsabelyDev",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/ashkan0201",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Omar95-A",
+        "https://github.com/javierayalar",
+        "https://github.com/Ela-Fhd",
+        "https://github.com/whoamiazhar",
+        "https://github.com/JoyceFatima",
+        "https://github.com/app-stories-integration",
+        "https://github.com/nizar787",
+        "https://github.com/bendancj",
+        "https://github.com/george0st",
+        "https://github.com/chase-weiser88",
+        "https://github.com/berdfandrade",
+        "https://github.com/aldrshan",
+        "https://github.com/cumsoft",
+        "https://github.com/nab0404",
+        "https://github.com/Syipmong",
+        "https://github.com/ArthurHendrich",
+        "https://github.com/EloyMuniz",
+        "https://github.com/EpicDeveloper0928",
+        "https://github.com/Kimyagar",
+        "https://github.com/Giangpro89",
+        "https://github.com/maniroudsari",
+        "https://github.com/HadesHappy",
+        "https://github.com/sajjad-salam",
+        "https://github.com/MUAZAlimi",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/in-jun",
+        "https://github.com/asalamida",
+        "https://github.com/decoderwhoami",
+        "https://github.com/Ambesawi",
+        "https://github.com/Virginieverazzi",
+        "https://github.com/yaroslav0114",
+        "https://github.com/seo-asif",
+        "https://github.com/Tarasyonok",
+        "https://github.com/Ruth12mak",
+        "https://github.com/jonnysgirl4ever",
+        "https://github.com/sarah0146",
+        "https://github.com/ChavinduShirantha",
+        "https://github.com/Emakiflom",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/Makitey",
+        "https://github.com/johnolson2219",
+        "https://github.com/dongwookkim3",
+        "https://github.com/N3v1",
+        "https://github.com/cryptoforge318",
+        "https://github.com/hamzalodhi2023",
+        "https://github.com/tigerhunter318",
+        "https://github.com/0x0geek",
+        "https://github.com/0xr0ss",
+        "https://github.com/warmice71",
+        "https://github.com/pranavhunagund1993",
+        "https://github.com/Nakshatra05",
+        "https://github.com/chavi362",
+        "https://github.com/AHGh1386",
+        "https://github.com/cedev935",
+        "https://github.com/adonis0302",
+        "https://github.com/OsmanMR99",
+        "https://github.com/Sam666O",
+        "https://github.com/aligoli88",
+        "https://github.com/canary402",
+        "https://github.com/snaaill",
+        "https://github.com/Mohamedpr0",
+        "https://github.com/mahseema",
+        "https://github.com/viaches001",
+        "https://github.com/DevStar1016",
+        "https://github.com/serhiidev23",
+        "https://github.com/darkhorse0311",
+        "https://github.com/911-carrera",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/oskoljack",
+        "https://github.com/dougkalash",
+        "https://github.com/AlexNesvit",
+        "https://github.com/xaramore",
+        "https://github.com/Tataiv01",
+        "https://github.com/spider0317",
+        "https://github.com/octovry",
+        "https://github.com/NinjaCrypto0831",
+        "https://github.com/filipmariania",
+        "https://github.com/ashu-devv",
+        "https://github.com/xopaz",
+        "https://github.com/ravzakorkma",
+        "https://github.com/pushitICP"
+    ],
+    "repo_list": [
+        "2hire-dotnet-client",
+        "adr",
+        "almops",
+        "ansible-samples",
+        "ansible-system-collection",
+        "aspnetcore-testing-sample",
+        "azure-pipeline-training",
+        "azuread-jwt-generator",
+        "blazor-samples",
+        "burrich",
+        "cf-dotnet-samples",
+        "chade",
+        "ci-pipeline-samples",
+        "cloud-native-samples",
+        "cloud-service-samples",
+        "computer-setup",
+        "container-images",
+        "devpro",
+        "digital-housekeeping",
+        "docker-files",
+        "dojo-puppet-beginner",
+        "dotnet-samples",
+        "dotnet-webapi-all-automated",
+        "ecorp-backend-demo",
+        "ecorp-frontend-demo",
+        "ecorp-legacy-demo",
+        "ecorp-nodejs-demo",
+        "emby-dotnet-client",
+        "enjoyk8s",
+        "epinio-samples",
+        "everyday-cheatsheets",
+        "fun-with-containers",
+        "github-workflow-parts",
+        "gitops-samples",
+        "go-samples",
+        "helm-charts",
+        "hubspot-dotnet",
+        "information-technology-guide",
+        "infrastructure-provisioning",
+        "keep-track",
+        "learn-kubernetes",
+        "mongodb-atlas-dotnet-client",
+        "mongodb-client-examples",
+        "monogame-samples",
+        "observability-stack",
+        "otium",
+        "packer-samples",
+        "pal-tracker",
+        "presentations",
+        "puppet-beginner-training",
+        "puppet-infra",
+        "rancher-ecosystem",
+        "rancher-extensions-samples",
+        "sales-portal",
+        "sonar-samples",
+        "specflow-samples",
+        "Symfony1-coding-standard",
+        "terraform-backend-mongodb",
+        "terraform-projects",
+        "terraform-samples",
+        "tfs-api",
+        "vsts-client",
+        "withywoods",
+        "Wpf-Picture-Organizer",
+        "Xna-Model-Viewer",
+        "yanport-dotnet-client"
+    ],
+    "forked_repo_list": [
+        "hobbyfarm-e2e-testing",
+        "hobbyfarm-gargantua"
+    ],
+    "contributors": {
+        "2hire-dotnet-client": [
+            "dependabot-preview[bot]",
+            "devpro"
+        ],
+        "adr": [
+            "devpro"
+        ],
+        "almops": [
+            "JamiePed",
+            "dependabot-preview[bot]",
+            "devpro"
+        ],
+        "ansible-samples": [
+            "devpro"
+        ],
+        "ansible-system-collection": [
+            "devpro"
+        ],
+        "aspnetcore-testing-sample": [
+            "devpro"
+        ],
+        "azure-pipeline-training": [
+            "devpro"
+        ],
+        "azuread-jwt-generator": [
+            "devpro"
+        ],
+        "blazor-samples": [
+            "dependabot-preview[bot]",
+            "devpro"
+        ],
+        "burrich": [
+            "dependabot-preview[bot]",
+            "devpro"
+        ],
+        "cf-dotnet-samples": [
+            "devpro"
+        ],
+        "chade": [
+            "devpro"
+        ],
+        "ci-pipeline-samples": [
+            "devpro"
+        ],
+        "cloud-native-samples": [
+            "devpro"
+        ],
+        "cloud-service-samples": [
+            "devpro"
+        ],
+        "computer-setup": [
+            "devpro"
+        ],
+        "container-images": [
+            "devpro"
+        ],
+        "devpro": [
+            "devpro"
+        ],
+        "digital-housekeeping": [
+            "devpro"
+        ],
+        "docker-files": [
+            "devpro"
+        ],
+        "dojo-puppet-beginner": [
+            "devpro"
+        ],
+        "dotnet-samples": [
+            "devpro"
+        ],
+        "dotnet-webapi-all-automated": [
+            "devpro"
+        ],
+        "ecorp-backend-demo": [
+            "devpro"
+        ],
+        "ecorp-frontend-demo": [
+            "devpro"
+        ],
+        "ecorp-legacy-demo": [
+            "devpro"
+        ],
+        "ecorp-nodejs-demo": [
+            "devpro"
+        ],
+        "emby-dotnet-client": [
+            "devpro"
+        ],
+        "enjoyk8s": [
+            "devpro"
+        ],
+        "epinio-samples": [
+            "devpro"
+        ],
+        "everyday-cheatsheets": [
+            "devpro",
+            "mariuszmichalowski"
+        ],
+        "fun-with-containers": [
+            "devpro"
+        ],
+        "github-workflow-parts": [
+            "devpro"
+        ],
+        "gitops-samples": [
+            "devpro"
+        ],
+        "go-samples": [
+            "devpro"
+        ],
+        "helm-charts": [
+            "devpro",
+            "mfatrez"
+        ],
+        "hubspot-dotnet": [
+            "dependabot-preview[bot]",
+            "devpro"
+        ],
+        "information-technology-guide": [
+            "devpro"
+        ],
+        "infrastructure-provisioning": [
+            "devpro"
+        ],
+        "keep-track": [
+            "dependabot-preview[bot]",
+            "devpro"
+        ],
+        "learn-kubernetes": [
+            "devpro"
+        ],
+        "mongodb-atlas-dotnet-client": [
+            "dependabot-preview[bot]",
+            "devpro"
+        ],
+        "mongodb-client-examples": [
+            "devpro"
+        ],
+        "monogame-samples": [
+            "devpro"
+        ],
+        "observability-stack": [
+            "devpro"
+        ],
+        "otium": [
+            "devpro"
+        ],
+        "packer-samples": [
+            "devpro"
+        ],
+        "presentations": [
+            "devpro"
+        ],
+        "puppet-infra": [
+            "devpro"
+        ],
+        "rancher-ecosystem": [
+            "devpro"
+        ],
+        "rancher-extensions-samples": [
+            "devpro"
+        ],
+        "sales-portal": [
+            "devpro"
+        ],
+        "sonar-samples": [
+            "dependabot[bot]",
+            "devpro"
+        ],
+        "specflow-samples": [
+            "devpro"
+        ],
+        "Symfony1-coding-standard": [
+            "devpro"
+        ],
+        "terraform-backend-mongodb": [
+            "devpro"
+        ],
+        "terraform-projects": [
+            "devpro"
+        ],
+        "terraform-samples": [
+            "devpro"
+        ],
+        "tfs-api": [
+            "devpro"
+        ],
+        "withywoods": [
+            "dependabot-preview[bot]",
+            "bmaxime-c",
+            "devpro"
+        ],
+        "Wpf-Picture-Organizer": [
+            "devpro"
+        ],
+        "Xna-Model-Viewer": [
+            "devpro"
+        ],
+        "yanport-dotnet-client": [
+            "dependabot-preview[bot]",
+            "devpro"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "stateful/blog-examples": [
+            "https://github.com/stateful/blog-examples/pull/49"
+        ],
+        "SUSE/lab-setup": [
+            "https://github.com/SUSE/lab-setup/pull/12",
+            "https://github.com/SUSE/lab-setup/pull/11",
+            "https://github.com/SUSE/lab-setup/pull/9",
+            "https://github.com/SUSE/lab-setup/pull/8",
+            "https://github.com/SUSE/lab-setup/pull/7",
+            "https://github.com/SUSE/lab-setup/pull/6",
+            "https://github.com/SUSE/lab-setup/pull/5",
+            "https://github.com/SUSE/lab-setup/pull/4",
+            "https://github.com/SUSE/lab-setup/pull/3",
+            "https://github.com/SUSE/lab-setup/pull/1"
+        ],
+        "r2devops/self-managed": [
+            "https://github.com/r2devops/self-managed/pull/13",
+            "https://github.com/r2devops/self-managed/pull/6",
+            "https://github.com/r2devops/self-managed/pull/5"
+        ],
+        "hobbyfarm/e2e-testing": [
+            "https://github.com/hobbyfarm/e2e-testing/pull/21",
+            "https://github.com/hobbyfarm/e2e-testing/pull/20",
+            "https://github.com/hobbyfarm/e2e-testing/pull/19",
+            "https://github.com/hobbyfarm/e2e-testing/pull/18",
+            "https://github.com/hobbyfarm/e2e-testing/pull/17",
+            "https://github.com/hobbyfarm/e2e-testing/pull/16",
+            "https://github.com/hobbyfarm/e2e-testing/pull/13",
+            "https://github.com/hobbyfarm/e2e-testing/pull/12",
+            "https://github.com/hobbyfarm/e2e-testing/pull/11",
+            "https://github.com/hobbyfarm/e2e-testing/pull/9",
+            "https://github.com/hobbyfarm/e2e-testing/pull/8",
+            "https://github.com/hobbyfarm/e2e-testing/pull/7",
+            "https://github.com/hobbyfarm/e2e-testing/pull/1"
+        ],
+        "rancher/dashboard": [
+            "https://github.com/rancher/dashboard/pull/8878"
+        ],
+        "promyze/helm-charts": [
+            "https://github.com/promyze/helm-charts/pull/2",
+            "https://github.com/promyze/helm-charts/pull/1"
+        ],
+        "hobbyfarm/ui": [
+            "https://github.com/hobbyfarm/ui/pull/164"
+        ],
+        "hobbyfarm/hobbyfarm": [
+            "https://github.com/hobbyfarm/hobbyfarm/pull/296"
+        ],
+        "hobbyfarm/admin-ui": [
+            "https://github.com/hobbyfarm/admin-ui/pull/156",
+            "https://github.com/hobbyfarm/admin-ui/pull/146"
+        ],
+        "hobbyfarm/gargantua": [
+            "https://github.com/hobbyfarm/gargantua/pull/131"
+        ],
+        "bitnami/charts": [
+            "https://github.com/bitnami/charts/pull/9738"
+        ],
+        "kalosyni/cygnus": [
+            "https://github.com/kalosyni/cygnus/pull/1"
+        ],
+        "rabbids-incubator/servicenow-dotnet-client": [
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/17",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/16",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/14",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/13",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/12",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/8",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/7",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/6",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/5",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/4",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/3",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/2",
+            "https://github.com/rabbids-incubator/servicenow-dotnet-client/pull/1"
+        ],
+        "rabbids-incubator/infra-automation-best-practices": [
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/pull/5",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/pull/4",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/pull/3",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/pull/2",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/pull/1"
+        ],
+        "rabbids-incubator/packer-templates": [
+            "https://github.com/rabbids-incubator/packer-templates/pull/3",
+            "https://github.com/rabbids-incubator/packer-templates/pull/2",
+            "https://github.com/rabbids-incubator/packer-templates/pull/1"
+        ],
+        "somsharp/UIFabricAutoComplete": [
+            "https://github.com/somsharp/UIFabricAutoComplete/pull/2"
+        ],
+        "pnp/sp-starter-kit": [
+            "https://github.com/pnp/sp-starter-kit/pull/510"
+        ],
+        "loresoft/msbuildtasks": [
+            "https://github.com/loresoft/msbuildtasks/pull/244"
+        ]
+    },
+    "commits_to_other_repos": {
+        "avidanagamage/aspnetcore-angular-sample": [
+            "https://github.com/avidanagamage/aspnetcore-angular-sample/commit/4e2c2cce99e00695405609cc5ac3ba47cdaa15a3",
+            "https://github.com/avidanagamage/aspnetcore-angular-sample/commit/8f8b6eec3550c81ddc7fe31d427789b90865b043",
+            "https://github.com/avidanagamage/aspnetcore-angular-sample/commit/ce2cd1caffd7f2304c6a01948b9a42ea19f2e50f",
+            "https://github.com/avidanagamage/aspnetcore-angular-sample/commit/5b7dd2cab5878dd513b0dd0abba3d35642d4fd26"
+        ],
+        "athulmv06/helm_charts": [
+            "https://github.com/athulmv06/helm_charts/commit/e87924bf546aa1ea3cd325339a4947fa178896aa"
+        ],
+        "rabbids-incubator/infra-automation-best-practices": [
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/commit/08b705a4e7cf2a32ad1771a0f9f409e0f8a66bad",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/commit/30d40e865fd020a7aa3c56324549a5d3f4e50834",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/commit/63535232c689f2e302822c1751bbc3a0cab74630",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/commit/dc8a4934d1a9c7f53addfcfcb7e7cd3f59f6e6f6",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/commit/927b4cb0ba6e0558f995a94435e014750d5b518f",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/commit/4c388077151dc257c9f7064499cd26018aeaa356",
+            "https://github.com/rabbids-incubator/infra-automation-best-practices/commit/e74d5b604eeff499396a7bcdc8534c17dbd3ac2f"
+        ],
+        "rancher/dashboard": [
+            "https://github.com/rancher/dashboard/commit/567610e7a239f554aeff7c11812f58392ad14898",
+            "https://github.com/rancher/dashboard/commit/90dbc729f936251dce3bd9465fcd4820c3b99040",
+            "https://github.com/rancher/dashboard/commit/554653253fa80639a5a57053281e3f1184027f6b"
+        ],
+        "kalosyni/cygnus": [
+            "https://github.com/kalosyni/cygnus/commit/615b97fa703b7dac627a0a15ef47486593c0dc11",
+            "https://github.com/kalosyni/cygnus/commit/b70398ba12d0621501cbaacff9c89007db563f0a"
+        ],
+        "yasir27uk/charts": [
+            "https://github.com/yasir27uk/charts/commit/e87924bf546aa1ea3cd325339a4947fa178896aa"
+        ],
+        "hobbyfarm/hobbyfarm": [
+            "https://github.com/hobbyfarm/hobbyfarm/commit/ba8d33c8db8386c2c27ff1010b6dc82e8a00bf18",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/0ef0d4168c9acca14a5aecffaaeb4cfd29270ebf",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/76a9b54e9cb4b734913e97dcffdba4918817a134",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/067711dfc5f67e056257ef61209db42fef2296b3",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/3ee44a5919e069533b1ac7acc108e20b8a6b4cd3",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/c9013135d31905c01f4927cc3a9397f7c8151ad4",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/f168caed2dc10da25001f22f9a6dd4405f0d3145",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/6a12bab88d57e03eed321de01e36564a4750221c",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/52e72aeef734a04da56e83acad705629cb64941d",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/d7449acbe6cae960ac101a6134da7fd643230502",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/6bef235934ab6e465eff166929d9dca19cbd2879",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/df5b51c678acb1988fce52fa131e3d607b3b462b",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/15c262451dd7a04c79e1aa01cf702a418aa046d9",
+            "https://github.com/hobbyfarm/hobbyfarm/commit/56af32a86563f16b5a281b496c3be3f75d45ae5a"
+        ],
+        "rabbids-incubator/packer-templates": [
+            "https://github.com/rabbids-incubator/packer-templates/commit/fbbc6c2e28ac77b11ab3edf8b3fe358e8e405af5",
+            "https://github.com/rabbids-incubator/packer-templates/commit/6355abd12d92fd018ea92d9a71e3f8ac62a0b329",
+            "https://github.com/rabbids-incubator/packer-templates/commit/01ab36114592af41dace97ac74692b5ae254f4a3",
+            "https://github.com/rabbids-incubator/packer-templates/commit/973c1577bfd049eed3fb1d4f8602b87405032d18"
+        ],
+        "luciano-extractify/charts": [
+            "https://github.com/luciano-extractify/charts/commit/e87924bf546aa1ea3cd325339a4947fa178896aa"
+        ],
+        "rabbids-incubator/aspnet-lightapi": [
+            "https://github.com/rabbids-incubator/aspnet-lightapi/commit/89efaaa2a7457452a45a114e73be8ea7c38f5137"
+        ],
+        "MatthGrand/Wordpress2": [
+            "https://github.com/MatthGrand/Wordpress2/commit/e87924bf546aa1ea3cd325339a4947fa178896aa"
+        ],
+        "hobbyfarm/e2e-testing": [
+            "https://github.com/hobbyfarm/e2e-testing/commit/bae01959c4f6f60af1c4653cfb9595c3daaaf339",
+            "https://github.com/hobbyfarm/e2e-testing/commit/f3582b26c4fc4aa4d43cc3ef6335cb5c300d9ac6",
+            "https://github.com/hobbyfarm/e2e-testing/commit/af4bbff3d3b3e89bfd27e774ff95af5fd384c4b9",
+            "https://github.com/hobbyfarm/e2e-testing/commit/4769c21a72d0be7727e77d0dbc0fb94b9aa52333",
+            "https://github.com/hobbyfarm/e2e-testing/commit/d10947221c13610497157195698b75d10f0cce12",
+            "https://github.com/hobbyfarm/e2e-testing/commit/175cfe07c64ef3488ffd98ae999b542eee723e9f",
+            "https://github.com/hobbyfarm/e2e-testing/commit/c1a8fe2f56e58e0abd40ad33a7808c8127282836",
+            "https://github.com/hobbyfarm/e2e-testing/commit/8a3e2405a8d8dc20ab4773a6324b750ac295f13a",
+            "https://github.com/hobbyfarm/e2e-testing/commit/cfd064c4ac222f84d7587c2a27fd7a9239dc8cba",
+            "https://github.com/hobbyfarm/e2e-testing/commit/064850a6875550caed7a9083c21b6c48beb1f6d9",
+            "https://github.com/hobbyfarm/e2e-testing/commit/f9bd788250767db27d16dcae243896c722955c65",
+            "https://github.com/hobbyfarm/e2e-testing/commit/d6efba08491506632c99324d66a0cbc84f458502",
+            "https://github.com/hobbyfarm/e2e-testing/commit/5ff5040ae7c265fdd91b578ea688748111a47e2f"
+        ],
+        "stateful/blog-examples": [
+            "https://github.com/stateful/blog-examples/commit/4a6d853966ae4e13b8c5161132a1fd90a73314e9"
+        ],
+        "Thilaknath/sonar-scanner-sample-projects-test": [
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/454aa38e8d15f7f707595c0512c9e3da390d2333",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/a24bd5997db6565c0adc45538446675ac0f4679f",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/1c0c933c80ed55519bf31ffa04e0b6b658589fde",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/476bcd0b94b925ef5abd5297daf92c916e354d6e",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/315c971214e4a632a48ca0ca8ab3641bc6111b29",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/f37c2a78fb8c238b71a18756e39b9d384741dabf",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/f880ed847bd0d6af2954972c1b0b00ed57a9f5d4",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/a318e159b85452d36df2e27ab729aaf297cf6968",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/34f8b1026eefa6478ae28793c34acdf4b2dbe2a4",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/ba41054df328e50b0e0cde95bb65493bf80df636",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/52cf2ec889ce2dd56eb4109222d3cafb10f3b53d",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/5552f4b97de4aefc2f602af899b44bf129f62e14",
+            "https://github.com/Thilaknath/sonar-scanner-sample-projects-test/commit/0b878c7bcf705c62cae2b1fb87b902b8be9fb51d"
+        ],
+        "aalves08/fake-dashboard": [
+            "https://github.com/aalves08/fake-dashboard/commit/567610e7a239f554aeff7c11812f58392ad14898",
+            "https://github.com/aalves08/fake-dashboard/commit/90dbc729f936251dce3bd9465fcd4820c3b99040",
+            "https://github.com/aalves08/fake-dashboard/commit/554653253fa80639a5a57053281e3f1184027f6b"
+        ],
+        "industriaelearning/charts": [
+            "https://github.com/industriaelearning/charts/commit/e87924bf546aa1ea3cd325339a4947fa178896aa"
+        ]
+    }
+}

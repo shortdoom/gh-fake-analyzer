@@ -1,0 +1,748 @@
+{
+    "repos": [
+        {
+            "id": 698517090,
+            "node_id": "R_kgDOKaKGYg",
+            "name": "Cpp-Primer-Plus-6th",
+            "full_name": "HeDesertFox/Cpp-Primer-Plus-6th",
+            "private": false,
+            "owner": {
+                "login": "HeDesertFox",
+                "id": 124240160,
+                "node_id": "U_kgDOB2fBIA",
+                "avatar_url": "https://avatars.githubusercontent.com/u/124240160?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/HeDesertFox",
+                "html_url": "https://github.com/HeDesertFox",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/HeDesertFox/Cpp-Primer-Plus-6th",
+            "description": " \u300aC++ Primer Plus \u7b2c6\u7248\uff08\u4e2d\u6587\u7248\uff09\u300b\u539f\u4e66\u4ee3\u7801\u3001\u4e60\u9898\u7b54\u6848\u548c\u4e2a\u4eba\u7b14\u8bb0\uff0c\u4ec5\u4f9b\u5b66\u4e60\u548c\u4ea4\u6d41\u3002",
+            "fork": true,
+            "url": "https://api.github.com/repos/HeDesertFox/Cpp-Primer-Plus-6th",
+            "created_at": "2023-09-30T06:32:00Z",
+            "updated_at": "2023-09-30T06:32:01Z",
+            "pushed_at": "2023-07-07T06:31:02Z",
+            "homepage": "",
+            "size": 365,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 720971950,
+            "node_id": "R_kgDOKvkorg",
+            "name": "cs-self-learning",
+            "full_name": "HeDesertFox/cs-self-learning",
+            "private": false,
+            "owner": {
+                "login": "HeDesertFox",
+                "id": 124240160,
+                "node_id": "U_kgDOB2fBIA",
+                "avatar_url": "https://avatars.githubusercontent.com/u/124240160?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/HeDesertFox",
+                "html_url": "https://github.com/HeDesertFox",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/HeDesertFox/cs-self-learning",
+            "description": "\u8ba1\u7b97\u673a\u81ea\u5b66\u6307\u5357",
+            "fork": true,
+            "url": "https://api.github.com/repos/HeDesertFox/cs-self-learning",
+            "created_at": "2023-11-20T04:50:45Z",
+            "updated_at": "2024-08-24T21:05:51Z",
+            "pushed_at": "2023-11-17T15:52:56Z",
+            "homepage": "https://csdiy.wiki",
+            "size": 40757,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 720953166,
+            "node_id": "R_kgDOKvjfTg",
+            "name": "hpc-learning",
+            "full_name": "HeDesertFox/hpc-learning",
+            "private": false,
+            "owner": {
+                "login": "HeDesertFox",
+                "id": 124240160,
+                "node_id": "U_kgDOB2fBIA",
+                "avatar_url": "https://avatars.githubusercontent.com/u/124240160?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/HeDesertFox",
+                "html_url": "https://github.com/HeDesertFox",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/HeDesertFox/hpc-learning",
+            "description": "hpc-learning",
+            "fork": true,
+            "url": "https://api.github.com/repos/HeDesertFox/hpc-learning",
+            "created_at": "2023-11-20T03:29:21Z",
+            "updated_at": "2023-11-20T03:29:21Z",
+            "pushed_at": "2023-07-19T02:55:09Z",
+            "homepage": "",
+            "size": 20,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 786347999,
+            "node_id": "R_kgDOLt633w",
+            "name": "Neural-Networks-and-Deep-Learning-Homework-Group-Tasks",
+            "full_name": "HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Group-Tasks",
+            "private": false,
+            "owner": {
+                "login": "HeDesertFox",
+                "id": 124240160,
+                "node_id": "U_kgDOB2fBIA",
+                "avatar_url": "https://avatars.githubusercontent.com/u/124240160?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/HeDesertFox",
+                "html_url": "https://github.com/HeDesertFox",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Group-Tasks",
+            "description": "Assignments for the Neural Network and Deep Learning course at Fudan University (Lecturer: Zhang Li), completed by He Yihan and Lv Wentao",
+            "fork": false,
+            "url": "https://api.github.com/repos/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Group-Tasks",
+            "created_at": "2024-04-14T07:10:06Z",
+            "updated_at": "2024-08-24T21:05:49Z",
+            "pushed_at": "2024-06-30T16:19:22Z",
+            "homepage": "",
+            "size": 200153,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Jupyter Notebook",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 792326514,
+            "node_id": "R_kgDOLznxcg",
+            "name": "Neural-Networks-and-Deep-Learning-Homework-Personal-Task",
+            "full_name": "HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task",
+            "private": false,
+            "owner": {
+                "login": "HeDesertFox",
+                "id": 124240160,
+                "node_id": "U_kgDOB2fBIA",
+                "avatar_url": "https://avatars.githubusercontent.com/u/124240160?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/HeDesertFox",
+                "html_url": "https://github.com/HeDesertFox",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task",
+            "description": "Assignment for the Neural Network and Deep Learning course at Fudan University (Lecturer: Zhang Li), completed by Yihan He.",
+            "fork": false,
+            "url": "https://api.github.com/repos/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task",
+            "created_at": "2024-04-26T12:47:24Z",
+            "updated_at": "2024-08-24T21:05:49Z",
+            "pushed_at": "2024-04-26T13:38:07Z",
+            "homepage": "",
+            "size": 38547,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Jupyter Notebook",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 703585829,
+            "node_id": "R_kgDOKe_eJQ",
+            "name": "PEPit",
+            "full_name": "HeDesertFox/PEPit",
+            "private": false,
+            "owner": {
+                "login": "HeDesertFox",
+                "id": 124240160,
+                "node_id": "U_kgDOB2fBIA",
+                "avatar_url": "https://avatars.githubusercontent.com/u/124240160?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/HeDesertFox",
+                "html_url": "https://github.com/HeDesertFox",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/HeDesertFox/PEPit",
+            "description": "PEPit is a package enabling computer-assisted worst-case analyses of first-order optimization methods.",
+            "fork": true,
+            "url": "https://api.github.com/repos/HeDesertFox/PEPit",
+            "created_at": "2023-10-11T14:14:18Z",
+            "updated_at": "2024-01-01T18:30:01Z",
+            "pushed_at": "2023-10-10T01:44:34Z",
+            "homepage": "https://pepit.readthedocs.io/en/latest/",
+            "size": 2950,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 698638348,
+            "node_id": "R_kgDOKaRgDA",
+            "name": "practice_4",
+            "full_name": "HeDesertFox/practice_4",
+            "private": false,
+            "owner": {
+                "login": "HeDesertFox",
+                "id": 124240160,
+                "node_id": "U_kgDOB2fBIA",
+                "avatar_url": "https://avatars.githubusercontent.com/u/124240160?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/HeDesertFox",
+                "html_url": "https://github.com/HeDesertFox",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/HeDesertFox/practice_4",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/HeDesertFox/practice_4",
+            "created_at": "2023-09-30T14:11:59Z",
+            "updated_at": "2024-08-16T06:20:14Z",
+            "pushed_at": "2023-10-05T03:51:23Z",
+            "homepage": null,
+            "size": 403,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Makefile",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "Neural-Networks-and-Deep-Learning-Homework-Personal-Task": [
+            {
+                "sha": "8a31966243850136d90df6c50c9e6cdb987fab69",
+                "commit": {
+                    "author": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T21:37:19+08:00"
+                    },
+                    "committer": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T21:37:19+08:00"
+                    },
+                    "message": "\tmodified:   report/report1.pdf\n\tmodified:   report/report1.synctex.gz\n\tmodified:   report/report1.tex\n"
+                },
+                "parents": [
+                    "b5214aafde0cae620ff50d03e7c934b90cd46b7e"
+                ],
+                "url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task/commit/8a31966243850136d90df6c50c9e6cdb987fab69"
+            },
+            {
+                "sha": "b5214aafde0cae620ff50d03e7c934b90cd46b7e",
+                "commit": {
+                    "author": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T21:09:45+08:00"
+                    },
+                    "committer": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T21:09:45+08:00"
+                    },
+                    "message": "\tmodified:   README.md\n"
+                },
+                "parents": [
+                    "530b6a3b3404cee9bd677c39a2a57a2f6fe3d37e"
+                ],
+                "url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task/commit/b5214aafde0cae620ff50d03e7c934b90cd46b7e"
+            },
+            {
+                "sha": "530b6a3b3404cee9bd677c39a2a57a2f6fe3d37e",
+                "commit": {
+                    "author": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T21:08:57+08:00"
+                    },
+                    "committer": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T21:08:57+08:00"
+                    },
+                    "message": "\tmodified:   README.md\n"
+                },
+                "parents": [
+                    "5f2c7a99929c72601b7fd783fbaa679a737db340"
+                ],
+                "url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task/commit/530b6a3b3404cee9bd677c39a2a57a2f6fe3d37e"
+            },
+            {
+                "sha": "5f2c7a99929c72601b7fd783fbaa679a737db340",
+                "commit": {
+                    "author": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T21:05:13+08:00"
+                    },
+                    "committer": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T21:05:13+08:00"
+                    },
+                    "message": "\tmodified:   README.md\n\tmodified:   code/main_notebook.ipynb\n"
+                },
+                "parents": [
+                    "54ad5d4bd48d4eab1fbcebca0d77ae7a29ea8be1"
+                ],
+                "url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task/commit/5f2c7a99929c72601b7fd783fbaa679a737db340"
+            },
+            {
+                "sha": "54ad5d4bd48d4eab1fbcebca0d77ae7a29ea8be1",
+                "commit": {
+                    "author": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T20:53:50+08:00"
+                    },
+                    "committer": {
+                        "name": "He Desert Fox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T20:53:50+08:00"
+                    },
+                    "message": "\tnew file:   code/__pycache__/data_handling.cpython-39.pyc\n\tnew file:   code/__pycache__/model.cpython-39.pyc\n\tnew file:   code/__pycache__/testing.cpython-39.pyc\n\tnew file:   code/__pycache__/training.cpython-39.pyc\n\tnew file:   code/data_handling.py\n\tnew file:   code/fine-tunning_results.txt\n\tnew file:   code/main_notebook.ipynb\n\tnew file:   code/model.py\n\tnew file:   code/model_weights.npz\n\tnew file:   code/t10k-images-idx3-ubyte.gz\n\tnew file:   code/t10k-labels-idx1-ubyte.gz\n\tnew file:   code/testing.py\n\tnew file:   code/train-images-idx3-ubyte.gz\n\tnew file:   code/train-labels-idx1-ubyte.gz\n\tnew file:   code/training.py\n\tnew file:   report/layer1.png\n\tnew file:   report/layer2.png\n\tnew file:   report/layer3.png\n\tnew file:   report/report1.pdf\n\tnew file:   report/report1.synctex.gz\n\tnew file:   report/report1.tex\n\tnew file:   report/test.png\n\tnew file:   report/train_graph.png\n\tnew file:   report/train_stat.png\n"
+                },
+                "parents": [
+                    "1160775a6ea0d31528c1932dd8dfed836a061eef"
+                ],
+                "url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task/commit/54ad5d4bd48d4eab1fbcebca0d77ae7a29ea8be1"
+            },
+            {
+                "sha": "1160775a6ea0d31528c1932dd8dfed836a061eef",
+                "commit": {
+                    "author": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T20:47:43+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-26T20:47:43+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "5d8fa87d4c523e31131601e7ee1c20babe1d7112"
+                ],
+                "url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task/commit/1160775a6ea0d31528c1932dd8dfed836a061eef"
+            },
+            {
+                "sha": "5d8fa87d4c523e31131601e7ee1c20babe1d7112",
+                "commit": {
+                    "author": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2024-04-26T20:47:24+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-26T20:47:24+08:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/HeDesertFox/Neural-Networks-and-Deep-Learning-Homework-Personal-Task/commit/5d8fa87d4c523e31131601e7ee1c20babe1d7112"
+            }
+        ],
+        "practice_4": [
+            {
+                "sha": "73a5588394c62baebf5b38a6119c09597822ac3b",
+                "commit": {
+                    "author": {
+                        "name": "HeDesertFox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-10-05T11:51:09+08:00"
+                    },
+                    "committer": {
+                        "name": "HeDesertFox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-10-05T11:51:09+08:00"
+                    },
+                    "message": "Changes to be committed:\n\tnew file:   getint.cpp\n\tnew file:   getint.exe\n\tnew file:   line_exchange.cpp\n\tnew file:   month_day.cpp\n\tnew file:   negtive_pointer.cpp\n\tnew file:   negtive_pointer.exe\n\tmodified:   qsort.cpp\n\tnew file:   space_reserve.cpp\n\tnew file:   space_reserve.exe\n"
+                },
+                "parents": [
+                    "8a26002182eeadbb63b3b00b5266398b38aa26d6"
+                ],
+                "url": "https://github.com/HeDesertFox/practice_4/commit/73a5588394c62baebf5b38a6119c09597822ac3b"
+            },
+            {
+                "sha": "8a26002182eeadbb63b3b00b5266398b38aa26d6",
+                "commit": {
+                    "author": {
+                        "name": "HeDesertFox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-10-03T13:46:57+08:00"
+                    },
+                    "committer": {
+                        "name": "HeDesertFox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-10-03T13:46:57+08:00"
+                    },
+                    "message": "Changes to be committed:\n\tnew file:   pattern.cpp\n\tnew file:   pattern.exe\n\tnew file:   printd.cpp\n\tnew file:   printd.exe\n\tnew file:   qsort.cpp\n\tnew file:   qsort.exe\n"
+                },
+                "parents": [
+                    "a4c75b3e76ddb14c7a0af87bbf71e497571c5a02"
+                ],
+                "url": "https://github.com/HeDesertFox/practice_4/commit/8a26002182eeadbb63b3b00b5266398b38aa26d6"
+            },
+            {
+                "sha": "a4c75b3e76ddb14c7a0af87bbf71e497571c5a02",
+                "commit": {
+                    "author": {
+                        "name": "HeDesertFox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-10-02T23:25:35+08:00"
+                    },
+                    "committer": {
+                        "name": "HeDesertFox",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-10-02T23:25:35+08:00"
+                    },
+                    "message": "Changes to be committed:\n"
+                },
+                "parents": [
+                    "0fa33611cf9b71ae9341c4e3da263eb4d22a755b"
+                ],
+                "url": "https://github.com/HeDesertFox/practice_4/commit/a4c75b3e76ddb14c7a0af87bbf71e497571c5a02"
+            },
+            {
+                "sha": "0fa33611cf9b71ae9341c4e3da263eb4d22a755b",
+                "commit": {
+                    "author": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-10-02T11:44:01+08:00"
+                    },
+                    "committer": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-10-02T11:44:01+08:00"
+                    },
+                    "message": "Changes to be committed:\n\tmodified:   calculator.cpp\n\tnew file:   calculator.exe\n\tnew file:   inverse_polish_calculator/calc.h\n\tnew file:   inverse_polish_calculator/getch.cpp\n\tnew file:   inverse_polish_calculator/getop.cpp\n\tnew file:   inverse_polish_calculator/main.cpp\n\tnew file:   inverse_polish_calculator/stack.cpp\n"
+                },
+                "parents": [
+                    "538b4b471d28ae63c3872e97e3fddedb8d2036ee"
+                ],
+                "url": "https://github.com/HeDesertFox/practice_4/commit/0fa33611cf9b71ae9341c4e3da263eb4d22a755b"
+            },
+            {
+                "sha": "538b4b471d28ae63c3872e97e3fddedb8d2036ee",
+                "commit": {
+                    "author": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-09-30T23:59:06+08:00"
+                    },
+                    "committer": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-09-30T23:59:06+08:00"
+                    },
+                    "message": "Merge branch 'main' of https://github.com/HeDesertFox/practice_4\n"
+                },
+                "parents": [
+                    "63aa3ed5e0ca5b761f57a1786a4e9a8e320d9446",
+                    "f2fa9903098ccaa7911943941a9ed66861e5e558"
+                ],
+                "url": "https://github.com/HeDesertFox/practice_4/commit/538b4b471d28ae63c3872e97e3fddedb8d2036ee"
+            },
+            {
+                "sha": "63aa3ed5e0ca5b761f57a1786a4e9a8e320d9446",
+                "commit": {
+                    "author": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-09-30T23:58:13+08:00"
+                    },
+                    "committer": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-09-30T23:58:13+08:00"
+                    },
+                    "message": "Changes committed:\n\tnew file:   atof.cpp\n\tnew file:   atof.exe\n\tnew file:   calculator.cpp\n"
+                },
+                "parents": [
+                    "fa686fee773ab9fbc9a90dfcb8327ef1d3d59f86"
+                ],
+                "url": "https://github.com/HeDesertFox/practice_4/commit/63aa3ed5e0ca5b761f57a1786a4e9a8e320d9446"
+            },
+            {
+                "sha": "f2fa9903098ccaa7911943941a9ed66861e5e558",
+                "commit": {
+                    "author": {
+                        "name": "Yihan He",
+                        "email": "124240160+HeDesertFox@users.noreply.github.com",
+                        "date": "2023-09-30T22:20:02+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-09-30T22:20:02+08:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [
+                    "fa686fee773ab9fbc9a90dfcb8327ef1d3d59f86"
+                ],
+                "url": "https://github.com/HeDesertFox/practice_4/commit/f2fa9903098ccaa7911943941a9ed66861e5e558"
+            },
+            {
+                "sha": "fa686fee773ab9fbc9a90dfcb8327ef1d3d59f86",
+                "commit": {
+                    "author": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-09-30T22:12:03+08:00"
+                    },
+                    "committer": {
+                        "name": "Yihan He",
+                        "email": "heyh020426@gmail.com",
+                        "date": "2023-09-30T22:12:03+08:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/HeDesertFox/practice_4/commit/fa686fee773ab9fbc9a90dfcb8327ef1d3d59f86"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "Neural-Networks-and-Deep-Learning-Homework-Personal-Task": [
+            "\tmodified:   report/report1.pdf\n\tmodified:   report/report1.synctex.gz\n\tmodified:   report/report1.tex\n",
+            "\tmodified:   README.md\n",
+            "\tmodified:   README.md\n",
+            "\tmodified:   README.md\n\tmodified:   code/main_notebook.ipynb\n",
+            "\tnew file:   code/__pycache__/data_handling.cpython-39.pyc\n\tnew file:   code/__pycache__/model.cpython-39.pyc\n\tnew file:   code/__pycache__/testing.cpython-39.pyc\n\tnew file:   code/__pycache__/training.cpython-39.pyc\n\tnew file:   code/data_handling.py\n\tnew file:   code/fine-tunning_results.txt\n\tnew file:   code/main_notebook.ipynb\n\tnew file:   code/model.py\n\tnew file:   code/model_weights.npz\n\tnew file:   code/t10k-images-idx3-ubyte.gz\n\tnew file:   code/t10k-labels-idx1-ubyte.gz\n\tnew file:   code/testing.py\n\tnew file:   code/train-images-idx3-ubyte.gz\n\tnew file:   code/train-labels-idx1-ubyte.gz\n\tnew file:   code/training.py\n\tnew file:   report/layer1.png\n\tnew file:   report/layer2.png\n\tnew file:   report/layer3.png\n\tnew file:   report/report1.pdf\n\tnew file:   report/report1.synctex.gz\n\tnew file:   report/report1.tex\n\tnew file:   report/test.png\n\tnew file:   report/train_graph.png\n\tnew file:   report/train_stat.png\n",
+            "Update README.md",
+            "Initial commit"
+        ],
+        "practice_4": [
+            "Changes to be committed:\n\tnew file:   getint.cpp\n\tnew file:   getint.exe\n\tnew file:   line_exchange.cpp\n\tnew file:   month_day.cpp\n\tnew file:   negtive_pointer.cpp\n\tnew file:   negtive_pointer.exe\n\tmodified:   qsort.cpp\n\tnew file:   space_reserve.cpp\n\tnew file:   space_reserve.exe\n",
+            "Changes to be committed:\n\tnew file:   pattern.cpp\n\tnew file:   pattern.exe\n\tnew file:   printd.cpp\n\tnew file:   printd.exe\n\tnew file:   qsort.cpp\n\tnew file:   qsort.exe\n",
+            "Changes to be committed:\n",
+            "Changes to be committed:\n\tmodified:   calculator.cpp\n\tnew file:   calculator.exe\n\tnew file:   inverse_polish_calculator/calc.h\n\tnew file:   inverse_polish_calculator/getch.cpp\n\tnew file:   inverse_polish_calculator/getop.cpp\n\tnew file:   inverse_polish_calculator/main.cpp\n\tnew file:   inverse_polish_calculator/stack.cpp\n",
+            "Merge branch 'main' of https://github.com/HeDesertFox/practice_4\n",
+            "Changes committed:\n\tnew file:   atof.cpp\n\tnew file:   atof.exe\n\tnew file:   calculator.cpp\n",
+            "Create README.md",
+            "first commit\n"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

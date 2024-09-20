@@ -1,0 +1,17 @@
+[
+    {
+        "repo_name": "ChatGPT-Gmail-GoogleCalendar-GoogleMeet-chrome-extension",
+        "clone_url": "https://github.com/stacksculptor/ChatGPT-Gmail-GoogleCalendar-GoogleMeet-chrome-extension.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/stacksculptor/ChatGPT-Gmail-GoogleCalendar-GoogleMeet-chrome-extension.git /home/user/Github/PRs/gh-fake-analyzer/out/stacksculptor/stacksculptor_ChatGPT-Gmail-GoogleCalendar-GoogleMeet-chrome-extension.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/stacksculptor/stacksculptor_ChatGPT-Gmail-GoogleCalendar-GoogleMeet-chrome-extension.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 199 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "plane",
+        "clone_url": "https://github.com/stacksculptor/plane.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/stacksculptor/plane.git /home/user/Github/PRs/gh-fake-analyzer/out/stacksculptor/stacksculptor_plane.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/stacksculptor/stacksculptor_plane.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 99 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "stacksculptor.github.io",
+        "clone_url": "https://github.com/stacksculptor/stacksculptor.github.io.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/stacksculptor/stacksculptor.github.io.git /home/user/Github/PRs/gh-fake-analyzer/out/stacksculptor/stacksculptor_stacksculptor.github.io.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/stacksculptor/stacksculptor_stacksculptor.github.io.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 5181 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

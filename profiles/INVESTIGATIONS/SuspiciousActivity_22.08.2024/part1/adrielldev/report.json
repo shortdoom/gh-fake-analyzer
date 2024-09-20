@@ -1,0 +1,501 @@
+{
+    "profile_info": {
+        "login": "adrielldev",
+        "id": 96995025,
+        "node_id": "U_kgDOBcgG0Q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/96995025?v=4",
+        "html_url": "https://github.com/adrielldev",
+        "type": "User",
+        "site_admin": false,
+        "name": "Adriel Alberto",
+        "company": null,
+        "blog": "",
+        "location": "Recife",
+        "email": null,
+        "hireable": null,
+        "bio": "Fullstack Developer ",
+        "twitter_username": null,
+        "public_repos": 31,
+        "public_gists": 0,
+        "followers": 81,
+        "following": 111,
+        "created_at": "2022-01-02T18:41:30Z",
+        "updated_at": "2024-09-11T01:44:14Z"
+    },
+    "original_repos_count": 31,
+    "forked_repos_count": 0,
+    "unique_emails": {
+        "96995025+adrielldev@users.noreply.github.com": "Adriel Alberto",
+        "noreply@github.com": "GitHub",
+        "adrieldev@outlook.com": "Adriel Alberto"
+    },
+    "mutual_followers": [
+        "CodeX-SKY",
+        "DevStar1016",
+        "LeandroJunges",
+        "Rodrigo-Cn",
+        "jarvis-acv",
+        "Wellington-lopes",
+        "Italloml",
+        "highmountain12321",
+        "Makitey",
+        "austoh80",
+        "silvestrejunior",
+        "WarDroid23",
+        "arjuncvinod",
+        "Armin-Abdollahi",
+        "lucasbrava",
+        "bstar0406",
+        "Abjithwyn",
+        "L-Nova0211",
+        "gabriel-felberg",
+        "Bravineugenio",
+        "gittubbies",
+        "george0st",
+        "DalimaWave",
+        "dalima-dev",
+        "robustdev111",
+        "MurielM87",
+        "D4Fi",
+        "josejailson",
+        "bluebinky",
+        "ip681",
+        "4lisson777",
+        "Omar95-A",
+        "kehoecj",
+        "jansennoah",
+        "JohnMwendwa",
+        "olehrab",
+        "Dan1e1rodrigues",
+        "BEPb",
+        "IDouble",
+        "spider0317",
+        "Derick-Almeida",
+        "mahseema",
+        "seo-asif",
+        "Nakshatra05",
+        "malikattique1",
+        "habakukc22",
+        "Breno-vc",
+        "Sam666O",
+        "abeake",
+        "luccasqueiroz7",
+        "jorneycr",
+        "warmice71",
+        "Ambesawi",
+        "unmitra",
+        "stan8086",
+        "Emakiflom",
+        "Mathenge-Alex"
+    ],
+    "following": [
+        "https://github.com/akitaonrails",
+        "https://github.com/mcollina",
+        "https://github.com/loiane",
+        "https://github.com/sindresorhus",
+        "https://github.com/jonhoo",
+        "https://github.com/reu",
+        "https://github.com/sass",
+        "https://github.com/jquense",
+        "https://github.com/ricochet",
+        "https://github.com/ssloy",
+        "https://github.com/richardTowers",
+        "https://github.com/rwieruch",
+        "https://github.com/JoshuaKGoldberg",
+        "https://github.com/ahejlsberg",
+        "https://github.com/zbejas",
+        "https://github.com/sidneyroberto",
+        "https://github.com/swagger-api",
+        "https://github.com/baranovskis",
+        "https://github.com/unmitra",
+        "https://github.com/myjinxin2015",
+        "https://github.com/lichess-org",
+        "https://github.com/IDouble",
+        "https://github.com/ocodista",
+        "https://github.com/Silva97",
+        "https://github.com/jorneycr",
+        "https://github.com/WebDevSimplified",
+        "https://github.com/denoland",
+        "https://github.com/ip681",
+        "https://github.com/JeffersonRPM",
+        "https://github.com/judygab",
+        "https://github.com/BEPb",
+        "https://github.com/bpradiip",
+        "https://github.com/Mathenge-Alex",
+        "https://github.com/4lisson777",
+        "https://github.com/Wellington-lopes",
+        "https://github.com/OmarElsakka1",
+        "https://github.com/kauer3",
+        "https://github.com/arjuncvinod",
+        "https://github.com/H-K-R",
+        "https://github.com/conaticus",
+        "https://github.com/Abjithwyn",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/malikattique1",
+        "https://github.com/mohammadhasanii",
+        "https://github.com/bstar0406",
+        "https://github.com/0vm",
+        "https://github.com/WarDroid23",
+        "https://github.com/jarvis-acv",
+        "https://github.com/ita-dev",
+        "https://github.com/binary-blazer",
+        "https://github.com/Omar95-A",
+        "https://github.com/austoh80",
+        "https://github.com/jrohitofficial",
+        "https://github.com/josejailson",
+        "https://github.com/MurielM87",
+        "https://github.com/gabriel-felberg",
+        "https://github.com/Dan1e1rodrigues",
+        "https://github.com/Derick-Almeida",
+        "https://github.com/lucasbrava",
+        "https://github.com/george0st",
+        "https://github.com/DalimaWave",
+        "https://github.com/dalima-dev",
+        "https://github.com/silvestrejunior",
+        "https://github.com/luccasqueiroz7",
+        "https://github.com/LeandroJunges",
+        "https://github.com/Bravineugenio",
+        "https://github.com/maksonss4",
+        "https://github.com/Armin-Abdollahi",
+        "https://github.com/habakukc22",
+        "https://github.com/vla-gove",
+        "https://github.com/farhan7reza7",
+        "https://github.com/sonjibony",
+        "https://github.com/anotherhadi",
+        "https://github.com/gittubbies",
+        "https://github.com/isyuricunha",
+        "https://github.com/Ambesawi",
+        "https://github.com/kehoecj",
+        "https://github.com/seo-asif",
+        "https://github.com/OracleBrain",
+        "https://github.com/abeake",
+        "https://github.com/jansennoah",
+        "https://github.com/HappyMicky0317",
+        "https://github.com/Emakiflom",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/codeninja819",
+        "https://github.com/Makitey",
+        "https://github.com/PurpleMonkey729",
+        "https://github.com/highmountain12321",
+        "https://github.com/hasanyalsiz",
+        "https://github.com/techtronixnepal",
+        "https://github.com/mehmetpolat46",
+        "https://github.com/codemaster05330",
+        "https://github.com/robustdev111",
+        "https://github.com/warmice71",
+        "https://github.com/L-Nova0211",
+        "https://github.com/D4Fi",
+        "https://github.com/Nakshatra05",
+        "https://github.com/CodeX-SKY",
+        "https://github.com/Sam666O",
+        "https://github.com/bluebinky",
+        "https://github.com/mahseema",
+        "https://github.com/olehrab",
+        "https://github.com/DevStar1016",
+        "https://github.com/darkhorse0311",
+        "https://github.com/gitechnologi",
+        "https://github.com/Italloml",
+        "https://github.com/spider0317",
+        "https://github.com/vinciidev",
+        "https://github.com/stan8086",
+        "https://github.com/champion10873",
+        "https://github.com/Breno-vc"
+    ],
+    "followers": [
+        "https://github.com/jeffersonsimaogoncalves",
+        "https://github.com/mustafacagri",
+        "https://github.com/unmitra",
+        "https://github.com/IDouble",
+        "https://github.com/alxkm",
+        "https://github.com/jorneycr",
+        "https://github.com/gr8monk3ys",
+        "https://github.com/PremChapagain",
+        "https://github.com/ip681",
+        "https://github.com/BEPb",
+        "https://github.com/Mathenge-Alex",
+        "https://github.com/4lisson777",
+        "https://github.com/Wellington-lopes",
+        "https://github.com/arjuncvinod",
+        "https://github.com/Abjithwyn",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/malikattique1",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/bstar0406",
+        "https://github.com/WarDroid23",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Omar95-A",
+        "https://github.com/austoh80",
+        "https://github.com/josejailson",
+        "https://github.com/MurielM87",
+        "https://github.com/gabriel-felberg",
+        "https://github.com/Dan1e1rodrigues",
+        "https://github.com/Derick-Almeida",
+        "https://github.com/lucasbrava",
+        "https://github.com/george0st",
+        "https://github.com/cumsoft",
+        "https://github.com/DalimaWave",
+        "https://github.com/dalima-dev",
+        "https://github.com/silvestrejunior",
+        "https://github.com/luccasqueiroz7",
+        "https://github.com/LeandroJunges",
+        "https://github.com/Bravineugenio",
+        "https://github.com/Armin-Abdollahi",
+        "https://github.com/habakukc22",
+        "https://github.com/gittubbies",
+        "https://github.com/xmoohad",
+        "https://github.com/Ambesawi",
+        "https://github.com/kehoecj",
+        "https://github.com/seo-asif",
+        "https://github.com/juliofleitas",
+        "https://github.com/V1nni00",
+        "https://github.com/abeake",
+        "https://github.com/jansennoah",
+        "https://github.com/Emakiflom",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/Makitey",
+        "https://github.com/devlancer-lucas",
+        "https://github.com/highmountain12321",
+        "https://github.com/TheSonOfSocrates",
+        "https://github.com/robustdev111",
+        "https://github.com/warmice71",
+        "https://github.com/L-Nova0211",
+        "https://github.com/D4Fi",
+        "https://github.com/Nakshatra05",
+        "https://github.com/CodeX-SKY",
+        "https://github.com/Sam666O",
+        "https://github.com/bluebinky",
+        "https://github.com/mahseema",
+        "https://github.com/olehrab",
+        "https://github.com/DevStar1016",
+        "https://github.com/Keeplee33",
+        "https://github.com/911-carrera",
+        "https://github.com/ummily",
+        "https://github.com/Italloml",
+        "https://github.com/dougkalash",
+        "https://github.com/xaramore",
+        "https://github.com/spider0317",
+        "https://github.com/Blerina79",
+        "https://github.com/aylarghezelbash",
+        "https://github.com/livedeveloper823",
+        "https://github.com/stan8086",
+        "https://github.com/Breno-vc",
+        "https://github.com/LegendaryNaix",
+        "https://github.com/sacredAST",
+        "https://github.com/kristinatech",
+        "https://github.com/xopaz"
+    ],
+    "repo_list": [
+        "adrielldev",
+        "api-alunos-gin-go",
+        "api-carshop-express-ts",
+        "api-client-management-express-ts",
+        "api-futcamp-django-py",
+        "api-kenziepet-django-py",
+        "api-kimoveis-express-ts",
+        "api-kmdb-django-py",
+        "api-komercio-django-py",
+        "api-personalidades-go",
+        "api-portfolio-express-ts",
+        "api-upload-cnab-django-py",
+        "api-user-express-ts",
+        "api-webschool-express-ts",
+        "bank-go",
+        "bitcoin-candles-express-ts",
+        "calculadora-juros-react-ts",
+        "deliveroo-clone-react-native-js",
+        "doit-react-js",
+        "ecommerce-go",
+        "hulu-clone-next-js",
+        "kenziehub-react-js",
+        "memoteca-angular",
+        "monitor-status-go",
+        "netflix-clone-next-js",
+        "nukenzie-react-js",
+        "portfolio-2023-react-js",
+        "portfolio-react-js",
+        "restaurants-search-react-native-js",
+        "streetchessrecife-nest-ts",
+        "webschool-react-js"
+    ],
+    "forked_repo_list": [],
+    "contributors": {
+        "adrielldev": [
+            "adrielldev"
+        ],
+        "api-alunos-gin-go": [
+            "adrielldev"
+        ],
+        "api-carshop-express-ts": [
+            "adrielldev"
+        ],
+        "api-client-management-express-ts": [
+            "adrielldev"
+        ],
+        "api-futcamp-django-py": [
+            "adrielldev"
+        ],
+        "api-kenziepet-django-py": [
+            "adrielldev"
+        ],
+        "api-kimoveis-express-ts": [
+            "adrielldev"
+        ],
+        "api-kmdb-django-py": [
+            "adrielldev"
+        ],
+        "api-komercio-django-py": [
+            "adrielldev"
+        ],
+        "api-personalidades-go": [
+            "adrielldev"
+        ],
+        "api-portfolio-express-ts": [
+            "adrielldev"
+        ],
+        "api-upload-cnab-django-py": [
+            "adrielldev"
+        ],
+        "api-user-express-ts": [
+            "adrielldev"
+        ],
+        "api-webschool-express-ts": [
+            "adrielldev"
+        ],
+        "bank-go": [
+            "adrielldev"
+        ],
+        "bitcoin-candles-express-ts": [
+            "adrielldev"
+        ],
+        "calculadora-juros-react-ts": [
+            "adrielldev"
+        ],
+        "deliveroo-clone-react-native-js": [
+            "adrielldev"
+        ],
+        "doit-react-js": [
+            "adrielldev"
+        ],
+        "ecommerce-go": [
+            "adrielldev"
+        ],
+        "hulu-clone-next-js": [
+            "adrielldev"
+        ],
+        "kenziehub-react-js": [
+            "adrielldev"
+        ],
+        "memoteca-angular": [
+            "adrielldev"
+        ],
+        "monitor-status-go": [
+            "adrielldev"
+        ],
+        "netflix-clone-next-js": [
+            "adrielldev"
+        ],
+        "nukenzie-react-js": [
+            "adrielldev"
+        ],
+        "portfolio-2023-react-js": [
+            "adrielldev"
+        ],
+        "portfolio-react-js": [
+            "adrielldev"
+        ],
+        "restaurants-search-react-native-js": [
+            "adrielldev"
+        ],
+        "streetchessrecife-nest-ts": [
+            "adrielldev"
+        ],
+        "webschool-react-js": [
+            "adrielldev"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "glauber-FullStackDev/desafio-dev-junior-b2u": [
+            "https://github.com/glauber-FullStackDev/desafio-dev-junior-b2u/pull/23"
+        ],
+        "zeta-corporation/freela-edesio": [
+            "https://github.com/zeta-corporation/freela-edesio/pull/2",
+            "https://github.com/zeta-corporation/freela-edesio/pull/1"
+        ],
+        "web-school-organization/FutCamp": [
+            "https://github.com/web-school-organization/FutCamp/pull/8",
+            "https://github.com/web-school-organization/FutCamp/pull/1"
+        ],
+        "web-school-organization/api-webschool": [
+            "https://github.com/web-school-organization/api-webschool/pull/45",
+            "https://github.com/web-school-organization/api-webschool/pull/43",
+            "https://github.com/web-school-organization/api-webschool/pull/23",
+            "https://github.com/web-school-organization/api-webschool/pull/20",
+            "https://github.com/web-school-organization/api-webschool/pull/18"
+        ]
+    },
+    "commits_to_other_repos": {
+        "web-school-organization/web-school-project": [
+            "https://github.com/web-school-organization/web-school-project/commit/cd41a15ce20380aed957e53200934344df2dd43e",
+            "https://github.com/web-school-organization/web-school-project/commit/a74d15385b7ee25745640f5dcb2492b4792d0865",
+            "https://github.com/web-school-organization/web-school-project/commit/3b472127f8a85c805fe7f71f06c73bb7567ebee7",
+            "https://github.com/web-school-organization/web-school-project/commit/1c8dbbb67bee56b833317f1ee5c5dbc1c9512eda",
+            "https://github.com/web-school-organization/web-school-project/commit/c17d1d66b14cca42f0a5ecaa04c1713a20e71eda",
+            "https://github.com/web-school-organization/web-school-project/commit/737511c0b2f687c903657e4597d7d18ffe60ee3d",
+            "https://github.com/web-school-organization/web-school-project/commit/fe4f9167dbb026f8fef44fab8ad1a96c6376ff15",
+            "https://github.com/web-school-organization/web-school-project/commit/20832399c7a4eefee8071380567dc89f4261127f",
+            "https://github.com/web-school-organization/web-school-project/commit/d1e62710d7dd8df873c0e144d8cd9547429fddff",
+            "https://github.com/web-school-organization/web-school-project/commit/46000b99f449debda34d393c29cb2ce7e9379fe5",
+            "https://github.com/web-school-organization/web-school-project/commit/02774191daff01aea7972697cd0bd751105d537c"
+        ],
+        "web-school-organization/api-webschool": [
+            "https://github.com/web-school-organization/api-webschool/commit/d65157fe4f11491d66b82ca5aede61a59227b165",
+            "https://github.com/web-school-organization/api-webschool/commit/80cf65fee13fd68f8d2cbe45b13e0e308813be6c",
+            "https://github.com/web-school-organization/api-webschool/commit/a122e3a96f373d6413f988f977741268ab5f4a70",
+            "https://github.com/web-school-organization/api-webschool/commit/ec058e2923b729ec3c0bedd4135bf53afedc44f7",
+            "https://github.com/web-school-organization/api-webschool/commit/dd65aacef07e20fbd8037b479bbd7ca628b6dca4",
+            "https://github.com/web-school-organization/api-webschool/commit/e834f4f3bc1dc5b5db6ab7c7c43ae998eb80f9f9",
+            "https://github.com/web-school-organization/api-webschool/commit/2dcb98f22b6f42b08226a3e12fe9cddc783ee7c6",
+            "https://github.com/web-school-organization/api-webschool/commit/f5cfc4c6e7bfe3ff79933ef7b466c22760e32c03",
+            "https://github.com/web-school-organization/api-webschool/commit/584ee0bb710c8f6bf3ca72678d171cc15ec4b443",
+            "https://github.com/web-school-organization/api-webschool/commit/39904652bd622821cc8753d3cbf01e089c99d996",
+            "https://github.com/web-school-organization/api-webschool/commit/1762c9833256854bd04cc441a8362c3e80d6fb3c",
+            "https://github.com/web-school-organization/api-webschool/commit/0351943a58acc0f18f278585430241f26f0b22c4",
+            "https://github.com/web-school-organization/api-webschool/commit/ac7171dba1edd118365c27d5434c0226bbfe4ab4"
+        ],
+        "gabriel-felberg/WebSchool": [
+            "https://github.com/gabriel-felberg/WebSchool/commit/cd41a15ce20380aed957e53200934344df2dd43e",
+            "https://github.com/gabriel-felberg/WebSchool/commit/a74d15385b7ee25745640f5dcb2492b4792d0865",
+            "https://github.com/gabriel-felberg/WebSchool/commit/3b472127f8a85c805fe7f71f06c73bb7567ebee7",
+            "https://github.com/gabriel-felberg/WebSchool/commit/1c8dbbb67bee56b833317f1ee5c5dbc1c9512eda",
+            "https://github.com/gabriel-felberg/WebSchool/commit/c17d1d66b14cca42f0a5ecaa04c1713a20e71eda",
+            "https://github.com/gabriel-felberg/WebSchool/commit/737511c0b2f687c903657e4597d7d18ffe60ee3d",
+            "https://github.com/gabriel-felberg/WebSchool/commit/fe4f9167dbb026f8fef44fab8ad1a96c6376ff15",
+            "https://github.com/gabriel-felberg/WebSchool/commit/20832399c7a4eefee8071380567dc89f4261127f",
+            "https://github.com/gabriel-felberg/WebSchool/commit/d1e62710d7dd8df873c0e144d8cd9547429fddff",
+            "https://github.com/gabriel-felberg/WebSchool/commit/46000b99f449debda34d393c29cb2ce7e9379fe5",
+            "https://github.com/gabriel-felberg/WebSchool/commit/02774191daff01aea7972697cd0bd751105d537c"
+        ],
+        "web-school-organization/FutCamp": [
+            "https://github.com/web-school-organization/FutCamp/commit/f03262cee4e009e2d43d62472a30c40631586e3a",
+            "https://github.com/web-school-organization/FutCamp/commit/fce47c23fdf03aba51232644d9e2572484e499b8"
+        ],
+        "zeta-corporation/freela-edesio": [
+            "https://github.com/zeta-corporation/freela-edesio/commit/8dc9829cb275fb50f0a5e0f90b50f542b17e54b8",
+            "https://github.com/zeta-corporation/freela-edesio/commit/af5098d5e0bd7f774a7615eae07bce8a4c230102",
+            "https://github.com/zeta-corporation/freela-edesio/commit/1cb580d2fd46517952367b90739ae974535189a8",
+            "https://github.com/zeta-corporation/freela-edesio/commit/67601ab399b570c960fa7cd31b8c4b31a5831b76",
+            "https://github.com/zeta-corporation/freela-edesio/commit/d3d1b18e11cae36ec7cfc0035cc7b2070928feae",
+            "https://github.com/zeta-corporation/freela-edesio/commit/bb1d7ad2cee69eaceabfa9caaefe9c8b0f156c8f",
+            "https://github.com/zeta-corporation/freela-edesio/commit/5f58a1ac2438e1e2c1d4b1d766fc86d501dae0ec",
+            "https://github.com/zeta-corporation/freela-edesio/commit/c16dd2885626e96863606fb820f1e588fa35a5df",
+            "https://github.com/zeta-corporation/freela-edesio/commit/887386715441cd48f68e5a3045e527c7b6df1866",
+            "https://github.com/zeta-corporation/freela-edesio/commit/2fe8bbf8e8d279897d5fbec18004fd10c3c6540c",
+            "https://github.com/zeta-corporation/freela-edesio/commit/1e6f16c29c2cfce7fac35c449590e6479508fe4d",
+            "https://github.com/zeta-corporation/freela-edesio/commit/ee9fc2a7e04c84ff99093dce6040751233fd5c2c",
+            "https://github.com/zeta-corporation/freela-edesio/commit/01daff84b8cecdfffadfcfc833059c8a8b3f61cd",
+            "https://github.com/zeta-corporation/freela-edesio/commit/4b8b73535afa7cc79fa33fb9ef7beea7fc51f01c",
+            "https://github.com/zeta-corporation/freela-edesio/commit/c7ffac7e39bc5ed709992ad4dad3fcbd0bdb5e0d",
+            "https://github.com/zeta-corporation/freela-edesio/commit/ee81be784bd316da512cbbf167b6c6f9e0aa6730"
+        ]
+    }
+}

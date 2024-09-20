@@ -1,0 +1,79 @@
+{
+    "profile_data": {
+        "login": "mirkowo",
+        "id": 154455412,
+        "node_id": "U_kgDOCTTNdA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/154455412?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mirkowo",
+        "html_url": "https://github.com/mirkowo",
+        "type": "User",
+        "site_admin": false,
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 0,
+        "public_gists": 0,
+        "followers": 2,
+        "following": 2,
+        "created_at": "2023-12-20T16:39:40Z",
+        "updated_at": "2024-07-19T08:18:47Z"
+    },
+    "following": [
+        {
+            "login": "cedev935",
+            "id": 140622562,
+            "node_id": "U_kgDOCGG64g",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140622562?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cedev935",
+            "html_url": "https://github.com/cedev935",
+            "type": "User",
+            "site_admin": false
+        },
+        {
+            "login": "olehrab",
+            "id": 144377057,
+            "node_id": "U_kgDOCJsE4Q",
+            "avatar_url": "https://avatars.githubusercontent.com/u/144377057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/olehrab",
+            "html_url": "https://github.com/olehrab",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
+    "followers": [
+        {
+            "login": "gr8monk3ys",
+            "id": 31302763,
+            "node_id": "MDQ6VXNlcjMxMzAyNzYz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31302763?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gr8monk3ys",
+            "html_url": "https://github.com/gr8monk3ys",
+            "type": "User",
+            "site_admin": false
+        },
+        {
+            "login": "olehrab",
+            "id": 144377057,
+            "node_id": "U_kgDOCJsE4Q",
+            "avatar_url": "https://avatars.githubusercontent.com/u/144377057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/olehrab",
+            "html_url": "https://github.com/olehrab",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
+    "repos": [],
+    "commits": {},
+    "commits_msgs": {},
+    "date_filter": []
+}

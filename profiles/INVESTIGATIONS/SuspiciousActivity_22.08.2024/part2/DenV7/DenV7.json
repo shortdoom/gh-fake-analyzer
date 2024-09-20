@@ -1,0 +1,72 @@
+{
+    "repos": [
+        {
+            "id": 540674316,
+            "node_id": "R_kgDOIDoJDA",
+            "name": "Issue-your-own-ERC20-token",
+            "full_name": "DenV7/Issue-your-own-ERC20-token",
+            "private": false,
+            "owner": {
+                "login": "DenV7",
+                "id": 56050679,
+                "node_id": "MDQ6VXNlcjU2MDUwNjc5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/56050679?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/DenV7",
+                "html_url": "https://github.com/DenV7",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/DenV7/Issue-your-own-ERC20-token",
+            "description": "Tutorial of how to issue your own Ethereum ERC20 Token!",
+            "fork": true,
+            "url": "https://api.github.com/repos/DenV7/Issue-your-own-ERC20-token",
+            "created_at": "2022-09-24T01:40:12Z",
+            "updated_at": "2023-06-16T16:11:21Z",
+            "pushed_at": "2021-12-19T08:11:33Z",
+            "homepage": "https://medium.com/bitfwd/how-to-issue-your-own-token-on-ethereum-in-less-than-20-minutes-ac1f8f022793",
+            "size": 25,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 4,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {},
+    "commits_msgs": {},
+    "date_filter": [],
+    "potential_copy": {}
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "repo_name": "jsPostClass",
+        "clone_url": "https://github.com/kaplanh/jsPostClass.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/kaplanh/jsPostClass.git /home/user/Github/PRs/gh-fake-analyzer/out/kaplanh/kaplanh_jsPostClass.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/kaplanh/kaplanh_jsPostClass.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 5091 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Portfolio",
+        "clone_url": "https://github.com/kaplanh/Portfolio.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/kaplanh/Portfolio.git /home/user/Github/PRs/gh-fake-analyzer/out/kaplanh/kaplanh_Portfolio.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/kaplanh/kaplanh_Portfolio.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 4108 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "React-Mat_Dev-Library",
+        "clone_url": "https://github.com/kaplanh/React-Mat_Dev-Library.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/kaplanh/React-Mat_Dev-Library.git /home/user/Github/PRs/gh-fake-analyzer/out/kaplanh/kaplanh_React-Mat_Dev-Library.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/kaplanh/kaplanh_React-Mat_Dev-Library.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 7695 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

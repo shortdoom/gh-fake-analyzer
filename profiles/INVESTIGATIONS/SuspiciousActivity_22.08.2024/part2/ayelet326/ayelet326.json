@@ -1,0 +1,3713 @@
+{
+    "repos": [
+        {
+            "id": 737416317,
+            "node_id": "R_kgDOK_QUfQ",
+            "name": "advanced-python",
+            "full_name": "ayelet326/advanced-python",
+            "private": false,
+            "owner": {
+                "login": "ayelet326",
+                "id": 152266886,
+                "node_id": "U_kgDOCRNohg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/152266886?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ayelet326",
+                "html_url": "https://github.com/ayelet326",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ayelet326/advanced-python",
+            "description": "advanced homework in Python, primarily in Jupyter Notebook, focusing on advanced language usage.",
+            "fork": false,
+            "url": "https://api.github.com/repos/ayelet326/advanced-python",
+            "created_at": "2023-12-31T00:21:56Z",
+            "updated_at": "2024-08-07T22:40:22Z",
+            "pushed_at": "2024-05-20T23:29:14Z",
+            "homepage": "",
+            "size": 297,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "language": "Jupyter Notebook",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 2,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 805099685,
+            "node_id": "R_kgDOL_zYpQ",
+            "name": "ayelet326",
+            "full_name": "ayelet326/ayelet326",
+            "private": false,
+            "owner": {
+                "login": "ayelet326",
+                "id": 152266886,
+                "node_id": "U_kgDOCRNohg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/152266886?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ayelet326",
+                "html_url": "https://github.com/ayelet326",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ayelet326/ayelet326",
+            "description": "Config files for my GitHub profile.",
+            "fork": false,
+            "url": "https://api.github.com/repos/ayelet326/ayelet326",
+            "created_at": "2024-05-23T22:09:41Z",
+            "updated_at": "2024-09-16T16:28:58Z",
+            "pushed_at": "2024-09-05T20:46:17Z",
+            "homepage": "https://github.com/ayelet326",
+            "size": 45,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "config",
+                "github-config"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 2,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 804901274,
+            "node_id": "R_kgDOL_nRmg",
+            "name": "BalanceUp",
+            "full_name": "ayelet326/BalanceUp",
+            "private": false,
+            "owner": {
+                "login": "ayelet326",
+                "id": 152266886,
+                "node_id": "U_kgDOCRNohg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/152266886?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ayelet326",
+                "html_url": "https://github.com/ayelet326",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ayelet326/BalanceUp",
+            "description": "BalanceUp is a backend development project for a budget management application.   The app allows users to manage their monthly budgets smartly, as well as data visualization for better financial insights. The backend is developed in Python using the FastAPI framework, with MongoDB as the database.",
+            "fork": false,
+            "url": "https://api.github.com/repos/ayelet326/BalanceUp",
+            "created_at": "2024-05-23T13:44:25Z",
+            "updated_at": "2024-08-07T22:40:22Z",
+            "pushed_at": "2024-05-29T21:45:51Z",
+            "homepage": null,
+            "size": 48,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 735706217,
+            "node_id": "R_kgDOK9n8aQ",
+            "name": "core_MyTaskLog",
+            "full_name": "ayelet326/core_MyTaskLog",
+            "private": false,
+            "owner": {
+                "login": "ayelet326",
+                "id": 152266886,
+                "node_id": "U_kgDOCRNohg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/152266886?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ayelet326",
+                "html_url": "https://github.com/ayelet326",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ayelet326/core_MyTaskLog",
+            "description": "The Task Managment system is a web application designed to facilitate task management within the context of users and administrators. It provides a user-friendly interface to create, update, and delete their tasks, and edit their profile. while administrators have additional privileges to manage users and their own tasks as well.",
+            "fork": false,
+            "url": "https://api.github.com/repos/ayelet326/core_MyTaskLog",
+            "created_at": "2023-12-25T22:34:29Z",
+            "updated_at": "2024-08-27T21:43:41Z",
+            "pushed_at": "2024-07-11T01:56:15Z",
+            "homepage": "https://core-mytasklog.onrender.com/",
+            "size": 1560,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "language": "C#",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 4,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 735707465,
+            "node_id": "R_kgDOK9oBSQ",
+            "name": "FirstProject_GithHub",
+            "full_name": "ayelet326/FirstProject_GithHub",
+            "private": false,
+            "owner": {
+                "login": "ayelet326",
+                "id": 152266886,
+                "node_id": "U_kgDOCRNohg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/152266886?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ayelet326",
+                "html_url": "https://github.com/ayelet326",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ayelet326/FirstProject_GithHub",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/ayelet326/FirstProject_GithHub",
+            "created_at": "2023-12-25T22:43:32Z",
+            "updated_at": "2024-06-16T11:07:00Z",
+            "pushed_at": "2024-06-09T13:09:03Z",
+            "homepage": null,
+            "size": 7,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "language": "HTML",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 2,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 810588926,
+            "node_id": "R_kgDOMFCa_g",
+            "name": "Python-coffee_machine",
+            "full_name": "ayelet326/Python-coffee_machine",
+            "private": false,
+            "owner": {
+                "login": "ayelet326",
+                "id": 152266886,
+                "node_id": "U_kgDOCRNohg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/152266886?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ayelet326",
+                "html_url": "https://github.com/ayelet326",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ayelet326/Python-coffee_machine",
+            "description": "This is a simple Python project simulating a coffee machine. The program allows users to select different types of coffee, manage ingredients, and handle payments. It's designed to demonstrate basic concepts of Python programming, including control structures, functions, and object-oriented programming.",
+            "fork": false,
+            "url": "https://api.github.com/repos/ayelet326/Python-coffee_machine",
+            "created_at": "2024-06-05T01:51:43Z",
+            "updated_at": "2024-06-16T11:07:01Z",
+            "pushed_at": "2024-06-05T02:35:11Z",
+            "homepage": null,
+            "size": 6,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 785731947,
+            "node_id": "R_kgDOLtVRaw",
+            "name": "Search_jobs_system",
+            "full_name": "ayelet326/Search_jobs_system",
+            "private": false,
+            "owner": {
+                "login": "ayelet326",
+                "id": 152266886,
+                "node_id": "U_kgDOCRNohg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/152266886?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ayelet326",
+                "html_url": "https://github.com/ayelet326",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ayelet326/Search_jobs_system",
+            "description": "A full-stack web application that enables users to easily and conveniently search, view, and apply for a wide variety of job opportunities. I built this using Angular for the client side, with ASP.NET Core and C# for the server side, and SQL for the database",
+            "fork": false,
+            "url": "https://api.github.com/repos/ayelet326/Search_jobs_system",
+            "created_at": "2024-04-12T14:00:49Z",
+            "updated_at": "2024-08-27T21:43:39Z",
+            "pushed_at": "2024-08-06T18:54:21Z",
+            "homepage": null,
+            "size": 280,
+            "stargazers_count": 7,
+            "watchers_count": 7,
+            "language": "C#",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 7,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 827055884,
+            "node_id": "R_kgDOMUvfDA",
+            "name": "Second-Hand-Store-Python",
+            "full_name": "ayelet326/Second-Hand-Store-Python",
+            "private": false,
+            "owner": {
+                "login": "ayelet326",
+                "id": 152266886,
+                "node_id": "U_kgDOCRNohg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/152266886?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ayelet326",
+                "html_url": "https://github.com/ayelet326",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ayelet326/Second-Hand-Store-Python",
+            "description": "Python-based terminal application designed to manage a  store that sells both new and second-hand items. The application provides a simple interface for users to view a product catalog, add second-hand items, purchase products, and exit the system.",
+            "fork": false,
+            "url": "https://api.github.com/repos/ayelet326/Second-Hand-Store-Python",
+            "created_at": "2024-07-10T23:56:14Z",
+            "updated_at": "2024-07-28T21:31:17Z",
+            "pushed_at": "2024-07-11T00:34:51Z",
+            "homepage": null,
+            "size": 83,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "advanced-python": [
+            {
+                "sha": "9eafab46ca1fedda9ad0566aadd119c0ef80545a",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-21T02:28:59+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-21T02:28:59+03:00"
+                    },
+                    "message": "add lesson5\n"
+                },
+                "parents": [
+                    "2295d82fc4cab7245c496f2a026b9fed5d079e7d"
+                ],
+                "url": "https://github.com/ayelet326/advanced-python/commit/9eafab46ca1fedda9ad0566aadd119c0ef80545a"
+            },
+            {
+                "sha": "2295d82fc4cab7245c496f2a026b9fed5d079e7d",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-21T02:20:51+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-21T02:20:51+03:00"
+                    },
+                    "message": "add lesson 8\n"
+                },
+                "parents": [
+                    "189e925e6769033ca03b8f326c7ea99d5f7ff653"
+                ],
+                "url": "https://github.com/ayelet326/advanced-python/commit/2295d82fc4cab7245c496f2a026b9fed5d079e7d"
+            },
+            {
+                "sha": "189e925e6769033ca03b8f326c7ea99d5f7ff653",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-09T06:24:43+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-09T06:24:43+03:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [
+                    "6bf7de3586e040c18f45efae7ba727162a688b03"
+                ],
+                "url": "https://github.com/ayelet326/advanced-python/commit/189e925e6769033ca03b8f326c7ea99d5f7ff653"
+            },
+            {
+                "sha": "6bf7de3586e040c18f45efae7ba727162a688b03",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-03-27T01:45:24+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-27T01:45:24+02:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [
+                    "2913591a7db0eb1a4de983406ad512df65424d87"
+                ],
+                "url": "https://github.com/ayelet326/advanced-python/commit/6bf7de3586e040c18f45efae7ba727162a688b03"
+            },
+            {
+                "sha": "2913591a7db0eb1a4de983406ad512df65424d87",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-03-06T18:09:54+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-06T18:09:54+02:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [
+                    "ab80aeb4d96bde2a2d855f76f32e42de4d0a1976"
+                ],
+                "url": "https://github.com/ayelet326/advanced-python/commit/2913591a7db0eb1a4de983406ad512df65424d87"
+            },
+            {
+                "sha": "ab80aeb4d96bde2a2d855f76f32e42de4d0a1976",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-03-06T18:07:54+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-06T18:07:54+02:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [
+                    "8e780c7b6ef0dcefaaaa43144f9d0c56e65f3383"
+                ],
+                "url": "https://github.com/ayelet326/advanced-python/commit/ab80aeb4d96bde2a2d855f76f32e42de4d0a1976"
+            },
+            {
+                "sha": "8e780c7b6ef0dcefaaaa43144f9d0c56e65f3383",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-01-23T23:14:41+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-23T23:14:41+02:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [
+                    "513eed850a8f555116ea6bf35267ff219f19e9da"
+                ],
+                "url": "https://github.com/ayelet326/advanced-python/commit/8e780c7b6ef0dcefaaaa43144f9d0c56e65f3383"
+            },
+            {
+                "sha": "513eed850a8f555116ea6bf35267ff219f19e9da",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-01-23T23:08:39+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-23T23:08:39+02:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [
+                    "24d457165585ab5f9a1da39b149887d1cfd4cf4c"
+                ],
+                "url": "https://github.com/ayelet326/advanced-python/commit/513eed850a8f555116ea6bf35267ff219f19e9da"
+            },
+            {
+                "sha": "24d457165585ab5f9a1da39b149887d1cfd4cf4c",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2023-12-31T02:21:56+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-12-31T02:21:56+02:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/advanced-python/commit/24d457165585ab5f9a1da39b149887d1cfd4cf4c"
+            }
+        ],
+        "ayelet326": [
+            {
+                "sha": "27e5d5cf015532b2c2485ea8699f48e6591402c2",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-09-05T23:46:17+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-05T23:46:17+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "b385667524ebe574d5edc89f5d58d0db2866739b"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/27e5d5cf015532b2c2485ea8699f48e6591402c2"
+            },
+            {
+                "sha": "b385667524ebe574d5edc89f5d58d0db2866739b",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-09-05T23:38:54+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-09-05T23:38:54+03:00"
+                    },
+                    "message": "upload file\n"
+                },
+                "parents": [
+                    "f69154fb907d00179279b24ab9962a06110e644c"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/b385667524ebe574d5edc89f5d58d0db2866739b"
+            },
+            {
+                "sha": "f69154fb907d00179279b24ab9962a06110e644c",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-09-05T23:29:48+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-05T23:29:48+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "c1b294fbcf403b003e33b7cac378bb3696d7d6e9"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/f69154fb907d00179279b24ab9962a06110e644c"
+            },
+            {
+                "sha": "c1b294fbcf403b003e33b7cac378bb3696d7d6e9",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-09-05T23:22:21+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-05T23:22:21+03:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [
+                    "21384d75a7f9d6d3d90e5a7111a22039a48c487f"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/c1b294fbcf403b003e33b7cac378bb3696d7d6e9"
+            },
+            {
+                "sha": "21384d75a7f9d6d3d90e5a7111a22039a48c487f",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T12:42:18+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T12:42:18+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "2f8c58dbb5fb5c9f2164637c48edc8a5b1268892"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/21384d75a7f9d6d3d90e5a7111a22039a48c487f"
+            },
+            {
+                "sha": "2f8c58dbb5fb5c9f2164637c48edc8a5b1268892",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-04T23:43:12+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-04T23:43:12+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "ce8ebfa442c4ac6c034e327ac6e05d199e93fdaa"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/2f8c58dbb5fb5c9f2164637c48edc8a5b1268892"
+            },
+            {
+                "sha": "ce8ebfa442c4ac6c034e327ac6e05d199e93fdaa",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-13T03:57:05+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-13T03:57:05+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "114dbd07c13d0a5cd538979e5ae03a55fef1bac1"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/ce8ebfa442c4ac6c034e327ac6e05d199e93fdaa"
+            },
+            {
+                "sha": "114dbd07c13d0a5cd538979e5ae03a55fef1bac1",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-11T01:06:58+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-11T01:06:58+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e3fcb9f476b2a3e63a1e69462afff93c3eb44e4c"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/114dbd07c13d0a5cd538979e5ae03a55fef1bac1"
+            },
+            {
+                "sha": "e3fcb9f476b2a3e63a1e69462afff93c3eb44e4c",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-07T11:12:25+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-07T11:12:25+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "c2e5aa67473e82fd28106aabcdac48fbce7b5358"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/e3fcb9f476b2a3e63a1e69462afff93c3eb44e4c"
+            },
+            {
+                "sha": "c2e5aa67473e82fd28106aabcdac48fbce7b5358",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-07T00:52:46+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-07T00:52:46+03:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [
+                    "7a37da8c285662bf209129f1d2c88b5a3b588b0f"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/c2e5aa67473e82fd28106aabcdac48fbce7b5358"
+            },
+            {
+                "sha": "7a37da8c285662bf209129f1d2c88b5a3b588b0f",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-07T00:52:23+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-07T00:52:23+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "5957f624b230ccf77e1e6543053a15808995497a"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/7a37da8c285662bf209129f1d2c88b5a3b588b0f"
+            },
+            {
+                "sha": "5957f624b230ccf77e1e6543053a15808995497a",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-07T00:48:35+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-07T00:48:35+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "cd8702111dd291840db23657912a498c2ff74dc9"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/5957f624b230ccf77e1e6543053a15808995497a"
+            },
+            {
+                "sha": "cd8702111dd291840db23657912a498c2ff74dc9",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-06T23:53:11+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-06T23:53:11+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "de9e52355195c6d0158282986ad5ed2177f3e708"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/cd8702111dd291840db23657912a498c2ff74dc9"
+            },
+            {
+                "sha": "de9e52355195c6d0158282986ad5ed2177f3e708",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-06T23:51:05+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-06T23:51:05+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "57ccb6aa4497a8570974020000e965a0669a2fcc"
+                ],
+                "url": "https://github.com/ayelet326/ayelet326/commit/de9e52355195c6d0158282986ad5ed2177f3e708"
+            },
+            {
+                "sha": "57ccb6aa4497a8570974020000e965a0669a2fcc",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-30T01:24:37+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-30T01:24:37+03:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/ayelet326/commit/57ccb6aa4497a8570974020000e965a0669a2fcc"
+            }
+        ],
+        "BalanceUp": [
+            {
+                "sha": "1604c62562961d33dca91a0e940304f1a4d4bccd",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-30T00:45:51+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-30T00:45:51+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e8e1ff8abf1b28d8dc6b459fa004c17952829b20"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/1604c62562961d33dca91a0e940304f1a4d4bccd"
+            },
+            {
+                "sha": "e8e1ff8abf1b28d8dc6b459fa004c17952829b20",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-30T00:45:11+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-30T00:45:11+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "be03acab916290cdc6a56e2aa83794e5b3518cd3"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/e8e1ff8abf1b28d8dc6b459fa004c17952829b20"
+            },
+            {
+                "sha": "be03acab916290cdc6a56e2aa83794e5b3518cd3",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-30T00:43:39+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-30T00:43:39+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f0b6c718fe70b946b78a7d626130dd7a45068f42"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/be03acab916290cdc6a56e2aa83794e5b3518cd3"
+            },
+            {
+                "sha": "f0b6c718fe70b946b78a7d626130dd7a45068f42",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-30T00:28:19+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-30T00:28:19+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "331d3651b2c43868496c5d7c040846b748f5a937"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/f0b6c718fe70b946b78a7d626130dd7a45068f42"
+            },
+            {
+                "sha": "331d3651b2c43868496c5d7c040846b748f5a937",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-30T00:26:15+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-30T00:26:15+03:00"
+                    },
+                    "message": "Merge pull request #2 from ayelet326/user_CRUD\n\nadded file tree"
+                },
+                "parents": [
+                    "c05b6923d89c5612dcc50b4ba1831c8153ef4e7a",
+                    "43bb1856dd53289256842549d206514655a717a2"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/331d3651b2c43868496c5d7c040846b748f5a937"
+            },
+            {
+                "sha": "43bb1856dd53289256842549d206514655a717a2",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-30T00:23:19+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-30T00:23:19+03:00"
+                    },
+                    "message": "added file tree\n"
+                },
+                "parents": [
+                    "6e80311385f13cddbdc3379f01b59f4382cfabda"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/43bb1856dd53289256842549d206514655a717a2"
+            },
+            {
+                "sha": "c05b6923d89c5612dcc50b4ba1831c8153ef4e7a",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-30T00:22:05+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-30T00:22:05+03:00"
+                    },
+                    "message": "Merge pull request #1 from ayelet326/user_CRUD\n\nUser crud"
+                },
+                "parents": [
+                    "67e014563da59416c5d72b134b7c4f0ee7e0e377",
+                    "6e80311385f13cddbdc3379f01b59f4382cfabda"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/c05b6923d89c5612dcc50b4ba1831c8153ef4e7a"
+            },
+            {
+                "sha": "6e80311385f13cddbdc3379f01b59f4382cfabda",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-30T00:21:27+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-30T00:21:27+03:00"
+                    },
+                    "message": "update README\n"
+                },
+                "parents": [
+                    "0ad87c0a9d95009e3c7200f9dfcd902a7f9cb619"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/6e80311385f13cddbdc3379f01b59f4382cfabda"
+            },
+            {
+                "sha": "0ad87c0a9d95009e3c7200f9dfcd902a7f9cb619",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:30:06+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:30:06+03:00"
+                    },
+                    "message": "Merge branch 'main' into user_CRUD\n"
+                },
+                "parents": [
+                    "c99f48708dfb1d4a0c493033757fc005919e6a0e",
+                    "67e014563da59416c5d72b134b7c4f0ee7e0e377"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/0ad87c0a9d95009e3c7200f9dfcd902a7f9cb619"
+            },
+            {
+                "sha": "c99f48708dfb1d4a0c493033757fc005919e6a0e",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:21:07+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:21:07+03:00"
+                    },
+                    "message": "Update user service\n"
+                },
+                "parents": [
+                    "99e7c18485291002af4c33f220d13e204b87590b"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/c99f48708dfb1d4a0c493033757fc005919e6a0e"
+            },
+            {
+                "sha": "99e7c18485291002af4c33f220d13e204b87590b",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:16:44+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:16:44+03:00"
+                    },
+                    "message": "Added sign-in sign-up and edit profile routers\n"
+                },
+                "parents": [
+                    "e440e60088ffddfcbc241e6eba03ab39ed9d9f7e"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/99e7c18485291002af4c33f220d13e204b87590b"
+            },
+            {
+                "sha": "e440e60088ffddfcbc241e6eba03ab39ed9d9f7e",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:14:21+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:14:21+03:00"
+                    },
+                    "message": "Added validation checks to user model\n"
+                },
+                "parents": [
+                    "ead2a1b331dc0196ee66a25fb23ac0fa303a27b2"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/e440e60088ffddfcbc241e6eba03ab39ed9d9f7e"
+            },
+            {
+                "sha": "ead2a1b331dc0196ee66a25fb23ac0fa303a27b2",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:11:18+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-27T00:11:18+03:00"
+                    },
+                    "message": "Added documentation\n"
+                },
+                "parents": [
+                    "b00b3719b80075e72253472e2d1cf44542d038c4"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/ead2a1b331dc0196ee66a25fb23ac0fa303a27b2"
+            },
+            {
+                "sha": "67e014563da59416c5d72b134b7c4f0ee7e0e377",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T18:38:45+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T18:38:45+03:00"
+                    },
+                    "message": "Change database connection to MongoDB Atlas\n"
+                },
+                "parents": [
+                    "76510e1a8a57c733029ef754b4c12a9117d3da3a"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/67e014563da59416c5d72b134b7c4f0ee7e0e377"
+            },
+            {
+                "sha": "b00b3719b80075e72253472e2d1cf44542d038c4",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T18:34:24+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T18:34:24+03:00"
+                    },
+                    "message": "Add find_user_by_credentials function to user_repository.py\n"
+                },
+                "parents": [
+                    "5f187e4a9afc710f7a5ed42a8ce053c953c0a54a"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/b00b3719b80075e72253472e2d1cf44542d038c4"
+            },
+            {
+                "sha": "5f187e4a9afc710f7a5ed42a8ce053c953c0a54a",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T18:14:46+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T18:14:46+03:00"
+                    },
+                    "message": "Add name and password validation to User model\n"
+                },
+                "parents": [
+                    "bc612cf18d2cc91ea23c28bfef1dfccf45c0a62d"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/5f187e4a9afc710f7a5ed42a8ce053c953c0a54a"
+            },
+            {
+                "sha": "bc612cf18d2cc91ea23c28bfef1dfccf45c0a62d",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T17:55:18+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T17:55:18+03:00"
+                    },
+                    "message": "Add email and phone validation to User model\n"
+                },
+                "parents": [
+                    "dd7346fe2dd862592af7aa8cfc57d8a84c320e8d"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/bc612cf18d2cc91ea23c28bfef1dfccf45c0a62d"
+            },
+            {
+                "sha": "dd7346fe2dd862592af7aa8cfc57d8a84c320e8d",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T17:25:58+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-26T17:25:58+03:00"
+                    },
+                    "message": "Change functions to async/await\n"
+                },
+                "parents": [
+                    "76510e1a8a57c733029ef754b4c12a9117d3da3a"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/dd7346fe2dd862592af7aa8cfc57d8a84c320e8d"
+            },
+            {
+                "sha": "76510e1a8a57c733029ef754b4c12a9117d3da3a",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-23T18:08:37+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-23T18:08:37+03:00"
+                    },
+                    "message": "update gitignore\n"
+                },
+                "parents": [
+                    "42cba51a2c741125aa1549c2ee138709197bf45f"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/76510e1a8a57c733029ef754b4c12a9117d3da3a"
+            },
+            {
+                "sha": "42cba51a2c741125aa1549c2ee138709197bf45f",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-23T18:01:59+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-23T18:01:59+03:00"
+                    },
+                    "message": "update license\n"
+                },
+                "parents": [
+                    "5220751476a7a8d5128f8f180daf6afee41e38f4"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/42cba51a2c741125aa1549c2ee138709197bf45f"
+            },
+            {
+                "sha": "5220751476a7a8d5128f8f180daf6afee41e38f4",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-23T18:00:45+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-23T18:00:45+03:00"
+                    },
+                    "message": "Merge branch 'main' of https://github.com/ayelet326/BalanceUp\n"
+                },
+                "parents": [
+                    "f8ee2128e56c9a478c291b739e7046056c5c9127",
+                    "76277d5eeba304abfc76c1dbfffe143ea2183d6d"
+                ],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/5220751476a7a8d5128f8f180daf6afee41e38f4"
+            },
+            {
+                "sha": "f8ee2128e56c9a478c291b739e7046056c5c9127",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-23T17:57:52+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-23T17:57:52+03:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/f8ee2128e56c9a478c291b739e7046056c5c9127"
+            },
+            {
+                "sha": "76277d5eeba304abfc76c1dbfffe143ea2183d6d",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-23T16:44:26+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-23T16:44:26+03:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/BalanceUp/commit/76277d5eeba304abfc76c1dbfffe143ea2183d6d"
+            }
+        ],
+        "core_MyTaskLog": [
+            {
+                "sha": "89490f7eeaaed634dfe8a1e2239f30031509d999",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T04:56:15+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T04:56:15+03:00"
+                    },
+                    "message": "Update MyTaskLogService.cs"
+                },
+                "parents": [
+                    "6ba1fa3ff13b6030c11450152e08372ee4b0f7e1"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/89490f7eeaaed634dfe8a1e2239f30031509d999"
+            },
+            {
+                "sha": "6ba1fa3ff13b6030c11450152e08372ee4b0f7e1",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T04:53:24+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T04:53:24+03:00"
+                    },
+                    "message": "Update User.Service.cs"
+                },
+                "parents": [
+                    "ac9dc57d5a51a8d95ea3ae73bc86251b9d391105"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/6ba1fa3ff13b6030c11450152e08372ee4b0f7e1"
+            },
+            {
+                "sha": "ac9dc57d5a51a8d95ea3ae73bc86251b9d391105",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T04:25:07+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T04:25:07+03:00"
+                    },
+                    "message": "Update Dockerfile"
+                },
+                "parents": [
+                    "9027bc424cd75c2177949fddc4fed7e15c1bbf14"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/ac9dc57d5a51a8d95ea3ae73bc86251b9d391105"
+            },
+            {
+                "sha": "9027bc424cd75c2177949fddc4fed7e15c1bbf14",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T04:18:38+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T04:18:38+03:00"
+                    },
+                    "message": "Update Dockerfile"
+                },
+                "parents": [
+                    "4f5d473e3c4727f7299998b6e3fccf105071f764"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/9027bc424cd75c2177949fddc4fed7e15c1bbf14"
+            },
+            {
+                "sha": "4f5d473e3c4727f7299998b6e3fccf105071f764",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T04:14:55+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T04:14:55+03:00"
+                    },
+                    "message": "Update Dockerfile"
+                },
+                "parents": [
+                    "f979761deb7d9738f1be5845d42026ed095ffe3c"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/4f5d473e3c4727f7299998b6e3fccf105071f764"
+            },
+            {
+                "sha": "f979761deb7d9738f1be5845d42026ed095ffe3c",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T04:10:08+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T04:10:08+03:00"
+                    },
+                    "message": "Update Dockerfile"
+                },
+                "parents": [
+                    "6db60250d59b1e4790cd3d228593a308f802a850"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/f979761deb7d9738f1be5845d42026ed095ffe3c"
+            },
+            {
+                "sha": "6db60250d59b1e4790cd3d228593a308f802a850",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T04:05:45+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T04:05:45+03:00"
+                    },
+                    "message": "Update Dockerfile"
+                },
+                "parents": [
+                    "72796564ccfbb750cc81b55aa7463811ae183079"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/6db60250d59b1e4790cd3d228593a308f802a850"
+            },
+            {
+                "sha": "72796564ccfbb750cc81b55aa7463811ae183079",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T03:42:47+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T03:42:47+03:00"
+                    },
+                    "message": "Create Dockerfile"
+                },
+                "parents": [
+                    "f305db2a5497a2440f5e87a9f61a6a06f55181e4"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/72796564ccfbb750cc81b55aa7463811ae183079"
+            },
+            {
+                "sha": "f305db2a5497a2440f5e87a9f61a6a06f55181e4",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T17:33:40+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T17:33:40+03:00"
+                    },
+                    "message": "add screenshots to README.md\n"
+                },
+                "parents": [
+                    "6527b00aef64a10fdde12e8b07f3e920bea7e47d"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/f305db2a5497a2440f5e87a9f61a6a06f55181e4"
+            },
+            {
+                "sha": "6527b00aef64a10fdde12e8b07f3e920bea7e47d",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T17:22:57+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T17:22:57+03:00"
+                    },
+                    "message": "add screenshots to README.md\n"
+                },
+                "parents": [
+                    "d41af2e3c7e0508668b7ca1632bf3e0da48d8b70"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/6527b00aef64a10fdde12e8b07f3e920bea7e47d"
+            },
+            {
+                "sha": "d41af2e3c7e0508668b7ca1632bf3e0da48d8b70",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T04:28:09+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T04:28:09+03:00"
+                    },
+                    "message": " update README.md\n"
+                },
+                "parents": [
+                    "deda4e1f05b1c7a8acefa2976aba38211d3b523d"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/d41af2e3c7e0508668b7ca1632bf3e0da48d8b70"
+            },
+            {
+                "sha": "deda4e1f05b1c7a8acefa2976aba38211d3b523d",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T04:21:59+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T04:21:59+03:00"
+                    },
+                    "message": "update README.md\n"
+                },
+                "parents": [
+                    "ce266c9f543fa0970fcafa47b631cd7bb3b54b12"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/deda4e1f05b1c7a8acefa2976aba38211d3b523d"
+            },
+            {
+                "sha": "ce266c9f543fa0970fcafa47b631cd7bb3b54b12",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-04-08T03:26:34+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-08T03:26:34+03:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [
+                    "41cc01a16a23c60c0a1a80490f131f8ef29bbe17"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/ce266c9f543fa0970fcafa47b631cd7bb3b54b12"
+            },
+            {
+                "sha": "41cc01a16a23c60c0a1a80490f131f8ef29bbe17",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T02:48:05+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-08T02:48:05+03:00"
+                    },
+                    "message": "end client side\n"
+                },
+                "parents": [
+                    "815c1eddbaebb1bf98bf3905fa5487e4f9d261d3"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/41cc01a16a23c60c0a1a80490f131f8ef29bbe17"
+            },
+            {
+                "sha": "815c1eddbaebb1bf98bf3905fa5487e4f9d261d3",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-07T04:01:11+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-07T04:01:11+03:00"
+                    },
+                    "message": " login with google account\n"
+                },
+                "parents": [
+                    "2f16458e6f8e16c36589c21a6cd1780472521c68"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/815c1eddbaebb1bf98bf3905fa5487e4f9d261d3"
+            },
+            {
+                "sha": "2f16458e6f8e16c36589c21a6cd1780472521c68",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-04T04:00:43+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-04T04:00:43+03:00"
+                    },
+                    "message": "fix home page/client side\n"
+                },
+                "parents": [
+                    "63793c067f1e4166f79b5a18ca16db22d3f75dcf"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/2f16458e6f8e16c36589c21a6cd1780472521c68"
+            },
+            {
+                "sha": "63793c067f1e4166f79b5a18ca16db22d3f75dcf",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-04T03:06:13+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-04T03:06:13+03:00"
+                    },
+                    "message": "fix post user\n"
+                },
+                "parents": [
+                    "a98ce6c23d5bfe407c978a8145c93994c58f50ea"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/63793c067f1e4166f79b5a18ca16db22d3f75dcf"
+            },
+            {
+                "sha": "a98ce6c23d5bfe407c978a8145c93994c58f50ea",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-04T01:37:45+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-04-04T01:37:45+03:00"
+                    },
+                    "message": "start client site\n"
+                },
+                "parents": [
+                    "ec964fb0bea822ee2634b601d7b672a6adca19fb"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/a98ce6c23d5bfe407c978a8145c93994c58f50ea"
+            },
+            {
+                "sha": "ec964fb0bea822ee2634b601d7b672a6adca19fb",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-29T18:05:59+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-29T18:05:59+03:00"
+                    },
+                    "message": "edit user controller\n"
+                },
+                "parents": [
+                    "9d2a506e881ddd851791a41be1c66452e522147e"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/ec964fb0bea822ee2634b601d7b672a6adca19fb"
+            },
+            {
+                "sha": "9d2a506e881ddd851791a41be1c66452e522147e",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-29T03:29:57+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-29T03:29:57+03:00"
+                    },
+                    "message": "edit task controller\n"
+                },
+                "parents": [
+                    "84df3b08350fd0491b37e2500cd5a0c11b2e3846"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/9d2a506e881ddd851791a41be1c66452e522147e"
+            },
+            {
+                "sha": "84df3b08350fd0491b37e2500cd5a0c11b2e3846",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-29T01:15:23+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-29T01:15:23+02:00"
+                    },
+                    "message": "Editing url of the task controller\n"
+                },
+                "parents": [
+                    "509416ea1460bd83bf84d9ed7642d5bda40ddc5b"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/84df3b08350fd0491b37e2500cd5a0c11b2e3846"
+            },
+            {
+                "sha": "509416ea1460bd83bf84d9ed7642d5bda40ddc5b",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-28T00:15:34+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-28T00:15:34+02:00"
+                    },
+                    "message": "Authorization\n"
+                },
+                "parents": [
+                    "1f14d9a3b296c81d3e60c0ed28f32faef9d82bb0"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/509416ea1460bd83bf84d9ed7642d5bda40ddc5b"
+            },
+            {
+                "sha": "1f14d9a3b296c81d3e60c0ed28f32faef9d82bb0",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-22T00:59:02+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-22T00:59:02+02:00"
+                    },
+                    "message": "Authentication\n"
+                },
+                "parents": [
+                    "286ad5ffac17c07ead24279c5280d4c853360178"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/1f14d9a3b296c81d3e60c0ed28f32faef9d82bb0"
+            },
+            {
+                "sha": "286ad5ffac17c07ead24279c5280d4c853360178",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-22T00:49:30+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-22T00:49:30+02:00"
+                    },
+                    "message": "add Authentication\n"
+                },
+                "parents": [
+                    "732fecd7020ff2786f329b5bb45379d3a6d26b05"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/286ad5ffac17c07ead24279c5280d4c853360178"
+            },
+            {
+                "sha": "732fecd7020ff2786f329b5bb45379d3a6d26b05",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-11T20:41:17+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-03-11T20:41:17+02:00"
+                    },
+                    "message": "added basic user pages\n"
+                },
+                "parents": [
+                    "154055d4c0cedc5df34efe59be782aba89198884"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/732fecd7020ff2786f329b5bb45379d3a6d26b05"
+            },
+            {
+                "sha": "154055d4c0cedc5df34efe59be782aba89198884",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-02-13T02:24:46+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-02-13T02:24:46+02:00"
+                    },
+                    "message": "\u05e9\u05d9\u05e2\u05d5\u05e8 3 - \u05d4\u05d5\u05e1\u05e4\u05ea \u05dc\u05d5\u05d2\u05d9\u05dd \u05e9\u05e0\u05db\u05ea\u05d1\u05d9\u05dd \u05dc\u05e7\u05d5\u05d1\u05e5\n"
+                },
+                "parents": [
+                    "cb96ea7a54e8f834656dc1dec20864e0149e2440"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/154055d4c0cedc5df34efe59be782aba89198884"
+            },
+            {
+                "sha": "cb96ea7a54e8f834656dc1dec20864e0149e2440",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-01-01T17:10:18+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-01-01T17:10:18+02:00"
+                    },
+                    "message": "\u05e9\u05d9\u05e2\u05d5\u05e8 2\n"
+                },
+                "parents": [
+                    "bf8d2b47c88dc50fbe8bd91b9aed44820d341516"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/cb96ea7a54e8f834656dc1dec20864e0149e2440"
+            },
+            {
+                "sha": "bf8d2b47c88dc50fbe8bd91b9aed44820d341516",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-01-01T03:09:58+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-01-01T03:09:58+02:00"
+                    },
+                    "message": "lesson 2\n"
+                },
+                "parents": [
+                    "f657379f2f112482dfdba7c239bf81cece303819"
+                ],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/bf8d2b47c88dc50fbe8bd91b9aed44820d341516"
+            },
+            {
+                "sha": "f657379f2f112482dfdba7c239bf81cece303819",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2023-12-26T00:38:21+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-12-26T00:38:21+02:00"
+                    },
+                    "message": "Add files via upload"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/core_MyTaskLog/commit/f657379f2f112482dfdba7c239bf81cece303819"
+            }
+        ],
+        "FirstProject_GithHub": [
+            {
+                "sha": "02d086f9ec9e36d433b27479ef302e4f046f5b35",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-09T16:09:03+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-09T16:09:03+03:00"
+                    },
+                    "message": "Merge pull request #5 from ayelet326/ayelet326-patch-1\n\nCreate npm-publish.yml"
+                },
+                "parents": [
+                    "1e3f2a29656bc89662bc86f344a191154d02336a",
+                    "a143d00024eff9d1cc6b27ebafece9a5ad54ce08"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/02d086f9ec9e36d433b27479ef302e4f046f5b35"
+            },
+            {
+                "sha": "a143d00024eff9d1cc6b27ebafece9a5ad54ce08",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-09T16:08:05+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-09T16:08:05+03:00"
+                    },
+                    "message": "Create npm-publish.yml"
+                },
+                "parents": [
+                    "1e3f2a29656bc89662bc86f344a191154d02336a"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/a143d00024eff9d1cc6b27ebafece9a5ad54ce08"
+            },
+            {
+                "sha": "1e3f2a29656bc89662bc86f344a191154d02336a",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2023-12-28T00:22:47+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-12-28T00:22:47+02:00"
+                    },
+                    "message": "Merge pull request #4 from ayelet326/SaraBranch\n\nv2"
+                },
+                "parents": [
+                    "04bcc34cc754a834d3b586d2548a986c2f8b3d01",
+                    "09c10478c04cc1ba995609bb89bea0d3aa2e7baa"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/1e3f2a29656bc89662bc86f344a191154d02336a"
+            },
+            {
+                "sha": "09c10478c04cc1ba995609bb89bea0d3aa2e7baa",
+                "commit": {
+                    "author": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T23:55:06+02:00"
+                    },
+                    "committer": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T23:55:06+02:00"
+                    },
+                    "message": "Merge remote-tracking branch 'origin/main' into SaraBranch\n"
+                },
+                "parents": [
+                    "ba806a6a33c649a030ce4a6b0d47d2c4667641aa",
+                    "04bcc34cc754a834d3b586d2548a986c2f8b3d01"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/09c10478c04cc1ba995609bb89bea0d3aa2e7baa"
+            },
+            {
+                "sha": "ba806a6a33c649a030ce4a6b0d47d2c4667641aa",
+                "commit": {
+                    "author": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T23:25:57+02:00"
+                    },
+                    "committer": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T23:25:57+02:00"
+                    },
+                    "message": "v2\n"
+                },
+                "parents": [
+                    "0fa3ba352a76c653e2f7a720f9229d9a75d64776"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/ba806a6a33c649a030ce4a6b0d47d2c4667641aa"
+            },
+            {
+                "sha": "04bcc34cc754a834d3b586d2548a986c2f8b3d01",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2023-12-27T22:46:21+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2023-12-27T22:46:21+02:00"
+                    },
+                    "message": "change to conflict\n"
+                },
+                "parents": [
+                    "0fa3ba352a76c653e2f7a720f9229d9a75d64776"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/04bcc34cc754a834d3b586d2548a986c2f8b3d01"
+            },
+            {
+                "sha": "0fa3ba352a76c653e2f7a720f9229d9a75d64776",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2023-12-27T22:23:32+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2023-12-27T22:23:32+02:00"
+                    },
+                    "message": "change in index.html\n"
+                },
+                "parents": [
+                    "027f618ac02c82788921af624df26dc9cf27f554"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/0fa3ba352a76c653e2f7a720f9229d9a75d64776"
+            },
+            {
+                "sha": "027f618ac02c82788921af624df26dc9cf27f554",
+                "commit": {
+                    "author": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T22:00:56+02:00"
+                    },
+                    "committer": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T22:00:56+02:00"
+                    },
+                    "message": "MyChanged\n"
+                },
+                "parents": [
+                    "54e1c3b1240e484f8283e7d1211986f64b127102"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/027f618ac02c82788921af624df26dc9cf27f554"
+            },
+            {
+                "sha": "54e1c3b1240e484f8283e7d1211986f64b127102",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2023-12-27T21:20:13+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-12-27T21:20:13+02:00"
+                    },
+                    "message": "Merge pull request #2 from ayelet326/SaraBranch\n\nSara"
+                },
+                "parents": [
+                    "9dd5b23271cc8d945d78544d4e6f69a2cc8e0142",
+                    "d25284bcab665b1413a784234fe4f09d2008fbc8"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/54e1c3b1240e484f8283e7d1211986f64b127102"
+            },
+            {
+                "sha": "d25284bcab665b1413a784234fe4f09d2008fbc8",
+                "commit": {
+                    "author": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T20:55:28+02:00"
+                    },
+                    "committer": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T20:55:28+02:00"
+                    },
+                    "message": "Sara\n"
+                },
+                "parents": [
+                    "9dd5b23271cc8d945d78544d4e6f69a2cc8e0142"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/d25284bcab665b1413a784234fe4f09d2008fbc8"
+            },
+            {
+                "sha": "9dd5b23271cc8d945d78544d4e6f69a2cc8e0142",
+                "commit": {
+                    "author": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T20:38:40+02:00"
+                    },
+                    "committer": {
+                        "name": "sarach1548",
+                        "email": "sarach1548@gmail.com",
+                        "date": "2023-12-27T20:38:40+02:00"
+                    },
+                    "message": "Sara\n"
+                },
+                "parents": [
+                    "520c992c544d2b7f41db9a96b16c2659cb9215af"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/9dd5b23271cc8d945d78544d4e6f69a2cc8e0142"
+            },
+            {
+                "sha": "520c992c544d2b7f41db9a96b16c2659cb9215af",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2023-12-26T02:18:28+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-12-26T02:18:28+02:00"
+                    },
+                    "message": "Merge pull request #1 from ayelet326/ayelet\n\nfirst commit"
+                },
+                "parents": [
+                    "624368f0e63fd4a3820ae5b9f9ea40763adef43c",
+                    "4a17d51ebb0793d936344e8d1e41a6b1508be286"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/520c992c544d2b7f41db9a96b16c2659cb9215af"
+            },
+            {
+                "sha": "4a17d51ebb0793d936344e8d1e41a6b1508be286",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2023-12-26T02:17:03+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2023-12-26T02:17:03+02:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [
+                    "624368f0e63fd4a3820ae5b9f9ea40763adef43c"
+                ],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/4a17d51ebb0793d936344e8d1e41a6b1508be286"
+            },
+            {
+                "sha": "624368f0e63fd4a3820ae5b9f9ea40763adef43c",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2023-12-26T01:01:49+02:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2023-12-26T01:01:49+02:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/FirstProject_GithHub/commit/624368f0e63fd4a3820ae5b9f9ea40763adef43c"
+            }
+        ],
+        "Python-coffee_machine": [
+            {
+                "sha": "73ea4a9af82228f2bfc80f1bb72d4442ee674acc",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-05T05:35:11+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-05T05:35:11+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "33c22c0cddc772dcd78b7c068beb236f113a828f"
+                ],
+                "url": "https://github.com/ayelet326/Python-coffee_machine/commit/73ea4a9af82228f2bfc80f1bb72d4442ee674acc"
+            },
+            {
+                "sha": "33c22c0cddc772dcd78b7c068beb236f113a828f",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-06-05T05:25:13+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-06-05T05:25:13+03:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [
+                    "9f2bc32f532151427f2eb40267ce0e1448497c1d"
+                ],
+                "url": "https://github.com/ayelet326/Python-coffee_machine/commit/33c22c0cddc772dcd78b7c068beb236f113a828f"
+            },
+            {
+                "sha": "9f2bc32f532151427f2eb40267ce0e1448497c1d",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-06-05T04:51:43+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-05T04:51:43+03:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/Python-coffee_machine/commit/9f2bc32f532151427f2eb40267ce0e1448497c1d"
+            }
+        ],
+        "Search_jobs_system": [
+            {
+                "sha": "6a4fbddcf6229cb8cf830199d9c8dea699264204",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-08-06T21:54:21+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-06T21:54:21+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "adce117a575a1f14b833954d84f710c06b4d69ef"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/6a4fbddcf6229cb8cf830199d9c8dea699264204"
+            },
+            {
+                "sha": "adce117a575a1f14b833954d84f710c06b4d69ef",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-17T00:39:54+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-17T00:39:54+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a7aca186c613fd7e0df8281fda1220f3f8ffb4c0"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/adce117a575a1f14b833954d84f710c06b4d69ef"
+            },
+            {
+                "sha": "a7aca186c613fd7e0df8281fda1220f3f8ffb4c0",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-16T23:55:49+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-16T23:55:49+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "9dfc896e5bb4e2795deec2fbbeb177ba6de18dc6"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/a7aca186c613fd7e0df8281fda1220f3f8ffb4c0"
+            },
+            {
+                "sha": "9dfc896e5bb4e2795deec2fbbeb177ba6de18dc6",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-16T23:54:58+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-16T23:54:58+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "97a8b843e56aa3220a75ebef23ffa6fc97679280"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/9dfc896e5bb4e2795deec2fbbeb177ba6de18dc6"
+            },
+            {
+                "sha": "97a8b843e56aa3220a75ebef23ffa6fc97679280",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-05-10T03:15:08+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-10T03:15:08+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "c89a8a4db85ecea2a888758966bc82502d8d0d3b"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/97a8b843e56aa3220a75ebef23ffa6fc97679280"
+            },
+            {
+                "sha": "c89a8a4db85ecea2a888758966bc82502d8d0d3b",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T08:03:48+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T08:03:48+03:00"
+                    },
+                    "message": "Fix update user\n"
+                },
+                "parents": [
+                    "5868daab60c2a31457b59ee09cc0994ae79e5f86"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/c89a8a4db85ecea2a888758966bc82502d8d0d3b"
+            },
+            {
+                "sha": "5868daab60c2a31457b59ee09cc0994ae79e5f86",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T07:48:20+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T07:48:20+03:00"
+                    },
+                    "message": "Add add-job component\n"
+                },
+                "parents": [
+                    "f669db7e7326777d8d68ce933d5a8ed7a6dac881"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/5868daab60c2a31457b59ee09cc0994ae79e5f86"
+            },
+            {
+                "sha": "f669db7e7326777d8d68ce933d5a8ed7a6dac881",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T07:35:34+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T07:35:34+03:00"
+                    },
+                    "message": "Add update user component\n"
+                },
+                "parents": [
+                    "e65354a2a6549b9b661bcff004091b2fff1d02a4"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/f669db7e7326777d8d68ce933d5a8ed7a6dac881"
+            },
+            {
+                "sha": "e65354a2a6549b9b661bcff004091b2fff1d02a4",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T06:19:30+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T06:19:30+03:00"
+                    },
+                    "message": "Add Sign-up\n"
+                },
+                "parents": [
+                    "23832e58eb3fb43738e0623dc0f09dd4e74024f1"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/e65354a2a6549b9b661bcff004091b2fff1d02a4"
+            },
+            {
+                "sha": "23832e58eb3fb43738e0623dc0f09dd4e74024f1",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T06:18:54+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T06:18:54+03:00"
+                    },
+                    "message": "Add Sign-Up\n"
+                },
+                "parents": [
+                    "ab6126fde8222a4403e7b4959bd97a336b35ba32"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/23832e58eb3fb43738e0623dc0f09dd4e74024f1"
+            },
+            {
+                "sha": "ab6126fde8222a4403e7b4959bd97a336b35ba32",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:56:12+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:56:12+03:00"
+                    },
+                    "message": "update css in header component\n"
+                },
+                "parents": [
+                    "f7b983fca072498117acda6cf9b8cd76cff70dba"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/ab6126fde8222a4403e7b4959bd97a336b35ba32"
+            },
+            {
+                "sha": "f7b983fca072498117acda6cf9b8cd76cff70dba",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:38:28+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:38:28+03:00"
+                    },
+                    "message": "move search box to job list component\n"
+                },
+                "parents": [
+                    "1c39b617c2a9a6f46ca6992e00aa6a694d604900"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/f7b983fca072498117acda6cf9b8cd76cff70dba"
+            },
+            {
+                "sha": "1c39b617c2a9a6f46ca6992e00aa6a694d604900",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:37:25+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:37:25+03:00"
+                    },
+                    "message": "Add add-Job component\n"
+                },
+                "parents": [
+                    "4fd92b47a0eae8cd7a7a9cf98e73890a862a3e60"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/1c39b617c2a9a6f46ca6992e00aa6a694d604900"
+            },
+            {
+                "sha": "4fd92b47a0eae8cd7a7a9cf98e73890a862a3e60",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:36:55+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:36:55+03:00"
+                    },
+                    "message": "Add applied_jobs_list\n"
+                },
+                "parents": [
+                    "ec7ccba7926d7b46d77b912b6789077c16b75f59"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/4fd92b47a0eae8cd7a7a9cf98e73890a862a3e60"
+            },
+            {
+                "sha": "ec7ccba7926d7b46d77b912b6789077c16b75f59",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:36:07+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:36:07+03:00"
+                    },
+                    "message": "Changing the  routing\n"
+                },
+                "parents": [
+                    "24ea568c24aa8efad1348206d6033d49c25e7e52"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/ec7ccba7926d7b46d77b912b6789077c16b75f59"
+            },
+            {
+                "sha": "24ea568c24aa8efad1348206d6033d49c25e7e52",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:35:33+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T05:35:33+03:00"
+                    },
+                    "message": "fix home component\n"
+                },
+                "parents": [
+                    "1408227aee521b0f6896cd239691197f1f5dbbe9"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/24ea568c24aa8efad1348206d6033d49c25e7e52"
+            },
+            {
+                "sha": "1408227aee521b0f6896cd239691197f1f5dbbe9",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T01:51:53+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-08T01:51:53+03:00"
+                    },
+                    "message": "Changing the file tree and Delete unecessary files\n"
+                },
+                "parents": [
+                    "6b12158c60f936730c83bca369e7c103fc157958"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/1408227aee521b0f6896cd239691197f1f5dbbe9"
+            },
+            {
+                "sha": "6b12158c60f936730c83bca369e7c103fc157958",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T23:53:43+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T23:53:43+03:00"
+                    },
+                    "message": "Delete Unnecessary Files\n"
+                },
+                "parents": [
+                    "7c7778d96e73cbebd536089379b952ad42bea9dc"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/6b12158c60f936730c83bca369e7c103fc157958"
+            },
+            {
+                "sha": "7c7778d96e73cbebd536089379b952ad42bea9dc",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T23:50:36+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T23:50:36+03:00"
+                    },
+                    "message": "fix user service\n"
+                },
+                "parents": [
+                    "9fbc001f7109fe7b9b6f0e3454e57b46836e0d2f"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/7c7778d96e73cbebd536089379b952ad42bea9dc"
+            },
+            {
+                "sha": "9fbc001f7109fe7b9b6f0e3454e57b46836e0d2f",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T23:50:13+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T23:50:13+03:00"
+                    },
+                    "message": "fix SentCv function\n"
+                },
+                "parents": [
+                    "07aeef1b40b66d6757cf0cd60c14d467fde7557f"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/9fbc001f7109fe7b9b6f0e3454e57b46836e0d2f"
+            },
+            {
+                "sha": "07aeef1b40b66d6757cf0cd60c14d467fde7557f",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T23:13:22+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T23:13:22+03:00"
+                    },
+                    "message": "fix appiled-job list\n"
+                },
+                "parents": [
+                    "6d7cdb4ef6177967c62aa70e0831201229cf0820"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/07aeef1b40b66d6757cf0cd60c14d467fde7557f"
+            },
+            {
+                "sha": "6d7cdb4ef6177967c62aa70e0831201229cf0820",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T22:35:21+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-07T22:35:21+03:00"
+                    },
+                    "message": "Add Job-Card Directive\n"
+                },
+                "parents": [
+                    "adbc487ed91a9f9d192684d6a53cd390330d2a43"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/6d7cdb4ef6177967c62aa70e0831201229cf0820"
+            },
+            {
+                "sha": "adbc487ed91a9f9d192684d6a53cd390330d2a43",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T20:27:48+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T20:27:48+03:00"
+                    },
+                    "message": "Add refresh data\n"
+                },
+                "parents": [
+                    "63a57ee7bf68d3bc8cc31dbae3f8e1c0ba2dce7b"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/adbc487ed91a9f9d192684d6a53cd390330d2a43"
+            },
+            {
+                "sha": "63a57ee7bf68d3bc8cc31dbae3f8e1c0ba2dce7b",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T20:15:51+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T20:15:51+03:00"
+                    },
+                    "message": "fix jobsCvsSent\n"
+                },
+                "parents": [
+                    "02dd5f6f247de836c47d703ac83492a88204c375"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/63a57ee7bf68d3bc8cc31dbae3f8e1c0ba2dce7b"
+            },
+            {
+                "sha": "02dd5f6f247de836c47d703ac83492a88204c375",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T17:20:44+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T17:20:44+03:00"
+                    },
+                    "message": "server side: update job table\n"
+                },
+                "parents": [
+                    "c31d6a75ea5ac03bcd232e843d43e6c71b08c763"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/02dd5f6f247de836c47d703ac83492a88204c375"
+            },
+            {
+                "sha": "c31d6a75ea5ac03bcd232e843d43e6c71b08c763",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T05:54:36+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T05:54:36+03:00"
+                    },
+                    "message": "update user service\n"
+                },
+                "parents": [
+                    "bd65023a412e1b1fb5369a366d308e5519fabfa5"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/c31d6a75ea5ac03bcd232e843d43e6c71b08c763"
+            },
+            {
+                "sha": "bd65023a412e1b1fb5369a366d308e5519fabfa5",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T05:53:58+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T05:53:58+03:00"
+                    },
+                    "message": "add function getJobById\n"
+                },
+                "parents": [
+                    "8f03768ba7b9e091efbfbb3984ac7883db2a47eb"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/bd65023a412e1b1fb5369a366d308e5519fabfa5"
+            },
+            {
+                "sha": "8f03768ba7b9e091efbfbb3984ac7883db2a47eb",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T05:52:40+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T05:52:40+03:00"
+                    },
+                    "message": "add home component\n"
+                },
+                "parents": [
+                    "40600d3053d1e686062ddb451a14b427f5e82666"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/8f03768ba7b9e091efbfbb3984ac7883db2a47eb"
+            },
+            {
+                "sha": "40600d3053d1e686062ddb451a14b427f5e82666",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T05:52:03+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T05:52:03+03:00"
+                    },
+                    "message": "finish header component\n"
+                },
+                "parents": [
+                    "d9c32b0f1eca528a0d760c93a38f64d5822d3e17"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/40600d3053d1e686062ddb451a14b427f5e82666"
+            },
+            {
+                "sha": "d9c32b0f1eca528a0d760c93a38f64d5822d3e17",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:20:33+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:20:33+03:00"
+                    },
+                    "message": "Add validateEmail\n"
+                },
+                "parents": [
+                    "a5fb16db549145d72500961832b6ca4eaada8673"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/d9c32b0f1eca528a0d760c93a38f64d5822d3e17"
+            },
+            {
+                "sha": "a5fb16db549145d72500961832b6ca4eaada8673",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:08:12+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:08:12+03:00"
+                    },
+                    "message": "add job-list component\n"
+                },
+                "parents": [
+                    "43d06a5d8e2fd14b110e7f05f6510cddfc3183ce"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/a5fb16db549145d72500961832b6ca4eaada8673"
+            },
+            {
+                "sha": "43d06a5d8e2fd14b110e7f05f6510cddfc3183ce",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:07:48+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:07:48+03:00"
+                    },
+                    "message": "add show-job component\n"
+                },
+                "parents": [
+                    "7137eeae704c03ae62535b689cd98e4f40d6c17c"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/43d06a5d8e2fd14b110e7f05f6510cddfc3183ce"
+            },
+            {
+                "sha": "7137eeae704c03ae62535b689cd98e4f40d6c17c",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:07:10+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:07:10+03:00"
+                    },
+                    "message": "change names files and function\n"
+                },
+                "parents": [
+                    "85ef64582c0d762d1fe211e315c1b0e59b26e830"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/7137eeae704c03ae62535b689cd98e4f40d6c17c"
+            },
+            {
+                "sha": "85ef64582c0d762d1fe211e315c1b0e59b26e830",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:04:45+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:04:45+03:00"
+                    },
+                    "message": "update job service\n"
+                },
+                "parents": [
+                    "bacac23c800c5f3b3d1b896699c84376636800f3"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/85ef64582c0d762d1fe211e315c1b0e59b26e830"
+            },
+            {
+                "sha": "bacac23c800c5f3b3d1b896699c84376636800f3",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:04:22+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:04:22+03:00"
+                    },
+                    "message": "update user service\n"
+                },
+                "parents": [
+                    "dd75ea0218403f1798b945b865b1c926b9a51b77"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/bacac23c800c5f3b3d1b896699c84376636800f3"
+            },
+            {
+                "sha": "dd75ea0218403f1798b945b865b1c926b9a51b77",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:00:16+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T03:00:16+03:00"
+                    },
+                    "message": "Deleting unnecessary files\n"
+                },
+                "parents": [
+                    "be053ba2489457b67373abf530e23f45502a8ae9"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/dd75ea0218403f1798b945b865b1c926b9a51b77"
+            },
+            {
+                "sha": "be053ba2489457b67373abf530e23f45502a8ae9",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T02:55:33+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T02:55:33+03:00"
+                    },
+                    "message": "add idJobsCvsSent\n"
+                },
+                "parents": [
+                    "c64593778989701c6f79c40f1a4d91f44f2f1be9"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/be053ba2489457b67373abf530e23f45502a8ae9"
+            },
+            {
+                "sha": "c64593778989701c6f79c40f1a4d91f44f2f1be9",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T02:28:15+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T02:28:15+03:00"
+                    },
+                    "message": "change scss in footer\n"
+                },
+                "parents": [
+                    "fca8a57687afd5fd8629aeab8a7d52c47e774eea"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/c64593778989701c6f79c40f1a4d91f44f2f1be9"
+            },
+            {
+                "sha": "fca8a57687afd5fd8629aeab8a7d52c47e774eea",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T02:27:16+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T02:27:16+03:00"
+                    },
+                    "message": "Changing the file names\n"
+                },
+                "parents": [
+                    "9ef0f7ddb5049d939d9e25c728679a1f49628063"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/fca8a57687afd5fd8629aeab8a7d52c47e774eea"
+            },
+            {
+                "sha": "9ef0f7ddb5049d939d9e25c728679a1f49628063",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T01:15:57+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T01:15:57+03:00"
+                    },
+                    "message": "server side: change string validation\n"
+                },
+                "parents": [
+                    "1cdf19642fb55697b0e4a31ad95e41bb16caa0cf"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/9ef0f7ddb5049d939d9e25c728679a1f49628063"
+            },
+            {
+                "sha": "1cdf19642fb55697b0e4a31ad95e41bb16caa0cf",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T00:37:07+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-06T00:37:07+03:00"
+                    },
+                    "message": "server side: add IdJobsCvsSent to user table\n"
+                },
+                "parents": [
+                    "5d7ded56f37f5f30cf36f7fd67106fb820953f44"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/1cdf19642fb55697b0e4a31ad95e41bb16caa0cf"
+            },
+            {
+                "sha": "5d7ded56f37f5f30cf36f7fd67106fb820953f44",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-05T22:50:20+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-05T22:50:20+03:00"
+                    },
+                    "message": "delete footer.component.css\n"
+                },
+                "parents": [
+                    "7da9effa863c088bd7c2f2e9ed29e6ed9fcd6290"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/5d7ded56f37f5f30cf36f7fd67106fb820953f44"
+            },
+            {
+                "sha": "7da9effa863c088bd7c2f2e9ed29e6ed9fcd6290",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-05T22:44:42+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-05T22:44:42+03:00"
+                    },
+                    "message": "Add footer component\n"
+                },
+                "parents": [
+                    "9bd0b5aa17532d9706f0fc72927182c906e762a9"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/7da9effa863c088bd7c2f2e9ed29e6ed9fcd6290"
+            },
+            {
+                "sha": "9bd0b5aa17532d9706f0fc72927182c906e762a9",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-03T04:44:04+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-03T04:44:04+03:00"
+                    },
+                    "message": "server side:Add CVsSentCount to user table\n"
+                },
+                "parents": [
+                    "ead8a7fd41f2cdfb51add137e0ccc1f7daed9f6b"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/9bd0b5aa17532d9706f0fc72927182c906e762a9"
+            },
+            {
+                "sha": "ead8a7fd41f2cdfb51add137e0ccc1f7daed9f6b",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-03T03:55:24+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-03T03:55:24+03:00"
+                    },
+                    "message": "Termination of the Sign-in component and fix Auth service and start Header component\n"
+                },
+                "parents": [
+                    "74bc2a0215eec858ebcfaa8e7d8cb92de5fada30"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/ead8a7fd41f2cdfb51add137e0ccc1f7daed9f6b"
+            },
+            {
+                "sha": "74bc2a0215eec858ebcfaa8e7d8cb92de5fada30",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-02T23:56:58+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-02T23:56:58+03:00"
+                    },
+                    "message": "server side: add Login by name and password\n"
+                },
+                "parents": [
+                    "95c69141a98ae21c285956e66bb609b125d5365c"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/74bc2a0215eec858ebcfaa8e7d8cb92de5fada30"
+            },
+            {
+                "sha": "95c69141a98ae21c285956e66bb609b125d5365c",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-02T21:57:50+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-02T21:57:50+03:00"
+                    },
+                    "message": "fix Sign-In component\n"
+                },
+                "parents": [
+                    "83ee2c2e5525e21a0a3cfe8beb7828f9504b7681"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/95c69141a98ae21c285956e66bb609b125d5365c"
+            },
+            {
+                "sha": "83ee2c2e5525e21a0a3cfe8beb7828f9504b7681",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-02T03:32:56+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-02T03:32:56+03:00"
+                    },
+                    "message": "Merge branch 'main' of https://github.com/ayelet326/Job_search_system\n"
+                },
+                "parents": [
+                    "07cd9997c0996270ff8134d1d802ec7a9cbbfc8d",
+                    "b5cc1150e4fb7b272bb09d87558a704743877bc8"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/83ee2c2e5525e21a0a3cfe8beb7828f9504b7681"
+            },
+            {
+                "sha": "07cd9997c0996270ff8134d1d802ec7a9cbbfc8d",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-02T03:32:50+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-05-02T03:32:50+03:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [
+                    "8cc5bb09dac694c2c0b83f8628b52d733531f39d"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/07cd9997c0996270ff8134d1d802ec7a9cbbfc8d"
+            },
+            {
+                "sha": "b5cc1150e4fb7b272bb09d87558a704743877bc8",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-04-24T05:31:37+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-24T05:31:37+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "8cc5bb09dac694c2c0b83f8628b52d733531f39d"
+                ],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/b5cc1150e4fb7b272bb09d87558a704743877bc8"
+            },
+            {
+                "sha": "8cc5bb09dac694c2c0b83f8628b52d733531f39d",
+                "commit": {
+                    "author": {
+                        "name": "ayelet326",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-04-12T17:00:49+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-12T17:00:49+03:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/Search_jobs_system/commit/8cc5bb09dac694c2c0b83f8628b52d733531f39d"
+            }
+        ],
+        "Second-Hand-Store-Python": [
+            {
+                "sha": "571a15253012e6b613aed837025ee686ab16aeee",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T03:34:51+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T03:34:51+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "66c418c59cb333b0a953d78a07d83e2c368056b0"
+                ],
+                "url": "https://github.com/ayelet326/Second-Hand-Store-Python/commit/571a15253012e6b613aed837025ee686ab16aeee"
+            },
+            {
+                "sha": "66c418c59cb333b0a953d78a07d83e2c368056b0",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:34:24+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:34:24+03:00"
+                    },
+                    "message": "change image in screenshots\n"
+                },
+                "parents": [
+                    "c5f45e806cfa31fe8126625acf8b2d5df1fc50f9"
+                ],
+                "url": "https://github.com/ayelet326/Second-Hand-Store-Python/commit/66c418c59cb333b0a953d78a07d83e2c368056b0"
+            },
+            {
+                "sha": "c5f45e806cfa31fe8126625acf8b2d5df1fc50f9",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:31:22+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:31:22+03:00"
+                    },
+                    "message": "change image in screenshots\n"
+                },
+                "parents": [
+                    "87e9fc1298656b60c0b9c3ef1c15172e89e6ec3d"
+                ],
+                "url": "https://github.com/ayelet326/Second-Hand-Store-Python/commit/c5f45e806cfa31fe8126625acf8b2d5df1fc50f9"
+            },
+            {
+                "sha": "87e9fc1298656b60c0b9c3ef1c15172e89e6ec3d",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:26:53+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:26:53+03:00"
+                    },
+                    "message": "resolve conflict\n"
+                },
+                "parents": [
+                    "e52132fe2c39d17011e24cc3cfd4b0fe33c3c30b",
+                    "4ab2514ae1cde407fc18f68507ed1913f22be399"
+                ],
+                "url": "https://github.com/ayelet326/Second-Hand-Store-Python/commit/87e9fc1298656b60c0b9c3ef1c15172e89e6ec3d"
+            },
+            {
+                "sha": "e52132fe2c39d17011e24cc3cfd4b0fe33c3c30b",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:25:16+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:25:16+03:00"
+                    },
+                    "message": "add Screenshots\n"
+                },
+                "parents": [
+                    "8804ec160fd7ff55abf539767becd707baa2d760"
+                ],
+                "url": "https://github.com/ayelet326/Second-Hand-Store-Python/commit/e52132fe2c39d17011e24cc3cfd4b0fe33c3c30b"
+            },
+            {
+                "sha": "4ab2514ae1cde407fc18f68507ed1913f22be399",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T03:17:54+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T03:17:54+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "8804ec160fd7ff55abf539767becd707baa2d760"
+                ],
+                "url": "https://github.com/ayelet326/Second-Hand-Store-Python/commit/4ab2514ae1cde407fc18f68507ed1913f22be399"
+            },
+            {
+                "sha": "8804ec160fd7ff55abf539767becd707baa2d760",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:05:58+03:00"
+                    },
+                    "committer": {
+                        "name": "Ayelet",
+                        "email": "ayelet203320@gmail.com",
+                        "date": "2024-07-11T03:09:45+03:00"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [
+                    "b1c815d9de0bd9001b927437ab22622a469bd720"
+                ],
+                "url": "https://github.com/ayelet326/Second-Hand-Store-Python/commit/8804ec160fd7ff55abf539767becd707baa2d760"
+            },
+            {
+                "sha": "b1c815d9de0bd9001b927437ab22622a469bd720",
+                "commit": {
+                    "author": {
+                        "name": "Ayelet Shefi",
+                        "email": "152266886+ayelet326@users.noreply.github.com",
+                        "date": "2024-07-11T02:56:14+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-11T02:56:14+03:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/ayelet326/Second-Hand-Store-Python/commit/b1c815d9de0bd9001b927437ab22622a469bd720"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "advanced-python": [
+            "add lesson5\n",
+            "add lesson 8\n",
+            "Add files via upload",
+            "Add files via upload",
+            "Add files via upload",
+            "Add files via upload",
+            "Add files via upload",
+            "Add files via upload",
+            "Initial commit"
+        ],
+        "ayelet326": [
+            "Update README.md",
+            "upload file\n",
+            "Update README.md",
+            "Add files via upload",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Add files via upload",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Create README.md"
+        ],
+        "BalanceUp": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Merge pull request #2 from ayelet326/user_CRUD\n\nadded file tree",
+            "added file tree\n",
+            "Merge pull request #1 from ayelet326/user_CRUD\n\nUser crud",
+            "update README\n",
+            "Merge branch 'main' into user_CRUD\n",
+            "Update user service\n",
+            "Added sign-in sign-up and edit profile routers\n",
+            "Added validation checks to user model\n",
+            "Added documentation\n",
+            "Change database connection to MongoDB Atlas\n",
+            "Add find_user_by_credentials function to user_repository.py\n",
+            "Add name and password validation to User model\n",
+            "Add email and phone validation to User model\n",
+            "Change functions to async/await\n",
+            "update gitignore\n",
+            "update license\n",
+            "Merge branch 'main' of https://github.com/ayelet326/BalanceUp\n",
+            "first commit\n",
+            "Initial commit"
+        ],
+        "core_MyTaskLog": [
+            "Update MyTaskLogService.cs",
+            "Update User.Service.cs",
+            "Update Dockerfile",
+            "Update Dockerfile",
+            "Update Dockerfile",
+            "Update Dockerfile",
+            "Update Dockerfile",
+            "Create Dockerfile",
+            "add screenshots to README.md\n",
+            "add screenshots to README.md\n",
+            " update README.md\n",
+            "update README.md\n",
+            "Create README.md",
+            "end client side\n",
+            " login with google account\n",
+            "fix home page/client side\n",
+            "fix post user\n",
+            "start client site\n",
+            "edit user controller\n",
+            "edit task controller\n",
+            "Editing url of the task controller\n",
+            "Authorization\n",
+            "Authentication\n",
+            "add Authentication\n",
+            "added basic user pages\n",
+            "\u05e9\u05d9\u05e2\u05d5\u05e8 3 - \u05d4\u05d5\u05e1\u05e4\u05ea \u05dc\u05d5\u05d2\u05d9\u05dd \u05e9\u05e0\u05db\u05ea\u05d1\u05d9\u05dd \u05dc\u05e7\u05d5\u05d1\u05e5\n",
+            "\u05e9\u05d9\u05e2\u05d5\u05e8 2\n",
+            "lesson 2\n",
+            "Add files via upload"
+        ],
+        "FirstProject_GithHub": [
+            "Merge pull request #5 from ayelet326/ayelet326-patch-1\n\nCreate npm-publish.yml",
+            "Create npm-publish.yml",
+            "Merge pull request #4 from ayelet326/SaraBranch\n\nv2",
+            "Merge remote-tracking branch 'origin/main' into SaraBranch\n",
+            "v2\n",
+            "change to conflict\n",
+            "change in index.html\n",
+            "MyChanged\n",
+            "Merge pull request #2 from ayelet326/SaraBranch\n\nSara",
+            "Sara\n",
+            "Sara\n",
+            "Merge pull request #1 from ayelet326/ayelet\n\nfirst commit",
+            "first commit\n",
+            "first commit\n"
+        ],
+        "Python-coffee_machine": [
+            "Update README.md",
+            "first commit\n",
+            "Initial commit"
+        ],
+        "Search_jobs_system": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Fix update user\n",
+            "Add add-job component\n",
+            "Add update user component\n",
+            "Add Sign-up\n",
+            "Add Sign-Up\n",
+            "update css in header component\n",
+            "move search box to job list component\n",
+            "Add add-Job component\n",
+            "Add applied_jobs_list\n",
+            "Changing the  routing\n",
+            "fix home component\n",
+            "Changing the file tree and Delete unecessary files\n",
+            "Delete Unnecessary Files\n",
+            "fix user service\n",
+            "fix SentCv function\n",
+            "fix appiled-job list\n",
+            "Add Job-Card Directive\n",
+            "Add refresh data\n",
+            "fix jobsCvsSent\n",
+            "server side: update job table\n",
+            "update user service\n",
+            "add function getJobById\n",
+            "add home component\n",
+            "finish header component\n",
+            "Add validateEmail\n",
+            "add job-list component\n",
+            "add show-job component\n",
+            "change names files and function\n",
+            "update job service\n",
+            "update user service\n",
+            "Deleting unnecessary files\n",
+            "add idJobsCvsSent\n",
+            "change scss in footer\n",
+            "Changing the file names\n",
+            "server side: change string validation\n",
+            "server side: add IdJobsCvsSent to user table\n",
+            "delete footer.component.css\n",
+            "Add footer component\n",
+            "server side:Add CVsSentCount to user table\n",
+            "Termination of the Sign-in component and fix Auth service and start Header component\n",
+            "server side: add Login by name and password\n",
+            "fix Sign-In component\n",
+            "Merge branch 'main' of https://github.com/ayelet326/Job_search_system\n",
+            "first commit\n",
+            "Update README.md",
+            "Initial commit"
+        ],
+        "Second-Hand-Store-Python": [
+            "Update README.md",
+            "change image in screenshots\n",
+            "change image in screenshots\n",
+            "resolve conflict\n",
+            "add Screenshots\n",
+            "Update README.md",
+            "Initial commit\n",
+            "Initial commit"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {},
+    "commit_filter": {}
+}

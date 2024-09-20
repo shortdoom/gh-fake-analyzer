@@ -1,0 +1,168 @@
+{
+    "profile_info": {
+        "login": "Tyjust31",
+        "id": 132594055,
+        "node_id": "U_kgDOB-c5hw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/132594055?v=4",
+        "html_url": "https://github.com/Tyjust31",
+        "type": "User",
+        "site_admin": false,
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": "\ud83d\udc68\u200d\ud83d\udcbb Software creator by day, \ud83c\udf19 bug battler by night. My life is a line of code, but I also make time for some emojis \ud83d\ude04. Passionate about tech and the future",
+        "twitter_username": null,
+        "public_repos": 14,
+        "public_gists": 0,
+        "followers": 31,
+        "following": 41,
+        "created_at": "2023-05-04T15:32:24Z",
+        "updated_at": "2024-07-20T03:24:44Z"
+    },
+    "original_repos_count": 13,
+    "forked_repos_count": 1,
+    "unique_emails": {
+        "tyjustmusic@gmail.com": "Tyjust31",
+        "132594055+Tyjust31@users.noreply.github.com": "Tyjust31",
+        "noreply@github.com": "GitHub"
+    },
+    "mutual_followers": [
+        "JohnMwendwa",
+        "Nakshatra05",
+        "PramudithaWeerakoon",
+        "Bahadur777",
+        "stan8086",
+        "zied-snoussi",
+        "IDouble",
+        "judy-chelangat",
+        "peter-kimanzi",
+        "unmitra",
+        "gamemann",
+        "WonderfulDev0810",
+        "Thizh",
+        "Thuotracy",
+        "ip681"
+    ],
+    "following": [
+        "https://github.com/ry",
+        "https://github.com/rauchg",
+        "https://github.com/graydon",
+        "https://github.com/andrewrk",
+        "https://github.com/mhevery",
+        "https://github.com/regisbamba",
+        "https://github.com/manucorporat",
+        "https://github.com/adamdbradley",
+        "https://github.com/Jarred-Sumner",
+        "https://github.com/torvalds",
+        "https://github.com/Rich-Harris",
+        "https://github.com/brunosimon",
+        "https://github.com/timneutkens",
+        "https://github.com/gamemann",
+        "https://github.com/niiwade",
+        "https://github.com/unmitra",
+        "https://github.com/IDouble",
+        "https://github.com/ijjk",
+        "https://github.com/sveltejs",
+        "https://github.com/HeyHeyChicken",
+        "https://github.com/dylan-conway",
+        "https://github.com/mooncityorg",
+        "https://github.com/ip681",
+        "https://github.com/Thizh",
+        "https://github.com/peter-kimanzi",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/zied-snoussi",
+        "https://github.com/Thuotracy",
+        "https://github.com/jrohitofficial",
+        "https://github.com/BlakvGhost",
+        "https://github.com/Bahadur777",
+        "https://github.com/judy-chelangat",
+        "https://github.com/OracleBrain",
+        "https://github.com/ngud-0119",
+        "https://github.com/WonderfulDev0810",
+        "https://github.com/IrouKaizen",
+        "https://github.com/Rooly-S",
+        "https://github.com/PramudithaWeerakoon",
+        "https://github.com/Nakshatra05",
+        "https://github.com/stan8086",
+        "https://github.com/champion10873"
+    ],
+    "followers": [
+        "https://github.com/gamemann",
+        "https://github.com/mustafacagri",
+        "https://github.com/unmitra",
+        "https://github.com/flaviopavim",
+        "https://github.com/IDouble",
+        "https://github.com/Xilover",
+        "https://github.com/ip681",
+        "https://github.com/Thizh",
+        "https://github.com/peter-kimanzi",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/zied-snoussi",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/Thuotracy",
+        "https://github.com/Bahadur777",
+        "https://github.com/judy-chelangat",
+        "https://github.com/WonderfulDev0810",
+        "https://github.com/juliofleitas",
+        "https://github.com/PramudithaWeerakoon",
+        "https://github.com/TheSonOfSocrates",
+        "https://github.com/warmice71",
+        "https://github.com/Nakshatra05",
+        "https://github.com/whitenight1201",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/xaramore",
+        "https://github.com/aylarghezelbash",
+        "https://github.com/livedeveloper823",
+        "https://github.com/AmedDavid",
+        "https://github.com/stan8086",
+        "https://github.com/happylucktoday",
+        "https://github.com/devlancer0328",
+        "https://github.com/xopaz"
+    ],
+    "repo_list": [
+        "fdgdf",
+        "learningphp",
+        "learninngphp",
+        "my-portfolio",
+        "pierre-papier-ciseau",
+        "pierre-pappier-ciseau-jeu",
+        "portfolio-git",
+        "projet-pierrePC",
+        "svelte-dark-mode",
+        "try-svelte-repo",
+        "tyjust-portfolio",
+        "Tyjust31",
+        "vsfs"
+    ],
+    "forked_repo_list": [
+        "bun"
+    ],
+    "contributors": {
+        "my-portfolio": [
+            "Tyjust31"
+        ],
+        "pierre-papier-ciseau": [
+            "Tyjust31"
+        ],
+        "pierre-pappier-ciseau-jeu": [
+            "Tyjust31"
+        ],
+        "svelte-dark-mode": [
+            "Tyjust31"
+        ],
+        "try-svelte-repo": [
+            "Tyjust31"
+        ],
+        "tyjust-portfolio": [
+            "Tyjust31"
+        ],
+        "Tyjust31": [
+            "Tyjust31"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

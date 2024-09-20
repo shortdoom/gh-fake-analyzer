@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "subuj_chrome_extension_ticket",
+        "clone_url": "https://github.com/warmice71/subuj_chrome_extension_ticket.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/warmice71/subuj_chrome_extension_ticket.git /home/user/Github/PRs/gh-fake-analyzer/out/warmice71/warmice71_subuj_chrome_extension_ticket.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/warmice71/warmice71_subuj_chrome_extension_ticket.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 1435 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

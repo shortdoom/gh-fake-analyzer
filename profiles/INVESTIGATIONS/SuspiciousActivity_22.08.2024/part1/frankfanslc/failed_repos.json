@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "AliOS-Things",
+        "clone_url": "https://github.com/frankfanslc/AliOS-Things.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/frankfanslc/AliOS-Things.git /home/user/Github/PRs/gh-fake-analyzer/out/frankfanslc/frankfanslc_AliOS-Things.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/frankfanslc/frankfanslc_AliOS-Things.git'...\nremote: Repository unavailable due to DMCA takedown.\nremote: See the takedown notice for more details:\nremote:   https://github.com/github/dmca/blob/master/2022/05/2022-05-31-ceva-2.md.\nfatal: unable to access 'https://github.com/frankfanslc/AliOS-Things.git/': The requested URL returned error: 403\n'"
+    }
+]

@@ -1,0 +1,464 @@
+{
+    "profile_info": {
+        "login": "SdDev0224",
+        "id": 161324354,
+        "node_id": "U_kgDOCZ2dQg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/161324354?v=4",
+        "html_url": "https://github.com/SdDev0224",
+        "type": "User",
+        "site_admin": false,
+        "name": "Full-Stack Web | AI | Blockchain | Mobile ",
+        "company": "Freelancer/Remote",
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 20,
+        "public_gists": 0,
+        "followers": 80,
+        "following": 69,
+        "created_at": "2024-02-26T12:49:21Z",
+        "updated_at": "2024-06-10T09:00:45Z"
+    },
+    "original_repos_count": 18,
+    "forked_repos_count": 2,
+    "mutual_followers": [
+        "jk4freedom",
+        "Maks-Ars1",
+        "nulidev",
+        "aylarghezelbash",
+        "james-gates-0212",
+        "Topdev42836",
+        "topdev19224",
+        "cumsoft",
+        "Erwinex",
+        "Rodrigo-Cn",
+        "EffortHeart",
+        "CleverSofter",
+        "JohnMwendwa",
+        "alekskiselev2014",
+        "kenjinote",
+        "DedicatedSoftwareDev",
+        "AndriyPapirnyk",
+        "Nakshatra05",
+        "DHANUSH21AD",
+        "DevsWorld36428",
+        "filipmariania",
+        "BetterWorldBetterPlace",
+        "warmlove228",
+        "TalentedDev36428",
+        "glory0411",
+        "TopRatedDev36428",
+        "The-Abhishek1",
+        "gamemann",
+        "ethanflower1903",
+        "websparkledev",
+        "arekusandr",
+        "vickkie",
+        "Super515",
+        "VeteranSoftDev",
+        "SoftwarePassioner",
+        "reliablesoftdev",
+        "IDouble",
+        "xbucks",
+        "akash-tk",
+        "GoodWork0903",
+        "Rez4-4",
+        "mubashir1837",
+        "Alexcj10",
+        "kozmaatilar",
+        "CodeWithFin",
+        "techking11",
+        "kowaldev",
+        "Myro1290",
+        "ekokedao",
+        "george0st",
+        "ag1004-dev",
+        "krkarma777",
+        "sarathk73",
+        "Shehab-Hegab"
+    ],
+    "following": [
+        "kenjinote",
+        "gamemann",
+        "shahradelahi",
+        "IDouble",
+        "AbdeenM",
+        "degencap777",
+        "spmoe",
+        "Kwynto",
+        "xbucks",
+        "jk4freedom",
+        "DedicatedSoftwareDev",
+        "VeteranSoftDev",
+        "topdev19224",
+        "kozmaatilar",
+        "vickkie",
+        "ChinmayKaitade",
+        "JohnMwendwa",
+        "RobertGoodman08",
+        "zolagonano",
+        "afsalkhanmdt",
+        "ethanflower1903",
+        "george0st",
+        "cumsoft",
+        "Subham-Maity",
+        "CodeWithFin",
+        "AndriyPapirnyk",
+        "techking11",
+        "Kiyarash17",
+        "victorpreston",
+        "The-Abhishek1",
+        "54J4N",
+        "Rodrigo-Cn",
+        "Shehab-Hegab",
+        "alekskiselev2014",
+        "Nakshatra05",
+        "DHANUSH21AD",
+        "akash-tk",
+        "sarathk73",
+        "Erwinex",
+        "Rez4-4",
+        "krkarma777",
+        "aylarghezelbash",
+        "TopRatedDev36428",
+        "EffortHeart",
+        "BetterWorldBetterPlace",
+        "websparkledev",
+        "GoodWork0903",
+        "james-gates-0212",
+        "DevsWorld36428",
+        "nulidev",
+        "reliablesoftdev",
+        "CleverSofter",
+        "SoftwarePassioner",
+        "warmlove228",
+        "codelover1226",
+        "TalentedDev36428",
+        "Myro1290",
+        "ekokedao",
+        "Super515",
+        "mubashir1837",
+        "Maks-Ars1",
+        "kowaldev",
+        "luckystar20206",
+        "arekusandr",
+        "Topdev42836",
+        "Alexcj10",
+        "ag1004-dev",
+        "filipmariania",
+        "glory0411"
+    ],
+    "followers": [
+        "kenjinote",
+        "gamemann",
+        "mustafacagri",
+        "IDouble",
+        "lodhik9",
+        "xbucks",
+        "jk4freedom",
+        "DedicatedSoftwareDev",
+        "VeteranSoftDev",
+        "topdev19224",
+        "kozmaatilar",
+        "vickkie",
+        "JohnMwendwa",
+        "Charles-Chrismann",
+        "piaocreative",
+        "jrohitofficial",
+        "ethanflower1903",
+        "jakubgaba",
+        "george0st",
+        "cumsoft",
+        "Frosmin",
+        "Arvinrjb",
+        "CodeWithFin",
+        "AndriyPapirnyk",
+        "techking11",
+        "TheeAnon",
+        "The-Abhishek1",
+        "shricastic",
+        "wakhiwemathuthu",
+        "Rodrigo-Cn",
+        "otaviossousa",
+        "mudegiarnold",
+        "Shehab-Hegab",
+        "alekskiselev2014",
+        "Nakshatra05",
+        "DHANUSH21AD",
+        "akash-tk",
+        "sarathk73",
+        "seniorvuejsdeveloper",
+        "Erwinex",
+        "Rez4-4",
+        "krkarma777",
+        "aylarghezelbash",
+        "TopRatedDev36428",
+        "kanmyos",
+        "EffortHeart",
+        "emirkaanozdemr",
+        "BetterWorldBetterPlace",
+        "websparkledev",
+        "GoodWork0903",
+        "james-gates-0212",
+        "DevsWorld36428",
+        "nulidev",
+        "reliablesoftdev",
+        "Spacemin8",
+        "CleverSofter",
+        "SoftwarePassioner",
+        "warmlove228",
+        "TalentedDev36428",
+        "CeDev0224",
+        "Myro1290",
+        "CODEMAX666",
+        "GrayMamoru",
+        "ekokedao",
+        "Super515",
+        "mubashir1837",
+        "Maks-Ars1",
+        "kowaldev",
+        "arekusandr",
+        "Topdev42836",
+        "Alexcj10",
+        "ag1004-dev",
+        "filipmariania",
+        "glory0411",
+        "hotcoding85",
+        "zinping",
+        "Roaring0202",
+        "sacredAST",
+        "tr4m0ryp",
+        "xopaz"
+    ],
+    "repo_list": [
+        "Angular_Simple_Registration",
+        "cropper_rust",
+        "CryptoFirst",
+        "DecaNFT",
+        "DefiLlama-Adapters",
+        "dreambooth-stable-001",
+        "Elevator",
+        "Excel_Filter_Python",
+        "FaceSwap-Vercel",
+        "html-template",
+        "ImageClassify",
+        "Nanoels",
+        "Next-ChatGPT",
+        "React-Bootstrap-Timepicker",
+        "react-movies",
+        "Simple-User-Major",
+        "Solana-Wallet",
+        "TTS-React"
+    ],
+    "forked_repo_list": [
+        "SMART-CONTRACT",
+        "Web"
+    ],
+    "unique_emails": {
+        "passionatedev34@outlook.com": {
+            "name": "SrDev1223",
+            "commits": [
+                "7dea43e051d019c8fca0e892ee007b71fd55a536",
+                "f71c0cb681928bf2111d6d4e86a0f20055206bda",
+                "bd9a543b6dd3c0677e687edf855fbdd052e1b2b5",
+                "2a5a937a197296fcf0f354a076a6fed74ad2db12",
+                "d70b384ea8f36328a4fab4e5e52ea6a8d7dba198",
+                "f19f810059ca115060712fae99a41ff1db7b4b75",
+                "bc9e8a23b9c6897a6a3491917955b3eb73cc61d6",
+                "74da13b70e0666abe17d0bd44dffd9c10e314b2a",
+                "485377fa78e407b5c3c31a68b8c94362351894f4",
+                "ca6605190f112d683191956d64a8ec7985f37d80",
+                "45d9a53d46420cf87f8e1db29e8ef1db722ed683",
+                "896887b4e3a30a954697396284da76785f15ba47",
+                "a7e1222183ea80b159bae1dcdf6b839d1d69d99e",
+                "19c33e3cabe65b62ce6760220b6dca074cdce859",
+                "c869b189b90ef95544ab7fbbdac726343bbdf137",
+                "051f5c87f55c4f4912cd9543791a2f69a1d2846a",
+                "72d8e292b510b0d44709a7390d711bec4672d110",
+                "f0794fbeb2388448fa66b3f7367d2efa8dfbed16",
+                "d9c6879f3be35a646246e28b1d437c4ebf89b9fc"
+            ]
+        },
+        "test2500@protonmail.com": {
+            "name": "softwareveteran",
+            "commits": [
+                "fe363b810bee49701d94a2ad5aa9570888731127",
+                "3c7815382bca194f92e7d509e478fac322ebf91e",
+                "84f0783c2eafed1600bcc9a7a8aa5b62c6c19c49"
+            ]
+        },
+        "kozmaatilar@protonmail.com": {
+            "name": "kozmaatilar",
+            "commits": [
+                "eda8543484dc200b1a9e261978c7deb401738da9"
+            ]
+        },
+        "161324354+SdDev1223@users.noreply.github.com": {
+            "name": "Full-Stack Web | AI | Blockchain | Mobile",
+            "commits": [
+                "169b06710ccc218e5e6d8d61b401ca3fabe57641",
+                "d4fc196fc3786beb1c405caedc5f61eb9fd849bf",
+                "63b6e16d5663315217b84947452a84a1107b441e",
+                "e8c858ce95d7eed5f23861631b49e17f22cd0a03",
+                "5d5161b3b329c6c26bc2682e1d961c14f1b23fc5",
+                "d862e0d1a52538b85e81993344b258bea818a168",
+                "87eada5723f88465076e87567acc61f5c33dbd97",
+                "8dff5b904d97cf1d0a05f56d7dd3f8ced1d30275",
+                "b63f081ce98e7d8a80bda42c195ebf1a0d33edcf",
+                "bfba644856f7551518ed108189edf5e046692376",
+                "18303da5515e2c83399a7c8c9b86b6c9322a3aa6",
+                "827468357b11d783ae821a2340b1d0146ef5b2b5",
+                "83d50bfc3dcf0174d90c0ccd3e7becbddc877eb3",
+                "a65ddeb1c0e7044a0c4b99a30c3e858352db8040",
+                "b3b25d9e342e741ce6ec4576a7a2dce1303c29d3",
+                "96f570bd59460f1ccb906dd9e153f64f880dea98",
+                "33dffda94ee5ac46e24cad08ab90f38f4371d613",
+                "92e033473fa88558d1f319df975360196fd9dd1e",
+                "b70a3725443af9d5c38f7a0a639392c84719c0fc",
+                "25c0d6a9a7db66a1f3678b945fe2482d286b917f",
+                "e6d75a57ad58cb438a2dc398427611fcb079b72a"
+            ]
+        },
+        "noreply@github.com": {
+            "name": "GitHub",
+            "commits": [
+                "169b06710ccc218e5e6d8d61b401ca3fabe57641",
+                "d4fc196fc3786beb1c405caedc5f61eb9fd849bf",
+                "63b6e16d5663315217b84947452a84a1107b441e",
+                "e8c858ce95d7eed5f23861631b49e17f22cd0a03",
+                "5d5161b3b329c6c26bc2682e1d961c14f1b23fc5",
+                "d862e0d1a52538b85e81993344b258bea818a168",
+                "87eada5723f88465076e87567acc61f5c33dbd97",
+                "3a23f3f76c5ea343a60367f0d25a845f08a873bb",
+                "3f695edac0bb36d16087087391f88030204cf9ed",
+                "8dff5b904d97cf1d0a05f56d7dd3f8ced1d30275",
+                "b63f081ce98e7d8a80bda42c195ebf1a0d33edcf",
+                "bfba644856f7551518ed108189edf5e046692376",
+                "18303da5515e2c83399a7c8c9b86b6c9322a3aa6",
+                "827468357b11d783ae821a2340b1d0146ef5b2b5",
+                "83d50bfc3dcf0174d90c0ccd3e7becbddc877eb3",
+                "a65ddeb1c0e7044a0c4b99a30c3e858352db8040",
+                "b3b25d9e342e741ce6ec4576a7a2dce1303c29d3",
+                "96f570bd59460f1ccb906dd9e153f64f880dea98",
+                "33dffda94ee5ac46e24cad08ab90f38f4371d613",
+                "92e033473fa88558d1f319df975360196fd9dd1e",
+                "b70a3725443af9d5c38f7a0a639392c84719c0fc",
+                "25c0d6a9a7db66a1f3678b945fe2482d286b917f",
+                "e6d75a57ad58cb438a2dc398427611fcb079b72a"
+            ]
+        },
+        "passionatedev7@hotmail.com": {
+            "name": "cedev0224",
+            "commits": [
+                "07d2cac9a4ff5e25c0a4fe476c7cfa2dacb64471",
+                "bb84025ef3de2681318c566371c731de273ba7cc"
+            ]
+        },
+        "38038268+SoftwareVeteran@users.noreply.github.com": {
+            "name": "SoftwareVeteran",
+            "commits": [
+                "3a23f3f76c5ea343a60367f0d25a845f08a873bb",
+                "3f695edac0bb36d16087087391f88030204cf9ed"
+            ]
+        }
+    },
+    "contributors": {
+        "Angular_Simple_Registration": [
+            "SdDev0224"
+        ],
+        "cropper_rust": [
+            "SdDev0224"
+        ],
+        "CryptoFirst": [
+            "SdDev0224"
+        ],
+        "DecaNFT": [
+            "SdDev0224"
+        ],
+        "DefiLlama-Adapters": [
+            "topdev19224"
+        ],
+        "dreambooth-stable-001": [
+            "kozmaatilar"
+        ],
+        "Elevator": [
+            "SdDev0224"
+        ],
+        "Excel_Filter_Python": [
+            "SdDev0224"
+        ],
+        "FaceSwap-Vercel": [
+            "CeDev0224",
+            "SdDev0224"
+        ],
+        "html-template": [
+            "SdDev0224"
+        ],
+        "ImageClassify": [
+            "SdDev0224"
+        ],
+        "Nanoels": [
+            "SdDev0224"
+        ],
+        "Next-ChatGPT": [
+            "topdev19224"
+        ],
+        "React-Bootstrap-Timepicker": [
+            "SdDev0224"
+        ],
+        "react-movies": [
+            "SdDev0224"
+        ],
+        "Simple-User-Major": [
+            "SdDev0224"
+        ],
+        "Solana-Wallet": [
+            "topdev19224",
+            "SdDev0224"
+        ],
+        "TTS-React": [
+            "CeDev0224",
+            "SdDev0224"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "kozmaatilar/CryptoFirst": [
+            "https://github.com/kozmaatilar/CryptoFirst/pull/3",
+            "https://github.com/kozmaatilar/CryptoFirst/pull/1"
+        ]
+    },
+    "commits_to_other_repos": {
+        "TalentedDev36428/Web-ecommerce": [
+            "322e96b6d0e5cede471400844427cea77a7cced7"
+        ],
+        "kozmaatilar/dreambooth-stable-001": [
+            "f6aeb3c877d67f349ac05fa24817fd3a98fefd61"
+        ],
+        "kozmaatilar/Angular_Simple_Registration": [
+            "feff7af4a4870cce5c3bae571ddd7efda1241368"
+        ],
+        "kozmaatilar/CryptoFirst": [
+            "9ddacb74e7546f2941983d2bef2ae2174333a8f0",
+            "8f205bd27df2cca284a356f46e386c4caa76a586",
+            "0c68151ad71d684da8c0f4eddf327497d2fbac2c",
+            "b18331b42caad62c6e9072b2590d17d18c5a92c6",
+            "f19e17eee6d9870ee540d79b51591e5adf02f244",
+            "74a614bd533ba9648806832990ab2893acaaf025"
+        ]
+    },
+    "potential_copy": [
+        {
+            "repo": "Next-ChatGPT",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2024-02-15T09:54:50-08:00"
+        },
+        {
+            "repo": "Solana-Wallet",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2024-02-15T06:34:49-08:00"
+        }
+    ]
+}

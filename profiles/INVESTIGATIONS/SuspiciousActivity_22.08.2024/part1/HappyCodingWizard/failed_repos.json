@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "Portfolio",
+        "clone_url": "https://github.com/HappyCodingWizard/Portfolio.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/HappyCodingWizard/Portfolio.git /home/user/Github/PRs/gh-fake-analyzer/out/HappyCodingWizard/HappyCodingWizard_Portfolio.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/HappyCodingWizard/HappyCodingWizard_Portfolio.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 5174 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

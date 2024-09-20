@@ -1,0 +1,40 @@
+{
+    "profile_info": {
+        "login": "DigiTransIoT",
+        "id": 172159371,
+        "node_id": "O_kgDOCkLxiw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/172159371?v=4",
+        "html_url": "https://github.com/DigiTransIoT",
+        "type": "Organization",
+        "site_admin": false,
+        "name": "DigiTransIoT",
+        "company": null,
+        "blog": "https://www.linkedin.com/company/101898062/",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": "Leading Digital Transformation Organization with Edge AI, IoT",
+        "twitter_username": null,
+        "public_repos": 1,
+        "public_gists": 0,
+        "followers": 1,
+        "following": 0,
+        "created_at": "2024-06-09T02:37:32Z",
+        "updated_at": "2024-06-21T21:12:26Z"
+    },
+    "original_repos_count": 0,
+    "forked_repos_count": 1,
+    "unique_emails": {},
+    "mutual_followers": [],
+    "following": [],
+    "followers": [
+        "https://github.com/smart-fullstack-iot"
+    ],
+    "repo_list": [],
+    "forked_repo_list": [
+        "home-assistant-core"
+    ],
+    "contributors": {},
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

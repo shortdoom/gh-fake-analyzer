@@ -1,0 +1,245 @@
+{
+    "profile_info": {
+        "login": "pehcy",
+        "id": 65329089,
+        "node_id": "MDQ6VXNlcjY1MzI5MDg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/65329089?v=4",
+        "html_url": "https://github.com/pehcy",
+        "type": "User",
+        "site_admin": false,
+        "name": "MurphyShark",
+        "company": "@Baud-trading",
+        "blog": "murphyshark.vercel.app",
+        "location": "Malaysia, Kuala Lumpur",
+        "email": "cheeyung.peh@gmail.com",
+        "hireable": true,
+        "bio": "Software Engineer in Networking (C#, Python, Java) | Linux Hobbyist | Mathematics \ud83d\udc96",
+        "twitter_username": null,
+        "public_repos": 25,
+        "public_gists": 1,
+        "followers": 33,
+        "following": 43,
+        "created_at": "2020-05-14T05:19:29Z",
+        "updated_at": "2024-09-07T11:51:34Z"
+    },
+    "original_repos_count": 21,
+    "forked_repos_count": 4,
+    "unique_emails": {
+        "cheeyung.peh@gmail.com": "pehcy",
+        "noreply@github.com": "GitHub",
+        "65329089+pehcy@users.noreply.github.com": "pehcy",
+        "zypeh@users.noreply.github.com": "zypeh"
+    },
+    "mutual_followers": [
+        "IDouble",
+        "mxmnk",
+        "arjuncvinod",
+        "jarvis-acv",
+        "Sam666O",
+        "adonis0302",
+        "JwJy721830",
+        "bobbyray1005",
+        "mahseema",
+        "codewizard0803",
+        "habibfcn",
+        "cedev935",
+        "williamcheong0616",
+        "hangga",
+        "seangcs27",
+        "Omar95-A",
+        "johnolson2219",
+        "kauer3",
+        "cumsoft",
+        "auto-differentiation-dev",
+        "Youssefouah"
+    ],
+    "following": [
+        "https://github.com/LemonBoy",
+        "https://github.com/amacgregor",
+        "https://github.com/zypeh",
+        "https://github.com/kucheriavii",
+        "https://github.com/zombieJ",
+        "https://github.com/hangga",
+        "https://github.com/zenggyu",
+        "https://github.com/sooxt98",
+        "https://github.com/torlenor",
+        "https://github.com/IDouble",
+        "https://github.com/Kwynto",
+        "https://github.com/HeyHeyChicken",
+        "https://github.com/williamcheong0616",
+        "https://github.com/seangcs27",
+        "https://github.com/Endermanch",
+        "https://github.com/mxmnk",
+        "https://github.com/i12cu84",
+        "https://github.com/leoan96",
+        "https://github.com/Youssefouah",
+        "https://github.com/kauer3",
+        "https://github.com/arjuncvinod",
+        "https://github.com/singharaj-usai",
+        "https://github.com/H-K-R",
+        "https://github.com/0vm",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Omar95-A",
+        "https://github.com/Mu-selim",
+        "https://github.com/habibfcn",
+        "https://github.com/cumsoft",
+        "https://github.com/auto-differentiation-dev",
+        "https://github.com/wr0110",
+        "https://github.com/javier901",
+        "https://github.com/codewizard0803",
+        "https://github.com/charles0830",
+        "https://github.com/johnolson2219",
+        "https://github.com/JwJy721830",
+        "https://github.com/codemaster05330",
+        "https://github.com/bobbyray1005",
+        "https://github.com/cedev935",
+        "https://github.com/adonis0302",
+        "https://github.com/Sam666O",
+        "https://github.com/mahseema",
+        "https://github.com/olehrab"
+    ],
+    "followers": [
+        "https://github.com/hangga",
+        "https://github.com/mustafacagri",
+        "https://github.com/IDouble",
+        "https://github.com/williamcheong0616",
+        "https://github.com/seangcs27",
+        "https://github.com/mxmnk",
+        "https://github.com/ip681",
+        "https://github.com/Youssefouah",
+        "https://github.com/jessecarvalho",
+        "https://github.com/kauer3",
+        "https://github.com/arjuncvinod",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Omar95-A",
+        "https://github.com/habibfcn",
+        "https://github.com/cumsoft",
+        "https://github.com/auto-differentiation-dev",
+        "https://github.com/decoderwhoami",
+        "https://github.com/Makitey",
+        "https://github.com/codewizard0803",
+        "https://github.com/johnolson2219",
+        "https://github.com/JwJy721830",
+        "https://github.com/bobbyray1005",
+        "https://github.com/warmice71",
+        "https://github.com/niks-nikhil-anand",
+        "https://github.com/Nakshatra05",
+        "https://github.com/cedev935",
+        "https://github.com/adonis0302",
+        "https://github.com/Sam666O",
+        "https://github.com/mahseema",
+        "https://github.com/AI0228",
+        "https://github.com/911-carrera",
+        "https://github.com/dougkalash"
+    ],
+    "repo_list": [
+        "AdventOfCode2023-Haskell",
+        "agnes-rust",
+        "algebra-notes-latex",
+        "binoculars",
+        "binoculars-extraction",
+        "CoverLetter-Transformer",
+        "Elmo_LLM",
+        "LaravelTutorial",
+        "Malaysia-House-Price-prediction",
+        "Murphy-tution",
+        "murphyshark",
+        "nika",
+        "Nordic-tapir-site",
+        "PDFMergerPy",
+        "pehcy",
+        "pehcy.github.io",
+        "PickAPoi-nodejs",
+        "stochastic-quantitative-rust",
+        "TCP-SocketSniffer",
+        "topos-project",
+        "vimrc"
+    ],
+    "forked_repo_list": [
+        "burgerflipper",
+        "deliveryguy",
+        "gatsby-portfolio-dev",
+        "IsuzumiChan"
+    ],
+    "contributors": {
+        "AdventOfCode2023-Haskell": [
+            "pehcy"
+        ],
+        "agnes-rust": [
+            "pehcy"
+        ],
+        "algebra-notes-latex": [
+            "pehcy"
+        ],
+        "binoculars": [
+            "pehcy"
+        ],
+        "binoculars-extraction": [
+            "pehcy"
+        ],
+        "CoverLetter-Transformer": [
+            "pehcy"
+        ],
+        "Elmo_LLM": [
+            "pehcy"
+        ],
+        "LaravelTutorial": [
+            "pehcy"
+        ],
+        "Malaysia-House-Price-prediction": [
+            "pehcy"
+        ],
+        "Murphy-tution": [
+            "pehcy"
+        ],
+        "murphyshark": [
+            "pehcy"
+        ],
+        "nika": [
+            "pehcy",
+            "zypeh"
+        ],
+        "Nordic-tapir-site": [
+            "pehcy"
+        ],
+        "PDFMergerPy": [
+            "pehcy"
+        ],
+        "pehcy": [
+            "pehcy"
+        ],
+        "pehcy.github.io": [
+            "pehcy"
+        ],
+        "PickAPoi-nodejs": [
+            "pehcy"
+        ],
+        "stochastic-quantitative-rust": [
+            "pehcy"
+        ],
+        "TCP-SocketSniffer": [
+            "pehcy"
+        ],
+        "topos-project": [
+            "pehcy"
+        ],
+        "vimrc": [
+            "pehcy"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {
+        "zypeh/intermixture": [
+            "https://github.com/zypeh/intermixture/commit/387d0f5013277b3d0e06434c7c0e2de0b3a0b9a0",
+            "https://github.com/zypeh/intermixture/commit/e26da2db43787945974491a27d139f2dc1057e94",
+            "https://github.com/zypeh/intermixture/commit/aa7d769ae15bc7a0ea782602fc27b85708c714ef",
+            "https://github.com/zypeh/intermixture/commit/6bf80121375ee3ebfa12965d4bf425c574052a53",
+            "https://github.com/zypeh/intermixture/commit/94f059fa28fa0c99c885173228cb799ed4c6675d",
+            "https://github.com/zypeh/intermixture/commit/979ac7002f07f800768973961bcf0b55a8a03079",
+            "https://github.com/zypeh/intermixture/commit/1590d15d7f9ffe1e0221750e6b506218cafdf0ad",
+            "https://github.com/zypeh/intermixture/commit/b946a2e19c1afaf9fd4d02e80bdbbbd3bf5847fd",
+            "https://github.com/zypeh/intermixture/commit/bf0ac566c188af56fd6593e948bd93ef87a6d0f2"
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "profile_info": {
+        "login": "comet-dev48",
+        "id": 118464552,
+        "node_id": "U_kgDOBw-gKA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/118464552?v=4",
+        "html_url": "https://github.com/comet-dev48",
+        "type": "User",
+        "site_admin": false,
+        "name": "Fullstack Dev",
+        "company": null,
+        "blog": "https://oliver48.vercel.app/",
+        "location": "Kemi Finland",
+        "email": null,
+        "hireable": null,
+        "bio": "I have got to find what I love.\r\n",
+        "twitter_username": null,
+        "public_repos": 13,
+        "public_gists": 0,
+        "followers": 3,
+        "following": 2,
+        "created_at": "2022-11-17T15:52:59Z",
+        "updated_at": "2023-02-04T14:01:53Z"
+    },
+    "original_repos_count": 13,
+    "forked_repos_count": 0,
+    "unique_emails": {
+        "jackkostic0421@gmail.com": "Kostic",
+        "118464552+comet-dev48@users.noreply.github.com": "Fullstack Dev",
+        "noreply@github.com": "GitHub",
+        "salo48.passion@gmail.com": "Oliver Salo",
+        "118464552+jhonalic@users.noreply.github.com": "jhonbrown",
+        "jhonbrownlove@gmail.com": "unknown"
+    },
+    "mutual_followers": [
+        "Forest410"
+    ],
+    "following": [
+        "https://github.com/Forest410",
+        "https://github.com/brainstormbuddy"
+    ],
+    "followers": [
+        "https://github.com/Aziz-AXG",
+        "https://github.com/Forest410",
+        "https://github.com/Kosticdev0421"
+    ],
+    "repo_list": [
+        "bootstrap-responsive-exam",
+        "comet-dev48",
+        "express_postgresql_mysql_mongodb",
+        "fast-UI-vanillajs-todo",
+        "Fluent-UI-vanilla-js-d3js",
+        "Grqphql-Postgresql-NFT-API",
+        "Laravel-Auth-CRUD-Validation-Testing",
+        "MernStack_Passport",
+        "NExt.js-Strapi",
+        "PHP_HeictoJPG",
+        "PUPHPeteer-sample",
+        "Vue-CRUD-Validaion-Modal",
+        "web-scrapping"
+    ],
+    "forked_repo_list": [],
+    "contributors": {
+        "comet-dev48": [
+            "comet-dev48"
+        ],
+        "express_postgresql_mysql_mongodb": [
+            "comet-dev48"
+        ],
+        "fast-UI-vanillajs-todo": [
+            "comet-dev48"
+        ],
+        "Fluent-UI-vanilla-js-d3js": [
+            "comet-dev48"
+        ],
+        "Grqphql-Postgresql-NFT-API": [
+            "comet-dev48"
+        ],
+        "Laravel-Auth-CRUD-Validation-Testing": [
+            "comet-dev48"
+        ],
+        "MernStack_Passport": [
+            "comet-dev48"
+        ],
+        "NExt.js-Strapi": [
+            "comet-dev48"
+        ],
+        "PHP_HeictoJPG": [
+            "comet-dev48"
+        ],
+        "PUPHPeteer-sample": [
+            "comet-dev48"
+        ],
+        "Vue-CRUD-Validaion-Modal": [
+            "comet-dev48"
+        ],
+        "web-scrapping": [
+            "comet-dev48"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

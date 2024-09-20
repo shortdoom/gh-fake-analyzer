@@ -1,0 +1,12 @@
+[
+    {
+        "repo_name": "Design-and-Code",
+        "clone_url": "https://github.com/Design-and-Code/Design-and-Code.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/Design-and-Code/Design-and-Code.git /home/user/Github/PRs/gh-fake-analyzer/out/Design-and-Code/Design-and-Code_Design-and-Code.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/Design-and-Code/Design-and-Code_Design-and-Code.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Projects-showcase",
+        "clone_url": "https://github.com/Design-and-Code/Projects-showcase.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/Design-and-Code/Projects-showcase.git /home/user/Github/PRs/gh-fake-analyzer/out/Design-and-Code/Design-and-Code_Projects-showcase.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/Design-and-Code/Design-and-Code_Projects-showcase.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 8154 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

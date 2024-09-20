@@ -1,0 +1,17 @@
+[
+    {
+        "repo_name": "HTML-and-CSS",
+        "clone_url": "https://github.com/NextThread/HTML-and-CSS.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/NextThread/HTML-and-CSS.git /home/user/Github/PRs/gh-fake-analyzer/out/NextThread/NextThread_HTML-and-CSS.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/NextThread/NextThread_HTML-and-CSS.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 3878 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Tesla_Clone-Reactjs-",
+        "clone_url": "https://github.com/NextThread/Tesla_Clone-Reactjs-.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/NextThread/Tesla_Clone-Reactjs-.git /home/user/Github/PRs/gh-fake-analyzer/out/NextThread/NextThread_Tesla_Clone-Reactjs-.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/NextThread/NextThread_Tesla_Clone-Reactjs-.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 20 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "uber-clone-best",
+        "clone_url": "https://github.com/NextThread/uber-clone-best.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/NextThread/uber-clone-best.git /home/user/Github/PRs/gh-fake-analyzer/out/NextThread/NextThread_uber-clone-best.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/NextThread/NextThread_uber-clone-best.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

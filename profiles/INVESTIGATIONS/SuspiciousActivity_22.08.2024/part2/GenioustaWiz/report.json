@@ -1,0 +1,484 @@
+{
+    "profile_info": {
+        "login": "GenioustaWiz",
+        "id": 41740162,
+        "node_id": "MDQ6VXNlcjQxNzQwMTYy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41740162?v=4",
+        "html_url": "https://github.com/GenioustaWiz",
+        "type": "User",
+        "site_admin": false,
+        "name": null,
+        "company": "CDT",
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 51,
+        "public_gists": 0,
+        "followers": 40,
+        "following": 40,
+        "created_at": "2018-07-26T11:51:22Z",
+        "updated_at": "2024-06-24T20:34:24Z"
+    },
+    "original_repos_count": 38,
+    "forked_repos_count": 13,
+    "mutual_followers": [
+        "lodhik9",
+        "qpeckin",
+        "jaylee518",
+        "texora",
+        "Amir10t",
+        "Mohamedpr0",
+        "peterjames3",
+        "sk66641",
+        "cryptolagend1",
+        "alikhazaeii",
+        "krobelus1990",
+        "Panther-12",
+        "emirkaanozdemr",
+        "chipnertkj",
+        "NjugunaKelvin",
+        "ironcg20",
+        "xopaz",
+        "JohnMwendwa",
+        "Charles-Chrismann",
+        "yusukenishikado",
+        "Joana311",
+        "otaviossousa",
+        "KylerCondran",
+        "ramin123",
+        "decoderwhoami",
+        "jeffreyhacks",
+        "Yonatankinfe",
+        "GrayMamoru",
+        "xmoohad"
+    ],
+    "following": [
+        "KylerCondran",
+        "texora",
+        "shahradelahi",
+        "Rafaelmdcarneiro",
+        "lodhik9",
+        "Kwynto",
+        "chipnertkj",
+        "MuriithiEric",
+        "qpeckin",
+        "JohnMwendwa",
+        "Charles-Chrismann",
+        "Panther-12",
+        "Amir10t",
+        "peterjames3",
+        "ramin123",
+        "WhitePoodleMoth",
+        "xmoohad",
+        "decoderwhoami",
+        "OracleBrain",
+        "jaylee518",
+        "l950x",
+        "otaviossousa",
+        "Mohamedpr0",
+        "sk66641",
+        "NjugunaKelvin",
+        "cryptolagend1",
+        "ironcg20",
+        "AtaurRehman10",
+        "krobelus1990",
+        "emirkaanozdemr",
+        "blocage",
+        "Yonatankinfe",
+        "jeffreyhacks",
+        "GrayMamoru",
+        "alikhazaeii",
+        "spectrecoder",
+        "Joana311",
+        "Powerlearnproject",
+        "yusukenishikado",
+        "xopaz"
+    ],
+    "followers": [
+        "kenjinote",
+        "KylerCondran",
+        "texora",
+        "lodhik9",
+        "chipnertkj",
+        "Xilover",
+        "ogunsoladebayo",
+        "qpeckin",
+        "zahrakrmi",
+        "JohnMwendwa",
+        "Charles-Chrismann",
+        "jrohitofficial",
+        "Panther-12",
+        "Amir10t",
+        "peterjames3",
+        "cumsoft",
+        "ramin123",
+        "xmoohad",
+        "decoderwhoami",
+        "jaylee518",
+        "otaviossousa",
+        "Shehab-Hegab",
+        "Mohamedpr0",
+        "samarjitsahoo",
+        "sk66641",
+        "NjugunaKelvin",
+        "cryptolagend1",
+        "Iqbolshoh",
+        "ironcg20",
+        "krobelus1990",
+        "emirkaanozdemr",
+        "Yonatankinfe",
+        "jeffreyhacks",
+        "GrayMamoru",
+        "alikhazaeii",
+        "geeky02",
+        "Joana311",
+        "yusukenishikado",
+        "kadry-gen",
+        "xopaz"
+    ],
+    "repo_list": [
+        "74hc595-As-An-Input-Device",
+        "74hc595-As-An-Output-Device",
+        "attendance",
+        "AutoGpt_Auto",
+        "Big-JOE-POS-System",
+        "blum-bot-main",
+        "car_garage",
+        "centralized_school_management",
+        "csm_flutter_app",
+        "DS18B20_AND_DHT11_temp_sensors",
+        "e-commerce",
+        "EEPROM_save",
+        "expense-traker",
+        "full_home_automation_promicro",
+        "GenioustaWiz",
+        "GSM_GPRSLibrary_Sms_data_send",
+        "hospital_management_system_web",
+        "inventory-management-Python-GUI-master",
+        "inverter_with_bat_monitor",
+        "IRS-v1.0",
+        "IRS-v2.0",
+        "Led_Matrix_play",
+        "LEONARDO_BT_CONNECTION",
+        "Login_Register_App",
+        "Medical",
+        "messsage_scroll_2",
+        "mt5_python_robots",
+        "multiEmailSend",
+        "my_blog_django",
+        "nyumba_kumi_html",
+        "PLPBasicGitAssignment-HelloWorld",
+        "Python-Practice-Problems",
+        "python-week1-plp",
+        "python-week2-plp",
+        "tkinter_scan_search_app",
+        "transcription",
+        "users-app",
+        "User_Profile_v2"
+    ],
+    "forked_repo_list": [
+        "djoser-tutorial",
+        "Events",
+        "HACKATHON-REPO---DART",
+        "may-2024-web-hackathon-1",
+        "OKX-Racer-BOT",
+        "opencv",
+        "Python-Hack1---May-Cohort",
+        "se-assignment-1-setting-up-your-developer-environment-GenioustaWiz",
+        "SHIELD-Hackathon1",
+        "VertusBot",
+        "WA_CRASHER",
+        "Week-5-hands-On-database",
+        "workout_app"
+    ],
+    "unique_emails": {
+        "41740162+GenioustaWiz@users.noreply.github.com": {
+            "name": "GenioustaWiz",
+            "commits": [
+                "229402b0c3066b06bd8c2b6fdb8fde8365312b92",
+                "a74ddf38d9e4a66ee52b69427e61bacdae386a0a",
+                "7f60585c5915ef51c41381c64c372ccc49ed3511"
+            ]
+        },
+        "noreply@github.com": {
+            "name": "GitHub",
+            "commits": [
+                "229402b0c3066b06bd8c2b6fdb8fde8365312b92",
+                "a74ddf38d9e4a66ee52b69427e61bacdae386a0a",
+                "7f60585c5915ef51c41381c64c372ccc49ed3511"
+            ]
+        },
+        "cm0215557@gmail.com": {
+            "name": "GenioustaWiz",
+            "commits": [
+                "1bb8ca50e5ddf7385af43619903594b46ac596ea",
+                "a3b10cbde125ac0e02fa6f91cfb6800d05c74ad5",
+                "cb7ea4fcaabb41028201dae11ff2ae84d7e2b7fd",
+                "d5da6e4967d17e1e6f407ae67917259da03dc1dc",
+                "9629423ecc15b79067fa3a44eaca601b7eaadd52",
+                "6798193e95abab0bf73001136e9254525223e1e3",
+                "374e33b9197f2b80fe0fa7b7559f325852ed7b34",
+                "c725c4b8b48fedaef4d99d8835c164c0f04aefb4",
+                "bf210276bfda888beec47c82f507d23a670a73fb",
+                "eae44989da94e2ab6315cada6bf68475c787eff3",
+                "aa9c64f7a1f731c85c92292eb637584f782b32e1",
+                "2f76436c04149d857b94e415b17c576c5faf1c22",
+                "4aeb85c133c654a6d1978742b1b76ed07ff57fe0",
+                "2ec0a6e690775eb758e2514d72ae2bcf74574ec5",
+                "cc69702169eb7ba63665430cd822414c6fa359ad",
+                "b93506820450eaa3c4ca7332e3aed14c6c1da74c",
+                "fbc11476c27dcb15d5932e05be24eec4f6d45748",
+                "4d1452bac6c31f1f516f2501b15ef0e3698c35b7",
+                "6e20ae1216e06c19212d95b9d0be50b5cf19c00e",
+                "a315ff901c0765add8d4c196c47bbbe0244daa49",
+                "3aa4aba47bcc3ff3db31c373197234313cd65638",
+                "37ea423fc65774e2b32e7f89c79725f37c150c8b",
+                "ff9872db552192fc5ada132918e8642365096ec0",
+                "a4f60c00acdd2f507e422b8c74caf64af6fc3f43",
+                "b41cf8c2a2eaa62a3bbe6a36786cd6204d4acb14",
+                "17f1cd8a673f8ded0ceefb58f599e176eda1e854",
+                "bd129c18dd595b4f823cd54da7235b3ef04c568b",
+                "1b7ce9df6e36d99edd2f62d3deae81af67fe5189",
+                "cd8063e389e40c53f659275e550fe22f7b46bb40",
+                "a42860052733ca01e5b168c47df633992dba5d20",
+                "f6871e25a7970fc5a843346712aeef3f8a1416a3",
+                "fc570f6281636ac0b9e6c1fe50bcfbf8ebb006ba",
+                "8df41c21a4f8205e0a4324e7072cbcd21d1964e3",
+                "2e6d1aa8bc47eed8b1a50a559971d532b0f0c929",
+                "1dd34363c2af4aacecf9a7cc19d810084f548897",
+                "3673d18ada5a98fce5bc58b3997ab9c1a100b77e",
+                "8ab320700a9053722da70afaa0279641b9b3d15a",
+                "7643d97060c65f479008be66507b680a98e82187",
+                "749d12daddb57480109f9791870a6f38e69bfa76",
+                "6c45aefa22c84dba7dcfd28c47ba428210c8c9ad",
+                "884e03dee44fcd903c070aa8f5fd36fc1ca1dc61",
+                "361f45eca17c6bc312f9ee18a883f9cf7ba24686",
+                "e800605301ccc242d3d85f65319833c433bd65ce",
+                "6bc71e90ee3fd12a6878d039dd4632ef8bbc8ce9",
+                "f227c60f9921d6cc2a1ce90f7035837636b22a7d",
+                "03cef655d1d266495a2f9fe78bd287d12d4bcd94",
+                "2c33fa9067a97e11178d384c3f4939dd2743e0d7",
+                "a7c3672b967a881982e324b5fb66b6543ab8149b",
+                "8e3c0d02755319f0f22fd715b5fc2a16171d4138",
+                "20f7b5d76606a62c54d33bf62c66d022de0924ef",
+                "95705bf7dc1f6d64a4621c05c6b27999fa0a541c",
+                "cede519c29a65e1d5604ef4de516d1ea0bca3b4b",
+                "8a592b9710673653ab70c3d5466c7a69251e8c44",
+                "867e86ffebae7db7f38e4353f24bbc933bdb98e3",
+                "7408e994ce31d2de6af26283feabe5c268c90f48",
+                "63e12a230355fa990c3ffe2cc3ea0709a5409311",
+                "9e2e2356cc1e3237c6b7007f4a38e0d39c56c980",
+                "e92ed04c2212b8458ece30c06bd130ce8e55cf6f",
+                "fb9c84d45c9362d4b820b08fe17761dcfb940bb1",
+                "a1cd35025a68a43bd35ddf7247bca05d4cc78e55",
+                "e771d5fd9508cefbe590178cecacab25a9509c10",
+                "6c5dc1841cafc485d82278043c982b0a5e432d85",
+                "9e84d9c2d3eea2feaf586ba3e8d5edb66d983360",
+                "cf36a60c57233908f4261e78058cdcbc6f3203b4",
+                "df7b7dba83b361c243eb7bf5bdac2ed600f39a24",
+                "ff668692bb120c2e679aadccbda5b092366c9b79",
+                "b39d6d32b55a859d67f8fadcd84993924829c745",
+                "721860bc4235f3d072b4b98fe483b33154317204",
+                "456cd75dfc1a9c1c950a233adadc9e2da00c4c74",
+                "ca3cf1fe5bcc6e8e2ddc50483a7f2602beb54c04",
+                "4201c6a5bb1f0c7a6fc2d138c4b2b8398a98ca67",
+                "8b357935af0962353c3ec1f191d4dfe2becf1295",
+                "1d3604ec348f3cd04dfc5c77aa34657a51be1a91",
+                "d14108bd7c3729ee5a4ae00f966ec7817fc4d752",
+                "e034e3dd2f6cab5de641a25748d38b426e3ae0f7",
+                "aa68833cbc80685e95c4874aa9e7d24e3e290083",
+                "040c99405dee6b9022b17f9e1438667f64070d7f",
+                "8c436264bfc05887e443ee7049a1e2ee5d83abee",
+                "4177239299e95e4c0949520dd9a54db423463db3",
+                "5ae2f35908ae91e67476445cee9712f16cdeac39",
+                "1bc0e4c3abbdaf780d6ac48ee2c95ff870f816a2",
+                "c4cef96f9d92d1b38b97954d19e7b9927011dfc3",
+                "89211ddfe3d627fe0aeb883a78e95ca22e9d70f4",
+                "58a25d6967909404eb2e2a2c168c83f8e07ae938",
+                "70d3528432ce5e92c8fab83eb26e119e786a3290",
+                "4b034e4fa846c4bc17cd21b68f6739156f8069ba",
+                "e7136b5cd91231d85978f90cbd2d764d059beb0b",
+                "629fda2247cd715524b9571b2a46baccb208fe43",
+                "9cd2180eeb45d7f6fb5b3cc6164856d3db45fade",
+                "80a74b9782198a211939791dcdeef012f397e1ac",
+                "2c821240702e8ef1f52c14b0615733da3d3469a0",
+                "de778c3599f5dd0449d8be4f118a91a664ecef1f",
+                "2bebffa0ab4e9af4276151935205ccd012c758d7",
+                "e3c4761b7c057f463282d326b3f6e7ae4f60f1c8",
+                "b339b98f36aae28c9b04a76c181ea59ea0bbb27c",
+                "78feda02da6a6633e946a12d36586d56864abd53",
+                "d3f50d69a7f5535dcbc7d22dc515c88bee942c6b",
+                "b68a9d90a53e281cc41a4c411491d3962d02b6d5",
+                "cc09c9427e13948a56dfff865b56409bebdd98de",
+                "a0b4d85a332e421b988216a2f8744c47032bddc4",
+                "f5ec7bcce7e44048b17d14794c17f03a79f9134f",
+                "9f6c13a4e3a99586aced07e3e56aa76d69ddb65b",
+                "852258ca0e79a22e782f47794d094c9e5653b712",
+                "443bacb81a0c18be4ff32e4db75fd3f798292578",
+                "315ff84405f8b00bd3ffde815c0974ada5214514",
+                "1ecce177ab93bc079247cdd8690cdcafc451662d",
+                "974ac0c343db46be4f3394500d5d7f46e4d92bca",
+                "fce93e64b263e6777a32c4b64b735b0b2b1a9a9f",
+                "69db9361ffae0a887f05d03428466354a9f76145",
+                "7fe32ac417b77fae5b3e8574d400c7276e8f29cc",
+                "fb17096ab8d09d82aa2123d86051a687367e1961",
+                "fe58de887123d84058918900f7b3e33eaf209d5d",
+                "d20251f45e7c51cc2fcd2f7cc7a0a53638931bec",
+                "c63a64f40564f9e96dbcae9b88a64cb5f88449ea",
+                "8d8d89aa34513a146a9527e0f99c598b350a1148",
+                "f83001f23ed68ce2a98ea2562360e5affebf69a3",
+                "44186ecc274c317b3064639abd3dec887bc19605",
+                "65e61de4d583ff83c63f5b2d1408dae7b534cd92",
+                "9d05330cf2965a52d2f7b39f7037e158d05de571",
+                "66910f3a1e9758b544ee66eb84b0a5b1a89231aa",
+                "01d9f4831c73447a3971d4dce072bd39f09ce10f",
+                "34c170997f52ea777bb27d2cf8e73c81284d76e1",
+                "c23d53c913b38bf182d1b8a1a764592b254523b2",
+                "4991c39fc75927a47a125dc16c98300cb4d5f2f4",
+                "416af573e3bab0330d78342f02a18e78d75beac2",
+                "e844b08252872d15a078163aad19a3822839fbc4"
+            ]
+        }
+    },
+    "contributors": {
+        "74hc595-As-An-Output-Device": [
+            "GenioustaWiz"
+        ],
+        "attendance": [
+            "GenioustaWiz"
+        ],
+        "AutoGpt_Auto": [
+            "GenioustaWiz"
+        ],
+        "Big-JOE-POS-System": [
+            "GenioustaWiz"
+        ],
+        "blum-bot-main": [
+            "GenioustaWiz"
+        ],
+        "car_garage": [
+            "GenioustaWiz"
+        ],
+        "centralized_school_management": [
+            "GenioustaWiz"
+        ],
+        "csm_flutter_app": [
+            "GenioustaWiz"
+        ],
+        "DS18B20_AND_DHT11_temp_sensors": [
+            "GenioustaWiz"
+        ],
+        "e-commerce": [
+            "GenioustaWiz"
+        ],
+        "EEPROM_save": [
+            "GenioustaWiz"
+        ],
+        "expense-traker": [
+            "GenioustaWiz"
+        ],
+        "full_home_automation_promicro": [
+            "GenioustaWiz"
+        ],
+        "GSM_GPRSLibrary_Sms_data_send": [
+            "GenioustaWiz"
+        ],
+        "hospital_management_system_web": [
+            "GenioustaWiz"
+        ],
+        "inventory-management-Python-GUI-master": [
+            "GenioustaWiz"
+        ],
+        "inverter_with_bat_monitor": [
+            "GenioustaWiz"
+        ],
+        "IRS-v1.0": [
+            "GenioustaWiz"
+        ],
+        "Led_Matrix_play": [
+            "GenioustaWiz"
+        ],
+        "LEONARDO_BT_CONNECTION": [
+            "GenioustaWiz"
+        ],
+        "Login_Register_App": [
+            "GenioustaWiz"
+        ],
+        "Medical": [
+            "GenioustaWiz"
+        ],
+        "messsage_scroll_2": [
+            "GenioustaWiz"
+        ],
+        "mt5_python_robots": [
+            "GenioustaWiz"
+        ],
+        "multiEmailSend": [
+            "GenioustaWiz"
+        ],
+        "nyumba_kumi_html": [
+            "GenioustaWiz"
+        ],
+        "PLPBasicGitAssignment-HelloWorld": [
+            "GenioustaWiz"
+        ],
+        "Python-Practice-Problems": [
+            "GenioustaWiz"
+        ],
+        "python-week1-plp": [
+            "GenioustaWiz"
+        ],
+        "python-week2-plp": [
+            "GenioustaWiz"
+        ],
+        "tkinter_scan_search_app": [
+            "GenioustaWiz"
+        ],
+        "transcription": [
+            "GenioustaWiz"
+        ],
+        "users-app": [
+            "GenioustaWiz"
+        ],
+        "User_Profile_v2": [
+            "GenioustaWiz"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "Powerlearnproject/se-assignment-1-setting-up-your-developer-environment-GenioustaWiz": [
+            "https://github.com/Powerlearnproject/se-assignment-1-setting-up-your-developer-environment-GenioustaWiz/pull/3"
+        ]
+    },
+    "commits_to_other_repos": {
+        "Powerlearnproject/se-assignment-6-introduction-to-python-GenioustaWiz": [
+            "af626ba9ca017b9e2cd206e1709a260671000074",
+            "711b65be68b6d1385513071dda4f9c52b14a30bb"
+        ],
+        "Powerlearnproject/se-assignment-2-introduction-to-software-engineering-GenioustaWiz": [
+            "1448788d3fa3d9ade0a2403387f3143990bd18b8",
+            "afdb3b53f2f4c409d087e670bccc628bb584d728",
+            "97798b82ee50e4f31efd272d62edb367f274f08e",
+            "6ce9f621e4ca8fcf239fe34b250d92e024e4d714"
+        ],
+        "Powerlearnproject/se-assignment-1-setting-up-your-developer-environment-GenioustaWiz": [
+            "a9ad5deebd39e9e0999bfe15bbd04103bb273559",
+            "e27c92a5433274b5cc2f1ee363542f26336070c2"
+        ],
+        "Powerlearnproject/se-assignment-8-pitching-a-software-project-GenioustaWiz": [
+            "9a55c5db5ea2ffa9a10a008c4511ef8f1eb23d21",
+            "8e50682e09e95ec7b2b90b662ac82bc7c150d9fb"
+        ],
+        "Powerlearnproject/se-assignment-4-github-and-visual-studio-GenioustaWiz": [
+            "487e373bff410451c841f92a46cac01c8d6166f4",
+            "7a1e7ea60b99d6acfe5ab78735a3315b9df037ae"
+        ],
+        "Powerlearnproject/se-assignment-5-GenioustaWiz": [
+            "aec4f55ef23076f93bdd63c9cf19550067caf371",
+            "6ad39d512e79595813e88c4c1314506c9c3881f3",
+            "f6753ce875009db6f5602ffa8bda2a1f55252f4c"
+        ]
+    }
+}

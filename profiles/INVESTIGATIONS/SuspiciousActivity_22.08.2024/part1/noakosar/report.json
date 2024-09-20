@@ -1,0 +1,47 @@
+{
+    "profile_info": {
+        "login": "noakosar",
+        "id": 147128842,
+        "node_id": "U_kgDOCMUCCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/147128842?v=4",
+        "html_url": "https://github.com/noakosar",
+        "type": "User",
+        "site_admin": false,
+        "name": "Noa Kosar",
+        "company": null,
+        "blog": "https://noakosar.vecel.app",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": "Full Stack web & mobile developer | AI Expert",
+        "twitter_username": "KosarNoa47219",
+        "public_repos": 0,
+        "public_gists": 0,
+        "followers": 4,
+        "following": 2,
+        "created_at": "2023-10-06T05:29:07Z",
+        "updated_at": "2024-05-07T12:27:41Z"
+    },
+    "original_repos_count": 0,
+    "forked_repos_count": 0,
+    "unique_emails": {},
+    "mutual_followers": [
+        "cedev935",
+        "olehrab"
+    ],
+    "following": [
+        "https://github.com/cedev935",
+        "https://github.com/olehrab"
+    ],
+    "followers": [
+        "https://github.com/gr8monk3ys",
+        "https://github.com/george0st",
+        "https://github.com/cedev935",
+        "https://github.com/olehrab"
+    ],
+    "repo_list": [],
+    "forked_repo_list": [],
+    "contributors": {},
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

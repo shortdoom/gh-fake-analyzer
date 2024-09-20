@@ -1,10 +1,20 @@
-# Github Profile Analyzer
+# Github Profile Analyzer (and database)
 
 Download and analyze profile data for any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
 Jump to [Monitoring user](#monitoring-user) to setup script for continous username monitoring and/or retriving last 90 days of account activity.
 
+**Disclaimer:** Repository hosts a data dump of suspicious github accounts in `/profiles` directory. Because of this, size of repository is pretty large. Use something like this to only grab scripts:
+
+```sh
+git clone --filter=blob:none --sparse https://github.com/shortdoom/gh-fake-analyzer && cd gh-fake-analyzer && git sparse-checkout set --no-cone '*' '!profiles'
+```
+
+**Disclaimer:** The information provided here **may** be incorrect. Please do not make any (baseless) accusations based on this content. All information is sourced from publicly available third-party sources and verified to the best of my ability (only).
+
 ### Install
+
+Scripts require `git` to be installed on your OS. (`sudo apt install git`)
 
 Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow). 
 
@@ -24,7 +34,9 @@ Rename `.env.example` to `.env` and supply your GitHub API Key (generated in you
    python analyze.py <username> --commit_search # search github for commit messages (slow, experimental)
 ```
 
-A `script.log` file is created after the first run. All profile data is downloaded to `/out`.
+A `script.log` file is created after the first run. All profile data is downloaded to `/out`. By default, `config.ini` to cap total amount of data downloaded.
+
+Use `config.ini` to set different MAX parameters (some accounts can have a lot of data).
 
 # How to Read the Output
 
@@ -32,9 +44,9 @@ Inside the `/out` directory, there will be a `<username>` subdirectory for each 
 
 Report file is main output file, `{username}.json` file is the full data dump (can be long). Cross-search both files for the best effect.
 
-- The `{username}.json` file contains the user's profile data, all repositories hosted on the user's account (forked and not), all commit data (including commit messages to any repositories hosted on the user's account), as well as following and followers data. The `date_filter` will only be non-empty if a suspicious flag is raised (experimental, low confidence). The `commit_filter` will only be present if `--commit_search` flag was used.
+- The `{username}.json` file contains all repositories hosted on the user's account (forked and not) and all commit data (including commit messages to any repositories hosted on the user's account). The `date_filter` will only be non-empty if a suspicious flag is raised (experimental, low confidence). The `commit_filter` will only be present if `--commit_search` flag was used.
 
-- The `report.json` is built on top off `{username}.json` file. Additionally, it contains more of external data for profile, such as the user's pull requests created to any repository, as well as commits added to any repository (including repositories not hosted on the user's account). It also contains a list of `unique_emails` (emails of contributors to the user's hosted repositories) extracted from the commit data. Additionally, for easier access, followers/following data is repeated as a GitHub URL.
+- The `report.json` is built on top off `{username}.json` file. It contains profile, followers, following and additionally, more of external data for profile, such as the user's pull requests created to any repository, as well as commits added to any repository (including repositories not hosted on the user's account). It also contains a list of `unique_emails` (emails of contributors to the user's hosted repositories) extracted from the commit data.
 
 IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repository owner's emails. This list may include emails of external contributors to the repository or even completely spoofed emails. Copy the email address and search `{username}.json` for it to get the exact commit where e-mail was used. It may be far-detached from the account you're analyzing.
 

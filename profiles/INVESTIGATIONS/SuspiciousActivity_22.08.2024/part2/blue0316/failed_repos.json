@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "proto-laravel-single-vendor",
+        "clone_url": "https://github.com/blue0316/proto-laravel-single-vendor.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/blue0316/proto-laravel-single-vendor.git /home/user/Github/PRs/gh-fake-analyzer/out/blue0316/blue0316_proto-laravel-single-vendor.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/blue0316/blue0316_proto-laravel-single-vendor.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 2660 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "SorobanChunaav",
+        "clone_url": "https://github.com/Nakshatra05/SorobanChunaav.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/Nakshatra05/SorobanChunaav.git /home/user/Github/PRs/gh-fake-analyzer/out/Nakshatra05/Nakshatra05_SorobanChunaav.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/Nakshatra05/Nakshatra05_SorobanChunaav.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 7274 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

@@ -1,0 +1,1880 @@
+{
+    "repos": [
+        {
+            "id": 827988487,
+            "node_id": "R_kgDOMVoaBw",
+            "name": "alakise.github.io",
+            "full_name": "alakise/alakise.github.io",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/alakise.github.io",
+            "description": "Personal Space Invaders Themed Portfolio",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/alakise.github.io",
+            "created_at": "2024-07-12T20:30:52Z",
+            "updated_at": "2024-07-13T09:30:38Z",
+            "pushed_at": "2024-07-13T09:30:35Z",
+            "homepage": null,
+            "size": 6,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "HTML",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 202387508,
+            "node_id": "MDEwOlJlcG9zaXRvcnkyMDIzODc1MDg=",
+            "name": "Audio-Spectrogram",
+            "full_name": "alakise/Audio-Spectrogram",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/Audio-Spectrogram",
+            "description": "Generating sound spectrograms using short-time Fourier transform that can be used for purposes such as sound classification by machine learning algorithms.",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/Audio-Spectrogram",
+            "created_at": "2019-08-14T16:30:17Z",
+            "updated_at": "2024-09-12T13:19:50Z",
+            "pushed_at": "2021-05-09T12:29:37Z",
+            "homepage": "",
+            "size": 428,
+            "stargazers_count": 29,
+            "watchers_count": 29,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 7,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "audio-processing",
+                "machine-learning",
+                "matplotlib",
+                "numpy",
+                "python",
+                "python3",
+                "scipy"
+            ],
+            "visibility": "public",
+            "forks": 7,
+            "open_issues": 0,
+            "watchers": 29,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 261874881,
+            "node_id": "MDEwOlJlcG9zaXRvcnkyNjE4NzQ4ODE=",
+            "name": "bulma-floating-button",
+            "full_name": "alakise/bulma-floating-button",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/bulma-floating-button",
+            "description": "Bulma's extention for floating buttons.",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/bulma-floating-button",
+            "created_at": "2020-05-06T20:46:24Z",
+            "updated_at": "2024-09-09T21:20:20Z",
+            "pushed_at": "2024-07-23T20:04:56Z",
+            "homepage": null,
+            "size": 35,
+            "stargazers_count": 14,
+            "watchers_count": 14,
+            "language": "HTML",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 7,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "bulma",
+                "bulma-css",
+                "css",
+                "sass"
+            ],
+            "visibility": "public",
+            "forks": 7,
+            "open_issues": 0,
+            "watchers": 14,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 258015751,
+            "node_id": "MDEwOlJlcG9zaXRvcnkyNTgwMTU3NTE=",
+            "name": "bulma-grouped",
+            "full_name": "alakise/bulma-grouped",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/bulma-grouped",
+            "description": "Bulma's extension to create grouped cards and boxes",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/bulma-grouped",
+            "created_at": "2020-04-22T20:44:35Z",
+            "updated_at": "2020-04-29T14:16:55Z",
+            "pushed_at": "2020-04-29T14:16:52Z",
+            "homepage": "",
+            "size": 23,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "HTML",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "bulma",
+                "bulma-css",
+                "css",
+                "sass"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 835765519,
+            "node_id": "R_kgDOMdDFDw",
+            "name": "decentralized-pgp-key-server-contract",
+            "full_name": "alakise/decentralized-pgp-key-server-contract",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/decentralized-pgp-key-server-contract",
+            "description": "A decentralized PGP key server contract with trust scoring and attestation mechanisms.",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/decentralized-pgp-key-server-contract",
+            "created_at": "2024-07-30T13:41:57Z",
+            "updated_at": "2024-07-30T21:22:35Z",
+            "pushed_at": "2024-07-30T21:22:32Z",
+            "homepage": "",
+            "size": 289,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "ethereum",
+                "ethereum-contract",
+                "optimism",
+                "pgp",
+                "solidity"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 345638530,
+            "node_id": "MDEwOlJlcG9zaXRvcnkzNDU2Mzg1MzA=",
+            "name": "Heart-Disease",
+            "full_name": "alakise/Heart-Disease",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/Heart-Disease",
+            "description": "This study is the source code of the project named \"Building a Supportive Artificial Neural Network Model in the Diagnosis of Heart Disease\" presented at the 2021 Marmara University Student Congress. Check dataset on Kaggle or UCI.edu.",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/Heart-Disease",
+            "created_at": "2021-03-08T11:51:00Z",
+            "updated_at": "2024-05-06T13:05:07Z",
+            "pushed_at": "2021-06-01T20:31:32Z",
+            "homepage": "https://www.marmarastudentcongress.com/",
+            "size": 2397,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "language": "Jupyter Notebook",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "heart",
+                "keras",
+                "tensorflow"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 2,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 831002454,
+            "node_id": "R_kgDOMYgXVg",
+            "name": "MERN-Backend",
+            "full_name": "alakise/MERN-Backend",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/MERN-Backend",
+            "description": "Express.js based REST API for user authentication, profile management, and role management",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/MERN-Backend",
+            "created_at": "2024-07-19T12:43:12Z",
+            "updated_at": "2024-07-21T12:25:40Z",
+            "pushed_at": "2024-07-20T16:14:42Z",
+            "homepage": null,
+            "size": 77,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 829138656,
+            "node_id": "R_kgDOMWum4A",
+            "name": "PaymentManager",
+            "full_name": "alakise/PaymentManager",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/PaymentManager",
+            "description": "A Solidity smart contract for managing payments with security features and ownership control, developed using Hardhat.",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/PaymentManager",
+            "created_at": "2024-07-15T20:53:16Z",
+            "updated_at": "2024-07-16T14:17:56Z",
+            "pushed_at": "2024-07-15T20:55:15Z",
+            "homepage": "",
+            "size": 148,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "ethereum",
+                "ethersjs",
+                "hardhat",
+                "smart-contracts",
+                "solidity"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 556349247,
+            "node_id": "R_kgDOISk3Pw",
+            "name": "randomCNN-voice-transfer",
+            "full_name": "alakise/randomCNN-voice-transfer",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/randomCNN-voice-transfer",
+            "description": "Audio style transfer with shallow random parameters CNN. Result:  https://soundcloud.com/mazzzystar/sets/speech-conversion-sample",
+            "fork": true,
+            "url": "https://api.github.com/repos/alakise/randomCNN-voice-transfer",
+            "created_at": "2022-10-23T16:48:07Z",
+            "updated_at": "2024-07-12T20:24:03Z",
+            "pushed_at": "2021-04-09T08:14:44Z",
+            "homepage": "",
+            "size": 7745,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": true,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 829480611,
+            "node_id": "R_kgDOMXDeow",
+            "name": "YurtTraders",
+            "full_name": "alakise/YurtTraders",
+            "private": false,
+            "owner": {
+                "login": "alakise",
+                "id": 17834259,
+                "node_id": "MDQ6VXNlcjE3ODM0MjU5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/17834259?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/alakise",
+                "html_url": "https://github.com/alakise",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/alakise/YurtTraders",
+            "description": "YurtTraders is an advanced cryptocurrency trading bot with Web UI that scrapes Telegram channels that supports ETH, BNB, AVAX and more...",
+            "fork": false,
+            "url": "https://api.github.com/repos/alakise/YurtTraders",
+            "created_at": "2024-07-16T14:09:03Z",
+            "updated_at": "2024-07-16T16:47:32Z",
+            "pushed_at": "2024-07-16T16:47:28Z",
+            "homepage": "",
+            "size": 10462,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "CSS",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "avax",
+                "bnb-chain",
+                "ethereum",
+                "flask",
+                "python",
+                "scrapper-bot",
+                "telegram",
+                "telegram-bot",
+                "trade-bot",
+                "vuejs",
+                "web3"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "alakise.github.io": [
+            {
+                "sha": "911c8e56c80334e7872052f5a5fbf93a88c8a2e1",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-13T12:30:32+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-13T12:30:32+03:00"
+                    },
+                    "message": "Better look for CV\n"
+                },
+                "parents": [
+                    "abbaea859bf9497f3d5aaa9c4ccc178a697b98b7"
+                ],
+                "url": "https://github.com/alakise/alakisehub.io/commit/911c8e56c80334e7872052f5a5fbf93a88c8a2e1"
+            },
+            {
+                "sha": "abbaea859bf9497f3d5aaa9c4ccc178a697b98b7",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-12T23:50:41+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-12T23:50:41+03:00"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alakise/alakisehub.io/commit/abbaea859bf9497f3d5aaa9c4ccc178a697b98b7"
+            }
+        ],
+        "Audio-Spectrogram": [
+            {
+                "sha": "b093c1241a1827ae47eff48c489e4f34b8b87567",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2021-05-09T15:29:37+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2021-05-09T15:29:37+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "4705aad67d4e4bc5bd6b117a53575a84ba7e5902"
+                ],
+                "url": "https://github.com/alakise/Audio-Spectrogram/commit/b093c1241a1827ae47eff48c489e4f34b8b87567"
+            },
+            {
+                "sha": "4705aad67d4e4bc5bd6b117a53575a84ba7e5902",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-07-12T12:44:25+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-07-12T12:44:25+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "9d735f42285fa7fa3daa77e19afd10e5d66d60de"
+                ],
+                "url": "https://github.com/alakise/Audio-Spectrogram/commit/4705aad67d4e4bc5bd6b117a53575a84ba7e5902"
+            },
+            {
+                "sha": "9d735f42285fa7fa3daa77e19afd10e5d66d60de",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2019-08-18T14:34:44+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-08-18T14:34:44+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "8c1069a2e140e6605ee132d3b5fdf28c8e9f4d25"
+                ],
+                "url": "https://github.com/alakise/Audio-Spectrogram/commit/9d735f42285fa7fa3daa77e19afd10e5d66d60de"
+            },
+            {
+                "sha": "8c1069a2e140e6605ee132d3b5fdf28c8e9f4d25",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2019-08-15T19:03:43+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-08-15T19:03:43+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "5df24bbbe7147cf824d6eaa0de9200576e852741"
+                ],
+                "url": "https://github.com/alakise/Audio-Spectrogram/commit/8c1069a2e140e6605ee132d3b5fdf28c8e9f4d25"
+            },
+            {
+                "sha": "5df24bbbe7147cf824d6eaa0de9200576e852741",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2019-08-15T19:03:30+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-08-15T19:03:30+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "15b92a30478c8b77ffa3f7ed6d8451e95aa69a95"
+                ],
+                "url": "https://github.com/alakise/Audio-Spectrogram/commit/5df24bbbe7147cf824d6eaa0de9200576e852741"
+            },
+            {
+                "sha": "15b92a30478c8b77ffa3f7ed6d8451e95aa69a95",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2019-08-14T19:33:30+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2019-08-14T19:33:30+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a3f48784f7fde6da418f93870ef2e3767d1d057b"
+                ],
+                "url": "https://github.com/alakise/Audio-Spectrogram/commit/15b92a30478c8b77ffa3f7ed6d8451e95aa69a95"
+            },
+            {
+                "sha": "a3f48784f7fde6da418f93870ef2e3767d1d057b",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2019-08-14T19:31:33+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2019-08-14T19:31:33+03:00"
+                    },
+                    "message": "Added Files\n"
+                },
+                "parents": [
+                    "104db5275c2c2390679cdec5ed3710834060f9f8"
+                ],
+                "url": "https://github.com/alakise/Audio-Spectrogram/commit/a3f48784f7fde6da418f93870ef2e3767d1d057b"
+            },
+            {
+                "sha": "104db5275c2c2390679cdec5ed3710834060f9f8",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2019-08-14T19:29:46+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2019-08-14T19:29:46+03:00"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alakise/Audio-Spectrogram/commit/104db5275c2c2390679cdec5ed3710834060f9f8"
+            }
+        ],
+        "bulma-floating-button": [
+            {
+                "sha": "bb1ce00852837e6c3e104525ee3a424ff950b701",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-23T23:04:55+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-23T23:04:55+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "3286232b0b91ac772fba502ecde067c90b417b41"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/bb1ce00852837e6c3e104525ee3a424ff950b701"
+            },
+            {
+                "sha": "3286232b0b91ac772fba502ecde067c90b417b41",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2022-04-10T16:56:31+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-04-10T16:56:31+03:00"
+                    },
+                    "message": "Merge pull request #2 from Maxinoume/master\n\nFixed sass file class selector indentation"
+                },
+                "parents": [
+                    "b6e3d5038990f76511398365bd160c1a59a75072",
+                    "74faf03362278c45c68e53628a8e0614852c7dfb"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/3286232b0b91ac772fba502ecde067c90b417b41"
+            },
+            {
+                "sha": "74faf03362278c45c68e53628a8e0614852c7dfb",
+                "commit": {
+                    "author": {
+                        "name": "Maxime No\u00ebl",
+                        "email": "mnoel@hypershell.com",
+                        "date": "2022-04-06T17:37:57-04:00"
+                    },
+                    "committer": {
+                        "name": "Maxime No\u00ebl",
+                        "email": "mnoel@hypershell.com",
+                        "date": "2022-04-06T17:37:57-04:00"
+                    },
+                    "message": "Fixed sass file class selector indentation\n"
+                },
+                "parents": [
+                    "b6e3d5038990f76511398365bd160c1a59a75072"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/74faf03362278c45c68e53628a8e0614852c7dfb"
+            },
+            {
+                "sha": "b6e3d5038990f76511398365bd160c1a59a75072",
+                "commit": {
+                    "author": {
+                        "name": "alakise",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-09-22T14:19:11+03:00"
+                    },
+                    "committer": {
+                        "name": "alakise",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-09-22T14:19:11+03:00"
+                    },
+                    "message": "Version update\n"
+                },
+                "parents": [
+                    "bb58c65d7b3946497fdf2e139f731a22d17ba0f5"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/b6e3d5038990f76511398365bd160c1a59a75072"
+            },
+            {
+                "sha": "bb58c65d7b3946497fdf2e139f731a22d17ba0f5",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-09-22T10:02:50+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-09-22T10:02:50+03:00"
+                    },
+                    "message": "Merge pull request #1 from kserin/fix-nodesass-compilation\n\nFix sass compilation with node sass"
+                },
+                "parents": [
+                    "7d37d58bf7e0926b0da6c6211ed428ba69703e67",
+                    "9b407e5fb27ea26e5f377afe1c2d6a16ae3d2802"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/bb58c65d7b3946497fdf2e139f731a22d17ba0f5"
+            },
+            {
+                "sha": "9b407e5fb27ea26e5f377afe1c2d6a16ae3d2802",
+                "commit": {
+                    "author": {
+                        "name": "SERIN K\u00e9vin",
+                        "email": "kserin@toulouse.viveris.com",
+                        "date": "2020-09-21T10:04:31+02:00"
+                    },
+                    "committer": {
+                        "name": "SERIN K\u00e9vin",
+                        "email": "kserin@toulouse.viveris.com",
+                        "date": "2020-09-21T10:04:31+02:00"
+                    },
+                    "message": "Fix sass compilation with node sass\n"
+                },
+                "parents": [
+                    "7d37d58bf7e0926b0da6c6211ed428ba69703e67"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/9b407e5fb27ea26e5f377afe1c2d6a16ae3d2802"
+            },
+            {
+                "sha": "7d37d58bf7e0926b0da6c6211ed428ba69703e67",
+                "commit": {
+                    "author": {
+                        "name": "alakise",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-05-06T23:55:57+03:00"
+                    },
+                    "committer": {
+                        "name": "alakise",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-05-06T23:55:57+03:00"
+                    },
+                    "message": "Update README.md\n"
+                },
+                "parents": [
+                    "659abda911da18dfae8ed4173383cc69b902efc9"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/7d37d58bf7e0926b0da6c6211ed428ba69703e67"
+            },
+            {
+                "sha": "659abda911da18dfae8ed4173383cc69b902efc9",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-05-06T23:52:07+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-05-06T23:52:07+03:00"
+                    },
+                    "message": "Update package.json"
+                },
+                "parents": [
+                    "6a9a102d77455ad6559fb80432980f7562cf0219"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/659abda911da18dfae8ed4173383cc69b902efc9"
+            },
+            {
+                "sha": "6a9a102d77455ad6559fb80432980f7562cf0219",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-05-06T23:51:45+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-05-06T23:51:45+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "10b67c3cd30c82d4e4fe6252bedd3972fc45a243"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/6a9a102d77455ad6559fb80432980f7562cf0219"
+            },
+            {
+                "sha": "10b67c3cd30c82d4e4fe6252bedd3972fc45a243",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-05-06T23:48:39+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-05-06T23:48:39+03:00"
+                    },
+                    "message": "Update package.json"
+                },
+                "parents": [
+                    "9dca18bf94d99b2023999dd644d4027153958699"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/10b67c3cd30c82d4e4fe6252bedd3972fc45a243"
+            },
+            {
+                "sha": "9dca18bf94d99b2023999dd644d4027153958699",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-05-06T23:47:30+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-05-06T23:47:30+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "3096ec704b953ef50650ae10a7003aded67a5a5f"
+                ],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/9dca18bf94d99b2023999dd644d4027153958699"
+            },
+            {
+                "sha": "3096ec704b953ef50650ae10a7003aded67a5a5f",
+                "commit": {
+                    "author": {
+                        "name": "alakise",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-05-06T23:46:21+03:00"
+                    },
+                    "committer": {
+                        "name": "alakise",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-05-06T23:46:21+03:00"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alakise/bulma-floating-button/commit/3096ec704b953ef50650ae10a7003aded67a5a5f"
+            }
+        ],
+        "bulma-grouped": [
+            {
+                "sha": "6b9c367bfbc646af89ea1f8a086972d55f58abba",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-29T17:16:52+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-29T17:16:52+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "6da5eefe01cc20d8987f3c0b3375287cd670156f"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/6b9c367bfbc646af89ea1f8a086972d55f58abba"
+            },
+            {
+                "sha": "6da5eefe01cc20d8987f3c0b3375287cd670156f",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-29T17:11:35+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-29T17:11:35+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "baa13288b827ffc4130a54637aa4cffaef78dad2"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/6da5eefe01cc20d8987f3c0b3375287cd670156f"
+            },
+            {
+                "sha": "baa13288b827ffc4130a54637aa4cffaef78dad2",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-29T17:10:44+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-29T17:10:44+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "daca4ead58912458c0e349c46e95d7f8ebbe55e1"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/baa13288b827ffc4130a54637aa4cffaef78dad2"
+            },
+            {
+                "sha": "daca4ead58912458c0e349c46e95d7f8ebbe55e1",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-23T00:37:14+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-23T00:37:14+03:00"
+                    },
+                    "message": "Update package.json"
+                },
+                "parents": [
+                    "b35876cf9c34c3f9b70a7235956e40481f9cb800"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/daca4ead58912458c0e349c46e95d7f8ebbe55e1"
+            },
+            {
+                "sha": "b35876cf9c34c3f9b70a7235956e40481f9cb800",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-23T00:36:43+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-23T00:36:43+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "2e978085f02cfe33793b3843db091f6f767f4012"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/b35876cf9c34c3f9b70a7235956e40481f9cb800"
+            },
+            {
+                "sha": "2e978085f02cfe33793b3843db091f6f767f4012",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "safa@alakise.com",
+                        "date": "2020-04-23T00:34:27+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "safa@alakise.com",
+                        "date": "2020-04-23T00:34:27+03:00"
+                    },
+                    "message": "Merge branch 'master' of https://github.com/alakise/bulma-grouped\n"
+                },
+                "parents": [
+                    "7bf80871af96a6aa38f6d5cb636b5639ec8b4bde",
+                    "0c878e71aa58e604db394da0fe5a2526ef41ee7b"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/2e978085f02cfe33793b3843db091f6f767f4012"
+            },
+            {
+                "sha": "7bf80871af96a6aa38f6d5cb636b5639ec8b4bde",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "safa@alakise.com",
+                        "date": "2020-04-23T00:34:10+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "safa@alakise.com",
+                        "date": "2020-04-23T00:34:10+03:00"
+                    },
+                    "message": "Update package.json\n"
+                },
+                "parents": [
+                    "4d7efbc02830873eb9fd0b03770fd08f4e41cb6c"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/7bf80871af96a6aa38f6d5cb636b5639ec8b4bde"
+            },
+            {
+                "sha": "0c878e71aa58e604db394da0fe5a2526ef41ee7b",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-23T00:34:00+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-23T00:34:00+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "4d7efbc02830873eb9fd0b03770fd08f4e41cb6c"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/0c878e71aa58e604db394da0fe5a2526ef41ee7b"
+            },
+            {
+                "sha": "4d7efbc02830873eb9fd0b03770fd08f4e41cb6c",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-23T00:29:38+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-23T00:29:38+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e04b0474bd5c9c573af4684ab62d0a27bd49793d"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/4d7efbc02830873eb9fd0b03770fd08f4e41cb6c"
+            },
+            {
+                "sha": "e04b0474bd5c9c573af4684ab62d0a27bd49793d",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-23T00:28:47+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-23T00:28:47+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "8327d1948176441ff1d6ad57a9e8099687af74fc"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/e04b0474bd5c9c573af4684ab62d0a27bd49793d"
+            },
+            {
+                "sha": "8327d1948176441ff1d6ad57a9e8099687af74fc",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-23T00:28:22+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-23T00:28:22+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f048634b2241072321496a27f91743f3a8dcd095"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/8327d1948176441ff1d6ad57a9e8099687af74fc"
+            },
+            {
+                "sha": "f048634b2241072321496a27f91743f3a8dcd095",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "safa@alakise.com",
+                        "date": "2020-04-23T00:05:04+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "safa@alakise.com",
+                        "date": "2020-04-23T00:05:04+03:00"
+                    },
+                    "message": "Update package.json\n"
+                },
+                "parents": [
+                    "c384d36cc00367968b3b9c6226c3d08e31c566e4"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/f048634b2241072321496a27f91743f3a8dcd095"
+            },
+            {
+                "sha": "c384d36cc00367968b3b9c6226c3d08e31c566e4",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-22T23:53:22+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-22T23:53:22+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "d73abd4a9329e5938bab80e2eb8f0a85e997e233"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/c384d36cc00367968b3b9c6226c3d08e31c566e4"
+            },
+            {
+                "sha": "d73abd4a9329e5938bab80e2eb8f0a85e997e233",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@outlook.com",
+                        "date": "2020-04-22T23:47:15+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2020-04-22T23:47:15+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "d54204549fb6134728ee61bfb6b7e2ae053590a7"
+                ],
+                "url": "https://github.com/alakise/bulma-grouped/commit/d73abd4a9329e5938bab80e2eb8f0a85e997e233"
+            },
+            {
+                "sha": "d54204549fb6134728ee61bfb6b7e2ae053590a7",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "safa@alakise.com",
+                        "date": "2020-04-22T23:43:25+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "safa@alakise.com",
+                        "date": "2020-04-22T23:43:25+03:00"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alakise/bulma-grouped/commit/d54204549fb6134728ee61bfb6b7e2ae053590a7"
+            }
+        ],
+        "decentralized-pgp-key-server-contract": [
+            {
+                "sha": "c6f990fa8c290ed8b26254f50b406b1323230d37",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-31T00:22:32+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-31T00:22:32+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "99ef0d213da063577095bb6c33e586bd91f4c587"
+                ],
+                "url": "https://github.com/alakise/decentralized-pgp-key-server-contract/commit/c6f990fa8c290ed8b26254f50b406b1323230d37"
+            },
+            {
+                "sha": "99ef0d213da063577095bb6c33e586bd91f4c587",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-31T00:18:42+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-31T00:18:42+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "6ecf2c0eda2cd4969f413c3a8b712d11c8ab1751"
+                ],
+                "url": "https://github.com/alakise/decentralized-pgp-key-server-contract/commit/99ef0d213da063577095bb6c33e586bd91f4c587"
+            },
+            {
+                "sha": "6ecf2c0eda2cd4969f413c3a8b712d11c8ab1751",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-31T00:16:09+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-31T00:16:09+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "b358b9c9cbad37c15675ecf16cdde4c65fb762f6"
+                ],
+                "url": "https://github.com/alakise/decentralized-pgp-key-server-contract/commit/6ecf2c0eda2cd4969f413c3a8b712d11c8ab1751"
+            },
+            {
+                "sha": "b358b9c9cbad37c15675ecf16cdde4c65fb762f6",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-31T00:15:35+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-31T00:15:35+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "872f883146267945a6dc265ccfd05f94bb943b3e"
+                ],
+                "url": "https://github.com/alakise/decentralized-pgp-key-server-contract/commit/b358b9c9cbad37c15675ecf16cdde4c65fb762f6"
+            },
+            {
+                "sha": "872f883146267945a6dc265ccfd05f94bb943b3e",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-30T16:42:59+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-30T16:42:59+03:00"
+                    },
+                    "message": "Contract & Tests initiated.\n\n-Contract created\n-Test suite written\n-Deployment script written\n-README.md written\n"
+                },
+                "parents": [
+                    "433525c576d55fee5206712702a668b3febc04ae"
+                ],
+                "url": "https://github.com/alakise/decentralized-pgp-key-server-contract/commit/872f883146267945a6dc265ccfd05f94bb943b3e"
+            },
+            {
+                "sha": "433525c576d55fee5206712702a668b3febc04ae",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-15T23:55:03+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-15T23:55:03+03:00"
+                    },
+                    "message": "Project created\n"
+                },
+                "parents": [
+                    "42b375bd74a5ee91f324825ccee89797f1026b13"
+                ],
+                "url": "https://github.com/alakise/decentralized-pgp-key-server-contract/commit/433525c576d55fee5206712702a668b3febc04ae"
+            },
+            {
+                "sha": "42b375bd74a5ee91f324825ccee89797f1026b13",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-15T23:53:07+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-15T23:53:07+03:00"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alakise/decentralized-pgp-key-server-contract/commit/42b375bd74a5ee91f324825ccee89797f1026b13"
+            }
+        ],
+        "MERN-Backend": [
+            {
+                "sha": "adb5f3fa8e4d725336de72874ca5eff3a02d1877",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-20T19:14:40+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-20T19:14:40+03:00"
+                    },
+                    "message": "Google login and improved error handling\n\nImplemented Google authentication in user.auth.js\nAdded more specific error messages for login and signup processes\nUpdated User model to accommodate Google-authenticated users\nModified existing login and signup routes to handle new error cases\n\nAPI Documentation:\n\nUpdated swagger.yaml to include new Google authentication endpoint\nAdded more specific error responses to existing endpoints\nImproved description of request/response structures\n\nSecurity enhancements:\n\nImproved password handling for non-Google users\nAdded checks to prevent conflicts between Google and non-Google accounts\n\nCode quality improvements:\n\nRefactored Login component for better readability and maintainability\nImproved error handling throughout the authentication flow\n"
+                },
+                "parents": [
+                    "9139ae2eb704d8e5b5b7a064a1eeeda540c72276"
+                ],
+                "url": "https://github.com/alakise/MERN-Backend/commit/adb5f3fa8e4d725336de72874ca5eff3a02d1877"
+            },
+            {
+                "sha": "9139ae2eb704d8e5b5b7a064a1eeeda540c72276",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-19T17:33:53+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-19T17:33:53+03:00"
+                    },
+                    "message": "Update swagger.yaml\n"
+                },
+                "parents": [
+                    "5df1e29ae7c300c6f03e86597f97f80f3ee7be37"
+                ],
+                "url": "https://github.com/alakise/MERN-Backend/commit/9139ae2eb704d8e5b5b7a064a1eeeda540c72276"
+            },
+            {
+                "sha": "5df1e29ae7c300c6f03e86597f97f80f3ee7be37",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-19T15:42:25+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-19T15:42:25+03:00"
+                    },
+                    "message": "Fix on documentation & added package description.\n"
+                },
+                "parents": [
+                    "3390bf0fba2968cdcaafc079d58109dac103bc61"
+                ],
+                "url": "https://github.com/alakise/MERN-Backend/commit/5df1e29ae7c300c6f03e86597f97f80f3ee7be37"
+            },
+            {
+                "sha": "3390bf0fba2968cdcaafc079d58109dac103bc61",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-19T15:40:00+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-19T15:40:00+03:00"
+                    },
+                    "message": "Implement unit testing and Swagger documentation\n\n- Add Jest and Supertest for comprehensive unit testing\n  - Create test suite for user routes (auth, CRUD operations)\n  - Mock authentication and authorization middleware\n  - Test admin and moderator level access control\n\n- Integrate Swagger for API documentation\n  - Set up Swagger UI for interactive API exploration\n  - Configure Swagger in app.js with OpenAPI 3.1.0 specification\n  - Document API endpoints using JSDoc comments in route files\n\n- Update project structure and dependencies\n  - Organize files into appropriate directories (auth, config, controller, etc.)\n  - Use Yarn as the package manager\n  - Update README.md with accurate project information and setup instructions\n\n- Enhance error handling and input validation in user controller\n\n- Implement role-based access control (User, Moderator, Admin)\n"
+                },
+                "parents": [
+                    "27da1bb5b9e578a61cd74fed7e84779d932bb1d0"
+                ],
+                "url": "https://github.com/alakise/MERN-Backend/commit/3390bf0fba2968cdcaafc079d58109dac103bc61"
+            },
+            {
+                "sha": "27da1bb5b9e578a61cd74fed7e84779d932bb1d0",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-19T13:24:29+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-19T13:24:29+03:00"
+                    },
+                    "message": "Initial commit + basic functions.\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alakise/MERN-Backend/commit/27da1bb5b9e578a61cd74fed7e84779d932bb1d0"
+            }
+        ],
+        "PaymentManager": [
+            {
+                "sha": "433525c576d55fee5206712702a668b3febc04ae",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-15T23:55:03+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-15T23:55:03+03:00"
+                    },
+                    "message": "Project created\n"
+                },
+                "parents": [
+                    "42b375bd74a5ee91f324825ccee89797f1026b13"
+                ],
+                "url": "https://github.com/alakise/PaymentManager/commit/433525c576d55fee5206712702a668b3febc04ae"
+            },
+            {
+                "sha": "42b375bd74a5ee91f324825ccee89797f1026b13",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-15T23:53:07+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-15T23:53:07+03:00"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alakise/PaymentManager/commit/42b375bd74a5ee91f324825ccee89797f1026b13"
+            }
+        ],
+        "YurtTraders": [
+            {
+                "sha": "8a750c594057c984a77230666c2b26c51f213933",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-16T19:47:28+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-16T19:47:28+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "57d5c58dc6bc3fdd20928d30ebe320a016b9036e"
+                ],
+                "url": "https://github.com/alakise/YurtTraders/commit/8a750c594057c984a77230666c2b26c51f213933"
+            },
+            {
+                "sha": "57d5c58dc6bc3fdd20928d30ebe320a016b9036e",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-16T18:44:46+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-16T18:44:46+02:00"
+                    },
+                    "message": "Merge pull request #1 from alakise/alakise-patch-1\n\nUpdate README.md"
+                },
+                "parents": [
+                    "dd32e480a5266acf43574e929ea3ede3035d9a08",
+                    "ee0a7d44f7ddedcbb358ac7b1340e74623b2cd64"
+                ],
+                "url": "https://github.com/alakise/YurtTraders/commit/57d5c58dc6bc3fdd20928d30ebe320a016b9036e"
+            },
+            {
+                "sha": "ee0a7d44f7ddedcbb358ac7b1340e74623b2cd64",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-16T19:44:27+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-16T19:44:27+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "dd32e480a5266acf43574e929ea3ede3035d9a08"
+                ],
+                "url": "https://github.com/alakise/YurtTraders/commit/ee0a7d44f7ddedcbb358ac7b1340e74623b2cd64"
+            },
+            {
+                "sha": "dd32e480a5266acf43574e929ea3ede3035d9a08",
+                "commit": {
+                    "author": {
+                        "name": "M. Safa Do\u011fan, MD",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-16T19:44:12+03:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-16T19:44:12+03:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "bc4e5a260ef6e24a63e34bdb2a2cf47643c5850d"
+                ],
+                "url": "https://github.com/alakise/YurtTraders/commit/dd32e480a5266acf43574e929ea3ede3035d9a08"
+            },
+            {
+                "sha": "bc4e5a260ef6e24a63e34bdb2a2cf47643c5850d",
+                "commit": {
+                    "author": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-16T17:08:54+03:00"
+                    },
+                    "committer": {
+                        "name": "Mustafa Safa Do\u011fan",
+                        "email": "mustafasafadogan@icloud.com",
+                        "date": "2024-07-16T17:08:54+03:00"
+                    },
+                    "message": "Mega Commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/alakise/YurtTraders/commit/bc4e5a260ef6e24a63e34bdb2a2cf47643c5850d"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "alakise.github.io": [
+            "Better look for CV\n",
+            "Initial commit\n"
+        ],
+        "Audio-Spectrogram": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Added Files\n",
+            "Initial commit\n"
+        ],
+        "bulma-floating-button": [
+            "Update README.md",
+            "Merge pull request #2 from Maxinoume/master\n\nFixed sass file class selector indentation",
+            "Fixed sass file class selector indentation\n",
+            "Version update\n",
+            "Merge pull request #1 from kserin/fix-nodesass-compilation\n\nFix sass compilation with node sass",
+            "Fix sass compilation with node sass\n",
+            "Update README.md\n",
+            "Update package.json",
+            "Update README.md",
+            "Update package.json",
+            "Update README.md",
+            "Initial commit\n"
+        ],
+        "bulma-grouped": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update package.json",
+            "Update README.md",
+            "Merge branch 'master' of https://github.com/alakise/bulma-grouped\n",
+            "Update package.json\n",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update package.json\n",
+            "Update README.md",
+            "Update README.md",
+            "Initial commit\n"
+        ],
+        "decentralized-pgp-key-server-contract": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Contract & Tests initiated.\n\n-Contract created\n-Test suite written\n-Deployment script written\n-README.md written\n",
+            "Project created\n",
+            "Initial commit\n"
+        ],
+        "MERN-Backend": [
+            "Google login and improved error handling\n\nImplemented Google authentication in user.auth.js\nAdded more specific error messages for login and signup processes\nUpdated User model to accommodate Google-authenticated users\nModified existing login and signup routes to handle new error cases\n\nAPI Documentation:\n\nUpdated swagger.yaml to include new Google authentication endpoint\nAdded more specific error responses to existing endpoints\nImproved description of request/response structures\n\nSecurity enhancements:\n\nImproved password handling for non-Google users\nAdded checks to prevent conflicts between Google and non-Google accounts\n\nCode quality improvements:\n\nRefactored Login component for better readability and maintainability\nImproved error handling throughout the authentication flow\n",
+            "Update swagger.yaml\n",
+            "Fix on documentation & added package description.\n",
+            "Implement unit testing and Swagger documentation\n\n- Add Jest and Supertest for comprehensive unit testing\n  - Create test suite for user routes (auth, CRUD operations)\n  - Mock authentication and authorization middleware\n  - Test admin and moderator level access control\n\n- Integrate Swagger for API documentation\n  - Set up Swagger UI for interactive API exploration\n  - Configure Swagger in app.js with OpenAPI 3.1.0 specification\n  - Document API endpoints using JSDoc comments in route files\n\n- Update project structure and dependencies\n  - Organize files into appropriate directories (auth, config, controller, etc.)\n  - Use Yarn as the package manager\n  - Update README.md with accurate project information and setup instructions\n\n- Enhance error handling and input validation in user controller\n\n- Implement role-based access control (User, Moderator, Admin)\n",
+            "Initial commit + basic functions.\n"
+        ],
+        "PaymentManager": [
+            "Project created\n",
+            "Initial commit\n"
+        ],
+        "YurtTraders": [
+            "Update README.md",
+            "Merge pull request #1 from alakise/alakise-patch-1\n\nUpdate README.md",
+            "Update README.md",
+            "Update README.md",
+            "Mega Commit\n"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

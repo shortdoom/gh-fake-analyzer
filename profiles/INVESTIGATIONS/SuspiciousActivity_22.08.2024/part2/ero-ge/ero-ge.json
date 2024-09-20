@@ -1,0 +1,490 @@
+{
+    "repos": [
+        {
+            "id": 776757789,
+            "node_id": "R_kgDOLkxiHQ",
+            "name": "bordrline",
+            "full_name": "ero-ge/bordrline",
+            "private": false,
+            "owner": {
+                "login": "ero-ge",
+                "id": 155702764,
+                "node_id": "U_kgDOCUfV7A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/155702764?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ero-ge",
+                "html_url": "https://github.com/ero-ge",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ero-ge/bordrline",
+            "description": "Config files for my GitHub profile.",
+            "fork": false,
+            "url": "https://api.github.com/repos/ero-ge/bordrline",
+            "created_at": "2024-03-24T12:10:08Z",
+            "updated_at": "2024-03-31T11:16:22Z",
+            "pushed_at": "2024-04-04T07:59:03Z",
+            "homepage": "https://github.com/bordrline",
+            "size": 11,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "config",
+                "github-config"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 776748269,
+            "node_id": "R_kgDOLkw87Q",
+            "name": "hai",
+            "full_name": "ero-ge/hai",
+            "private": false,
+            "owner": {
+                "login": "ero-ge",
+                "id": 155702764,
+                "node_id": "U_kgDOCUfV7A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/155702764?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ero-ge",
+                "html_url": "https://github.com/ero-ge",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ero-ge/hai",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/ero-ge/hai",
+            "created_at": "2024-03-24T11:35:30Z",
+            "updated_at": "2024-03-31T15:13:24Z",
+            "pushed_at": "2024-03-24T12:10:53Z",
+            "homepage": null,
+            "size": 5,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 2,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "bordrline": [
+            {
+                "sha": "0435f1c6c0646f381f5c7f7d3e9a40ece0577d59",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-04-04T15:59:03+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-04T15:59:03+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "cc51959301069b60371b2aadbf16025e865626ac"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/0435f1c6c0646f381f5c7f7d3e9a40ece0577d59"
+            },
+            {
+                "sha": "cc51959301069b60371b2aadbf16025e865626ac",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-28T19:29:07+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-28T19:29:07+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "70b195204d1242d69225a93098ad991ec0ee5e66"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/cc51959301069b60371b2aadbf16025e865626ac"
+            },
+            {
+                "sha": "70b195204d1242d69225a93098ad991ec0ee5e66",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-28T19:28:56+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-28T19:28:56+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "871750e45cea34366c7834e956ddd03e90c5c4f7"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/70b195204d1242d69225a93098ad991ec0ee5e66"
+            },
+            {
+                "sha": "871750e45cea34366c7834e956ddd03e90c5c4f7",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-28T16:28:54+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-28T16:28:54+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "426d53c1c1a81f03bdea451d75189edf6b93580b"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/871750e45cea34366c7834e956ddd03e90c5c4f7"
+            },
+            {
+                "sha": "426d53c1c1a81f03bdea451d75189edf6b93580b",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-28T14:01:29+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-28T14:01:29+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "2b5367bfaba783051009b8b53f9e48a44aa6b5f9"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/426d53c1c1a81f03bdea451d75189edf6b93580b"
+            },
+            {
+                "sha": "2b5367bfaba783051009b8b53f9e48a44aa6b5f9",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-28T05:22:56+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-28T05:22:56+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "dca4cb6f983b2b311359ae075e6ea1049d336235"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/2b5367bfaba783051009b8b53f9e48a44aa6b5f9"
+            },
+            {
+                "sha": "dca4cb6f983b2b311359ae075e6ea1049d336235",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T20:17:13+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T20:17:13+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "85a8e38dd9571b5cebce8ca54346df8a18364217"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/dca4cb6f983b2b311359ae075e6ea1049d336235"
+            },
+            {
+                "sha": "85a8e38dd9571b5cebce8ca54346df8a18364217",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T20:13:52+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T20:13:52+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "7017214a7b5b08123c8208c24aa30a2319dccc18"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/85a8e38dd9571b5cebce8ca54346df8a18364217"
+            },
+            {
+                "sha": "7017214a7b5b08123c8208c24aa30a2319dccc18",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T20:12:40+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T20:12:40+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "fae9c9916d9cb3ca267337eebcb51fa41d18d444"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/7017214a7b5b08123c8208c24aa30a2319dccc18"
+            },
+            {
+                "sha": "fae9c9916d9cb3ca267337eebcb51fa41d18d444",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T20:12:05+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T20:12:05+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "2a11bc738365c4126a544f34e075ed1cfb8aa6ec"
+                ],
+                "url": "https://github.com/ero-ge/bordrline/commit/fae9c9916d9cb3ca267337eebcb51fa41d18d444"
+            },
+            {
+                "sha": "2a11bc738365c4126a544f34e075ed1cfb8aa6ec",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T20:10:24+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T20:10:24+08:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [],
+                "url": "https://github.com/ero-ge/bordrline/commit/2a11bc738365c4126a544f34e075ed1cfb8aa6ec"
+            }
+        ],
+        "hai": [
+            {
+                "sha": "f14fe4ef0beaa9ed56266b3150fb5f7df6670238",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T20:10:52+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T20:10:52+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "b8de922ebc326f72074c6d8c71b575042cbade73"
+                ],
+                "url": "https://github.com/ero-ge/hai/commit/f14fe4ef0beaa9ed56266b3150fb5f7df6670238"
+            },
+            {
+                "sha": "b8de922ebc326f72074c6d8c71b575042cbade73",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T20:03:46+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T20:03:46+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "3f0767a722fda34b744b9b88c34561802337384b"
+                ],
+                "url": "https://github.com/ero-ge/hai/commit/b8de922ebc326f72074c6d8c71b575042cbade73"
+            },
+            {
+                "sha": "3f0767a722fda34b744b9b88c34561802337384b",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T20:03:20+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T20:03:20+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "4154b328d5a62337a2af771bf2c55dc3bd04e96e"
+                ],
+                "url": "https://github.com/ero-ge/hai/commit/3f0767a722fda34b744b9b88c34561802337384b"
+            },
+            {
+                "sha": "4154b328d5a62337a2af771bf2c55dc3bd04e96e",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T19:53:45+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T19:53:45+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "73ff7c8871c41261d87fb1c018069adad9cca154"
+                ],
+                "url": "https://github.com/ero-ge/hai/commit/4154b328d5a62337a2af771bf2c55dc3bd04e96e"
+            },
+            {
+                "sha": "73ff7c8871c41261d87fb1c018069adad9cca154",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T19:42:50+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T19:42:50+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "3e2de284bec9843cd66d17ca753b9374f40de5e0"
+                ],
+                "url": "https://github.com/ero-ge/hai/commit/73ff7c8871c41261d87fb1c018069adad9cca154"
+            },
+            {
+                "sha": "3e2de284bec9843cd66d17ca753b9374f40de5e0",
+                "commit": {
+                    "author": {
+                        "name": "bordrline",
+                        "email": "155702764+bordrline@users.noreply.github.com",
+                        "date": "2024-03-24T19:35:30+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-24T19:35:30+08:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/ero-ge/hai/commit/3e2de284bec9843cd66d17ca753b9374f40de5e0"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "bordrline": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Create README.md"
+        ],
+        "hai": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Initial commit"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "repo_name": "liga-socer-template",
+        "clone_url": "https://github.com/GoldenDev176743/liga-socer-template.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/GoldenDev176743/liga-socer-template.git /home/user/Github/PRs/gh-fake-analyzer/out/GoldenDev176743/GoldenDev176743_liga-socer-template.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/GoldenDev176743/GoldenDev176743_liga-socer-template.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 4096 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Online-Football-Game",
+        "clone_url": "https://github.com/GoldenDev176743/Online-Football-Game.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/GoldenDev176743/Online-Football-Game.git /home/user/Github/PRs/gh-fake-analyzer/out/GoldenDev176743/GoldenDev176743_Online-Football-Game.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/GoldenDev176743/GoldenDev176743_Online-Football-Game.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 4164 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

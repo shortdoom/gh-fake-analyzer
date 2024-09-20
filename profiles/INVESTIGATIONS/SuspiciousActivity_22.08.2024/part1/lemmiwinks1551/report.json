@@ -1,0 +1,247 @@
+{
+    "profile_info": {
+        "login": "lemmiwinks1551",
+        "id": 94862109,
+        "node_id": "U_kgDOBad7HQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/94862109?v=4",
+        "html_url": "https://github.com/lemmiwinks1551",
+        "type": "User",
+        "site_admin": false,
+        "name": "Kirill",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 25,
+        "public_gists": 0,
+        "followers": 37,
+        "following": 37,
+        "created_at": "2021-11-22T17:57:40Z",
+        "updated_at": "2024-07-16T07:41:42Z"
+    },
+    "original_repos_count": 24,
+    "forked_repos_count": 1,
+    "unique_emails": {
+        "ananevka@mail.ru": "kirill",
+        "94862109+lemmiwinks1551@users.noreply.github.com": "kirill",
+        "noreply@github.com": "GitHub"
+    },
+    "mutual_followers": [
+        "charles0830",
+        "Charles-Chrismann",
+        "dougkalash",
+        "mustafacagri",
+        "IDouble",
+        "arjuncvinod",
+        "jarvis-acv",
+        "Sam666O",
+        "bluebinky",
+        "kenjinote",
+        "adonis0302",
+        "arsg0etia",
+        "sara8086",
+        "winnerdev2012",
+        "mahseema",
+        "jahan5455",
+        "Rodrigo-Cn",
+        "seniorvuejsdeveloper",
+        "cedev935",
+        "SukeshRondla",
+        "RealDiligentDev",
+        "johnolson2219",
+        "Sahil4883",
+        "MooNMaN304",
+        "mitranaser",
+        "Youssefouah"
+    ],
+    "following": [
+        "https://github.com/dogriffiths",
+        "https://github.com/nisrulz",
+        "https://github.com/kenjinote",
+        "https://github.com/mustafacagri",
+        "https://github.com/mitchtabian",
+        "https://github.com/IDouble",
+        "https://github.com/sara8086",
+        "https://github.com/Youssefouah",
+        "https://github.com/SukeshRondla",
+        "https://github.com/arjuncvinod",
+        "https://github.com/codeWithCal",
+        "https://github.com/winnerdev2012",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/0vm",
+        "https://github.com/jarvis-acv",
+        "https://github.com/jrohitofficial",
+        "https://github.com/arsg0etia",
+        "https://github.com/Sahil4883",
+        "https://github.com/javier901",
+        "https://github.com/git0802",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/charles0830",
+        "https://github.com/johnolson2219",
+        "https://github.com/codemaster05330",
+        "https://github.com/jahan5455",
+        "https://github.com/cedev935",
+        "https://github.com/adonis0302",
+        "https://github.com/Sam666O",
+        "https://github.com/bluebinky",
+        "https://github.com/mitranaser",
+        "https://github.com/mahseema",
+        "https://github.com/olehrab",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/dougkalash",
+        "https://github.com/RealDiligentDev",
+        "https://github.com/cometsheepboy",
+        "https://github.com/MooNMaN304"
+    ],
+    "followers": [
+        "https://github.com/kenjinote",
+        "https://github.com/mustafacagri",
+        "https://github.com/IDouble",
+        "https://github.com/sara8086",
+        "https://github.com/Youssefouah",
+        "https://github.com/SukeshRondla",
+        "https://github.com/arjuncvinod",
+        "https://github.com/winnerdev2012",
+        "https://github.com/iEmaz",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/jarvis-acv",
+        "https://github.com/arsg0etia",
+        "https://github.com/Sahil4883",
+        "https://github.com/dprasuna",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/Makitey",
+        "https://github.com/charles0830",
+        "https://github.com/johnolson2219",
+        "https://github.com/cryptoforge318",
+        "https://github.com/tigerhunter318",
+        "https://github.com/warmice71",
+        "https://github.com/jahan5455",
+        "https://github.com/Nakshatra05",
+        "https://github.com/cedev935",
+        "https://github.com/adonis0302",
+        "https://github.com/Sam666O",
+        "https://github.com/bluebinky",
+        "https://github.com/mitranaser",
+        "https://github.com/mahseema",
+        "https://github.com/samarjitsahoo",
+        "https://github.com/AI0228",
+        "https://github.com/darkhorse0311",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/dougkalash",
+        "https://github.com/RealDiligentDev",
+        "https://github.com/MooNMaN304",
+        "https://github.com/xopaz"
+    ],
+    "repo_list": [
+        "Battleship",
+        "BeerAdviser",
+        "BullsAndCows",
+        "Calendar",
+        "CoffeeMachine",
+        "CourseraCalculatorApp",
+        "Duck",
+        "Exam",
+        "HomeWork2Fragments",
+        "HomeWorkPoem",
+        "HomeWorkStyles",
+        "InputOutputStream",
+        "My-Messenger",
+        "MySchedule",
+        "MyScheduleServer",
+        "Shedule",
+        "SQLite",
+        "SQLiteHelper",
+        "Starbuzz",
+        "Stopwatch",
+        "tictactoe",
+        "TwoFragmentsExample",
+        "ViewPager2",
+        "Workout"
+    ],
+    "forked_repo_list": [
+        "intro-to-github"
+    ],
+    "contributors": {
+        "Battleship": [
+            "lemmiwinks1551"
+        ],
+        "BeerAdviser": [
+            "lemmiwinks1551"
+        ],
+        "BullsAndCows": [
+            "lemmiwinks1551"
+        ],
+        "Calendar": [
+            "lemmiwinks1551"
+        ],
+        "CoffeeMachine": [
+            "lemmiwinks1551"
+        ],
+        "CourseraCalculatorApp": [
+            "lemmiwinks1551"
+        ],
+        "Duck": [
+            "lemmiwinks1551"
+        ],
+        "Exam": [
+            "lemmiwinks1551"
+        ],
+        "HomeWork2Fragments": [
+            "lemmiwinks1551"
+        ],
+        "HomeWorkPoem": [
+            "lemmiwinks1551"
+        ],
+        "HomeWorkStyles": [
+            "lemmiwinks1551"
+        ],
+        "InputOutputStream": [
+            "lemmiwinks1551"
+        ],
+        "My-Messenger": [
+            "lemmiwinks1551"
+        ],
+        "MySchedule": [
+            "lemmiwinks1551"
+        ],
+        "MyScheduleServer": [
+            "lemmiwinks1551"
+        ],
+        "Shedule": [
+            "lemmiwinks1551"
+        ],
+        "SQLite": [
+            "lemmiwinks1551"
+        ],
+        "SQLiteHelper": [
+            "lemmiwinks1551"
+        ],
+        "Starbuzz": [
+            "lemmiwinks1551"
+        ],
+        "Stopwatch": [
+            "lemmiwinks1551"
+        ],
+        "tictactoe": [
+            "lemmiwinks1551"
+        ],
+        "TwoFragmentsExample": [
+            "lemmiwinks1551"
+        ],
+        "ViewPager2": [
+            "lemmiwinks1551"
+        ],
+        "Workout": [
+            "lemmiwinks1551"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "hyperskill/intro-to-github": [
+            "https://github.com/hyperskill/intro-to-github/pull/1946"
+        ]
+    },
+    "commits_to_other_repos": {}
+}

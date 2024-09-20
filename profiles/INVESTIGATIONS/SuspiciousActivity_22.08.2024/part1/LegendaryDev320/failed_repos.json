@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "tradingview_laravel",
+        "clone_url": "https://github.com/LegendaryDev320/tradingview_laravel.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/LegendaryDev320/tradingview_laravel.git /home/user/Github/PRs/gh-fake-analyzer/out/LegendaryDev320/LegendaryDev320_tradingview_laravel.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/LegendaryDev320/LegendaryDev320_tradingview_laravel.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 4922 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

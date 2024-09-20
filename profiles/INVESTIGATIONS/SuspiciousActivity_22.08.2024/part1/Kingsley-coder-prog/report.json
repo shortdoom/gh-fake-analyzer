@@ -1,0 +1,216 @@
+{
+    "profile_info": {
+        "login": "Kingsley-coder-prog",
+        "id": 78315203,
+        "node_id": "MDQ6VXNlcjc4MzE1MjAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/78315203?v=4",
+        "html_url": "https://github.com/Kingsley-coder-prog",
+        "type": "User",
+        "site_admin": false,
+        "name": "BlockGem",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": "Software Engineer",
+        "twitter_username": null,
+        "public_repos": 43,
+        "public_gists": 0,
+        "followers": 19,
+        "following": 19,
+        "created_at": "2021-01-31T17:11:21Z",
+        "updated_at": "2024-08-18T20:57:21Z"
+    },
+    "original_repos_count": 42,
+    "forked_repos_count": 1,
+    "unique_emails": {
+        "you@example.com": "Your Name",
+        "78315203+Kingsley-coder-prog@users.noreply.github.com": "BlockGem",
+        "noreply@github.com": "GitHub",
+        "kifeanyi216@gmail.com": "BlockGem"
+    },
+    "mutual_followers": [
+        "mahseema",
+        "Omar95-A",
+        "digitalcrafted",
+        "gamemann",
+        "IDouble",
+        "arjuncvinod",
+        "olehrab",
+        "jarvis-acv",
+        "Sam666O",
+        "H-K-R"
+    ],
+    "following": [
+        "https://github.com/digitalcrafted",
+        "https://github.com/gamemann",
+        "https://github.com/IDouble",
+        "https://github.com/lorezi",
+        "https://github.com/OpenZeppelin",
+        "https://github.com/lukso-network",
+        "https://github.com/kayceeDev",
+        "https://github.com/i12cu84",
+        "https://github.com/karthik558",
+        "https://github.com/bpradiip",
+        "https://github.com/arjuncvinod",
+        "https://github.com/H-K-R",
+        "https://github.com/0vm",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Omar95-A",
+        "https://github.com/EatTheBlocks",
+        "https://github.com/Sam666O",
+        "https://github.com/mahseema",
+        "https://github.com/olehrab"
+    ],
+    "followers": [
+        "https://github.com/digitalcrafted",
+        "https://github.com/gamemann",
+        "https://github.com/mustafacagri",
+        "https://github.com/IDouble",
+        "https://github.com/arjuncvinod",
+        "https://github.com/H-K-R",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Omar95-A",
+        "https://github.com/Makitey",
+        "https://github.com/warmice71",
+        "https://github.com/Nakshatra05",
+        "https://github.com/Sam666O",
+        "https://github.com/mahseema",
+        "https://github.com/olehrab",
+        "https://github.com/AI0228",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/dougkalash",
+        "https://github.com/RealDiligentDev"
+    ],
+    "repo_list": [
+        "03-css-fundamentals",
+        "05-Design",
+        "07-Omnifood",
+        "a-new-vue-project",
+        "after-section-14",
+        "async-js",
+        "AU-Week4-Project",
+        "bfree-be-test",
+        "bfree-fe-test",
+        "crushing-tech-hackathon",
+        "dapp-school",
+        "DigMarket",
+        "fashion-store",
+        "Fintech-agency",
+        "food-recipe-app",
+        "go",
+        "graphql-crash-course",
+        "how-node-works",
+        "kimo_software",
+        "Mapty_App",
+        "marketing-website",
+        "Modern-JS",
+        "my-bank-app",
+        "my-vue-app",
+        "news-homepage-main",
+        "node-farm",
+        "nodejs-project",
+        "OOP",
+        "pig_game_starter",
+        "primegem",
+        "QRcode",
+        "React_JS",
+        "real-estate-assets",
+        "real-estate-website",
+        "responsive-ngo-website",
+        "smart-contract_movie-ticket-purchase",
+        "tech-hub-page",
+        "Trix-NFTMarketplace",
+        "Typescript",
+        "typescript-playground",
+        "vue-made-it",
+        "vue.js-basics"
+    ],
+    "forked_repo_list": [
+        "nft_marketplace"
+    ],
+    "contributors": {
+        "03-css-fundamentals": [
+            "Kingsley-coder-prog"
+        ],
+        "05-Design": [
+            "Kingsley-coder-prog"
+        ],
+        "07-Omnifood": [
+            "Kingsley-coder-prog"
+        ],
+        "after-section-14": [
+            "Kingsley-coder-prog"
+        ],
+        "AU-Week4-Project": [
+            "Kingsley-coder-prog"
+        ],
+        "bfree-be-test": [
+            "Kingsley-coder-prog"
+        ],
+        "bfree-fe-test": [
+            "Kingsley-coder-prog"
+        ],
+        "crushing-tech-hackathon": [
+            "Kingsley-coder-prog"
+        ],
+        "dapp-school": [
+            "Kingsley-coder-prog"
+        ],
+        "DigMarket": [
+            "Kingsley-coder-prog"
+        ],
+        "fashion-store": [
+            "Kingsley-coder-prog"
+        ],
+        "Fintech-agency": [
+            "Kingsley-coder-prog"
+        ],
+        "go": [
+            "Kingsley-coder-prog"
+        ],
+        "graphql-crash-course": [
+            "Kingsley-coder-prog"
+        ],
+        "kimo_software": [
+            "Kingsley-coder-prog"
+        ],
+        "my-vue-app": [
+            "Kingsley-coder-prog"
+        ],
+        "nodejs-project": [
+            "Kingsley-coder-prog"
+        ],
+        "pig_game_starter": [
+            "Kingsley-coder-prog"
+        ],
+        "primegem": [
+            "Kingsley-coder-prog"
+        ],
+        "React_JS": [
+            "Kingsley-coder-prog"
+        ],
+        "real-estate-assets": [
+            "Kingsley-coder-prog"
+        ],
+        "real-estate-website": [
+            "Kingsley-coder-prog"
+        ],
+        "smart-contract_movie-ticket-purchase": [
+            "Kingsley-coder-prog"
+        ],
+        "tech-hub-page": [
+            "Kingsley-coder-prog"
+        ],
+        "Typescript": [
+            "Kingsley-coder-prog"
+        ],
+        "typescript-playground": [
+            "Kingsley-coder-prog"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

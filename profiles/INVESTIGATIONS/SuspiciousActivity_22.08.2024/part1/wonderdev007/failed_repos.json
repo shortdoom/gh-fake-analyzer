@@ -1,0 +1,12 @@
+[
+    {
+        "repo_name": "online_book_store",
+        "clone_url": "https://github.com/wonderdev007/online_book_store.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/wonderdev007/online_book_store.git /home/user/Github/PRs/gh-fake-analyzer/out/wonderdev007/wonderdev007_online_book_store.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/wonderdev007/wonderdev007_online_book_store.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 30 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "React-Example",
+        "clone_url": "https://github.com/wonderdev007/React-Example.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/wonderdev007/React-Example.git /home/user/Github/PRs/gh-fake-analyzer/out/wonderdev007/wonderdev007_React-Example.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/wonderdev007/wonderdev007_React-Example.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 7955 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

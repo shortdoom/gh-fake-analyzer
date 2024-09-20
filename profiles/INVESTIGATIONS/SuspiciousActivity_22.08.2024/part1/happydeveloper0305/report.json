@@ -1,0 +1,151 @@
+{
+    "profile_info": {
+        "login": "happydeveloper0305",
+        "id": 139264742,
+        "node_id": "U_kgDOCE0C5g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139264742?v=4",
+        "html_url": "https://github.com/happydeveloper0305",
+        "type": "User",
+        "site_admin": false,
+        "name": "AI Developer ",
+        "company": null,
+        "blog": "luckdev2350@gmail.com",
+        "location": null,
+        "email": null,
+        "hireable": true,
+        "bio": "Hello, I am an OpenAI developer who has experience with ChatBot, Automation, Image Generator/Editor Platforms.",
+        "twitter_username": null,
+        "public_repos": 31,
+        "public_gists": 0,
+        "followers": 28,
+        "following": 24,
+        "created_at": "2023-07-11T18:02:46Z",
+        "updated_at": "2024-08-20T07:08:34Z"
+    },
+    "original_repos_count": 4,
+    "forked_repos_count": 27,
+    "unique_emails": {
+        "139264742+happydeveloper0305@users.noreply.github.com": "OpenAI Developer",
+        "noreply@github.com": "GitHub",
+        "happydeveloper0305@skiff.com": "happydeveloper0305",
+        "luckydev2350@gmail.com": "happydeveloper0305"
+    },
+    "mutual_followers": [
+        "gooddavvy",
+        "tsungtingkuo",
+        "suzukidavid",
+        "IDouble",
+        "jlmsdev"
+    ],
+    "following": [
+        "https://github.com/bluedeep",
+        "https://github.com/igorgai",
+        "https://github.com/tsungtingkuo",
+        "https://github.com/suzukidavid",
+        "https://github.com/IDouble",
+        "https://github.com/Zacer559",
+        "https://github.com/jlmsdev",
+        "https://github.com/chandredewet",
+        "https://github.com/AlvesBenvindo",
+        "https://github.com/devops-by-examples",
+        "https://github.com/Ged0oo",
+        "https://github.com/gooddavvy",
+        "https://github.com/luckyengineer053",
+        "https://github.com/dawidolko",
+        "https://github.com/softmax0112",
+        "https://github.com/PrinceGoblinTech",
+        "https://github.com/honey0820",
+        "https://github.com/alikazemzadeh76",
+        "https://github.com/PeterPan627",
+        "https://github.com/Brwonbear9241",
+        "https://github.com/rzzza5294",
+        "https://github.com/web-development-mern-stack",
+        "https://github.com/TryEverything920609",
+        "https://github.com/happydream9032"
+    ],
+    "followers": [
+        "https://github.com/mustafacagri",
+        "https://github.com/tsungtingkuo",
+        "https://github.com/suzukidavid",
+        "https://github.com/IDouble",
+        "https://github.com/eust-w",
+        "https://github.com/VISH01AL",
+        "https://github.com/famexfambo",
+        "https://github.com/MuhammadMujtabaa",
+        "https://github.com/jlmsdev",
+        "https://github.com/jacobsomer",
+        "https://github.com/spirit9100",
+        "https://github.com/hishammohamed101",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/vincentnderitu",
+        "https://github.com/cumsoft",
+        "https://github.com/gooddavvy",
+        "https://github.com/Aiden0801",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/fun-loving-otter",
+        "https://github.com/onetechwolf",
+        "https://github.com/fowardcoder",
+        "https://github.com/warmice71",
+        "https://github.com/enzocaudron",
+        "https://github.com/D4Fi",
+        "https://github.com/Nakshatra05",
+        "https://github.com/AI0228",
+        "https://github.com/undefined0000000",
+        "https://github.com/PassionPlus777"
+    ],
+    "repo_list": [
+        "butter_fish",
+        "happydeveloper0305",
+        "openai_python",
+        "workadventure"
+    ],
+    "forked_repo_list": [
+        "ai-summarizer",
+        "anything-llm",
+        "auth-js",
+        "cal.com",
+        "CopilotForXcode",
+        "danswer",
+        "deepscatter",
+        "effect",
+        "flyteconsole",
+        "generative-ai-for-beginners",
+        "glasgow",
+        "gpt4all",
+        "hyperdx",
+        "jax",
+        "kubeflow",
+        "langchain",
+        "langchain-experiments",
+        "langchainjs",
+        "LLM-Finetuning",
+        "LongLoRA",
+        "metaflow-ui",
+        "nanocl",
+        "nomic",
+        "novu",
+        "openstatus",
+        "passport-reader",
+        "roop"
+    ],
+    "contributors": {
+        "butter_fish": [
+            "happydeveloper0305"
+        ],
+        "happydeveloper0305": [
+            "happydeveloper0305"
+        ],
+        "openai_python": [
+            "happydeveloper0305"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {},
+    "potential_copy": [
+        {
+            "repo": "butter_fish",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-06-30T18:37:08-07:00"
+        }
+    ]
+}

@@ -1,0 +1,4246 @@
+{
+    "repos": [
+        {
+            "id": 766656319,
+            "node_id": "R_kgDOLbI_Pw",
+            "name": "airbnb-clone",
+            "full_name": "psuarezdev/airbnb-clone",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/airbnb-clone",
+            "description": "Monorepo Full Stack Airbnb Clone with React.js, Nest.js, Tailwind, Prisma, MongoDB",
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/airbnb-clone",
+            "created_at": "2024-03-03T21:09:13Z",
+            "updated_at": "2024-05-09T11:57:55Z",
+            "pushed_at": "2024-04-03T15:00:15Z",
+            "homepage": "",
+            "size": 456,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "TypeScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 837999821,
+            "node_id": "R_kgDOMfLczQ",
+            "name": "angular-ecommerce",
+            "full_name": "psuarezdev/angular-ecommerce",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/angular-ecommerce",
+            "description": "Fullstack E-Commerce: Angular, Express.js, MongoDB, Mongoose, Stripe and TailwindCSS",
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/angular-ecommerce",
+            "created_at": "2024-08-04T16:50:02Z",
+            "updated_at": "2024-08-08T22:56:07Z",
+            "pushed_at": "2024-08-04T19:11:05Z",
+            "homepage": "",
+            "size": 275,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "TypeScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 756117832,
+            "node_id": "R_kgDOLRFxSA",
+            "name": "discord-clone",
+            "full_name": "psuarezdev/discord-clone",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/discord-clone",
+            "description": "Fullstack Discord Clone: Next.js 14, TypeScript, PostgreSQL, Socket.io, Prisma, Tailwind",
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/discord-clone",
+            "created_at": "2024-02-12T01:13:47Z",
+            "updated_at": "2024-05-09T11:57:48Z",
+            "pushed_at": "2024-02-12T09:35:15Z",
+            "homepage": null,
+            "size": 165,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "TypeScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 812250287,
+            "node_id": "R_kgDOMGn0rw",
+            "name": "esprolama",
+            "full_name": "psuarezdev/esprolama",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/esprolama",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/esprolama",
+            "created_at": "2024-06-08T11:08:47Z",
+            "updated_at": "2024-08-05T12:50:23Z",
+            "pushed_at": "2024-06-18T20:55:06Z",
+            "homepage": null,
+            "size": 54,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 759013988,
+            "node_id": "R_kgDOLT2iZA",
+            "name": "express-api-starter",
+            "full_name": "psuarezdev/express-api-starter",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/express-api-starter",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/express-api-starter",
+            "created_at": "2024-02-17T18:20:25Z",
+            "updated_at": "2024-02-17T18:20:53Z",
+            "pushed_at": "2024-02-17T18:20:49Z",
+            "homepage": null,
+            "size": 25,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 760679319,
+            "node_id": "R_kgDOLVcLlw",
+            "name": "portfolio",
+            "full_name": "psuarezdev/portfolio",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/portfolio",
+            "description": "Personal portfolio (ESP)",
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/portfolio",
+            "created_at": "2024-02-20T18:28:56Z",
+            "updated_at": "2024-09-15T21:05:10Z",
+            "pushed_at": "2024-09-15T21:05:07Z",
+            "homepage": "https://psuarez.pages.dev/",
+            "size": 19510,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Astro",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 742827661,
+            "node_id": "R_kgDOLEamjQ",
+            "name": "psuarezdev",
+            "full_name": "psuarezdev/psuarezdev",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/psuarezdev",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/psuarezdev",
+            "created_at": "2024-01-13T13:45:37Z",
+            "updated_at": "2024-09-18T20:05:02Z",
+            "pushed_at": "2024-09-18T20:04:58Z",
+            "homepage": null,
+            "size": 121,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 761912988,
+            "node_id": "R_kgDOLWnenA",
+            "name": "reactjs-nestjs-starter",
+            "full_name": "psuarezdev/reactjs-nestjs-starter",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/reactjs-nestjs-starter",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/reactjs-nestjs-starter",
+            "created_at": "2024-02-22T18:10:52Z",
+            "updated_at": "2024-02-22T18:12:33Z",
+            "pushed_at": "2024-02-23T11:12:32Z",
+            "homepage": null,
+            "size": 150,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "TypeScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 773156979,
+            "node_id": "R_kgDOLhVwcw",
+            "name": "reddit-clone",
+            "full_name": "psuarezdev/reddit-clone",
+            "private": false,
+            "owner": {
+                "login": "psuarezdev",
+                "id": 104940521,
+                "node_id": "U_kgDOBkFD6Q",
+                "avatar_url": "https://avatars.githubusercontent.com/u/104940521?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/psuarezdev",
+                "html_url": "https://github.com/psuarezdev",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/psuarezdev/reddit-clone",
+            "description": "Fullstack Reddit Clone: Next.js 14, Next-Auth, TypeScript, PostgreSQL, TanStack Query, Prisma, Tailwind, Redis, Uploadthing",
+            "fork": false,
+            "url": "https://api.github.com/repos/psuarezdev/reddit-clone",
+            "created_at": "2024-03-16T22:41:01Z",
+            "updated_at": "2024-05-09T11:57:50Z",
+            "pushed_at": "2024-03-16T22:42:09Z",
+            "homepage": "",
+            "size": 123,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "TypeScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "airbnb-clone": [
+            {
+                "sha": "21c71d5614fff18929a89b7eb08d10e11d9b9d43",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-04-03T16:00:15+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-03T16:00:15+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "b91dd583aa58459dd8cfd13af69655113198787c"
+                ],
+                "url": "https://github.com/psuarezdev/airbnb-clone/commit/21c71d5614fff18929a89b7eb08d10e11d9b9d43"
+            },
+            {
+                "sha": "b91dd583aa58459dd8cfd13af69655113198787c",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-03-21T11:06:39+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-21T11:06:39+00:00"
+                    },
+                    "message": "Update auth.service.ts"
+                },
+                "parents": [
+                    "423a476ffd29cb81f66a4fe02e397e56ff30b94c"
+                ],
+                "url": "https://github.com/psuarezdev/airbnb-clone/commit/b91dd583aa58459dd8cfd13af69655113198787c"
+            },
+            {
+                "sha": "423a476ffd29cb81f66a4fe02e397e56ff30b94c",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-03-03T21:16:22+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-03T21:16:22+00:00"
+                    },
+                    "message": "Update app.module.ts"
+                },
+                "parents": [
+                    "94c3d1d24b63ff70034e77ead78ec6e2d0335b91"
+                ],
+                "url": "https://github.com/psuarezdev/airbnb-clone/commit/423a476ffd29cb81f66a4fe02e397e56ff30b94c"
+            },
+            {
+                "sha": "94c3d1d24b63ff70034e77ead78ec6e2d0335b91",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-03-03T21:15:48+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-03T21:15:48+00:00"
+                    },
+                    "message": "Update Listing.tsx"
+                },
+                "parents": [
+                    "e7427bd91a9739d47cfcd085e73a00fccff53858"
+                ],
+                "url": "https://github.com/psuarezdev/airbnb-clone/commit/94c3d1d24b63ff70034e77ead78ec6e2d0335b91"
+            },
+            {
+                "sha": "e7427bd91a9739d47cfcd085e73a00fccff53858",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-03T21:13:55+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-03T21:13:55+00:00"
+                    },
+                    "message": "final\n"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/airbnb-clone/commit/e7427bd91a9739d47cfcd085e73a00fccff53858"
+            }
+        ],
+        "angular-ecommerce": [
+            {
+                "sha": "285396380044ce3ad8121a537f95423f2e905d81",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-08-04T20:11:05+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-04T20:11:05+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "55926c1421c088545584f9e12984a83c2e415099"
+                ],
+                "url": "https://github.com/psuarezdev/angular-ecommerce/commit/285396380044ce3ad8121a537f95423f2e905d81"
+            },
+            {
+                "sha": "55926c1421c088545584f9e12984a83c2e415099",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-08-04T20:10:39+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-04T20:10:39+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "c499a675ddc8334628d29124063f7e5464345924"
+                ],
+                "url": "https://github.com/psuarezdev/angular-ecommerce/commit/55926c1421c088545584f9e12984a83c2e415099"
+            },
+            {
+                "sha": "c499a675ddc8334628d29124063f7e5464345924",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-08-04T17:53:49+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-04T17:53:49+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "53e16b218af503f4333c14034f5301d25e60fc61"
+                ],
+                "url": "https://github.com/psuarezdev/angular-ecommerce/commit/c499a675ddc8334628d29124063f7e5464345924"
+            },
+            {
+                "sha": "53e16b218af503f4333c14034f5301d25e60fc61",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-08-04T17:51:49+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-04T17:51:49+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "52ffa63cf17b8ec017fa5ecbc520b6b8c3a358af"
+                ],
+                "url": "https://github.com/psuarezdev/angular-ecommerce/commit/53e16b218af503f4333c14034f5301d25e60fc61"
+            },
+            {
+                "sha": "52ffa63cf17b8ec017fa5ecbc520b6b8c3a358af",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T17:50:30+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T17:50:30+01:00"
+                    },
+                    "message": "starter\n"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/angular-ecommerce/commit/52ffa63cf17b8ec017fa5ecbc520b6b8c3a358af"
+            }
+        ],
+        "discord-clone": [
+            {
+                "sha": "d5ff43ca066ca0770a2452e655ae2548d259ff0d",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-12T09:35:15+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-12T09:35:15+00:00"
+                    },
+                    "message": "Delete prisma/migrations directory"
+                },
+                "parents": [
+                    "75826cdb527978e6566207316dd4312dc291afac"
+                ],
+                "url": "https://github.com/psuarezdev/discord-clone/commit/d5ff43ca066ca0770a2452e655ae2548d259ff0d"
+            },
+            {
+                "sha": "75826cdb527978e6566207316dd4312dc291afac",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-12T01:21:06+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-12T01:21:06+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "94bbcdc61850beec9d051be81ac2ff399af1809d"
+                ],
+                "url": "https://github.com/psuarezdev/discord-clone/commit/75826cdb527978e6566207316dd4312dc291afac"
+            },
+            {
+                "sha": "94bbcdc61850beec9d051be81ac2ff399af1809d",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-12T01:15:00+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-12T01:15:00+00:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [
+                    "8168a8e6b41961d0e7333c7a79568816e2c1dbc5"
+                ],
+                "url": "https://github.com/psuarezdev/discord-clone/commit/94bbcdc61850beec9d051be81ac2ff399af1809d"
+            },
+            {
+                "sha": "8168a8e6b41961d0e7333c7a79568816e2c1dbc5",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-12T01:13:58+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-12T01:13:58+00:00"
+                    },
+                    "message": "final\n"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/discord-clone/commit/8168a8e6b41961d0e7333c7a79568816e2c1dbc5"
+            }
+        ],
+        "esprolama": [
+            {
+                "sha": "6e376b6f64f53d012b6827b4048fc89fa8e64226",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-17T22:49:46+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-17T22:49:46+01:00"
+                    },
+                    "message": "adding check icon to the descriptors\n"
+                },
+                "parents": [
+                    "1c78c50aed8b14c891d1d451e0bd3c4623805a19"
+                ],
+                "url": "https://github.com/psuarezdev/esprolama/commit/6e376b6f64f53d012b6827b4048fc89fa8e64226"
+            },
+            {
+                "sha": "1c78c50aed8b14c891d1d451e0bd3c4623805a19",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-13T20:21:33+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-13T20:21:33+01:00"
+                    },
+                    "message": "second production version\n"
+                },
+                "parents": [
+                    "f40a894209f20d854be59e303d3e50035945971f"
+                ],
+                "url": "https://github.com/psuarezdev/esprolama/commit/1c78c50aed8b14c891d1d451e0bd3c4623805a19"
+            },
+            {
+                "sha": "f40a894209f20d854be59e303d3e50035945971f",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-12T20:01:26+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-12T20:01:26+01:00"
+                    },
+                    "message": "finish form pagination\n"
+                },
+                "parents": [
+                    "7c55c3d0deeb81814f1127f1b3d693903a573684"
+                ],
+                "url": "https://github.com/psuarezdev/esprolama/commit/f40a894209f20d854be59e303d3e50035945971f"
+            },
+            {
+                "sha": "7c55c3d0deeb81814f1127f1b3d693903a573684",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-12T19:06:07+02:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-12T19:06:07+02:00"
+                    },
+                    "message": "first production version\n"
+                },
+                "parents": [
+                    "522fc11e202ce20a1916fe67a32f25fd5e59616b"
+                ],
+                "url": "https://github.com/psuarezdev/esprolama/commit/7c55c3d0deeb81814f1127f1b3d693903a573684"
+            },
+            {
+                "sha": "522fc11e202ce20a1916fe67a32f25fd5e59616b",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-11T13:01:12+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-11T13:01:12+01:00"
+                    },
+                    "message": "save before second meeting\n"
+                },
+                "parents": [
+                    "876752570b883f905b4f977993cdf505cb1f0410"
+                ],
+                "url": "https://github.com/psuarezdev/esprolama/commit/522fc11e202ce20a1916fe67a32f25fd5e59616b"
+            },
+            {
+                "sha": "876752570b883f905b4f977993cdf505cb1f0410",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-10T16:43:57+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-10T16:43:57+01:00"
+                    },
+                    "message": "save before metting\n"
+                },
+                "parents": [
+                    "3dd12447cae863630adb373dc89cecdb4f8d5a3b"
+                ],
+                "url": "https://github.com/psuarezdev/esprolama/commit/876752570b883f905b4f977993cdf505cb1f0410"
+            },
+            {
+                "sha": "3dd12447cae863630adb373dc89cecdb4f8d5a3b",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-08T12:35:08+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-08T12:35:08+01:00"
+                    },
+                    "message": "fixing pagination bug\n"
+                },
+                "parents": [
+                    "eea73b72de4305bb7fe53eb7cf64ab6d7b0cf5fb"
+                ],
+                "url": "https://github.com/psuarezdev/esprolama/commit/3dd12447cae863630adb373dc89cecdb4f8d5a3b"
+            },
+            {
+                "sha": "eea73b72de4305bb7fe53eb7cf64ab6d7b0cf5fb",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-08T12:16:54+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-08T12:16:54+01:00"
+                    },
+                    "message": "reordering model attributes\n"
+                },
+                "parents": [
+                    "8d15ae374db73f689fd6ffc3e537125fbe01bc6e"
+                ],
+                "url": "https://github.com/psuarezdev/esprolama/commit/eea73b72de4305bb7fe53eb7cf64ab6d7b0cf5fb"
+            },
+            {
+                "sha": "8d15ae374db73f689fd6ffc3e537125fbe01bc6e",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-08T12:08:45+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-08T12:08:45+01:00"
+                    },
+                    "message": "starter\n"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/esprolama/commit/8d15ae374db73f689fd6ffc3e537125fbe01bc6e"
+            }
+        ],
+        "express-api-starter": [
+            {
+                "sha": "1894b1c159cef45b4abfd4ca8c30b6d28e2af98a",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-17T18:20:58+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-17T18:20:58+00:00"
+                    },
+                    "message": "starter\n"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/express-api-starter/commit/1894b1c159cef45b4abfd4ca8c30b6d28e2af98a"
+            }
+        ],
+        "portfolio": [
+            {
+                "sha": "af82bbf7cbc3aff641ac3991e7fd7a75baddac41",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-15T22:05:05+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-15T22:05:05+01:00"
+                    },
+                    "message": "changing ASP.NET Core to Django\n"
+                },
+                "parents": [
+                    "a2faf3e55a865d4676014dd77b7e5e6f950e6428"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/af82bbf7cbc3aff641ac3991e7fd7a75baddac41"
+            },
+            {
+                "sha": "a2faf3e55a865d4676014dd77b7e5e6f950e6428",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-14T23:16:28+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-14T23:16:28+01:00"
+                    },
+                    "message": "improving introductory text\n"
+                },
+                "parents": [
+                    "a4bfa5e3735138e004fc7277a2e5dca5e17b51d7"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/a2faf3e55a865d4676014dd77b7e5e6f950e6428"
+            },
+            {
+                "sha": "a4bfa5e3735138e004fc7277a2e5dca5e17b51d7",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-09-12T22:06:25+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-12T22:06:25+01:00"
+                    },
+                    "message": "Update Certificates.tsx"
+                },
+                "parents": [
+                    "d29a19bb9ae75b6bc60571d62ed4309db80c67e7"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/a4bfa5e3735138e004fc7277a2e5dca5e17b51d7"
+            },
+            {
+                "sha": "d29a19bb9ae75b6bc60571d62ed4309db80c67e7",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-08T23:31:59+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-08T23:31:59+01:00"
+                    },
+                    "message": "Switching Spring And ASP order\n"
+                },
+                "parents": [
+                    "16f593a7334aad3a93e6c8ff11a7bfabec262728"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d29a19bb9ae75b6bc60571d62ed4309db80c67e7"
+            },
+            {
+                "sha": "16f593a7334aad3a93e6c8ff11a7bfabec262728",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-08T00:16:44+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-08T00:16:44+01:00"
+                    },
+                    "message": "creation of a tool for calculating differences between two dates\n"
+                },
+                "parents": [
+                    "ddf13ae5347b4c7115613521fe03b31c03cd57ae"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/16f593a7334aad3a93e6c8ff11a7bfabec262728"
+            },
+            {
+                "sha": "ddf13ae5347b4c7115613521fe03b31c03cd57ae",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-06T12:40:51+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-06T12:40:51+01:00"
+                    },
+                    "message": "Updating TechSkills\n"
+                },
+                "parents": [
+                    "83ea38f6bd4dc697619545b70cce7bf22a582fde"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/ddf13ae5347b4c7115613521fe03b31c03cd57ae"
+            },
+            {
+                "sha": "83ea38f6bd4dc697619545b70cce7bf22a582fde",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-03T14:34:05+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-09-03T14:34:05+01:00"
+                    },
+                    "message": "changing certificate modal template directive client:only to client:load\n"
+                },
+                "parents": [
+                    "7d8cffc54dbc89e2aef1e542e0e56f12d560f5ff"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/83ea38f6bd4dc697619545b70cce7bf22a582fde"
+            },
+            {
+                "sha": "7d8cffc54dbc89e2aef1e542e0e56f12d560f5ff",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-08-31T18:31:22+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-31T18:31:22+01:00"
+                    },
+                    "message": "Fixing string typo"
+                },
+                "parents": [
+                    "dbba468e228bbc9c7837ebf2e8208a94ef87a7e5"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/7d8cffc54dbc89e2aef1e542e0e56f12d560f5ff"
+            },
+            {
+                "sha": "dbba468e228bbc9c7837ebf2e8208a94ef87a7e5",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-31T18:17:51+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-31T18:17:51+01:00"
+                    },
+                    "message": "fixing baseUrl issue\n"
+                },
+                "parents": [
+                    "5a54e8f4232104dc435e8ffd093d369fc325f01e"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/dbba468e228bbc9c7837ebf2e8208a94ef87a7e5"
+            },
+            {
+                "sha": "5a54e8f4232104dc435e8ffd093d369fc325f01e",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-31T18:02:18+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-31T18:02:18+01:00"
+                    },
+                    "message": "portfolio design updated\n"
+                },
+                "parents": [
+                    "ea228942c37b6948c77183265d8c762fa9f5a16d"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/5a54e8f4232104dc435e8ffd093d369fc325f01e"
+            },
+            {
+                "sha": "ea228942c37b6948c77183265d8c762fa9f5a16d",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-31T17:04:40+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-31T17:04:40+01:00"
+                    },
+                    "message": "section of certificates moved to modal\n"
+                },
+                "parents": [
+                    "d86c2ae81a6c0211ca5d641f75e95afb42ca7ac6"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/ea228942c37b6948c77183265d8c762fa9f5a16d"
+            },
+            {
+                "sha": "d86c2ae81a6c0211ca5d641f75e95afb42ca7ac6",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-31T13:12:50+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-31T13:12:50+01:00"
+                    },
+                    "message": "changing certificates order\n"
+                },
+                "parents": [
+                    "dd97f805a1bf9c4ed0fdac95af7c73e2ba14745e"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d86c2ae81a6c0211ca5d641f75e95afb42ca7ac6"
+            },
+            {
+                "sha": "dd97f805a1bf9c4ed0fdac95af7c73e2ba14745e",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-10T20:56:33+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-10T20:56:33+01:00"
+                    },
+                    "message": "cv from webp to pdf\n"
+                },
+                "parents": [
+                    "c379b01810a933bd0625dfebc655b0346989138b"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/dd97f805a1bf9c4ed0fdac95af7c73e2ba14745e"
+            },
+            {
+                "sha": "c379b01810a933bd0625dfebc655b0346989138b",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-09T00:58:08+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-09T00:58:08+01:00"
+                    },
+                    "message": "fixing GridifyJSON project image size\n"
+                },
+                "parents": [
+                    "1f5ef1af32e197155b3ecdbfc73ca68541b5b63c"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/c379b01810a933bd0625dfebc655b0346989138b"
+            },
+            {
+                "sha": "1f5ef1af32e197155b3ecdbfc73ca68541b5b63c",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-09T00:03:09+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-09T00:03:09+01:00"
+                    },
+                    "message": "adding GridifyJSON project\n"
+                },
+                "parents": [
+                    "85453734b5c365b47c692d961698beac2440c6cc"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/1f5ef1af32e197155b3ecdbfc73ca68541b5b63c"
+            },
+            {
+                "sha": "85453734b5c365b47c692d961698beac2440c6cc",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-08T12:17:50+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-08T12:17:50+01:00"
+                    },
+                    "message": "adding java\n"
+                },
+                "parents": [
+                    "43827fa277a8897b8474e18c5de97e596ac3c911"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/85453734b5c365b47c692d961698beac2440c6cc"
+            },
+            {
+                "sha": "43827fa277a8897b8474e18c5de97e596ac3c911",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T20:05:07+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T20:05:07+01:00"
+                    },
+                    "message": "fix education and experience list line color issue v2\n"
+                },
+                "parents": [
+                    "3903fca62da830d5c856a90aa8bbbff015bb1cd5"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/43827fa277a8897b8474e18c5de97e596ac3c911"
+            },
+            {
+                "sha": "3903fca62da830d5c856a90aa8bbbff015bb1cd5",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T20:03:17+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T20:03:17+01:00"
+                    },
+                    "message": "fix education and experience list line color issue\n"
+                },
+                "parents": [
+                    "f25f579fd4a2f840331dba35e352b12400fedec3"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/3903fca62da830d5c856a90aa8bbbff015bb1cd5"
+            },
+            {
+                "sha": "f25f579fd4a2f840331dba35e352b12400fedec3",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T18:05:30+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T18:05:30+01:00"
+                    },
+                    "message": "adding Angular E-Commerce project\n"
+                },
+                "parents": [
+                    "2bf1864a97f8589c91f34b1d770664fae1626071"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/f25f579fd4a2f840331dba35e352b12400fedec3"
+            },
+            {
+                "sha": "2bf1864a97f8589c91f34b1d770664fae1626071",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T12:17:41+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T12:17:41+01:00"
+                    },
+                    "message": "idk\n"
+                },
+                "parents": [
+                    "50f8d5360863946bca4846de93d27643a6cd7ef9"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/2bf1864a97f8589c91f34b1d770664fae1626071"
+            },
+            {
+                "sha": "50f8d5360863946bca4846de93d27643a6cd7ef9",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T10:07:45+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T10:07:45+01:00"
+                    },
+                    "message": "changing experience description container gap\n"
+                },
+                "parents": [
+                    "0cc1b5e9a210379e2bc0d3bfd22a70b7aa6dbb09"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/50f8d5360863946bca4846de93d27643a6cd7ef9"
+            },
+            {
+                "sha": "0cc1b5e9a210379e2bc0d3bfd22a70b7aa6dbb09",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T10:03:47+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-08-04T10:03:47+01:00"
+                    },
+                    "message": "changing experience description format\n"
+                },
+                "parents": [
+                    "d7b8cf64666066152791ea4049832d2a6f083883"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/0cc1b5e9a210379e2bc0d3bfd22a70b7aa6dbb09"
+            },
+            {
+                "sha": "d7b8cf64666066152791ea4049832d2a6f083883",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-24T13:02:51+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-24T13:02:51+01:00"
+                    },
+                    "message": "changing react icon bg-color\n"
+                },
+                "parents": [
+                    "d95e9db3ffc758e5e15fa7d4e7daefa024545bab"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d7b8cf64666066152791ea4049832d2a6f083883"
+            },
+            {
+                "sha": "d95e9db3ffc758e5e15fa7d4e7daefa024545bab",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-22T19:47:48+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-22T19:47:48+01:00"
+                    },
+                    "message": "changing the about me\n"
+                },
+                "parents": [
+                    "4016d4a014a46ee74ad7944a42fc671306795295"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d95e9db3ffc758e5e15fa7d4e7daefa024545bab"
+            },
+            {
+                "sha": "4016d4a014a46ee74ad7944a42fc671306795295",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-22T19:10:16+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-22T19:10:16+01:00"
+                    },
+                    "message": "Remove redundant technologies; frameworks are already included.\n"
+                },
+                "parents": [
+                    "72a820e62edaa07a694f54b858efacb9b07fff83"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/4016d4a014a46ee74ad7944a42fc671306795295"
+            },
+            {
+                "sha": "72a820e62edaa07a694f54b858efacb9b07fff83",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-22T19:09:55+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-22T19:09:55+01:00"
+                    },
+                    "message": "Remove redundant technologies; frameworks are already included.\n"
+                },
+                "parents": [
+                    "327927d022c0fafc161043720d2e9bb93e7bed4b"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/72a820e62edaa07a694f54b858efacb9b07fff83"
+            },
+            {
+                "sha": "327927d022c0fafc161043720d2e9bb93e7bed4b",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-20T15:21:58+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-20T15:21:58+01:00"
+                    },
+                    "message": "fixing sticky issue\n"
+                },
+                "parents": [
+                    "8058474580e6ff41cd1277fd7821e1694067faed"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/327927d022c0fafc161043720d2e9bb93e7bed4b"
+            },
+            {
+                "sha": "8058474580e6ff41cd1277fd7821e1694067faed",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-14T20:21:25+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-14T20:21:25+01:00"
+                    },
+                    "message": "changing java for kotlin and adding sql server\n"
+                },
+                "parents": [
+                    "d77c6892346fe49b31ecb25ca6b1e9d81fb2fcef"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/8058474580e6ff41cd1277fd7821e1694067faed"
+            },
+            {
+                "sha": "d77c6892346fe49b31ecb25ca6b1e9d81fb2fcef",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-13T19:56:56+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-13T19:56:56+01:00"
+                    },
+                    "message": "changing cv download name\n"
+                },
+                "parents": [
+                    "c58307f144ceab43da4f38439441f22dfe370b3e"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d77c6892346fe49b31ecb25ca6b1e9d81fb2fcef"
+            },
+            {
+                "sha": "c58307f144ceab43da4f38439441f22dfe370b3e",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-13T14:48:32+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-13T14:48:32+01:00"
+                    },
+                    "message": "adding JavaFX to the desktop stack\n"
+                },
+                "parents": [
+                    "380e7874bb90f67ffc87016a1a0a55a8c3b32978"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/c58307f144ceab43da4f38439441f22dfe370b3e"
+            },
+            {
+                "sha": "380e7874bb90f67ffc87016a1a0a55a8c3b32978",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-03T16:01:51+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-07-03T16:01:51+01:00"
+                    },
+                    "message": "adding tauri to the tech stack\n"
+                },
+                "parents": [
+                    "2a13c4118844114e05dd1b86eb87869f90de5edf"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/380e7874bb90f67ffc87016a1a0a55a8c3b32978"
+            },
+            {
+                "sha": "2a13c4118844114e05dd1b86eb87869f90de5edf",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-28T10:41:59+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-28T10:41:59+01:00"
+                    },
+                    "message": "fixing bug closing unclosed span\n"
+                },
+                "parents": [
+                    "5277c668adf64edb8b66d38e3279b9adc5e701aa"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/2a13c4118844114e05dd1b86eb87869f90de5edf"
+            },
+            {
+                "sha": "5277c668adf64edb8b66d38e3279b9adc5e701aa",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-27T21:53:53+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-27T21:53:53+01:00"
+                    },
+                    "message": "description change\n"
+                },
+                "parents": [
+                    "803f47c3c3a582de1135e934ce33ae8f38ca3eb6"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/5277c668adf64edb8b66d38e3279b9adc5e701aa"
+            },
+            {
+                "sha": "803f47c3c3a582de1135e934ce33ae8f38ca3eb6",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-23T14:53:51+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-23T14:53:51+01:00"
+                    },
+                    "message": "changing inline experience description\n"
+                },
+                "parents": [
+                    "c7215a0c501d9a911b6e53f8ec3ec4f17857e44a"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/803f47c3c3a582de1135e934ce33ae8f38ca3eb6"
+            },
+            {
+                "sha": "c7215a0c501d9a911b6e53f8ec3ec4f17857e44a",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-22T10:57:13+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-22T10:57:13+01:00"
+                    },
+                    "message": "adding average to education\n"
+                },
+                "parents": [
+                    "592e5e6dc259d5ae1bcb461a4b19328d325b9044"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/c7215a0c501d9a911b6e53f8ec3ec4f17857e44a"
+            },
+            {
+                "sha": "592e5e6dc259d5ae1bcb461a4b19328d325b9044",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-08T20:33:28+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-08T20:33:28+01:00"
+                    },
+                    "message": "re-adding java & spring\n"
+                },
+                "parents": [
+                    "0081718f7c06213544382266aa256f50de3c8814"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/592e5e6dc259d5ae1bcb461a4b19328d325b9044"
+            },
+            {
+                "sha": "0081718f7c06213544382266aa256f50de3c8814",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-05T16:18:31+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-06-05T16:18:31+01:00"
+                    },
+                    "message": "adding tools\n"
+                },
+                "parents": [
+                    "4c0720fc05e2ddc3b345288dcb606a45053a53cd"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/0081718f7c06213544382266aa256f50de3c8814"
+            },
+            {
+                "sha": "4c0720fc05e2ddc3b345288dcb606a45053a53cd",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-31T21:34:51+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-31T21:34:51+01:00"
+                    },
+                    "message": "updating cv\n"
+                },
+                "parents": [
+                    "e099b93b11930284bd7fcb487bda4cf0d1cfae0f"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/4c0720fc05e2ddc3b345288dcb606a45053a53cd"
+            },
+            {
+                "sha": "e099b93b11930284bd7fcb487bda4cf0d1cfae0f",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-30T17:59:42+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-30T17:59:42+01:00"
+                    },
+                    "message": "adding certs\n"
+                },
+                "parents": [
+                    "451d21ae0fcf464b9fa2ead8804e9fcaa7e30f27"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/e099b93b11930284bd7fcb487bda4cf0d1cfae0f"
+            },
+            {
+                "sha": "451d21ae0fcf464b9fa2ead8804e9fcaa7e30f27",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-26T19:51:14+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-26T19:51:14+01:00"
+                    },
+                    "message": "almost the definitive technologies\n"
+                },
+                "parents": [
+                    "ac660f18b17b1b9a33ce96a3e6c1525c28ad617a"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/451d21ae0fcf464b9fa2ead8804e9fcaa7e30f27"
+            },
+            {
+                "sha": "ac660f18b17b1b9a33ce96a3e6c1525c28ad617a",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-25T19:21:54+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-25T19:21:54+01:00"
+                    },
+                    "message": "cv\n"
+                },
+                "parents": [
+                    "f355bded22f61294f955d52b793d91441b205e26"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/ac660f18b17b1b9a33ce96a3e6c1525c28ad617a"
+            },
+            {
+                "sha": "f355bded22f61294f955d52b793d91441b205e26",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-19T19:08:51+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-19T19:08:51+01:00"
+                    },
+                    "message": "changing projects layout\n"
+                },
+                "parents": [
+                    "d53d3319dc69ff73e28f79881da4a84fea20e97f"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/f355bded22f61294f955d52b793d91441b205e26"
+            },
+            {
+                "sha": "d53d3319dc69ff73e28f79881da4a84fea20e97f",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-16T09:56:52+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-16T09:56:52+01:00"
+                    },
+                    "message": "removing learning because it was almost empty\n"
+                },
+                "parents": [
+                    "c8aa691ea2de6d9515d2b9c2d3419d03aa2d0f03"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d53d3319dc69ff73e28f79881da4a84fea20e97f"
+            },
+            {
+                "sha": "c8aa691ea2de6d9515d2b9c2d3419d03aa2d0f03",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-14T12:22:19+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-14T12:22:19+01:00"
+                    },
+                    "message": "removing java from techstack and adding python\n"
+                },
+                "parents": [
+                    "946263df79437a6e6074d3bcc9182d45b2e20cfc"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/c8aa691ea2de6d9515d2b9c2d3419d03aa2d0f03"
+            },
+            {
+                "sha": "946263df79437a6e6074d3bcc9182d45b2e20cfc",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-11T20:05:58+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-11T20:05:58+01:00"
+                    },
+                    "message": "quitar prueba\n"
+                },
+                "parents": [
+                    "652a6b325902e40056ce54e0e272ec17759d882f"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/946263df79437a6e6074d3bcc9182d45b2e20cfc"
+            },
+            {
+                "sha": "652a6b325902e40056ce54e0e272ec17759d882f",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-11T20:04:52+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-11T20:04:52+01:00"
+                    },
+                    "message": "prueba\n"
+                },
+                "parents": [
+                    "6eea10dcabfaafdc848aba518d8d35563b1fe426"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/652a6b325902e40056ce54e0e272ec17759d882f"
+            },
+            {
+                "sha": "6eea10dcabfaafdc848aba518d8d35563b1fe426",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-09T12:27:56+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-09T12:27:56+01:00"
+                    },
+                    "message": "removing django from learning and adding net\n"
+                },
+                "parents": [
+                    "9613037c0cb1d7338e966b0d40f2fa54c31dfb75"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/6eea10dcabfaafdc848aba518d8d35563b1fe426"
+            },
+            {
+                "sha": "9613037c0cb1d7338e966b0d40f2fa54c31dfb75",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-08T20:03:29+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-08T20:03:29+01:00"
+                    },
+                    "message": "fixing lomobility link issue\n"
+                },
+                "parents": [
+                    "be57b524d227f50b271167a05eb41af4728bee72"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/9613037c0cb1d7338e966b0d40f2fa54c31dfb75"
+            },
+            {
+                "sha": "be57b524d227f50b271167a05eb41af4728bee72",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-08T19:45:34+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-08T19:45:34+01:00"
+                    },
+                    "message": "adding lomobility project\n"
+                },
+                "parents": [
+                    "58c9f40664f227c75606cf3f49a45eaaf82f7b73"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/be57b524d227f50b271167a05eb41af4728bee72"
+            },
+            {
+                "sha": "58c9f40664f227c75606cf3f49a45eaaf82f7b73",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-07T10:57:27+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-07T10:57:27+01:00"
+                    },
+                    "message": "adding django to learning\n"
+                },
+                "parents": [
+                    "e8bfc7cfe2059afde2b7eab94c4d7301064cfd98"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/58c9f40664f227c75606cf3f49a45eaaf82f7b73"
+            },
+            {
+                "sha": "e8bfc7cfe2059afde2b7eab94c4d7301064cfd98",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-05T10:41:35+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-05T10:41:35+01:00"
+                    },
+                    "message": "changing cv\n"
+                },
+                "parents": [
+                    "3ac4a711620b47c89a24f0c727b3c8c242b9ac8b"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/e8bfc7cfe2059afde2b7eab94c4d7301064cfd98"
+            },
+            {
+                "sha": "3ac4a711620b47c89a24f0c727b3c8c242b9ac8b",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-05T00:23:51+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-05-05T00:23:51+01:00"
+                    },
+                    "message": "adding Angular to FrontEnd Skills\n"
+                },
+                "parents": [
+                    "2fd471b62d329c03d716b4351ef4a4b8a4058ce1"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/3ac4a711620b47c89a24f0c727b3c8c242b9ac8b"
+            },
+            {
+                "sha": "2fd471b62d329c03d716b4351ef4a4b8a4058ce1",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-11T10:15:53+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-11T10:15:53+01:00"
+                    },
+                    "message": "updating cv\n"
+                },
+                "parents": [
+                    "d6ee11fc798b0320e101dd6e40eb9f9bae79792e"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/2fd471b62d329c03d716b4351ef4a4b8a4058ce1"
+            },
+            {
+                "sha": "d6ee11fc798b0320e101dd6e40eb9f9bae79792e",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-07T20:13:36+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-07T20:13:36+01:00"
+                    },
+                    "message": "adding java, spring and hibernate to the backend stack\n"
+                },
+                "parents": [
+                    "270c2d5c08e2905d3244fbcb8defd2c6891f2707"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d6ee11fc798b0320e101dd6e40eb9f9bae79792e"
+            },
+            {
+                "sha": "270c2d5c08e2905d3244fbcb8defd2c6891f2707",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-06T19:35:36+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-06T19:35:36+01:00"
+                    },
+                    "message": "removing expo error import\n"
+                },
+                "parents": [
+                    "a4640dcbc1c3c8041f8b871684a28532ac456651"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/270c2d5c08e2905d3244fbcb8defd2c6891f2707"
+            },
+            {
+                "sha": "a4640dcbc1c3c8041f8b871684a28532ac456651",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-06T19:27:44+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-06T19:27:44+01:00"
+                    },
+                    "message": "fixing png - webp bug\n"
+                },
+                "parents": [
+                    "05667b471527df7aa3996feebe8252fb54a2688c"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/a4640dcbc1c3c8041f8b871684a28532ac456651"
+            },
+            {
+                "sha": "05667b471527df7aa3996feebe8252fb54a2688c",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-04T16:21:52+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-04T16:21:52+01:00"
+                    },
+                    "message": "removing EXPO from tools\n"
+                },
+                "parents": [
+                    "551b8cd7d9d953e19b8aea60df38127565fd2c15"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/05667b471527df7aa3996feebe8252fb54a2688c"
+            },
+            {
+                "sha": "551b8cd7d9d953e19b8aea60df38127565fd2c15",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-02T18:29:28+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-02T18:29:28+01:00"
+                    },
+                    "message": "png to webp\n"
+                },
+                "parents": [
+                    "d127d34d2f2f06fcf863d71c56eee2b43eb7f3e4"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/551b8cd7d9d953e19b8aea60df38127565fd2c15"
+            },
+            {
+                "sha": "d127d34d2f2f06fcf863d71c56eee2b43eb7f3e4",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-02T16:45:13+01:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-04-02T16:45:13+01:00"
+                    },
+                    "message": "removing ASP.NET from learning stack\n"
+                },
+                "parents": [
+                    "a48f7e75fc4cd4993c621b1ccc39edad91df8b2f"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d127d34d2f2f06fcf863d71c56eee2b43eb7f3e4"
+            },
+            {
+                "sha": "a48f7e75fc4cd4993c621b1ccc39edad91df8b2f",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-29T23:23:11+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-29T23:23:11+00:00"
+                    },
+                    "message": "adding spring icon\n"
+                },
+                "parents": [
+                    "8d73700f3b77b877773f4f6fcf6dac5ad17de95a"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/a48f7e75fc4cd4993c621b1ccc39edad91df8b2f"
+            },
+            {
+                "sha": "8d73700f3b77b877773f4f6fcf6dac5ad17de95a",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-19T23:07:17+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-19T23:07:17+00:00"
+                    },
+                    "message": "updating technologies\n"
+                },
+                "parents": [
+                    "13987ad323823101a7d650d72146eefb98b10f78"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/8d73700f3b77b877773f4f6fcf6dac5ad17de95a"
+            },
+            {
+                "sha": "13987ad323823101a7d650d72146eefb98b10f78",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-16T22:51:16+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-16T22:51:16+00:00"
+                    },
+                    "message": "fixing projects section margin\n"
+                },
+                "parents": [
+                    "29fb597cdb5d351c417b13d67cf66aef077a8b65"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/13987ad323823101a7d650d72146eefb98b10f78"
+            },
+            {
+                "sha": "29fb597cdb5d351c417b13d67cf66aef077a8b65",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-16T22:47:30+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-16T22:47:30+00:00"
+                    },
+                    "message": "adding reddit clone\n"
+                },
+                "parents": [
+                    "1a0cd8dc66fadb3bedcaa21e323820cc738e2d0d"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/29fb597cdb5d351c417b13d67cf66aef077a8b65"
+            },
+            {
+                "sha": "1a0cd8dc66fadb3bedcaa21e323820cc738e2d0d",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-03T21:33:42+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-03T21:33:42+00:00"
+                    },
+                    "message": "adding airbnb clone\n"
+                },
+                "parents": [
+                    "e81dbf735049e1d82ef85dd4f37cad7aa1fb4b7b"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/1a0cd8dc66fadb3bedcaa21e323820cc738e2d0d"
+            },
+            {
+                "sha": "e81dbf735049e1d82ef85dd4f37cad7aa1fb4b7b",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-26T15:01:22+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-26T15:01:22+00:00"
+                    },
+                    "message": "changing code to c\u00f3digo\n"
+                },
+                "parents": [
+                    "1714bcb9e1000ed0a8e656efd1a892a035fbfb7e"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/e81dbf735049e1d82ef85dd4f37cad7aa1fb4b7b"
+            },
+            {
+                "sha": "1714bcb9e1000ed0a8e656efd1a892a035fbfb7e",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-26T10:41:11+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-26T10:41:11+00:00"
+                    },
+                    "message": "fixing gradient articles color\n"
+                },
+                "parents": [
+                    "daa7559daa3d725c95b4e7e6995244f6cbeafd9a"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/1714bcb9e1000ed0a8e656efd1a892a035fbfb7e"
+            },
+            {
+                "sha": "daa7559daa3d725c95b4e7e6995244f6cbeafd9a",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-20T22:48:45+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-20T22:48:45+00:00"
+                    },
+                    "message": "fixing about me erratum\n"
+                },
+                "parents": [
+                    "833a1330f6839649544200abc1a4f4c673fc2e25"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/daa7559daa3d725c95b4e7e6995244f6cbeafd9a"
+            },
+            {
+                "sha": "833a1330f6839649544200abc1a4f4c673fc2e25",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-20T19:35:17+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-20T19:35:17+00:00"
+                    },
+                    "message": "adding tags and tech icon\n"
+                },
+                "parents": [
+                    "3ca8c9a958f36098fbb06ccd0f1f842f85b405a8"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/833a1330f6839649544200abc1a4f4c673fc2e25"
+            },
+            {
+                "sha": "3ca8c9a958f36098fbb06ccd0f1f842f85b405a8",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-20T18:32:23+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-20T18:32:23+00:00"
+                    },
+                    "message": "fixing typescript icon import\n"
+                },
+                "parents": [
+                    "d1873fce41f5d327c65165526e15bf42f978cb31"
+                ],
+                "url": "https://github.com/psuarezdev/portfolio/commit/3ca8c9a958f36098fbb06ccd0f1f842f85b405a8"
+            },
+            {
+                "sha": "d1873fce41f5d327c65165526e15bf42f978cb31",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-20T18:30:07+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-20T18:30:07+00:00"
+                    },
+                    "message": "final\n"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/portfolio/commit/d1873fce41f5d327c65165526e15bf42f978cb31"
+            }
+        ],
+        "psuarezdev": [
+            {
+                "sha": "14776a7dfc9ee207bd031b6431835d82c88331be",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-09-18T21:04:58+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-18T21:04:58+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "367b44dcc851e940bfac5dac349406eeab736892"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/14776a7dfc9ee207bd031b6431835d82c88331be"
+            },
+            {
+                "sha": "367b44dcc851e940bfac5dac349406eeab736892",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-09-03T14:53:08+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-03T14:53:08+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "34c60f28ed4a75ac113320954bbf0436ac8e29f3"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/367b44dcc851e940bfac5dac349406eeab736892"
+            },
+            {
+                "sha": "34c60f28ed4a75ac113320954bbf0436ac8e29f3",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-09-03T14:52:43+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-03T14:52:43+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "36396a4316bcb3844307e4c5cde1c2112f58fc7c"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/34c60f28ed4a75ac113320954bbf0436ac8e29f3"
+            },
+            {
+                "sha": "36396a4316bcb3844307e4c5cde1c2112f58fc7c",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-09-01T10:18:29+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-01T10:18:29+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "512f66d2176f68f9501d931e5f1b2f9e9bfc690c"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/36396a4316bcb3844307e4c5cde1c2112f58fc7c"
+            },
+            {
+                "sha": "512f66d2176f68f9501d931e5f1b2f9e9bfc690c",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-08-10T22:39:53+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-10T22:39:53+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "248983c182205d0ec9205877d37f7b62ccd9f148"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/512f66d2176f68f9501d931e5f1b2f9e9bfc690c"
+            },
+            {
+                "sha": "248983c182205d0ec9205877d37f7b62ccd9f148",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-08-04T20:21:48+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-04T20:21:48+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "33386abb5200eb312f232f728604e08560e9be91"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/248983c182205d0ec9205877d37f7b62ccd9f148"
+            },
+            {
+                "sha": "33386abb5200eb312f232f728604e08560e9be91",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-28T10:33:43+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-28T10:33:43+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "9710914a236061c56669957d9d8509fd9213c839"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/33386abb5200eb312f232f728604e08560e9be91"
+            },
+            {
+                "sha": "9710914a236061c56669957d9d8509fd9213c839",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-27T11:42:31+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-27T11:42:31+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "3d4cf0cbdcb2e78753d5d0fcffecc32fe58ad98e"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/9710914a236061c56669957d9d8509fd9213c839"
+            },
+            {
+                "sha": "3d4cf0cbdcb2e78753d5d0fcffecc32fe58ad98e",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-26T12:55:36+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-26T12:55:36+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "48c5f5fe4458d3a0b230a2399a49d87cc3068665"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/3d4cf0cbdcb2e78753d5d0fcffecc32fe58ad98e"
+            },
+            {
+                "sha": "48c5f5fe4458d3a0b230a2399a49d87cc3068665",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-24T13:10:49+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-24T13:10:49+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e92e3e2b8011ad7e3c8e32d98e56d6778b74ff24"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/48c5f5fe4458d3a0b230a2399a49d87cc3068665"
+            },
+            {
+                "sha": "e92e3e2b8011ad7e3c8e32d98e56d6778b74ff24",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-24T13:09:40+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-24T13:09:40+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a603f5858d5fe387317cdc398f2917e562d0a593"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/e92e3e2b8011ad7e3c8e32d98e56d6778b74ff24"
+            },
+            {
+                "sha": "a603f5858d5fe387317cdc398f2917e562d0a593",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-24T13:09:30+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-24T13:09:30+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "bcdef54140d8d9c9a54f993f4e503a39880787d3"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/a603f5858d5fe387317cdc398f2917e562d0a593"
+            },
+            {
+                "sha": "bcdef54140d8d9c9a54f993f4e503a39880787d3",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-24T13:03:57+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-24T13:03:57+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a67dc39bdc318251f5ad62a2f00a1478999fab0e"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/bcdef54140d8d9c9a54f993f4e503a39880787d3"
+            },
+            {
+                "sha": "a67dc39bdc318251f5ad62a2f00a1478999fab0e",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-23T19:18:05+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-23T19:18:05+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "c24256c8fabc4e2d9b4daf012d04e77838a5c008"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/a67dc39bdc318251f5ad62a2f00a1478999fab0e"
+            },
+            {
+                "sha": "c24256c8fabc4e2d9b4daf012d04e77838a5c008",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-23T00:05:31+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-23T00:05:31+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "eae2142dde12efa57352f70dc0e36583fcef8d47"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/c24256c8fabc4e2d9b4daf012d04e77838a5c008"
+            },
+            {
+                "sha": "eae2142dde12efa57352f70dc0e36583fcef8d47",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-22T18:06:25+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-22T18:06:25+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "05d4d600c0818774950f0a0b34200383b8815cbe"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/eae2142dde12efa57352f70dc0e36583fcef8d47"
+            },
+            {
+                "sha": "05d4d600c0818774950f0a0b34200383b8815cbe",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-22T18:05:26+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-22T18:05:26+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "821e61d81bcd53cab2abf8d5cc41ffc0b09f5dc8"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/05d4d600c0818774950f0a0b34200383b8815cbe"
+            },
+            {
+                "sha": "821e61d81bcd53cab2abf8d5cc41ffc0b09f5dc8",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-18T18:16:21+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-18T18:16:21+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "b2b35de442d339a423ba4dc70406632b45c62933"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/821e61d81bcd53cab2abf8d5cc41ffc0b09f5dc8"
+            },
+            {
+                "sha": "b2b35de442d339a423ba4dc70406632b45c62933",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-15T23:44:09+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-15T23:44:09+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "1527eb2cfb66ac3e5a312d5f5e7bbe3c475fd08e"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/b2b35de442d339a423ba4dc70406632b45c62933"
+            },
+            {
+                "sha": "1527eb2cfb66ac3e5a312d5f5e7bbe3c475fd08e",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-14T20:09:39+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-14T20:09:39+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "d01d2131381621b6b575afc1324894c74c5b3dd8"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/1527eb2cfb66ac3e5a312d5f5e7bbe3c475fd08e"
+            },
+            {
+                "sha": "d01d2131381621b6b575afc1324894c74c5b3dd8",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-14T20:09:11+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-14T20:09:11+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "64142a8e2afc829ad2b23f1cb3a9554f84ea253c"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/d01d2131381621b6b575afc1324894c74c5b3dd8"
+            },
+            {
+                "sha": "64142a8e2afc829ad2b23f1cb3a9554f84ea253c",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-14T00:35:02+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-14T00:35:02+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "082b8d47655d02e5985a39478158672e24cf4704"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/64142a8e2afc829ad2b23f1cb3a9554f84ea253c"
+            },
+            {
+                "sha": "082b8d47655d02e5985a39478158672e24cf4704",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-07-03T15:58:57+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-03T15:58:57+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f5e5c86eebe13c52370ccebb7191432617b1d984"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/082b8d47655d02e5985a39478158672e24cf4704"
+            },
+            {
+                "sha": "f5e5c86eebe13c52370ccebb7191432617b1d984",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-06-23T16:29:52+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-23T16:29:52+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e37b10d213144443350ee0867bdebff835220911"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/f5e5c86eebe13c52370ccebb7191432617b1d984"
+            },
+            {
+                "sha": "e37b10d213144443350ee0867bdebff835220911",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-06-08T23:34:09+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-08T23:34:09+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "722e631a58e371c8120540f138352ff9b33fb46d"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/e37b10d213144443350ee0867bdebff835220911"
+            },
+            {
+                "sha": "722e631a58e371c8120540f138352ff9b33fb46d",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-30T13:33:28+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-30T13:33:28+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "badfa8d70ad9749b9f7a573e37d3a6b8120ba354"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/722e631a58e371c8120540f138352ff9b33fb46d"
+            },
+            {
+                "sha": "badfa8d70ad9749b9f7a573e37d3a6b8120ba354",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-20T09:58:19+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-20T09:58:19+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "1f0eadd559c34dbb04290b5a22725112eee30943"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/badfa8d70ad9749b9f7a573e37d3a6b8120ba354"
+            },
+            {
+                "sha": "1f0eadd559c34dbb04290b5a22725112eee30943",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-20T09:57:48+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-20T09:57:48+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f5aa96f8ac85b60dc1859b3fd49c6ec50a9695b9"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/1f0eadd559c34dbb04290b5a22725112eee30943"
+            },
+            {
+                "sha": "f5aa96f8ac85b60dc1859b3fd49c6ec50a9695b9",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-17T10:49:48+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-17T10:49:48+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "0f72ee293351773a6fe4aeb58bde16ffbe7b23a7"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/f5aa96f8ac85b60dc1859b3fd49c6ec50a9695b9"
+            },
+            {
+                "sha": "0f72ee293351773a6fe4aeb58bde16ffbe7b23a7",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-17T09:42:01+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-17T09:42:01+01:00"
+                    },
+                    "message": "Actualizar README.md"
+                },
+                "parents": [
+                    "de73b44f8f9822bfd8ae8b904986f60ed42a85b2"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/0f72ee293351773a6fe4aeb58bde16ffbe7b23a7"
+            },
+            {
+                "sha": "de73b44f8f9822bfd8ae8b904986f60ed42a85b2",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-09T12:26:07+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-09T12:26:07+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "1bc4c310630a07b063841b9788146c226a54b5cd"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/de73b44f8f9822bfd8ae8b904986f60ed42a85b2"
+            },
+            {
+                "sha": "1bc4c310630a07b063841b9788146c226a54b5cd",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-07T10:53:12+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-07T10:53:12+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a190161ed36c2a1815304a061832d52dd5cc649a"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/1bc4c310630a07b063841b9788146c226a54b5cd"
+            },
+            {
+                "sha": "a190161ed36c2a1815304a061832d52dd5cc649a",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-05T11:21:28+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-05T11:21:28+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "30a2ac46a2717a062341bf2fc64f488ef6625064"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/a190161ed36c2a1815304a061832d52dd5cc649a"
+            },
+            {
+                "sha": "30a2ac46a2717a062341bf2fc64f488ef6625064",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-05T09:39:44+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-05T09:39:44+01:00"
+                    },
+                    "message": "Actualizar README.md"
+                },
+                "parents": [
+                    "2c5e9f033d62e45f18e40264dc5e180e574c84f1"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/30a2ac46a2717a062341bf2fc64f488ef6625064"
+            },
+            {
+                "sha": "2c5e9f033d62e45f18e40264dc5e180e574c84f1",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-05T00:25:48+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-05T00:25:48+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "304b0cc3beae89adb0f3a1e13be543beefa15d24"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/2c5e9f033d62e45f18e40264dc5e180e574c84f1"
+            },
+            {
+                "sha": "304b0cc3beae89adb0f3a1e13be543beefa15d24",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-05-05T00:25:21+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-05T00:25:21+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "4063c9b56f746c4b1c7dcc101cb5a704c8e8dd05"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/304b0cc3beae89adb0f3a1e13be543beefa15d24"
+            },
+            {
+                "sha": "4063c9b56f746c4b1c7dcc101cb5a704c8e8dd05",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-04-14T20:59:40+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-14T20:59:40+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "899d1df9aa71e60bcad1cc7fb599f67b6481a773"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/4063c9b56f746c4b1c7dcc101cb5a704c8e8dd05"
+            },
+            {
+                "sha": "899d1df9aa71e60bcad1cc7fb599f67b6481a773",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-04-13T22:43:38+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-13T22:43:38+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "b7f7fe7ed0302f277d1e9cc17c7d54544e5c2b87"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/899d1df9aa71e60bcad1cc7fb599f67b6481a773"
+            },
+            {
+                "sha": "b7f7fe7ed0302f277d1e9cc17c7d54544e5c2b87",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-04-09T20:40:30+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-09T20:40:30+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "fb1413c0bc6b78b775854c8a0f5894cd309b0267"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/b7f7fe7ed0302f277d1e9cc17c7d54544e5c2b87"
+            },
+            {
+                "sha": "fb1413c0bc6b78b775854c8a0f5894cd309b0267",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-04-07T20:13:43+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-07T20:13:43+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "184f9169734590312c450f930cca16d612c9762f"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/fb1413c0bc6b78b775854c8a0f5894cd309b0267"
+            },
+            {
+                "sha": "184f9169734590312c450f930cca16d612c9762f",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-04-03T15:57:11+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-03T15:57:11+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f14d24d3ef2e8f06e498d46d93134c0232d18687"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/184f9169734590312c450f930cca16d612c9762f"
+            },
+            {
+                "sha": "f14d24d3ef2e8f06e498d46d93134c0232d18687",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-04-03T15:54:44+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-03T15:54:44+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f33d35133aef27c06f5a78524f4b1f3c98a0e070"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/f14d24d3ef2e8f06e498d46d93134c0232d18687"
+            },
+            {
+                "sha": "f33d35133aef27c06f5a78524f4b1f3c98a0e070",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-04-03T15:54:07+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-04-03T15:54:07+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "5d538f4e97640eb9a5860d6e5e9eca8819c45937"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/f33d35133aef27c06f5a78524f4b1f3c98a0e070"
+            },
+            {
+                "sha": "5d538f4e97640eb9a5860d6e5e9eca8819c45937",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-03-22T21:14:56+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-22T21:14:56+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "722e0851205e6dedc805ca72c757c7366bcdb981"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/5d538f4e97640eb9a5860d6e5e9eca8819c45937"
+            },
+            {
+                "sha": "722e0851205e6dedc805ca72c757c7366bcdb981",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-03-19T21:49:46+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-19T21:49:46+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "41b060825282532f443ad617ca4487e749461e70"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/722e0851205e6dedc805ca72c757c7366bcdb981"
+            },
+            {
+                "sha": "41b060825282532f443ad617ca4487e749461e70",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-03-19T21:49:07+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-19T21:49:07+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "82289d6b7540e2b279e9bec799523a72d5c8c1ed"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/41b060825282532f443ad617ca4487e749461e70"
+            },
+            {
+                "sha": "82289d6b7540e2b279e9bec799523a72d5c8c1ed",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-17T10:35:12+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-17T10:35:12+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "d45f358f3c2553d47cbad111d98dabc0f5e952e6"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/82289d6b7540e2b279e9bec799523a72d5c8c1ed"
+            },
+            {
+                "sha": "d45f358f3c2553d47cbad111d98dabc0f5e952e6",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-17T10:34:21+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-17T10:34:21+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "1d637953bc2794a9840af5f426b0a6e020c3f2f0"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/d45f358f3c2553d47cbad111d98dabc0f5e952e6"
+            },
+            {
+                "sha": "1d637953bc2794a9840af5f426b0a6e020c3f2f0",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-16T23:42:06+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-16T23:42:06+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "de77262517bebbed9312cf22df5f570cf2924c8b"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/1d637953bc2794a9840af5f426b0a6e020c3f2f0"
+            },
+            {
+                "sha": "de77262517bebbed9312cf22df5f570cf2924c8b",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-10T11:11:34+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-10T11:11:34+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "728248e52e68a6affe4e6a27a02655b57198bf6a"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/de77262517bebbed9312cf22df5f570cf2924c8b"
+            },
+            {
+                "sha": "728248e52e68a6affe4e6a27a02655b57198bf6a",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-10T11:10:08+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-10T11:10:08+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "304b1854fd57bd4221b0a990fa8eaa6d18fb42a3"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/728248e52e68a6affe4e6a27a02655b57198bf6a"
+            },
+            {
+                "sha": "304b1854fd57bd4221b0a990fa8eaa6d18fb42a3",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-05T19:12:41+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-05T19:12:41+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "694c4e24f32aaffe39c98f6e14802575a3c43ca9"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/304b1854fd57bd4221b0a990fa8eaa6d18fb42a3"
+            },
+            {
+                "sha": "694c4e24f32aaffe39c98f6e14802575a3c43ca9",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-05T19:09:53+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-05T19:09:53+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "7a4df6a872d9f46e295418ed94c5f0efe3e11166"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/694c4e24f32aaffe39c98f6e14802575a3c43ca9"
+            },
+            {
+                "sha": "7a4df6a872d9f46e295418ed94c5f0efe3e11166",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-30T19:38:10+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-30T19:38:10+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e0acc2f102c059b82c03b19821877197bd68ea83"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/7a4df6a872d9f46e295418ed94c5f0efe3e11166"
+            },
+            {
+                "sha": "e0acc2f102c059b82c03b19821877197bd68ea83",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-30T19:37:54+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-30T19:37:54+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "cb5c0a79ab9b0d3dee5bbefadd61c4affa9f76c0"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/e0acc2f102c059b82c03b19821877197bd68ea83"
+            },
+            {
+                "sha": "cb5c0a79ab9b0d3dee5bbefadd61c4affa9f76c0",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-30T19:36:07+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-30T19:36:07+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "cd8b4647cddb925afa1eab3f78c1fdebf0587d76"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/cb5c0a79ab9b0d3dee5bbefadd61c4affa9f76c0"
+            },
+            {
+                "sha": "cd8b4647cddb925afa1eab3f78c1fdebf0587d76",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-30T19:35:41+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-30T19:35:41+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a63fdda999b7fddadcd34975192022d25dc837d6"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/cd8b4647cddb925afa1eab3f78c1fdebf0587d76"
+            },
+            {
+                "sha": "a63fdda999b7fddadcd34975192022d25dc837d6",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-30T19:32:46+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-30T19:32:46+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "a58a99b4023d1180375feb9cc77b2f5077f2351c"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/a63fdda999b7fddadcd34975192022d25dc837d6"
+            },
+            {
+                "sha": "a58a99b4023d1180375feb9cc77b2f5077f2351c",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-21T17:16:05+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-21T17:16:05+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "11b6969c61dfb84221e28e0f1627d23b9647040d"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/a58a99b4023d1180375feb9cc77b2f5077f2351c"
+            },
+            {
+                "sha": "11b6969c61dfb84221e28e0f1627d23b9647040d",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-15T19:09:54+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-15T19:09:54+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "da31b50571c3038f1948bc55013216bfdd8c78c2"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/11b6969c61dfb84221e28e0f1627d23b9647040d"
+            },
+            {
+                "sha": "da31b50571c3038f1948bc55013216bfdd8c78c2",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-15T19:09:38+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-15T19:09:38+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "fe6ed6cf9fc8aeee67267fcfbd022d8fdff3afc5"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/da31b50571c3038f1948bc55013216bfdd8c78c2"
+            },
+            {
+                "sha": "fe6ed6cf9fc8aeee67267fcfbd022d8fdff3afc5",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-15T19:07:57+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-15T19:07:57+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "280a57b1c1b74c01e8f591bf1f1af20d5ad566bf"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/fe6ed6cf9fc8aeee67267fcfbd022d8fdff3afc5"
+            },
+            {
+                "sha": "280a57b1c1b74c01e8f591bf1f1af20d5ad566bf",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-15T19:05:41+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-15T19:05:41+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "298a5a4e366fac86fcdfdcc0961c3b6555678b56"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/280a57b1c1b74c01e8f591bf1f1af20d5ad566bf"
+            },
+            {
+                "sha": "298a5a4e366fac86fcdfdcc0961c3b6555678b56",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-15T18:40:12+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-15T18:40:12+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "19fd1db1e9d9c9d02d1a74282d6a60c25bb6e52e"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/298a5a4e366fac86fcdfdcc0961c3b6555678b56"
+            },
+            {
+                "sha": "19fd1db1e9d9c9d02d1a74282d6a60c25bb6e52e",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-14T12:38:17+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-14T12:38:17+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "acfa0da9fad6941de2e5f98b4f93e0ae93e39036"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/19fd1db1e9d9c9d02d1a74282d6a60c25bb6e52e"
+            },
+            {
+                "sha": "acfa0da9fad6941de2e5f98b4f93e0ae93e39036",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-14T12:34:27+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-14T12:34:27+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f2806a57d4037825f16fbe989994fe65e44ec298"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/acfa0da9fad6941de2e5f98b4f93e0ae93e39036"
+            },
+            {
+                "sha": "f2806a57d4037825f16fbe989994fe65e44ec298",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:48:59+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:48:59+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "de6ba8817affa33785fa2bc0e687b33b1c7fce10"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/f2806a57d4037825f16fbe989994fe65e44ec298"
+            },
+            {
+                "sha": "de6ba8817affa33785fa2bc0e687b33b1c7fce10",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:46:36+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:46:36+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "5f07bfff511a35039b952fe67002ea96aa104397"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/de6ba8817affa33785fa2bc0e687b33b1c7fce10"
+            },
+            {
+                "sha": "5f07bfff511a35039b952fe67002ea96aa104397",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:37:51+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:37:51+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "c020996f72042f279b9e6aae929f163625e0e624"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/5f07bfff511a35039b952fe67002ea96aa104397"
+            },
+            {
+                "sha": "c020996f72042f279b9e6aae929f163625e0e624",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:36:38+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:36:38+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "738f30a91aaef4cd4e3ba59351a8d980091454f2"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/c020996f72042f279b9e6aae929f163625e0e624"
+            },
+            {
+                "sha": "738f30a91aaef4cd4e3ba59351a8d980091454f2",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:32:46+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:32:46+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "85e60263c5515fc287e6e0406b6824521e40482d"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/738f30a91aaef4cd4e3ba59351a8d980091454f2"
+            },
+            {
+                "sha": "85e60263c5515fc287e6e0406b6824521e40482d",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:27:31+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:27:31+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "14f88cf399abbff13f91f99dbe43b6d82fd8f9d9"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/85e60263c5515fc287e6e0406b6824521e40482d"
+            },
+            {
+                "sha": "14f88cf399abbff13f91f99dbe43b6d82fd8f9d9",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:26:13+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:26:13+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "816ad097dd93f98779cdb3a39e769e14a8874414"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/14f88cf399abbff13f91f99dbe43b6d82fd8f9d9"
+            },
+            {
+                "sha": "816ad097dd93f98779cdb3a39e769e14a8874414",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:12:17+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:12:17+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "ea38046f3fc8fc75af53044f40d040f7e9596547"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/816ad097dd93f98779cdb3a39e769e14a8874414"
+            },
+            {
+                "sha": "ea38046f3fc8fc75af53044f40d040f7e9596547",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T14:11:20+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T14:11:20+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f569f53046a89f09fd365d0bf7eef038da67dbb2"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/ea38046f3fc8fc75af53044f40d040f7e9596547"
+            },
+            {
+                "sha": "f569f53046a89f09fd365d0bf7eef038da67dbb2",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T13:52:11+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T13:52:11+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "5c7d603b28da51e3c56036de13e5dd98890aad3a"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/f569f53046a89f09fd365d0bf7eef038da67dbb2"
+            },
+            {
+                "sha": "5c7d603b28da51e3c56036de13e5dd98890aad3a",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T13:45:47+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T13:45:47+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "20bb9cb18180de6b1da5caec90e30d35b13108dd"
+                ],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/5c7d603b28da51e3c56036de13e5dd98890aad3a"
+            },
+            {
+                "sha": "20bb9cb18180de6b1da5caec90e30d35b13108dd",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-01-13T13:45:37+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-13T13:45:37+00:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/psuarezdev/commit/20bb9cb18180de6b1da5caec90e30d35b13108dd"
+            }
+        ],
+        "reactjs-nestjs-starter": [
+            {
+                "sha": "9915cff1a8cb6b41add532731791a4851c1c7752",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-02-23T11:12:32+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-02-23T11:12:32+00:00"
+                    },
+                    "message": "fixing payload sub bug"
+                },
+                "parents": [
+                    "19d284f485a4a69756dba85bc845e12acd0edef0"
+                ],
+                "url": "https://github.com/psuarezdev/reactjs-nestjs-starter/commit/9915cff1a8cb6b41add532731791a4851c1c7752"
+            },
+            {
+                "sha": "19d284f485a4a69756dba85bc845e12acd0edef0",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-22T18:11:47+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-02-22T18:11:47+00:00"
+                    },
+                    "message": "final\n"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/reactjs-nestjs-starter/commit/19d284f485a4a69756dba85bc845e12acd0edef0"
+            }
+        ],
+        "reddit-clone": [
+            {
+                "sha": "c162e08186b2748bec6def55d074f12d1ca70e1e",
+                "commit": {
+                    "author": {
+                        "name": "Pablo Su\u00e1rez",
+                        "email": "104940521+psuarezdev@users.noreply.github.com",
+                        "date": "2024-03-16T22:42:08+00:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-03-16T22:42:08+00:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "3e36c5652f73ac87acaed1a3a415a940da93b673"
+                ],
+                "url": "https://github.com/psuarezdev/reddit-clone/commit/c162e08186b2748bec6def55d074f12d1ca70e1e"
+            },
+            {
+                "sha": "3e36c5652f73ac87acaed1a3a415a940da93b673",
+                "commit": {
+                    "author": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-16T22:41:35+00:00"
+                    },
+                    "committer": {
+                        "name": "psuarezdev",
+                        "email": "pablotablero@gmail.com",
+                        "date": "2024-03-16T22:41:35+00:00"
+                    },
+                    "message": "final\n"
+                },
+                "parents": [],
+                "url": "https://github.com/psuarezdev/reddit-clone/commit/3e36c5652f73ac87acaed1a3a415a940da93b673"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "airbnb-clone": [
+            "Update README.md",
+            "Update auth.service.ts",
+            "Update app.module.ts",
+            "Update Listing.tsx",
+            "final\n"
+        ],
+        "angular-ecommerce": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "starter\n"
+        ],
+        "discord-clone": [
+            "Delete prisma/migrations directory",
+            "Update README.md",
+            "Create README.md",
+            "final\n"
+        ],
+        "esprolama": [
+            "adding check icon to the descriptors\n",
+            "second production version\n",
+            "finish form pagination\n",
+            "first production version\n",
+            "save before second meeting\n",
+            "save before metting\n",
+            "fixing pagination bug\n",
+            "reordering model attributes\n",
+            "starter\n"
+        ],
+        "express-api-starter": [
+            "starter\n"
+        ],
+        "portfolio": [
+            "changing ASP.NET Core to Django\n",
+            "improving introductory text\n",
+            "Update Certificates.tsx",
+            "Switching Spring And ASP order\n",
+            "creation of a tool for calculating differences between two dates\n",
+            "Updating TechSkills\n",
+            "changing certificate modal template directive client:only to client:load\n",
+            "Fixing string typo",
+            "fixing baseUrl issue\n",
+            "portfolio design updated\n",
+            "section of certificates moved to modal\n",
+            "changing certificates order\n",
+            "cv from webp to pdf\n",
+            "fixing GridifyJSON project image size\n",
+            "adding GridifyJSON project\n",
+            "adding java\n",
+            "fix education and experience list line color issue v2\n",
+            "fix education and experience list line color issue\n",
+            "adding Angular E-Commerce project\n",
+            "idk\n",
+            "changing experience description container gap\n",
+            "changing experience description format\n",
+            "changing react icon bg-color\n",
+            "changing the about me\n",
+            "Remove redundant technologies; frameworks are already included.\n",
+            "Remove redundant technologies; frameworks are already included.\n",
+            "fixing sticky issue\n",
+            "changing java for kotlin and adding sql server\n",
+            "changing cv download name\n",
+            "adding JavaFX to the desktop stack\n",
+            "adding tauri to the tech stack\n",
+            "fixing bug closing unclosed span\n",
+            "description change\n",
+            "changing inline experience description\n",
+            "adding average to education\n",
+            "re-adding java & spring\n",
+            "adding tools\n",
+            "updating cv\n",
+            "adding certs\n",
+            "almost the definitive technologies\n",
+            "cv\n",
+            "changing projects layout\n",
+            "removing learning because it was almost empty\n",
+            "removing java from techstack and adding python\n",
+            "quitar prueba\n",
+            "prueba\n",
+            "removing django from learning and adding net\n",
+            "fixing lomobility link issue\n",
+            "adding lomobility project\n",
+            "adding django to learning\n",
+            "changing cv\n",
+            "adding Angular to FrontEnd Skills\n",
+            "updating cv\n",
+            "adding java, spring and hibernate to the backend stack\n",
+            "removing expo error import\n",
+            "fixing png - webp bug\n",
+            "removing EXPO from tools\n",
+            "png to webp\n",
+            "removing ASP.NET from learning stack\n",
+            "adding spring icon\n",
+            "updating technologies\n",
+            "fixing projects section margin\n",
+            "adding reddit clone\n",
+            "adding airbnb clone\n",
+            "changing code to c\u00f3digo\n",
+            "fixing gradient articles color\n",
+            "fixing about me erratum\n",
+            "adding tags and tech icon\n",
+            "fixing typescript icon import\n",
+            "final\n"
+        ],
+        "psuarezdev": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Actualizar README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Actualizar README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Initial commit"
+        ],
+        "reactjs-nestjs-starter": [
+            "fixing payload sub bug",
+            "final\n"
+        ],
+        "reddit-clone": [
+            "Update README.md",
+            "final\n"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

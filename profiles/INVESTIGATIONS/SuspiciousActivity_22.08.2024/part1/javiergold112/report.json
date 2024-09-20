@@ -1,0 +1,538 @@
+{
+    "profile_info": {
+        "login": "javiergold112",
+        "id": 152600759,
+        "node_id": "U_kgDOCRiAtw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/152600759?v=4",
+        "html_url": "https://github.com/javiergold112",
+        "type": "User",
+        "site_admin": false,
+        "name": "Super dev",
+        "company": "Self Employed",
+        "blog": "",
+        "location": "Remote",
+        "email": null,
+        "hireable": null,
+        "bio": "Full Stack Developer with 10+ years of experience.",
+        "twitter_username": null,
+        "public_repos": 29,
+        "public_gists": 0,
+        "followers": 74,
+        "following": 159,
+        "created_at": "2023-12-01T09:04:24Z",
+        "updated_at": "2024-08-30T14:19:25Z"
+    },
+    "original_repos_count": 29,
+    "forked_repos_count": 0,
+    "unique_emails": {
+        "v.r.leon.topdev@gmail.comm": "javiergold112",
+        "152600759+javiergold112@users.noreply.github.com": "Super dev",
+        "noreply@github.com": "GitHub",
+        "v.r.leon.topdev@gmail.com": "javiergold112",
+        "seniorworks007@gmail.com": "Milos",
+        "deliteser112@gmail.com": "deliteser112",
+        "152600759+deliteser112@users.noreply.github.com": "deliteser112",
+        "devking1205@gmail.com": "prodev-web",
+        "159569843+deliteser112@users.noreply.github.com": "BEST",
+        "coreclever512@gmail.com": "clever-web",
+        "coreclever@gmail.com": "superstar",
+        "dk@zammad.com": "Dominik Klein"
+    },
+    "mutual_followers": [
+        "shosseinfarjadi",
+        "AmyKrizanWang",
+        "D-Freitas",
+        "Strike2-ux",
+        "maxlevashov",
+        "george0st",
+        "LorranPdS",
+        "CoderArtisan0719",
+        "KentChunga",
+        "jimmonster",
+        "TheRakibHassan",
+        "GabrielGuedess",
+        "rennans",
+        "jrohitofficial",
+        "warmice71",
+        "Forest410",
+        "cool1209",
+        "deepneko",
+        "gold231",
+        "rman1223",
+        "jarvis-acv",
+        "HackEzra",
+        "faizan150",
+        "YoshithaRathnayake",
+        "Vickouma77",
+        "kei0301",
+        "CarlosAlexandre197",
+        "swapnilwakchaure",
+        "kidde60",
+        "sanamhub",
+        "Mafiasource",
+        "deliteser112",
+        "HeannaReis",
+        "Henrique123-Marques",
+        "MaDrCloudDev",
+        "yuredev",
+        "abdu11aev-samandar",
+        "agathafr",
+        "Saikishor164",
+        "WigorCosta21"
+    ],
+    "following": [
+        "https://github.com/deepneko",
+        "https://github.com/sinisa632",
+        "https://github.com/supergillie",
+        "https://github.com/andrii-minchekov",
+        "https://github.com/CharlieGreenman",
+        "https://github.com/whitehorse21",
+        "https://github.com/julioxavierr",
+        "https://github.com/maxlevashov",
+        "https://github.com/jimmonster",
+        "https://github.com/Alejandroid17",
+        "https://github.com/paulovitorguedes",
+        "https://github.com/AponAhmed",
+        "https://github.com/6653302wy",
+        "https://github.com/Mafiasource",
+        "https://github.com/wallacextreme",
+        "https://github.com/sanamhub",
+        "https://github.com/deniswou",
+        "https://github.com/andispeed",
+        "https://github.com/MilleniumSpark",
+        "https://github.com/mooncityorg",
+        "https://github.com/drykxs",
+        "https://github.com/yuredev",
+        "https://github.com/msg0785",
+        "https://github.com/DaddyChucky",
+        "https://github.com/D-Freitas",
+        "https://github.com/melekdogan",
+        "https://github.com/Edd27",
+        "https://github.com/signaloid",
+        "https://github.com/gold231",
+        "https://github.com/LorranPdS",
+        "https://github.com/Youssefouah",
+        "https://github.com/swapnilwakchaure",
+        "https://github.com/vitoalexandreranvers",
+        "https://github.com/spykelionel",
+        "https://github.com/MitkuDubale38",
+        "https://github.com/Razz19",
+        "https://github.com/rommelsanthiago",
+        "https://github.com/ba7omaid",
+        "https://github.com/GabrielGuedess",
+        "https://github.com/khusamayasir",
+        "https://github.com/HeannaReis",
+        "https://github.com/faizan150",
+        "https://github.com/0x088730",
+        "https://github.com/Strike2-ux",
+        "https://github.com/KeazoN",
+        "https://github.com/HebertonGoncalves",
+        "https://github.com/VitaminC1211",
+        "https://github.com/AmyKrizanWang",
+        "https://github.com/Forest410",
+        "https://github.com/KentChunga",
+        "https://github.com/WilsonSe454",
+        "https://github.com/mohammadhasanii",
+        "https://github.com/joaogabriellyra",
+        "https://github.com/JorgeMeireles95",
+        "https://github.com/vladickweb",
+        "https://github.com/MetaFomos",
+        "https://github.com/TheRakibHassan",
+        "https://github.com/Thuotracy",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Anagh-Sharma",
+        "https://github.com/rnaylmz",
+        "https://github.com/jrohitofficial",
+        "https://github.com/monuxx",
+        "https://github.com/agathafr",
+        "https://github.com/Henrique123-Marques",
+        "https://github.com/yousufkalim",
+        "https://github.com/Saifullah3711",
+        "https://github.com/Vickouma77",
+        "https://github.com/quavo19",
+        "https://github.com/akaserker",
+        "https://github.com/and388",
+        "https://github.com/sb732",
+        "https://github.com/BlockAI007",
+        "https://github.com/JailtonAraujo",
+        "https://github.com/dragisa528",
+        "https://github.com/HackEzra",
+        "https://github.com/marcostwelve",
+        "https://github.com/kidde60",
+        "https://github.com/MernDev0603",
+        "https://github.com/george0st",
+        "https://github.com/Saikishor164",
+        "https://github.com/rennans",
+        "https://github.com/YoshithaRathnayake",
+        "https://github.com/MaDrCloudDev",
+        "https://github.com/musashifraco",
+        "https://github.com/Robi2810",
+        "https://github.com/Mehrdadnka",
+        "https://github.com/EdsonLuizz",
+        "https://github.com/renataalvescun",
+        "https://github.com/michaelwnau",
+        "https://github.com/Nombuso16",
+        "https://github.com/rohit250799",
+        "https://github.com/InaldoSilva",
+        "https://github.com/Luizinfrp",
+        "https://github.com/DuvoCo",
+        "https://github.com/AndersonAzeved",
+        "https://github.com/fancy517",
+        "https://github.com/kei0301",
+        "https://github.com/grgalassi",
+        "https://github.com/WigorCosta21",
+        "https://github.com/dropeMag",
+        "https://github.com/MARIOHENRlQUE",
+        "https://github.com/tosofto",
+        "https://github.com/SuhashKKumar",
+        "https://github.com/hunnyUnicorn",
+        "https://github.com/shosseinfarjadi",
+        "https://github.com/RainbowGenie",
+        "https://github.com/Dounia-At",
+        "https://github.com/bccpadge",
+        "https://github.com/blue0316",
+        "https://github.com/dafiliks",
+        "https://github.com/mdtanvirahamedshanto",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/jackcxp",
+        "https://github.com/Marcus-Vinicius-Dev",
+        "https://github.com/abdu11aev-samandar",
+        "https://github.com/thiago382",
+        "https://github.com/Marlboro11526",
+        "https://github.com/sevdiyar",
+        "https://github.com/rexchain-20",
+        "https://github.com/dawidolko",
+        "https://github.com/Ruth12mak",
+        "https://github.com/cool1209",
+        "https://github.com/emerson1david",
+        "https://github.com/ITlodestar",
+        "https://github.com/viridius-1",
+        "https://github.com/elitexpro",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/codeninja819",
+        "https://github.com/Mahsa-Arabzadeh",
+        "https://github.com/salvotoshi77-creator",
+        "https://github.com/doggino",
+        "https://github.com/omitent",
+        "https://github.com/thunderbolt990525",
+        "https://github.com/starlitnightsky",
+        "https://github.com/businessservic",
+        "https://github.com/Adonis2030",
+        "https://github.com/BTC415",
+        "https://github.com/SeniorDeveloper64",
+        "https://github.com/penguin011",
+        "https://github.com/StrongDonald",
+        "https://github.com/elite390497",
+        "https://github.com/AvalinAir",
+        "https://github.com/dracoeques",
+        "https://github.com/warmice71",
+        "https://github.com/osprey0222",
+        "https://github.com/D4Fi",
+        "https://github.com/Nakshatra05",
+        "https://github.com/cedev935",
+        "https://github.com/bobby741",
+        "https://github.com/mahseema",
+        "https://github.com/XCr-9",
+        "https://github.com/rman1223",
+        "https://github.com/lightsuperred",
+        "https://github.com/nana9292",
+        "https://github.com/toptalhook",
+        "https://github.com/albertboyd",
+        "https://github.com/deliteser112",
+        "https://github.com/CoderArtisan0719"
+    ],
+    "followers": [
+        "https://github.com/deepneko",
+        "https://github.com/mustafacagri",
+        "https://github.com/unmitra",
+        "https://github.com/maxlevashov",
+        "https://github.com/jimmonster",
+        "https://github.com/IDouble",
+        "https://github.com/Mafiasource",
+        "https://github.com/sanamhub",
+        "https://github.com/Xilover",
+        "https://github.com/ramincsy",
+        "https://github.com/silvered-shark",
+        "https://github.com/dominicmonteiro",
+        "https://github.com/yuredev",
+        "https://github.com/standardgalactic",
+        "https://github.com/D-Freitas",
+        "https://github.com/ip681",
+        "https://github.com/gold231",
+        "https://github.com/LorranPdS",
+        "https://github.com/swapnilwakchaure",
+        "https://github.com/x86senniral",
+        "https://github.com/GabrielGuedess",
+        "https://github.com/HeannaReis",
+        "https://github.com/faizan150",
+        "https://github.com/arjuncvinod",
+        "https://github.com/Strike2-ux",
+        "https://github.com/AmyKrizanWang",
+        "https://github.com/Forest410",
+        "https://github.com/KentChunga",
+        "https://github.com/isaka-james",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/TheRakibHassan",
+        "https://github.com/jarvis-acv",
+        "https://github.com/maarij0160",
+        "https://github.com/rramantiwari",
+        "https://github.com/jrohitofficial",
+        "https://github.com/agathafr",
+        "https://github.com/Henrique123-Marques",
+        "https://github.com/Vickouma77",
+        "https://github.com/Alineferk",
+        "https://github.com/HackEzra",
+        "https://github.com/kidde60",
+        "https://github.com/george0st",
+        "https://github.com/Saikishor164",
+        "https://github.com/rennans",
+        "https://github.com/YoshithaRathnayake",
+        "https://github.com/MaDrCloudDev",
+        "https://github.com/hassan-arif",
+        "https://github.com/kei0301",
+        "https://github.com/WigorCosta21",
+        "https://github.com/shosseinfarjadi",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/abdu11aev-samandar",
+        "https://github.com/amexyegondar",
+        "https://github.com/cool1209",
+        "https://github.com/KDash211",
+        "https://github.com/warmice71",
+        "https://github.com/Honestdev125",
+        "https://github.com/MohamedAyman22E",
+        "https://github.com/AI0228",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/rman1223",
+        "https://github.com/BestAssist",
+        "https://github.com/stan8086",
+        "https://github.com/STWDFSD",
+        "https://github.com/10kick-1goal",
+        "https://github.com/crystalninja5",
+        "https://github.com/deliteser112",
+        "https://github.com/vitaliielite0622",
+        "https://github.com/CoderArtisan0719",
+        "https://github.com/lu0415mc",
+        "https://github.com/RealDiligentDev",
+        "https://github.com/marekbukoski",
+        "https://github.com/engahmedmorsy",
+        "https://github.com/golden-lucky-monkey"
+    ],
+    "repo_list": [
+        "2f0o2o4d0-7f0e5ed",
+        "2f0o2o4d_t7a0s5k",
+        "c-task",
+        "campaign-message-template",
+        "carefree",
+        "DApp",
+        "dapp-react-solidity-xdc3",
+        "enhavo",
+        "expert-succotash",
+        "git-achievements-assist",
+        "java-starter-kit",
+        "Java_task45",
+        "legendary-waffle",
+        "meteor-starter-kit",
+        "react-material-starter-kit-v3.4.0",
+        "react-material-test",
+        "react-native-redux-navigate",
+        "react-native-tmdb-ts",
+        "react-solidity-lottery",
+        "react-ts-material-ui-message-template",
+        "react-typescript-chatwidget-embed",
+        "react-typescript-starterkit",
+        "React_task23",
+        "symmetrical-invention",
+        "todo-in-solidity-with-react",
+        "ts-nextjs-tmdb-api",
+        "vorto",
+        "vue-ts-graphql-chargetrip-api",
+        "weroad-nuxt-nest-ts"
+    ],
+    "forked_repo_list": [],
+    "contributors": {
+        "carefree": [
+            "javiergold112"
+        ],
+        "DApp": [
+            "Seniordev1989"
+        ],
+        "dapp-react-solidity-xdc3": [
+            "deliteser112"
+        ],
+        "enhavo": [
+            "javiergold112"
+        ],
+        "expert-succotash": [
+            "javiergold112"
+        ],
+        "git-achievements-assist": [
+            "superstar1205"
+        ],
+        "java-starter-kit": [
+            "deliteser112"
+        ],
+        "Java_task45": [
+            "javiergold112"
+        ],
+        "legendary-waffle": [
+            "deliteser112"
+        ],
+        "meteor-starter-kit": [
+            "deliteser112"
+        ],
+        "react-material-starter-kit-v3.4.0": [
+            "deliteser112"
+        ],
+        "react-material-test": [
+            "deliteser112",
+            "javiergold112",
+            "CoderArtisan0719"
+        ],
+        "react-native-redux-navigate": [
+            "deliteser112"
+        ],
+        "react-native-tmdb-ts": [
+            "deliteser112"
+        ],
+        "react-solidity-lottery": [
+            "deliteser112"
+        ],
+        "react-ts-material-ui-message-template": [
+            "deliteser112"
+        ],
+        "react-typescript-chatwidget-embed": [
+            "deliteser112",
+            "javiergold112"
+        ],
+        "react-typescript-starterkit": [
+            "clever-web"
+        ],
+        "React_task23": [
+            "javiergold112"
+        ],
+        "symmetrical-invention": [
+            "deliteser112"
+        ],
+        "todo-in-solidity-with-react": [
+            "deliteser112"
+        ],
+        "ts-nextjs-tmdb-api": [
+            "deliteser112"
+        ],
+        "vorto": [
+            "deliteser112",
+            "javiergold112"
+        ],
+        "vue-ts-graphql-chargetrip-api": [
+            "deliteser112",
+            "javiergold112",
+            "dominikklein"
+        ],
+        "weroad-nuxt-nest-ts": [
+            "deliteser112"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {
+        "CoderArtisan0719/react-ts-material-v3.4.0": [
+            "https://github.com/CoderArtisan0719/react-ts-material-v3.4.0/commit/aac30de3f50c78d005a7e801296f7639e229f9c9",
+            "https://github.com/CoderArtisan0719/react-ts-material-v3.4.0/commit/8d733d0b14f236c08ff729a8ad05998898270b97",
+            "https://github.com/CoderArtisan0719/react-ts-material-v3.4.0/commit/dc83fd464e17a115eb7a57e4ca93e2219c4f51be",
+            "https://github.com/CoderArtisan0719/react-ts-material-v3.4.0/commit/d7a2b1cb5756c655febbffac959a7aa3e003401d"
+        ],
+        "albertboyd/nextjs-typescript-fastapi-python": [
+            "https://github.com/albertboyd/nextjs-typescript-fastapi-python/commit/43928dcd92a392129fab3faf38d1741ce3cd4855"
+        ],
+        "CoderArtisan0719/react-native-tmdb-ts": [
+            "https://github.com/CoderArtisan0719/react-native-tmdb-ts/commit/88371f0467c945a7b3a34732832dd06b76c5b5a1",
+            "https://github.com/CoderArtisan0719/react-native-tmdb-ts/commit/466c612403c2bec89f631e9c719640590bab360d",
+            "https://github.com/CoderArtisan0719/react-native-tmdb-ts/commit/343190f867b649b9f459a93d55d4c04df81ab5c7",
+            "https://github.com/CoderArtisan0719/react-native-tmdb-ts/commit/338790db9825ae7a052ef7ee6c3e7f6c50f30370",
+            "https://github.com/CoderArtisan0719/react-native-tmdb-ts/commit/6e06b865c5ea8bfe757a3b344be7a26671baa3b9",
+            "https://github.com/CoderArtisan0719/react-native-tmdb-ts/commit/14353f7d94f0f85ae61a90fd9db5bf673d4144fe",
+            "https://github.com/CoderArtisan0719/react-native-tmdb-ts/commit/e74b66c7fe09d832bf5faff13dbc2ef2ef89b428",
+            "https://github.com/CoderArtisan0719/react-native-tmdb-ts/commit/54d378ef8ff00097268228e05d3259a142a11034"
+        ],
+        "crystalninja5/laughing-guide": [
+            "https://github.com/crystalninja5/laughing-guide/commit/4a6125559fa997006356d84397b21f3c005c0977",
+            "https://github.com/crystalninja5/laughing-guide/commit/e857d10beb6de6775c7b676c91f993b8e659f250"
+        ]
+    },
+    "potential_copy": [
+        {
+            "repo": "carefree",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-07-07T12:09:30+08:00"
+        },
+        {
+            "repo": "dapp-react-solidity-xdc3",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-11-27T22:30:46+04:00"
+        },
+        {
+            "repo": "enhavo",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-11-07T11:40:46+01:00"
+        },
+        {
+            "repo": "git-achievements-assist",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-09-06T19:02:14+09:00"
+        },
+        {
+            "repo": "java-starter-kit",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2020-04-01T10:05:04+02:00"
+        },
+        {
+            "repo": "legendary-waffle",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2016-10-18T16:30:57+02:00"
+        },
+        {
+            "repo": "meteor-starter-kit",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-05-04T18:44:27+09:00"
+        },
+        {
+            "repo": "react-material-starter-kit-v3.4.0",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-07-11T20:16:06+09:00"
+        },
+        {
+            "repo": "react-solidity-lottery",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2018-05-16T12:50:12-05:00"
+        },
+        {
+            "repo": "react-typescript-chatwidget-embed",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-12-16T11:45:36+09:00"
+        },
+        {
+            "repo": "react-typescript-starterkit",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2017-05-09T12:54:46-07:00"
+        },
+        {
+            "repo": "symmetrical-invention",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2023-08-31T17:35:31+02:00"
+        },
+        {
+            "repo": "todo-in-solidity-with-react",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-06-05T10:17:36+05:30"
+        },
+        {
+            "repo": "vorto",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2020-01-29T09:07:54+01:00"
+        },
+        {
+            "repo": "vue-ts-graphql-chargetrip-api",
+            "reason": "account creation date later than the first commit to the repository",
+            "commit_date": "2022-02-11T15:19:16+01:00"
+        }
+    ]
+}

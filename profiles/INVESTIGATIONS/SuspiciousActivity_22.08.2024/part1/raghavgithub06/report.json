@@ -1,0 +1,160 @@
+{
+    "profile_info": {
+        "login": "raghavgithub06",
+        "id": 128344189,
+        "node_id": "U_kgDOB6ZgfQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/128344189?v=4",
+        "html_url": "https://github.com/raghavgithub06",
+        "type": "User",
+        "site_admin": false,
+        "name": "Raghav Singh",
+        "company": null,
+        "blog": "https://raghav-blockchain-developer.my.canva.site/",
+        "location": null,
+        "email": "raghavksingh750@gmail.com",
+        "hireable": null,
+        "bio": "I am a blockchain Solidity Developer and can write smart contracts efficiently and deploy them on the blockchain.",
+        "twitter_username": null,
+        "public_repos": 16,
+        "public_gists": 0,
+        "followers": 13,
+        "following": 37,
+        "created_at": "2023-03-20T04:17:41Z",
+        "updated_at": "2024-04-18T08:55:32Z"
+    },
+    "original_repos_count": 16,
+    "forked_repos_count": 0,
+    "unique_emails": {
+        "raghavksingh750@gmail.com": "Raghav Singh",
+        "noreply@github.com": "GitHub"
+    },
+    "mutual_followers": [
+        "Forest410",
+        "Hexzilla"
+    ],
+    "following": [
+        "https://github.com/wighawag",
+        "https://github.com/Blockchains",
+        "https://github.com/hamitmizrak",
+        "https://github.com/Developerayo",
+        "https://github.com/developerdavi",
+        "https://github.com/OforgeO",
+        "https://github.com/polkadot-developers",
+        "https://github.com/tiger-525",
+        "https://github.com/developerfred",
+        "https://github.com/bluecryptodev",
+        "https://github.com/mtfuji25",
+        "https://github.com/blockchainGuru1018",
+        "https://github.com/SmartDev-0205",
+        "https://github.com/Full-stack-Web-Dev-BD",
+        "https://github.com/developerarif55",
+        "https://github.com/developeruche",
+        "https://github.com/jacobdmn",
+        "https://github.com/Hexzilla",
+        "https://github.com/Forest410",
+        "https://github.com/mobiledev-111-118",
+        "https://github.com/bluesnooker123",
+        "https://github.com/xwhiz",
+        "https://github.com/ares-dev05",
+        "https://github.com/Fullstack-WEB-Blockchain-Developer",
+        "https://github.com/jamesbroo",
+        "https://github.com/blockchainreg",
+        "https://github.com/smart-window",
+        "https://github.com/blockchain0125",
+        "https://github.com/accompany1205",
+        "https://github.com/Kilros0817",
+        "https://github.com/blockchaindev90",
+        "https://github.com/bchaindeveloper",
+        "https://github.com/venom-blockchain",
+        "https://github.com/bh717",
+        "https://github.com/Blockchain-Uniben",
+        "https://github.com/superdevblock",
+        "https://github.com/smart-maker"
+    ],
+    "followers": [
+        "https://github.com/IDouble",
+        "https://github.com/TheCrowbill",
+        "https://github.com/boylaen",
+        "https://github.com/Hexzilla",
+        "https://github.com/Forest410",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/judithjr",
+        "https://github.com/Nova0222",
+        "https://github.com/rexcare",
+        "https://github.com/warmice71",
+        "https://github.com/BitPassion",
+        "https://github.com/luckyman816",
+        "https://github.com/pompomdev"
+    ],
+    "repo_list": [
+        "Aave-Flashloan",
+        "AI-GENERATED-NFT-COLLECTION",
+        "Arbitrage-Bot",
+        "Borrowing-and-Lending-Defi",
+        "Decentralized-Exchange",
+        "Eth-Swap",
+        "Hashlips-NFT-Smart-Contract",
+        "Metaverse",
+        "NFT-Minting-dapp",
+        "raghavgithub06",
+        "Reentrancy-Attack-Smart-Contract",
+        "Relayer-Service",
+        "Token-Exchange-smart-contract",
+        "Token-Swap-Defi",
+        "Token-Transfer",
+        "Yield-Farming-Defi"
+    ],
+    "forked_repo_list": [],
+    "contributors": {
+        "Aave-Flashloan": [
+            "raghavgithub06"
+        ],
+        "AI-GENERATED-NFT-COLLECTION": [
+            "raghavgithub06"
+        ],
+        "Arbitrage-Bot": [
+            "raghavgithub06"
+        ],
+        "Borrowing-and-Lending-Defi": [
+            "raghavgithub06"
+        ],
+        "Decentralized-Exchange": [
+            "raghavgithub06"
+        ],
+        "Eth-Swap": [
+            "raghavgithub06"
+        ],
+        "Hashlips-NFT-Smart-Contract": [
+            "raghavgithub06"
+        ],
+        "Metaverse": [
+            "raghavgithub06"
+        ],
+        "NFT-Minting-dapp": [
+            "raghavgithub06"
+        ],
+        "raghavgithub06": [
+            "raghavgithub06"
+        ],
+        "Reentrancy-Attack-Smart-Contract": [
+            "raghavgithub06"
+        ],
+        "Relayer-Service": [
+            "raghavgithub06"
+        ],
+        "Token-Exchange-smart-contract": [
+            "raghavgithub06"
+        ],
+        "Token-Swap-Defi": [
+            "raghavgithub06"
+        ],
+        "Token-Transfer": [
+            "raghavgithub06"
+        ],
+        "Yield-Farming-Defi": [
+            "raghavgithub06"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

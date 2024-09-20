@@ -1,0 +1,346 @@
+{
+    "profile_info": {
+        "login": "ArtemPchela",
+        "id": 46222225,
+        "node_id": "MDQ6VXNlcjQ2MjIyMjI1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46222225?v=4",
+        "html_url": "https://github.com/ArtemPchela",
+        "type": "User",
+        "site_admin": false,
+        "name": "CatWebDev",
+        "company": "Swedcon18 AB",
+        "blog": "",
+        "location": "Stockholm",
+        "email": null,
+        "hireable": true,
+        "bio": "A passionate Frontend Developer committed to crafting pixel-perfect interfaces and seamless user experiences with a keen eye for design and detail.",
+        "twitter_username": null,
+        "public_repos": 30,
+        "public_gists": 0,
+        "followers": 70,
+        "following": 64,
+        "created_at": "2018-12-28T13:09:22Z",
+        "updated_at": "2024-09-08T18:07:06Z"
+    },
+    "original_repos_count": 30,
+    "forked_repos_count": 0,
+    "unique_emails": {
+        "46222225+ArtemPchela@users.noreply.github.com": "Artsiom",
+        "noreply@github.com": "GitHub",
+        "pchelenkovartem@gmail.com": "Artsiom",
+        "49699333+dependabot[bot]@users.noreply.github.com": "dependabot[bot]"
+    },
+    "mutual_followers": [
+        "standardgalactic",
+        "amjadnatouf",
+        "alexandroqc",
+        "JinetC",
+        "smartDev420",
+        "george0st",
+        "morganm94",
+        "IDouble",
+        "arjuncvinod",
+        "jarvis-acv",
+        "HappyLife1222",
+        "mahanta-mayur",
+        "AlexNesvit",
+        "PHPTCloud",
+        "kenjinote",
+        "Dean-Cash",
+        "Giangplay",
+        "wakhiwemathuthu",
+        "ProgrammeChef",
+        "Hexzilla",
+        "akash-tk",
+        "manijeh-a",
+        "mariagryp",
+        "A-Ozmehak",
+        "gamemann",
+        "The-Abhishek1",
+        "NicoFilips",
+        "Nakshatra05",
+        "x86senniral",
+        "Malihashahi",
+        "911-carrera",
+        "carzborn",
+        "ethanflower1903",
+        "CarlosAlexandre197",
+        "Braggedtooth",
+        "nuth-vireak",
+        "cosmohacker",
+        "Akinyemi-samuel",
+        "warmice71",
+        "JohnMwendwa",
+        "cumsoft",
+        "habibundayishimiye",
+        "ip681",
+        "julianacastilloaraujo",
+        "Thizh",
+        "sergeysmolkinhtml",
+        "marcusradell",
+        "AhmadrezaHamidi"
+    ],
+    "following": [
+        "https://github.com/trajkovvlatko",
+        "https://github.com/gusrodriguez",
+        "https://github.com/kenjinote",
+        "https://github.com/marcusradell",
+        "https://github.com/Florry",
+        "https://github.com/gamemann",
+        "https://github.com/alexandroqc",
+        "https://github.com/shahradelahi",
+        "https://github.com/IDouble",
+        "https://github.com/azuresphere7",
+        "https://github.com/cosmohacker",
+        "https://github.com/vjanz",
+        "https://github.com/Kwynto",
+        "https://github.com/NicoFilips",
+        "https://github.com/standardgalactic",
+        "https://github.com/amjadnatouf",
+        "https://github.com/ip681",
+        "https://github.com/Braggedtooth",
+        "https://github.com/x86senniral",
+        "https://github.com/carzborn",
+        "https://github.com/AhmadrezaHamidi",
+        "https://github.com/PHPTCloud",
+        "https://github.com/nuth-vireak",
+        "https://github.com/ChinmayKaitade",
+        "https://github.com/arjuncvinod",
+        "https://github.com/morganm94",
+        "https://github.com/sergeysmolkinhtml",
+        "https://github.com/Malihashahi",
+        "https://github.com/Thizh",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/Hexzilla",
+        "https://github.com/mariagryp",
+        "https://github.com/jarvis-acv",
+        "https://github.com/ethanflower1903",
+        "https://github.com/A-Ozmehak",
+        "https://github.com/george0st",
+        "https://github.com/julianacastilloaraujo",
+        "https://github.com/cumsoft",
+        "https://github.com/Akinyemi-samuel",
+        "https://github.com/farhan7reza7",
+        "https://github.com/habibundayishimiye",
+        "https://github.com/JinetC",
+        "https://github.com/mahanta-mayur",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/codeWithEdison",
+        "https://github.com/The-Abhishek1",
+        "https://github.com/JyaburaniTech",
+        "https://github.com/melihderici",
+        "https://github.com/wakhiwemathuthu",
+        "https://github.com/Giangplay",
+        "https://github.com/warmice71",
+        "https://github.com/Nakshatra05",
+        "https://github.com/akash-tk",
+        "https://github.com/manijeh-a",
+        "https://github.com/Dean-Cash",
+        "https://github.com/911-carrera",
+        "https://github.com/Rez4-4",
+        "https://github.com/ProgrammeChef",
+        "https://github.com/AlexNesvit",
+        "https://github.com/champion10873",
+        "https://github.com/over-light",
+        "https://github.com/smartDev420",
+        "https://github.com/HappyLife1222",
+        "https://github.com/NitrixXero"
+    ],
+    "followers": [
+        "https://github.com/kenjinote",
+        "https://github.com/marcusradell",
+        "https://github.com/gamemann",
+        "https://github.com/mustafacagri",
+        "https://github.com/alexandroqc",
+        "https://github.com/nguyenvanhuan243",
+        "https://github.com/tientq64",
+        "https://github.com/IDouble",
+        "https://github.com/cosmohacker",
+        "https://github.com/chipnertkj",
+        "https://github.com/NicoFilips",
+        "https://github.com/jk4freedom",
+        "https://github.com/standardgalactic",
+        "https://github.com/amjadnatouf",
+        "https://github.com/ip681",
+        "https://github.com/Braggedtooth",
+        "https://github.com/ogunsoladebayo",
+        "https://github.com/x86senniral",
+        "https://github.com/carzborn",
+        "https://github.com/AhmadrezaHamidi",
+        "https://github.com/PHPTCloud",
+        "https://github.com/qpeckin",
+        "https://github.com/nuth-vireak",
+        "https://github.com/arjuncvinod",
+        "https://github.com/morganm94",
+        "https://github.com/sergeysmolkinhtml",
+        "https://github.com/Malihashahi",
+        "https://github.com/Thizh",
+        "https://github.com/OfficialCodeVoyage",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/Hexzilla",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/mariagryp",
+        "https://github.com/jarvis-acv",
+        "https://github.com/ethanflower1903",
+        "https://github.com/A-Ozmehak",
+        "https://github.com/george0st",
+        "https://github.com/julianacastilloaraujo",
+        "https://github.com/cumsoft",
+        "https://github.com/Akinyemi-samuel",
+        "https://github.com/Frosmin",
+        "https://github.com/habibundayishimiye",
+        "https://github.com/JinetC",
+        "https://github.com/mahanta-mayur",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/xmoohad",
+        "https://github.com/The-Abhishek1",
+        "https://github.com/decoderwhoami",
+        "https://github.com/wakhiwemathuthu",
+        "https://github.com/Giangplay",
+        "https://github.com/warmice71",
+        "https://github.com/Nakshatra05",
+        "https://github.com/akash-tk",
+        "https://github.com/psharifi1997",
+        "https://github.com/manijeh-a",
+        "https://github.com/Dean-Cash",
+        "https://github.com/911-carrera",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/ProgrammeChef",
+        "https://github.com/devleo-m",
+        "https://github.com/AlexNesvit",
+        "https://github.com/algo-beast",
+        "https://github.com/smartDev420",
+        "https://github.com/HappyLife1222",
+        "https://github.com/mwarcc",
+        "https://github.com/RealDiligentDev",
+        "https://github.com/hotcoding85",
+        "https://github.com/mayumi-oitate",
+        "https://github.com/golden-lucky-monkey",
+        "https://github.com/xopaz"
+    ],
+    "repo_list": [
+        "ArtemPchela",
+        "Artsiom-CV-React-Pchaliankou",
+        "auto-typer-ts",
+        "blog-tim-backend",
+        "click-outside-ts",
+        "code_for_youtube",
+        "coffe-brake-HTML_CSS",
+        "context-API-React",
+        "cs50",
+        "dark-mode-react",
+        "dark-mode-ts",
+        "dogsapi-react-ts",
+        "Generator-HEX-colors",
+        "iCodeThis_Christmas_advent_2023",
+        "ModalWindow-on-js-html-css",
+        "myCO2Flight",
+        "nextjs_dashboard",
+        "parallax_superhero",
+        "russiancasualties",
+        "SCB_React_API",
+        "scrimba_javascriptmas",
+        "scrimba_javascriptmas_2023",
+        "scroll-to-top-react",
+        "svg-images-react",
+        "tilt_vs_js-parallax_effect",
+        "tim_portfolio",
+        "todo-server-front-react-ts",
+        "toggle-menu-JS",
+        "webpack-project",
+        "wpm-calculator-react"
+    ],
+    "forked_repo_list": [],
+    "contributors": {
+        "ArtemPchela": [
+            "ArtemPchela"
+        ],
+        "Artsiom-CV-React-Pchaliankou": [
+            "ArtemPchela"
+        ],
+        "auto-typer-ts": [
+            "ArtemPchela"
+        ],
+        "blog-tim-backend": [
+            "ArtemPchela"
+        ],
+        "click-outside-ts": [
+            "ArtemPchela"
+        ],
+        "code_for_youtube": [
+            "ArtemPchela"
+        ],
+        "coffe-brake-HTML_CSS": [
+            "ArtemPchela"
+        ],
+        "context-API-React": [
+            "ArtemPchela"
+        ],
+        "dark-mode-react": [
+            "ArtemPchela"
+        ],
+        "dark-mode-ts": [
+            "ArtemPchela"
+        ],
+        "dogsapi-react-ts": [
+            "ArtemPchela"
+        ],
+        "Generator-HEX-colors": [
+            "ArtemPchela"
+        ],
+        "iCodeThis_Christmas_advent_2023": [
+            "ArtemPchela"
+        ],
+        "ModalWindow-on-js-html-css": [
+            "ArtemPchela"
+        ],
+        "myCO2Flight": [
+            "ArtemPchela"
+        ],
+        "nextjs_dashboard": [
+            "ArtemPchela"
+        ],
+        "parallax_superhero": [
+            "ArtemPchela"
+        ],
+        "russiancasualties": [
+            "ArtemPchela"
+        ],
+        "SCB_React_API": [
+            "ArtemPchela"
+        ],
+        "scrimba_javascriptmas": [
+            "ArtemPchela"
+        ],
+        "scrimba_javascriptmas_2023": [
+            "ArtemPchela"
+        ],
+        "scroll-to-top-react": [
+            "ArtemPchela"
+        ],
+        "svg-images-react": [
+            "ArtemPchela"
+        ],
+        "tilt_vs_js-parallax_effect": [
+            "ArtemPchela"
+        ],
+        "tim_portfolio": [
+            "ArtemPchela",
+            "dependabot[bot]"
+        ],
+        "todo-server-front-react-ts": [
+            "ArtemPchela"
+        ],
+        "toggle-menu-JS": [
+            "ArtemPchela"
+        ],
+        "webpack-project": [
+            "ArtemPchela"
+        ],
+        "wpm-calculator-react": [
+            "ArtemPchela"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

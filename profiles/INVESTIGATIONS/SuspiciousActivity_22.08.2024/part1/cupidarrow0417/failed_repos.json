@@ -1,0 +1,12 @@
+[
+    {
+        "repo_name": "Asp.Net-User-Role-Membership-Example",
+        "clone_url": "https://github.com/cupidarrow0417/Asp.Net-User-Role-Membership-Example.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/cupidarrow0417/Asp.Net-User-Role-Membership-Example.git /home/user/Github/PRs/gh-fake-analyzer/out/cupidarrow0417/cupidarrow0417_Asp.Net-User-Role-Membership-Example.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/cupidarrow0417/cupidarrow0417_Asp.Net-User-Role-Membership-Example.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 4009 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "RChat",
+        "clone_url": "https://github.com/cupidarrow0417/RChat.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/cupidarrow0417/RChat.git /home/user/Github/PRs/gh-fake-analyzer/out/cupidarrow0417/cupidarrow0417_RChat.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/cupidarrow0417/cupidarrow0417_RChat.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 1946 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

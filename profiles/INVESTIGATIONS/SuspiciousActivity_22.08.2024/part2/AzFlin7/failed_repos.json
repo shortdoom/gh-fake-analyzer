@@ -1,0 +1,12 @@
+[
+    {
+        "repo_name": "AIR-BNB-platform",
+        "clone_url": "https://github.com/AzFlin7/AIR-BNB-platform.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/AzFlin7/AIR-BNB-platform.git /home/user/Github/PRs/gh-fake-analyzer/out/AzFlin7/AzFlin7_AIR-BNB-platform.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/AzFlin7/AzFlin7_AIR-BNB-platform.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 4825 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "HexToys-NFT-marketplace-website",
+        "clone_url": "https://github.com/AzFlin7/HexToys-NFT-marketplace-website.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/AzFlin7/HexToys-NFT-marketplace-website.git /home/user/Github/PRs/gh-fake-analyzer/out/AzFlin7/AzFlin7_HexToys-NFT-marketplace-website.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/AzFlin7/AzFlin7_HexToys-NFT-marketplace-website.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 7544 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

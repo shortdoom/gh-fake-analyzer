@@ -1,0 +1,57 @@
+[
+    {
+        "repo_name": "AMBER-front",
+        "clone_url": "https://github.com/piordev555/AMBER-front.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/AMBER-front.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_AMBER-front.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_AMBER-front.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 1706 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Crea2orsAdmin",
+        "clone_url": "https://github.com/piordev555/Crea2orsAdmin.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/Crea2orsAdmin.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Crea2orsAdmin.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Crea2orsAdmin.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 6245 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Crea2orsMBackEnd",
+        "clone_url": "https://github.com/piordev555/Crea2orsMBackEnd.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/Crea2orsMBackEnd.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Crea2orsMBackEnd.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Crea2orsMBackEnd.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 10 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Crea2orsNFTMarketplace",
+        "clone_url": "https://github.com/piordev555/Crea2orsNFTMarketplace.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/Crea2orsNFTMarketplace.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Crea2orsNFTMarketplace.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Crea2orsNFTMarketplace.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 2451 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Crea2ors_admin_panel",
+        "clone_url": "https://github.com/piordev555/Crea2ors_admin_panel.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/Crea2ors_admin_panel.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Crea2ors_admin_panel.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Crea2ors_admin_panel.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 1935 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "crypto-blades",
+        "clone_url": "https://github.com/piordev555/crypto-blades.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/crypto-blades.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_crypto-blades.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_crypto-blades.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 6701 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "hammersmith-nft",
+        "clone_url": "https://github.com/piordev555/hammersmith-nft.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/hammersmith-nft.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_hammersmith-nft.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_hammersmith-nft.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 20 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Hotel-Booking",
+        "clone_url": "https://github.com/piordev555/Hotel-Booking.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/Hotel-Booking.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Hotel-Booking.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Hotel-Booking.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 10 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "Mr.Digital-Social-Site",
+        "clone_url": "https://github.com/piordev555/Mr.Digital-Social-Site.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/Mr.Digital-Social-Site.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Mr.Digital-Social-Site.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_Mr.Digital-Social-Site.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 4136 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "runeruby-casino",
+        "clone_url": "https://github.com/piordev555/runeruby-casino.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/runeruby-casino.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_runeruby-casino.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_runeruby-casino.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 2480 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "solana-minting-dire-land",
+        "clone_url": "https://github.com/piordev555/solana-minting-dire-land.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/piordev555/solana-minting-dire-land.git /home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_solana-minting-dire-land.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/piordev555/piordev555_solana-minting-dire-land.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 1575 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

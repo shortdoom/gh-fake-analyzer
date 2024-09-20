@@ -1,0 +1,2375 @@
+{
+    "repos": [
+        {
+            "id": 466508536,
+            "node_id": "R_kgDOG85a-A",
+            "name": "architecture-components-samples",
+            "full_name": "Sobhan-mp/architecture-components-samples",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/architecture-components-samples",
+            "description": "Samples for Android Architecture Components. ",
+            "fork": true,
+            "url": "https://api.github.com/repos/Sobhan-mp/architecture-components-samples",
+            "created_at": "2022-03-05T16:34:25Z",
+            "updated_at": "2022-03-05T13:44:29Z",
+            "pushed_at": "2022-02-28T09:31:19Z",
+            "homepage": "https://d.android.com/arch",
+            "size": 21430,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": false,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "apache-2.0",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://api.github.com/licenses/apache-2.0",
+                "node_id": "MDc6TGljZW5zZTI="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 721097183,
+            "node_id": "R_kgDOKvsR3w",
+            "name": "basic-android-kotlin-compose-training-tip-calculator",
+            "full_name": "Sobhan-mp/basic-android-kotlin-compose-training-tip-calculator",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/basic-android-kotlin-compose-training-tip-calculator",
+            "description": null,
+            "fork": true,
+            "url": "https://api.github.com/repos/Sobhan-mp/basic-android-kotlin-compose-training-tip-calculator",
+            "created_at": "2023-11-20T10:54:49Z",
+            "updated_at": "2023-11-20T10:56:24Z",
+            "pushed_at": "2023-11-20T11:45:43Z",
+            "homepage": null,
+            "size": 129,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Kotlin",
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "apache-2.0",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://api.github.com/licenses/apache-2.0",
+                "node_id": "MDc6TGljZW5zZTI="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 798690249,
+            "node_id": "R_kgDOL5sLyQ",
+            "name": "compose-samples",
+            "full_name": "Sobhan-mp/compose-samples",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/compose-samples",
+            "description": "Official Jetpack Compose samples.",
+            "fork": true,
+            "url": "https://api.github.com/repos/Sobhan-mp/compose-samples",
+            "created_at": "2024-05-10T09:34:33Z",
+            "updated_at": "2024-05-10T09:34:33Z",
+            "pushed_at": "2024-05-10T08:04:18Z",
+            "homepage": "https://developer.android.com/jetpack/compose",
+            "size": 179525,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "apache-2.0",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://api.github.com/licenses/apache-2.0",
+                "node_id": "MDc6TGljZW5zZTI="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 703091242,
+            "node_id": "R_kgDOKehSKg",
+            "name": "DogBreeds",
+            "full_name": "Sobhan-mp/DogBreeds",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/DogBreeds",
+            "description": "A simple Jetpack Compose project for using lazy lists and other basic Composables!",
+            "fork": false,
+            "url": "https://api.github.com/repos/Sobhan-mp/DogBreeds",
+            "created_at": "2023-10-10T15:20:33Z",
+            "updated_at": "2023-10-10T16:24:33Z",
+            "pushed_at": "2023-10-10T16:24:28Z",
+            "homepage": null,
+            "size": 10283,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Kotlin",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 715074918,
+            "node_id": "R_kgDOKp8tZg",
+            "name": "Film-Time",
+            "full_name": "Sobhan-mp/Film-Time",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/Film-Time",
+            "description": "A Movie and TV shows tracking app illustrating Android development best practices with Jetpack Compose",
+            "fork": true,
+            "url": "https://api.github.com/repos/Sobhan-mp/Film-Time",
+            "created_at": "2023-11-06T12:35:17Z",
+            "updated_at": "2023-11-06T12:35:17Z",
+            "pushed_at": "2023-11-23T08:37:36Z",
+            "homepage": "",
+            "size": 222,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "dev",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 740567633,
+            "node_id": "R_kgDOLCQqUQ",
+            "name": "flutter_calculator",
+            "full_name": "Sobhan-mp/flutter_calculator",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/flutter_calculator",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/Sobhan-mp/flutter_calculator",
+            "created_at": "2024-01-08T15:57:43Z",
+            "updated_at": "2024-01-08T15:58:54Z",
+            "pushed_at": "2024-01-08T15:58:50Z",
+            "homepage": null,
+            "size": 267,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "C++",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 738056052,
+            "node_id": "R_kgDOK_3XdA",
+            "name": "Hilt_Retrofit",
+            "full_name": "Sobhan-mp/Hilt_Retrofit",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/Hilt_Retrofit",
+            "description": "Api call using retrofit library with the help of hilt for dependency injection ",
+            "fork": false,
+            "url": "https://api.github.com/repos/Sobhan-mp/Hilt_Retrofit",
+            "created_at": "2024-01-02T10:07:51Z",
+            "updated_at": "2024-01-02T10:10:00Z",
+            "pushed_at": "2024-01-02T10:09:56Z",
+            "homepage": null,
+            "size": 105,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Kotlin",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 742369543,
+            "node_id": "R_kgDOLD-pBw",
+            "name": "kotlin",
+            "full_name": "Sobhan-mp/kotlin",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/kotlin",
+            "description": "The Kotlin Programming Language. ",
+            "fork": true,
+            "url": "https://api.github.com/repos/Sobhan-mp/kotlin",
+            "created_at": "2024-01-12T10:19:33Z",
+            "updated_at": "2024-01-12T10:19:33Z",
+            "pushed_at": "2024-01-12T10:12:40Z",
+            "homepage": "https://kotlinlang.org",
+            "size": 2484460,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 742368200,
+            "node_id": "R_kgDOLD-jyA",
+            "name": "ktor",
+            "full_name": "Sobhan-mp/ktor",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/ktor",
+            "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
+            "fork": true,
+            "url": "https://api.github.com/repos/Sobhan-mp/ktor",
+            "created_at": "2024-01-12T10:15:50Z",
+            "updated_at": "2024-01-12T10:15:51Z",
+            "pushed_at": "2024-01-12T07:47:21Z",
+            "homepage": "https://ktor.io",
+            "size": 30614,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "apache-2.0",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://api.github.com/licenses/apache-2.0",
+                "node_id": "MDc6TGljZW5zZTI="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 742767593,
+            "node_id": "R_kgDOLEW76Q",
+            "name": "nowinandroid",
+            "full_name": "Sobhan-mp/nowinandroid",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/nowinandroid",
+            "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose",
+            "fork": true,
+            "url": "https://api.github.com/repos/Sobhan-mp/nowinandroid",
+            "created_at": "2024-01-13T10:01:37Z",
+            "updated_at": "2024-01-13T10:01:37Z",
+            "pushed_at": "2024-01-10T10:12:16Z",
+            "homepage": "",
+            "size": 39429,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "apache-2.0",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://api.github.com/licenses/apache-2.0",
+                "node_id": "MDc6TGljZW5zZTI="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 576544174,
+            "node_id": "R_kgDOIl1drg",
+            "name": "SimpleNoteApp",
+            "full_name": "Sobhan-mp/SimpleNoteApp",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/SimpleNoteApp",
+            "description": "Android Clean Architecture Note App",
+            "fork": false,
+            "url": "https://api.github.com/repos/Sobhan-mp/SimpleNoteApp",
+            "created_at": "2022-12-10T07:06:14Z",
+            "updated_at": "2024-07-20T03:15:59Z",
+            "pushed_at": "2023-12-03T06:31:04Z",
+            "homepage": "",
+            "size": 2413,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "language": "Kotlin",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "apache-2.0",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://api.github.com/licenses/apache-2.0",
+                "node_id": "MDc6TGljZW5zZTI="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "android",
+                "clean-architecture",
+                "databinding",
+                "multimodule-android-app",
+                "mvvm",
+                "room-database",
+                "usecase"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 2,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 744931378,
+            "node_id": "R_kgDOLGbAMg",
+            "name": "Sobhan-mp",
+            "full_name": "Sobhan-mp/Sobhan-mp",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/Sobhan-mp",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/Sobhan-mp/Sobhan-mp",
+            "created_at": "2024-01-18T09:49:54Z",
+            "updated_at": "2024-01-18T09:49:55Z",
+            "pushed_at": "2024-01-18T09:54:45Z",
+            "homepage": null,
+            "size": 6,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 562372613,
+            "node_id": "R_kgDOIYUgBQ",
+            "name": "StockMarketApp",
+            "full_name": "Sobhan-mp/StockMarketApp",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/StockMarketApp",
+            "description": "Developed with dagger hilt, Room, Compose, Clean Architecture using phillip lackner youtube channel!",
+            "fork": false,
+            "url": "https://api.github.com/repos/Sobhan-mp/StockMarketApp",
+            "created_at": "2022-11-06T06:11:08Z",
+            "updated_at": "2023-11-22T15:17:23Z",
+            "pushed_at": "2023-11-22T15:24:04Z",
+            "homepage": null,
+            "size": 116,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Kotlin",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 661631930,
+            "node_id": "R_kgDOJ2-zug",
+            "name": "sunflower",
+            "full_name": "Sobhan-mp/sunflower",
+            "private": false,
+            "owner": {
+                "login": "Sobhan-mp",
+                "id": 62058604,
+                "node_id": "MDQ6VXNlcjYyMDU4NjA0",
+                "avatar_url": "https://avatars.githubusercontent.com/u/62058604?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Sobhan-mp",
+                "html_url": "https://github.com/Sobhan-mp",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/Sobhan-mp/sunflower",
+            "description": "A gardening app illustrating Android development best practices with migrating a View-based app to Jetpack Compose.",
+            "fork": true,
+            "url": "https://api.github.com/repos/Sobhan-mp/sunflower",
+            "created_at": "2023-07-03T09:54:12Z",
+            "updated_at": "2024-01-13T09:30:46Z",
+            "pushed_at": "2024-01-13T09:30:34Z",
+            "homepage": "https://d.android.com/jetpack",
+            "size": 11113,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Kotlin",
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "apache-2.0",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://api.github.com/licenses/apache-2.0",
+                "node_id": "MDc6TGljZW5zZTI="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "DogBreeds": [
+            {
+                "sha": "9dd027747ba9c80ba8bcbdaa9ccbe868c2004a98",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-10T18:24:28+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-10T18:24:28+02:00"
+                    },
+                    "message": "Merge pull request #1 from Sobhan-mp/dev\n\nDev"
+                },
+                "parents": [
+                    "646dddf5754d9771f32f2cab3e01ff037ad2c13c",
+                    "13475fd649cbdcc3358a638b303fe1e4397e28eb"
+                ],
+                "url": "https://github.com/Sobhan-mp/DogBreeds/commit/9dd027747ba9c80ba8bcbdaa9ccbe868c2004a98"
+            },
+            {
+                "sha": "13475fd649cbdcc3358a638b303fe1e4397e28eb",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-10T18:23:50+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-10T18:23:50+02:00"
+                    },
+                    "message": "git ignore\n"
+                },
+                "parents": [
+                    "a17208a6884df7f35d51a96850384c42ec411697",
+                    "646dddf5754d9771f32f2cab3e01ff037ad2c13c"
+                ],
+                "url": "https://github.com/Sobhan-mp/DogBreeds/commit/13475fd649cbdcc3358a638b303fe1e4397e28eb"
+            },
+            {
+                "sha": "a17208a6884df7f35d51a96850384c42ec411697",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-10T18:10:23+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-10T18:10:23+02:00"
+                    },
+                    "message": "add: dog breed page\n"
+                },
+                "parents": [
+                    "f81063336abdfefd9fdbe000ff73a6f85a46c1ac"
+                ],
+                "url": "https://github.com/Sobhan-mp/DogBreeds/commit/a17208a6884df7f35d51a96850384c42ec411697"
+            },
+            {
+                "sha": "f81063336abdfefd9fdbe000ff73a6f85a46c1ac",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-10T17:25:24+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-10T17:25:24+02:00"
+                    },
+                    "message": "init project\n"
+                },
+                "parents": [],
+                "url": "https://github.com/Sobhan-mp/DogBreeds/commit/f81063336abdfefd9fdbe000ff73a6f85a46c1ac"
+            },
+            {
+                "sha": "646dddf5754d9771f32f2cab3e01ff037ad2c13c",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-10T17:20:33+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-10T17:20:33+02:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/Sobhan-mp/DogBreeds/commit/646dddf5754d9771f32f2cab3e01ff037ad2c13c"
+            }
+        ],
+        "flutter_calculator": [
+            {
+                "sha": "be547c46c5b60dd8fd6348a25628d8399c84d768",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-08T16:58:35+01:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-08T16:58:35+01:00"
+                    },
+                    "message": "init\n"
+                },
+                "parents": [],
+                "url": "https://github.com/Sobhan-mp/flutter_calculator/commit/be547c46c5b60dd8fd6348a25628d8399c84d768"
+            }
+        ],
+        "Hilt_Retrofit": [
+            {
+                "sha": "d7507a0f74b22a4d7463f177328e38fa778f8070",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-02T11:09:16+01:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-02T11:09:16+01:00"
+                    },
+                    "message": "init\n"
+                },
+                "parents": [],
+                "url": "https://github.com/Sobhan-mp/Hilt_Retrofit/commit/d7507a0f74b22a4d7463f177328e38fa778f8070"
+            }
+        ],
+        "SimpleNoteApp": [
+            {
+                "sha": "d5dc4a24914eab970861d0f0347fddd66c08a216",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-12-03T07:31:04+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-12-03T07:31:04+01:00"
+                    },
+                    "message": "Delete redundant file"
+                },
+                "parents": [
+                    "bdacbc12e089257868594393b0a4a40398829ea3"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/d5dc4a24914eab970861d0f0347fddd66c08a216"
+            },
+            {
+                "sha": "bdacbc12e089257868594393b0a4a40398829ea3",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-11-22T18:36:09+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-22T18:36:09+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "f6223f5e3101b28671f1d8e186897c6180175ae9"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/bdacbc12e089257868594393b0a4a40398829ea3"
+            },
+            {
+                "sha": "f6223f5e3101b28671f1d8e186897c6180175ae9",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-11-22T18:25:36+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-22T18:25:36+01:00"
+                    },
+                    "message": "Merge pull request #11 from Sobhan-mp/feat/presentation\n\nadd: edit feature added"
+                },
+                "parents": [
+                    "fb1f5815320331d26299e4ada72abceb04280da7",
+                    "f34faddb2874fdaf67a7a902cef943cb7ae808a9"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/f6223f5e3101b28671f1d8e186897c6180175ae9"
+            },
+            {
+                "sha": "f34faddb2874fdaf67a7a902cef943cb7ae808a9",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-11-22T18:24:31+01:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-11-22T18:24:31+01:00"
+                    },
+                    "message": "add: edit feature added\n"
+                },
+                "parents": [
+                    "00fec5d6cca94b8f9a01dc9340557aa7fcf92fc4"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/f34faddb2874fdaf67a7a902cef943cb7ae808a9"
+            },
+            {
+                "sha": "fb1f5815320331d26299e4ada72abceb04280da7",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-11-22T18:07:39+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-22T18:07:39+01:00"
+                    },
+                    "message": "Merge pull request #10 from Sobhan-mp/feat/presentation\n\nadd: delete feature"
+                },
+                "parents": [
+                    "2c236f0c8aa2e431e2922221c82fe80fffac2157",
+                    "00fec5d6cca94b8f9a01dc9340557aa7fcf92fc4"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/fb1f5815320331d26299e4ada72abceb04280da7"
+            },
+            {
+                "sha": "00fec5d6cca94b8f9a01dc9340557aa7fcf92fc4",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-11-22T18:05:58+01:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-11-22T18:05:58+01:00"
+                    },
+                    "message": "add: delete feature\n"
+                },
+                "parents": [
+                    "7172a16b1afa701b74d3fbf8fe5ab660c2ef6286"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/00fec5d6cca94b8f9a01dc9340557aa7fcf92fc4"
+            },
+            {
+                "sha": "2c236f0c8aa2e431e2922221c82fe80fffac2157",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-24T10:31:14+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-24T10:31:14+02:00"
+                    },
+                    "message": "Create LICENSE"
+                },
+                "parents": [
+                    "5cd0ae332b8518180a900c61115c09ef55fb9fa6"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/2c236f0c8aa2e431e2922221c82fe80fffac2157"
+            },
+            {
+                "sha": "5cd0ae332b8518180a900c61115c09ef55fb9fa6",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-24T10:29:02+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-24T10:29:02+02:00"
+                    },
+                    "message": "Delete .idea directory"
+                },
+                "parents": [
+                    "1d20d16555d17b6f420a775a7b5b03175cf9ae9a"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/5cd0ae332b8518180a900c61115c09ef55fb9fa6"
+            },
+            {
+                "sha": "1d20d16555d17b6f420a775a7b5b03175cf9ae9a",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-19T11:16:35+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-19T11:16:35+02:00"
+                    },
+                    "message": "Merge pull request #9 from Sobhan-mp/feat/presentation\n\nadd: navigation from note item to details"
+                },
+                "parents": [
+                    "42279a2c54138909a675426c7a79d22790681cf3",
+                    "7172a16b1afa701b74d3fbf8fe5ab660c2ef6286"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/1d20d16555d17b6f420a775a7b5b03175cf9ae9a"
+            },
+            {
+                "sha": "7172a16b1afa701b74d3fbf8fe5ab660c2ef6286",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-19T11:15:59+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-19T11:15:59+02:00"
+                    },
+                    "message": "add: navigation from note item to details\n"
+                },
+                "parents": [
+                    "a21194a93577bed2a3632ef32d26dcbeec492b83"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/7172a16b1afa701b74d3fbf8fe5ab660c2ef6286"
+            },
+            {
+                "sha": "42279a2c54138909a675426c7a79d22790681cf3",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-18T13:41:02+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-18T13:41:02+02:00"
+                    },
+                    "message": "Merge pull request #8 from Sobhan-mp/feat/presentation\n\nadd: add note completed"
+                },
+                "parents": [
+                    "1790b3e63b2a5e5f1eb844824029eefa13a068c7",
+                    "a21194a93577bed2a3632ef32d26dcbeec492b83"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/42279a2c54138909a675426c7a79d22790681cf3"
+            },
+            {
+                "sha": "a21194a93577bed2a3632ef32d26dcbeec492b83",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-18T13:40:00+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-18T13:40:00+02:00"
+                    },
+                    "message": "add: add note completed\n"
+                },
+                "parents": [
+                    "8dfbabf7c44538680cff077b0a4753ef660303ca"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/a21194a93577bed2a3632ef32d26dcbeec492b83"
+            },
+            {
+                "sha": "1790b3e63b2a5e5f1eb844824029eefa13a068c7",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-09T16:02:09+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-09T16:02:09+02:00"
+                    },
+                    "message": "Merge pull request #7 from Sobhan-mp/feat/presentation\n\nFeat/presentation"
+                },
+                "parents": [
+                    "b45e1cbcbc553a276fcb8fb36f041baf572374fd",
+                    "8dfbabf7c44538680cff077b0a4753ef660303ca"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/1790b3e63b2a5e5f1eb844824029eefa13a068c7"
+            },
+            {
+                "sha": "8dfbabf7c44538680cff077b0a4753ef660303ca",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-09T16:00:49+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-09T16:00:49+02:00"
+                    },
+                    "message": "add: home fragment selected ashome screen in navigation component\n"
+                },
+                "parents": [
+                    "9aadabb6aeb3e0d17c4c1c32dad55812b77db2c8"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/8dfbabf7c44538680cff077b0a4753ef660303ca"
+            },
+            {
+                "sha": "9aadabb6aeb3e0d17c4c1c32dad55812b77db2c8",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-09T16:00:13+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-09T16:00:13+02:00"
+                    },
+                    "message": "fix: mutable state update\n"
+                },
+                "parents": [
+                    "016189e2ae5324aafced17eea5ab02e0225427d5"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/9aadabb6aeb3e0d17c4c1c32dad55812b77db2c8"
+            },
+            {
+                "sha": "b45e1cbcbc553a276fcb8fb36f041baf572374fd",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-06T12:07:54+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-06T12:07:54+02:00"
+                    },
+                    "message": "Merge pull request #6 from Sobhan-mp/feat/presentation\n\nadd: home fragment collector"
+                },
+                "parents": [
+                    "de3ea725cfb3d325730641eb0e77497a921c76fd",
+                    "016189e2ae5324aafced17eea5ab02e0225427d5"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/b45e1cbcbc553a276fcb8fb36f041baf572374fd"
+            },
+            {
+                "sha": "016189e2ae5324aafced17eea5ab02e0225427d5",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-06T12:07:09+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-06T12:07:09+02:00"
+                    },
+                    "message": "add: home fragment collector\n"
+                },
+                "parents": [
+                    "336de5b4af85ba9d9aa346910d6f6abff2069dbd"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/016189e2ae5324aafced17eea5ab02e0225427d5"
+            },
+            {
+                "sha": "de3ea725cfb3d325730641eb0e77497a921c76fd",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-03T09:08:17+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-03T09:08:17+02:00"
+                    },
+                    "message": "Merge pull request #5 from Sobhan-mp/feat/presentation\n\nadd: fragment background color"
+                },
+                "parents": [
+                    "63e01388d81cf9dee63218fa974b7cbee8374af2",
+                    "336de5b4af85ba9d9aa346910d6f6abff2069dbd"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/de3ea725cfb3d325730641eb0e77497a921c76fd"
+            },
+            {
+                "sha": "336de5b4af85ba9d9aa346910d6f6abff2069dbd",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-03T09:00:39+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-03T09:00:39+02:00"
+                    },
+                    "message": "add: fragment background color\n"
+                },
+                "parents": [
+                    "be36d184b6e256abc91916cb32a08c73553895bd"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/336de5b4af85ba9d9aa346910d6f6abff2069dbd"
+            },
+            {
+                "sha": "63e01388d81cf9dee63218fa974b7cbee8374af2",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-01T18:23:06+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-10-01T18:23:06+02:00"
+                    },
+                    "message": "Merge pull request #4 from Sobhan-mp/feat/presentation\n\nFeat/presentation"
+                },
+                "parents": [
+                    "87719faf9468a766ebd9a704c719c1062416459a",
+                    "be36d184b6e256abc91916cb32a08c73553895bd"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/63e01388d81cf9dee63218fa974b7cbee8374af2"
+            },
+            {
+                "sha": "be36d184b6e256abc91916cb32a08c73553895bd",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-01T18:21:26+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-01T18:21:26+02:00"
+                    },
+                    "message": "add: fragment home created\n"
+                },
+                "parents": [
+                    "b8c42dba24c89653fd12105dbab17cbbe44acd29"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/be36d184b6e256abc91916cb32a08c73553895bd"
+            },
+            {
+                "sha": "b8c42dba24c89653fd12105dbab17cbbe44acd29",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-01T18:19:41+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-10-01T18:19:41+02:00"
+                    },
+                    "message": "add: note list adapter created\n"
+                },
+                "parents": [
+                    "fd9a336b218de85325a90c5ded6a0f8bfa9d16fd"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/b8c42dba24c89653fd12105dbab17cbbe44acd29"
+            },
+            {
+                "sha": "fd9a336b218de85325a90c5ded6a0f8bfa9d16fd",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-30T18:15:18+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-30T18:15:18+02:00"
+                    },
+                    "message": "add: recyclerview xml item\n"
+                },
+                "parents": [
+                    "4644781dd9e55b3853638dc28ec37137f704d77b"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/fd9a336b218de85325a90c5ded6a0f8bfa9d16fd"
+            },
+            {
+                "sha": "87719faf9468a766ebd9a704c719c1062416459a",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T17:05:20+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-09-28T17:05:20+02:00"
+                    },
+                    "message": "Merge pull request #3 from Sobhan-mp/feat/presentation\n\nFeat/presentation"
+                },
+                "parents": [
+                    "585f1cf214ecef0c83a87895bdb933bcdbd667e7",
+                    "4644781dd9e55b3853638dc28ec37137f704d77b"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/87719faf9468a766ebd9a704c719c1062416459a"
+            },
+            {
+                "sha": "4644781dd9e55b3853638dc28ec37137f704d77b",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T17:03:04+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T17:03:04+02:00"
+                    },
+                    "message": "add: extension function for collecting flow in fragment\n"
+                },
+                "parents": [
+                    "0738ffa0ee0d57d45f2b82475b44ba59a7f98b66"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/4644781dd9e55b3853638dc28ec37137f704d77b"
+            },
+            {
+                "sha": "0738ffa0ee0d57d45f2b82475b44ba59a7f98b66",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T17:02:35+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T17:02:35+02:00"
+                    },
+                    "message": "add: result handling in viewModel and Fragment\n"
+                },
+                "parents": [
+                    "bbdadbc63439b536782e3fe775e9b6e910590295"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/0738ffa0ee0d57d45f2b82475b44ba59a7f98b66"
+            },
+            {
+                "sha": "bbdadbc63439b536782e3fe775e9b6e910590295",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T17:01:56+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T17:01:56+02:00"
+                    },
+                    "message": "add: remove support for RTL\n"
+                },
+                "parents": [
+                    "98864c807d79683976e0a4f3bdce7aeee42519dc"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/bbdadbc63439b536782e3fe775e9b6e910590295"
+            },
+            {
+                "sha": "98864c807d79683976e0a4f3bdce7aeee42519dc",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T16:25:56+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T16:25:56+02:00"
+                    },
+                    "message": "refactor: remove redundant loading in flow\n"
+                },
+                "parents": [
+                    "582a50eae86a7b6b4872a8c0f3599e3e3c1b71db"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/98864c807d79683976e0a4f3bdce7aeee42519dc"
+            },
+            {
+                "sha": "582a50eae86a7b6b4872a8c0f3599e3e3c1b71db",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T16:21:08+02:00"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-09-28T16:21:08+02:00"
+                    },
+                    "message": "add: save note databinding\n"
+                },
+                "parents": [
+                    "bc93a74f12262f5af793ee2d5c64771c5b84f7a9"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/582a50eae86a7b6b4872a8c0f3599e3e3c1b71db"
+            },
+            {
+                "sha": "bc93a74f12262f5af793ee2d5c64771c5b84f7a9",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T11:06:00+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T11:06:00+03:30"
+                    },
+                    "message": "add: detail screen ui\n"
+                },
+                "parents": [
+                    "6aded1aa19e0acca200348cb54290730bb61ac79"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/bc93a74f12262f5af793ee2d5c64771c5b84f7a9"
+            },
+            {
+                "sha": "6aded1aa19e0acca200348cb54290730bb61ac79",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T10:40:55+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T10:40:55+03:30"
+                    },
+                    "message": "add: databinding added\n"
+                },
+                "parents": [
+                    "424eb948f27e1daf7790acd53fce889c59648212"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/6aded1aa19e0acca200348cb54290730bb61ac79"
+            },
+            {
+                "sha": "424eb948f27e1daf7790acd53fce889c59648212",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T10:17:56+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T10:17:56+03:30"
+                    },
+                    "message": "add: dateUtil added\n"
+                },
+                "parents": [
+                    "585f1cf214ecef0c83a87895bdb933bcdbd667e7"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/424eb948f27e1daf7790acd53fce889c59648212"
+            },
+            {
+                "sha": "585f1cf214ecef0c83a87895bdb933bcdbd667e7",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T10:08:31+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-07-07T10:08:31+03:30"
+                    },
+                    "message": "Merge pull request #2 from Sobhan-mp/config/gradle\n\nConfig/gradle"
+                },
+                "parents": [
+                    "e969ee143733d179a418d947f8be34189fbe04e1",
+                    "7a29c8cdf6fd244919099065ccf4cc030081a49c"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/585f1cf214ecef0c83a87895bdb933bcdbd667e7"
+            },
+            {
+                "sha": "7a29c8cdf6fd244919099065ccf4cc030081a49c",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T09:58:14+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-07-07T09:58:14+03:30"
+                    },
+                    "message": "config: gradle upgraded to the latest version\n"
+                },
+                "parents": [
+                    "d43423b79da720051fbc177e3b715bcf25ec8cc6"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/7a29c8cdf6fd244919099065ccf4cc030081a49c"
+            },
+            {
+                "sha": "d43423b79da720051fbc177e3b715bcf25ec8cc6",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T20:43:35+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T20:43:35+03:30"
+                    },
+                    "message": "add: navigation component added\n"
+                },
+                "parents": [
+                    "3ae02fc8ca1ca9342b463f9680f81cbc4d257250"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/d43423b79da720051fbc177e3b715bcf25ec8cc6"
+            },
+            {
+                "sha": "3ae02fc8ca1ca9342b463f9680f81cbc4d257250",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T20:16:16+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T20:16:16+03:30"
+                    },
+                    "message": "add: detail screen design and presentation module for usecases\n"
+                },
+                "parents": [
+                    "e969ee143733d179a418d947f8be34189fbe04e1"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/3ae02fc8ca1ca9342b463f9680f81cbc4d257250"
+            },
+            {
+                "sha": "e969ee143733d179a418d947f8be34189fbe04e1",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T12:17:44+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-04-22T12:17:44+03:30"
+                    },
+                    "message": "Merge pull request #1 from Sobhan-mp/feat/domain\n\nFeat/domain"
+                },
+                "parents": [
+                    "a84ae1d2747471642fdbf168a5b1f99e5af9e616",
+                    "4168ef93885f641ac8535be05fb0a422c1c4ff24"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/e969ee143733d179a418d947f8be34189fbe04e1"
+            },
+            {
+                "sha": "4168ef93885f641ac8535be05fb0a422c1c4ff24",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T12:12:32+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T12:12:32+03:30"
+                    },
+                    "message": "add: usecases added to domain layer\n"
+                },
+                "parents": [
+                    "475f70afa6422a095614482f2da8c516808459bc"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/4168ef93885f641ac8535be05fb0a422c1c4ff24"
+            },
+            {
+                "sha": "475f70afa6422a095614482f2da8c516808459bc",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T08:28:30+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-22T08:28:30+03:30"
+                    },
+                    "message": "add: repository impl added\n"
+                },
+                "parents": [
+                    "b466bdefe8e315a50842fed8ca3736e76dfc3bbe"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/475f70afa6422a095614482f2da8c516808459bc"
+            },
+            {
+                "sha": "b466bdefe8e315a50842fed8ca3736e76dfc3bbe",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-21T14:19:28+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-21T14:19:28+03:30"
+                    },
+                    "message": "add: room dao and tables created\n"
+                },
+                "parents": [
+                    "d38852ca4ad73949c96f99da39a972c92a1f94d5"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/b466bdefe8e315a50842fed8ca3736e76dfc3bbe"
+            },
+            {
+                "sha": "d38852ca4ad73949c96f99da39a972c92a1f94d5",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-21T10:25:49+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-21T10:25:49+03:30"
+                    },
+                    "message": "add: domain model and repo added\n"
+                },
+                "parents": [
+                    "3fa0c5612556dbcf9f840b8c38a80efed92483ae"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/d38852ca4ad73949c96f99da39a972c92a1f94d5"
+            },
+            {
+                "sha": "3fa0c5612556dbcf9f840b8c38a80efed92483ae",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-21T09:39:20+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-04-21T09:39:20+03:30"
+                    },
+                    "message": "arch: project modules added\n"
+                },
+                "parents": [
+                    "a84ae1d2747471642fdbf168a5b1f99e5af9e616"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/3fa0c5612556dbcf9f840b8c38a80efed92483ae"
+            },
+            {
+                "sha": "a84ae1d2747471642fdbf168a5b1f99e5af9e616",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-03-23T10:54:58+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohammadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-03-23T10:54:58+03:30"
+                    },
+                    "message": "initial commit\n"
+                },
+                "parents": [
+                    "ce98016bbd6e4f39d49dff88f7f90c06ba064bbb"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/a84ae1d2747471642fdbf168a5b1f99e5af9e616"
+            },
+            {
+                "sha": "ce98016bbd6e4f39d49dff88f7f90c06ba064bbb",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-03-23T10:23:39+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-03-23T10:23:39+03:30"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "2b7993e392b9e58e786d7ea6d1c7cdc6f9b49ec6"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/ce98016bbd6e4f39d49dff88f7f90c06ba064bbb"
+            },
+            {
+                "sha": "2b7993e392b9e58e786d7ea6d1c7cdc6f9b49ec6",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-12-10T10:41:58+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-12-10T10:41:58+03:30"
+                    },
+                    "message": "Created first readme file"
+                },
+                "parents": [
+                    "9924ec77494627f688b7a85a238c749de1d18b18"
+                ],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/2b7993e392b9e58e786d7ea6d1c7cdc6f9b49ec6"
+            },
+            {
+                "sha": "9924ec77494627f688b7a85a238c749de1d18b18",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-12-10T10:36:15+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-12-10T10:36:15+03:30"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/Sobhan-mp/SimpleNoteApp/commit/9924ec77494627f688b7a85a238c749de1d18b18"
+            }
+        ],
+        "Sobhan-mp": [
+            {
+                "sha": "4b0f36202963b1bf7a676da168345da5b8fcae6a",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-18T10:54:45+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-18T10:54:45+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "793a13f9adc6f6637a0dc7bbc2d736e21d2924a4"
+                ],
+                "url": "https://github.com/Sobhan-mp/Sobhan-mp/commit/4b0f36202963b1bf7a676da168345da5b8fcae6a"
+            },
+            {
+                "sha": "793a13f9adc6f6637a0dc7bbc2d736e21d2924a4",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-18T10:54:23+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-18T10:54:23+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "87a124a1ddbe995a7ed792a54d29f656525747e2"
+                ],
+                "url": "https://github.com/Sobhan-mp/Sobhan-mp/commit/793a13f9adc6f6637a0dc7bbc2d736e21d2924a4"
+            },
+            {
+                "sha": "87a124a1ddbe995a7ed792a54d29f656525747e2",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-18T10:53:27+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-18T10:53:27+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "28a25cb48f8dd9a7bec5801ab379b38b702e7809"
+                ],
+                "url": "https://github.com/Sobhan-mp/Sobhan-mp/commit/87a124a1ddbe995a7ed792a54d29f656525747e2"
+            },
+            {
+                "sha": "28a25cb48f8dd9a7bec5801ab379b38b702e7809",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-18T10:52:47+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-18T10:52:47+01:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "8ff45759a3bdb63c213e16039d4cb4edad545273"
+                ],
+                "url": "https://github.com/Sobhan-mp/Sobhan-mp/commit/28a25cb48f8dd9a7bec5801ab379b38b702e7809"
+            },
+            {
+                "sha": "8ff45759a3bdb63c213e16039d4cb4edad545273",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2024-01-18T10:49:54+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-01-18T10:49:54+01:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/Sobhan-mp/Sobhan-mp/commit/8ff45759a3bdb63c213e16039d4cb4edad545273"
+            }
+        ],
+        "StockMarketApp": [
+            {
+                "sha": "2609dfb5d141b3304d0aeb967c1289f65a6819ad",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2023-11-22T16:24:04+01:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2023-11-22T16:24:04+01:00"
+                    },
+                    "message": "Merge pull request #5 from Sobhan-mp/presentation\n\ncompany listings added"
+                },
+                "parents": [
+                    "f0d18e4d6c1107e22587fe95fdf83de28843a55e",
+                    "dcf40b07ce0408e3302b599aa6fed0eb728a3210"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/2609dfb5d141b3304d0aeb967c1289f65a6819ad"
+            },
+            {
+                "sha": "dcf40b07ce0408e3302b599aa6fed0eb728a3210",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-30T16:29:41+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-30T16:29:41+03:30"
+                    },
+                    "message": "company listing and company item screen added\n"
+                },
+                "parents": [
+                    "8f596754c5c16ce87e0910120f004f127097d066"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/dcf40b07ce0408e3302b599aa6fed0eb728a3210"
+            },
+            {
+                "sha": "8f596754c5c16ce87e0910120f004f127097d066",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-28T16:47:33+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-28T16:47:33+03:30"
+                    },
+                    "message": "view model completed\n"
+                },
+                "parents": [
+                    "6fff0c0aa265d9cd59d84b6a4deeb87e4ece63ff"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/8f596754c5c16ce87e0910120f004f127097d066"
+            },
+            {
+                "sha": "6fff0c0aa265d9cd59d84b6a4deeb87e4ece63ff",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-26T16:52:25+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-26T16:52:25+03:30"
+                    },
+                    "message": "working on view model\n"
+                },
+                "parents": [
+                    "f0d18e4d6c1107e22587fe95fdf83de28843a55e"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/6fff0c0aa265d9cd59d84b6a4deeb87e4ece63ff"
+            },
+            {
+                "sha": "f0d18e4d6c1107e22587fe95fdf83de28843a55e",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-11T09:02:08+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-11-11T09:02:08+03:30"
+                    },
+                    "message": "Merge pull request #4 from Sobhan-mp/csv-parser\n\nCSVParser added to the remote repository"
+                },
+                "parents": [
+                    "08b4661d93da0f73e237b44dbc9b06c8bee26265",
+                    "5847ff93540c3214887a805fc036eaec004ece55"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/f0d18e4d6c1107e22587fe95fdf83de28843a55e"
+            },
+            {
+                "sha": "5847ff93540c3214887a805fc036eaec004ece55",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-11T08:55:51+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-11T08:55:51+03:30"
+                    },
+                    "message": "CSVParser added to the remote repository\n"
+                },
+                "parents": [
+                    "08b4661d93da0f73e237b44dbc9b06c8bee26265"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/5847ff93540c3214887a805fc036eaec004ece55"
+            },
+            {
+                "sha": "08b4661d93da0f73e237b44dbc9b06c8bee26265",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-07T02:22:46+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-11-07T02:22:46+03:30"
+                    },
+                    "message": "Merge pull request #2 from Sobhan-mp/repository\n\nStock Repo added to the project to fetch data"
+                },
+                "parents": [
+                    "c990cf81d4eba77732077462d69484213f4c74e8",
+                    "a012558859bd3bcff2ba809d1bc7db9b667eb5db"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/08b4661d93da0f73e237b44dbc9b06c8bee26265"
+            },
+            {
+                "sha": "a012558859bd3bcff2ba809d1bc7db9b667eb5db",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-07T02:20:46+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-07T02:20:46+03:30"
+                    },
+                    "message": "Stock Repo added to the project to fetch data\n"
+                },
+                "parents": [
+                    "c990cf81d4eba77732077462d69484213f4c74e8"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/a012558859bd3bcff2ba809d1bc7db9b667eb5db"
+            },
+            {
+                "sha": "c990cf81d4eba77732077462d69484213f4c74e8",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan Mohamadpour",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-06T10:50:01+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2022-11-06T10:50:01+03:30"
+                    },
+                    "message": "Merge pull request #1 from Sobhan-mp/modulize\n\nModulize merged to main"
+                },
+                "parents": [
+                    "00c1c09d6f3b887e6636a425ed394afe32652b2b",
+                    "881c64cdb4e9dacfd3b7fbefd544ea38b5191a87"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/c990cf81d4eba77732077462d69484213f4c74e8"
+            },
+            {
+                "sha": "881c64cdb4e9dacfd3b7fbefd544ea38b5191a87",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-06T10:46:56+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-06T10:46:56+03:30"
+                    },
+                    "message": "local and remote data sources added to model module\n"
+                },
+                "parents": [
+                    "1ab9cbdabc48176ffcb36b6cf45dfecba4398733"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/881c64cdb4e9dacfd3b7fbefd544ea38b5191a87"
+            },
+            {
+                "sha": "1ab9cbdabc48176ffcb36b6cf45dfecba4398733",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-06T09:48:06+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-06T09:48:06+03:30"
+                    },
+                    "message": "modules created\n"
+                },
+                "parents": [
+                    "00c1c09d6f3b887e6636a425ed394afe32652b2b"
+                ],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/1ab9cbdabc48176ffcb36b6cf45dfecba4398733"
+            },
+            {
+                "sha": "00c1c09d6f3b887e6636a425ed394afe32652b2b",
+                "commit": {
+                    "author": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-06T09:42:47+03:30"
+                    },
+                    "committer": {
+                        "name": "Sobhan_mp",
+                        "email": "sobhanmohamadpour@gmail.com",
+                        "date": "2022-11-06T09:42:47+03:30"
+                    },
+                    "message": "Initial commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/Sobhan-mp/StockMarketApp/commit/00c1c09d6f3b887e6636a425ed394afe32652b2b"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "DogBreeds": [
+            "Merge pull request #1 from Sobhan-mp/dev\n\nDev",
+            "git ignore\n",
+            "add: dog breed page\n",
+            "init project\n",
+            "Initial commit"
+        ],
+        "flutter_calculator": [
+            "init\n"
+        ],
+        "Hilt_Retrofit": [
+            "init\n"
+        ],
+        "SimpleNoteApp": [
+            "Delete redundant file",
+            "Update README.md",
+            "Merge pull request #11 from Sobhan-mp/feat/presentation\n\nadd: edit feature added",
+            "add: edit feature added\n",
+            "Merge pull request #10 from Sobhan-mp/feat/presentation\n\nadd: delete feature",
+            "add: delete feature\n",
+            "Create LICENSE",
+            "Delete .idea directory",
+            "Merge pull request #9 from Sobhan-mp/feat/presentation\n\nadd: navigation from note item to details",
+            "add: navigation from note item to details\n",
+            "Merge pull request #8 from Sobhan-mp/feat/presentation\n\nadd: add note completed",
+            "add: add note completed\n",
+            "Merge pull request #7 from Sobhan-mp/feat/presentation\n\nFeat/presentation",
+            "add: home fragment selected ashome screen in navigation component\n",
+            "fix: mutable state update\n",
+            "Merge pull request #6 from Sobhan-mp/feat/presentation\n\nadd: home fragment collector",
+            "add: home fragment collector\n",
+            "Merge pull request #5 from Sobhan-mp/feat/presentation\n\nadd: fragment background color",
+            "add: fragment background color\n",
+            "Merge pull request #4 from Sobhan-mp/feat/presentation\n\nFeat/presentation",
+            "add: fragment home created\n",
+            "add: note list adapter created\n",
+            "add: recyclerview xml item\n",
+            "Merge pull request #3 from Sobhan-mp/feat/presentation\n\nFeat/presentation",
+            "add: extension function for collecting flow in fragment\n",
+            "add: result handling in viewModel and Fragment\n",
+            "add: remove support for RTL\n",
+            "refactor: remove redundant loading in flow\n",
+            "add: save note databinding\n",
+            "add: detail screen ui\n",
+            "add: databinding added\n",
+            "add: dateUtil added\n",
+            "Merge pull request #2 from Sobhan-mp/config/gradle\n\nConfig/gradle",
+            "config: gradle upgraded to the latest version\n",
+            "add: navigation component added\n",
+            "add: detail screen design and presentation module for usecases\n",
+            "Merge pull request #1 from Sobhan-mp/feat/domain\n\nFeat/domain",
+            "add: usecases added to domain layer\n",
+            "add: repository impl added\n",
+            "add: room dao and tables created\n",
+            "add: domain model and repo added\n",
+            "arch: project modules added\n",
+            "initial commit\n",
+            "Update README.md",
+            "Created first readme file",
+            "Initial commit"
+        ],
+        "Sobhan-mp": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Initial commit"
+        ],
+        "StockMarketApp": [
+            "Merge pull request #5 from Sobhan-mp/presentation\n\ncompany listings added",
+            "company listing and company item screen added\n",
+            "view model completed\n",
+            "working on view model\n",
+            "Merge pull request #4 from Sobhan-mp/csv-parser\n\nCSVParser added to the remote repository",
+            "CSVParser added to the remote repository\n",
+            "Merge pull request #2 from Sobhan-mp/repository\n\nStock Repo added to the project to fetch data",
+            "Stock Repo added to the project to fetch data\n",
+            "Merge pull request #1 from Sobhan-mp/modulize\n\nModulize merged to main",
+            "local and remote data sources added to model module\n",
+            "modules created\n",
+            "Initial commit\n"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

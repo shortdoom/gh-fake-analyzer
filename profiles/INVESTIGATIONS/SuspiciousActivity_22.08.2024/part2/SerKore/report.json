@@ -1,0 +1,82 @@
+{
+    "profile_info": {
+        "login": "SerKore",
+        "id": 157106650,
+        "node_id": "U_kgDOCV1B2g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/157106650?v=4",
+        "html_url": "https://github.com/SerKore",
+        "type": "User",
+        "site_admin": false,
+        "name": "Gboyega",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 1,
+        "public_gists": 0,
+        "followers": 0,
+        "following": 26,
+        "created_at": "2024-01-19T08:47:04Z",
+        "updated_at": "2024-08-17T06:03:30Z"
+    },
+    "original_repos_count": 1,
+    "forked_repos_count": 0,
+    "mutual_followers": [],
+    "following": [
+        "adamsoffer",
+        "drahnr",
+        "jchrisp",
+        "ch4r10t33r",
+        "robjtede",
+        "thedavidwhiteside",
+        "0xSalman",
+        "rcolomina",
+        "alxkzmn",
+        "bboreham",
+        "AngelOnFira",
+        "robsonmgalvao",
+        "Moshiach770",
+        "brunos3d",
+        "serfrae",
+        "IlluvatarEru",
+        "curtislin7",
+        "silvercondor",
+        "bruceherve",
+        "Kaleb-Rupe",
+        "XantreDev",
+        "baileyalo",
+        "TGreenizan",
+        "rcheunger",
+        "niceDeve",
+        "rexstjohn-anza"
+    ],
+    "followers": [],
+    "repo_list": [
+        "cartesi-project"
+    ],
+    "forked_repo_list": [],
+    "unique_emails": {
+        "157106650+SerKore@users.noreply.github.com": {
+            "name": "SerKore",
+            "commits": [
+                "8664d144d4903a8450b1b2849d9958f9d2fe3e20"
+            ]
+        },
+        "noreply@github.com": {
+            "name": "GitHub",
+            "commits": [
+                "8664d144d4903a8450b1b2849d9958f9d2fe3e20"
+            ]
+        }
+    },
+    "contributors": {
+        "cartesi-project": [
+            "SerKore"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

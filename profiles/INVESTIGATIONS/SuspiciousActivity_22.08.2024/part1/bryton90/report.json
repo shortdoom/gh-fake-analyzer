@@ -1,0 +1,251 @@
+{
+    "profile_info": {
+        "login": "bryton90",
+        "id": 63312484,
+        "node_id": "MDQ6VXNlcjYzMzEyNDg0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63312484?v=4",
+        "html_url": "https://github.com/bryton90",
+        "type": "User",
+        "site_admin": false,
+        "name": "Bryton",
+        "company": "Freelancer",
+        "blog": "",
+        "location": "Nairobi, Kenya",
+        "email": null,
+        "hireable": true,
+        "bio": "Software developer | Forever learning | Python-Django",
+        "twitter_username": null,
+        "public_repos": 56,
+        "public_gists": 0,
+        "followers": 28,
+        "following": 45,
+        "created_at": "2020-04-07T17:54:20Z",
+        "updated_at": "2024-09-02T07:14:22Z"
+    },
+    "original_repos_count": 18,
+    "forked_repos_count": 38,
+    "unique_emails": {
+        "63312484+bryton90@users.noreply.github.com": "Bryton",
+        "noreply@github.com": "GitHub",
+        "63312484+Anon123-tech@users.noreply.github.com": "Bry",
+        "waynekobe822@gmail.com": "bryton90",
+        "vadimen109@gmail.com": "Vadim",
+        "trevornyagah4@gmail.com": "Trevor50"
+    },
+    "mutual_followers": [
+        "JohnMwendwa",
+        "domambia",
+        "tkshill",
+        "Diana-nyamai",
+        "Trevor50",
+        "evawanini",
+        "markmumba",
+        "Juliet879",
+        "Balvine",
+        "dennohpeter",
+        "collinskoech11"
+    ],
+    "following": [
+        "https://github.com/geohot",
+        "https://github.com/torvalds",
+        "https://github.com/markerikson",
+        "https://github.com/Jaymo",
+        "https://github.com/JacksiroKe",
+        "https://github.com/mossey",
+        "https://github.com/tkshill",
+        "https://github.com/ForrestKnight",
+        "https://github.com/danilashamin",
+        "https://github.com/jama5262",
+        "https://github.com/Bettykirii",
+        "https://github.com/bigzoo",
+        "https://github.com/dennohpeter",
+        "https://github.com/preethamb97",
+        "https://github.com/collinskoech11",
+        "https://github.com/zecollokaris",
+        "https://github.com/Musyimi97",
+        "https://github.com/evawanini",
+        "https://github.com/kamau-mbugua",
+        "https://github.com/carolinemusyoka",
+        "https://github.com/MathengeNewton",
+        "https://github.com/CyberPunkMetalHead",
+        "https://github.com/domambia",
+        "https://github.com/Wolfof420Street",
+        "https://github.com/GypsyTheDj",
+        "https://github.com/markmumba",
+        "https://github.com/Phelcia",
+        "https://github.com/r1",
+        "https://github.com/MbuguaGeorge",
+        "https://github.com/rafaballerini",
+        "https://github.com/Diana-nyamai",
+        "https://github.com/mercysimon",
+        "https://github.com/Bnanyingi",
+        "https://github.com/hellen-22",
+        "https://github.com/lynnemunini",
+        "https://github.com/Balvine",
+        "https://github.com/DENNIS-CODES",
+        "https://github.com/Juliet879",
+        "https://github.com/Trevor50",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/kadimasum",
+        "https://github.com/Sidneyp91",
+        "https://github.com/Gathoni-Wanjira",
+        "https://github.com/munyuawilson",
+        "https://github.com/blocage"
+    ],
+    "followers": [
+        "https://github.com/Magicianred",
+        "https://github.com/victorbjorklund",
+        "https://github.com/Soldy",
+        "https://github.com/gamemann",
+        "https://github.com/vivekweb2013",
+        "https://github.com/armancodv",
+        "https://github.com/tkshill",
+        "https://github.com/dodoaska",
+        "https://github.com/dennohpeter",
+        "https://github.com/chipnertkj",
+        "https://github.com/StanleyMasinde",
+        "https://github.com/collinskoech11",
+        "https://github.com/evawanini",
+        "https://github.com/domambia",
+        "https://github.com/PremChapagain",
+        "https://github.com/markmumba",
+        "https://github.com/Diana-nyamai",
+        "https://github.com/Balvine",
+        "https://github.com/Juliet879",
+        "https://github.com/Trevor50",
+        "https://github.com/eric-oiler-54",
+        "https://github.com/JohnMwendwa",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/ethanflower1903",
+        "https://github.com/MonyaTechnik",
+        "https://github.com/TopCodeBeast",
+        "https://github.com/911-carrera",
+        "https://github.com/xopaz"
+    ],
+    "repo_list": [
+        "AI_chatbot",
+        "bryton90",
+        "Chaos_Chairs",
+        "ChatGPT_Bot",
+        "Competitive_Programming",
+        "Dad-jokes",
+        "Dependancy",
+        "furniture-order",
+        "Instagram-clone",
+        "Instagram_BOT",
+        "Netflix-Clone",
+        "Password_manager_resource",
+        "PORTFOLIO",
+        "Project",
+        "Pyria-Limited",
+        "scaling-spork",
+        "To-Do-List",
+        "WiFi_Pentest_Guide"
+    ],
+    "forked_repo_list": [
+        "airflow",
+        "automate-sending-emails-using-python",
+        "binance-trading-bot-new-coins",
+        "bitcoin-bot-buy-if-elon-tweets",
+        "blobsaver",
+        "Chatbot-AI",
+        "CheckNonceGUI",
+        "codingSpace",
+        "cookiecutter-django",
+        "crypto-performance-tracker",
+        "cryptocurrency-news-analysis",
+        "developer-portfolios",
+        "django",
+        "Doris",
+        "E-commerce.",
+        "FurnitureOrdering",
+        "futurerestore",
+        "InfectiWatch-backend",
+        "ipwndfu",
+        "Leave-Tracker-Backend",
+        "mebel-shop",
+        "movie-search-app",
+        "MPESA-Biz-No-Detector",
+        "openpilot",
+        "PressTheLightUpButton-game",
+        "python-beginner-projects-with-chatgpt",
+        "Quarto",
+        "Resetter",
+        "sell-digitial-products-using-streamlit-stripe",
+        "SenSors",
+        "sherlock",
+        "Simple-MultiBandCompressor",
+        "stream-chat-android",
+        "The-World-in-Poverty",
+        "twitchchess",
+        "twitter-followers-bot",
+        "vscode-live-server",
+        "wifite"
+    ],
+    "contributors": {
+        "AI_chatbot": [
+            "bryton90"
+        ],
+        "bryton90": [
+            "bryton90"
+        ],
+        "Chaos_Chairs": [
+            "bryton90"
+        ],
+        "ChatGPT_Bot": [
+            "bryton90"
+        ],
+        "Competitive_Programming": [
+            "bryton90"
+        ],
+        "Dad-jokes": [
+            "bryton90"
+        ],
+        "Dependancy": [
+            "bryton90"
+        ],
+        "furniture-order": [
+            "vadimyen"
+        ],
+        "Instagram-clone": [
+            "bryton90"
+        ],
+        "Instagram_BOT": [
+            "bryton90"
+        ],
+        "Netflix-Clone": [
+            "bryton90"
+        ],
+        "Password_manager_resource": [
+            "bryton90"
+        ],
+        "PORTFOLIO": [
+            "bryton90"
+        ],
+        "Project": [
+            "bryton90"
+        ],
+        "Pyria-Limited": [
+            "Trevor50"
+        ],
+        "scaling-spork": [
+            "bryton90"
+        ],
+        "To-Do-List": [
+            "bryton90"
+        ],
+        "WiFi_Pentest_Guide": [
+            "bryton90"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "danilashamin/FurnitureOrdering": [
+            "https://github.com/danilashamin/FurnitureOrdering/pull/1"
+        ]
+    },
+    "commits_to_other_repos": {
+        "danilashamin/FurnitureOrdering": [
+            "https://github.com/danilashamin/FurnitureOrdering/commit/54bc2e25e284b5dda7642a26d8625537b2d55d4d"
+        ]
+    }
+}

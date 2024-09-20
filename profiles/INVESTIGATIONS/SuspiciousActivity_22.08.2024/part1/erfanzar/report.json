@@ -1,0 +1,522 @@
+{
+    "profile_info": {
+        "login": "erfanzar",
+        "id": 59269023,
+        "node_id": "MDQ6VXNlcjU5MjY5MDIz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59269023?v=4",
+        "html_url": "https://github.com/erfanzar",
+        "type": "User",
+        "site_admin": false,
+        "name": "Erfan Zare Chavoshi",
+        "company": "AlmubdieunTech / Instinct-AI",
+        "blog": "https://almubdieuntech.com/",
+        "location": "isfahan, Iran",
+        "email": null,
+        "hireable": true,
+        "bio": "Driven by insatiable curiosity",
+        "twitter_username": "Erfun07324313",
+        "public_repos": 50,
+        "public_gists": 2,
+        "followers": 121,
+        "following": 78,
+        "created_at": "2019-12-27T00:55:08Z",
+        "updated_at": "2024-08-28T11:46:55Z"
+    },
+    "original_repos_count": 45,
+    "forked_repos_count": 5,
+    "unique_emails": {
+        "erfanzare82@yahoo.com": "erfanzar",
+        "59269023+erfanzar@users.noreply.github.com": "Erfan Zare Chavoshi",
+        "noreply@github.com": "GitHub",
+        "dacke24h@gmail.com": "ehsanAghahoseini",
+        "44238245+sparsh35@users.noreply.github.com": "sparsh35",
+        "wilsonwong961@gmail.com": "w11wo",
+        "yhavinga@gmail.com": "Yeb Havinga",
+        "amirhosein@amirhoseins-MacBook-Pro.local": "amirhosein",
+        "saeedhosseny1377@gmail.com": "saeed"
+    },
+    "mutual_followers": [
+        "cryptoforge318",
+        "Danialjfz",
+        "IDouble",
+        "young-geng",
+        "ayaka14732",
+        "inamaniesohrima",
+        "zigzagcai",
+        "codemaster05330",
+        "jarvis-acv",
+        "sferriss",
+        "serhiidev23",
+        "arxyzan",
+        "amirh-far",
+        "kenjinote",
+        "HeegyuKim",
+        "MartinCastroAlvarez",
+        "adonis0302",
+        "MidhiaQueiroz",
+        "rcrowe-google",
+        "joycemoraiss",
+        "fathikhalil",
+        "ehsanAghahoseini",
+        "moamkh",
+        "mahseema",
+        "kelvinelove",
+        "Ortiz2525",
+        "tigerhunter318",
+        "Rodrigo-Cn",
+        "cedev935",
+        "naafey-aamer",
+        "moakilodash",
+        "Aeziren",
+        "911-carrera",
+        "Makitey",
+        "elqessouartariq",
+        "CarlosAlexandre197",
+        "ghassanelgendy",
+        "bahramiholding",
+        "Omar95-A",
+        "johnolson2219",
+        "fly51fly",
+        "RifatHasan-g",
+        "GIGAParviz",
+        "cumsoft",
+        "ip681",
+        "Youssefouah",
+        "EhsanGheychisaz",
+        "IasmineSilva",
+        "codelinx-academy",
+        "Nightbringers"
+    ],
+    "following": [
+        "https://github.com/lucidrains",
+        "https://github.com/fly51fly",
+        "https://github.com/karpathy",
+        "https://github.com/cloudhan",
+        "https://github.com/davisyoshida",
+        "https://github.com/ggerganov",
+        "https://github.com/kenjinote",
+        "https://github.com/MartinCastroAlvarez",
+        "https://github.com/HeegyuKim",
+        "https://github.com/young-geng",
+        "https://github.com/zbejas",
+        "https://github.com/Sea-Snell",
+        "https://github.com/zigzagcai",
+        "https://github.com/kelvinelove",
+        "https://github.com/Murplugg",
+        "https://github.com/IDouble",
+        "https://github.com/microsoftopensource",
+        "https://github.com/forhaoliu",
+        "https://github.com/fathikhalil",
+        "https://github.com/bahramiholding",
+        "https://github.com/iefnaf",
+        "https://github.com/arxyzan",
+        "https://github.com/sferriss",
+        "https://github.com/google-research",
+        "https://github.com/rcrowe-google",
+        "https://github.com/ip681",
+        "https://github.com/i12cu84",
+        "https://github.com/inamaniesohrima",
+        "https://github.com/moakilodash",
+        "https://github.com/Youssefouah",
+        "https://github.com/Nightbringers",
+        "https://github.com/vinhtran2611",
+        "https://github.com/RifatHasan-g",
+        "https://github.com/OmarElsakka1",
+        "https://github.com/ayaka14732",
+        "https://github.com/H-K-R",
+        "https://github.com/codelinx-academy",
+        "https://github.com/IasmineSilva",
+        "https://github.com/elqessouartariq",
+        "https://github.com/schwanzLutschen",
+        "https://github.com/Danialjfz",
+        "https://github.com/bstar0406",
+        "https://github.com/0vm",
+        "https://github.com/ehsanAghahoseini",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Omar95-A",
+        "https://github.com/EhsanGheychisaz",
+        "https://github.com/amirh-far",
+        "https://github.com/danovd",
+        "https://github.com/cumsoft",
+        "https://github.com/wr0110",
+        "https://github.com/javier901",
+        "https://github.com/ghassanelgendy",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/naafey-aamer",
+        "https://github.com/moamkh",
+        "https://github.com/Aeziren",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/Makitey",
+        "https://github.com/johnolson2219",
+        "https://github.com/NinjaDevOps0831",
+        "https://github.com/GIGAParviz",
+        "https://github.com/Instinct-AI",
+        "https://github.com/cryptoforge318",
+        "https://github.com/techtronixnepal",
+        "https://github.com/joycemoraiss",
+        "https://github.com/codemaster05330",
+        "https://github.com/tigerhunter318",
+        "https://github.com/Ortiz2525",
+        "https://github.com/cedev935",
+        "https://github.com/adonis0302",
+        "https://github.com/mahseema",
+        "https://github.com/olehrab",
+        "https://github.com/MidhiaQueiroz",
+        "https://github.com/serhiidev23",
+        "https://github.com/JinSeoungwoo",
+        "https://github.com/mojicians",
+        "https://github.com/911-carrera"
+    ],
+    "followers": [
+        "https://github.com/jchauhan",
+        "https://github.com/fly51fly",
+        "https://github.com/sbhavani",
+        "https://github.com/nhabibi",
+        "https://github.com/Yadev7",
+        "https://github.com/broqdev",
+        "https://github.com/jiangplus",
+        "https://github.com/kenjinote",
+        "https://github.com/MartinCastroAlvarez",
+        "https://github.com/HeegyuKim",
+        "https://github.com/young-geng",
+        "https://github.com/evanatyourservice",
+        "https://github.com/barzan-hayati",
+        "https://github.com/mustafacagri",
+        "https://github.com/zigzagcai",
+        "https://github.com/kelvinelove",
+        "https://github.com/he0x",
+        "https://github.com/otakbeku",
+        "https://github.com/haditabealhojeh",
+        "https://github.com/Taekyoon",
+        "https://github.com/opooladz",
+        "https://github.com/IDouble",
+        "https://github.com/AmrMKayid",
+        "https://github.com/ArmanJR",
+        "https://github.com/marcusinthesky",
+        "https://github.com/yixiaoer",
+        "https://github.com/fathikhalil",
+        "https://github.com/bahramiholding",
+        "https://github.com/jk4freedom",
+        "https://github.com/mantle2048",
+        "https://github.com/zwbx",
+        "https://github.com/arxyzan",
+        "https://github.com/hu8813",
+        "https://github.com/Nasirjavaid",
+        "https://github.com/alx-xlx",
+        "https://github.com/sferriss",
+        "https://github.com/standardgalactic",
+        "https://github.com/rcrowe-google",
+        "https://github.com/AmooHashem",
+        "https://github.com/mishaobu",
+        "https://github.com/ip681",
+        "https://github.com/inamaniesohrima",
+        "https://github.com/moakilodash",
+        "https://github.com/Youssefouah",
+        "https://github.com/Jiayi-Pan",
+        "https://github.com/foxier25",
+        "https://github.com/Jackt5",
+        "https://github.com/Nightbringers",
+        "https://github.com/RifatHasan-g",
+        "https://github.com/ayaka14732",
+        "https://github.com/codelinx-academy",
+        "https://github.com/Gizachew29",
+        "https://github.com/OfficialCodeVoyage",
+        "https://github.com/IasmineSilva",
+        "https://github.com/elqessouartariq",
+        "https://github.com/ikbalunal",
+        "https://github.com/aminnzo",
+        "https://github.com/Danialjfz",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/farhangian9921160212",
+        "https://github.com/ehsanAghahoseini",
+        "https://github.com/jarvis-acv",
+        "https://github.com/Omar95-A",
+        "https://github.com/Anupavan687",
+        "https://github.com/BilalAcikgoz",
+        "https://github.com/shakiliitju",
+        "https://github.com/Muqi1029",
+        "https://github.com/StableFluffy",
+        "https://github.com/EhsanGheychisaz",
+        "https://github.com/george0st",
+        "https://github.com/amirh-far",
+        "https://github.com/cumsoft",
+        "https://github.com/stollmayer",
+        "https://github.com/MahanRajabi80",
+        "https://github.com/Adamudanyaro",
+        "https://github.com/mdtanvirahamedshanto",
+        "https://github.com/ghassanelgendy",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/naafey-aamer",
+        "https://github.com/Ambesawi",
+        "https://github.com/seo-asif",
+        "https://github.com/moamkh",
+        "https://github.com/MelikaMirdamadi",
+        "https://github.com/juliofleitas",
+        "https://github.com/nati673",
+        "https://github.com/Aeziren",
+        "https://github.com/Emakiflom",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/Makitey",
+        "https://github.com/codewizard0803",
+        "https://github.com/johnolson2219",
+        "https://github.com/dongwookkim3",
+        "https://github.com/GIGAParviz",
+        "https://github.com/aranic61",
+        "https://github.com/cryptoforge318",
+        "https://github.com/joycemoraiss",
+        "https://github.com/codemaster05330",
+        "https://github.com/tigerhunter318",
+        "https://github.com/0x0geek",
+        "https://github.com/Ortiz2525",
+        "https://github.com/warmice71",
+        "https://github.com/mgp87",
+        "https://github.com/goktugkayra",
+        "https://github.com/Nakshatra05",
+        "https://github.com/cedev935",
+        "https://github.com/adonis0302",
+        "https://github.com/mahseema",
+        "https://github.com/MohamedAyman22E",
+        "https://github.com/viaches001",
+        "https://github.com/MidhiaQueiroz",
+        "https://github.com/serhiidev23",
+        "https://github.com/AI0228",
+        "https://github.com/darkhorse0311",
+        "https://github.com/911-carrera",
+        "https://github.com/dougkalash",
+        "https://github.com/livedeveloper823",
+        "https://github.com/stan8086",
+        "https://github.com/RealDiligentDev",
+        "https://github.com/NinjaCrypto0831",
+        "https://github.com/cometsheepboy",
+        "https://github.com/golden-lucky-monkey"
+    ],
+    "repo_list": [
+        "AgentX",
+        "Ai-Body-Train",
+        "Ai-Movie-Recommender",
+        "Ai-optic4less",
+        "Ai-Test-Eye",
+        "Ai_Health_Web",
+        "AR-ML-FOR-REPLACEING",
+        "Assets",
+        "ATensor-Matrix",
+        "Autoencode-Ai",
+        "Clo-Ai",
+        "Cnn-Custom-Object-Detection",
+        "Coin-Predict-Ai",
+        "DNFT-server",
+        "Document-Reader-CV",
+        "Dynamic-NFT",
+        "EasyDeL",
+        "Emotions-And-Feeling-Ai",
+        "erfanzar",
+        "Erutils",
+        "Face-Mesh-Ai",
+        "Face-Recognition-App",
+        "FJDiffusion",
+        "FJFormer",
+        "GameMaker-Python_ONS",
+        "Graceful-Face",
+        "Instagram-Post-Bot",
+        "InstinctiveDiffuse",
+        "Llama-Inference-JAX",
+        "Map-Generation-For-Game",
+        "mathTorch",
+        "NFT-Ai",
+        "NFT-Generator",
+        "NFT-Instagram",
+        "ObjD",
+        "OCR-FA",
+        "OST-OpenSourceTransformers",
+        "Reinforcement-Learning-Tutorial",
+        "Smart-Home-Flutter",
+        "speech-Recognition",
+        "Spider-Engine",
+        "ThreeJs-Ar-Glasses",
+        "Wafi-Mall",
+        "Weather-Detection-Ai",
+        "Windows-EyeTest-Ai"
+    ],
+    "forked_repo_list": [
+        "awesome-jax",
+        "coax",
+        "jax",
+        "jax-triton",
+        "TransformerEngine"
+    ],
+    "contributors": {
+        "AgentX": [
+            "erfanzar"
+        ],
+        "Ai-Body-Train": [
+            "erfanzar"
+        ],
+        "Ai-Movie-Recommender": [
+            "erfanzar"
+        ],
+        "Ai-optic4less": [
+            "ehsanAghahoseini",
+            "erfanzar"
+        ],
+        "Ai-Test-Eye": [
+            "erfanzar"
+        ],
+        "Ai_Health_Web": [
+            "erfanzar"
+        ],
+        "AR-ML-FOR-REPLACEING": [
+            "ehsanAghahoseini",
+            "erfanzar"
+        ],
+        "Assets": [
+            "erfanzar"
+        ],
+        "ATensor-Matrix": [
+            "erfanzar"
+        ],
+        "Autoencode-Ai": [
+            "erfanzar"
+        ],
+        "Clo-Ai": [
+            "erfanzar"
+        ],
+        "Cnn-Custom-Object-Detection": [
+            "erfanzar"
+        ],
+        "Coin-Predict-Ai": [
+            "erfanzar"
+        ],
+        "DNFT-server": [
+            "erfanzar"
+        ],
+        "Document-Reader-CV": [
+            "erfanzar"
+        ],
+        "Dynamic-NFT": [
+            "erfanzar"
+        ],
+        "EasyDeL": [
+            "s-smits",
+            "erfanzar",
+            "yhavinga",
+            "sparsh35",
+            "w11wo"
+        ],
+        "Emotions-And-Feeling-Ai": [
+            "erfanzar"
+        ],
+        "erfanzar": [
+            "erfanzar"
+        ],
+        "Erutils": [
+            "erfanzar"
+        ],
+        "Face-Mesh-Ai": [
+            "ehsanAghahoseini",
+            "erfanzar"
+        ],
+        "Face-Recognition-App": [
+            "erfanzar"
+        ],
+        "FJDiffusion": [
+            "erfanzar"
+        ],
+        "FJFormer": [
+            "w11wo",
+            "yhavinga",
+            "erfanzar"
+        ],
+        "GameMaker-Python_ONS": [
+            "erfanzar"
+        ],
+        "Graceful-Face": [
+            "erfanzar"
+        ],
+        "Instagram-Post-Bot": [
+            "erfanzar"
+        ],
+        "InstinctiveDiffuse": [
+            "erfanzar"
+        ],
+        "Llama-Inference-JAX": [
+            "erfanzar"
+        ],
+        "Map-Generation-For-Game": [
+            "erfanzar"
+        ],
+        "mathTorch": [
+            "erfanzar"
+        ],
+        "NFT-Ai": [
+            "erfanzar"
+        ],
+        "NFT-Generator": [
+            "erfanzar"
+        ],
+        "NFT-Instagram": [
+            "erfanzar"
+        ],
+        "ObjD": [
+            "erfanzar"
+        ],
+        "OCR-FA": [
+            "erfanzar"
+        ],
+        "OST-OpenSourceTransformers": [
+            "erfanzar"
+        ],
+        "Reinforcement-Learning-Tutorial": [
+            "erfanzar"
+        ],
+        "Smart-Home-Flutter": [
+            "erfanzar"
+        ],
+        "speech-Recognition": [
+            "erfanzar"
+        ],
+        "Spider-Engine": [
+            "saeedhosseini"
+        ],
+        "ThreeJs-Ar-Glasses": [
+            "ehsanAghahoseini"
+        ],
+        "Wafi-Mall": [
+            "erfanzar"
+        ],
+        "Weather-Detection-Ai": [
+            "erfanzar"
+        ],
+        "Windows-EyeTest-Ai": [
+            "erfanzar"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "n2cholas/awesome-jax": [
+            "https://github.com/n2cholas/awesome-jax/pull/97",
+            "https://github.com/n2cholas/awesome-jax/pull/96"
+        ],
+        "konfuzio-ai/ai-comedy-club": [
+            "https://github.com/konfuzio-ai/ai-comedy-club/pull/92",
+            "https://github.com/konfuzio-ai/ai-comedy-club/pull/91"
+        ],
+        "ehsanAghahoseini/tiny-app": [
+            "https://github.com/ehsanAghahoseini/tiny-app/pull/8"
+        ],
+        "Anurag-gg/pull-shark-automation": [
+            "https://github.com/Anurag-gg/pull-shark-automation/pull/173"
+        ]
+    },
+    "commits_to_other_repos": {
+        "ehsanAghahoseini/tiny-app": [
+            "https://github.com/ehsanAghahoseini/tiny-app/commit/e853f272cb348abba2626cf70ae2ea2e26ef4fb2"
+        ],
+        "almubdieuntech/CreativeGAN": [
+            "https://github.com/almubdieuntech/CreativeGAN/commit/c63b73bcc300992f0e9b4dd2c14c30a353419d67",
+            "https://github.com/almubdieuntech/CreativeGAN/commit/65791925e8071cc621ca3f421842083a2ff2aa33",
+            "https://github.com/almubdieuntech/CreativeGAN/commit/e86613608d0ba8cf8d3270b54920e5b157a02887"
+        ],
+        "n2cholas/awesome-jax": [
+            "https://github.com/n2cholas/awesome-jax/commit/7487aba9da98fe606ed5121131f2b83c3bc40c2e"
+        ]
+    }
+}

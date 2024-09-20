@@ -1,0 +1,425 @@
+{
+    "repos": [
+        {
+            "id": 813574154,
+            "node_id": "R_kgDOMH4oCg",
+            "name": "madeindex",
+            "full_name": "madeindex/madeindex",
+            "private": false,
+            "owner": {
+                "login": "madeindex",
+                "id": 166755288,
+                "node_id": "U_kgDOCfB72A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/166755288?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/madeindex",
+                "html_url": "https://github.com/madeindex",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/madeindex/madeindex",
+            "description": "Config files for my GitHub profile.",
+            "fork": false,
+            "url": "https://api.github.com/repos/madeindex/madeindex",
+            "created_at": "2024-06-11T10:34:03Z",
+            "updated_at": "2024-08-26T18:56:21Z",
+            "pushed_at": "2024-06-11T10:40:57Z",
+            "homepage": "https://github.com/madeindex",
+            "size": 1,
+            "stargazers_count": 10,
+            "watchers_count": 10,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 2,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "config",
+                "github-config"
+            ],
+            "visibility": "public",
+            "forks": 2,
+            "open_issues": 0,
+            "watchers": 10,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 824274504,
+            "node_id": "R_kgDOMSFuSA",
+            "name": "madeindex.github.io",
+            "full_name": "madeindex/madeindex.github.io",
+            "private": false,
+            "owner": {
+                "login": "madeindex",
+                "id": 166755288,
+                "node_id": "U_kgDOCfB72A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/166755288?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/madeindex",
+                "html_url": "https://github.com/madeindex",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/madeindex/madeindex.github.io",
+            "description": "The MadeIndex.org project repository",
+            "fork": false,
+            "url": "https://api.github.com/repos/madeindex/madeindex.github.io",
+            "created_at": "2024-07-04T18:35:15Z",
+            "updated_at": "2024-08-27T03:09:50Z",
+            "pushed_at": "2024-07-04T18:47:56Z",
+            "homepage": "https://madeindex.org",
+            "size": 4,
+            "stargazers_count": 7,
+            "watchers_count": 7,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "has_discussions": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "cc0-1.0",
+                "name": "Creative Commons Zero v1.0 Universal",
+                "spdx_id": "CC0-1.0",
+                "url": "https://api.github.com/licenses/cc0-1.0",
+                "node_id": "MDc6TGljZW5zZTY="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "blog",
+                "companies",
+                "companies-list",
+                "environmentalism",
+                "guides",
+                "journalism",
+                "madein",
+                "madeindex",
+                "news",
+                "online-shopping",
+                "reporting",
+                "sustainability",
+                "sustainability-score",
+                "sustainable"
+            ],
+            "visibility": "public",
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 7,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 788358989,
+            "node_id": "R_kgDOLv1nTQ",
+            "name": "mastodon",
+            "full_name": "madeindex/mastodon",
+            "private": false,
+            "owner": {
+                "login": "madeindex",
+                "id": 166755288,
+                "node_id": "U_kgDOCfB72A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/166755288?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/madeindex",
+                "html_url": "https://github.com/madeindex",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/madeindex/mastodon",
+            "description": "Your self-hosted, globally interconnected microblogging community",
+            "fork": true,
+            "url": "https://api.github.com/repos/madeindex/mastodon",
+            "created_at": "2024-04-18T09:04:21Z",
+            "updated_at": "2024-08-26T10:15:24Z",
+            "pushed_at": "2024-04-18T08:22:48Z",
+            "homepage": "https://joinmastodon.org",
+            "size": 235251,
+            "stargazers_count": 4,
+            "watchers_count": 4,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 2,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "agpl-3.0",
+                "name": "GNU Affero General Public License v3.0",
+                "spdx_id": "AGPL-3.0",
+                "url": "https://api.github.com/licenses/agpl-3.0",
+                "node_id": "MDc6TGljZW5zZTE="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 2,
+            "open_issues": 0,
+            "watchers": 4,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 785392571,
+            "node_id": "R_kgDOLtAjuw",
+            "name": "Signal-Android",
+            "full_name": "madeindex/Signal-Android",
+            "private": false,
+            "owner": {
+                "login": "madeindex",
+                "id": 166755288,
+                "node_id": "U_kgDOCfB72A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/166755288?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/madeindex",
+                "html_url": "https://github.com/madeindex",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/madeindex/Signal-Android",
+            "description": "A private messenger for Android.",
+            "fork": true,
+            "url": "https://api.github.com/repos/madeindex/Signal-Android",
+            "created_at": "2024-04-11T19:54:43Z",
+            "updated_at": "2024-08-26T10:15:23Z",
+            "pushed_at": "2024-04-10T19:32:18Z",
+            "homepage": "https://signal.org",
+            "size": 1260250,
+            "stargazers_count": 5,
+            "watchers_count": 5,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "agpl-3.0",
+                "name": "GNU Affero General Public License v3.0",
+                "spdx_id": "AGPL-3.0",
+                "url": "https://api.github.com/licenses/agpl-3.0",
+                "node_id": "MDc6TGljZW5zZTE="
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 5,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 785392950,
+            "node_id": "R_kgDOLtAlNg",
+            "name": "tor",
+            "full_name": "madeindex/tor",
+            "private": false,
+            "owner": {
+                "login": "madeindex",
+                "id": 166755288,
+                "node_id": "U_kgDOCfB72A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/166755288?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/madeindex",
+                "html_url": "https://github.com/madeindex",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/madeindex/tor",
+            "description": "unofficial git repo -- report bugs/issues/pull requests on https://gitlab.torproject.org/ --",
+            "fork": true,
+            "url": "https://api.github.com/repos/madeindex/tor",
+            "created_at": "2024-04-11T19:55:54Z",
+            "updated_at": "2024-08-26T18:56:20Z",
+            "pushed_at": "2024-03-05T22:24:35Z",
+            "homepage": "https://gitweb.torproject.org/tor.git",
+            "size": 185680,
+            "stargazers_count": 6,
+            "watchers_count": 6,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 6,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "madeindex": [
+            {
+                "sha": "9aa96b8547a5cf609f0406054406e5787c001a72",
+                "commit": {
+                    "author": {
+                        "name": "MadeInDex",
+                        "email": "166755288+madeindex@users.noreply.github.com",
+                        "date": "2024-06-11T12:40:57+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-11T12:40:57+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "aa1b21d6c8527409688d814ae91f6a44caa0728a"
+                ],
+                "url": "https://github.com/madeindex/madeindex/commit/9aa96b8547a5cf609f0406054406e5787c001a72"
+            },
+            {
+                "sha": "aa1b21d6c8527409688d814ae91f6a44caa0728a",
+                "commit": {
+                    "author": {
+                        "name": "MadeInDex",
+                        "email": "166755288+madeindex@users.noreply.github.com",
+                        "date": "2024-06-11T12:35:57+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-11T12:35:57+02:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [],
+                "url": "https://github.com/madeindex/madeindex/commit/aa1b21d6c8527409688d814ae91f6a44caa0728a"
+            }
+        ],
+        "madeindex.github.io": [
+            {
+                "sha": "7080b67a507327590e7f789e8671bc91170fe45a",
+                "commit": {
+                    "author": {
+                        "name": "MadeInDex",
+                        "email": "166755288+madeindex@users.noreply.github.com",
+                        "date": "2024-07-04T20:47:56+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-04T20:47:56+02:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "4d0c83df2466d8319a3f5cd085065128c6813364"
+                ],
+                "url": "https://github.com/madeindex/madeindexhub.io/commit/7080b67a507327590e7f789e8671bc91170fe45a"
+            },
+            {
+                "sha": "4d0c83df2466d8319a3f5cd085065128c6813364",
+                "commit": {
+                    "author": {
+                        "name": "MadeInDex",
+                        "email": "166755288+madeindex@users.noreply.github.com",
+                        "date": "2024-07-04T20:35:16+02:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-07-04T20:35:16+02:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/madeindex/madeindexhub.io/commit/4d0c83df2466d8319a3f5cd085065128c6813364"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "madeindex": [
+            "Update README.md",
+            "Create README.md"
+        ],
+        "madeindex.github.io": [
+            "Update README.md",
+            "Initial commit"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {},
+    "commit_filter": {}
+}

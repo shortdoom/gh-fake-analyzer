@@ -1,0 +1,608 @@
+{
+    "profile_info": {
+        "login": "TAYBI",
+        "id": 38045842,
+        "node_id": "MDQ6VXNlcjM4MDQ1ODQy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/38045842?v=4",
+        "html_url": "https://github.com/TAYBI",
+        "type": "User",
+        "site_admin": false,
+        "name": "Bilal TAYBI",
+        "company": null,
+        "blog": "https://www.bilaltaybi.live",
+        "location": "Morocco",
+        "email": null,
+        "hireable": null,
+        "bio": "Software Developer",
+        "twitter_username": "taybi_bilal",
+        "public_repos": 60,
+        "public_gists": 0,
+        "followers": 140,
+        "following": 126,
+        "created_at": "2018-04-03T15:42:57Z",
+        "updated_at": "2024-09-02T11:44:24Z"
+    },
+    "original_repos_count": 55,
+    "forked_repos_count": 5,
+    "unique_emails": {
+        "taybib4@gmail.com": "TAYBI",
+        "38045842+TAYBI@users.noreply.github.com": "Bilal TAYBI",
+        "noreply@github.com": "GitHub",
+        "samer.buna@gmail.com": "Samer Buna",
+        "samerbuna@users.noreply.github.com": "Samer Buna"
+    },
+    "mutual_followers": [
+        "maxcohen31",
+        "GeauxWeisbeck4",
+        "marianapiccolo",
+        "SWxEng",
+        "amanpratapsingh9",
+        "zikodotcom",
+        "CharlieGreenman",
+        "rediahmds",
+        "MaDrCloudDev",
+        "BoubkerElmaayouf",
+        "iAmKankan",
+        "priyamervana",
+        "Jessica-ovabor",
+        "amilemia",
+        "dmuhia136",
+        "mortolian",
+        "JosiTubaroski",
+        "azzouz-omag",
+        "george0st",
+        "rmoujan",
+        "WalaEddine01",
+        "Swati-Tanu",
+        "felipee-monteiro",
+        "thsWebstorm03",
+        "Amir-Afshar-1",
+        "lucasmrthomaz",
+        "seniorvuejsdeveloper",
+        "Abhis113",
+        "N-Laboratory",
+        "ababdelo",
+        "0x1881",
+        "zied-snoussi",
+        "mdawoud27",
+        "GabiDeutner",
+        "santiagomota",
+        "confidentmeerkat",
+        "Emelinur",
+        "KevinL284",
+        "IDouble",
+        "Mosensei7",
+        "OsamaAlmamri",
+        "TuranAda",
+        "mustafacagri",
+        "oderofrancis",
+        "CelsoAlmeidaLF",
+        "kidde60",
+        "charles0830",
+        "AnasElii",
+        "TheRakibHassan",
+        "Alireza-WebDeveloper",
+        "jonasmachados",
+        "Zak-hc",
+        "Omar-Driouch",
+        "PeterGachuru",
+        "gamemann",
+        "jepbura",
+        "ip681",
+        "ThecoderPinar"
+    ],
+    "following": [
+        "https://github.com/manekinekko",
+        "https://github.com/santiagomota",
+        "https://github.com/trungdq88",
+        "https://github.com/kamranahmedse",
+        "https://github.com/Lekssays",
+        "https://github.com/donnemartin",
+        "https://github.com/deadly-panda",
+        "https://github.com/gamemann",
+        "https://github.com/mustafacagri",
+        "https://github.com/aminzayer",
+        "https://github.com/CharlieGreenman",
+        "https://github.com/lucasmrthomaz",
+        "https://github.com/nadjapereira",
+        "https://github.com/mortolian",
+        "https://github.com/iAmKankan",
+        "https://github.com/suzukidavid",
+        "https://github.com/IDouble",
+        "https://github.com/CelsoAlmeidaLF",
+        "https://github.com/jepbura",
+        "https://github.com/PeterGachuru",
+        "https://github.com/sherafatpour",
+        "https://github.com/bneayoub",
+        "https://github.com/Belmekki-Hassan",
+        "https://github.com/AvinandanBose",
+        "https://github.com/Liams-theCreator",
+        "https://github.com/N-Laboratory",
+        "https://github.com/OsamaAlmamri",
+        "https://github.com/oderofrancis",
+        "https://github.com/GabiDeutner",
+        "https://github.com/lukeola",
+        "https://github.com/AppServiceProvider",
+        "https://github.com/ip681",
+        "https://github.com/slick-codes",
+        "https://github.com/i12cu84",
+        "https://github.com/AntiDoteMA",
+        "https://github.com/GIGIODB",
+        "https://github.com/SWxEng",
+        "https://github.com/AnasElii",
+        "https://github.com/pritomsh",
+        "https://github.com/Rodrigo-Sarmento",
+        "https://github.com/marcuwynu23",
+        "https://github.com/Mohd-Adel",
+        "https://github.com/felipee-monteiro",
+        "https://github.com/Omar-Driouch",
+        "https://github.com/JosiTubaroski",
+        "https://github.com/jonasmachados",
+        "https://github.com/ValentinBarco",
+        "https://github.com/wis-aerrajiy",
+        "https://github.com/H-Asmaa",
+        "https://github.com/amanpratapsingh9",
+        "https://github.com/Gizachew29",
+        "https://github.com/zikodotcom",
+        "https://github.com/acadroit",
+        "https://github.com/Emelinur",
+        "https://github.com/maxcohen31",
+        "https://github.com/azzouz-omag",
+        "https://github.com/Jessica-ovabor",
+        "https://github.com/zied-snoussi",
+        "https://github.com/Morium-Nasa",
+        "https://github.com/ayrotideysarkar",
+        "https://github.com/marianapiccolo",
+        "https://github.com/TheRakibHassan",
+        "https://github.com/devmailar",
+        "https://github.com/jrohitofficial",
+        "https://github.com/0x1881",
+        "https://github.com/GeauxWeisbeck4",
+        "https://github.com/girumbasha",
+        "https://github.com/houssame-aithsain",
+        "https://github.com/dmuhia136",
+        "https://github.com/rediahmds",
+        "https://github.com/kidde60",
+        "https://github.com/MernDev0603",
+        "https://github.com/george0st",
+        "https://github.com/rmoujan",
+        "https://github.com/jcbrzzw",
+        "https://github.com/MaDrCloudDev",
+        "https://github.com/Derrick-Mulwa",
+        "https://github.com/ritikrana0169",
+        "https://github.com/Abhis113",
+        "https://github.com/Odn07",
+        "https://github.com/Alireza-WebDeveloper",
+        "https://github.com/appledesire",
+        "https://github.com/KevinL284",
+        "https://github.com/shubhamkr2",
+        "https://github.com/jamesasdev",
+        "https://github.com/ThecoderPinar",
+        "https://github.com/Clairtonlm",
+        "https://github.com/javier901",
+        "https://github.com/Salims505",
+        "https://github.com/Mosensei7",
+        "https://github.com/confidentmeerkat",
+        "https://github.com/mdtanvirahamedshanto",
+        "https://github.com/guptag0808",
+        "https://github.com/Swati-Tanu",
+        "https://github.com/ABDELLAHdev01",
+        "https://github.com/mdawoud27",
+        "https://github.com/SouaOui",
+        "https://github.com/ai-to-ai",
+        "https://github.com/ababdelo",
+        "https://github.com/4cyberlord",
+        "https://github.com/MUmairAB",
+        "https://github.com/DarkHorseCorder",
+        "https://github.com/wisamosman",
+        "https://github.com/Trustwords",
+        "https://github.com/HappyMicky0317",
+        "https://github.com/TuranAda",
+        "https://github.com/Sup3rUserr",
+        "https://github.com/amilemia",
+        "https://github.com/BoubkerElmaayouf",
+        "https://github.com/Zak-hc",
+        "https://github.com/jinDeHao",
+        "https://github.com/rabia20kassi",
+        "https://github.com/charles0830",
+        "https://github.com/thsWebstorm03",
+        "https://github.com/kamelorac",
+        "https://github.com/Karabo-CN",
+        "https://github.com/elitemonster",
+        "https://github.com/Tobe01",
+        "https://github.com/WissalManseri",
+        "https://github.com/WalaEddine01",
+        "https://github.com/Amir-Afshar-1",
+        "https://github.com/safnimj",
+        "https://github.com/olehrab",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/priyamervana",
+        "https://github.com/champion10873"
+    ],
+    "followers": [
+        "https://github.com/kenjinote",
+        "https://github.com/santiagomota",
+        "https://github.com/gamemann",
+        "https://github.com/mustafacagri",
+        "https://github.com/CharlieGreenman",
+        "https://github.com/lucasmrthomaz",
+        "https://github.com/mortolian",
+        "https://github.com/iAmKankan",
+        "https://github.com/IDouble",
+        "https://github.com/CelsoAlmeidaLF",
+        "https://github.com/shahzaman900",
+        "https://github.com/jepbura",
+        "https://github.com/nidal1",
+        "https://github.com/tomcyrus",
+        "https://github.com/PeterGachuru",
+        "https://github.com/Ashwin-Poefra",
+        "https://github.com/gr8monk3ys",
+        "https://github.com/jk4freedom",
+        "https://github.com/hu8813",
+        "https://github.com/santoshpanda1995",
+        "https://github.com/N-Laboratory",
+        "https://github.com/Saeidhoseinipour",
+        "https://github.com/OsamaAlmamri",
+        "https://github.com/instrik",
+        "https://github.com/oderofrancis",
+        "https://github.com/GabiDeutner",
+        "https://github.com/tolgaboroglu",
+        "https://github.com/ETTAYEAMOUNIR",
+        "https://github.com/aserdargun",
+        "https://github.com/ip681",
+        "https://github.com/ridaouiafaf",
+        "https://github.com/SWxEng",
+        "https://github.com/AnasElii",
+        "https://github.com/lawxcrow",
+        "https://github.com/residentrayman",
+        "https://github.com/omarbenfathallah",
+        "https://github.com/felipee-monteiro",
+        "https://github.com/Omar-Driouch",
+        "https://github.com/JosiTubaroski",
+        "https://github.com/jonasmachados",
+        "https://github.com/H-K-R",
+        "https://github.com/amanpratapsingh9",
+        "https://github.com/OfficialCodeVoyage",
+        "https://github.com/zikodotcom",
+        "https://github.com/Emelinur",
+        "https://github.com/maxcohen31",
+        "https://github.com/azzouz-omag",
+        "https://github.com/Jessica-ovabor",
+        "https://github.com/zied-snoussi",
+        "https://github.com/Hexzilla",
+        "https://github.com/ToyZeynep",
+        "https://github.com/marianapiccolo",
+        "https://github.com/Charles-Chrismann",
+        "https://github.com/TheRakibHassan",
+        "https://github.com/jarvis-acv",
+        "https://github.com/zhairiazzeddine",
+        "https://github.com/mowgly11",
+        "https://github.com/piaocreative",
+        "https://github.com/abhaysinghr516",
+        "https://github.com/0x1881",
+        "https://github.com/GabTheGreat25",
+        "https://github.com/GeauxWeisbeck4",
+        "https://github.com/dmuhia136",
+        "https://github.com/MahmoudEasa",
+        "https://github.com/rediahmds",
+        "https://github.com/KairoQalb",
+        "https://github.com/mohamed271220",
+        "https://github.com/kidde60",
+        "https://github.com/george0st",
+        "https://github.com/rmoujan",
+        "https://github.com/MaDrCloudDev",
+        "https://github.com/Abhis113",
+        "https://github.com/Alireza-WebDeveloper",
+        "https://github.com/KevinL284",
+        "https://github.com/Vikiey",
+        "https://github.com/marouanaddou",
+        "https://github.com/ThecoderPinar",
+        "https://github.com/habibundayishimiye",
+        "https://github.com/HyzeahAchungha",
+        "https://github.com/Mosensei7",
+        "https://github.com/confidentmeerkat",
+        "https://github.com/AdelolaBeam",
+        "https://github.com/Swati-Tanu",
+        "https://github.com/mdawoud27",
+        "https://github.com/CarlosAlexandre197",
+        "https://github.com/loranYousef",
+        "https://github.com/Ambesawi",
+        "https://github.com/ababdelo",
+        "https://github.com/zbari023",
+        "https://github.com/Ruth12mak",
+        "https://github.com/peymanmotamedifar",
+        "https://github.com/KK-9684",
+        "https://github.com/Varunbtech9682",
+        "https://github.com/TuranAda",
+        "https://github.com/amilemia",
+        "https://github.com/BoubkerElmaayouf",
+        "https://github.com/Zak-hc",
+        "https://github.com/rihab-29",
+        "https://github.com/codewizard0803",
+        "https://github.com/charles0830",
+        "https://github.com/thsWebstorm03",
+        "https://github.com/L1QU3D",
+        "https://github.com/Chiani-PI",
+        "https://github.com/Lemoncandy1016",
+        "https://github.com/bobbyray1005",
+        "https://github.com/0x0geek",
+        "https://github.com/WalaEddine01",
+        "https://github.com/Ortiz2525",
+        "https://github.com/warmice71",
+        "https://github.com/osprey0222",
+        "https://github.com/amriddin26",
+        "https://github.com/pranavhunagund1993",
+        "https://github.com/berserkerx",
+        "https://github.com/Amir-Afshar-1",
+        "https://github.com/Nakshatra05",
+        "https://github.com/Lolu01",
+        "https://github.com/anashamdanat",
+        "https://github.com/OsmanMR99",
+        "https://github.com/Sam666O",
+        "https://github.com/tigerr402",
+        "https://github.com/mahseema",
+        "https://github.com/MohamedKhamisMostafa",
+        "https://github.com/MohamedAyman22E",
+        "https://github.com/Kishankumar1328",
+        "https://github.com/AI0228",
+        "https://github.com/seniorvuejsdeveloper",
+        "https://github.com/muzahid120",
+        "https://github.com/leonhiat",
+        "https://github.com/super0827",
+        "https://github.com/livedeveloper823",
+        "https://github.com/priyamervana",
+        "https://github.com/stan8086",
+        "https://github.com/leom0311",
+        "https://github.com/flaviodgdas",
+        "https://github.com/mohammedmehdio",
+        "https://github.com/the-raccoondog",
+        "https://github.com/niksakujovic",
+        "https://github.com/gerald525",
+        "https://github.com/xopaz",
+        "https://github.com/mbahomaid"
+    ],
+    "repo_list": [
+        "12-css-projects-design-to-code",
+        "alx-higher_level_programming",
+        "alx-low_level_programming",
+        "alx-pre_course",
+        "alx-system_engineering-devops",
+        "alx-zero_day",
+        "android-calculator",
+        "api_crud_client",
+        "api_utilisateur",
+        "apk-uploader-2",
+        "Automate-the-Boring-Stuff-with-Python",
+        "beachResort",
+        "BilalTaybi",
+        "booksScraper",
+        "bubble-sort-algorithm-visualizer",
+        "budget-calculator",
+        "Done-with-it",
+        "find_your_road",
+        "first_flutter_application",
+        "flutter_todo_app",
+        "fractal-tree",
+        "furry-umbrella",
+        "Gestion_Client",
+        "gestion_mobile",
+        "ionic-download-excel",
+        "iwatch-api",
+        "iwatch-app",
+        "JavaScriptCourse",
+        "jobminer",
+        "Kiloa-theme",
+        "meals-app",
+        "Microsoft-Clone",
+        "mini_social_media_project",
+        "monty",
+        "Mquestion",
+        "mvcs_user_app",
+        "nextjs-dashboard",
+        "ngs",
+        "opinionet",
+        "php-learning",
+        "printf",
+        "React",
+        "react-refresh-projects-",
+        "Search-App",
+        "stage-android-app",
+        "stage_app_asp",
+        "Stripe-Submenus",
+        "TAYBI",
+        "taybi-print",
+        "vue.js",
+        "vuew-start-single-page-app",
+        "weather-App",
+        "weekend-projects",
+        "Working-with-Data-and-APIs-in-JavaScript",
+        "zero_day"
+    ],
+    "forked_repo_list": [
+        "BookYouNeed",
+        "capacitor-docs",
+        "free-programming-books",
+        "SQLite-for-Beginners-2019",
+        "system-design-primer"
+    ],
+    "contributors": {
+        "12-css-projects-design-to-code": [
+            "TAYBI"
+        ],
+        "alx-higher_level_programming": [
+            "TAYBI"
+        ],
+        "alx-low_level_programming": [
+            "TAYBI"
+        ],
+        "alx-pre_course": [
+            "TAYBI"
+        ],
+        "alx-system_engineering-devops": [
+            "TAYBI"
+        ],
+        "alx-zero_day": [
+            "TAYBI"
+        ],
+        "android-calculator": [
+            "TAYBI"
+        ],
+        "api_crud_client": [
+            "TAYBI"
+        ],
+        "api_utilisateur": [
+            "TAYBI"
+        ],
+        "apk-uploader-2": [
+            "TAYBI"
+        ],
+        "Automate-the-Boring-Stuff-with-Python": [
+            "TAYBI"
+        ],
+        "beachResort": [
+            "TAYBI"
+        ],
+        "BilalTaybi": [
+            "TAYBI"
+        ],
+        "booksScraper": [
+            "TAYBI"
+        ],
+        "bubble-sort-algorithm-visualizer": [
+            "TAYBI"
+        ],
+        "budget-calculator": [
+            "TAYBI"
+        ],
+        "Done-with-it": [
+            "TAYBI"
+        ],
+        "find_your_road": [
+            "TAYBI"
+        ],
+        "first_flutter_application": [
+            "TAYBI"
+        ],
+        "flutter_todo_app": [
+            "TAYBI"
+        ],
+        "fractal-tree": [
+            "TAYBI"
+        ],
+        "Gestion_Client": [
+            "TAYBI"
+        ],
+        "gestion_mobile": [
+            "TAYBI"
+        ],
+        "ionic-download-excel": [
+            "TAYBI"
+        ],
+        "iwatch-api": [
+            "TAYBI"
+        ],
+        "iwatch-app": [
+            "TAYBI"
+        ],
+        "JavaScriptCourse": [
+            "TAYBI"
+        ],
+        "jobminer": [
+            "TAYBI"
+        ],
+        "Kiloa-theme": [
+            "TAYBI"
+        ],
+        "meals-app": [
+            "TAYBI"
+        ],
+        "Microsoft-Clone": [
+            "TAYBI"
+        ],
+        "mini_social_media_project": [
+            "TAYBI"
+        ],
+        "monty": [
+            "TAYBI"
+        ],
+        "Mquestion": [
+            "TAYBI"
+        ],
+        "mvcs_user_app": [
+            "TAYBI"
+        ],
+        "nextjs-dashboard": [
+            "TAYBI"
+        ],
+        "ngs": [
+            "samerbuna"
+        ],
+        "opinionet": [
+            "TAYBI"
+        ],
+        "php-learning": [
+            "TAYBI"
+        ],
+        "printf": [
+            "TAYBI"
+        ],
+        "React": [
+            "TAYBI"
+        ],
+        "react-refresh-projects-": [
+            "TAYBI"
+        ],
+        "Search-App": [
+            "TAYBI"
+        ],
+        "stage-android-app": [
+            "TAYBI"
+        ],
+        "stage_app_asp": [
+            "TAYBI"
+        ],
+        "Stripe-Submenus": [
+            "TAYBI"
+        ],
+        "TAYBI": [
+            "TAYBI"
+        ],
+        "taybi-print": [
+            "TAYBI"
+        ],
+        "vue.js": [
+            "TAYBI"
+        ],
+        "vuew-start-single-page-app": [
+            "TAYBI"
+        ],
+        "weather-App": [
+            "TAYBI"
+        ],
+        "weekend-projects": [
+            "TAYBI"
+        ],
+        "Working-with-Data-and-APIs-in-JavaScript": [
+            "TAYBI"
+        ],
+        "zero_day": [
+            "TAYBI"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "AnasElii/GitTest": [
+            "https://github.com/AnasElii/GitTest/pull/1"
+        ]
+    },
+    "commits_to_other_repos": {
+        "Errafai/simple_shell": [
+            "https://github.com/Errafai/simple_shell/commit/676b92525bf09d6ab710c36e1ae948a56df86add",
+            "https://github.com/Errafai/simple_shell/commit/ae6230e1d0bea7fd40bf705bf05667aeee9f1afa",
+            "https://github.com/Errafai/simple_shell/commit/6048594685c60d3858e299f4805f0d5d738e3d74"
+        ],
+        "AnasElii/GitTest": [
+            "https://github.com/AnasElii/GitTest/commit/0cdf9157ed761d06001a98558c8cbaf72c8f1b9d",
+            "https://github.com/AnasElii/GitTest/commit/7828ba3194b4b7c9d6e20df160d0027e99cd5f24"
+        ]
+    }
+}

@@ -1,0 +1,294 @@
+{
+    "profile_info": {
+        "login": "DevPepperspray",
+        "id": 87536433,
+        "node_id": "MDQ6VXNlcjg3NTM2NDMz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87536433?v=4",
+        "html_url": "https://github.com/DevPepperspray",
+        "type": "User",
+        "site_admin": false,
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 16,
+        "public_gists": 0,
+        "followers": 45,
+        "following": 47,
+        "created_at": "2021-07-16T14:51:17Z",
+        "updated_at": "2024-06-26T15:00:41Z"
+    },
+    "original_repos_count": 16,
+    "forked_repos_count": 0,
+    "mutual_followers": [
+        "adonisdev32",
+        "zeekman",
+        "mxmnk",
+        "kenjinote",
+        "IDouble",
+        "BiswajitThakur",
+        "berserkerx",
+        "safaeean",
+        "CharlieGreenman",
+        "Nakshatra05",
+        "BEPb"
+    ],
+    "following": [
+        "kenjinote",
+        "gamemann",
+        "hangga",
+        "CharlieGreenman",
+        "IDouble",
+        "safaeean",
+        "vjanz",
+        "software002",
+        "PuzzleTakX",
+        "mxmnk",
+        "adonisdev32",
+        "Youssefouah",
+        "zeekman",
+        "SelimEminoglu61",
+        "BEPb",
+        "jessecarvalho",
+        "BiswajitThakur",
+        "arjuncvinod",
+        "H-K-R",
+        "winnerdev2012",
+        "Gizachew29",
+        "mohammadhasanii",
+        "Thuotracy",
+        "jarvis-acv",
+        "Omar95-A",
+        "vincentnderitu",
+        "jrohitofficial",
+        "eoeefosa",
+        "nthnn",
+        "SenseiBassa",
+        "X-itachi-X",
+        "javier901",
+        "dawidolko",
+        "OracleBrain",
+        "Rodrigo-Cn",
+        "Makitey",
+        "charles0830",
+        "johnolson2219",
+        "berserkerx",
+        "Farnazy4",
+        "Nakshatra05",
+        "cedev935",
+        "Sam666O",
+        "mahseema",
+        "maksymhu",
+        "hsnborn22",
+        "gitechnologi"
+    ],
+    "followers": [
+        "kenjinote",
+        "mustafacagri",
+        "CharlieGreenman",
+        "IDouble",
+        "alxkm",
+        "safaeean",
+        "web3batman",
+        "mxmnk",
+        "ip681",
+        "adonisdev32",
+        "zeekman",
+        "BEPb",
+        "BiswajitThakur",
+        "Charles-Chrismann",
+        "Solex202",
+        "ayeshanweerasuriya",
+        "Adeema-Amir",
+        "habibundayishimiye",
+        "CarlosAlexandre197",
+        "Ambesawi",
+        "Nathanage3",
+        "testdrop7476",
+        "Emakiflom",
+        "Gooey12",
+        "nickdev0118",
+        "warmice71",
+        "berserkerx",
+        "Nakshatra05",
+        "MohamedAyman22E",
+        "samarjitsahoo",
+        "AI0228",
+        "WaleedRazaShoaib",
+        "seniorvuejsdeveloper",
+        "dougkalash",
+        "xaramore",
+        "defimaxieth",
+        "aylarghezelbash",
+        "paulh27",
+        "stan8086",
+        "10kick-1goal",
+        "Emawi7",
+        "razaafazal",
+        "CyberPhantomsGroup",
+        "golden-lucky-monkey",
+        "xopaz"
+    ],
+    "repo_list": [
+        "Alpha-Academy",
+        "Analysis-with-R",
+        "Analytical-survey-on-Professionals-in-Data",
+        "Customer-Segmentation",
+        "Data-Scrapping",
+        "Doveland",
+        "Eminent",
+        "EminentVille",
+        "Form-Validation",
+        "hotels",
+        "Intergers",
+        "Landing-Page-Hotels.ng",
+        "Plubmling",
+        "Python-Project-scrapping-Top-250-movies",
+        "St.Anthony",
+        "Stock-Prediction-Model"
+    ],
+    "forked_repo_list": [],
+    "unique_emails": {
+        "87536433+DevPepperspray@users.noreply.github.com": {
+            "name": "DevPepperspray",
+            "commits": [
+                "70bc66f6921ef396e3b81639352474b3011c6037",
+                "7abed9eb2eaae4d7667926cd184f17482855be91",
+                "bd60ebaf395a013d7677460bac6734fab327ceed",
+                "dff6739db920521b59f656b645f40b4d84468b29",
+                "e9974a448bcb1d406ea867931c386487dae32bc7",
+                "48979fcea0075e3afc0605a1768f739cade45e00",
+                "170d2020561fba0ab9afb71fa42bc08ff9209968",
+                "64a8d0a504738bb4b7c96917bd78853b8ad75134",
+                "acd2ad42b0cd178b4e8d5c8a207b0d8264b39eb9",
+                "5425cae90270b3f85eadb341bc16eb4882bd7753",
+                "e218cbab3ab2bf5d9a05f90aac8197249d5c2525",
+                "a12a25d020f3d67755fe742a5370253e091f8213",
+                "8ce3dc40ee155b878a4457888e21184534a345f4",
+                "a6ffe6f235b0764a4efba39dd2d16c650ea0fafc",
+                "877d2e499a3745acc9ed444540b317d6767b6f27",
+                "e5b1face5cb9ca725332c142b7136703e1b2c2ee",
+                "89465163878dc308239167a7f89a497279b6ef79",
+                "a8b420141e942910c920bc66cead8b2e75919815",
+                "a4a0956aa31d3c183abcafabc8f052084c2e1023",
+                "1f13056afbb3339959cca501f012add9fde70abd",
+                "4508cc5891ac39ea1cee99f24fdaf72fdad74ec5",
+                "2dcd9ccabcb6e6a0d338c5e3b1b3aa16e64160f3",
+                "90b9f43866063ae11523590d50c8d1722624f900",
+                "9a552503fdd6d7567d6e2efbb27983f952d3b8fa",
+                "d9fa50d7929cab7f75af6aa5423309920888bc78",
+                "ca2b1950a8e1e82418b44aa8178b12adc2df9dba",
+                "666d260b0023659bf62945ca96d782e96b9502da",
+                "5dc587e8011c7b5f71c4062ab2165e91729f92f1",
+                "720a08172fa00e451e55ee05caee01c23ae491b4"
+            ]
+        },
+        "noreply@github.com": {
+            "name": "GitHub",
+            "commits": [
+                "70bc66f6921ef396e3b81639352474b3011c6037",
+                "7abed9eb2eaae4d7667926cd184f17482855be91",
+                "bd60ebaf395a013d7677460bac6734fab327ceed",
+                "dff6739db920521b59f656b645f40b4d84468b29",
+                "e9974a448bcb1d406ea867931c386487dae32bc7",
+                "48979fcea0075e3afc0605a1768f739cade45e00",
+                "170d2020561fba0ab9afb71fa42bc08ff9209968",
+                "64a8d0a504738bb4b7c96917bd78853b8ad75134",
+                "acd2ad42b0cd178b4e8d5c8a207b0d8264b39eb9",
+                "5425cae90270b3f85eadb341bc16eb4882bd7753",
+                "e218cbab3ab2bf5d9a05f90aac8197249d5c2525",
+                "a12a25d020f3d67755fe742a5370253e091f8213",
+                "8ce3dc40ee155b878a4457888e21184534a345f4",
+                "a6ffe6f235b0764a4efba39dd2d16c650ea0fafc",
+                "877d2e499a3745acc9ed444540b317d6767b6f27",
+                "e5b1face5cb9ca725332c142b7136703e1b2c2ee",
+                "89465163878dc308239167a7f89a497279b6ef79",
+                "a8b420141e942910c920bc66cead8b2e75919815",
+                "a4a0956aa31d3c183abcafabc8f052084c2e1023",
+                "1f13056afbb3339959cca501f012add9fde70abd",
+                "4508cc5891ac39ea1cee99f24fdaf72fdad74ec5",
+                "2dcd9ccabcb6e6a0d338c5e3b1b3aa16e64160f3",
+                "90b9f43866063ae11523590d50c8d1722624f900",
+                "9a552503fdd6d7567d6e2efbb27983f952d3b8fa",
+                "d9fa50d7929cab7f75af6aa5423309920888bc78",
+                "ca2b1950a8e1e82418b44aa8178b12adc2df9dba",
+                "666d260b0023659bf62945ca96d782e96b9502da",
+                "5dc587e8011c7b5f71c4062ab2165e91729f92f1",
+                "720a08172fa00e451e55ee05caee01c23ae491b4"
+            ]
+        },
+        "mikelakins30@gmail.com": {
+            "name": "DevPepperspray",
+            "commits": [
+                "a10fb0f4919e646657f3fab98cbafa64d39f1de0",
+                "2b32fb9532c57afc4db923743b2bd7078080ebdd",
+                "f8520aebd436eda55b3e62654415cb66f53368a6",
+                "78540db307d32bd3305f31e13b1449cf1a1dd6b5",
+                "837c00a3eb0215bfa83b5dab1827a32158ad0f0f",
+                "8654756fccda1b9702073a87cc1716b9b49a371e",
+                "96956ef4350259e9049d3d6786d835689a973c9b",
+                "9545aba030e341fcfd9a5491da74d37a573a0d84",
+                "4991867e776ab42e1467b27df375b679e9719f38"
+            ]
+        }
+    },
+    "contributors": {
+        "Alpha-Academy": [
+            "DevSpray",
+            "DevPepperspray"
+        ],
+        "Analysis-with-R": [
+            "DevPepperspray"
+        ],
+        "Analytical-survey-on-Professionals-in-Data": [
+            "DevPepperspray"
+        ],
+        "Customer-Segmentation": [
+            "DevPepperspray"
+        ],
+        "Data-Scrapping": [
+            "DevPepperspray"
+        ],
+        "Doveland": [
+            "DevSpray",
+            "DevPepperspray"
+        ],
+        "Eminent": [
+            "DevPepperspray",
+            "DevSpray"
+        ],
+        "Form-Validation": [
+            "DevPepperspray"
+        ],
+        "hotels": [
+            "DevPepperspray",
+            "DevSpray"
+        ],
+        "Intergers": [
+            "DevSpray",
+            "DevPepperspray"
+        ],
+        "Landing-Page-Hotels.ng": [
+            "DevPepperspray"
+        ],
+        "Plubmling": [
+            "DevPepperspray"
+        ],
+        "Python-Project-scrapping-Top-250-movies": [
+            "DevPepperspray"
+        ],
+        "St.Anthony": [
+            "DevSpray",
+            "DevPepperspray"
+        ],
+        "Stock-Prediction-Model": [
+            "DevPepperspray"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

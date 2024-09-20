@@ -1,0 +1,1180 @@
+{
+    "repos": [
+        {
+            "id": 815959407,
+            "node_id": "R_kgDOMKKNbw",
+            "name": "awesome-ai-image",
+            "full_name": "xaramore/awesome-ai-image",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/awesome-ai-image",
+            "description": "A curated list of awesome AI tools for image processing, editing, enhancement, and more.",
+            "fork": false,
+            "url": "https://api.github.com/repos/xaramore/awesome-ai-image",
+            "created_at": "2024-06-16T16:47:48Z",
+            "updated_at": "2024-09-19T16:25:26Z",
+            "pushed_at": "2024-08-03T16:13:21Z",
+            "homepage": "",
+            "size": 13,
+            "stargazers_count": 56,
+            "watchers_count": 56,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 8,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "ai",
+                "ai-image",
+                "ai-image-generation"
+            ],
+            "visibility": "public",
+            "forks": 8,
+            "open_issues": 0,
+            "watchers": 56,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 815962741,
+            "node_id": "R_kgDOMKKadQ",
+            "name": "awesome-ai-marketing",
+            "full_name": "xaramore/awesome-ai-marketing",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/awesome-ai-marketing",
+            "description": "A curated list of awesome AI tools for marketing, including content creation, analytics, personalization, and more.",
+            "fork": false,
+            "url": "https://api.github.com/repos/xaramore/awesome-ai-marketing",
+            "created_at": "2024-06-16T16:59:12Z",
+            "updated_at": "2024-09-19T16:25:25Z",
+            "pushed_at": "2024-08-03T16:13:42Z",
+            "homepage": "",
+            "size": 8,
+            "stargazers_count": 58,
+            "watchers_count": 58,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 6,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 6,
+            "open_issues": 0,
+            "watchers": 58,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 842435223,
+            "node_id": "R_kgDOMjaKlw",
+            "name": "awesome-ai-models",
+            "full_name": "xaramore/awesome-ai-models",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/awesome-ai-models",
+            "description": "A curated list of top AI models and LLMs",
+            "fork": true,
+            "url": "https://api.github.com/repos/xaramore/awesome-ai-models",
+            "created_at": "2024-08-14T10:49:12Z",
+            "updated_at": "2024-09-16T11:09:44Z",
+            "pushed_at": "2024-08-03T08:51:37Z",
+            "homepage": "",
+            "size": 20,
+            "stargazers_count": 5,
+            "watchers_count": 5,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 5,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 815961803,
+            "node_id": "R_kgDOMKKWyw",
+            "name": "awesome-ai-music",
+            "full_name": "xaramore/awesome-ai-music",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/awesome-ai-music",
+            "description": "A curated list of awesome AI tools for music composition, generation, enhancement, and more.",
+            "fork": false,
+            "url": "https://api.github.com/repos/xaramore/awesome-ai-music",
+            "created_at": "2024-06-16T16:55:45Z",
+            "updated_at": "2024-09-19T16:25:20Z",
+            "pushed_at": "2024-08-19T18:24:14Z",
+            "homepage": "",
+            "size": 11,
+            "stargazers_count": 60,
+            "watchers_count": 60,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 9,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 9,
+            "open_issues": 0,
+            "watchers": 60,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 815962994,
+            "node_id": "R_kgDOMKKbcg",
+            "name": "awesome-ai-seo",
+            "full_name": "xaramore/awesome-ai-seo",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/awesome-ai-seo",
+            "description": "A curated list of awesome AI tools for SEO, including content optimization, keyword research, analytics, and more.",
+            "fork": false,
+            "url": "https://api.github.com/repos/xaramore/awesome-ai-seo",
+            "created_at": "2024-06-16T17:00:12Z",
+            "updated_at": "2024-09-19T16:25:19Z",
+            "pushed_at": "2024-09-07T12:57:20Z",
+            "homepage": "",
+            "size": 23,
+            "stargazers_count": 101,
+            "watchers_count": 101,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 16,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 1,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "ahrefs",
+                "ai-seo-tool",
+                "ai-seo-tools",
+                "awesome",
+                "awesome-ai",
+                "awesome-ai-tools",
+                "awesome-list",
+                "awesome-seo",
+                "neil-patel",
+                "semrush",
+                "seo",
+                "seo-tools",
+                "theresanai",
+                "theresanaiforthat",
+                "toofinder"
+            ],
+            "visibility": "public",
+            "forks": 16,
+            "open_issues": 1,
+            "watchers": 101,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 842434091,
+            "node_id": "R_kgDOMjaGKw",
+            "name": "awesome-ai-tools",
+            "full_name": "xaramore/awesome-ai-tools",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/awesome-ai-tools",
+            "description": "A curated list of Artificial Intelligence Top Tools",
+            "fork": true,
+            "url": "https://api.github.com/repos/xaramore/awesome-ai-tools",
+            "created_at": "2024-08-14T10:46:23Z",
+            "updated_at": "2024-09-11T19:10:13Z",
+            "pushed_at": "2024-08-12T10:53:33Z",
+            "homepage": "",
+            "size": 471,
+            "stargazers_count": 3,
+            "watchers_count": 3,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 3,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 815959670,
+            "node_id": "R_kgDOMKKOdg",
+            "name": "awesome-ai-video",
+            "full_name": "xaramore/awesome-ai-video",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/awesome-ai-video",
+            "description": "A curated list of awesome AI tools for video editing, generation, enhancement, and more.",
+            "fork": false,
+            "url": "https://api.github.com/repos/xaramore/awesome-ai-video",
+            "created_at": "2024-06-16T16:48:38Z",
+            "updated_at": "2024-09-19T16:25:28Z",
+            "pushed_at": "2024-08-03T16:13:00Z",
+            "homepage": "",
+            "size": 8,
+            "stargazers_count": 52,
+            "watchers_count": 52,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 6,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 6,
+            "open_issues": 0,
+            "watchers": 52,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 815958867,
+            "node_id": "R_kgDOMKKLUw",
+            "name": "awesome-ai-writing",
+            "full_name": "xaramore/awesome-ai-writing",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/awesome-ai-writing",
+            "description": "A curated list of Awesome AI tools for writing, content creation, grammar checking, and more.",
+            "fork": false,
+            "url": "https://api.github.com/repos/xaramore/awesome-ai-writing",
+            "created_at": "2024-06-16T16:46:04Z",
+            "updated_at": "2024-09-19T16:25:29Z",
+            "pushed_at": "2024-08-03T16:11:49Z",
+            "homepage": "",
+            "size": 8,
+            "stargazers_count": 56,
+            "watchers_count": 56,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 8,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 1,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "ai",
+                "ai-tools",
+                "ai-writer",
+                "ai-writing"
+            ],
+            "visibility": "public",
+            "forks": 8,
+            "open_issues": 1,
+            "watchers": 56,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 816174270,
+            "node_id": "R_kgDOMKXUvg",
+            "name": "xaramore",
+            "full_name": "xaramore/xaramore",
+            "private": false,
+            "owner": {
+                "login": "xaramore",
+                "id": 150781581,
+                "node_id": "U_kgDOCPy-jQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/150781581?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xaramore",
+                "html_url": "https://github.com/xaramore",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xaramore/xaramore",
+            "description": "My Bio",
+            "fork": false,
+            "url": "https://api.github.com/repos/xaramore/xaramore",
+            "created_at": "2024-06-17T07:29:58Z",
+            "updated_at": "2024-09-19T16:25:22Z",
+            "pushed_at": "2024-08-03T16:15:34Z",
+            "homepage": null,
+            "size": 5,
+            "stargazers_count": 43,
+            "watchers_count": 43,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 3,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 3,
+            "open_issues": 0,
+            "watchers": 43,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "awesome-ai-image": [
+            {
+                "sha": "2a3388b24914ee80ab622cc1e203ab127657a88d",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-08-03T19:43:21+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-03T19:43:21+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "6bc386303bf26f89ff92a4681c2ac6fc084eff95"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-image/commit/2a3388b24914ee80ab622cc1e203ab127657a88d"
+            },
+            {
+                "sha": "6bc386303bf26f89ff92a4681c2ac6fc084eff95",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:09:20+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:09:20+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "8a6a6625c559001733897f00fec69cd3f127307f"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-image/commit/6bc386303bf26f89ff92a4681c2ac6fc084eff95"
+            },
+            {
+                "sha": "8a6a6625c559001733897f00fec69cd3f127307f",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:08:44+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:08:44+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "65d4a6fcecffa047494043a113f2524f3962702f"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-image/commit/8a6a6625c559001733897f00fec69cd3f127307f"
+            },
+            {
+                "sha": "65d4a6fcecffa047494043a113f2524f3962702f",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:06:07+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:06:07+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "0cefbc0cbd56c09bc7a2ab1397d81c7f7c070f5a"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-image/commit/65d4a6fcecffa047494043a113f2524f3962702f"
+            },
+            {
+                "sha": "0cefbc0cbd56c09bc7a2ab1397d81c7f7c070f5a",
+                "commit": {
+                    "author": {
+                        "name": "Sarah",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-16T20:18:08+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-16T20:18:08+03:30"
+                    },
+                    "message": "Create readme.md"
+                },
+                "parents": [],
+                "url": "https://github.com/xaramore/awesome-ai-image/commit/0cefbc0cbd56c09bc7a2ab1397d81c7f7c070f5a"
+            }
+        ],
+        "awesome-ai-marketing": [
+            {
+                "sha": "aa2e630e7d8df670078b5dfff92b591fd275da7d",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-08-03T19:43:42+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-03T19:43:42+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "97a0f1fc67afb62426e7cd33755432e819e6cec9"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-marketing/commit/aa2e630e7d8df670078b5dfff92b591fd275da7d"
+            },
+            {
+                "sha": "97a0f1fc67afb62426e7cd33755432e819e6cec9",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:09:56+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:09:56+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "4a649af3d4911c2df342ca128948232f766a8784"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-marketing/commit/97a0f1fc67afb62426e7cd33755432e819e6cec9"
+            },
+            {
+                "sha": "4a649af3d4911c2df342ca128948232f766a8784",
+                "commit": {
+                    "author": {
+                        "name": "Sarah",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-16T20:29:42+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-16T20:29:42+03:30"
+                    },
+                    "message": "Create readme.md"
+                },
+                "parents": [],
+                "url": "https://github.com/xaramore/awesome-ai-marketing/commit/4a649af3d4911c2df342ca128948232f766a8784"
+            }
+        ],
+        "awesome-ai-music": [
+            {
+                "sha": "2ba0d7ec856068fc587d57d60721821183bed319",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-08-19T21:54:14+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-19T21:54:14+03:30"
+                    },
+                    "message": "Add some more ai voice cloning apps"
+                },
+                "parents": [
+                    "d2f0d24dab24815f526e78f1bd8e7da380c31f90"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-music/commit/2ba0d7ec856068fc587d57d60721821183bed319"
+            },
+            {
+                "sha": "d2f0d24dab24815f526e78f1bd8e7da380c31f90",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-08-03T19:43:09+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-03T19:43:09+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "31daa232e98e4e8dd0cef72b173b8d3ca35f9585"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-music/commit/d2f0d24dab24815f526e78f1bd8e7da380c31f90"
+            },
+            {
+                "sha": "31daa232e98e4e8dd0cef72b173b8d3ca35f9585",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:09:14+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:09:14+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "fefc6c9ce2a973bc724d1876878e1893391fa658"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-music/commit/31daa232e98e4e8dd0cef72b173b8d3ca35f9585"
+            },
+            {
+                "sha": "fefc6c9ce2a973bc724d1876878e1893391fa658",
+                "commit": {
+                    "author": {
+                        "name": "Sarah",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-16T20:26:06+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-16T20:26:06+03:30"
+                    },
+                    "message": "Create readme.md"
+                },
+                "parents": [],
+                "url": "https://github.com/xaramore/awesome-ai-music/commit/fefc6c9ce2a973bc724d1876878e1893391fa658"
+            }
+        ],
+        "awesome-ai-seo": [
+            {
+                "sha": "0ad3acaaac4217235def7c3a1f65ac6824fc620c",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-09-07T16:27:19+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-09-07T16:27:19+03:30"
+                    },
+                    "message": "Update Description"
+                },
+                "parents": [
+                    "726ff67480937f8f9be1c424a36edeac47ab7249"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-seo/commit/0ad3acaaac4217235def7c3a1f65ac6824fc620c"
+            },
+            {
+                "sha": "726ff67480937f8f9be1c424a36edeac47ab7249",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-08-03T19:42:18+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-03T19:42:18+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "a9a47a66bec868ec652c6a69819a3cfe3c988b50"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-seo/commit/726ff67480937f8f9be1c424a36edeac47ab7249"
+            },
+            {
+                "sha": "a9a47a66bec868ec652c6a69819a3cfe3c988b50",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:23:20+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:23:20+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "9c84e6281c1a57878034ce2e6fb16a18c818fef9"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-seo/commit/a9a47a66bec868ec652c6a69819a3cfe3c988b50"
+            },
+            {
+                "sha": "9c84e6281c1a57878034ce2e6fb16a18c818fef9",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:20:46+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:20:46+03:30"
+                    },
+                    "message": "Add new items"
+                },
+                "parents": [
+                    "5cf9c1bf5414180a7f8c9d708b44d7bd635d00e6"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-seo/commit/9c84e6281c1a57878034ce2e6fb16a18c818fef9"
+            },
+            {
+                "sha": "5cf9c1bf5414180a7f8c9d708b44d7bd635d00e6",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:03:18+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:03:18+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "dd5bb6ed558d8e23d14cf36ce3ea695b13284313"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-seo/commit/5cf9c1bf5414180a7f8c9d708b44d7bd635d00e6"
+            },
+            {
+                "sha": "dd5bb6ed558d8e23d14cf36ce3ea695b13284313",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:02:44+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:02:44+03:30"
+                    },
+                    "message": "add related links"
+                },
+                "parents": [
+                    "92fa08afe610d9c043c5e2c3979833226ccaa0d8"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-seo/commit/dd5bb6ed558d8e23d14cf36ce3ea695b13284313"
+            },
+            {
+                "sha": "92fa08afe610d9c043c5e2c3979833226ccaa0d8",
+                "commit": {
+                    "author": {
+                        "name": "Sarah",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-16T20:30:27+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-16T20:30:27+03:30"
+                    },
+                    "message": "Create readme.md"
+                },
+                "parents": [],
+                "url": "https://github.com/xaramore/awesome-ai-seo/commit/92fa08afe610d9c043c5e2c3979833226ccaa0d8"
+            }
+        ],
+        "awesome-ai-video": [
+            {
+                "sha": "75e96e6f06592b9e7ea64b475f168af7893e58c3",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-08-03T19:43:00+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-03T19:43:00+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "371fab551adb65ef322bbbc4952882ffff67b7ea"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-video/commit/75e96e6f06592b9e7ea64b475f168af7893e58c3"
+            },
+            {
+                "sha": "371fab551adb65ef322bbbc4952882ffff67b7ea",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:07:23+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:07:23+03:30"
+                    },
+                    "message": "Update readme.md"
+                },
+                "parents": [
+                    "9fcd1a85f4fceeabcd04c5085b54a5ae75e1cea5"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-video/commit/371fab551adb65ef322bbbc4952882ffff67b7ea"
+            },
+            {
+                "sha": "9fcd1a85f4fceeabcd04c5085b54a5ae75e1cea5",
+                "commit": {
+                    "author": {
+                        "name": "Sarah",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-16T20:19:00+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-16T20:19:00+03:30"
+                    },
+                    "message": "Create readme.md"
+                },
+                "parents": [],
+                "url": "https://github.com/xaramore/awesome-ai-video/commit/9fcd1a85f4fceeabcd04c5085b54a5ae75e1cea5"
+            }
+        ],
+        "awesome-ai-writing": [
+            {
+                "sha": "6c82a30f589f1f26e0768933031f3886d6af9595",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-08-03T19:41:49+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-03T19:41:49+03:30"
+                    },
+                    "message": "Add altern"
+                },
+                "parents": [
+                    "88465539c4b37032d4c60719f14c794df564b263"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-writing/commit/6c82a30f589f1f26e0768933031f3886d6af9595"
+            },
+            {
+                "sha": "88465539c4b37032d4c60719f14c794df564b263",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-21T13:04:19+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T13:04:19+03:30"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "7e58658195dabf3f2330c6e8e1c7da175670409d"
+                ],
+                "url": "https://github.com/xaramore/awesome-ai-writing/commit/88465539c4b37032d4c60719f14c794df564b263"
+            },
+            {
+                "sha": "7e58658195dabf3f2330c6e8e1c7da175670409d",
+                "commit": {
+                    "author": {
+                        "name": "Sarah",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-16T20:16:52+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-16T20:16:52+03:30"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [],
+                "url": "https://github.com/xaramore/awesome-ai-writing/commit/7e58658195dabf3f2330c6e8e1c7da175670409d"
+            }
+        ],
+        "xaramore": [
+            {
+                "sha": "7c25f420a58ccae50f59a8e9b78dce6d432711f7",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-08-03T19:45:34+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-03T19:45:34+03:30"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "870d4885a386e5b11f558a299efa16ce8ee695b5"
+                ],
+                "url": "https://github.com/xaramore/xaramore/commit/7c25f420a58ccae50f59a8e9b78dce6d432711f7"
+            },
+            {
+                "sha": "870d4885a386e5b11f558a299efa16ce8ee695b5",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-23T01:58:13+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-23T01:58:13+03:30"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "7573e68644ef814cb5376f41c540e40a349e9359"
+                ],
+                "url": "https://github.com/xaramore/xaramore/commit/870d4885a386e5b11f558a299efa16ce8ee695b5"
+            },
+            {
+                "sha": "7573e68644ef814cb5376f41c540e40a349e9359",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Danesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-17T18:43:17+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-17T18:43:17+03:30"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "84834d214b08d35ac1594cf4eb6744dbb6ef0658"
+                ],
+                "url": "https://github.com/xaramore/xaramore/commit/7573e68644ef814cb5376f41c540e40a349e9359"
+            },
+            {
+                "sha": "84834d214b08d35ac1594cf4eb6744dbb6ef0658",
+                "commit": {
+                    "author": {
+                        "name": "Sarah Ramesh",
+                        "email": "150781581+xaramore@users.noreply.github.com",
+                        "date": "2024-06-17T11:02:00+03:30"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-17T11:02:00+03:30"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [],
+                "url": "https://github.com/xaramore/xaramore/commit/84834d214b08d35ac1594cf4eb6744dbb6ef0658"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "awesome-ai-image": [
+            "Update readme.md",
+            "Update readme.md",
+            "Update readme.md",
+            "Update readme.md",
+            "Create readme.md"
+        ],
+        "awesome-ai-marketing": [
+            "Update readme.md",
+            "Update readme.md",
+            "Create readme.md"
+        ],
+        "awesome-ai-music": [
+            "Add some more ai voice cloning apps",
+            "Update readme.md",
+            "Update readme.md",
+            "Create readme.md"
+        ],
+        "awesome-ai-seo": [
+            "Update Description",
+            "Update readme.md",
+            "Update readme.md",
+            "Add new items",
+            "Update readme.md",
+            "add related links",
+            "Create readme.md"
+        ],
+        "awesome-ai-video": [
+            "Update readme.md",
+            "Update readme.md",
+            "Create readme.md"
+        ],
+        "awesome-ai-writing": [
+            "Add altern",
+            "Update README.md",
+            "Create README.md"
+        ],
+        "xaramore": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Create README.md"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

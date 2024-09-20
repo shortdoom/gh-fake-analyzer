@@ -1,0 +1,1143 @@
+{
+    "repos": [
+        {
+            "id": 817788328,
+            "node_id": "R_kgDOML51qA",
+            "name": "collateralize-erc20",
+            "full_name": "satokihanada/collateralize-erc20",
+            "private": false,
+            "owner": {
+                "login": "satokihanada",
+                "id": 153381282,
+                "node_id": "U_kgDOCSRpog",
+                "avatar_url": "https://avatars.githubusercontent.com/u/153381282?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/satokihanada",
+                "html_url": "https://github.com/satokihanada",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/satokihanada/collateralize-erc20",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/satokihanada/collateralize-erc20",
+            "created_at": "2024-06-20T12:48:29Z",
+            "updated_at": "2024-08-04T00:50:23Z",
+            "pushed_at": "2024-06-22T07:29:55Z",
+            "homepage": null,
+            "size": 52,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Solidity",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 841963782,
+            "node_id": "R_kgDOMi9ZBg",
+            "name": "onelisten",
+            "full_name": "satokihanada/onelisten",
+            "private": false,
+            "owner": {
+                "login": "satokihanada",
+                "id": 153381282,
+                "node_id": "U_kgDOCSRpog",
+                "avatar_url": "https://avatars.githubusercontent.com/u/153381282?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/satokihanada",
+                "html_url": "https://github.com/satokihanada",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/satokihanada/onelisten",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/satokihanada/onelisten",
+            "created_at": "2024-08-13T11:54:41Z",
+            "updated_at": "2024-08-19T01:26:36Z",
+            "pushed_at": "2024-08-19T01:26:32Z",
+            "homepage": null,
+            "size": 1013,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Rust",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 797399059,
+            "node_id": "R_kgDOL4dYEw",
+            "name": "satokihanada",
+            "full_name": "satokihanada/satokihanada",
+            "private": false,
+            "owner": {
+                "login": "satokihanada",
+                "id": 153381282,
+                "node_id": "U_kgDOCSRpog",
+                "avatar_url": "https://avatars.githubusercontent.com/u/153381282?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/satokihanada",
+                "html_url": "https://github.com/satokihanada",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/satokihanada/satokihanada",
+            "description": "Config files for my GitHub profile.",
+            "fork": false,
+            "url": "https://api.github.com/repos/satokihanada/satokihanada",
+            "created_at": "2024-05-07T18:49:22Z",
+            "updated_at": "2024-08-11T10:24:43Z",
+            "pushed_at": "2024-05-07T18:49:38Z",
+            "homepage": "https://github.com/SatokiHanada",
+            "size": 1,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [
+                "config",
+                "github-config"
+            ],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "collateralize-erc20": [
+            {
+                "sha": "fd8bcc10c3d7fb8c3665cb99762f723e7868e446",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-06-22T16:29:55+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-22T16:29:55+09:00"
+                    },
+                    "message": "Merge-chore: add README\n\nRequest-chore: add README"
+                },
+                "parents": [
+                    "854c9878cde239526c6d44992ae7529e1b6b8a3a",
+                    "43ab45767af83b8bf6176e9e598a958e7daf5965"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/fd8bcc10c3d7fb8c3665cb99762f723e7868e446"
+            },
+            {
+                "sha": "43ab45767af83b8bf6176e9e598a958e7daf5965",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-22T16:29:29+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-22T16:29:29+09:00"
+                    },
+                    "message": "chore: add README"
+                },
+                "parents": [
+                    "854c9878cde239526c6d44992ae7529e1b6b8a3a"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/43ab45767af83b8bf6176e9e598a958e7daf5965"
+            },
+            {
+                "sha": "854c9878cde239526c6d44992ae7529e1b6b8a3a",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-06-22T10:48:56+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-22T10:48:56+09:00"
+                    },
+                    "message": "Merge-feat: add collateralized ERC-20 smart contract and collateralized ERC-20 proxy implementation\n\nRequest-feat: add collateralized ERC-20 smart contract and collateralized ERC-20 proxy implementation"
+                },
+                "parents": [
+                    "40506417a54816cdb2095326f941a2cebf76f1a6",
+                    "aa3c6f56c49c70635a15a5ff62bbad05ffcd243f"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/854c9878cde239526c6d44992ae7529e1b6b8a3a"
+            },
+            {
+                "sha": "aa3c6f56c49c70635a15a5ff62bbad05ffcd243f",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-22T10:48:31+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-22T10:48:31+09:00"
+                    },
+                    "message": "feat: add collateralized ERC-20 smart contract and collateralized ERC-20 proxy implementation"
+                },
+                "parents": [
+                    "cb0164c6a25963fb625385f53811f1e3cbfdc38c"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/aa3c6f56c49c70635a15a5ff62bbad05ffcd243f"
+            },
+            {
+                "sha": "cb0164c6a25963fb625385f53811f1e3cbfdc38c",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-22T09:44:04+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-22T09:44:04+09:00"
+                    },
+                    "message": "feat: add collateralized ERC-20 smart contract and collateralized ERC-20 proxy implementation"
+                },
+                "parents": [
+                    "40506417a54816cdb2095326f941a2cebf76f1a6"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/cb0164c6a25963fb625385f53811f1e3cbfdc38c"
+            },
+            {
+                "sha": "40506417a54816cdb2095326f941a2cebf76f1a6",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-06-22T09:43:47+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-22T09:43:47+09:00"
+                    },
+                    "message": "Merge-feat: add brownie-config with dependency mapping\n\nRequest-feat: add brownie-config with dependency mapping"
+                },
+                "parents": [
+                    "326c96566feb87942b785bfa81a91e5b423acef7",
+                    "5a234bba5226f155d70029b523007ae7e47cd3f8"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/40506417a54816cdb2095326f941a2cebf76f1a6"
+            },
+            {
+                "sha": "5a234bba5226f155d70029b523007ae7e47cd3f8",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-22T09:43:20+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-22T09:43:20+09:00"
+                    },
+                    "message": "feat: add brownie-config with dependency mapping"
+                },
+                "parents": [
+                    "326c96566feb87942b785bfa81a91e5b423acef7"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/5a234bba5226f155d70029b523007ae7e47cd3f8"
+            },
+            {
+                "sha": "326c96566feb87942b785bfa81a91e5b423acef7",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-06-21T10:08:24+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-21T10:08:24+09:00"
+                    },
+                    "message": "Merge-chore: add Pipfile and lockfile\n\nRequest-chore: add Pipfile and lockfile"
+                },
+                "parents": [
+                    "536df96173c13461190c470d110c9a394c80ef3b",
+                    "101c142cbda86cf739b7ef95cc0e7a3d3b81b8e4"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/326c96566feb87942b785bfa81a91e5b423acef7"
+            },
+            {
+                "sha": "101c142cbda86cf739b7ef95cc0e7a3d3b81b8e4",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-21T10:07:59+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-21T10:07:59+09:00"
+                    },
+                    "message": "chore: add Pipfile and lockfile"
+                },
+                "parents": [
+                    "536df96173c13461190c470d110c9a394c80ef3b"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/101c142cbda86cf739b7ef95cc0e7a3d3b81b8e4"
+            },
+            {
+                "sha": "536df96173c13461190c470d110c9a394c80ef3b",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-06-20T22:18:10+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-20T22:18:10+09:00"
+                    },
+                    "message": "Merge-chore: add gitignore and gitattributes\n\nRequest-chore: add gitignore and gitattributes"
+                },
+                "parents": [
+                    "c868e247dc7be3eb8bba13048324a897acb8e9ff",
+                    "fef4c21f45f4b5148b31abbbd8c377532fb3b862"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/536df96173c13461190c470d110c9a394c80ef3b"
+            },
+            {
+                "sha": "fef4c21f45f4b5148b31abbbd8c377532fb3b862",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-20T22:17:41+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-06-20T22:17:41+09:00"
+                    },
+                    "message": "chore: add gitignore and gitattributes"
+                },
+                "parents": [
+                    "c868e247dc7be3eb8bba13048324a897acb8e9ff"
+                ],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/fef4c21f45f4b5148b31abbbd8c377532fb3b862"
+            },
+            {
+                "sha": "c868e247dc7be3eb8bba13048324a897acb8e9ff",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-06-20T21:48:29+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-20T21:48:29+09:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/satokihanada/collateralize-erc20/commit/c868e247dc7be3eb8bba13048324a897acb8e9ff"
+            }
+        ],
+        "onelisten": [
+            {
+                "sha": "53a905a36e512f441493f038996bb05018067c0c",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-19T10:26:32+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-19T10:26:32+09:00"
+                    },
+                    "message": "Merge-need change to linux\n\nRequest-need change to linux"
+                },
+                "parents": [
+                    "da0ddbc7a8e969696cffad721548417ee2ab6e23",
+                    "7794fee819a454079cd3cfa463b6ed691d8cb831"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/53a905a36e512f441493f038996bb05018067c0c"
+            },
+            {
+                "sha": "7794fee819a454079cd3cfa463b6ed691d8cb831",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-19T10:25:56+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-19T10:25:56+09:00"
+                    },
+                    "message": "need change to linux"
+                },
+                "parents": [
+                    "da0ddbc7a8e969696cffad721548417ee2ab6e23"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/7794fee819a454079cd3cfa463b6ed691d8cb831"
+            },
+            {
+                "sha": "da0ddbc7a8e969696cffad721548417ee2ab6e23",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-19T10:04:23+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-19T10:04:23+09:00"
+                    },
+                    "message": "Merge-reflector the function from view by the composable\n\nRequest-reflector the function from view by the composable"
+                },
+                "parents": [
+                    "95bc56cd992290e439f197d077465a3ac8af8ab1",
+                    "b61a45058a73a71450945f67ca8a9d0fbaa2c6b9"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/da0ddbc7a8e969696cffad721548417ee2ab6e23"
+            },
+            {
+                "sha": "b61a45058a73a71450945f67ca8a9d0fbaa2c6b9",
+                "commit": {
+                    "author": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-19T10:03:41+09:00"
+                    },
+                    "committer": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-19T10:03:41+09:00"
+                    },
+                    "message": "reflector the function from view by the composable"
+                },
+                "parents": [
+                    "95bc56cd992290e439f197d077465a3ac8af8ab1"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/b61a45058a73a71450945f67ca8a9d0fbaa2c6b9"
+            },
+            {
+                "sha": "95bc56cd992290e439f197d077465a3ac8af8ab1",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-17T15:55:47+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-17T15:55:47+09:00"
+                    },
+                    "message": "Merge-title bar\n\nRequest-title bar"
+                },
+                "parents": [
+                    "bcaaed3379e7b437c587d1d8252f17f1b01fa51a",
+                    "b183167275fcdfb6aca40aa2a4c295963049d6db"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/95bc56cd992290e439f197d077465a3ac8af8ab1"
+            },
+            {
+                "sha": "b183167275fcdfb6aca40aa2a4c295963049d6db",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-17T15:55:15+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-17T15:55:15+09:00"
+                    },
+                    "message": "title bar"
+                },
+                "parents": [
+                    "bcaaed3379e7b437c587d1d8252f17f1b01fa51a"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/b183167275fcdfb6aca40aa2a4c295963049d6db"
+            },
+            {
+                "sha": "bcaaed3379e7b437c587d1d8252f17f1b01fa51a",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-17T15:53:47+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-17T15:53:47+09:00"
+                    },
+                    "message": "Merge-open layout ability\n\nRequest-open layout ability"
+                },
+                "parents": [
+                    "ee0b164d2711ca4f8177a7eb9d10af1cb55d29e8",
+                    "9648999fd86e8f659656624b8a0f45ca9db0162f"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/bcaaed3379e7b437c587d1d8252f17f1b01fa51a"
+            },
+            {
+                "sha": "9648999fd86e8f659656624b8a0f45ca9db0162f",
+                "commit": {
+                    "author": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-17T15:53:06+09:00"
+                    },
+                    "committer": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-17T15:53:06+09:00"
+                    },
+                    "message": "open layout ability"
+                },
+                "parents": [
+                    "ee0b164d2711ca4f8177a7eb9d10af1cb55d29e8"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/9648999fd86e8f659656624b8a0f45ca9db0162f"
+            },
+            {
+                "sha": "ee0b164d2711ca4f8177a7eb9d10af1cb55d29e8",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-17T15:10:50+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-17T15:10:50+09:00"
+                    },
+                    "message": "Merge-+ readme\n\nRequest-+ readme"
+                },
+                "parents": [
+                    "50539a8bb88324db99575f742437d99f86e54b4c",
+                    "a2b7d90373d0827639e6eee50b197ce9e574729f"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/ee0b164d2711ca4f8177a7eb9d10af1cb55d29e8"
+            },
+            {
+                "sha": "a2b7d90373d0827639e6eee50b197ce9e574729f",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-17T15:10:19+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-17T15:10:19+09:00"
+                    },
+                    "message": "+ readme"
+                },
+                "parents": [
+                    "50539a8bb88324db99575f742437d99f86e54b4c"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/a2b7d90373d0827639e6eee50b197ce9e574729f"
+            },
+            {
+                "sha": "50539a8bb88324db99575f742437d99f86e54b4c",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-16T22:14:10+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-16T22:14:10+09:00"
+                    },
+                    "message": "Merge-use tauri v1\n\nRequest-use tauri v1"
+                },
+                "parents": [
+                    "627e16b174fae6bab6f7a8009f0359d8f7a8e998",
+                    "600c1983c0df195aea41207fedcd3635d1af59a3"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/50539a8bb88324db99575f742437d99f86e54b4c"
+            },
+            {
+                "sha": "600c1983c0df195aea41207fedcd3635d1af59a3",
+                "commit": {
+                    "author": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-16T22:13:01+09:00"
+                    },
+                    "committer": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-16T22:13:01+09:00"
+                    },
+                    "message": "use tauri v1"
+                },
+                "parents": [
+                    "627e16b174fae6bab6f7a8009f0359d8f7a8e998"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/600c1983c0df195aea41207fedcd3635d1af59a3"
+            },
+            {
+                "sha": "627e16b174fae6bab6f7a8009f0359d8f7a8e998",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-16T20:56:46+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-16T20:56:46+09:00"
+                    },
+                    "message": "Merge-use the nuxt frontend\n\nRequest-use the nuxt frontend"
+                },
+                "parents": [
+                    "ee61336d540d5d7825ad8144365ac6bc04143660",
+                    "39cdbc737a864098ccb08b8bc305f11e2116f32e"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/627e16b174fae6bab6f7a8009f0359d8f7a8e998"
+            },
+            {
+                "sha": "39cdbc737a864098ccb08b8bc305f11e2116f32e",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-16T20:56:09+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-16T20:56:09+09:00"
+                    },
+                    "message": "use the nuxt frontend"
+                },
+                "parents": [
+                    "ee61336d540d5d7825ad8144365ac6bc04143660"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/39cdbc737a864098ccb08b8bc305f11e2116f32e"
+            },
+            {
+                "sha": "ee61336d540d5d7825ad8144365ac6bc04143660",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-16T20:54:47+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-16T20:54:47+09:00"
+                    },
+                    "message": "Merge-close the windows head bar\n\nRequest-close the windows head bar"
+                },
+                "parents": [
+                    "1164ea52d7fa492c4b747ded64dcaaf1bb2ffd11",
+                    "47599aa736706c9d30d75d02661f983c5fc9a7b5"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/ee61336d540d5d7825ad8144365ac6bc04143660"
+            },
+            {
+                "sha": "47599aa736706c9d30d75d02661f983c5fc9a7b5",
+                "commit": {
+                    "author": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-16T20:54:10+09:00"
+                    },
+                    "committer": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-16T20:54:10+09:00"
+                    },
+                    "message": "close the windows head bar"
+                },
+                "parents": [
+                    "1164ea52d7fa492c4b747ded64dcaaf1bb2ffd11"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/47599aa736706c9d30d75d02661f983c5fc9a7b5"
+            },
+            {
+                "sha": "1164ea52d7fa492c4b747ded64dcaaf1bb2ffd11",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-16T20:52:17+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-16T20:52:17+09:00"
+                    },
+                    "message": "Merge-update readme\n\nRequest-update readme"
+                },
+                "parents": [
+                    "1980c751c3647f2d30d8a72e17b9ebc1ad1c318e",
+                    "c438b82ec53f64963e392a29947865cf2a21264d"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/1164ea52d7fa492c4b747ded64dcaaf1bb2ffd11"
+            },
+            {
+                "sha": "c438b82ec53f64963e392a29947865cf2a21264d",
+                "commit": {
+                    "author": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-16T20:51:40+09:00"
+                    },
+                    "committer": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-16T20:51:40+09:00"
+                    },
+                    "message": "update readme"
+                },
+                "parents": [
+                    "1980c751c3647f2d30d8a72e17b9ebc1ad1c318e"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/c438b82ec53f64963e392a29947865cf2a21264d"
+            },
+            {
+                "sha": "1980c751c3647f2d30d8a72e17b9ebc1ad1c318e",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-16T20:28:58+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-16T20:28:58+09:00"
+                    },
+                    "message": "Merge-no rust cache\n\nRequest-no rust cache"
+                },
+                "parents": [
+                    "2e261b1c4baeba4b9ad3bd1ddefe33241291303c",
+                    "2f4af2dbb952f75acceef3b3f6a809dbb673800d"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/1980c751c3647f2d30d8a72e17b9ebc1ad1c318e"
+            },
+            {
+                "sha": "2f4af2dbb952f75acceef3b3f6a809dbb673800d",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-16T20:28:28+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-16T20:28:28+09:00"
+                    },
+                    "message": "no rust cache"
+                },
+                "parents": [
+                    "2e261b1c4baeba4b9ad3bd1ddefe33241291303c"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/2f4af2dbb952f75acceef3b3f6a809dbb673800d"
+            },
+            {
+                "sha": "2e261b1c4baeba4b9ad3bd1ddefe33241291303c",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-15T16:34:05+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-15T16:34:05+09:00"
+                    },
+                    "message": "Merge-test action Rust Cache\n\nRequest-test action Rust Cache"
+                },
+                "parents": [
+                    "cdc08af68ac46674c922b8787dcc2c26f937ee3b",
+                    "c383c62a893bd717ecb62156932b48a875bbd306"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/2e261b1c4baeba4b9ad3bd1ddefe33241291303c"
+            },
+            {
+                "sha": "c383c62a893bd717ecb62156932b48a875bbd306",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-15T16:33:34+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-15T16:33:34+09:00"
+                    },
+                    "message": "test action Rust Cache"
+                },
+                "parents": [
+                    "cdc08af68ac46674c922b8787dcc2c26f937ee3b"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/c383c62a893bd717ecb62156932b48a875bbd306"
+            },
+            {
+                "sha": "cdc08af68ac46674c922b8787dcc2c26f937ee3b",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-15T09:35:55+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-15T09:35:55+09:00"
+                    },
+                    "message": "Merge-action test\n\nRequest-action test"
+                },
+                "parents": [
+                    "8dd0d6d03209132b46f16a2be75f33bbb7f60c32",
+                    "473bdf7bb80e73927a43435527c599add0a08fb3"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/cdc08af68ac46674c922b8787dcc2c26f937ee3b"
+            },
+            {
+                "sha": "473bdf7bb80e73927a43435527c599add0a08fb3",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-15T09:35:27+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-15T09:35:27+09:00"
+                    },
+                    "message": "action test"
+                },
+                "parents": [
+                    "8dd0d6d03209132b46f16a2be75f33bbb7f60c32"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/473bdf7bb80e73927a43435527c599add0a08fb3"
+            },
+            {
+                "sha": "8dd0d6d03209132b46f16a2be75f33bbb7f60c32",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-14T19:55:11+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-14T19:55:11+09:00"
+                    },
+                    "message": "Merge-+ release action\n\nopen rust Cache\n\nRequest-+ release action\n\nopen rust Cache"
+                },
+                "parents": [
+                    "144fe912a94d7b27069305d2a5184839d8ac746f",
+                    "f7e83443e6a21a8d509b68d157c86d73660d001c"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/8dd0d6d03209132b46f16a2be75f33bbb7f60c32"
+            },
+            {
+                "sha": "f7e83443e6a21a8d509b68d157c86d73660d001c",
+                "commit": {
+                    "author": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-14T19:54:42+09:00"
+                    },
+                    "committer": {
+                        "name": "satokihanada",
+                        "email": "satoki0212@gmail.com",
+                        "date": "2024-08-14T19:54:42+09:00"
+                    },
+                    "message": "+ release action\n\nopen rust Cache"
+                },
+                "parents": [
+                    "144fe912a94d7b27069305d2a5184839d8ac746f"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/f7e83443e6a21a8d509b68d157c86d73660d001c"
+            },
+            {
+                "sha": "144fe912a94d7b27069305d2a5184839d8ac746f",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-14T16:39:08+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-14T16:39:08+09:00"
+                    },
+                    "message": "Merge-tauri + nuxtjs\n\nRequest-tauri + nuxtjs"
+                },
+                "parents": [
+                    "5c53f39526bf4001e269bacbee5c630577565a13",
+                    "25873c6611805c359e77cbc19988069f9334aa47"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/144fe912a94d7b27069305d2a5184839d8ac746f"
+            },
+            {
+                "sha": "25873c6611805c359e77cbc19988069f9334aa47",
+                "commit": {
+                    "author": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-14T16:38:17+09:00"
+                    },
+                    "committer": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-14T16:38:17+09:00"
+                    },
+                    "message": "tauri + nuxtjs"
+                },
+                "parents": [
+                    "5c53f39526bf4001e269bacbee5c630577565a13"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/25873c6611805c359e77cbc19988069f9334aa47"
+            },
+            {
+                "sha": "5c53f39526bf4001e269bacbee5c630577565a13",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-14T10:17:53+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-14T10:17:53+09:00"
+                    },
+                    "message": "Merge-Initial commit\n\nRequest-Initial commit"
+                },
+                "parents": [
+                    "0429e92826754c89629eb00da995978159aa8719",
+                    "5c8015efbfe2d57f7ac7020e9cde3f2ce5d119c8"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/5c53f39526bf4001e269bacbee5c630577565a13"
+            },
+            {
+                "sha": "5c8015efbfe2d57f7ac7020e9cde3f2ce5d119c8",
+                "commit": {
+                    "author": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-14T10:17:20+09:00"
+                    },
+                    "committer": {
+                        "name": "martinjbrown776",
+                        "email": "martinjbrown776@gmail.com",
+                        "date": "2024-08-14T10:17:20+09:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [
+                    "0429e92826754c89629eb00da995978159aa8719"
+                ],
+                "url": "https://github.com/satokihanada/onelisten/commit/5c8015efbfe2d57f7ac7020e9cde3f2ce5d119c8"
+            },
+            {
+                "sha": "0429e92826754c89629eb00da995978159aa8719",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+satokihanada@users.noreply.github.com",
+                        "date": "2024-08-13T20:54:42+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-08-13T20:54:42+09:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/satokihanada/onelisten/commit/0429e92826754c89629eb00da995978159aa8719"
+            }
+        ],
+        "satokihanada": [
+            {
+                "sha": "c62375fea5d6c9db6ea99eecb299c5b01228d6c3",
+                "commit": {
+                    "author": {
+                        "name": "Satoki Hanada",
+                        "email": "153381282+SatokiHanada@users.noreply.github.com",
+                        "date": "2024-05-08T03:49:38+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-08T03:49:38+09:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [],
+                "url": "https://github.com/satokihanada/satokihanada/commit/c62375fea5d6c9db6ea99eecb299c5b01228d6c3"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "collateralize-erc20": [
+            "Merge-chore: add README\n\nRequest-chore: add README",
+            "chore: add README",
+            "Merge-feat: add collateralized ERC-20 smart contract and collateralized ERC-20 proxy implementation\n\nRequest-feat: add collateralized ERC-20 smart contract and collateralized ERC-20 proxy implementation",
+            "feat: add collateralized ERC-20 smart contract and collateralized ERC-20 proxy implementation",
+            "feat: add collateralized ERC-20 smart contract and collateralized ERC-20 proxy implementation",
+            "Merge-feat: add brownie-config with dependency mapping\n\nRequest-feat: add brownie-config with dependency mapping",
+            "feat: add brownie-config with dependency mapping",
+            "Merge-chore: add Pipfile and lockfile\n\nRequest-chore: add Pipfile and lockfile",
+            "chore: add Pipfile and lockfile",
+            "Merge-chore: add gitignore and gitattributes\n\nRequest-chore: add gitignore and gitattributes",
+            "chore: add gitignore and gitattributes",
+            "Initial commit"
+        ],
+        "onelisten": [
+            "Merge-need change to linux\n\nRequest-need change to linux",
+            "need change to linux",
+            "Merge-reflector the function from view by the composable\n\nRequest-reflector the function from view by the composable",
+            "reflector the function from view by the composable",
+            "Merge-title bar\n\nRequest-title bar",
+            "title bar",
+            "Merge-open layout ability\n\nRequest-open layout ability",
+            "open layout ability",
+            "Merge-+ readme\n\nRequest-+ readme",
+            "+ readme",
+            "Merge-use tauri v1\n\nRequest-use tauri v1",
+            "use tauri v1",
+            "Merge-use the nuxt frontend\n\nRequest-use the nuxt frontend",
+            "use the nuxt frontend",
+            "Merge-close the windows head bar\n\nRequest-close the windows head bar",
+            "close the windows head bar",
+            "Merge-update readme\n\nRequest-update readme",
+            "update readme",
+            "Merge-no rust cache\n\nRequest-no rust cache",
+            "no rust cache",
+            "Merge-test action Rust Cache\n\nRequest-test action Rust Cache",
+            "test action Rust Cache",
+            "Merge-action test\n\nRequest-action test",
+            "action test",
+            "Merge-+ release action\n\nopen rust Cache\n\nRequest-+ release action\n\nopen rust Cache",
+            "+ release action\n\nopen rust Cache",
+            "Merge-tauri + nuxtjs\n\nRequest-tauri + nuxtjs",
+            "tauri + nuxtjs",
+            "Merge-Initial commit\n\nRequest-Initial commit",
+            "Initial commit",
+            "Initial commit"
+        ],
+        "satokihanada": [
+            "Create README.md"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

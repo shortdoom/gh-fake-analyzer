@@ -1,0 +1,17 @@
+[
+    {
+        "repo_name": "boost-playground",
+        "clone_url": "https://github.com/dirkarnez/boost-playground.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/dirkarnez/boost-playground.git /home/user/Github/PRs/gh-fake-analyzer/out/dirkarnez/dirkarnez_boost-playground.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/dirkarnez/dirkarnez_boost-playground.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 614 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "cpp-tools",
+        "clone_url": "https://github.com/dirkarnez/cpp-tools.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/dirkarnez/cpp-tools.git /home/user/Github/PRs/gh-fake-analyzer/out/dirkarnez/dirkarnez_cpp-tools.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/dirkarnez/dirkarnez_cpp-tools.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 5307 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "css-font-playground",
+        "clone_url": "https://github.com/dirkarnez/css-font-playground.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/dirkarnez/css-font-playground.git /home/user/Github/PRs/gh-fake-analyzer/out/dirkarnez/dirkarnez_css-font-playground.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/dirkarnez/dirkarnez_css-font-playground.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 3272 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

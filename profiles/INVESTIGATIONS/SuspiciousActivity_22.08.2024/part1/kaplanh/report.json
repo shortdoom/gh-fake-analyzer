@@ -1,0 +1,708 @@
+{
+    "profile_info": {
+        "login": "kaplanh",
+        "id": 101884444,
+        "node_id": "U_kgDOBhKiHA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/101884444?v=4",
+        "html_url": "https://github.com/kaplanh",
+        "type": "User",
+        "site_admin": false,
+        "name": "H\u00fcseyin Kaplan",
+        "company": "Clarusway",
+        "blog": "https://www.linkedin.com/in/kaplan-h/",
+        "location": "Germany",
+        "email": "kplnhsyn.49@gmail.com",
+        "hireable": null,
+        "bio": "A software developer enthusiast with 5+ years of experience in mathematics and 2+ years of experience in full-stack development.",
+        "twitter_username": null,
+        "public_repos": 148,
+        "public_gists": 0,
+        "followers": 51,
+        "following": 49,
+        "created_at": "2022-03-18T15:22:09Z",
+        "updated_at": "2024-07-18T20:17:29Z"
+    },
+    "original_repos_count": 126,
+    "forked_repos_count": 22,
+    "unique_emails": {
+        "kplnhsyn.49@gmail.com": "kplnhsyn",
+        "101884444+kaplanh@users.noreply.github.com": "H\u00fcseyin Kaplan",
+        "noreply@github.com": "GitHub",
+        "alpagut1993@gmail.com": "Burhan",
+        "kplnhsynkpln.49@gmail.com": "h\u00fcseyin",
+        "115505382+yucel1993@users.noreply.github.com": "Burhan",
+        "yavuzamasya1@gmail.com": "yamasya54",
+        "130457799+abdullahinalcik@users.noreply.github.com": "abdullahinalcik",
+        "alhnkcmn12@gmail.com": "Alihan",
+        "mmhotmail": "hasan",
+        "alidrl26@gmail.com": "Ali"
+    },
+    "mutual_followers": [
+        "huseyincenik",
+        "serapo",
+        "Tolga-Ozd",
+        "mrkorkmaz",
+        "kamilarici",
+        "Soner-Ozciftci",
+        "galiphasandugan",
+        "ilknurtuncer",
+        "Selman-S",
+        "RustuKeten",
+        "Alihan120",
+        "MuratGumus",
+        "sonerylmz26",
+        "abdullahinalcik",
+        "tuba-gibi",
+        "yasinyagmur",
+        "murttkapln"
+    ],
+    "following": [
+        "https://github.com/github",
+        "https://github.com/worm-codes",
+        "https://github.com/Tolga-Ozd",
+        "https://github.com/selimegeguney",
+        "https://github.com/Cynfinitely",
+        "https://github.com/nmekinci",
+        "https://github.com/MSKose",
+        "https://github.com/krlslman",
+        "https://github.com/serapo",
+        "https://github.com/AliDurul",
+        "https://github.com/yamisagi",
+        "https://github.com/Oguzhan-Ucar",
+        "https://github.com/koraykoksal",
+        "https://github.com/anthonyharold67",
+        "https://github.com/fatihcaliss",
+        "https://github.com/ahmetsuat67",
+        "https://github.com/bemrekalkan",
+        "https://github.com/Sadullah-TANRIKULU",
+        "https://github.com/MuazV",
+        "https://github.com/Selman-S",
+        "https://github.com/ozcan-cetin",
+        "https://github.com/murttkapln",
+        "https://github.com/pathfinder3446",
+        "https://github.com/EyyupOrdueri",
+        "https://github.com/Jenalp6",
+        "https://github.com/emreozturanli",
+        "https://github.com/erol1098",
+        "https://github.com/yasinyagmur",
+        "https://github.com/yusufgozukara",
+        "https://github.com/galiphasandugan",
+        "https://github.com/emreymur",
+        "https://github.com/KerimeAbanoz",
+        "https://github.com/RustuKeten",
+        "https://github.com/burak-korkmaz",
+        "https://github.com/B-Oz",
+        "https://github.com/Mustafa-Karakas",
+        "https://github.com/MuratGumus",
+        "https://github.com/mrkorkmaz",
+        "https://github.com/sonerylmz26",
+        "https://github.com/tuba-gibi",
+        "https://github.com/ilknurtuncer",
+        "https://github.com/SUMEYYEEBLL",
+        "https://github.com/Soner-Ozciftci",
+        "https://github.com/huseyincenik",
+        "https://github.com/kamilarici",
+        "https://github.com/Alihan120",
+        "https://github.com/karatosun8",
+        "https://github.com/abdullahinalcik",
+        "https://github.com/AhmetCan1990"
+    ],
+    "followers": [
+        "https://github.com/dirambora",
+        "https://github.com/Tolga-Ozd",
+        "https://github.com/buraktr03",
+        "https://github.com/sametdemirezen",
+        "https://github.com/DurmusFurkanOzkan",
+        "https://github.com/RecepKeremZeybek",
+        "https://github.com/MTanrivermis",
+        "https://github.com/serapo",
+        "https://github.com/fatih-aksoy",
+        "https://github.com/Selman-S",
+        "https://github.com/murttkapln",
+        "https://github.com/yasinyagmur",
+        "https://github.com/frknyldrm5",
+        "https://github.com/galiphasandugan",
+        "https://github.com/Sekunev",
+        "https://github.com/mehmettas1",
+        "https://github.com/RustuKeten",
+        "https://github.com/MuratGumus",
+        "https://github.com/mesutyigity",
+        "https://github.com/mrkorkmaz",
+        "https://github.com/ykcsoftwarer",
+        "https://github.com/blue06900",
+        "https://github.com/PHAM-HONG-NGUYEN",
+        "https://github.com/yucel1993",
+        "https://github.com/safiyeolgun",
+        "https://github.com/ilkaytech",
+        "https://github.com/furkanpolat06",
+        "https://github.com/sonerylmz26",
+        "https://github.com/tuba-gibi",
+        "https://github.com/ilknurtuncer",
+        "https://github.com/hacerbulut",
+        "https://github.com/Nazgul-Racber",
+        "https://github.com/yusufbali13",
+        "https://github.com/Soner-Ozciftci",
+        "https://github.com/OguzBekir",
+        "https://github.com/huseyincenik",
+        "https://github.com/kamilarici",
+        "https://github.com/Alihan120",
+        "https://github.com/kevser-78",
+        "https://github.com/abdullahinalcik",
+        "https://github.com/ekrem18",
+        "https://github.com/Betulduzenlicil",
+        "https://github.com/kdrkmr46",
+        "https://github.com/Begench-Mamedov",
+        "https://github.com/omer-Alptekin",
+        "https://github.com/mehmetkaynar",
+        "https://github.com/nurefsanaydin",
+        "https://github.com/fulyature",
+        "https://github.com/kereciyasin",
+        "https://github.com/seymaoztas",
+        "https://github.com/emrahugurlu2003"
+    ],
+    "repo_list": [
+        "analog-watch",
+        "Animation-Example",
+        "Animation-Example_Text-Buton-Foto",
+        "Appointment-App-Law",
+        "Appointment_app",
+        "Banks-Road-Roasters",
+        "Basic-Portfolio-Example-",
+        "basicPortfolio",
+        "Blog-App",
+        "bootstrap",
+        "Bootstrap-Intro-Webpage",
+        "Bootstrap-Project-Example",
+        "Bootstrap-Web-Page",
+        "busdriver",
+        "Capital-Letters",
+        "Change-Random-Background-Color-App",
+        "Checkout-App",
+        "Checkout_Page",
+        "click-on",
+        "counter",
+        "country-app",
+        "Crypto-Coin-App",
+        "Digital-Clock",
+        "Dom-Example",
+        "Dropdown-Navbar",
+        "event-state-example",
+        "fetch_islemleri",
+        "film_legends",
+        "Firebase-Contact",
+        "first-project",
+        "forms-all-input-types",
+        "github-followers",
+        "Google-Landing-Page-with-Flex",
+        "Google-Landing-with-float",
+        "Guess-the-Number",
+        "Hangman-Game",
+        "horoscope_app",
+        "img_galery",
+        "interview-question-app",
+        "Interview_Qustion",
+        "IOS-Calculator",
+        "ITOP-CAFE",
+        "js-Questions",
+        "jsBasicProjects",
+        "jsPostClass",
+        "JWT-Cookies-MCV",
+        "kaplanh",
+        "kaplanh.github.io",
+        "Kredi-Hesaplama-Uygulamasi",
+        "Kurulum-Satis-Sozlesmesi",
+        "Language-Cards",
+        "Lesson_Reminder",
+        "MediaQuery-CssVariables-Example",
+        "memo-useMemo-useRef-useCallback",
+        "MernStack_Block-App",
+        "mernStack_BlockApp_with_Docker",
+        "modulecss",
+        "Monthly-Expense-Tracking-Application",
+        "Movie-App-Tailwindcss-Firebase",
+        "nba-legends",
+        "nba_legends-app_with_lifting-state-up",
+        "netflix_with_nextjs",
+        "nodejsPostClass",
+        "Paralllax-Website",
+        "Portfolio",
+        "portfolio_2",
+        "Position-Example-_WebPageDesign",
+        "Product-List",
+        "propmthub",
+        "qr-code-component-main",
+        "qrCode_generator-master",
+        "randomUserGenerator",
+        "react-context-api-example-1",
+        "React-Context-Api-Example-2",
+        "React-Mat_Dev-Library",
+        "react-props-example",
+        "React-Restaurant-Appoinment-App",
+        "react-router-dom-example",
+        "React-Styled-Components",
+        "react-useReducer",
+        "reactPostClass",
+        "ReactRandomUser",
+        "react_props_sass_example",
+        "react_ReduxToolkit_ShoppingApp",
+        "react_useEffect_example",
+        "RecipeApp_styledComponent_useContext",
+        "redux-intro",
+        "redux-redux-toolkit-Example",
+        "Registration-Form",
+        "Responsiv-Navbar-2",
+        "Responsive-flex-foto",
+        "Responsive-Navbar",
+        "restaurantApp",
+        "Rock-Paper-Scissor",
+        "sass---module.scss",
+        "sass-intro",
+        "Sass-portfolio-web-page",
+        "sass_module",
+        "sql-codes",
+        "ssn_validate",
+        "stockApp",
+        "stockappwithreact",
+        "stockApp_frontend",
+        "stock_backend",
+        "styled-components-example",
+        "survey-form-ntflx",
+        "Survey-Form-Ntflx_with-table",
+        "Synchronous-Asynchronous-Programming",
+        "Table-Example",
+        "Table-Example-Card",
+        "Task-Traker",
+        "the-best-movies-with-react",
+        "To-Do-App",
+        "Todo-App_withJS",
+        "todoappreact",
+        "Tour-Places",
+        "Travel_Web_Page_with-sass",
+        "Tutorial-App",
+        "Vertical-Navbar",
+        "vite-pnpm-Mui-intro",
+        "voltran",
+        "Vowels-in-a-string",
+        "weather-App",
+        "webPage",
+        "website-page-design",
+        "Yandex-Landing-Page"
+    ],
+    "forked_repo_list": [
+        "30-Days-Of-JavaScript",
+        "50Days50Projects",
+        "All_InClass_Notes",
+        "awesome-github-profile-readme-templates",
+        "BlogApp-with-Django",
+        "CH11_SQL",
+        "Clipboard-Landing-Web-Page",
+        "design-resources-for-developers",
+        "free-programming-books",
+        "github-profile-readme-generator",
+        "Github-User-Search-with-API",
+        "Javascript-Exercises-For-Beginners",
+        "public-apis",
+        "Python-Assignments",
+        "react-app_loginExample",
+        "React-Projects",
+        "Shell_Scripting",
+        "Sqlite3",
+        "stared-repos",
+        "stock-app-cypress",
+        "StockApp-with-DJANGO",
+        "vscode"
+    ],
+    "contributors": {
+        "analog-watch": [
+            "kaplanh"
+        ],
+        "Animation-Example": [
+            "kaplanh"
+        ],
+        "Animation-Example_Text-Buton-Foto": [
+            "kaplanh"
+        ],
+        "Appointment-App-Law": [
+            "kaplanh"
+        ],
+        "Appointment_app": [
+            "kaplanh"
+        ],
+        "Banks-Road-Roasters": [
+            "kaplanh"
+        ],
+        "Basic-Portfolio-Example-": [
+            "kaplanh"
+        ],
+        "basicPortfolio": [
+            "kaplanh"
+        ],
+        "Blog-App": [
+            "kaplanh"
+        ],
+        "bootstrap": [
+            "kaplanh"
+        ],
+        "Bootstrap-Intro-Webpage": [
+            "kaplanh"
+        ],
+        "Bootstrap-Project-Example": [
+            "kaplanh"
+        ],
+        "Bootstrap-Web-Page": [
+            "kaplanh"
+        ],
+        "busdriver": [
+            "kaplanh"
+        ],
+        "Capital-Letters": [
+            "kaplanh"
+        ],
+        "Change-Random-Background-Color-App": [
+            "kaplanh"
+        ],
+        "Checkout-App": [
+            "kaplanh"
+        ],
+        "Checkout_Page": [
+            "kaplanh"
+        ],
+        "click-on": [
+            "kaplanh"
+        ],
+        "counter": [
+            "kaplanh"
+        ],
+        "country-app": [
+            "kaplanh",
+            "yucel1993"
+        ],
+        "Crypto-Coin-App": [
+            "kaplanh"
+        ],
+        "Digital-Clock": [
+            "kaplanh"
+        ],
+        "Dom-Example": [
+            "kaplanh"
+        ],
+        "Dropdown-Navbar": [
+            "kaplanh"
+        ],
+        "event-state-example": [
+            "kaplanh"
+        ],
+        "fetch_islemleri": [
+            "kaplanh"
+        ],
+        "film_legends": [
+            "kaplanh"
+        ],
+        "Firebase-Contact": [
+            "kaplanh"
+        ],
+        "first-project": [
+            "kaplanh"
+        ],
+        "forms-all-input-types": [
+            "kaplanh"
+        ],
+        "github-followers": [
+            "kaplanh"
+        ],
+        "Google-Landing-Page-with-Flex": [
+            "kaplanh"
+        ],
+        "Google-Landing-with-float": [
+            "kaplanh"
+        ],
+        "Guess-the-Number": [
+            "kaplanh"
+        ],
+        "Hangman-Game": [
+            "kaplanh"
+        ],
+        "horoscope_app": [
+            "kaplanh"
+        ],
+        "img_galery": [
+            "kaplanh"
+        ],
+        "interview-question-app": [
+            "kaplanh"
+        ],
+        "Interview_Qustion": [
+            "kaplanh"
+        ],
+        "IOS-Calculator": [
+            "kaplanh"
+        ],
+        "ITOP-CAFE": [
+            "kaplanh"
+        ],
+        "js-Questions": [
+            "kaplanh"
+        ],
+        "jsBasicProjects": [
+            "kaplanh"
+        ],
+        "jsPostClass": [
+            "kaplanh"
+        ],
+        "JWT-Cookies-MCV": [
+            "yamasya54",
+            "yucel1993",
+            "kaplanh",
+            "Alihan120",
+            "abdullahinalcik",
+            "AliDurul"
+        ],
+        "kaplanh": [
+            "kaplanh"
+        ],
+        "kaplanh.github.io": [
+            "kaplanh"
+        ],
+        "Kredi-Hesaplama-Uygulamasi": [
+            "kaplanh"
+        ],
+        "Kurulum-Satis-Sozlesmesi": [
+            "kaplanh"
+        ],
+        "Language-Cards": [
+            "kaplanh"
+        ],
+        "Lesson_Reminder": [
+            "kaplanh"
+        ],
+        "MediaQuery-CssVariables-Example": [
+            "kaplanh"
+        ],
+        "memo-useMemo-useRef-useCallback": [
+            "kaplanh"
+        ],
+        "MernStack_Block-App": [
+            "kaplanh"
+        ],
+        "mernStack_BlockApp_with_Docker": [
+            "kaplanh"
+        ],
+        "modulecss": [
+            "kaplanh"
+        ],
+        "Monthly-Expense-Tracking-Application": [
+            "kaplanh"
+        ],
+        "Movie-App-Tailwindcss-Firebase": [
+            "kaplanh"
+        ],
+        "nba-legends": [
+            "kaplanh"
+        ],
+        "nba_legends-app_with_lifting-state-up": [
+            "kaplanh"
+        ],
+        "netflix_with_nextjs": [
+            "kaplanh"
+        ],
+        "nodejsPostClass": [
+            "kaplanh"
+        ],
+        "Paralllax-Website": [
+            "kaplanh"
+        ],
+        "Portfolio": [
+            "kaplanh"
+        ],
+        "portfolio_2": [
+            "kaplanh"
+        ],
+        "Position-Example-_WebPageDesign": [
+            "kaplanh"
+        ],
+        "Product-List": [
+            "kaplanh"
+        ],
+        "propmthub": [
+            "kaplanh"
+        ],
+        "qr-code-component-main": [
+            "kaplanh"
+        ],
+        "qrCode_generator-master": [
+            "kaplanh"
+        ],
+        "randomUserGenerator": [
+            "kaplanh"
+        ],
+        "react-context-api-example-1": [
+            "kaplanh"
+        ],
+        "React-Context-Api-Example-2": [
+            "kaplanh"
+        ],
+        "React-Mat_Dev-Library": [
+            "kaplanh"
+        ],
+        "react-props-example": [
+            "kaplanh"
+        ],
+        "React-Restaurant-Appoinment-App": [
+            "kaplanh"
+        ],
+        "react-router-dom-example": [
+            "kaplanh"
+        ],
+        "React-Styled-Components": [
+            "kaplanh"
+        ],
+        "react-useReducer": [
+            "kaplanh"
+        ],
+        "reactPostClass": [
+            "kaplanh"
+        ],
+        "ReactRandomUser": [
+            "kaplanh"
+        ],
+        "react_props_sass_example": [
+            "kaplanh"
+        ],
+        "react_ReduxToolkit_ShoppingApp": [
+            "kaplanh"
+        ],
+        "react_useEffect_example": [
+            "kaplanh"
+        ],
+        "RecipeApp_styledComponent_useContext": [
+            "kaplanh"
+        ],
+        "redux-intro": [
+            "kaplanh"
+        ],
+        "redux-redux-toolkit-Example": [
+            "kaplanh"
+        ],
+        "Registration-Form": [
+            "kaplanh"
+        ],
+        "Responsiv-Navbar-2": [
+            "kaplanh"
+        ],
+        "Responsive-flex-foto": [
+            "kaplanh"
+        ],
+        "Responsive-Navbar": [
+            "kaplanh"
+        ],
+        "restaurantApp": [
+            "kaplanh"
+        ],
+        "Rock-Paper-Scissor": [
+            "kaplanh"
+        ],
+        "sass---module.scss": [
+            "kaplanh"
+        ],
+        "sass-intro": [
+            "kaplanh"
+        ],
+        "Sass-portfolio-web-page": [
+            "kaplanh"
+        ],
+        "sass_module": [
+            "kaplanh"
+        ],
+        "sql-codes": [
+            "kaplanh"
+        ],
+        "ssn_validate": [
+            "kaplanh"
+        ],
+        "stockApp": [
+            "kaplanh"
+        ],
+        "stockappwithreact": [
+            "kaplanh"
+        ],
+        "stockApp_frontend": [
+            "kaplanh"
+        ],
+        "stock_backend": [
+            "kaplanh"
+        ],
+        "styled-components-example": [
+            "kaplanh"
+        ],
+        "survey-form-ntflx": [
+            "kaplanh"
+        ],
+        "Survey-Form-Ntflx_with-table": [
+            "kaplanh"
+        ],
+        "Synchronous-Asynchronous-Programming": [
+            "kaplanh"
+        ],
+        "Table-Example": [
+            "kaplanh"
+        ],
+        "Table-Example-Card": [
+            "kaplanh"
+        ],
+        "Task-Traker": [
+            "kaplanh"
+        ],
+        "the-best-movies-with-react": [
+            "kaplanh"
+        ],
+        "To-Do-App": [
+            "kaplanh"
+        ],
+        "Todo-App_withJS": [
+            "kaplanh"
+        ],
+        "todoappreact": [
+            "kaplanh"
+        ],
+        "Tour-Places": [
+            "kaplanh"
+        ],
+        "Travel_Web_Page_with-sass": [
+            "kaplanh"
+        ],
+        "Tutorial-App": [
+            "kaplanh"
+        ],
+        "Vertical-Navbar": [
+            "kaplanh"
+        ],
+        "vite-pnpm-Mui-intro": [
+            "kaplanh"
+        ],
+        "voltran": [
+            "kaplanh"
+        ],
+        "Vowels-in-a-string": [
+            "kaplanh"
+        ],
+        "weather-App": [
+            "kaplanh"
+        ],
+        "webPage": [
+            "kaplanh"
+        ],
+        "website-page-design": [
+            "kaplanh"
+        ],
+        "Yandex-Landing-Page": [
+            "kaplanh"
+        ]
+    },
+    "pull_requests_to_other_repos": {
+        "frknyldrm5/teamwork": [
+            "https://github.com/frknyldrm5/teamwork/pull/4",
+            "https://github.com/frknyldrm5/teamwork/pull/2"
+        ]
+    },
+    "commits_to_other_repos": {}
+}

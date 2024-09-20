@@ -1,0 +1,12 @@
+[
+    {
+        "repo_name": "react-animation-card-slider",
+        "clone_url": "https://github.com/techwhiz74/react-animation-card-slider.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/techwhiz74/react-animation-card-slider.git /home/user/Github/PRs/gh-fake-analyzer/out/techwhiz74/techwhiz74_react-animation-card-slider.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/techwhiz74/techwhiz74_react-animation-card-slider.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 39 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "sci-tech",
+        "clone_url": "https://github.com/techwhiz74/sci-tech.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/techwhiz74/sci-tech.git /home/user/Github/PRs/gh-fake-analyzer/out/techwhiz74/techwhiz74_sci-tech.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/techwhiz74/techwhiz74_sci-tech.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 2950 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "repo_name": "CryptoExchange",
+        "clone_url": "https://github.com/bh717/CryptoExchange.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/bh717/CryptoExchange.git /home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_CryptoExchange.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_CryptoExchange.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 2891 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "MyPortfolio",
+        "clone_url": "https://github.com/bh717/MyPortfolio.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/bh717/MyPortfolio.git /home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_MyPortfolio.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_MyPortfolio.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.\nerror: 3489 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "oleksandr_portfolio",
+        "clone_url": "https://github.com/bh717/oleksandr_portfolio.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/bh717/oleksandr_portfolio.git /home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_oleksandr_portfolio.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_oleksandr_portfolio.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 1540 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "oss",
+        "clone_url": "https://github.com/bh717/oss.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/bh717/oss.git /home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_oss.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_oss.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 5226 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "react-player-backend",
+        "clone_url": "https://github.com/bh717/react-player-backend.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/bh717/react-player-backend.git /home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_react-player-backend.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_react-player-backend.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 4176 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    },
+    {
+        "repo_name": "WebDev717.github.io",
+        "clone_url": "https://github.com/bh717/WebDev717.github.io.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/bh717/WebDev717.github.io.git /home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_WebDev717.github.io.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/bh717/bh717_WebDev717.github.io.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 7566 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

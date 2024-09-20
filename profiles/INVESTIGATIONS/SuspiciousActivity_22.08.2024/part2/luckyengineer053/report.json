@@ -1,0 +1,54 @@
+{
+    "profile_info": {
+        "login": "luckyengineer053",
+        "id": 111452090,
+        "node_id": "U_kgDOBqSfug",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111452090?v=4",
+        "html_url": "https://github.com/luckyengineer053",
+        "type": "User",
+        "site_admin": false,
+        "name": "Lucky Engineer",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": "Hello, I am fullstack engineer.\r\nI will work for you.",
+        "twitter_username": null,
+        "public_repos": 2,
+        "public_gists": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2022-08-17T16:45:31Z",
+        "updated_at": "2024-07-31T14:14:39Z"
+    },
+    "original_repos_count": 2,
+    "forked_repos_count": 0,
+    "mutual_followers": [],
+    "following": [],
+    "followers": [],
+    "repo_list": [
+        "inno_admin",
+        "inno_backend"
+    ],
+    "forked_repo_list": [],
+    "unique_emails": {
+        "lucky.stewart66@gmail.com": {
+            "name": "passion0606",
+            "commits": [
+                "308598c60e04a18c2dccea6b72f8c48988758dfb",
+                "01861f14b037085fb66b591b226a34ebd360e49f"
+            ]
+        }
+    },
+    "contributors": {
+        "inno_admin": [
+            "luckyengineer053"
+        ],
+        "inno_backend": [
+            "luckyengineer053"
+        ]
+    },
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

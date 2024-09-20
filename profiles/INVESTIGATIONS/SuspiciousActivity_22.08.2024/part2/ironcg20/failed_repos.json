@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "Stable-Diffusion",
+        "clone_url": "https://github.com/ironcg20/Stable-Diffusion.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/ironcg20/Stable-Diffusion.git /home/user/Github/PRs/gh-fake-analyzer/out/ironcg20/ironcg20_Stable-Diffusion.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/ironcg20/ironcg20_Stable-Diffusion.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)\nerror: 2610 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]

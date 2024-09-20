@@ -1,0 +1,54 @@
+{
+    "profile_info": {
+        "login": "farellduc",
+        "id": 144379661,
+        "node_id": "U_kgDOCJsPDQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/144379661?v=4",
+        "html_url": "https://github.com/farellduc",
+        "type": "User",
+        "site_admin": false,
+        "name": "Farell",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 0,
+        "public_gists": 0,
+        "followers": 6,
+        "following": 5,
+        "created_at": "2023-09-07T18:11:43Z",
+        "updated_at": "2024-08-14T14:39:39Z"
+    },
+    "original_repos_count": 0,
+    "forked_repos_count": 0,
+    "unique_emails": {},
+    "mutual_followers": [
+        "cedev935",
+        "aronadkins2023",
+        "olehrab",
+        "arsg0etia"
+    ],
+    "following": [
+        "https://github.com/i12cu84",
+        "https://github.com/arsg0etia",
+        "https://github.com/cedev935",
+        "https://github.com/olehrab",
+        "https://github.com/aronadkins2023"
+    ],
+    "followers": [
+        "https://github.com/Youssefouah",
+        "https://github.com/arsg0etia",
+        "https://github.com/Rodrigo-Cn",
+        "https://github.com/cedev935",
+        "https://github.com/olehrab",
+        "https://github.com/aronadkins2023"
+    ],
+    "repo_list": [],
+    "forked_repo_list": [],
+    "contributors": {},
+    "pull_requests_to_other_repos": {},
+    "commits_to_other_repos": {}
+}

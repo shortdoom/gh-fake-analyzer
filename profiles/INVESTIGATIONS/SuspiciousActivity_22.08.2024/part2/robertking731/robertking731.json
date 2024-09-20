@@ -1,0 +1,1186 @@
+{
+    "repos": [
+        {
+            "id": 794421698,
+            "node_id": "R_kgDOL1npwg",
+            "name": "E-Commerce-Jewelery-Store",
+            "full_name": "robertking731/E-Commerce-Jewelery-Store",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/E-Commerce-Jewelery-Store",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/E-Commerce-Jewelery-Store",
+            "created_at": "2024-05-01T05:48:49Z",
+            "updated_at": "2024-05-22T11:15:25Z",
+            "pushed_at": "2024-05-01T06:12:53Z",
+            "homepage": null,
+            "size": 20155,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "TypeScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 805450925,
+            "node_id": "R_kgDOMAI0rQ",
+            "name": "palmshiba",
+            "full_name": "robertking731/palmshiba",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/palmshiba",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/palmshiba",
+            "created_at": "2024-05-24T15:48:08Z",
+            "updated_at": "2024-05-24T15:54:39Z",
+            "pushed_at": "2024-05-24T15:54:35Z",
+            "homepage": null,
+            "size": 5894,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "HTML",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 804589493,
+            "node_id": "R_kgDOL_UPtQ",
+            "name": "portfolio",
+            "full_name": "robertking731/portfolio",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/portfolio",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/portfolio",
+            "created_at": "2024-05-22T22:02:53Z",
+            "updated_at": "2024-05-22T22:12:03Z",
+            "pushed_at": "2024-05-22T22:11:59Z",
+            "homepage": null,
+            "size": 293,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 809253851,
+            "node_id": "R_kgDOMDw72w",
+            "name": "presale-token",
+            "full_name": "robertking731/presale-token",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/presale-token",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/presale-token",
+            "created_at": "2024-06-02T06:49:12Z",
+            "updated_at": "2024-06-02T06:56:37Z",
+            "pushed_at": "2024-06-02T06:49:12Z",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 809262570,
+            "node_id": "R_kgDOMDxd6g",
+            "name": "presale_ACOM_token",
+            "full_name": "robertking731/presale_ACOM_token",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/presale_ACOM_token",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/presale_ACOM_token",
+            "created_at": "2024-06-02T07:25:04Z",
+            "updated_at": "2024-06-02T11:49:06Z",
+            "pushed_at": "2024-06-02T11:49:03Z",
+            "homepage": null,
+            "size": 4841,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 794185721,
+            "node_id": "R_kgDOL1ZP-Q",
+            "name": "robertking731",
+            "full_name": "robertking731/robertking731",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/robertking731",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/robertking731",
+            "created_at": "2024-04-30T16:10:32Z",
+            "updated_at": "2024-06-24T09:15:07Z",
+            "pushed_at": "2024-06-06T14:30:08Z",
+            "homepage": null,
+            "size": 7,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 797346629,
+            "node_id": "R_kgDOL4aLRQ",
+            "name": "score",
+            "full_name": "robertking731/score",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/score",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/score",
+            "created_at": "2024-05-07T16:51:39Z",
+            "updated_at": "2024-05-08T17:31:36Z",
+            "pushed_at": "2024-05-08T17:31:32Z",
+            "homepage": null,
+            "size": 2984,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 811398354,
+            "node_id": "R_kgDOMFz00g",
+            "name": "shopify",
+            "full_name": "robertking731/shopify",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/shopify",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/shopify",
+            "created_at": "2024-06-06T14:18:28Z",
+            "updated_at": "2024-06-24T09:15:06Z",
+            "pushed_at": "2024-06-06T14:32:18Z",
+            "homepage": null,
+            "size": 3116,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Liquid",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        },
+        {
+            "id": 817708765,
+            "node_id": "R_kgDOML0-3Q",
+            "name": "wenworthMonitor",
+            "full_name": "robertking731/wenworthMonitor",
+            "private": false,
+            "owner": {
+                "login": "robertking731",
+                "id": 168404815,
+                "node_id": "U_kgDOCgmnTw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/168404815?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/robertking731",
+                "html_url": "https://github.com/robertking731",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/robertking731/wenworthMonitor",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/robertking731/wenworthMonitor",
+            "created_at": "2024-06-20T09:23:30Z",
+            "updated_at": "2024-06-24T09:15:06Z",
+            "pushed_at": "2024-06-20T10:20:41Z",
+            "homepage": null,
+            "size": 842,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "TypeScript",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": null,
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            }
+        }
+    ],
+    "commits": {
+        "E-Commerce-Jewelery-Store": [
+            {
+                "sha": "7dda6b5936254491ada92917bacd773eec9eb88c",
+                "commit": {
+                    "author": {
+                        "name": "robert",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-05-01T15:03:25+09:00"
+                    },
+                    "committer": {
+                        "name": "robert",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-05-01T15:03:25+09:00"
+                    },
+                    "message": "-upload project\n"
+                },
+                "parents": [
+                    "0ac85a26ff4d978ba93297cf810449fd246b1e34"
+                ],
+                "url": "https://github.com/robertking731/E-Commerce-Jewelery-Store/commit/7dda6b5936254491ada92917bacd773eec9eb88c"
+            },
+            {
+                "sha": "0ac85a26ff4d978ba93297cf810449fd246b1e34",
+                "commit": {
+                    "author": {
+                        "name": "dev_Star",
+                        "email": "168404815+robertking731@users.noreply.github.com",
+                        "date": "2024-05-01T14:48:49+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-01T14:48:49+09:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/robertking731/E-Commerce-Jewelery-Store/commit/0ac85a26ff4d978ba93297cf810449fd246b1e34"
+            }
+        ],
+        "palmshiba": [
+            {
+                "sha": "77b7058839e7519a8bd3478f59e70b2e474b0feb",
+                "commit": {
+                    "author": {
+                        "name": "tommy johnson",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-25T00:52:12+09:00"
+                    },
+                    "committer": {
+                        "name": "tommy johnson",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-25T00:52:12+09:00"
+                    },
+                    "message": "build upload\n"
+                },
+                "parents": [
+                    "68cf283a52eb7f9ca1528d31e9c7ae27f55c7e14"
+                ],
+                "url": "https://github.com/robertking731/palmshiba/commit/77b7058839e7519a8bd3478f59e70b2e474b0feb"
+            },
+            {
+                "sha": "68cf283a52eb7f9ca1528d31e9c7ae27f55c7e14",
+                "commit": {
+                    "author": {
+                        "name": "tommy johnson",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-25T00:48:45+09:00"
+                    },
+                    "committer": {
+                        "name": "tommy johnson",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-25T00:48:45+09:00"
+                    },
+                    "message": "build upload\n"
+                },
+                "parents": [],
+                "url": "https://github.com/robertking731/palmshiba/commit/68cf283a52eb7f9ca1528d31e9c7ae27f55c7e14"
+            }
+        ],
+        "portfolio": [
+            {
+                "sha": "d7f201d8fb67a87d4af45efea9edd30ef703ef3d",
+                "commit": {
+                    "author": {
+                        "name": "tommy johnson",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-23T07:05:12+09:00"
+                    },
+                    "committer": {
+                        "name": "tommy johnson",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-23T07:05:12+09:00"
+                    },
+                    "message": "init project\n"
+                },
+                "parents": [],
+                "url": "https://github.com/robertking731/portfolio/commit/d7f201d8fb67a87d4af45efea9edd30ef703ef3d"
+            }
+        ],
+        "presale-token": [],
+        "presale_ACOM_token": [
+            {
+                "sha": "c8366fb0dcb5d7ce76ca8669182b5bce01c029d1",
+                "commit": {
+                    "author": {
+                        "name": "robertking",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-02T20:45:15+09:00"
+                    },
+                    "committer": {
+                        "name": "robertking",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-02T20:45:15+09:00"
+                    },
+                    "message": "init project\n"
+                },
+                "parents": [
+                    "73b9cea2b8bff0213ba502958a7d7f0d58961ab2"
+                ],
+                "url": "https://github.com/robertking731/presale_ACOM_token/commit/c8366fb0dcb5d7ce76ca8669182b5bce01c029d1"
+            },
+            {
+                "sha": "73b9cea2b8bff0213ba502958a7d7f0d58961ab2",
+                "commit": {
+                    "author": {
+                        "name": "robertking",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-02T16:26:46+09:00"
+                    },
+                    "committer": {
+                        "name": "robertking",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-02T16:26:46+09:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/robertking731/presale_ACOM_token/commit/73b9cea2b8bff0213ba502958a7d7f0d58961ab2"
+            }
+        ],
+        "robertking731": [
+            {
+                "sha": "db36cc2da94c73acc2712dab93c8fad5fb268bc2",
+                "commit": {
+                    "author": {
+                        "name": "dev_Star",
+                        "email": "168404815+robertking731@users.noreply.github.com",
+                        "date": "2024-06-06T22:30:08+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-06T22:30:08+08:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "e6cd2541ba3daf3e23e6cc6d51c0331c97a7a725"
+                ],
+                "url": "https://github.com/robertking731/robertking731/commit/db36cc2da94c73acc2712dab93c8fad5fb268bc2"
+            },
+            {
+                "sha": "e6cd2541ba3daf3e23e6cc6d51c0331c97a7a725",
+                "commit": {
+                    "author": {
+                        "name": "dev_Star",
+                        "email": "168404815+robertking731@users.noreply.github.com",
+                        "date": "2024-05-01T01:41:09+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-01T01:41:09+09:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "566d9b886aebefa0e9da719285e1200c2a07389f"
+                ],
+                "url": "https://github.com/robertking731/robertking731/commit/e6cd2541ba3daf3e23e6cc6d51c0331c97a7a725"
+            },
+            {
+                "sha": "566d9b886aebefa0e9da719285e1200c2a07389f",
+                "commit": {
+                    "author": {
+                        "name": "dev_Star",
+                        "email": "168404815+robertking731@users.noreply.github.com",
+                        "date": "2024-05-01T01:32:11+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-01T01:32:11+09:00"
+                    },
+                    "message": "Update README.md"
+                },
+                "parents": [
+                    "db042533d4a3d112a22459b54424fb9fc4a7aca2"
+                ],
+                "url": "https://github.com/robertking731/robertking731/commit/566d9b886aebefa0e9da719285e1200c2a07389f"
+            },
+            {
+                "sha": "db042533d4a3d112a22459b54424fb9fc4a7aca2",
+                "commit": {
+                    "author": {
+                        "name": "dev_Star",
+                        "email": "168404815+robertking731@users.noreply.github.com",
+                        "date": "2024-05-01T01:10:32+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-01T01:10:32+09:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/robertking731/robertking731/commit/db042533d4a3d112a22459b54424fb9fc4a7aca2"
+            }
+        ],
+        "score": [
+            {
+                "sha": "b7dfad5747380e13904805500aa33061e62d305d",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T02:23:53+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T02:23:53+09:00"
+                    },
+                    "message": "completed deploy3\n"
+                },
+                "parents": [
+                    "929c12dad2a0ba3c5fb99a72811d996aedbe006e"
+                ],
+                "url": "https://github.com/robertking731/score/commit/b7dfad5747380e13904805500aa33061e62d305d"
+            },
+            {
+                "sha": "929c12dad2a0ba3c5fb99a72811d996aedbe006e",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T01:59:30+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T01:59:30+09:00"
+                    },
+                    "message": "completed deploy2\n"
+                },
+                "parents": [
+                    "1411dabee7728cf10790aef070ccf3f3f507eb1d"
+                ],
+                "url": "https://github.com/robertking731/score/commit/929c12dad2a0ba3c5fb99a72811d996aedbe006e"
+            },
+            {
+                "sha": "1411dabee7728cf10790aef070ccf3f3f507eb1d",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T01:30:54+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T01:30:54+09:00"
+                    },
+                    "message": "completed deploy1\n"
+                },
+                "parents": [
+                    "445dcddff958e7b867bd42c12d36f3af6d30c1cd"
+                ],
+                "url": "https://github.com/robertking731/score/commit/1411dabee7728cf10790aef070ccf3f3f507eb1d"
+            },
+            {
+                "sha": "445dcddff958e7b867bd42c12d36f3af6d30c1cd",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T01:26:39+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T01:26:39+09:00"
+                    },
+                    "message": "completed deploy\n"
+                },
+                "parents": [
+                    "9694a34c6710dfe2fe9e410603110e5111cfdeae"
+                ],
+                "url": "https://github.com/robertking731/score/commit/445dcddff958e7b867bd42c12d36f3af6d30c1cd"
+            },
+            {
+                "sha": "9694a34c6710dfe2fe9e410603110e5111cfdeae",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:58:40+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:58:40+09:00"
+                    },
+                    "message": "update deploy\n"
+                },
+                "parents": [
+                    "114a53c7edafa2dc9248e19d95a8006deab7f7ae"
+                ],
+                "url": "https://github.com/robertking731/score/commit/9694a34c6710dfe2fe9e410603110e5111cfdeae"
+            },
+            {
+                "sha": "114a53c7edafa2dc9248e19d95a8006deab7f7ae",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:46:24+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:46:24+09:00"
+                    },
+                    "message": "update package.json\n"
+                },
+                "parents": [
+                    "ddf68c690fe65916ffe08b08b78ceab6ccb6e06a"
+                ],
+                "url": "https://github.com/robertking731/score/commit/114a53c7edafa2dc9248e19d95a8006deab7f7ae"
+            },
+            {
+                "sha": "ddf68c690fe65916ffe08b08b78ceab6ccb6e06a",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:42:07+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:42:07+09:00"
+                    },
+                    "message": "deploy 6 pages\n"
+                },
+                "parents": [
+                    "39e156c901cedb40cb1e1d0e96f6173d05f1ac43"
+                ],
+                "url": "https://github.com/robertking731/score/commit/ddf68c690fe65916ffe08b08b78ceab6ccb6e06a"
+            },
+            {
+                "sha": "39e156c901cedb40cb1e1d0e96f6173d05f1ac43",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:32:08+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:32:08+09:00"
+                    },
+                    "message": "update index.js\n"
+                },
+                "parents": [
+                    "5d0277401dc890030defdbaff220733b52ce1453"
+                ],
+                "url": "https://github.com/robertking731/score/commit/39e156c901cedb40cb1e1d0e96f6173d05f1ac43"
+            },
+            {
+                "sha": "5d0277401dc890030defdbaff220733b52ce1453",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:19:02+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-09T00:19:02+09:00"
+                    },
+                    "message": "manager, admin, user page created\n"
+                },
+                "parents": [
+                    "4799d3bbc2d5005c3580f726fe33fec98799627d"
+                ],
+                "url": "https://github.com/robertking731/score/commit/5d0277401dc890030defdbaff220733b52ce1453"
+            },
+            {
+                "sha": "4799d3bbc2d5005c3580f726fe33fec98799627d",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-08T02:43:52+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-08T02:43:52+09:00"
+                    },
+                    "message": "manager sidebar changed\n"
+                },
+                "parents": [
+                    "54d3c493e61d76912b55d4fdb9cc98780dbd54d3"
+                ],
+                "url": "https://github.com/robertking731/score/commit/4799d3bbc2d5005c3580f726fe33fec98799627d"
+            },
+            {
+                "sha": "54d3c493e61d76912b55d4fdb9cc98780dbd54d3",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-08T02:13:33+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-08T02:13:33+09:00"
+                    },
+                    "message": "package.json modified\n"
+                },
+                "parents": [
+                    "c91426e446fc734a33ee83a58eba2ef0d5d400d2"
+                ],
+                "url": "https://github.com/robertking731/score/commit/54d3c493e61d76912b55d4fdb9cc98780dbd54d3"
+            },
+            {
+                "sha": "c91426e446fc734a33ee83a58eba2ef0d5d400d2",
+                "commit": {
+                    "author": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-08T01:56:41+09:00"
+                    },
+                    "committer": {
+                        "name": "tommyjohnson43",
+                        "email": "tommy.johnson.dev@gmail.com",
+                        "date": "2024-05-08T01:56:41+09:00"
+                    },
+                    "message": "userpage init\n"
+                },
+                "parents": [
+                    "0f78e6e93674a1db59b76b859c9a3dbd1d4aa0bd"
+                ],
+                "url": "https://github.com/robertking731/score/commit/c91426e446fc734a33ee83a58eba2ef0d5d400d2"
+            },
+            {
+                "sha": "0f78e6e93674a1db59b76b859c9a3dbd1d4aa0bd",
+                "commit": {
+                    "author": {
+                        "name": "dev_Star",
+                        "email": "168404815+robertking731@users.noreply.github.com",
+                        "date": "2024-05-08T01:51:39+09:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-05-08T01:51:39+09:00"
+                    },
+                    "message": "Initial commit"
+                },
+                "parents": [],
+                "url": "https://github.com/robertking731/score/commit/0f78e6e93674a1db59b76b859c9a3dbd1d4aa0bd"
+            }
+        ],
+        "shopify": [
+            {
+                "sha": "ee5befa607e1a443641135f08d7b24562fb12b25",
+                "commit": {
+                    "author": {
+                        "name": "dev_Star",
+                        "email": "168404815+robertking731@users.noreply.github.com",
+                        "date": "2024-06-06T22:32:18+08:00"
+                    },
+                    "committer": {
+                        "name": "GitHub",
+                        "email": "noreply@github.com",
+                        "date": "2024-06-06T22:32:18+08:00"
+                    },
+                    "message": "Create README.md"
+                },
+                "parents": [
+                    "6ff13a6cace2cd51450703b53223190038a161f2"
+                ],
+                "url": "https://github.com/robertking731/shopify/commit/ee5befa607e1a443641135f08d7b24562fb12b25"
+            },
+            {
+                "sha": "6ff13a6cace2cd51450703b53223190038a161f2",
+                "commit": {
+                    "author": {
+                        "name": "robertking",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-06T22:24:22+08:00"
+                    },
+                    "committer": {
+                        "name": "robertking",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-06T22:24:22+08:00"
+                    },
+                    "message": "first commit\n"
+                },
+                "parents": [],
+                "url": "https://github.com/robertking731/shopify/commit/6ff13a6cace2cd51450703b53223190038a161f2"
+            }
+        ],
+        "wenworthMonitor": [
+            {
+                "sha": "4b34fb89006e180625239ef5f1036638edcda6d3",
+                "commit": {
+                    "author": {
+                        "name": "codestar",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-20T20:10:04+10:00"
+                    },
+                    "committer": {
+                        "name": "codestar",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-20T20:10:04+10:00"
+                    },
+                    "message": "-fix error\n"
+                },
+                "parents": [
+                    "26993305e1d7496fa0b6596155cafcab3c615fb7"
+                ],
+                "url": "https://github.com/robertking731/wenworthMonitor/commit/4b34fb89006e180625239ef5f1036638edcda6d3"
+            },
+            {
+                "sha": "26993305e1d7496fa0b6596155cafcab3c615fb7",
+                "commit": {
+                    "author": {
+                        "name": "codestar",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-20T19:39:05+10:00"
+                    },
+                    "committer": {
+                        "name": "codestar",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-20T19:39:05+10:00"
+                    },
+                    "message": "-package json modified\n"
+                },
+                "parents": [
+                    "aefab37b0c36e4d1811877594195ddd7b344689b"
+                ],
+                "url": "https://github.com/robertking731/wenworthMonitor/commit/26993305e1d7496fa0b6596155cafcab3c615fb7"
+            },
+            {
+                "sha": "aefab37b0c36e4d1811877594195ddd7b344689b",
+                "commit": {
+                    "author": {
+                        "name": "codestar",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-20T19:32:11+10:00"
+                    },
+                    "committer": {
+                        "name": "codestar",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-20T19:32:11+10:00"
+                    },
+                    "message": "-monitor page fixed\n"
+                },
+                "parents": [
+                    "d1c56b9e5d7ca8ddd5cef258b438c01c46c622c7"
+                ],
+                "url": "https://github.com/robertking731/wenworthMonitor/commit/aefab37b0c36e4d1811877594195ddd7b344689b"
+            },
+            {
+                "sha": "d1c56b9e5d7ca8ddd5cef258b438c01c46c622c7",
+                "commit": {
+                    "author": {
+                        "name": "codestar",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-20T19:15:42+10:00"
+                    },
+                    "committer": {
+                        "name": "codestar",
+                        "email": "robertking971228@gmail.com",
+                        "date": "2024-06-20T19:15:42+10:00"
+                    },
+                    "message": "monitor page modified\n"
+                },
+                "parents": [],
+                "url": "https://github.com/robertking731/wenworthMonitor/commit/d1c56b9e5d7ca8ddd5cef258b438c01c46c622c7"
+            }
+        ]
+    },
+    "commits_msgs": {
+        "E-Commerce-Jewelery-Store": [
+            "-upload project\n",
+            "Initial commit"
+        ],
+        "palmshiba": [
+            "build upload\n",
+            "build upload\n"
+        ],
+        "portfolio": [
+            "init project\n"
+        ],
+        "presale-token": [],
+        "presale_ACOM_token": [
+            "init project\n",
+            "first commit\n"
+        ],
+        "robertking731": [
+            "Update README.md",
+            "Update README.md",
+            "Update README.md",
+            "Initial commit"
+        ],
+        "score": [
+            "completed deploy3\n",
+            "completed deploy2\n",
+            "completed deploy1\n",
+            "completed deploy\n",
+            "update deploy\n",
+            "update package.json\n",
+            "deploy 6 pages\n",
+            "update index.js\n",
+            "manager, admin, user page created\n",
+            "manager sidebar changed\n",
+            "package.json modified\n",
+            "userpage init\n",
+            "Initial commit"
+        ],
+        "shopify": [
+            "Create README.md",
+            "first commit\n"
+        ],
+        "wenworthMonitor": [
+            "-fix error\n",
+            "-package json modified\n",
+            "-monitor page fixed\n",
+            "monitor page modified\n"
+        ]
+    },
+    "date_filter": [],
+    "potential_copy": {}
+}

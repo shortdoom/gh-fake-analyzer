@@ -1,0 +1,7 @@
+[
+    {
+        "repo_name": "Airflow",
+        "clone_url": "https://github.com/GDIATTA/Airflow.git",
+        "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/GDIATTA/Airflow.git /home/user/Github/PRs/gh-fake-analyzer/out/GDIATTA/GDIATTA_Airflow.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/GDIATTA/GDIATTA_Airflow.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: 6289 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+]
