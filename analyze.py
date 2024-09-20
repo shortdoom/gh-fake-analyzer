@@ -9,6 +9,16 @@ import git
 from dotenv import load_dotenv
 from dateutil import parser
 import logging
+import configparser
+
+# Load configuration
+config = configparser.ConfigParser()
+config.read("config.ini")
+
+MAX_FOLLOWING = int(config["LIMITS"]["MAX_FOLLOWING"])
+MAX_FOLLOWERS = int(config["LIMITS"]["MAX_FOLLOWERS"])
+MAX_REPOSITORIES = int(config["LIMITS"]["MAX_REPOSITORIES"])
+CLONE_DEPTH = int(config["LIMITS"]["CLONE_DEPTH"])
 
 # Configure logging
 logging.basicConfig(
@@ -86,21 +96,26 @@ class APIUtils:
             time.sleep(sleep_time)
 
     @classmethod
-    def fetch_all_pages(cls, url, params=None):
+    def fetch_all_pages(cls, url, params=None, limit=None):
         results = []
-        while url:
+        while url and (limit is None or len(results) < limit):
             response, headers = cls.github_api_request(url, params)
             if response:
-                results.extend(
+                new_items = (
                     response["items"]
                     if isinstance(response, dict) and "items" in response
                     else response
+                )
+                results.extend(
+                    new_items[: limit - len(results)]
+                    if limit is not None
+                    else new_items
                 )
                 url = cls._get_next_url(headers)
                 params = None
             else:
                 break
-        return results
+        return results[:limit] if limit is not None else results
 
     @staticmethod
     def _get_next_url(headers):
@@ -113,18 +128,57 @@ class APIUtils:
 class DataManager:
     # Clutter to remove from profile data
     KEYS_TO_REMOVE = [
-        "followers_url", "following_url", "gists_url", "starred_url",
-        "subscriptions_url", "organizations_url", "repos_url", "events_url",
-        "received_events_url", "forks_url", "keys_url", "collaborators_url",
-        "teams_url", "hooks_url", "issue_events_url", "assignees_url",
-        "branches_url", "tags_url", "blobs_url", "git_tags_url", "git_refs_url",
-        "trees_url", "statuses_url", "languages_url", "stargazers_url",
-        "contributors_url", "subscribers_url", "subscription_url", "commits_url",
-        "git_commits_url", "comments_url", "issue_comment_url", "contents_url",
-        "compare_url", "merges_url", "archive_url", "downloads_url", "issues_url",
-        "pulls_url", "milestones_url", "notifications_url", "labels_url",
-        "releases_url", "deployments_url", "git_url", "ssh_url", "clone_url", "svn_url"
+        "followers_url",
+        "following_url",
+        "gists_url",
+        "starred_url",
+        "subscriptions_url",
+        "organizations_url",
+        "repos_url",
+        "events_url",
+        "received_events_url",
+        "forks_url",
+        "keys_url",
+        "collaborators_url",
+        "teams_url",
+        "hooks_url",
+        "issue_events_url",
+        "assignees_url",
+        "branches_url",
+        "tags_url",
+        "blobs_url",
+        "git_tags_url",
+        "git_refs_url",
+        "trees_url",
+        "statuses_url",
+        "languages_url",
+        "stargazers_url",
+        "contributors_url",
+        "subscribers_url",
+        "subscription_url",
+        "commits_url",
+        "git_commits_url",
+        "comments_url",
+        "issue_comment_url",
+        "contents_url",
+        "compare_url",
+        "merges_url",
+        "archive_url",
+        "downloads_url",
+        "issues_url",
+        "pulls_url",
+        "milestones_url",
+        "notifications_url",
+        "labels_url",
+        "releases_url",
+        "deployments_url",
+        "git_url",
+        "ssh_url",
+        "clone_url",
+        "svn_url",
     ]
+
+    KEYS_TO_KEEP = ["repos", "commits", "commits_msgs", "date_filter", "potential_copy", "commit_filter"]
 
     def __init__(self, username, out_path=None):
         self.username = username
@@ -143,7 +197,8 @@ class DataManager:
 
     def save_output(self, data):
         filtered_data = self.remove_unwanted_keys(data)
-        self.save_to_json(filtered_data, self.data_file)
+        kept_data = {key: filtered_data.get(key, {}) for key in self.KEYS_TO_KEEP}
+        self.save_to_json(kept_data, self.data_file)
 
     def remove_unwanted_keys(self, data):
         if isinstance(data, dict):
@@ -177,7 +232,6 @@ class DataManager:
         self.save_to_json(failed_repos, failed_repos_file)
 
 
-
 class GitManager:
     def __init__(self, username, user_dir):
         self.username = username
@@ -190,7 +244,7 @@ class GitManager:
 
         try:
             print(f"Git clone: {clone_url}")
-            git.Repo.clone_from(clone_url, repo_dir, bare=True, depth=100)
+            git.Repo.clone_from(clone_url, repo_dir, bare=True, depth=CLONE_DEPTH)
             commits = self.fetch_repo_commits(repo_dir)
             return repo_name, commits
         except git.exc.GitCommandError as e:
@@ -259,19 +313,19 @@ class GitHubProfileAnalyzer:
     def fetch_following(self):
         url = f"{self.api_utils.GITHUB_API_URL}/users/{self.username}/following"
         self.data["following"] = self.api_utils.fetch_all_pages(
-            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}
+            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}, limit=MAX_FOLLOWING
         )
 
     def fetch_followers(self):
         url = f"{self.api_utils.GITHUB_API_URL}/users/{self.username}/followers"
         self.data["followers"] = self.api_utils.fetch_all_pages(
-            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}
+            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}, limit=MAX_FOLLOWERS
         )
 
     def fetch_profile_repos(self):
         url = f"{self.api_utils.GITHUB_API_URL}/users/{self.username}/repos"
         self.data["repos"] = self.api_utils.fetch_all_pages(
-            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}
+            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}, limit=MAX_REPOSITORIES
         )
 
     def fetch_from_git_clone(self):
@@ -341,8 +395,9 @@ class GitHubProfileAnalyzer:
                 repo["name"] for repo in self.data["repos"] if repo["fork"]
             ]
 
-            # Find unique emails in commit messages
+            # Find unique emails in commit messages and connect with commits
             unique_emails = {}
+            email_commit_map = defaultdict(list)
             for repo_name, commits in self.data["commits"].items():
                 for commit in commits:
                     author_email = commit["commit"]["author"]["email"]
@@ -354,6 +409,10 @@ class GitHubProfileAnalyzer:
                         unique_emails[author_email] = author_name
                     if committer_email not in unique_emails:
                         unique_emails[committer_email] = committer_name
+
+                    email_commit_map[author_email].append(commit["sha"])
+                    if author_email != committer_email:
+                        email_commit_map[committer_email].append(commit["sha"])
 
             # Calculate the total count of original and forked repos
             original_repos_count = sum(
@@ -397,22 +456,15 @@ class GitHubProfileAnalyzer:
                     repo_name = item["repository"]["html_url"].split("/")[-1]
                     owner_name = item["repository"]["owner"]["login"]
                     if owner_name != self.username:
-                        commit_url = item["html_url"]
+                        commit_sha = item["sha"]
                         key = f"{owner_name}/{repo_name}"
                         if key not in commits_to_other_repos:
                             commits_to_other_repos[key] = []
-                        commits_to_other_repos[key].append(commit_url)
+                        commits_to_other_repos[key].append(commit_sha)
 
-            # Construct full GitHub HTML links for followers and following
-            followers_list = [
-                f"{self.api_utils.BASE_GITHUB_URL}{f['login']}"
-                for f in self.data["followers"]
-            ]
-
-            following_list = [
-                f"{self.api_utils.BASE_GITHUB_URL}{f['login']}"
-                for f in self.data.get("following", [])
-            ]
+            # Construct GitHub HTML links for followers and following (without prefix)
+            followers_list = [f["login"] for f in self.data["followers"]]
+            following_list = [f["login"] for f in self.data.get("following", [])]
 
             # Extract desired fields from profile_data
             profile_info = {
@@ -442,16 +494,22 @@ class GitHubProfileAnalyzer:
                 ]
             }
 
+            # Create the new structure for connecting unique_emails with commits
+            email_commit_connection = {
+                email: {"name": name, "commits": email_commit_map[email]}
+                for email, name in unique_emails.items()
+            }
+
             report_data = {
                 "profile_info": profile_info,
                 "original_repos_count": original_repos_count,
                 "forked_repos_count": forked_repos_count,
-                "unique_emails": unique_emails,
                 "mutual_followers": list(mutual_followers),
                 "following": following_list,
                 "followers": followers_list,
                 "repo_list": repo_list,
                 "forked_repo_list": forked_repo_list,
+                "unique_emails": email_commit_connection,
                 "contributors": {
                     repo: list(users) for repo, users in contributors.items()
                 },
