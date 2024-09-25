@@ -178,27 +178,81 @@ class DataManager:
         "svn_url",
     ]
 
-    KEYS_TO_KEEP = ["repos", "commits", "commits_msgs", "date_filter", "potential_copy", "commit_filter"]
+    KEYS_TO_KEEP = [
+        "repos",
+        "commits",
+        "commits_msgs",
+        "date_filter",
+        "potential_copy",
+        "commit_filter",
+    ]
 
-    def __init__(self, username, out_path=None):
+    def __init__(self, username, out_path=None, split=False):
         self.username = username
+        self.split = split
         if out_path:
             self.user_dir = os.path.join(out_path, username)
-            self.data_file = os.path.join(self.user_dir, f"{username}.json")
-            if not os.path.exists(self.user_dir):
-                os.makedirs(self.user_dir)
         else:
             self.user_dir = os.path.join(
                 os.path.dirname(os.path.realpath(__file__)), "out", username
             )
-            self.data_file = os.path.join(self.user_dir, f"{username}.json")
-            if not os.path.exists(self.user_dir):
-                os.makedirs(self.user_dir)
+        if not os.path.exists(self.user_dir):
+            os.makedirs(self.user_dir)
+        self.data_file = os.path.join(self.user_dir, f"{username}.json")
+        self.report_file = os.path.join(self.user_dir, "report.json")
+        logging.info(f"DataManager initialized for {username}. Split mode: {split}")
 
     def save_output(self, data):
-        filtered_data = self.remove_unwanted_keys(data)
-        kept_data = {key: filtered_data.get(key, {}) for key in self.KEYS_TO_KEEP}
-        self.save_to_json(kept_data, self.data_file)
+        try:
+            if self.split:
+                filtered_data = self.remove_unwanted_keys(data)
+                kept_data = {key: filtered_data.get(key, {}) for key in self.KEYS_TO_KEEP}
+                self.save_to_json(kept_data, self.data_file)
+                logging.info(f"Data saved to {self.data_file} in split mode")
+            else:
+                self.save_to_json(data, self.report_file)
+                logging.info(f"Data saved to {self.report_file}")
+        except Exception as e:
+            logging.error(f"Error in save_output: {e}")
+
+    def save_failed_repos(self, failed_repos):
+        try:
+            if self.split:
+                failed_repos_file = os.path.join(self.user_dir, "failed_repos.json")
+                self.save_to_json(failed_repos, failed_repos_file)
+                logging.info(f"Failed repos saved to {failed_repos_file}")
+            else:
+                existing_data = self.load_existing() or {}
+                existing_data["errors"] = failed_repos
+                self.save_to_json(existing_data, self.report_file)
+                logging.info(f"Failed repos added to {self.report_file}")
+        except Exception as e:
+            logging.error(f"Error in save_failed_repos: {e}")
+
+    def save_to_json(self, data, filename):
+        try:
+            with open(filename, "w", encoding="utf-8") as json_file:
+                json.dump(data, json_file, indent=4, ensure_ascii=False)
+            logging.info(f"Successfully saved data to {filename}")
+        except Exception as e:
+            logging.error(f"Error in save_to_json for {filename}: {e}")
+            raise  # Re-raise the exception to be caught by the calling method
+
+    # TODO: Refactor to use a single method for loading data
+    def load_existing(self):
+        try:
+            if os.path.exists(self.report_file):
+                with open(self.report_file, "r", encoding="utf-8") as json_file:
+                    return json.load(json_file)
+            elif os.path.exists(self.data_file):
+                with open(self.data_file, "r", encoding="utf-8") as json_file:
+                    return json.load(json_file)
+            else:
+                logging.info("No existing data file found")
+                return None
+        except Exception as e:
+            logging.error(f"Error in load_existing: {e}")
+            return None
 
     def remove_unwanted_keys(self, data):
         if isinstance(data, dict):
@@ -211,25 +265,6 @@ class DataManager:
             return [self.remove_unwanted_keys(item) for item in data]
         else:
             return data
-
-    def load_existing(self):
-        try:
-            with open(self.data_file, "r") as json_file:
-                return json.load(json_file)
-        except Exception as e:
-            logging.error(f"Error in load_existing: {e}")
-            return None
-
-    def save_to_json(self, data, filename):
-        try:
-            with open(filename, "w") as json_file:
-                json.dump(data, json_file, indent=4)
-        except Exception as e:
-            logging.error(f"Error in save_to_json: {e}")
-
-    def save_failed_repos(self, failed_repos):
-        failed_repos_file = os.path.join(self.user_dir, "failed_repos.json")
-        self.save_to_json(failed_repos, failed_repos_file)
 
 
 class GitManager:
@@ -284,14 +319,13 @@ class GitManager:
 
 
 class GitHubProfileAnalyzer:
-    def __init__(self, username, out_path=None):
+    def __init__(self, username, out_path=None, split=False):
         self.username = username
-        self.data_manager = DataManager(username, out_path)
+        self.data_manager = DataManager(username, out_path, split)
         self.git_manager = GitManager(username, self.data_manager.user_dir)
         self.api_utils = APIUtils()
-
-        # NOTE: Read-in previous analysis results, useful if you use Class directly
         self.data = self.data_manager.load_existing() or {}
+        logging.info(f"GitHubProfileAnalyzer initialized for {username}")
 
     def run_analysis(self):
         try:
@@ -303,8 +337,9 @@ class GitHubProfileAnalyzer:
             self.fetch_commit_messages()
             self.filter_created_at()
             self.data_manager.save_output(self.data)
+            logging.info(f"Analysis completed for {self.username}")
         except Exception as e:
-            logging.error(f"Error in run_analysis: {e}")
+            logging.error(f"Error in run_analysis for {self.username}: {e}")
 
     def fetch_profile_data(self):
         url = f"{self.api_utils.GITHUB_API_URL}/users/{self.username}"
@@ -343,8 +378,19 @@ class GitHubProfileAnalyzer:
                         }
                     )
                 else:
-                    self.data["commits"][repo_name] = commits
-        self.data_manager.save_failed_repos(failed_repos)
+                    simplified_commits = []
+                    for commit in commits:
+                        simplified_commit = {
+                            "sha": commit["sha"],
+                            "commit": {
+                                "author": commit["commit"]["author"],
+                                "committer": commit["commit"]["committer"],
+                                "message": commit["commit"]["message"],
+                            }
+                        }
+                        simplified_commits.append(simplified_commit)
+                    self.data["commits"][repo_name] = simplified_commits
+        self.data["errors"] = failed_repos
 
     def fetch_commit_messages(self):
         self.data["commits_msgs"] = {
@@ -377,15 +423,22 @@ class GitHubProfileAnalyzer:
             ) & set(f["login"] for f in self.data.get("following", []))
 
             # Find contributors to owner's repos
-            contributors = defaultdict(set)
+            contributors = []
             for repo in self.data["repos"]:
                 if not repo["fork"]:
                     repo_name = repo["name"]
                     url = f"{self.api_utils.GITHUB_API_URL}/repos/{self.username}/{repo_name}/contributors"
                     repo_contributors = self.api_utils.fetch_all_pages(url)
                     if repo_contributors:
-                        for contributor in repo_contributors:
-                            contributors[repo_name].add(contributor["login"])
+                        contributors.append(
+                            {
+                                "repo": repo_name,
+                                "contributors": [
+                                    contributor["login"]
+                                    for contributor in repo_contributors
+                                ],
+                            }
+                        )
 
             # Classify repos as forked or original
             repo_list = [
@@ -397,7 +450,6 @@ class GitHubProfileAnalyzer:
 
             # Find unique emails in commit messages and connect with commits
             unique_emails = {}
-            email_commit_map = defaultdict(list)
             for repo_name, commits in self.data["commits"].items():
                 for commit in commits:
                     author_email = commit["commit"]["author"]["email"]
@@ -409,10 +461,11 @@ class GitHubProfileAnalyzer:
                         unique_emails[author_email] = author_name
                     if committer_email not in unique_emails:
                         unique_emails[committer_email] = committer_name
-
-                    email_commit_map[author_email].append(commit["sha"])
-                    if author_email != committer_email:
-                        email_commit_map[committer_email].append(commit["sha"])
+            
+            unique_emails_list = [
+            {"email": email, "name": name}
+            for email, name in unique_emails.items()
+            ]
 
             # Calculate the total count of original and forked repos
             original_repos_count = sum(
@@ -435,10 +488,10 @@ class GitHubProfileAnalyzer:
                     owner_name = item["repository_url"].split("/")[-2]
                     if owner_name != self.username:
                         pr_url = item["html_url"]
-                        key = f"{owner_name}/{repo_name}"
-                        if key not in pull_requests_to_other_repos:
-                            pull_requests_to_other_repos[key] = []
-                        pull_requests_to_other_repos[key].append(pr_url)
+                        repo_key = f"{owner_name}/{repo_name}"
+                        if repo_key not in pull_requests_to_other_repos:
+                            pull_requests_to_other_repos[repo_key] = []
+                        pull_requests_to_other_repos[repo_key].append(pr_url)
 
             # Check if user has made commits to other repositories
             search_commits_url = f"{self.api_utils.GITHUB_API_URL}/search/commits"
@@ -457,10 +510,20 @@ class GitHubProfileAnalyzer:
                     owner_name = item["repository"]["owner"]["login"]
                     if owner_name != self.username:
                         commit_sha = item["sha"]
-                        key = f"{owner_name}/{repo_name}"
-                        if key not in commits_to_other_repos:
-                            commits_to_other_repos[key] = []
-                        commits_to_other_repos[key].append(commit_sha)
+                        repo_key = f"{owner_name}/{repo_name}"
+                        if repo_key not in commits_to_other_repos:
+                            commits_to_other_repos[repo_key] = []
+                        commits_to_other_repos[repo_key].append(commit_sha)
+
+            # Convert dictionaries to lists of objects
+            pull_requests_list = [
+                {"repo": repo, "pull_requests": prs}
+                for repo, prs in pull_requests_to_other_repos.items()
+            ]
+            commits_list = [
+                {"repo": repo, "commits": commits}
+                for repo, commits in commits_to_other_repos.items()
+            ]
 
             # Construct GitHub HTML links for followers and following (without prefix)
             followers_list = [f["login"] for f in self.data["followers"]]
@@ -494,12 +557,6 @@ class GitHubProfileAnalyzer:
                 ]
             }
 
-            # Create the new structure for connecting unique_emails with commits
-            email_commit_connection = {
-                email: {"name": name, "commits": email_commit_map[email]}
-                for email, name in unique_emails.items()
-            }
-
             report_data = {
                 "profile_info": profile_info,
                 "original_repos_count": original_repos_count,
@@ -509,21 +566,21 @@ class GitHubProfileAnalyzer:
                 "followers": followers_list,
                 "repo_list": repo_list,
                 "forked_repo_list": forked_repo_list,
-                "unique_emails": email_commit_connection,
-                "contributors": {
-                    repo: list(users) for repo, users in contributors.items()
-                },
-                "pull_requests_to_other_repos": pull_requests_to_other_repos,
-                "commits_to_other_repos": commits_to_other_repos,
+                "unique_emails": unique_emails_list,
+                "contributors": contributors,
+                "pull_requests_to_other_repos": pull_requests_list,
+                "commits_to_other_repos": commits_list,
+                "repos": self.data.get("repos", []),
+                "commits": self.data.get("commits", {}),
+                "errors": self.data.get("errors", []),
             }
 
             if self.data.get("date_filter"):
                 report_data["potential_copy"] = self.data["date_filter"]
 
-            report_file = os.path.join(self.data_manager.user_dir, "report.json")
-            self.data_manager.save_to_json(report_data, report_file)
+            self.data_manager.save_to_json(report_data, self.data_manager.report_file)
 
-            logging.info(f"Report generated and saved to {report_file}")
+            logging.info(f"Report generated and saved to {self.data_manager.report_file}")
         except Exception as e:
             logging.error(f"Error in generate_report: {e}")
 
@@ -601,10 +658,9 @@ def read_targets(file_path):
         return []
 
 
-def process_target(username, commit_search=False, only_profile=False, out_path=None):
-    """Process an individual GitHub profile."""
+def process_target(username, commit_search=False, only_profile=False, out_path=None, split=False):
     try:
-        analyzer = GitHubProfileAnalyzer(username, out_path=out_path)
+        analyzer = GitHubProfileAnalyzer(username, out_path=out_path, split=split)
 
         if only_profile:
             logging.info(f"Only fetching profile data for {username}...")
@@ -612,11 +668,8 @@ def process_target(username, commit_search=False, only_profile=False, out_path=N
             analyzer.data_manager.save_output(analyzer.data)
             return
 
-        if not analyzer.data:
-            logging.info(f"Analyzing profile data for {username}...")
-            analyzer.run_analysis()
-        else:
-            logging.info(f"Profile data for {username} already exists.")
+        logging.info(f"Starting full analysis for {username}...")
+        analyzer.run_analysis()
 
         if commit_search:
             logging.info(f"Searching for copied commits in {username}'s repos...")
@@ -624,10 +677,11 @@ def process_target(username, commit_search=False, only_profile=False, out_path=N
 
         logging.info(f"Generating report for {username}...")
         analyzer.generate_report()
+
+        logging.info(f"Processing completed for {username}")
     except Exception as e:
         logging.error(f"Error processing target {username}: {e}")
-
-
+        print(f"Error processing target {username}: {e}")
 def main():
     APIUtils.set_token(GH_TOKEN)
     parser = argparse.ArgumentParser(description="Analyze GitHub profiles.")
@@ -659,21 +713,24 @@ def main():
         nargs="?",
         help="Output directory for analysis results",
     )
+    parser.add_argument(
+        "--split",
+        action="store_true",
+        help="Split output into separate files (default is single report.json)",
+    )
 
     args = parser.parse_args()
     start_time = time.time()
 
     if args.only_profile:
         logging.info(f"Only fetching profile data for {args.username}...")
-        process_target(args.username, only_profile=True, out_path=args.out_path)
+        process_target(args.username, only_profile=True, out_path=args.out_path, split=args.split)
         return
 
     if args.username:
-        # Process single target
         logging.info(f"Processing single target: {args.username}")
-        process_target(args.username, args.commit_search, out_path=args.out_path)
+        process_target(args.username, args.commit_search, out_path=args.out_path, split=args.split)
     else:
-        # Determine targets file
         targets_file = args.targets if args.targets is not None else "targets"
         logging.info(f"Processing targets from file: {targets_file}")
         print(f"Processing targets from file: {targets_file}")
@@ -686,15 +743,13 @@ def main():
             )
             return
 
-        # Process each target
         for target in targets:
             logging.info(f"Processing target: {target}")
-            process_target(target, args.commit_search, out_path=args.out_path)
+            process_target(target, args.commit_search, out_path=args.out_path, split=args.split)
 
     end_time = time.time()
     print(f"Processing completed in {end_time - start_time:.2f} seconds.")
     logging.info(f"Processing completed in {end_time - start_time:.2f} seconds.")
-
 
 if __name__ == "__main__":
     main()
