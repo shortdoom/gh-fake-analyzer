@@ -2,7 +2,6 @@ import shutil
 import requests
 import json
 import argparse
-from collections import defaultdict
 import time
 import os
 import git
@@ -125,6 +124,55 @@ class APIUtils:
         return None
 
 
+class GitManager:
+    def __init__(self, username, user_dir):
+        self.username = username
+        self.user_dir = user_dir
+
+    def clone_and_fetch_commits(self, repo):
+        repo_name = repo["name"]
+        clone_url = repo["clone_url"]
+        repo_dir = os.path.join(self.user_dir, f"{self.username}_{repo_name}.git")
+
+        try:
+            print(f"Git clone: {clone_url}")
+            git.Repo.clone_from(clone_url, repo_dir, bare=True, depth=CLONE_DEPTH)
+            commits = self.fetch_repo_commits(repo_dir)
+            return repo_name, commits
+        except git.exc.GitCommandError as e:
+            logging.error(f"Git clone failed for {repo_name}: {e}")
+            return repo_name, {"error": str(e)}
+        finally:
+            if os.path.exists(repo_dir):
+                shutil.rmtree(repo_dir)
+
+    def fetch_repo_commits(self, repo_dir):
+        try:
+            repo = git.Repo(repo_dir)
+            return [self._format_commit(commit) for commit in repo.iter_commits()]
+        except Exception as e:
+            logging.error(f"fetch_repo_commits() Error: {e}")
+            return []
+
+    def _format_commit(self, commit):
+        return {
+            "sha": commit.hexsha,
+            "commit": {
+                "author": {
+                    "name": commit.author.name,
+                    "email": commit.author.email,
+                    "date": commit.authored_datetime.isoformat(),
+                },
+                "committer": {
+                    "name": commit.committer.name,
+                    "email": commit.committer.email,
+                    "date": commit.committed_datetime.isoformat(),
+                },
+                "message": commit.message,
+            },
+        }
+
+
 class DataManager:
     # Clutter to remove from profile data
     KEYS_TO_REMOVE = [
@@ -178,18 +226,8 @@ class DataManager:
         "svn_url",
     ]
 
-    # KEYS_TO_KEEP = [
-    #     "repos",
-    #     "commits",
-    #     "commits_msgs",
-    #     "date_filter",
-    #     "potential_copy",
-    #     "commit_filter",
-    # ]
-
-    def __init__(self, username, out_path=None, split=False):
+    def __init__(self, username, out_path=None):
         self.username = username
-        self.split = split
         if out_path:
             self.user_dir = os.path.join(out_path, username)
         else:
@@ -198,42 +236,16 @@ class DataManager:
             )
         if not os.path.exists(self.user_dir):
             os.makedirs(self.user_dir)
-        self.data_file = os.path.join(self.user_dir, f"{username}.json")
+
         self.report_file = os.path.join(self.user_dir, "report.json")
-        logging.info(f"DataManager initialized for {username}. Split mode: {split}")
 
     def save_output(self, data):
         try:
-            if self.split:
-                filtered_data = self.remove_unwanted_keys(data)
-                # kept_data = {
-                #     key: filtered_data.get(key, {}) for key in self.KEYS_TO_KEEP
-                # }
-                self.save_to_json(filtered_data, self.data_file)
-                logging.info(f"Data saved to {self.data_file} in split mode")
-            else:
-                filtered_data = self.remove_unwanted_keys(data)
-                # kept_data = {
-                #     key: filtered_data.get(key, {}) for key in self.KEYS_TO_KEEP
-                # }
-                self.save_to_json(filtered_data, self.report_file)
-                logging.info(f"Data saved to {self.report_file}")
+            filtered_data = self.remove_unwanted_keys(data)
+            self.save_to_json(filtered_data, self.report_file)
+            logging.info(f"Data saved to {self.report_file}")
         except Exception as e:
             logging.error(f"Error in save_output: {e}")
-
-    def save_failed_repos(self, failed_repos):
-        try:
-            if self.split:
-                failed_repos_file = os.path.join(self.user_dir, "failed_repos.json")
-                self.save_to_json(failed_repos, failed_repos_file)
-                logging.info(f"Failed repos saved to {failed_repos_file}")
-            else:
-                existing_data = self.load_existing() or {}
-                existing_data["errors"] = failed_repos
-                self.save_to_json(existing_data, self.report_file)
-                logging.info(f"Failed repos added to {self.report_file}")
-        except Exception as e:
-            logging.error(f"Error in save_failed_repos: {e}")
 
     def save_to_json(self, data, filename):
         try:
@@ -242,16 +254,12 @@ class DataManager:
             logging.info(f"Successfully saved data to {filename}")
         except Exception as e:
             logging.error(f"Error in save_to_json for {filename}: {e}")
-            raise  # Re-raise the exception to be caught by the calling method
+            raise
 
-    # TODO: Refactor to use a single method for loading data
     def load_existing(self):
         try:
             if os.path.exists(self.report_file):
                 with open(self.report_file, "r", encoding="utf-8") as json_file:
-                    return json.load(json_file)
-            elif os.path.exists(self.data_file):
-                with open(self.data_file, "r", encoding="utf-8") as json_file:
                     return json.load(json_file)
             else:
                 logging.info("No existing data file found")
@@ -272,13 +280,13 @@ class DataManager:
         else:
             return data
 
-    def clean_repos(self, repos):
+    def remove_repos_keys(self, repos):
         cleaned_repos = []
         for repo in repos:
             cleaned_repo = {
                 k: v for k, v in repo.items() if k not in self.KEYS_TO_REMOVE
             }
-            
+
             if "owner" in repo:
                 cleaned_repo["owner"] = {"login": repo["owner"].get("login")}
             if "license" in repo and repo["license"]:
@@ -291,65 +299,17 @@ class DataManager:
         return cleaned_repos
 
 
-class GitManager:
-    def __init__(self, username, user_dir):
-        self.username = username
-        self.user_dir = user_dir
-
-    def clone_and_fetch_commits(self, repo):
-        repo_name = repo["name"]
-        clone_url = repo["clone_url"]
-        repo_dir = os.path.join(self.user_dir, f"{self.username}_{repo_name}.git")
-
-        try:
-            print(f"Git clone: {clone_url}")
-            git.Repo.clone_from(clone_url, repo_dir, bare=True, depth=CLONE_DEPTH)
-            commits = self.fetch_repo_commits(repo_dir)
-            return repo_name, commits
-        except git.exc.GitCommandError as e:
-            logging.error(f"Git clone failed for {repo_name}: {e}")
-            return repo_name, {"error": str(e)}
-        finally:
-            if os.path.exists(repo_dir):
-                shutil.rmtree(repo_dir)
-
-    def fetch_repo_commits(self, repo_dir):
-        try:
-            repo = git.Repo(repo_dir)
-            return [self._format_commit(commit) for commit in repo.iter_commits()]
-        except Exception as e:
-            logging.error(f"fetch_repo_commits() Error: {e}")
-            return []
-
-    def _format_commit(self, commit):
-        return {
-            "sha": commit.hexsha,
-            "commit": {
-                "author": {
-                    "name": commit.author.name,
-                    "email": commit.author.email,
-                    "date": commit.authored_datetime.isoformat(),
-                },
-                "committer": {
-                    "name": commit.committer.name,
-                    "email": commit.committer.email,
-                    "date": commit.committed_datetime.isoformat(),
-                },
-                "message": commit.message,
-            },
-            "parents": [p.hexsha for p in commit.parents],
-            "url": f"https://github.com/{self.username}/{os.path.basename(commit.repo.working_dir).replace(f'{self.username}_', '').replace('.git', '')}/commit/{commit.hexsha}",
-        }
-
-
 class GitHubProfileAnalyzer:
-    def __init__(self, username, out_path=None, split=False):
+    def __init__(self, username, out_path=None):
         self.username = username
-        self.data_manager = DataManager(username, out_path, split)
+        self.data_manager = DataManager(username, out_path)
         self.git_manager = GitManager(username, self.data_manager.user_dir)
         self.api_utils = APIUtils()
         self.data = self.data_manager.load_existing() or {}
         logging.info(f"GitHubProfileAnalyzer initialized for {username}")
+        logging.info(
+            f"{'Found' if self.data else 'No'} data in {self.data_manager.report_file}"
+        )
 
     def run_analysis(self):
         try:
@@ -360,7 +320,6 @@ class GitHubProfileAnalyzer:
             self.fetch_from_git_clone()
             self.fetch_commit_messages()
             self.filter_created_at()
-            self.data_manager.save_output(self.data)
             logging.info(f"Analysis completed for {self.username}")
         except Exception as e:
             logging.error(f"Error in run_analysis for {self.username}: {e}")
@@ -402,18 +361,7 @@ class GitHubProfileAnalyzer:
                         }
                     )
                 else:
-                    simplified_commits = []
-                    for commit in commits:
-                        simplified_commit = {
-                            "sha": commit["sha"],
-                            "commit": {
-                                "author": commit["commit"]["author"],
-                                "committer": commit["commit"]["committer"],
-                                "message": commit["commit"]["message"],
-                            },
-                        }
-                        simplified_commits.append(simplified_commit)
-                    self.data["commits"][repo_name] = simplified_commits
+                    self.data["commits"][repo_name] = commits
         self.data["errors"] = failed_repos
 
     def fetch_commit_messages(self):
@@ -580,7 +528,9 @@ class GitHubProfileAnalyzer:
                 ]
             }
 
-            cleaned_repos = self.data_manager.clean_repos(self.data.get("repos", []))
+            cleaned_repos = self.data_manager.remove_repos_keys(
+                self.data.get("repos", [])
+            )
 
             report_data = {
                 "profile_info": profile_info,
@@ -598,12 +548,14 @@ class GitHubProfileAnalyzer:
                 "repos": cleaned_repos,
                 "commits": self.data.get("commits", {}),
                 "errors": self.data.get("errors", []),
+                "commit_filter": self.data.get("commit_filter", []),
             }
 
             if self.data.get("date_filter"):
                 report_data["potential_copy"] = self.data["date_filter"]
 
-            self.data_manager.save_to_json(report_data, self.data_manager.report_file)
+            # self.data_manager.save_to_json(report_data, self.data_manager.report_file)
+            self.data_manager.save_output(report_data)
 
             logging.info(
                 f"Report generated and saved to {self.data_manager.report_file}"
@@ -642,7 +594,9 @@ class GitHubProfileAnalyzer:
                                     and search_results.get("total_count", 0) > 0
                                 ):
                                     matching_repos = [
-                                        item["repository"]["html_url"]
+                                        item["repository"]["html_url"].replace(
+                                            "https://github.com/", ""
+                                        )
                                         for item in search_results["items"]
                                     ]
                                     self.data["commit_filter"].append(
@@ -668,6 +622,7 @@ class GitHubProfileAnalyzer:
                     )
 
             self.data_manager.save_output(self.data)
+
         except Exception as e:
             logging.error(f"Error in filter_commit_search: {e}")
 
@@ -685,11 +640,9 @@ def read_targets(file_path):
         return []
 
 
-def process_target(
-    username, commit_search=False, only_profile=False, out_path=None, split=False
-):
+def process_target(username, commit_search=False, only_profile=False, out_path=None):
     try:
-        analyzer = GitHubProfileAnalyzer(username, out_path=out_path, split=split)
+        analyzer = GitHubProfileAnalyzer(username, out_path=out_path)
 
         if only_profile:
             logging.info(f"Only fetching profile data for {username}...")
@@ -704,6 +657,7 @@ def process_target(
             logging.info(f"Searching for copied commits in {username}'s repos...")
             analyzer.filter_commit_search()
 
+        # NOTE: CLI will always re-download data
         logging.info(f"Generating report for {username}...")
         analyzer.generate_report()
 
@@ -744,27 +698,18 @@ def main():
         nargs="?",
         help="Output directory for analysis results",
     )
-    parser.add_argument(
-        "--split",
-        action="store_true",
-        help="Split output into separate files (default is single report.json)",
-    )
 
     args = parser.parse_args()
     start_time = time.time()
 
     if args.only_profile:
         logging.info(f"Only fetching profile data for {args.username}...")
-        process_target(
-            args.username, only_profile=True, out_path=args.out_path, split=args.split
-        )
+        process_target(args.username, only_profile=True, out_path=args.out_path)
         return
 
     if args.username:
         logging.info(f"Processing single target: {args.username}")
-        process_target(
-            args.username, args.commit_search, out_path=args.out_path, split=args.split
-        )
+        process_target(args.username, args.commit_search, out_path=args.out_path)
     else:
         targets_file = args.targets if args.targets is not None else "targets"
         logging.info(f"Processing targets from file: {targets_file}")
@@ -780,9 +725,7 @@ def main():
 
         for target in targets:
             logging.info(f"Processing target: {target}")
-            process_target(
-                target, args.commit_search, out_path=args.out_path, split=args.split
-            )
+            process_target(target, args.commit_search, out_path=args.out_path)
 
     end_time = time.time()
     print(f"Processing completed in {end_time - start_time:.2f} seconds.")
