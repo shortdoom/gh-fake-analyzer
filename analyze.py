@@ -178,14 +178,14 @@ class DataManager:
         "svn_url",
     ]
 
-    KEYS_TO_KEEP = [
-        "repos",
-        "commits",
-        "commits_msgs",
-        "date_filter",
-        "potential_copy",
-        "commit_filter",
-    ]
+    # KEYS_TO_KEEP = [
+    #     "repos",
+    #     "commits",
+    #     "commits_msgs",
+    #     "date_filter",
+    #     "potential_copy",
+    #     "commit_filter",
+    # ]
 
     def __init__(self, username, out_path=None, split=False):
         self.username = username
@@ -206,11 +206,17 @@ class DataManager:
         try:
             if self.split:
                 filtered_data = self.remove_unwanted_keys(data)
-                kept_data = {key: filtered_data.get(key, {}) for key in self.KEYS_TO_KEEP}
-                self.save_to_json(kept_data, self.data_file)
+                # kept_data = {
+                #     key: filtered_data.get(key, {}) for key in self.KEYS_TO_KEEP
+                # }
+                self.save_to_json(filtered_data, self.data_file)
                 logging.info(f"Data saved to {self.data_file} in split mode")
             else:
-                self.save_to_json(data, self.report_file)
+                filtered_data = self.remove_unwanted_keys(data)
+                # kept_data = {
+                #     key: filtered_data.get(key, {}) for key in self.KEYS_TO_KEEP
+                # }
+                self.save_to_json(filtered_data, self.report_file)
                 logging.info(f"Data saved to {self.report_file}")
         except Exception as e:
             logging.error(f"Error in save_output: {e}")
@@ -265,6 +271,24 @@ class DataManager:
             return [self.remove_unwanted_keys(item) for item in data]
         else:
             return data
+
+    def clean_repos(self, repos):
+        cleaned_repos = []
+        for repo in repos:
+            cleaned_repo = {
+                k: v for k, v in repo.items() if k not in self.KEYS_TO_REMOVE
+            }
+            
+            if "owner" in repo:
+                cleaned_repo["owner"] = {"login": repo["owner"].get("login")}
+            if "license" in repo and repo["license"]:
+                cleaned_repo["license"] = {
+                    "key": repo["license"].get("key"),
+                    "name": repo["license"].get("name"),
+                    "spdx_id": repo["license"].get("spdx_id"),
+                }
+            cleaned_repos.append(cleaned_repo)
+        return cleaned_repos
 
 
 class GitManager:
@@ -386,7 +410,7 @@ class GitHubProfileAnalyzer:
                                 "author": commit["commit"]["author"],
                                 "committer": commit["commit"]["committer"],
                                 "message": commit["commit"]["message"],
-                            }
+                            },
                         }
                         simplified_commits.append(simplified_commit)
                     self.data["commits"][repo_name] = simplified_commits
@@ -461,10 +485,9 @@ class GitHubProfileAnalyzer:
                         unique_emails[author_email] = author_name
                     if committer_email not in unique_emails:
                         unique_emails[committer_email] = committer_name
-            
+
             unique_emails_list = [
-            {"email": email, "name": name}
-            for email, name in unique_emails.items()
+                {"email": email, "name": name} for email, name in unique_emails.items()
             ]
 
             # Calculate the total count of original and forked repos
@@ -557,6 +580,8 @@ class GitHubProfileAnalyzer:
                 ]
             }
 
+            cleaned_repos = self.data_manager.clean_repos(self.data.get("repos", []))
+
             report_data = {
                 "profile_info": profile_info,
                 "original_repos_count": original_repos_count,
@@ -570,7 +595,7 @@ class GitHubProfileAnalyzer:
                 "contributors": contributors,
                 "pull_requests_to_other_repos": pull_requests_list,
                 "commits_to_other_repos": commits_list,
-                "repos": self.data.get("repos", []),
+                "repos": cleaned_repos,
                 "commits": self.data.get("commits", {}),
                 "errors": self.data.get("errors", []),
             }
@@ -580,7 +605,9 @@ class GitHubProfileAnalyzer:
 
             self.data_manager.save_to_json(report_data, self.data_manager.report_file)
 
-            logging.info(f"Report generated and saved to {self.data_manager.report_file}")
+            logging.info(
+                f"Report generated and saved to {self.data_manager.report_file}"
+            )
         except Exception as e:
             logging.error(f"Error in generate_report: {e}")
 
@@ -658,7 +685,9 @@ def read_targets(file_path):
         return []
 
 
-def process_target(username, commit_search=False, only_profile=False, out_path=None, split=False):
+def process_target(
+    username, commit_search=False, only_profile=False, out_path=None, split=False
+):
     try:
         analyzer = GitHubProfileAnalyzer(username, out_path=out_path, split=split)
 
@@ -682,6 +711,8 @@ def process_target(username, commit_search=False, only_profile=False, out_path=N
     except Exception as e:
         logging.error(f"Error processing target {username}: {e}")
         print(f"Error processing target {username}: {e}")
+
+
 def main():
     APIUtils.set_token(GH_TOKEN)
     parser = argparse.ArgumentParser(description="Analyze GitHub profiles.")
@@ -724,12 +755,16 @@ def main():
 
     if args.only_profile:
         logging.info(f"Only fetching profile data for {args.username}...")
-        process_target(args.username, only_profile=True, out_path=args.out_path, split=args.split)
+        process_target(
+            args.username, only_profile=True, out_path=args.out_path, split=args.split
+        )
         return
 
     if args.username:
         logging.info(f"Processing single target: {args.username}")
-        process_target(args.username, args.commit_search, out_path=args.out_path, split=args.split)
+        process_target(
+            args.username, args.commit_search, out_path=args.out_path, split=args.split
+        )
     else:
         targets_file = args.targets if args.targets is not None else "targets"
         logging.info(f"Processing targets from file: {targets_file}")
@@ -745,11 +780,14 @@ def main():
 
         for target in targets:
             logging.info(f"Processing target: {target}")
-            process_target(target, args.commit_search, out_path=args.out_path, split=args.split)
+            process_target(
+                target, args.commit_search, out_path=args.out_path, split=args.split
+            )
 
     end_time = time.time()
     print(f"Processing completed in {end_time - start_time:.2f} seconds.")
     logging.info(f"Processing completed in {end_time - start_time:.2f} seconds.")
+
 
 if __name__ == "__main__":
     main()
