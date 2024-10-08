@@ -11,9 +11,17 @@ from dateutil import parser
 import logging
 import configparser
 
+# Get the directory of the current script
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the full path to hardcoded files
+config_path = os.path.join(base_dir, 'config.ini')
+log_path = os.path.join(base_dir, 'script.log')
+
+
 # Load configuration
 config = configparser.ConfigParser()
-config.read("config.ini")
+config.read(config_path)
 
 MAX_FOLLOWING = int(config["LIMITS"]["MAX_FOLLOWING"])
 MAX_FOLLOWERS = int(config["LIMITS"]["MAX_FOLLOWERS"])
@@ -22,7 +30,7 @@ CLONE_DEPTH = int(config["LIMITS"]["CLONE_DEPTH"])
 
 # Configure logging
 logging.basicConfig(
-    filename="script.log",
+    filename=log_path,
     level=logging.DEBUG,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
