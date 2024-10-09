@@ -13,20 +13,31 @@ import configparser
 # Get the directory of the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Construct the full path to hardcoded files
-config_path = os.path.join(base_dir, 'config.ini')
-log_path = os.path.join(base_dir, 'script.log')
+
+# Get the path to the configuration file analyzer is using
+def get_config_path():
+    # Default configuration file in the user's home directory
+    user_config = os.path.expanduser("~/.gh_fake_analyzer_config.ini")
+    # Optional local configuration file in the current working directory
+    local_config = os.path.join(os.getcwd(), "config.ini")
+    return local_config if os.path.exists(local_config) else user_config
+
+
+# Get paths for configuration and log files
+config_path = get_config_path()
+log_path = os.path.join(os.getcwd(), "script.log")
 
 # Load configuration
 config = configparser.ConfigParser()
 config.read(config_path)
 
+# Set limits for the script
 MAX_FOLLOWING = int(config["LIMITS"]["MAX_FOLLOWING"])
 MAX_FOLLOWERS = int(config["LIMITS"]["MAX_FOLLOWERS"])
 MAX_REPOSITORIES = int(config["LIMITS"]["MAX_REPOSITORIES"])
 CLONE_DEPTH = int(config["LIMITS"]["CLONE_DEPTH"])
 
-# Configure logging
+# Set up script.log logging
 logging.basicConfig(
     filename=log_path,
     level=logging.DEBUG,
@@ -38,10 +49,8 @@ load_dotenv()
 GH_TOKEN = os.getenv("GH_TOKEN")
 
 if not GH_TOKEN:
-    logging.error(
-        "GitHub token not found. Make sure GH_TOKEN is set in your .env file."
-    )
-    exit(1)
+    logging.warning("No GitHub token found. Rate limits may apply.")
+
 
 class APIUtils:
     GITHUB_API_URL = "https://api.github.com"
@@ -243,9 +252,7 @@ class DataManager:
         if out_path:
             self.user_dir = os.path.join(out_path, username)
         else:
-            self.user_dir = os.path.join(
-                os.path.dirname(os.path.realpath(__file__)), "out", username
-            )
+            self.user_dir = os.path.join(os.getcwd(), "out", username)
         if not os.path.exists(self.user_dir):
             os.makedirs(self.user_dir)
 
@@ -566,7 +573,6 @@ class GitHubProfileAnalyzer:
             if self.data.get("date_filter"):
                 report_data["potential_copy"] = self.data["date_filter"]
 
-            # self.data_manager.save_to_json(report_data, self.data_manager.report_file)
             self.data_manager.save_output(report_data)
 
             logging.info(
@@ -680,7 +686,6 @@ def process_target(username, commit_search=False, only_profile=False, out_path=N
 
 
 def main():
-    APIUtils.set_token(GH_TOKEN)
     parser = argparse.ArgumentParser(description="Analyze GitHub profiles.")
     parser.add_argument(
         "username",
@@ -704,6 +709,11 @@ def main():
         action="store_true",
         help="Query GitHub API search for similar commits",
     )
+
+    parser.add_argument(
+        "--token", help="Optional GitHub API token overriding set env variable"
+    )
+
     parser.add_argument(
         "--out_path",
         type=str,
@@ -714,6 +724,10 @@ def main():
     args = parser.parse_args()
     start_time = time.time()
 
+    if args.token:
+        GH_TOKEN = args.token
+        APIUtils.set_token(GH_TOKEN)
+
     if args.only_profile:
         logging.info(f"Only fetching profile data for {args.username}...")
         process_target(args.username, only_profile=True, out_path=args.out_path)
@@ -722,9 +736,8 @@ def main():
     if args.username:
         logging.info(f"Processing single target: {args.username}")
         process_target(args.username, args.commit_search, out_path=args.out_path)
-    
+
     if args.targets:
-        # targets_file = args.targets if args.targets is not None else base_dir + "/targets"
         targets_file = args.targets
         logging.info(f"Processing targets from file: {targets_file}")
         print(f"Processing targets from file: {targets_file}")
@@ -743,6 +756,7 @@ def main():
     else:
         logging.error("No targets specified. Exiting.")
         print("No targets specified. Please provide a valid username or targets file.")
+        print("Print help with -h or --help.")
 
     end_time = time.time()
     print(f"Processing completed in {end_time - start_time:.2f} seconds.")
