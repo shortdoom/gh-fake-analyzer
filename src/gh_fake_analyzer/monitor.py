@@ -8,19 +8,16 @@ from datetime import datetime, timedelta
 
 # Load environment variables from .env file
 load_dotenv()
-GH_TOKEN = os.getenv("GH_TOKEN")
-
-if not GH_TOKEN:
-    logging.warning("No GitHub token found. Rate limits may apply.")
-
 
 class APIUtils:
     GITHUB_API_URL = "https://api.github.com"
-    HEADERS = {
-        "Accept": "application/vnd.github.v3+json",
-        "Authorization": f"token {GH_TOKEN}",
-    }
+    HEADERS = {"Accept": "application/vnd.github.v3+json"}
     RETRY_LIMIT = 3
+
+    @classmethod
+    def set_token(cls, token):
+        if token:
+            cls.HEADERS["Authorization"] = f"token {token}"
 
     @classmethod
     def github_api_request(cls, url, params=None, etag=None):
@@ -256,8 +253,12 @@ def monitor():
         parser.error("Either --targets or --username must be provided")
 
     if args.token:
-        GH_TOKEN = args.token
-        APIUtils.set_token(GH_TOKEN)
+        APIUtils.set_token(args.token)
+    elif os.getenv("GH_TOKEN"):
+        APIUtils.set_token(os.getenv("GH_TOKEN"))
+    else:
+        logging.warning("No GitHub token provided. Rate limits may apply.")
+        print("No GitHub token provided. Rate limits may apply.")
 
     targets = (
         [args.username]
