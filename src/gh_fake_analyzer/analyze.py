@@ -10,10 +10,6 @@ from dateutil import parser
 import logging
 import configparser
 
-# Get the directory of the current script
-base_dir = os.path.dirname(os.path.abspath(__file__))
-
-
 # Get the path to the configuration file analyzer is using
 def get_config_path():
     # Default configuration file in the user's home directory

@@ -2,9 +2,9 @@
 
 Download and analyze profile data for any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
-Jump to [Monitoring user](#monitoring-user) to setup script for continous username monitoring and/or retriving last 90 days of account activity.
+Jump to [Monitoring user](#monitoring-user) to setup continous username monitoring and/or retriving last 90 days of account activity.
 
-**Disclaimer:** Repository hosts a data dump of suspicious github accounts in `/profiles` directory. Because of this, size of repository is pretty large. Use something like this to only grab scripts:
+**Disclaimer:** Repository hosts a data dump of suspicious github accounts in `/profiles` directory. Because of this, size of repository is pretty large. Use something like below to only grab package code:
 
 ```sh
 git clone --filter=blob:none --sparse https://github.com/shortdoom/gh-fake-analyzer && cd gh-fake-analyzer && git sparse-checkout set --no-cone '*' '!profiles'
@@ -16,61 +16,80 @@ git clone --filter=blob:none --sparse https://github.com/shortdoom/gh-fake-analy
 
 Scripts require `git` to be installed on your OS. (`sudo apt install git`)
 
-Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow). 
+Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow). You can also use `--token` flag to set API Key per run.
 
 <small><i>Github API tokens are only alive for 30 days, you'll need to regenerate your token after that time.</i></small>
- 
+
+It's reccomended to setup the new `venv` first.
+
+```sh
+   pip install git+https://github.com/shortdoom/gh-fake-analyzer.git
+```
+
+or, for development purposes:
+
+```sh
+   git clone https://github.com/shortdoom/gh-fake-analyzer.git
+   cd gh-fake-analyzer
+   pip install -e .
+```
+
+TODO: PyPi package
+
 ### Run
 
 ```sh
-   # In new venv
-   pip install -r requirements.txt # install required packages
-   python analyze.py <username> # analyze a single user
-   python analyze.py <username> --out_path /path/to/dir # save to different than /out dir
-
-   # Optionally, rename `targets.example` to `targets` 
-   python analyze.py # read from "targets" and analyze all
-   python analyze.py --targets <path> # custom_file.txt to read from as "targets"   
-   python analyze.py <username> --commit_search # search github for commit messages (slow, experimental)
+   gh-analyze <username> # analyze a single user
+   gh-analyze <username> --out_path /path/to/dir # save to different than /out dir
+   gh-analyze --targets <path> # custom_file.txt to read from as "targets"   
+   gh-analyze <username> --commit_search # search github for commit messages (slow, experimental)
 ```
 
-A `script.log` file is created after the first run. All profile data is downloaded to `/out`. By default, `config.ini` to cap total amount of data downloaded.
+A `script.log` file is created after the first run in the current working directory of the pacakge. All profile data is downloaded to `out` directory within the current working directory.
 
-Use `config.ini` to set different MAX parameters (some accounts can have a lot of data).
-
-# How to Read the Output
-
-Inside the `/out` directory, there will be a `<username>` subdirectory for each account scanned.
-
-Report file is main output file, `{username}.json` file is the full data dump (can be long). Cross-search both files for the best effect.
-
-- The `{username}.json` file contains all repositories hosted on the user's account (forked and not) and all commit data (including commit messages to any repositories hosted on the user's account). The `date_filter` will only be non-empty if a suspicious flag is raised (experimental, low confidence). The `commit_filter` will only be present if `--commit_search` flag was used.
-
-- The `report.json` is built on top off `{username}.json` file. It contains profile, followers, following and additionally, more of external data for profile, such as the user's pull requests created to any repository, as well as commits added to any repository (including repositories not hosted on the user's account). It also contains a list of `unique_emails` (emails of contributors to the user's hosted repositories) extracted from the commit data.
-
-IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repository owner's emails. This list may include emails of external contributors to the repository or even completely spoofed emails. Copy the email address and search `{username}.json` for it to get the exact commit where e-mail was used. It may be far-detached from the account you're analyzing.
-
-- The `failed_repos.json` file inside the subdirectory will contain data on repositories that the script failed to `git clone`. There are many reasons why this can happen, such as network errors or DMCA takedowns.
-
-It's best to navigate all files to get a clearer picture of the user's activity.
+- The default configuration is at `~/.gh_fake_analyzer_config.ini`
+- To use a local configuration, create a `config.ini` file in your working directory.
+- Use this file to set different MAX parameters (e.g., for accounts with large amounts of data, especially followers/following).
 
 # Monitoring user
 
-The `monitor.py` script is designed to continously monitor the activity of specified Gituhb users. It works as an event watcher. On first run, it will return last past 90 days of events for an account.
+The `gh-monitor` is designed to continously monitor the activity of specified Gituhb users. It works as an event watcher. On first run, it will return last past 90 days of events for an account.
 
 ```sh
 
-python monitor.py --username <username> # Monitor single user
-python monitor.py --targets <file> # Monitor multiple usernames
+gh-monitor --username <username> # Monitor single user
+gh-monitor --targets <file> # Monitor multiple usernames
 
 ```
 
-The script logs activity to both the `monitoring.log` file and the console. It captures various events such as:
+Activity is logged to both `monitoring.log` file and terminal. It captures various events such as:
 
 - New followers
 - Profile updates (e.g., changes in name, company, blog, location, email, bio, Twitter username)
 - GitHub events (e.g., stars, pushes, forks, issues, pull requests)
 
+# Output
+
+Inside the `/out` directory, there will be a `<username>` subdirectory for each account scanned.
+
+`report.json`, is the output file, see the [report_example.json](/profiles/INVESTIGATIONS/report_example.json) to get a short overview of all keys and potential values in the report.
+
+- `profile_info` - basic github user profile data (login, name, location, bio, etc.).
+- `original_repos_count` and `forked_repos_count` - counted repositories.
+- `unique_emails` - emails and associated names extracted from the commit data. 
+- `mutual_followers` - list of mutual followers for the account.
+- `following` - list of accounts user follows.
+- `followers` - list of accounts following the user.
+- `repo_list` - list of names of all non-forked repositories on the user account.
+- `forked_repo_list` - list of names of all forked repositories on the user account. 
+- `contributors` - user's repositories and associated contributors to those repositories.
+- `pull_requests_to_other_repos` - list of user's pull requests made to repositories.
+- `commits_to_other_repos` - list of user's commits made to repositories he doesn't own.
+- `repos` - full repository data for every user repository. (big)
+- `commits` - full commit data for every user repository. (big)
+- `errors` - list of repositories that script failed to retrieve data for (network errors, DMCA..)
+
+IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repository owner's emails. This list may include emails of external contributors to the repository or even completely spoofed emails. Copy the email address and search `{username}.json` for it to get the exact commit where e-mail was used. It may be far-detached from the account you're analyzing.
 
 # Malicious Github Accounts
 
