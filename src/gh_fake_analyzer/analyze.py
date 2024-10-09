@@ -25,7 +25,6 @@ def get_config_path():
 
 # Get paths for configuration and log files
 config_path = get_config_path()
-log_path = os.path.join(os.getcwd(), "script.log")
 
 # Load configuration
 config = configparser.ConfigParser()
@@ -37,20 +36,8 @@ MAX_FOLLOWERS = int(config["LIMITS"]["MAX_FOLLOWERS"])
 MAX_REPOSITORIES = int(config["LIMITS"]["MAX_REPOSITORIES"])
 CLONE_DEPTH = int(config["LIMITS"]["CLONE_DEPTH"])
 
-# Set up script.log logging
-logging.basicConfig(
-    filename=log_path,
-    level=logging.DEBUG,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
-
 # Load environment variables from .env file
 load_dotenv()
-GH_TOKEN = os.getenv("GH_TOKEN")
-
-if not GH_TOKEN:
-    logging.warning("No GitHub token found. Rate limits may apply.")
-
 
 class APIUtils:
     GITHUB_API_URL = "https://api.github.com"
@@ -725,9 +712,13 @@ def main():
     start_time = time.time()
 
     if args.token:
-        GH_TOKEN = args.token
-        APIUtils.set_token(GH_TOKEN)
-
+        APIUtils.set_token(args.token)
+    elif os.getenv("GH_TOKEN"):
+        APIUtils.set_token(os.getenv("GH_TOKEN"))
+    else:
+        logging.warning("No GitHub token provided. Rate limits may apply.")
+        print("No GitHub token provided. Rate limits may apply.")
+        
     if args.only_profile:
         logging.info(f"Only fetching profile data for {args.username}...")
         process_target(args.username, only_profile=True, out_path=args.out_path)
@@ -762,6 +753,17 @@ def main():
     print(f"Processing completed in {end_time - start_time:.2f} seconds.")
     logging.info(f"Processing completed in {end_time - start_time:.2f} seconds.")
 
+def setup_logging():
+    log_path = os.path.join(os.getcwd(), "script.log")
+    logging.basicConfig(
+        filename=log_path,
+        level=logging.DEBUG,
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    )
+
+def run_analyzer():
+    setup_logging()
+    main()
 
 if __name__ == "__main__":
     main()

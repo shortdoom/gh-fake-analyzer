@@ -6,33 +6,12 @@ from dotenv import load_dotenv
 import logging
 from datetime import datetime, timedelta
 
-# Get the directory of the current script
-base_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Construct the full path to hardcoded files
-log_path = os.path.join(base_dir, 'monitoring.log')
-
-# Configure logging
-logging.basicConfig(
-    filename=log_path,
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
-
-# Also log to console
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-logging.getLogger("").addHandler(console)
-
 # Load environment variables from .env file
 load_dotenv()
 GH_TOKEN = os.getenv("GH_TOKEN")
 
 if not GH_TOKEN:
-    logging.error(
-        "GitHub token not found. Make sure GH_TOKEN is set in your .env file."
-    )
-    exit(1)
+    logging.warning("No GitHub token found. Rate limits may apply.")
 
 
 class APIUtils:
@@ -58,7 +37,7 @@ class APIUtils:
                 elif response.status_code == 200:
                     return response.json(), response.headers
                 elif response.status_code == 401:
-                    logging.error("Authentication failed. Check your GitHub token.")
+                    logging.error("Authentication required to monitor. Add GitHub token.")
                     exit(1)
                 elif response.status_code in [403, 429]:
                     cls._handle_rate_limit(response)
@@ -261,16 +240,24 @@ def monitor_user_activity(username, etag=None, last_check=None):
     return processed_events, new_etag, poll_interval
 
 
-def main():
+def monitor():
     parser = argparse.ArgumentParser(description="Monitor GitHub user activity.")
     parser.add_argument(
         "-t", "--targets", help="File containing target usernames, one per line"
     )
     parser.add_argument("-u", "--username", help="Single GitHub username to monitor")
+    parser.add_argument(
+        "--token", help="Optional GitHub API token overriding set env variable"
+    )
+
     args = parser.parse_args()
 
     if not args.targets and not args.username:
         parser.error("Either --targets or --username must be provided")
+
+    if args.token:
+        GH_TOKEN = args.token
+        APIUtils.set_token(GH_TOKEN)
 
     targets = (
         [args.username]
@@ -366,6 +353,21 @@ def main():
     except KeyboardInterrupt:
         logging.info("Stopping user activity monitoring.")
 
+# Setup file and console logging
+def setup_logging():
+    log_path = os.path.join(os.getcwd(), "monitoring.log")
+    logging.basicConfig(
+        filename=log_path,
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+    )
+    console = logging.StreamHandler()
+    console.setLevel(logging.INFO)
+    logging.getLogger("").addHandler(console)
+
+def run_monitor():
+    setup_logging()
+    monitor()
 
 if __name__ == "__main__":
-    main()
+    run_monitor()
