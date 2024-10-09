@@ -2,17 +2,17 @@
 
 Download, analyze or monitor profile data of any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
-**Disclaimer:** The information provided here **may** be incorrect. Please do not make any (baseless) accusations based on this content. All information is sourced from publicly available third-party sources and verified to the best of my ability (only).
-
 ### Install
 
 Scripts require `git` to be installed on your OS. (`sudo apt install git`)
 
-Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow).
+In `.env`, supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow).
 
-<small><i>Github API tokens have time-to-live, you'll need to regenerate your token after that time.</i></small>
+<small><i>Github API tokens have a time-to-live, you'll need to regenerate your token after that time.</i></small>
 
-Only development version is available now. PyPi package is in progress.
+<small><i>See [Dev Notes](#dev-notes) to only `git clone` package code and not the `/profiles` data.</i></small>
+
+Only the development version is available now. PyPi package is in progress.
 
 Setup the new `venv`, then:
 
@@ -33,7 +33,7 @@ The `gh-analyze` is designed to download full github profile data of specified u
 ```sh
 gh-analyze <username> # analyze a single user
 gh-analyze <username> --out_path /path/to/dir # save to different than /out dir
-gh-analyze --targets <path> # custom_file.txt to read from as "targets"   
+gh-analyze --targets <path> # custom_file.txt to read from as "targets"
 gh-analyze <username> --commit_search # search github for commit messages (slow, experimental)
 gh-analyze <username> --token <token> # provide GH_TOKEN to use for this run
 ```
@@ -69,12 +69,12 @@ Inside the `/out` directory, there will be a `<username>` subdirectory for each 
 
 - `profile_info` - basic github user profile data (login, name, location, bio, etc.).
 - `original_repos_count` and `forked_repos_count` - counted repositories.
-- `unique_emails` - emails and associated names extracted from the commit data. 
+- `unique_emails` - emails and associated names extracted from the commit data.
 - `mutual_followers` - list of mutual followers for the account.
 - `following` - list of accounts user follows.
 - `followers` - list of accounts following the user.
 - `repo_list` - list of names of all non-forked repositories on the user account.
-- `forked_repo_list` - list of names of all forked repositories on the user account. 
+- `forked_repo_list` - list of names of all forked repositories on the user account.
 - `contributors` - user's repositories and associated contributors to those repositories.
 - `pull_requests_to_other_repos` - list of user's pull requests made to repositories.
 - `commits_to_other_repos` - list of user's commits made to repositories he doesn't own.
@@ -86,7 +86,9 @@ IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repo
 
 # Malicious Github Accounts
 
-DISCLAIMER: The confidence in detecting "malicious" GitHub profiles is low. Many regular user accounts may appear in the analysis files; this does not indicate their participation in any illegal activity. ANYBODY can edit the `.git` file, and ANYBODY can commit code to GitHub. This tool is intended for reconnaissance purposes only.
+**Disclaimer:**  The confidence in detecting "malicious" GitHub profiles is low. Many regular user accounts may appear in the analysis files; this does not indicate their participation in any illegal activity. ANYBODY can edit the `.git` file, and ANYBODY can commit code to GitHub. This tool is intended for reconnaissance purposes only.
+
+**Disclaimer:** The information provided here **may** be incorrect. Please do not make any (baseless) accusations based on this content. All information is sourced from publicly available third-party sources and verified to the best of my ability (only).
 
 It's possible, to a certain degree, to define some metrics for classifying GitHub profiles as potentially malicious. However, motivated enough attackers can still bypass most of those checks and appear as professional engineers. If that's the case, a company should fall back to regular methods of judging a potential employee/contact. The following script can help out with finding some dark patterns if the attacker is not motivated enough :)
 
@@ -98,17 +100,17 @@ It's possible, to a certain degree, to define some metrics for classifying GitHu
 
 Great list of flags by ZachXBT: https://x.com/zachxbt/status/1824047480121729425
 
-Some indicators teams can look out for in the future includes: 
+Some indicators teams can look out for in the future includes:
 
-1) They refer each other for roles 
-2) Good looking resumes / GitHub activity although sometimes lie about work history. 
-3) Typically are happy to KYC but submit fake IDs in hopes teams do not investigate further
-4) Ask specific questions about locations they claim to be from. 
-5) Dev is fired and immediately new accounts appear looking for work
-6) May be good devs initially but typically start to underperform
-7) Review logs
-8) Like using popular NFT pfps 
-9) Asia accent
+1. They refer each other for roles
+2. Good looking resumes / GitHub activity although sometimes lie about work history.
+3. Typically are happy to KYC but submit fake IDs in hopes teams do not investigate further
+4. Ask specific questions about locations they claim to be from.
+5. Dev is fired and immediately new accounts appear looking for work
+6. May be good devs initially but typically start to underperform
+7. Review logs
+8. Like using popular NFT pfps
+9. Asia accent
 
 # Regular, Skid and DPRK-style profile (WIP)
 
@@ -123,7 +125,6 @@ For Regular accounts I've ran the analysis on my own profile
 3. Very little unique mails in commit messages, one machine/account used
 4. No commit messages copied
 5. No DMCA takedowns
-
 
 ### Features of Skid accounts
 
