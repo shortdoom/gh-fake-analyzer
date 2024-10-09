@@ -23,12 +23,12 @@ class PostInstallCommand(install):
 setup(
     name="gh-fake-analyzer",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="blackbigswan",
+    author_email="dprk@helpline.com",
     description="A tool to analyze and monitor GitHub profiles",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/gh-fake-analyzer",
+    url="https://github.com/shortdoom/gh-fake-analyzer",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[
@@ -49,8 +49,8 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "gh-analyze=gh_fake_analyzer.analyze:main",
-            "gh-monitor=gh_fake_analyzer.monitor:main",
+            "gh-analyze=gh_fake_analyzer.analyze:run_analyzer",
+            "gh-monitor=gh_fake_analyzer.monitor:run_monitor",
         ],
     },
     include_package_data=True,
