@@ -45,6 +45,7 @@ setup(
     install_requires=[
         "requests",
         "python-dotenv",
+        "python-dateutil",
         "gitpython",
     ],
     entry_points={
