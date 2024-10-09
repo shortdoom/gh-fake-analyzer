@@ -2,7 +2,6 @@ import argparse
 import requests
 import time
 import os
-import json
 from dotenv import load_dotenv
 import logging
 from datetime import datetime, timedelta

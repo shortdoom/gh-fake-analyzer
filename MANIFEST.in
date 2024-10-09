@@ -1,0 +1,4 @@
+include README.md
+include requirements.txt
+include src/gh_fake_analyzer/config.ini
+recursive-exclude profiles *
