@@ -65,7 +65,7 @@ python monitor.py --targets <file> # Monitor multiple usernames
 
 ```
 
-The script logs activity to both a file (`monitoring.log`) and the console. It captures various events such as:
+The script logs activity to both the `monitoring.log` file and the console. It captures various events such as:
 
 - New followers
 - Profile updates (e.g., changes in name, company, blog, location, email, bio, Twitter username)

@@ -6,9 +6,15 @@ from dotenv import load_dotenv
 import logging
 from datetime import datetime, timedelta
 
+# Get the directory of the current script
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the full path to hardcoded files
+log_path = os.path.join(base_dir, 'monitoring.log')
+
 # Configure logging
 logging.basicConfig(
-    filename="monitoring.log",
+    filename=log_path,
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
