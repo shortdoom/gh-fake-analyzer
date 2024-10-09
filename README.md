@@ -1,14 +1,6 @@
 # Github Profile Analyzer (and database)
 
-Download and analyze profile data for any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
-
-Jump to [Monitoring user](#monitoring-user) to setup continous username monitoring and/or retriving last 90 days of account activity.
-
-**Disclaimer:** Repository hosts a data dump of suspicious github accounts in `/profiles` directory. Because of this, size of repository is pretty large. Use something like below to only grab package code:
-
-```sh
-git clone --filter=blob:none --sparse https://github.com/shortdoom/gh-fake-analyzer && cd gh-fake-analyzer && git sparse-checkout set --no-cone '*' '!profiles'
-```
+Download, analyze or monitor profile data of any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
 **Disclaimer:** The information provided here **may** be incorrect. Please do not make any (baseless) accusations based on this content. All information is sourced from publicly available third-party sources and verified to the best of my ability (only).
 
@@ -16,33 +8,34 @@ git clone --filter=blob:none --sparse https://github.com/shortdoom/gh-fake-analy
 
 Scripts require `git` to be installed on your OS. (`sudo apt install git`)
 
-Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow). You can also use `--token` flag to set API Key per run.
+Rename `.env.example` to `.env` and supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow).
 
-<small><i>Github API tokens are only alive for 30 days, you'll need to regenerate your token after that time.</i></small>
+<small><i>Github API tokens have time-to-live, you'll need to regenerate your token after that time.</i></small>
 
-It's reccomended to setup the new `venv` first.
+Only development version is available now. PyPi package is in progress.
+
+Setup the new `venv`, then:
 
 ```sh
-   pip install git+https://github.com/shortdoom/gh-fake-analyzer.git
+pip install git+https://github.com/shortdoom/gh-fake-analyzer.git
+
+# alternatively:
+
+git clone https://github.com/shortdoom/gh-fake-analyzer.git
+cd gh-fake-analyzer
+pip install -e . # remember about venv!
 ```
 
-or, for development purposes:
+### Analyze user
+
+The `gh-analyze` is designed to download full github profile data of specified user, see [Output](#output) for details.
 
 ```sh
-   git clone https://github.com/shortdoom/gh-fake-analyzer.git
-   cd gh-fake-analyzer
-   pip install -e .
-```
-
-TODO: PyPi package
-
-### Run
-
-```sh
-   gh-analyze <username> # analyze a single user
-   gh-analyze <username> --out_path /path/to/dir # save to different than /out dir
-   gh-analyze --targets <path> # custom_file.txt to read from as "targets"   
-   gh-analyze <username> --commit_search # search github for commit messages (slow, experimental)
+gh-analyze <username> # analyze a single user
+gh-analyze <username> --out_path /path/to/dir # save to different than /out dir
+gh-analyze --targets <path> # custom_file.txt to read from as "targets"   
+gh-analyze <username> --commit_search # search github for commit messages (slow, experimental)
+gh-analyze <username> --token <token> # provide GH_TOKEN to use for this run
 ```
 
 A `script.log` file is created after the first run in the current working directory of the pacakge. All profile data is downloaded to `out` directory within the current working directory.
@@ -51,7 +44,7 @@ A `script.log` file is created after the first run in the current working direct
 - To use a local configuration, create a `config.ini` file in your working directory.
 - Use this file to set different MAX parameters (e.g., for accounts with large amounts of data, especially followers/following).
 
-# Monitoring user
+### Monitor user
 
 The `gh-monitor` is designed to continously monitor the activity of specified Gituhb users. It works as an event watcher. On first run, it will return last past 90 days of events for an account.
 
@@ -166,3 +159,11 @@ Very hard to distinguish from the regular accounts, but there are some flags. An
 [light-fury analysis](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/light-fury/light-fury.json)
 
 [light-fury report](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/light-fury/report.json)
+
+### Dev notes
+
+Repository hosts a data dump of suspicious github accounts in `/profiles` directory. Because of this, size of repository is pretty large. Use something like below to only grab package code:
+
+```sh
+git clone --filter=blob:none --sparse https://github.com/shortdoom/gh-fake-analyzer && cd gh-fake-analyzer && git sparse-checkout set --no-cone '*' '!profiles'
+```
