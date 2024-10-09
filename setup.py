@@ -1,7 +1,24 @@
 from setuptools import setup, find_packages
+from setuptools.command.install import install
+import os
+from shutil import copyfile
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
+
+
+class PostInstallCommand(install):
+    def run(self):
+        install.run(self)
+        # Copy config.ini to the user's home directory
+        default_config = os.path.join(
+            os.path.dirname(__file__), "src", "gh_fake_analyzer", "config.ini"
+        )
+        user_config = os.path.expanduser("~/.gh_fake_analyzer_config.ini")
+        if not os.path.exists(user_config):
+            copyfile(default_config, user_config)
+            print(f"Created default configuration file at {user_config}")
+
 
 setup(
     name="gh-fake-analyzer",
@@ -39,5 +56,8 @@ setup(
     include_package_data=True,
     package_data={
         "gh_fake_analyzer": ["config.ini"],
+    },
+    cmdclass={
+        "install": PostInstallCommand,
     },
 )
