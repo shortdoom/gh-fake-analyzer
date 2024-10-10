@@ -3,9 +3,12 @@ charset-normalizer==3.3.2
 gitdb==4.0.11
 GitPython==3.1.43
 idna==3.7
-python-dateutil==2.9.0.post0
+packaging==24.1
+python-dateutil
 python-dotenv==1.0.1
 requests==2.32.3
+setuptools==69.2.0
 six==1.16.0
 smmap==5.0.1
 urllib3==2.2.2
+wheel==0.42.0
