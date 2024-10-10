@@ -740,7 +740,8 @@ def main():
         for target in targets:
             logging.info(f"Processing target: {target}")
             process_target(target, args.commit_search, out_path=args.out_path)
-    else:
+    
+    if not args.username and not args.targets:
         logging.error("No targets specified. Exiting.")
         print("No targets specified. Please provide a valid username or targets file.")
         print("Print help with -h or --help.")

@@ -1,6 +1,6 @@
 # Github Profile Analyzer (and database)
 
-Download, analyze or monitor profile data of any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
+Download, analyze and monitor profile data of any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
 ### Install
 
@@ -17,18 +17,17 @@ Only the development version is available now. PyPi package is in progress.
 Setup the new `venv`, then:
 
 ```sh
-pip install git+https://github.com/shortdoom/gh-fake-analyzer.git
-
-# alternatively:
-
 git clone https://github.com/shortdoom/gh-fake-analyzer.git
 cd gh-fake-analyzer
-pip install -e . # remember about venv!
+pip install -e . # installl_requires only, use requirements.txt for build tools
+
+# alternatively:
+pip install git+https://github.com/shortdoom/gh-fake-analyzer.git
 ```
 
 ### Analyze user
 
-The `gh-analyze` is designed to download full github profile data of specified user, see [Output](#output) for details.
+The `gh-analyze` is designed to download full github profile data of the specified user, see [Output](#output) for details.
 
 ```sh
 gh-analyze <username> # analyze a single user
@@ -85,6 +84,8 @@ Inside the `/out` directory, there will be a `<username>` subdirectory for each 
 IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repository owner's emails. This list may include emails of external contributors to the repository or even completely spoofed emails. Copy the email address and search `{username}.json` for it to get the exact commit where e-mail was used. It may be far-detached from the account you're analyzing.
 
 # Malicious Github Accounts
+
+See [INVESTIGATIONS](/profiles/INVESTIGATIONS/) for some high-confidence accounts dumped using `gh-analyze` tool.
 
 **Disclaimer:**  The confidence in detecting "malicious" GitHub profiles is low. Many regular user accounts may appear in the analysis files; this does not indicate their participation in any illegal activity. ANYBODY can edit the `.git` file, and ANYBODY can commit code to GitHub. This tool is intended for reconnaissance purposes only.
 
