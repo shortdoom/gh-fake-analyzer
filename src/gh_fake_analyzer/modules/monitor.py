@@ -2,10 +2,6 @@ import time
 import logging
 from datetime import datetime, timedelta
 from ..utils.config import setup_logging
-
-
-from datetime import datetime, timedelta
-import logging
 from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass
 
@@ -28,6 +24,7 @@ class GitHubMonitor:
     def __init__(self, api_utils):
         self.api_utils = api_utils
         setup_logging("monitoring.log")
+        self.logger = logging.getLogger('monitoring')
         
     def fetch_user_events(self, username: str, etag: Optional[str] = None) -> Tuple[List[Dict], Optional[str], int]:
         """Fetch events for a user with optional ETag for caching."""
@@ -97,13 +94,14 @@ class GitHubMonitor:
         if not events:
             return []
 
-        cutoff_date = datetime.now() - timedelta(days=days)
-        processed_events = self.process_events(events)
+        # cutoff_date = datetime.now() - timedelta(days=days)
+        # processed_events = self.process_events(events)
         
-        return [
-            event for event in processed_events
-            if datetime.strptime(event["date"], "%Y-%m-%dT%H:%M:%SZ") > cutoff_date
-        ]
+        return self.process_events(events)        
+        # return [
+        #     event for event in processed_events
+        #     if datetime.strptime(event["date"], "%Y-%m-%dT%H:%M:%SZ") > cutoff_date
+        # ]
 
     def monitor_user_changes(self, username: str, user_data: UserEventData) -> List[str]:
         """Monitor changes in user profile and following."""
@@ -149,13 +147,13 @@ class GitHubMonitor:
     def monitor(self, targets: List[str]) -> None:
         """Live monitor GitHub activity for specified users."""
         if not targets:
-            logging.info("No target(s) for monitor specified")
+            self.logger.info("No target(s) for monitor specified")
             return
 
         user_data = {username: UserEventData() for username in targets}
         
-        logging.info(f"Starting to monitor activity for users: {', '.join(targets)}")
-        logging.info("Press Ctrl+C to stop monitoring.")
+        self.logger.info(f"Starting to monitor activity for users: {', '.join(targets)}")
+        self.logger.info("Press Ctrl+C to stop monitoring.")
 
         try:
             while True:
@@ -174,14 +172,14 @@ class GitHubMonitor:
                     if events:
                         processed_events = self.process_events(events)
                         for event in processed_events:
-                            logging.info(f"User: {username}, {event['description']}, Date: {event['date']}")
+                            self.logger.info(f"User: {username}, {event['description']}, Date: {event['date']}")
 
                     # Check for profile changes
                     changes = self.monitor_user_changes(username, data)
                     for change in changes:
-                        logging.info(change)
+                        self.logger.info(change)
 
                     time.sleep(poll_interval)
 
         except KeyboardInterrupt:
-            logging.info("Stopping user activity monitoring.")
+            self.logger.info("Stopping user activity monitoring.")
