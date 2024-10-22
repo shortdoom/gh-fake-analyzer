@@ -30,14 +30,14 @@ class APIUtils:
 
                 if response.status_code == 304:
                     return None, response.headers
-                elif response.status_code == 200:  # done
+                elif response.status_code == 200:
                     return response.json(), response.headers
-                elif response.status_code == 401:  # don't need, works without
+                elif response.status_code == 401:
                     logging.error(
                         "Authentication required to monitor. Add GitHub token."
                     )
                     exit(1)
-                elif response.status_code in [403, 429]:  # done
+                elif response.status_code in [403, 429]:
                     cls._handle_rate_limit(response)
                     retry_count += 1
                     continue
