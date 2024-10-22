@@ -3,8 +3,9 @@ import time
 import os
 import logging
 from .utils.api import APIUtils
-
-
+from .utils.config import setup_logging
+from .modules.analyze import GitHubProfileAnalyzer
+from .modules.monitor import GitHubMonitor
 
 def read_targets(file_path):
     """Reads a list of GitHub usernames from a file."""
@@ -46,13 +47,18 @@ def process_target(username, commit_search=False, only_profile=False, out_path=N
         print(f"Error processing target {username}: {e}")
 
 
-def main():
+def terminal():
     parser = argparse.ArgumentParser(description="Analyze GitHub profiles.")
     parser.add_argument(
         "username",
         type=str,
         nargs="?",
         help="GitHub username to analyze (if omitted, reads from targets file)",
+    )
+    parser.add_argument(
+        "--monitor",
+        action="store_true",
+        help="Activate monitoring (event watcher) for the target or list of targets"
     )
     parser.add_argument(
         "--only_profile",
@@ -70,11 +76,9 @@ def main():
         action="store_true",
         help="Query GitHub API search for similar commits",
     )
-
     parser.add_argument(
         "--token", help="Optional GitHub API token overriding set env variable"
     )
-
     parser.add_argument(
         "--out_path",
         type=str,
@@ -93,12 +97,30 @@ def main():
         logging.warning("No GitHub token provided. Rate limits may apply.")
         print("No GitHub token provided. Rate limits may apply.")
         
+    # NOTE: Only start monitoring.log and listen for new events
+    # NOTE: After monitor() exits, exit terminal too
+    if args.monitor:
+        monitor = GitHubMonitor(APIUtils)
+        
+        if args.username:
+            monitor.monitor([args.username])
+        
+        if args.targets:
+            targets = read_targets(args.targets)
+            if not targets:
+                logging.error(f"No targets found in {targets_file}. Exiting.")
+                print(
+                    f"No targets found in {targets_file}. Please provide a valid targets file or specify a username."
+                )
+                return
+            monitor.monitor(targets)
+        
     if args.only_profile:
         logging.info(f"Only fetching profile data for {args.username}...")
         process_target(args.username, only_profile=True, out_path=args.out_path)
         return
 
-    if args.username:
+    if args.username:        
         logging.info(f"Processing single target: {args.username}")
         process_target(args.username, args.commit_search, out_path=args.out_path)
 
@@ -128,17 +150,7 @@ def main():
     print(f"Processing completed in {end_time - start_time:.2f} seconds.")
     logging.info(f"Processing completed in {end_time - start_time:.2f} seconds.")
 
-def setup_logging():
-    log_path = os.path.join(os.getcwd(), "script.log")
-    logging.basicConfig(
-        filename=log_path,
-        level=logging.DEBUG,
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    )
 
-def run_analyzer():
-    setup_logging()
-    main()
-
-if __name__ == "__main__":
-    main()
+def start_terminal():
+    setup_logging("script.log")
+    terminal()

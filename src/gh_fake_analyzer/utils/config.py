@@ -2,6 +2,7 @@ import os
 import configparser
 import logging
 
+
 # Get the path to the configuration file analyzer is using
 def get_config_path():
     # Default configuration file in the user's home directory
@@ -10,13 +11,25 @@ def get_config_path():
     local_config = os.path.join(os.getcwd(), "config.ini")
     return local_config if os.path.exists(local_config) else user_config
 
-def setup_logging():
-    log_path = os.path.join(os.getcwd(), "script.log")
+
+def setup_logging(log_name="script.log"):
+    log_path = os.path.join(os.getcwd(), log_name)
     logging.basicConfig(
         filename=log_path,
         level=logging.DEBUG,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     )
+
+    if log_name != "script.log":
+        logging.basicConfig(
+            filename=log_path,
+            level=logging.DEBUG,
+            format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        )
+        console = logging.StreamHandler()
+        console.setLevel(logging.INFO)
+        logging.getLogger("").addHandler(console)
+
 
 # Get paths for configuration and log files
 config_path = get_config_path()
@@ -30,4 +43,3 @@ MAX_FOLLOWING = int(config["LIMITS"]["MAX_FOLLOWING"])
 MAX_FOLLOWERS = int(config["LIMITS"]["MAX_FOLLOWERS"])
 MAX_REPOSITORIES = int(config["LIMITS"]["MAX_REPOSITORIES"])
 CLONE_DEPTH = int(config["LIMITS"]["CLONE_DEPTH"])
-

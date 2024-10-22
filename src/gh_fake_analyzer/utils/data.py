@@ -101,7 +101,7 @@ class DataManager:
             return {
                 key: self.remove_unwanted_keys(value)
                 for key, value in data.items()
-                if key not in self.KEYS_TO_REMOVE
+                if key not in KEYS_TO_REMOVE
             }
         elif isinstance(data, list):
             return [self.remove_unwanted_keys(item) for item in data]
@@ -112,7 +112,7 @@ class DataManager:
         cleaned_repos = []
         for repo in repos:
             cleaned_repo = {
-                k: v for k, v in repo.items() if k not in self.KEYS_TO_REMOVE
+                k: v for k, v in repo.items() if k not in KEYS_TO_REMOVE
             }
 
             if "owner" in repo:

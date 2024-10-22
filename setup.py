@@ -50,8 +50,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "gh-analyze=gh_fake_analyzer.analyze:run_analyzer",
-            "gh-monitor=gh_fake_analyzer.monitor:run_monitor",
+            "gh-analyze=gh_fake_analyzer.terminal:start_terminal",
         ],
     },
     include_package_data=True,
