@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 from ..utils.config import setup_logging
 from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass
+from .fetch import FetchFromGithub
 
 @dataclass
 class UserEventData:
@@ -23,31 +24,10 @@ class UserEventData:
 class GitHubMonitor:
     def __init__(self, api_utils):
         self.api_utils = api_utils
+        self.github_fetch = FetchFromGithub(api_utils)
         setup_logging("monitoring.log")
         self.logger = logging.getLogger('monitoring')
         
-    def fetch_user_events(self, username: str, etag: Optional[str] = None) -> Tuple[List[Dict], Optional[str], int]:
-        """Fetch events for a user with optional ETag for caching."""
-        url = f"{self.api_utils.GITHUB_API_URL}/users/{username}/events"
-        events, headers = self.api_utils.github_api_request(url, etag=etag)
-        
-        new_etag = headers.get("ETag") if headers else None
-        poll_interval = int(headers.get("X-Poll-Interval", 60)) if headers else 60
-        
-        return events, new_etag, poll_interval
-
-    def fetch_user_info(self, username: str) -> Dict:
-        """Fetch user profile information."""
-        url = f"{self.api_utils.GITHUB_API_URL}/users/{username}"
-        user_info, _ = self.api_utils.github_api_request(url)
-        return user_info
-
-    def fetch_user_following(self, username: str) -> List[Dict]:
-        """Fetch list of users that the given user follows."""
-        url = f"{self.api_utils.GITHUB_API_URL}/users/{username}/following"
-        following, _ = self.api_utils.github_api_request(url)
-        return following
-
     @staticmethod
     def interpret_event(event: Dict) -> str:
         """Convert a GitHub event into a human-readable description."""
@@ -75,6 +55,15 @@ class GitHubMonitor:
         }
 
         return interpretations.get(event_type, f"Unknown event type: {event_type}")
+        
+    def fetch_user_events(self, username: str, etag: Optional[str] = None) -> Tuple[List[Dict], Optional[str], int]:
+        return self.github_fetch.fetch_user_events(username, etag)
+    
+    def fetch_user_info(self, username: str) -> Dict:
+        return self.github_fetch.fetch_profile_data(username)
+    
+    def fetch_user_following(self, username: str) -> List[Dict]:
+        return self.github_fetch.fetch_following(username)
 
     def process_events(self, events: List[Dict]) -> List[Dict]:
         """Process raw GitHub events into a standardized format."""
@@ -88,20 +77,13 @@ class GitHubMonitor:
             "description": self.interpret_event(event)
         } for event in events]
 
-    def recent_events(self, username: str, days: int = 90) -> List[Dict]:
+    def recent_events(self, username: str) -> List[Dict]:
         """Fetch and process events from the last specified number of days."""
         events, _, _ = self.fetch_user_events(username)
         if not events:
             return []
-
-        # cutoff_date = datetime.now() - timedelta(days=days)
-        # processed_events = self.process_events(events)
         
-        return self.process_events(events)        
-        # return [
-        #     event for event in processed_events
-        #     if datetime.strptime(event["date"], "%Y-%m-%dT%H:%M:%SZ") > cutoff_date
-        # ]
+        return self.process_events(events)
 
     def monitor_user_changes(self, username: str, user_data: UserEventData) -> List[str]:
         """Monitor changes in user profile and following."""
