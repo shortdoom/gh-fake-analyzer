@@ -25,7 +25,6 @@ class APIUtils:
         while retry_count < cls.RETRY_LIMIT:
             try:
                 response = requests.get(url, headers=cls.HEADERS, params=params)
-                print(f"Request URL: {response.url}")
                 logging.info(f"Request URL: {response.url}")
 
                 if response.status_code == 304:

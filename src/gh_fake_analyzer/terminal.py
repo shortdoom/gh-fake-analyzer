@@ -93,6 +93,7 @@ def terminal():
         APIUtils.set_token(args.token)
     elif os.getenv("GH_TOKEN"):
         APIUtils.set_token(os.getenv("GH_TOKEN"))
+        logging.info("Using Github Token, higher rate limits apply")
     else:
         logging.warning("No GitHub token provided. Rate limits may apply.")
         print("No GitHub token provided. Rate limits may apply.")
