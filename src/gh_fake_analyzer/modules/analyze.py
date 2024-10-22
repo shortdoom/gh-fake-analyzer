@@ -3,17 +3,19 @@ import logging
 from dateutil import parser
 from ..utils.api import APIUtils
 from ..utils.data import DataManager
-from ..utils.github import GitManager
-from ..utils.config import MAX_FOLLOWING, MAX_FOLLOWERS, MAX_REPOSITORIES
-from .monitor import GitHubMonitor 
+from ..utils.github import GitCloneManager
+from .monitor import GitHubMonitor
+from .fetch import FetchFromGithub
+
 
 class GitHubProfileAnalyzer:
     def __init__(self, username, out_path=None):
         self.username = username
         self.data_manager = DataManager(username, out_path)
-        self.git_manager = GitManager(username, self.data_manager.user_dir)
+        self.git_manager = GitCloneManager(self.data_manager.user_dir)
         self.api_utils = APIUtils()
-        self.monitor = GitHubMonitor(APIUtils)
+        self.monitor = GitHubMonitor(self.api_utils)
+        self.github_fetch = FetchFromGithub(self.api_utils)
         self.data = self.data_manager.load_existing() or {}
         logging.info(f"GitHubProfileAnalyzer initialized for {username}")
         logging.info(
@@ -33,55 +35,39 @@ class GitHubProfileAnalyzer:
             logging.info(f"Analysis completed for {self.username}")
         except Exception as e:
             logging.error(f"Error in run_analysis for {self.username}: {e}")
-    
+
     def fetch_recent_events(self):
         self.data["recent_events"] = self.monitor.recent_events(self.username)
 
     def fetch_profile_data(self):
-        url = f"{self.api_utils.GITHUB_API_URL}/users/{self.username}"
-        self.data["profile_data"], _ = self.api_utils.github_api_request(url)
+        self.data["profile_data"] = self.github_fetch.fetch_profile_data(self.username)
 
     def fetch_following(self):
-        url = f"{self.api_utils.GITHUB_API_URL}/users/{self.username}/following"
-        self.data["following"] = self.api_utils.fetch_all_pages(
-            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}, limit=MAX_FOLLOWING
+        self.data["following"] = self.github_fetch.fetch_following(
+            self.username,
         )
 
     def fetch_followers(self):
-        url = f"{self.api_utils.GITHUB_API_URL}/users/{self.username}/followers"
-        self.data["followers"] = self.api_utils.fetch_all_pages(
-            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}, limit=MAX_FOLLOWERS
+        self.data["followers"] = self.github_fetch.fetch_followers(
+            self.username,
         )
 
     def fetch_profile_repos(self):
-        url = f"{self.api_utils.GITHUB_API_URL}/users/{self.username}/repos"
-        self.data["repos"] = self.api_utils.fetch_all_pages(
-            url, {"per_page": self.api_utils.ITEMS_PER_PAGE}, limit=MAX_REPOSITORIES
-        )
+        self.data["repos"] = self.github_fetch.fetch_repositories(self.username)
 
     def fetch_from_git_clone(self):
-        self.data["commits"] = {}
-        failed_repos = []
-        for repo in self.data["repos"]:
-            if not repo["fork"]:
-                repo_name, commits = self.git_manager.clone_and_fetch_commits(repo)
-                if isinstance(commits, dict) and "error" in commits:
-                    failed_repos.append(
-                        {
-                            "repo_name": repo_name,
-                            "clone_url": repo["clone_url"],
-                            "reason": commits["error"],
-                        }
-                    )
-                else:
-                    self.data["commits"][repo_name] = commits
+        """Fetch commits from git repositories."""
+        commits_data, failed_repos = self.git_manager.fetch_repository_commits(
+            self.username, self.data["repos"]
+        )
+        self.data["commits"] = commits_data
         self.data["errors"] = failed_repos
 
     def fetch_commit_messages(self):
-        self.data["commits_msgs"] = {
-            repo: [commit["commit"]["message"] for commit in commits]
-            for repo, commits in self.data["commits"].items()
-        }
+        """Extract commit messages from fetched commits."""
+        self.data["commits_msgs"] = self.git_manager.extract_commit_messages(
+            self.data["commits"]
+        )
 
     def filter_created_at(self):
         account_created_at = parser.parse(self.data["profile_data"]["created_at"])
@@ -112,8 +98,9 @@ class GitHubProfileAnalyzer:
             for repo in self.data["repos"]:
                 if not repo["fork"]:
                     repo_name = repo["name"]
-                    url = f"{self.api_utils.GITHUB_API_URL}/repos/{self.username}/{repo_name}/contributors"
-                    repo_contributors = self.api_utils.fetch_all_pages(url)
+                    repo_contributors = self.github_fetch.fetch_repository_contributors(
+                        self.username, repo_name
+                    )
                     if repo_contributors:
                         contributors.append(
                             {
@@ -158,13 +145,8 @@ class GitHubProfileAnalyzer:
             forked_repos_count = sum(1 for repo in self.data["repos"] if repo["fork"])
 
             # Check if user has contributed to other repositories via PRs
-            search_url = f"{self.api_utils.GITHUB_API_URL}/search/issues"
-            search_params = {
-                "q": f"type:pr author:{self.username}",
-                "per_page": self.api_utils.ITEMS_PER_PAGE,
-            }
             pull_requests_to_other_repos = {}
-            search_results = self.api_utils.fetch_all_pages(search_url, search_params)
+            search_results = self.github_fetch.search_pull_requests(self.username)
 
             if search_results:
                 for item in search_results:
@@ -178,15 +160,8 @@ class GitHubProfileAnalyzer:
                         pull_requests_to_other_repos[repo_key].append(pr_url)
 
             # Check if user has made commits to other repositories
-            search_commits_url = f"{self.api_utils.GITHUB_API_URL}/search/commits"
-            search_commits_params = {
-                "q": f"author:{self.username}",
-                "per_page": self.api_utils.ITEMS_PER_PAGE,
-            }
             commits_to_other_repos = {}
-            search_commits_results = self.api_utils.fetch_all_pages(
-                search_commits_url, search_commits_params
-            )
+            search_commits_results = self.github_fetch.search_commits(self.username)
 
             if search_commits_results:
                 for item in search_commits_results:
@@ -208,7 +183,7 @@ class GitHubProfileAnalyzer:
                 for repo, commits in commits_to_other_repos.items()
             ]
 
-            # Construct GitHub HTML links for followers and following (without prefix)
+            # Clean followers & following lists in report
             followers_list = [f["login"] for f in self.data["followers"]]
             following_list = [f["login"] for f in self.data.get("following", [])]
 
@@ -261,7 +236,7 @@ class GitHubProfileAnalyzer:
                 "commits": self.data.get("commits", {}),
                 "errors": self.data.get("errors", []),
                 "commit_filter": self.data.get("commit_filter", []),
-                "recent_events": self.data.get("recent_events", [])
+                "recent_events": self.data.get("recent_events", []),
             }
 
             if self.data.get("date_filter"):
@@ -283,22 +258,14 @@ class GitHubProfileAnalyzer:
                     for commit in commits:
                         commit_message = commit["commit"]["message"]
                         commit_len = len(commit_message)
+                        # TODO: Better heuristics here than len()
                         if 20 < commit_len < 150:
                             message = commit_message.replace("\n", " ").replace(
                                 "\r", " "
                             )
-
-                            search_url = (
-                                f"{self.api_utils.GITHUB_API_URL}/search/commits"
-                            )
-                            search_params = {
-                                "q": message,
-                                "per_page": self.api_utils.ITEMS_PER_PAGE,
-                            }
-
                             try:
-                                search_results, _ = self.api_utils.github_api_request(
-                                    search_url, params=search_params
+                                search_results, _ = self.github_fetch.search_commits(
+                                    None, message
                                 )
 
                                 if (
