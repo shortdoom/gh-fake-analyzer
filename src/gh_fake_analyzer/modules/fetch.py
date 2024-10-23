@@ -1,4 +1,6 @@
 import logging
+import os
+import requests
 from typing import List, Dict, Tuple, Optional
 from ..utils.api import APIUtils
 from ..utils.config import MAX_FOLLOWING, MAX_FOLLOWERS, MAX_REPOSITORIES
@@ -79,14 +81,14 @@ class FetchFromGithub:
         }
         
         return self.api_utils.fetch_all_pages(search_url, search_params)
-    
+
     def fetch_user_issues(self, username: str) -> List[Dict]:
         """
         Fetch all issues created by a user across GitHub.
-        
+
         Args:
             username (str): GitHub username to fetch issues for
-            
+
         Returns:
             List[Dict]: List of issues with repository name, date, title and URL
         """
@@ -95,16 +97,16 @@ class FetchFromGithub:
             "q": f"author:{username} type:issue",
             "per_page": self.api_utils.ITEMS_PER_PAGE,
         }
-        
+
         raw_issues = self.api_utils.fetch_all_pages(search_url, search_params)
-        
+
         # Process and clean up the issue data
         cleaned_issues = []
         for issue in raw_issues:
             # Extract repo name from repository_url (format: ".../repos/owner/repo")
             repo_parts = issue["repository_url"].split("/")
             repo_name = f"{repo_parts[-2]}/{repo_parts[-1]}"
-            
+
             cleaned_issues.append({
                 "repo": repo_name,
                 "created_at": issue["created_at"],
@@ -113,5 +115,51 @@ class FetchFromGithub:
                 "state": issue["state"],
                 "number": issue["number"]
             })
-        
+
         return cleaned_issues
+    
+    def download_avatar(self, avatar_url: str, save_path: str) -> Optional[str]:
+        """
+        Download user's avatar from GitHub and save it locally.
+        
+        Args:
+            avatar_url (str): URL of the avatar to download
+            save_path (str): Directory path where to save the avatar
+            
+        Returns:
+            Optional[str]: Name of the saved avatar file or None if download failed
+        """
+        try:
+            if not avatar_url:
+                logging.warning("No avatar URL provided")
+                return None
+                
+            # Determine file extension from URL (usually .png or .jpg)
+            file_extension = "png"  # Default to png
+            if "?" in avatar_url:
+                avatar_url = avatar_url.split("?")[0]  # Remove URL parameters
+            if "." in avatar_url.split("/")[-1]:
+                file_extension = avatar_url.split(".")[-1]
+                
+            # Extract username from save_path
+            username = os.path.basename(save_path)
+            avatar_filename = f"{username}_avatar.{file_extension}"
+            avatar_path = os.path.join(save_path, avatar_filename)
+            
+            # Download avatar using requests
+            response = requests.get(avatar_url, stream=True)
+            response.raise_for_status()
+            
+            with open(avatar_path, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+                    
+            logging.info(f"Avatar saved to {avatar_path}")
+            return avatar_filename
+            
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Error downloading avatar: {e}")
+            return None
+        except IOError as e:
+            logging.error(f"Error saving avatar: {e}")
+            return None

@@ -28,6 +28,7 @@ class GitHubProfileAnalyzer:
     def run_analysis(self):
         try:
             self.fetch_profile_data()
+            self.fetch_and_save_avatar()
             self.fetch_following()
             self.fetch_followers()
             self.fetch_profile_repos()
@@ -97,6 +98,22 @@ class GitHubProfileAnalyzer:
         except Exception as e:
             logging.error(f"Error fetching issues for {self.username}: {e}")
             self.data["issues"] = []
+            
+    def fetch_and_save_avatar(self):
+        """Download and save user's avatar image using FetchFromGithub."""
+        try:
+            avatar_url = self.data["profile_data"].get("avatar_url")
+            if avatar_url:
+                avatar_filename = self.github_fetch.download_avatar(
+                    avatar_url,
+                    self.data_manager.user_dir
+                )
+                if avatar_filename:
+                    self.data["profile_data"]["local_avatar"] = avatar_filename
+                    
+        except Exception as e:
+            logging.error(f"Error handling avatar for {self.username}: {e}")
+            
 
     def generate_report(self):
         try:
