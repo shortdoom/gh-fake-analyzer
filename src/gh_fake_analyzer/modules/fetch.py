@@ -79,4 +79,39 @@ class FetchFromGithub:
         }
         
         return self.api_utils.fetch_all_pages(search_url, search_params)
-
+    
+    def fetch_user_issues(self, username: str) -> List[Dict]:
+        """
+        Fetch all issues created by a user across GitHub.
+        
+        Args:
+            username (str): GitHub username to fetch issues for
+            
+        Returns:
+            List[Dict]: List of issues with repository name, date, title and URL
+        """
+        search_url = f"{self.api_utils.GITHUB_API_URL}/search/issues"
+        search_params = {
+            "q": f"author:{username} type:issue",
+            "per_page": self.api_utils.ITEMS_PER_PAGE,
+        }
+        
+        raw_issues = self.api_utils.fetch_all_pages(search_url, search_params)
+        
+        # Process and clean up the issue data
+        cleaned_issues = []
+        for issue in raw_issues:
+            # Extract repo name from repository_url (format: ".../repos/owner/repo")
+            repo_parts = issue["repository_url"].split("/")
+            repo_name = f"{repo_parts[-2]}/{repo_parts[-1]}"
+            
+            cleaned_issues.append({
+                "repo": repo_name,
+                "created_at": issue["created_at"],
+                "title": issue["title"],
+                "url": issue["html_url"].replace("https://github.com", ""),
+                "state": issue["state"],
+                "number": issue["number"]
+            })
+        
+        return cleaned_issues
