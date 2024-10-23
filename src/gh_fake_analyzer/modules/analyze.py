@@ -6,6 +6,7 @@ from ..utils.data import DataManager
 from ..utils.github import GitCloneManager
 from .monitor import GitHubMonitor
 from .fetch import FetchFromGithub
+from .filter import GitHubDataFilter
 
 
 class GitHubProfileAnalyzer:
@@ -16,6 +17,8 @@ class GitHubProfileAnalyzer:
         self.api_utils = APIUtils()
         self.monitor = GitHubMonitor(self.api_utils)
         self.github_fetch = FetchFromGithub(self.api_utils)
+        self.data_filter = GitHubDataFilter(self.github_fetch)
+
         self.data = self.data_manager.load_existing() or {}
         logging.info(f"GitHubProfileAnalyzer initialized for {username}")
         logging.info(
@@ -31,6 +34,7 @@ class GitHubProfileAnalyzer:
             self.fetch_from_git_clone()
             self.fetch_commit_messages()
             self.fetch_recent_events()
+
             self.filter_created_at()
             logging.info(f"Analysis completed for {self.username}")
         except Exception as e:
@@ -70,21 +74,20 @@ class GitHubProfileAnalyzer:
         )
 
     def filter_created_at(self):
-        account_created_at = parser.parse(self.data["profile_data"]["created_at"])
-        self.data["date_filter"] = []
-        for repo_name, commits in self.data["commits"].items():
-            if commits:
-                first_commit_date = parser.parse(
-                    commits[-1]["commit"]["author"]["date"]
-                )
-                if first_commit_date < account_created_at:
-                    self.data["date_filter"].append(
-                        {
-                            "repo": repo_name,
-                            "reason": "account creation date later than the first commit to the repository",
-                            "commit_date": first_commit_date.isoformat(),
-                        }
-                    )
+        """Compare repositories creation date with account's creation date ."""
+        self.data["date_filter"] = self.data_filter.filter_by_creation_date(
+            self.data["commits"], self.data["profile_data"]["created_at"]
+        )
+
+    def filter_commit_search(self):
+        """Filter commits based on message similarity search."""
+        try:
+            self.data["commit_filter"] = self.data_filter.filter_commits_by_similarity(
+                self.data["commits"]
+            )
+            self.data_manager.save_output(self.data)
+        except Exception as e:
+            logging.error(f"Error in filter_commit_search: {e}")
 
     def generate_report(self):
         try:
@@ -249,58 +252,3 @@ class GitHubProfileAnalyzer:
             )
         except Exception as e:
             logging.error(f"Error in generate_report: {e}")
-
-    def filter_commit_search(self):
-        try:
-            self.data["commit_filter"] = []
-            for repo_name, commits in self.data["commits"].items():
-                if commits:
-                    for commit in commits:
-                        commit_message = commit["commit"]["message"]
-                        commit_len = len(commit_message)
-                        # TODO: Better heuristics here than len()
-                        if 20 < commit_len < 150:
-                            message = commit_message.replace("\n", " ").replace(
-                                "\r", " "
-                            )
-                            try:
-                                search_results, _ = self.github_fetch.search_commits(
-                                    None, message
-                                )
-
-                                if (
-                                    search_results
-                                    and search_results.get("total_count", 0) > 0
-                                ):
-                                    matching_repos = [
-                                        item["repository"]["html_url"].replace(
-                                            "https://github.com/", ""
-                                        )
-                                        for item in search_results["items"]
-                                    ]
-                                    self.data["commit_filter"].append(
-                                        {
-                                            "target_repo": repo_name,
-                                            "target_commit": commit_message,
-                                            "search_results": search_results[
-                                                "total_count"
-                                            ],
-                                            "matching_repos": matching_repos,
-                                        }
-                                    )
-                            except requests.exceptions.HTTPError as e:
-                                logging.error(f"Error fetching search results: {e}")
-                else:
-                    self.data["commit_filter"].append(
-                        {
-                            "target_repo": repo_name,
-                            "target_commit": "No commits found",
-                            "search_results": 0,
-                            "matching_repos": [],
-                        }
-                    )
-
-            self.data_manager.save_output(self.data)
-
-        except Exception as e:
-            logging.error(f"Error in filter_commit_search: {e}")

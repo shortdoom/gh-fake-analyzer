@@ -77,5 +77,6 @@ class FetchFromGithub:
             "q": " ".join(query),
             "per_page": self.api_utils.ITEMS_PER_PAGE,
         }
+        
         return self.api_utils.fetch_all_pages(search_url, search_params)
 
