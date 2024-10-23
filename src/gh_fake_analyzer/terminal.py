@@ -2,10 +2,10 @@ import argparse
 import time
 import os
 import logging
-from .utils.api import APIUtils
-from .utils.config import setup_logging
 from .modules.analyze import GitHubProfileAnalyzer
 from .modules.monitor import GitHubMonitor
+from .utils.api import APIUtils
+from .utils.config import setup_logging
 
 def read_targets(file_path):
     """Reads a list of GitHub usernames from a file."""
@@ -30,22 +30,31 @@ def process_target(username, commit_search=False, only_profile=False, out_path=N
             analyzer.data_manager.save_output(analyzer.data)
             return
 
-        logging.info(f"Starting full analysis for {username}...")
-        analyzer.run_analysis()
-
         if commit_search:
             logging.info(f"Searching for copied commits in {username}'s repos...")
-            analyzer.filter_commit_search()
+            if analyzer.data:
+                logging.info(f"Profile data exists. Running filter commit search.")
+                analyzer.filter_commit_search()
+            else:
+                logging.info(f"Profile data not found. Running analysis before commit search.")
+                analyzer.run_analysis()
+                logging.info(f"Analysis done. Running filter commit search.")
+                analyzer.filter_commit_search()
+                logging.info(f"Generating report for {username}...")
+                analyzer.generate_report()
+                logging.info(f"Processing completed for {username}")
+        else:
+            logging.info(f"Starting full analysis for {username}...")
+            analyzer.run_analysis()
 
-        # NOTE: CLI will always re-download data
-        logging.info(f"Generating report for {username}...")
-        analyzer.generate_report()
+            logging.info(f"Generating report for {username}...")
+            analyzer.generate_report()
 
-        logging.info(f"Processing completed for {username}")
+            logging.info(f"Processing completed for {username}")
     except Exception as e:
         logging.error(f"Error processing target {username}: {e}")
         print(f"Error processing target {username}: {e}")
-
+        
 
 def terminal():
     parser = argparse.ArgumentParser(description="Analyze GitHub profiles.")

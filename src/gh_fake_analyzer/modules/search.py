@@ -1,1 +1,0 @@
-# git commit-seach functionality, add readme
