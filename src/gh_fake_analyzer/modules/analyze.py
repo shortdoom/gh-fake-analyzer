@@ -34,7 +34,7 @@ class GitHubProfileAnalyzer:
             self.fetch_from_git_clone()
             self.fetch_commit_messages()
             self.fetch_recent_events()
-
+            self.fetch_user_issues()
             self.filter_created_at()
             logging.info(f"Analysis completed for {self.username}")
         except Exception as e:
@@ -88,6 +88,15 @@ class GitHubProfileAnalyzer:
             self.data_manager.save_output(self.data)
         except Exception as e:
             logging.error(f"Error in filter_commit_search: {e}")
+            
+    def fetch_user_issues(self):
+        """Fetch all issues created by the user."""
+        try:
+            self.data["issues"] = self.github_fetch.fetch_user_issues(self.username)
+            logging.info(f"Fetched {len(self.data['issues'])} issues for {self.username}")
+        except Exception as e:
+            logging.error(f"Error fetching issues for {self.username}: {e}")
+            self.data["issues"] = []
 
     def generate_report(self):
         try:
@@ -240,10 +249,9 @@ class GitHubProfileAnalyzer:
                 "errors": self.data.get("errors", []),
                 "commit_filter": self.data.get("commit_filter", []),
                 "recent_events": self.data.get("recent_events", []),
+                "issues": self.data.get("issues", []),
+                "potential_copy": self.data.get("date_filter", [])
             }
-
-            if self.data.get("date_filter"):
-                report_data["potential_copy"] = self.data["date_filter"]
 
             self.data_manager.save_output(report_data)
 
