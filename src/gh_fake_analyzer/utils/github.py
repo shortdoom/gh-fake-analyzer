@@ -3,7 +3,7 @@ import logging
 import shutil
 import git
 from typing import List, Dict, Tuple, Optional
-from .config import CLONE_DEPTH
+from .config import CLONE_DEPTH, CLONE_BARE, REMOVE_REPO
 from dataclasses import dataclass
 
 @dataclass
@@ -74,7 +74,7 @@ class GitCloneManager:
         
         try:
             logging.info(f"Git clone: {clone_url}")
-            git.Repo.clone_from(clone_url, repo_dir, bare=True, depth=CLONE_DEPTH)
+            git.Repo.clone_from(clone_url, repo_dir, bare=CLONE_BARE, depth=CLONE_DEPTH)
             commits = self._get_commits_from_repo(repo_dir)
             return commits, None
             
@@ -83,7 +83,7 @@ class GitCloneManager:
             return [], str(e)
             
         finally:
-            if os.path.exists(repo_dir):
+            if os.path.exists(repo_dir) and REMOVE_REPO:
                 shutil.rmtree(repo_dir)
     
     def _get_commits_from_repo(self, repo_dir: str) -> List[Dict]:

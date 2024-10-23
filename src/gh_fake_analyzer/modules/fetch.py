@@ -5,7 +5,7 @@ from typing import List, Dict, Tuple, Optional
 from ..utils.api import APIUtils
 from ..utils.config import MAX_FOLLOWING, MAX_FOLLOWERS, MAX_REPOSITORIES
 
-class FetchFromGithub:
+class GithubFetchManager:
     def __init__(self, api_utils: APIUtils):
         self.api_utils = api_utils
         
@@ -112,11 +112,66 @@ class FetchFromGithub:
                 "created_at": issue["created_at"],
                 "title": issue["title"],
                 "url": issue["html_url"].replace("https://github.com", ""),
+                "body": issue["body"],
                 "state": issue["state"],
                 "number": issue["number"]
             })
 
         return cleaned_issues
+    
+    def fetch_issue_comments(self, repo_owner: str, repo_name: str, issue_number: int) -> List[Dict]:
+        """
+        Fetch comments for a specific issue.
+        Handles the direct array response from the API.
+        """
+        url = f"{self.api_utils.GITHUB_API_URL}/repos/{repo_owner}/{repo_name}/issues/{issue_number}/comments"
+        comments, _ = self.api_utils.github_api_request(url)
+        return comments if comments else []
+
+    def fetch_user_issue_comments(self, username: str) -> List[Dict]:
+        """
+        Fetch all comments made by a user on issues across GitHub.
+        
+        Args:
+            username (str): GitHub username to fetch comments for
+            
+        Returns:
+            List[Dict]: List of comments with repository name, issue info, and comment details
+        """
+        search_url = f"{self.api_utils.GITHUB_API_URL}/search/issues"
+        search_params = {
+            "q": f"commenter:{username} type:issue",
+            "per_page": self.api_utils.ITEMS_PER_PAGE,
+        }
+        
+        raw_issues = self.api_utils.fetch_all_pages(search_url, search_params)
+        
+        cleaned_comments = []
+        for issue in raw_issues:
+            # Get repo info
+            repo_parts = issue["repository_url"].split("/")
+            repo_owner = repo_parts[-2]
+            repo_name = repo_parts[-1]
+            
+            # Fetch comments for this specific issue using direct request
+            comments = self.fetch_issue_comments(repo_owner, repo_name, issue["number"])
+            
+            # Filter for comments by our user and clean the data
+            for comment in comments:
+                if comment["user"]["login"].lower() == username.lower():
+                    cleaned_comments.append({
+                        "repo": f"{repo_owner}/{repo_name}",
+                        "issue_title": issue["title"],
+                        "issue_number": issue["number"],
+                        "issue_url": issue["html_url"].replace("https://github.com", ""),
+                        "comment_url": comment["html_url"].replace("https://github.com", ""),
+                        "comment_id": comment["id"],
+                        "created_at": comment["created_at"],
+                        "updated_at": comment["updated_at"],
+                        "body": comment["body"],
+                    })
+        
+        return cleaned_comments
     
     def download_avatar(self, avatar_url: str, save_path: str) -> Optional[str]:
         """

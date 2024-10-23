@@ -2,12 +2,12 @@ import logging
 from typing import Dict, List, Any
 from dateutil import parser
 import requests
-from .fetch import FetchFromGithub
+from .fetch import GithubFetchManager
 
 class GitHubDataFilter:
     """Comparative analysis filters for potential fake Github profiles"""
     
-    def __init__(self, github_fetch: FetchFromGithub):
+    def __init__(self, github_fetch: GithubFetchManager):
         self.github_fetch = github_fetch
         
     def filter_by_creation_date(

@@ -1,10 +1,10 @@
 import time
 import logging
 from datetime import datetime, timedelta
-from ..utils.config import setup_logging
+from ..utils.config import setup_logging, MONITOR_SLEEP
 from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass
-from .fetch import FetchFromGithub
+from .fetch import GithubFetchManager
 
 @dataclass
 class UserEventData:
@@ -24,7 +24,7 @@ class UserEventData:
 class GitHubMonitor:
     def __init__(self, api_utils):
         self.api_utils = api_utils
-        self.github_fetch = FetchFromGithub(api_utils)
+        self.github_fetch = GithubFetchManager(api_utils)
         setup_logging("monitoring.log")
         self.logger = logging.getLogger('monitoring')
         
@@ -91,7 +91,7 @@ class GitHubMonitor:
         changes = []
         
         if user_data.last_info_check is None or (
-            current_time - user_data.last_info_check > timedelta(minutes=10)
+            current_time - user_data.last_info_check > timedelta(minutes=MONITOR_SLEEP)
         ):
             user_info = self.fetch_user_info(username)
             if user_info:
