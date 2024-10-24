@@ -1,33 +1,38 @@
-import requests
 import logging
-from dateutil import parser
 from ..utils.api import APIUtils
 from ..utils.data import DataManager
 from ..utils.github import GitCloneManager
-from .monitor import GitHubMonitor
 from .fetch import GithubFetchManager
 from .filter import GitHubDataFilter
+from .monitor import GitHubMonitor
 
 
 class GitHubProfileAnalyzer:
     def __init__(self, username, out_path=None):
         # Username to analyze
         self.username = username
+
         # Github API requests helper
         self.api_utils = APIUtils()
+
         # Local directories/files helper
         self.data_manager = DataManager(username, out_path)
+
         # Github git clone operations helper
         self.git_manager = GitCloneManager(self.data_manager.user_dir)
+
         # Github API data fetch helper
         self.github_fetch = GithubFetchManager(self.api_utils)
+
         # Local data additional filters
         self.data_filter = GitHubDataFilter(self.github_fetch)
+
         # Github event watcher application
         self.monitor = GitHubMonitor(self.api_utils)
+
         # Local data object initialization
         self.data = self.data_manager.load_existing() or {}
-        
+
         logging.info(f"GitHubProfileAnalyzer initialized for {username}")
         logging.info(
             f"{'Found' if self.data else 'No'} data in {self.data_manager.report_file}"
@@ -84,44 +89,49 @@ class GitHubProfileAnalyzer:
         self.data["commits_msgs"] = self.git_manager.extract_commit_messages(
             self.data["commits"]
         )
-            
+
     def fetch_recent_events(self):
         """Fetch list of last events for user profile."""
         self.data["recent_events"] = self.monitor.recent_events(self.username)
-            
+
     def fetch_user_issues(self):
         """Fetch all issues created by the user."""
         try:
             self.data["issues"] = self.github_fetch.fetch_user_issues(self.username)
-            logging.info(f"Fetched {len(self.data['issues'])} issues for {self.username}")
+            logging.info(
+                f"Fetched {len(self.data['issues'])} issues for {self.username}"
+            )
         except Exception as e:
             logging.error(f"Error fetching issues for {self.username}: {e}")
             self.data["issues"] = []
-            
+
     def fetch_user_comments(self):
         """Fetch all comments made by the user on issues."""
         try:
-            self.data["comments"] = self.github_fetch.fetch_user_issue_comments(self.username)
-            logging.info(f"Fetched {len(self.data['comments'])} issue comments for {self.username}")
+            self.data["comments"] = self.github_fetch.fetch_user_issue_comments(
+                self.username
+            )
+            logging.info(
+                f"Fetched {len(self.data['comments'])} issue comments for {self.username}"
+            )
         except Exception as e:
             logging.error(f"Error fetching issue comments for {self.username}: {e}")
             self.data["comments"] = []
-            
+
     def fetch_and_save_avatar(self):
         """Download and save user's avatar image using GithubFetchManager."""
         try:
             avatar_url = self.data["profile_data"].get("avatar_url")
             if avatar_url:
                 avatar_filename = self.github_fetch.download_avatar(
-                    avatar_url,
-                    self.data_manager.user_dir
+                    avatar_url, self.data_manager.user_dir
                 )
                 if avatar_filename:
                     self.data["profile_data"]["local_avatar"] = avatar_filename
-                    
+
         except Exception as e:
             logging.error(f"Error handling avatar for {self.username}: {e}")
-            
+
     def filter_created_at(self):
         """Compare repositories creation date with account's creation date ."""
         self.data["date_filter"] = self.data_filter.filter_by_creation_date(
@@ -137,15 +147,14 @@ class GitHubProfileAnalyzer:
             self.data_manager.save_output(self.data)
         except Exception as e:
             logging.error(f"Error in filter_commit_search: {e}")
-            
 
     def generate_report(self):
         """Generate a full account info dump to /out directory"""
-        
+
         if not self.data:
             logging.info(f"Execute run_analysis() before generating the report.")
             return
-        
+
         try:
             # Find mutual followers
             mutual_followers = set(
@@ -298,7 +307,7 @@ class GitHubProfileAnalyzer:
                 "recent_events": self.data.get("recent_events", []),
                 "issues": self.data.get("issues", []),
                 "comments": self.data.get("comments", []),
-                "potential_copy": self.data.get("date_filter", [])
+                "potential_copy": self.data.get("date_filter", []),
             }
 
             self.data_manager.save_output(report_data)
