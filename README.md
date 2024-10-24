@@ -99,6 +99,9 @@ It's possible to use CLI for extracting individual key data for any username in 
 ```sh
 gh-analyze --parse <username> --key <output_key>
 gh-analyze --parse <username> --summary
+
+# a useful method for quick-dumping specific data
+gh-analyze --parse <username> --key unique_emails >> dump.txt
 ```
 
 # Malicious Github Accounts
