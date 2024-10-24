@@ -22,9 +22,9 @@ class PostInstallCommand(install):
 
 setup(
     name="gh-fake-analyzer",
-    version="0.1.0",
+    version="0.1.7",
     author="blackbigswan",
-    author_email="dprk@helpline.com",
+    author_email="blackbigswan@gmail.com",
     description="A tool to analyze and monitor GitHub profiles",
     long_description=long_description,
     long_description_content_type="text/markdown",

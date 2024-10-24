@@ -100,7 +100,7 @@ def parse_report(username, key=None, summary=False, out_path=None):
             data = json.load(f)
 
         if summary:
-            print(f"\nSummary for {username}:")
+            print(f"\n{Colors.GREEN}Summary for: { Colors.RESET}{username}")
             print_summary(data)
             return True
 

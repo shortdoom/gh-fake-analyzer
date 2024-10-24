@@ -12,11 +12,15 @@ def get_config_path():
     return local_config if os.path.exists(local_config) else user_config
 
 
-def setup_logging(log_name="script.log"):
+def setup_logging(log_name="script.log", logoff=False):
     """
     Set up logging configuration for either the main script or monitoring.
     Creates a new logger if monitoring.log, uses root logger for script.log.
     """
+    
+    if logoff:
+        return
+    
     log_path = os.path.join(os.getcwd(), log_name)
 
     if log_name == "monitoring.log":

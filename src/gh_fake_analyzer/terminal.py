@@ -6,6 +6,7 @@ from .modules.output import parse_report
 from .modules.analyze import GitHubProfileAnalyzer
 from .modules.monitor import GitHubMonitor
 from .utils.api import APIUtils
+from .modules.output import Colors
 from .utils.config import setup_logging
 
 
@@ -116,32 +117,34 @@ def terminal():
         help="Display summary of key profile information",
     )
     parser.add_argument(
-        "--summary-dir",
+        "--logoff",
         action="store_true",
-        help="Display summary information fo all profiles in /out "
+        help="Disable logging to script.log. Off by default."
     )
-
-
+    
     args = parser.parse_args()
     start_time = time.time()
+
+    if args.logoff:
+        print("Logging disabled. You will only see error messages.")
+        setup_logging("script.log", True)
+    else:
+        setup_logging("script.log")
+
     
-    # Handle report parsing
     if args.parse:
         if parse_report(args.parse, args.key, args.summary, args.out_path):
             return
         else:
             return
-    
-    if args.summary_dir:
-        pass
 
     if args.token:
         APIUtils.set_token(args.token)
     elif os.getenv("GH_TOKEN"):
         APIUtils.set_token(os.getenv("GH_TOKEN"))
-        logging.info("Using Github Token, higher rate limits apply")
+        logging.info(f"{Colors.GREEN}Using Github Token, higher rate limits apply{Colors.RESET}")
     else:
-        logging.warning("No GitHub token provided. Rate limits may apply.")
+        logging.warning(f"{Colors.RED}No GitHub token provided. Rate limits may apply.{Colors.RESET}")
 
     if args.monitor:
         monitor = GitHubMonitor(APIUtils)
@@ -179,7 +182,7 @@ def terminal():
             process_target(target, args.commit_search, out_path=args.out_path)
 
     if not args.username and not args.targets:
-        logging.error("No targets specified. Exiting.")
+        logging.error(f"{Colors.RED}No targets specified. Exiting.{Colors.RESET}")
         logging.info("No targets specified. Please provide a valid username or targets file.")
         logging.info("Print help with -h or --help.")
 
@@ -188,5 +191,4 @@ def terminal():
 
 
 def start_terminal():
-    setup_logging("script.log")
     terminal()

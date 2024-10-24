@@ -3,6 +3,7 @@ from typing import Dict, List, Any
 from dateutil import parser
 import requests
 from .fetch import GithubFetchManager
+from ..utils.data import POPULAR_COMMIT_MESSAGES
 
 class GitHubDataFilter:
     """Comparative analysis filters for potential fake Github profiles"""
@@ -84,18 +85,20 @@ class GitHubDataFilter:
         
         for commit in commits:
             commit_message = commit["commit"]["message"]
-            if self._is_valid_commit_length(commit_message):
+            if self._valid_target_search(commit_message):
                 cleaned_message = self._clean_commit_message(commit_message)
                 search_result = self._search_similar_commits(
                     repo_name, 
                     cleaned_message
                 )
-                if search_result is not None:  # Explicitly check for None to include valid empty results
+                if search_result is not None:
                     filtered_commits.append(search_result)
                     logging.info(
                         f"Found {search_result['search_results']} matches for commit in {repo_name}: "
                         f"{commit_message[:100]}..."
                     )
+            else:
+                logging.info(f"Not valid commit {commit_message}")
                     
         return filtered_commits
     
@@ -145,11 +148,10 @@ class GitHubDataFilter:
             
         return None
     
-    # TODO: Better heuristics than len() needed
-    def _is_valid_commit_length(self, message: str) -> bool:
+    def _valid_target_search(self, message: str) -> bool:
         """Check if commit message length is within valid range."""
-        message_length = len(message)
-        return 20 < message_length < 150
+        cleaned_message = message.strip()
+        return cleaned_message not in POPULAR_COMMIT_MESSAGES
     
     def _clean_commit_message(self, message: str) -> str:
         """Clean commit message by removing newlines."""
