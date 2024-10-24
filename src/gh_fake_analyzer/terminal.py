@@ -2,6 +2,7 @@ import argparse
 import time
 import os
 import logging
+from .modules.output import parse_report
 from .modules.analyze import GitHubProfileAnalyzer
 from .modules.monitor import GitHubMonitor
 from .utils.api import APIUtils
@@ -98,9 +99,41 @@ def terminal():
         nargs="?",
         help="Output directory for analysis results",
     )
+    parser.add_argument(
+        "--parse",
+        type=str,
+        metavar="USERNAME",
+        help="Parse and display data from an existing report.json file",
+    )
+    parser.add_argument(
+        "--key",
+        type=str,
+        help="Specific key to retrieve from report.json (supports dot notation for nested keys)",
+    )
+    parser.add_argument(
+        "--summary",
+        action="store_true",
+        help="Display summary of key profile information",
+    )
+    parser.add_argument(
+        "--summary-dir",
+        action="store_true",
+        help="Display summary information fo all profiles in /out "
+    )
+
 
     args = parser.parse_args()
     start_time = time.time()
+    
+    # Handle report parsing
+    if args.parse:
+        if parse_report(args.parse, args.key, args.summary, args.out_path):
+            return
+        else:
+            return
+    
+    if args.summary_dir:
+        pass
 
     if args.token:
         APIUtils.set_token(args.token)

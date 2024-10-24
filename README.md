@@ -20,9 +20,6 @@ Setup the new `venv`, then:
 git clone https://github.com/shortdoom/gh-fake-analyzer.git
 cd gh-fake-analyzer
 pip install -e . # installl_requires only, use requirements.txt for build tools
-
-# alternatively:
-pip install git+https://github.com/shortdoom/gh-fake-analyzer.git
 ```
 
 ### Analyze user
@@ -45,12 +42,12 @@ A `script.log` file is created after the first run in the current working direct
 
 ### Monitor user
 
-The `gh-monitor` is designed to continously monitor the activity of specified Gituhb users. It works as an event watcher. On first run, it will return last past 90 days of events for an account.
+The `--monitor` flag is designed to continously monitor the activity of specified Gituhb users. It works as an event watcher. On first run, it will return last past 90 days of events for an account.
 
 ```sh
 
-gh-monitor --username <username> # Monitor single user
-gh-monitor --targets <file> # Monitor multiple usernames
+gh-analyze <username> --monitor # Monitor single user
+gh-analyze --targets <file>  --monitor # Monitor multiple usernames
 
 ```
 
@@ -80,8 +77,29 @@ Inside the `/out` directory, there will be a `<username>` subdirectory for each 
 - `repos` - full repository data for every user repository. (big)
 - `commits` - full commit data for every user repository. (big)
 - `errors` - list of repositories that script failed to retrieve data for (network errors, DMCA..)
+- `recent_events` - list of recent events on the analyzed account (last 90 days).
+- `issues` - list of issues opened by user.
+- `comments` - list of comments to issues made by user.
 
-IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repository owner's emails. This list may include emails of external contributors to the repository or even completely spoofed emails. Copy the email address and search `{username}.json` for it to get the exact commit where e-mail was used. It may be far-detached from the account you're analyzing.
+Script will also download user avatar to the output directory.
+
+Additionally, optional keys in the file, depending on arguments used, can be present:
+
+- `potential_copy` - list of repositories with a first commit date earlier than account creation.
+- `commit_filter` - list of repositories with similar/duplicated commit messages across the Github.
+
+IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repository owner's emails. This list may include emails of external contributors to the repository or even completely spoofed emails. Copy the email address and search `commits` key to get the exact commit where e-mail was used. It may be far-detached from the account you're analyzing.
+
+### Parsing output
+
+It's possible to use CLI for extracting individual key data for any username in the `/out` directory `report.json` files. Parsing supports dot-notation for accessing nested keys, e.g,. `profile_info.location`. 
+
+`--summary` flag will output the basic summary information about the profile based on `report.json` found.
+
+```sh
+gh-analyze --parse <username> --key <output_key>
+gh-analyze --parse <username> --summary
+```
 
 # Malicious Github Accounts
 
