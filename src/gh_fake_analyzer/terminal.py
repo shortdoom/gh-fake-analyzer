@@ -23,7 +23,7 @@ def read_targets(file_path):
         return []
 
 
-def process_target(username, commit_search=False, only_profile=False, out_path=None):
+def process_target(username, commit_search=None, only_profile=False, out_path=None):
     try:
         analyzer = GitHubProfileAnalyzer(username, out_path=out_path)
 
@@ -34,20 +34,29 @@ def process_target(username, commit_search=False, only_profile=False, out_path=N
             return
 
         if commit_search:
-            logging.info(f"Searching for copied commits in {username}'s repos...")
+            logging.info(
+                f"Searching for copied commits {'in ' + commit_search if isinstance(commit_search, str) else 'across all repos'}..."
+            )
+
             if analyzer.data:
                 logging.info(f"Profile data exists. Running filter commit search.")
-                analyzer.filter_commit_search()
+                analyzer.filter_commit_search(
+                    repo_name=commit_search if isinstance(commit_search, str) else None
+                )
+                return
             else:
                 logging.info(
                     f"Profile data not found. Running analysis before commit search."
                 )
                 analyzer.run_analysis()
                 logging.info(f"Analysis done. Running filter commit search.")
-                analyzer.filter_commit_search()
+                analyzer.filter_commit_search(
+                    repo_name=commit_search if isinstance(commit_search, str) else None
+                )
                 logging.info(f"Generating report for {username}...")
                 analyzer.generate_report()
                 logging.info(f"Processing completed for {username}")
+                return
         else:
             logging.info(f"Starting full analysis for {username}...")
             analyzer.run_analysis()
@@ -56,6 +65,8 @@ def process_target(username, commit_search=False, only_profile=False, out_path=N
             analyzer.generate_report()
 
             logging.info(f"Processing completed for {username}")
+            return
+
     except Exception as e:
         logging.error(f"Error processing target {username}: {e}")
 
@@ -88,8 +99,10 @@ def terminal():
     )
     parser.add_argument(
         "--commit_search",
-        action="store_true",
-        help="Query GitHub API search for similar commits",
+        nargs="?",
+        const=True,
+        metavar="REPO_NAME",
+        help="Query GitHub API search for similar commits. Optionally specify a repository name to analyze only that repository.",
     )
     parser.add_argument(
         "--token", help="Optional GitHub API token overriding set env variable"
@@ -119,9 +132,9 @@ def terminal():
     parser.add_argument(
         "--logoff",
         action="store_true",
-        help="Disable logging to script.log. Off by default."
+        help="Disable logging to script.log. Off by default.",
     )
-    
+
     args = parser.parse_args()
     start_time = time.time()
 
@@ -131,7 +144,6 @@ def terminal():
     else:
         setup_logging("script.log")
 
-    
     if args.parse:
         if parse_report(args.parse, args.key, args.summary, args.out_path):
             return
@@ -142,9 +154,13 @@ def terminal():
         APIUtils.set_token(args.token)
     elif os.getenv("GH_TOKEN"):
         APIUtils.set_token(os.getenv("GH_TOKEN"))
-        logging.info(f"{Colors.GREEN}Using Github Token, higher rate limits apply{Colors.RESET}")
+        logging.info(
+            f"{Colors.GREEN}Using Github Token, higher rate limits apply{Colors.RESET}"
+        )
     else:
-        logging.warning(f"{Colors.RED}No GitHub token provided. Rate limits may apply.{Colors.RESET}")
+        logging.warning(
+            f"{Colors.RED}No GitHub token provided. Rate limits may apply.{Colors.RESET}"
+        )
 
     if args.monitor:
         monitor = GitHubMonitor(APIUtils)
@@ -183,7 +199,9 @@ def terminal():
 
     if not args.username and not args.targets:
         logging.error(f"{Colors.RED}No targets specified. Exiting.{Colors.RESET}")
-        logging.info("No targets specified. Please provide a valid username or targets file.")
+        logging.info(
+            "No targets specified. Please provide a valid username or targets file."
+        )
         logging.info("Print help with -h or --help.")
 
     end_time = time.time()

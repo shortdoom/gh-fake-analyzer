@@ -1,5 +1,5 @@
 import logging
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 from dateutil import parser
 import requests
 from .fetch import GithubFetchManager
@@ -45,30 +45,44 @@ class GitHubDataFilter:
         
     def filter_commits_by_similarity(
         self, 
-        commits_data: Dict[str, List[Dict]]
+        commits_data: Dict[str, List[Dict]],
+        repo_name: Optional[str] = None
     ) -> List[Dict]:
         """
         Filter repository commits by searching for similar (copied) commit messages across GitHub.
         
         Args:
             commits_data: Dictionary of repository commits
+            repo_name: Optional repository name to filter only specific repository
             
         Returns:
             List of commits with matching messages in other repositories
         """
         commit_filter = []
         
-        for repo_name, commits in commits_data.items():
-            if commits:
-                filtered_commits = self._process_repo_commits(repo_name, commits)
+        if repo_name:
+            if repo_name in commits_data:
+                filtered_commits = self._process_repo_commits(repo_name, commits_data[repo_name])
                 commit_filter.extend(filtered_commits)
             else:
                 commit_filter.append({
                     "target_repo": repo_name,
-                    "target_commit": "No commits found",
+                    "target_commit": "Repository not found",
                     "search_results": 0,
                     "matching_repos": [],
                 })
+        else:
+            for repo_name, commits in commits_data.items():
+                if commits:
+                    filtered_commits = self._process_repo_commits(repo_name, commits)
+                    commit_filter.extend(filtered_commits)
+                else:
+                    commit_filter.append({
+                        "target_repo": repo_name,
+                        "target_commit": "No commits found",
+                        "search_results": 0,
+                        "matching_repos": [],
+                    })
                 
         return commit_filter
     
@@ -98,7 +112,7 @@ class GitHubDataFilter:
                         f"{commit_message[:100]}..."
                     )
             else:
-                logging.info(f"Not valid commit {commit_message}")
+                logging.info(f"Too popular commit to search, skipping message: {commit_message}")
                     
         return filtered_commits
     

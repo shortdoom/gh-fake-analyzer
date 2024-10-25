@@ -30,7 +30,7 @@ The `gh-analyze` is designed to download full github profile data of the specifi
 gh-analyze <username> # analyze a single user
 gh-analyze <username> --out_path /path/to/dir # save to different than /out dir
 gh-analyze --targets <path> # custom_file.txt to read from as "targets"
-gh-analyze <username> --commit_search # search github for commit messages (slow, experimental)
+gh-analyze <username> --commit_search <repo_name> # without <repo_name> it will search all commits
 gh-analyze <username> --token <token> # provide GH_TOKEN to use for this run
 ```
 
@@ -61,7 +61,7 @@ Activity is logged to both `monitoring.log` file and terminal. It captures vario
 
 Inside the `/out` directory, there will be a `<username>` subdirectory for each account scanned.
 
-`report.json`, is the output file, see the [report_example.json](/profiles/INVESTIGATIONS/report_example.json) to get a short overview of all keys and potential values in the report.
+`report.json`, is the output file, see the [report_example.json](/profiles/report_example.json) to get a short overview of all keys and potential values in the report. 
 
 - `profile_info` - basic github user profile data (login, name, location, bio, etc.).
 - `original_repos_count` and `forked_repos_count` - counted repositories.
@@ -86,7 +86,7 @@ Script will also download user avatar to the output directory.
 Additionally, optional keys in the file, depending on arguments used, can be present:
 
 - `potential_copy` - list of repositories with a first commit date earlier than account creation.
-- `commit_filter` - list of repositories with similar/duplicated commit messages across the Github.
+- `commit_filter` - list of repositories with similar/duplicated commit messages across the Github. use `--commit_search` flag to generate a list.
 
 IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repository owner's emails. This list may include emails of external contributors to the repository or even completely spoofed emails. Copy the email address and search `commits` key to get the exact commit where e-mail was used. It may be far-detached from the account you're analyzing.
 
@@ -115,10 +115,21 @@ See [INVESTIGATIONS](/profiles/INVESTIGATIONS/) for some high-confidence account
 It's possible, to a certain degree, to define some metrics for classifying GitHub profiles as potentially malicious. However, motivated enough attackers can still bypass most of those checks and appear as professional engineers. If that's the case, a company should fall back to regular methods of judging a potential employee/contact. The following script can help out with finding some dark patterns if the attacker is not motivated enough :)
 
 1. Does any (not forked) repository or commit predate the account creation date? If yes - suspicious.
-2. Does any (not forked) repository have more contributors than the owner? If yes - check contributors; it can be suspicious on small accounts.
-3. How many unique emails do you find in commit messages? If many - suspicious; account used on many different PCs with many different credentials.
-4. Does any commit message appear copied from another repository? If yes - suspicious; owner probably copied the original repository and edited .git history.
-5. While getting "all repositories" for an onwer account, do some repositories return an error with DMCA takedown? If yes, suspicious.
+    - inspect the repository and search on github for similar, it's a potential copy of other repository
+    - non-malicious cases are: rebasing, transfering .git repo between the accounts etc.
+2. Does any (not forked) repository have more contributors than the owner? If yes - check contributors;
+    - is contributor profile suspicious?
+    - are contributor contributions meaningful or low-effort all across?
+3. How many unique emails do you find in commit messages?
+    - non-malicious for fully legitimate accounts
+    - can be malicious if you recognize a pattern of:
+        - trying to hide the identity, changing the identity often, using address/name attached to different person
+4. Does any commit message appear copied from another repository? 
+    - you need to run `--commit_filter` and inspect `matching_repos` number, look for *unique* commit messages
+    - merge commit messages, if copied, often preserve the original owner's nickname
+5. While getting "all repositories" for an onwer account, do some repositories return an error with DMCA takedown?
+    - non-malicious for fully legitimate accounts
+    - DMCA takedowns, deleted repositories and empty repositories, if existing together on the account, may suggest some automation software usage
 
 Great list of flags by ZachXBT: https://x.com/zachxbt/status/1824047480121729425
 
@@ -140,11 +151,9 @@ Heuristics here is only informational. There can be a lot of edge cases, false p
 
 ### Features of regular accounts
 
-For Regular accounts I've ran the analysis on my own profile
-
 1. No commits before the account creation date
 2. Contributors (to the owner's repositories) are none/small amount and if there are any, the contributor profile itself is not suspicious
-3. Very little unique mails in commit messages, one machine/account used
+3. Little amount of unique mails in commit messages, no often identity changes
 4. No commit messages copied
 5. No DMCA takedowns
 

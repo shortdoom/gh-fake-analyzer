@@ -115,98 +115,100 @@ POPULAR_COMMIT_MESSAGES = [
     # Top results from investigations
     "MIT LICENSE",
     "README.md",
-    "Update README.md"
-    "Initial commit"
-    "fake commit"
-    "Add files via upload"
-    "update"
-    "Create README.md"
-    "first commit"
-    "🔁 Update README"
-    "- update README.md"
-    "initial commit"
-    "Update readme.md"
-    "Update index.html"
-    "Update changelog"
-    "- add README.md"
-    "commit"
-    "update readme"
-    "Refactor"
-    "fix"
-    "Update"
-    "- update .github/workflows/build.yml"
-    "- update .github/workflows/build-mingw.yml"
-    "Update README."
-    "."
-    "init"
-    "Updates"
-    "..."
-    "Initialize project using Create React App"
-    "➕ Add Image 🖼"
-    "🔁 Edit HTML"
-    "Update github-metrics.svg - [Skip GitHub Action]"
-    "- upload files"
-    "update changelog"
-    "updated"
-    "updated readme"
-    "Regenerate build artifacts."
-    "design"
-    "Create LICENSE"
-    "🔄 Update README"
-    "cleanup"
-    "- update .github/workflows/push.yml"
-    "Update style.css"
-    "create file"
-    "Merge branch 'master' into master"
-    "readme"
-    "Update readme"
-    "- add .github/workflows/build.yml"
-    "test"
-    "- init"
-    "Initial commit from Create Next App"
-    "🔁 Refactoring"
-    "Update package.json"
-    "Merge remote-tracking branch 'origin/master'"
-    "Update schema"
-    "Update README"
-    "add dist"
-    "- update index.html"
-    "Update tools"
-    "fix typo"
-    "Initial Commit"
-    "changes"
-    "Update generated files"
-    "プロジェクト ファイルを追加します。"
-    "Update diagrams.xml"
-    "fixes"
-    "Update version"
-    "Fix typo"
-    "version bump"
-    "Fix linters"
-    "Merge branch 'main' into main"
-    "- update Dockerfile"
-    "wip"
-    "Update Readme.md"
-    "README.md"
-    "changed"
-    "Updated README"
-    "⬆️ Init"
-    "lint"
-    "Fix tests"
-    "init, working"
-    "Commit"
-    "changed the code"
-    "update README"
-    "Update .gitignore"
-    "bug fixes"
-    "fix tests"
-    "modified"
-    "Update dependencies"
-    "sync"
-    "Update anime.md"
-    "Update requirements.txt"
-    "initial"
-    "final"
+    "README...",
+    "Upload",
+    "Update README.md",
+    "Initial commit",
+    "fake commit",
+    "Add files via upload",
+    "update",
+    "Create README.md",
+    "first commit",
+    "🔁 Update README",
+    "- update README.md",
+    "initial commit",
+    "Update readme.md",
+    "Update index.html",
+    "Update changelog",
+    "- add README.md",
+    "commit",
+    "update readme",
+    "Refactor",
+    "fix",
+    "Update",
+    "- update .github/workflows/build.yml",
+    "- update .github/workflows/build-mingw.yml",
+    "Update README.",
+    ".",
+    "init",
+    "Updates",
+    "...",
+    "Initialize project using Create React App",
+    "➕ Add Image 🖼",
+    "🔁 Edit HTML",
+    "Update github-metrics.svg - [Skip GitHub Action]",
+    "- upload files",
+    "update changelog",
+    "updated",
+    "updated readme",
+    "Regenerate build artifacts.",
+    "design",
+    "Create LICENSE",
+    "🔄 Update README",
+    "cleanup",
+    "- update .github/workflows/push.yml",
+    "Update style.css",
+    "create file",
+    "Merge branch 'master' into master",
+    "readme",
+    "Update readme",
+    "- add .github/workflows/build.yml",
+    "test",
+    "- init",
+    "Initial commit from Create Next App",
+    "🔁 Refactoring",
+    "Update package.json",
+    "Merge remote-tracking branch 'origin/master'",
+    "Update schema",
+    "Update README",
+    "add dist",
+    "- update index.html",
+    "Update tools",
+    "fix typo",
+    "Initial Commit",
+    "changes",
+    "Update generated files",
+    "プロジェクト ファイルを追加します。",
+    "Update diagrams.xml",
+    "fixes",
+    "Update version",
+    "Fix typo",
+    "version bump",
+    "Fix linters",
+    "Merge branch 'main' into main",
+    "- update Dockerfile",
+    "wip",
+    "Update Readme.md",
+    "README.md",
+    "changed",
+    "Updated README",
+    "⬆️ Init",
+    "lint",
+    "Fix tests",
+    "init, working",
+    "Commit",
+    "changed the code",
+    "update README",
+    "Update .gitignore",
+    "bug fixes",
+    "fix tests",
+    "modified",
+    "Update dependencies",
+    "sync",
+    "Update anime.md",
+    "Update requirements.txt",
+    "initial",
+    "final",
 ]
 
 # Clutter to remove from profile data
