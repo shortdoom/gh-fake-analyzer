@@ -138,13 +138,32 @@ class GitHubProfileAnalyzer:
             self.data["commits"], self.data["profile_data"]["created_at"]
         )
 
-    def filter_commit_search(self):
-        """Filter commits based on message similarity search."""
+    def filter_commit_search(self, repo_name=None):
+        """
+        Filter commits based on message similarity search.
+        Extends existing commit_filter data with new results.
+        
+        Args:
+            repo_name (str, optional): If provided, only search commits from this repository
+        """
         try:
-            self.data["commit_filter"] = self.data_filter.filter_commits_by_similarity(
-                self.data["commits"]
+
+            if "commit_filter" not in self.data:
+                self.data["commit_filter"] = []
+            
+            new_results = self.data_filter.filter_commits_by_similarity(
+                self.data["commits"], repo_name=repo_name
             )
+            
+            if repo_name:
+                self.data["commit_filter"] = [
+                    result for result in self.data["commit_filter"]
+                    if result["target_repo"] != repo_name
+                ]
+            
+            self.data["commit_filter"].extend(new_results)
             self.data_manager.save_output(self.data)
+            
         except Exception as e:
             logging.error(f"Error in filter_commit_search: {e}")
 

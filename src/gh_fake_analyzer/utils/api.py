@@ -2,6 +2,7 @@ import logging
 import requests
 import time
 
+
 class APIUtils:
     GITHUB_API_URL = "https://api.github.com"
     BASE_GITHUB_URL = "https://github.com/"
@@ -15,7 +16,6 @@ class APIUtils:
         if token:
             cls.HEADERS["Authorization"] = f"token {token}"
 
-
     @classmethod
     def github_api_request(cls, url, params=None, etag=None):
         headers = cls.HEADERS.copy()
@@ -28,6 +28,7 @@ class APIUtils:
                 response = requests.get(url, headers=cls.HEADERS, params=params)
                 logging.info(f"Request URL: {response.url}")
 
+                # First check response status
                 if response.status_code == 304:
                     return None, response.headers
                 elif response.status_code == 200:
@@ -36,86 +37,60 @@ class APIUtils:
                     logging.error("Authentication required. Add GitHub token.")
                     exit(1)
                 elif response.status_code in [403, 429]:
-                    if retry_count > 0:
-                        logging.info(
-                            f"Retry attempt {retry_count + 1}/{cls.RETRY_LIMIT} "
-                            f"for rate limit"
-                        )
-                    cls._handle_rate_limit(response, retry_count)
                     retry_count += 1
+                    if retry_count > 1:
+                        logging.info(f"Retry attempt {retry_count}/{cls.RETRY_LIMIT}")
+
+                    wait_time = cls._handle_rate_limit(response.headers, retry_count)
+                    time.sleep(wait_time)
                     continue
                 else:
-                    logging.error(
-                        f"Request failed with status {response.status_code}"
-                    )
+                    logging.error(f"Request failed with status {response.status_code}")
                     return None, None
-                    
+
             except requests.exceptions.RequestException as e:
                 logging.error(f"Request error: {e}")
                 return None, None
 
-        logging.error(
-            f"Exceeded retry limit ({cls.RETRY_LIMIT}) for URL: {url}"
-        )
+        logging.error(f"Exceeded retry limit ({cls.RETRY_LIMIT}) for URL: {url}")
         return None, None
 
     @classmethod
-    def _handle_rate_limit(cls, response, retry_count):
+    def _handle_rate_limit(cls, headers, retry_count):
         """
         Handle GitHub API rate limiting with proper timestamp handling.
-        
+
         Args:
             response: The response from GitHub API
             retry_count: Number of retries attempted
         """
+        # Check for secondary rate limit first
+        if "Retry-After" in headers:
+            wait_time = int(headers["Retry-After"])
+            logging.warning(f"Secondary rate limit hit. Waiting {wait_time} seconds")
+            return wait_time
+
+        # Check for primary rate limit
         try:
-            if "X-RateLimit-Remaining" in response.headers:
-                remaining = int(response.headers.get("X-RateLimit-Remaining", "0"))
-                reset_timestamp = int(response.headers.get("X-RateLimit-Reset", "0"))
-                current_timestamp = int(time.time())
-                
-                if remaining == 0 and reset_timestamp > current_timestamp:
-                    sleep_time = reset_timestamp - current_timestamp
-                    reset_time_str = time.strftime(
-                        '%Y-%m-%d %H:%M:%S', 
-                        time.localtime(reset_timestamp)
-                    )
-                    
-                    logging.warning(
-                        f"Primary rate limit exceeded. Waiting {sleep_time} seconds "
-                        f"until {reset_time_str}"
-                    )
-                    
-                    if sleep_time > 0:
-                        time.sleep(sleep_time + 1)  # Add 1 second buffer
-                    return
-                    
-            if "Retry-After" in response.headers:
-                sleep_time = int(response.headers["Retry-After"])
+            if (
+                headers.get("X-RateLimit-Remaining") == "0"
+                and "X-RateLimit-Reset" in headers
+            ):
+                reset_time = int(headers["X-RateLimit-Reset"])
+                current_time = int(time.time())
+                wait_time = max(1, reset_time - current_time)
                 logging.warning(
-                    f"Secondary rate limit exceeded. Waiting {sleep_time} seconds "
-                    f"as specified by GitHub."
+                    f"Rate limit exceeded. Waiting {wait_time} seconds until reset"
                 )
-                time.sleep(sleep_time)
-                return
-                
-            # Exponential backoff as fallback
-            sleep_time = min(int(pow(2, retry_count)), 60)
-            logging.warning(
-                f"Rate limit encountered (attempt {retry_count + 1}/{cls.RETRY_LIMIT}). "
-                f"Waiting {sleep_time} seconds."
-            )
-            time.sleep(sleep_time)
-            
-        except (ValueError, KeyError, TypeError) as e:
-            # Fallback to exponential backoff if header parsing fails
-            sleep_time = min(int(pow(2, retry_count)), 60)
-            logging.warning(
-                f"Error parsing rate limit headers ({str(e)}). "
-                f"Using exponential backoff: {sleep_time} seconds"
-            )
-            time.sleep(sleep_time)
-    
+                return wait_time
+        except (ValueError, KeyError) as e:
+            logging.debug(f"Error parsing rate limit headers: {e}")
+
+        # Fallback to exponential backoff
+        # /search has separate rate limit without enforcing it in the header
+        logging.warning("Alternative endpoint rate limit. Waiting 30 seconds before retry.")
+        return 30
+
     @classmethod
     def fetch_all_pages(cls, url, params=None, limit=None):
         results = []
