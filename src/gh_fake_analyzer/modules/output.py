@@ -67,12 +67,16 @@ def print_summary(data):
     print(
         f"{Colors.BLUE}Mutual Following:{Colors.RESET} {len(data['mutual_followers'])}"
     )
-    print(f"{Colors.BLUE}Repositories:{Colors.RESET} {len(data['repo_list'])}")
+    print(f"{Colors.BLUE}Repositories:{Colors.RESET} {data['original_repos_count']}")
+    
     print(
-        f"{Colors.BLUE}Forked Repositories:{Colors.RESET} {len(data['forked_repo_list'])}"
+        f"{Colors.BLUE}Forked Repositories:{Colors.RESET} {data['forked_repos_count']}"
     )
+    print(f"{Colors.BLUE}Pull Requests:{Colors.RESET} {len(data['pull_requests_to_other_repos'])}")
     print(f"{Colors.BLUE}Unique Emails:{Colors.RESET} {len(data['unique_emails'])}")
-
+    print(f"{Colors.BLUE}Issues Opened:{Colors.RESET} {len(data['issues'])}")
+    print(f"{Colors.BLUE}Comments Made:{Colors.RESET} {len(data['comments'])}")
+    
     if "potential_copy" in data and data["potential_copy"]:
         print(
             f"\n{Colors.RED}WARNING: Profile contains potentially copied repository{Colors.RESET}"

@@ -28,11 +28,13 @@ The `gh-analyze` is designed to download full github profile data of the specifi
 
 ```sh
 gh-analyze <username> # analyze a single user
-gh-analyze <username> --out_path /path/to/dir # save to different than /out dir
 gh-analyze --targets <path> # custom_file.txt to read from as "targets"
+gh-analyze <username> --out_path /path/to/dir # save to different than /out dir
 gh-analyze <username> --commit_search <repo_name> # without <repo_name> it will search all commits
 gh-analyze <username> --token <token> # provide GH_TOKEN to use for this run
 ```
+
+Run `gh-analyze --help` for a full description of arguments. Most of arguments can be chained together.
 
 A `script.log` file is created after the first run in the current working directory of the pacakge. All profile data is downloaded to `out` directory within the current working directory.
 
@@ -103,6 +105,8 @@ gh-analyze --parse <username> --summary
 # a useful method for quick-dumping specific data
 gh-analyze --parse <username> --key unique_emails >> dump.txt
 ```
+
+Intented usage of `gh-analyze` tool it to quickly build a dataset with accessible schema of github profiles you are targeting for the investigation. You should provide your own analysis on top off it.
 
 # Malicious Github Accounts
 
