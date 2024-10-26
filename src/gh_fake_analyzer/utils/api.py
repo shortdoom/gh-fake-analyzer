@@ -41,7 +41,7 @@ class APIUtils:
                     if retry_count > 1:
                         logging.info(f"Retry attempt {retry_count}/{cls.RETRY_LIMIT}")
 
-                    wait_time = cls._handle_rate_limit(response.headers, retry_count)
+                    wait_time = cls._handle_rate_limit(response.headers)
                     time.sleep(wait_time)
                     continue
                 else:
@@ -56,7 +56,7 @@ class APIUtils:
         return None, None
 
     @classmethod
-    def _handle_rate_limit(cls, headers, retry_count):
+    def _handle_rate_limit(cls, headers):
         """
         Handle GitHub API rate limiting with proper timestamp handling.
 
