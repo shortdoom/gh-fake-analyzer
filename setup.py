@@ -1,39 +1,51 @@
 from setuptools import setup, find_packages
 from setuptools.command.install import install
+from setuptools.command.develop import develop
 import os
 from shutil import copyfile
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+def copy_config():
+    default_config = os.path.join(
+        os.path.dirname(__file__), "src", "gh_fake_analyzer", "config.ini"
+    )
+    user_config = os.path.expanduser("~/.gh_fake_analyzer_config.ini")
+    if not os.path.exists(user_config):
+        copyfile(default_config, user_config)
+        print(f"Created default configuration file at {user_config}")
 
 class PostInstallCommand(install):
     def run(self):
         install.run(self)
-        # Copy config.ini to the user's home directory
-        default_config = os.path.join(
-            os.path.dirname(__file__), "src", "gh_fake_analyzer", "config.ini"
-        )
-        user_config = os.path.expanduser("~/.gh_fake_analyzer_config.ini")
-        if not os.path.exists(user_config):
-            copyfile(default_config, user_config)
-            print(f"Created default configuration file at {user_config}")
+        copy_config()
 
+class PostDevelopCommand(develop):
+    def run(self):
+        develop.run(self)
+        copy_config()
 
 setup(
     name="gh-fake-analyzer",
-    version="0.1.0",
+    version="0.1.7",
     author="blackbigswan",
-    author_email="dprk@helpline.com",
-    description="A tool to analyze and monitor GitHub profiles",
+    author_email="blackbigswan@gmail.com",
+    description="An OSINT utility for downloading, analyzing and detecting potential suspicious activity patterns in GitHub profiles",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/shortdoom/gh-fake-analyzer",
     package_dir={"": "src"},
-    packages=find_packages(where="src"),
+    packages=find_packages(where="src", include=["gh_fake_analyzer*"]),
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "Intended Audience :: Developers",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: System Administrators",
+        "Topic :: Security",
+        "Topic :: Internet :: WWW/HTTP",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Utilities",
+        "Environment :: Console",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
@@ -43,22 +55,23 @@ setup(
     ],
     python_requires=">=3.7",
     install_requires=[
-        "requests",
-        "python-dotenv",
-        "python-dateutil",
-        "gitpython",
+        "requests==2.32.3",
+        "python-dotenv==1.0.1",
+        "python-dateutil==2.9.0.post0",
+        "GitPython==3.1.43",
+        "urllib3==2.2.2",
     ],
     entry_points={
         "console_scripts": [
-            "gh-analyze=gh_fake_analyzer.analyze:run_analyzer",
-            "gh-monitor=gh_fake_analyzer.monitor:run_monitor",
+            "gh-analyze=gh_fake_analyzer.terminal:start_terminal",
         ],
     },
     include_package_data=True,
     package_data={
-        "gh_fake_analyzer": ["config.ini"],
+        "gh_fake_analyzer": ["config.ini", "modules/*", "utils/*"],
     },
     cmdclass={
         "install": PostInstallCommand,
+        "develop": PostDevelopCommand,
     },
 )
