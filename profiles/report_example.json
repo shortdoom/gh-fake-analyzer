@@ -1,343 +1,488 @@
 {
-    "profile_info": {
+  "profile_info": {
+    "login": "light-fury",
+    "id": 29999749,
+    "node_id": "MDQ6VXNlcjI5OTk5NzQ5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/29999749?v=4",
+    "html_url": "https://github.com/light-fury",
+    "type": "User",
+    "site_admin": false,
+    "name": "Light Fury",
+    "company": null,
+    "blog": "",
+    "location": null,
+    "email": "leech.developer@gmail.com",
+    "hireable": true,
+    "bio": "Senior Smart Contract Engineer | Solidity | DeFi | Stable Coin | DApps | EVM | NFTs | Blockchain",
+    "twitter_username": null,
+    "public_repos": 57,
+    "public_gists": 3,
+    "followers": 34,
+    "following": 8,
+    "created_at": "2017-07-08T10:28:51Z",
+    "updated_at": "2024-07-01T15:48:42Z"
+  },
+  "original_repos_count": 37,
+  "forked_repos_count": 20,
+  "unique_emails": [
+    {
+      "email": "leech.developer@gmail.com",
+      "name": "Light Fury"
+    },
+    {
+      "email": "kwon_jason@yahoo.com",
+      "name": "jason"
+    }
+  ],
+  "mutual_followers": ["junguler"],
+  "following": ["mikegarite", "hoanganhbk94", "SingularTnT"],
+  "followers": ["miohtama", "ramijames", "desinabl"],
+  "repo_list": [
+    "absin-backend",
+    "absin-frontend",
+    "absin-points-sdk",
+    "balance"
+  ],
+  "forked_repo_list": [
+    "aqua-interface",
+    "awesome-cosmwasm",
+    "backend",
+    "coding-test-frontend-login-sign"
+  ],
+  "contributors": [
+    {
+      "repo": "absin-backend",
+      "contributors": ["light-fury"]
+    },
+    {
+      "repo": "absin-frontend",
+      "contributors": ["light-fury"]
+    }
+  ],
+  "pull_requests_to_other_repos": [
+    {
+      "repo": "reserve-protocol/register",
+      "pull_requests": ["https://github.com/reserve-protocol/register/pull/166"]
+    },
+    {
+      "repo": "snapshot-labs/snapshot.js",
+      "pull_requests": [
+        "https://github.com/snapshot-labs/snapshot.js/pull/873",
+        "https://github.com/snapshot-labs/snapshot.js/pull/816"
+      ]
+    }
+  ],
+  "commits_to_other_repos": [
+    {
+      "repo": "Fantom-foundation/Fantom-FMint",
+      "commits": [
+        "2615ed6a38843d37d471412a47ad8a536c28b634",
+        "a77d6c1d765932b69f56780f72d0257448bdbe0c"
+      ]
+    },
+    {
+      "repo": "byteball/obyte-gui-wallet",
+      "commits": ["f521c4f406339162290d9d07c35ef0bbe5214820"]
+    }
+  ],
+  "repos": [
+    {
+      "id": 810890062,
+      "node_id": "R_kgDOMFUzTg",
+      "name": "absin-backend",
+      "full_name": "light-fury/absin-backend",
+      "private": false,
+      "owner": {
         "login": "light-fury",
         "id": 29999749,
         "node_id": "MDQ6VXNlcjI5OTk5NzQ5",
         "avatar_url": "https://avatars.githubusercontent.com/u/29999749?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/light-fury",
         "html_url": "https://github.com/light-fury",
         "type": "User",
-        "site_admin": false,
-        "name": "Light Fury",
-        "company": null,
-        "blog": "",
-        "location": null,
-        "email": "leech.developer@gmail.com",
-        "hireable": true,
-        "bio": "Senior Smart Contract Engineer | Solidity | DeFi | Stable Coin | DApps | EVM | NFTs | Blockchain",
-        "twitter_username": null,
-        "public_repos": 57,
-        "public_gists": 3,
-        "followers": 34,
-        "following": 8,
-        "created_at": "2017-07-08T10:28:51Z",
-        "updated_at": "2024-07-01T15:48:42Z"
+        "site_admin": false
+      },
+      "html_url": "https://github.com/light-fury/absin-backend",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/light-fury/absin-backend",
+      "created_at": "2024-06-05T14:41:13Z",
+      "updated_at": "2024-06-05T15:25:12Z",
+      "pushed_at": "2024-06-05T15:25:08Z",
+      "homepage": "https://absin-backend.vercel.app",
+      "size": 114,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      }
     },
-    "original_repos_count": 37,
-    "forked_repos_count": 20,
-    "unique_emails": [
-        {
+    {
+      "id": 810911978,
+      "node_id": "R_kgDOMFWI6g",
+      "name": "absin-frontend",
+      "full_name": "light-fury/absin-frontend",
+      "private": false,
+      "owner": {
+        "login": "light-fury",
+        "id": 29999749,
+        "node_id": "MDQ6VXNlcjI5OTk5NzQ5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/29999749?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/light-fury",
+        "html_url": "https://github.com/light-fury",
+        "type": "User",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/light-fury/absin-frontend",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/light-fury/absin-frontend",
+      "created_at": "2024-06-05T15:28:05Z",
+      "updated_at": "2024-06-05T15:30:14Z",
+      "pushed_at": "2024-06-05T15:29:06Z",
+      "homepage": "https://absin-frontend.vercel.app",
+      "size": 57,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      }
+    },
+    {
+      "id": 810400019,
+      "node_id": "R_kgDOME25Ew",
+      "name": "absin-points-sdk",
+      "full_name": "light-fury/absin-points-sdk",
+      "private": false,
+      "owner": {
+        "login": "light-fury",
+        "id": 29999749,
+        "node_id": "MDQ6VXNlcjI5OTk5NzQ5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/29999749?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/light-fury",
+        "html_url": "https://github.com/light-fury",
+        "type": "User",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/light-fury/absin-points-sdk",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/light-fury/absin-points-sdk",
+      "created_at": "2024-06-04T16:09:32Z",
+      "updated_at": "2024-06-05T15:33:05Z",
+      "pushed_at": "2024-06-05T15:33:02Z",
+      "homepage": null,
+      "size": 38,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": true
+      }
+    }
+  ],
+  "commits": {
+    "absin-backend": [
+      {
+        "sha": "360216c8546204f0f8116e4bb040a66e74389659",
+        "commit": {
+          "author": {
+            "name": "Light Fury",
             "email": "leech.developer@gmail.com",
-            "name": "Light Fury"
-        },
-        {
-            "email": "kwon_jason@yahoo.com",
-            "name": "jason"
+            "date": "2024-06-05T09:24:58-06:00"
+          },
+          "committer": {
+            "name": "Light Fury",
+            "email": "leech.developer@gmail.com",
+            "date": "2024-06-05T09:24:58-06:00"
+          },
+          "message": "fix: update config for deployments\n"
         }
-    ],
-    "mutual_followers": [
-        "junguler"
-    ],
-    "following": [
-        "mikegarite",
-        "hoanganhbk94",
-        "SingularTnT"
-    ],
-    "followers": [
-        "miohtama",
-        "ramijames",
-        "desinabl"
-    ],
-    "repo_list": [
-        "absin-backend",
-        "absin-frontend",
-        "absin-points-sdk",
-        "balance"
-    ],
-    "forked_repo_list": [
-        "aqua-interface",
-        "awesome-cosmwasm",
-        "backend",
-        "coding-test-frontend-login-sign"
-    ],
-    "contributors": [
-        {
-            "repo": "absin-backend",
-            "contributors": [
-                "light-fury"
-            ]
-        },
-        {
-            "repo": "absin-frontend",
-            "contributors": [
-                "light-fury"
-            ]
+      },
+      {
+        "sha": "a2e47486b06a839ca4b0310efc412e1129160c6c",
+        "commit": {
+          "author": {
+            "name": "Light Fury",
+            "email": "leech.developer@gmail.com",
+            "date": "2024-06-05T09:16:28-06:00"
+          },
+          "committer": {
+            "name": "Light Fury",
+            "email": "leech.developer@gmail.com",
+            "date": "2024-06-05T09:16:28-06:00"
+          },
+          "message": "fix: update vercel config\n"
         }
+      }
     ],
-    "pull_requests_to_other_repos": [
-        {
-            "repo": "reserve-protocol/register",
-            "pull_requests": [
-                "https://github.com/reserve-protocol/register/pull/166"
-            ]
-        },
-        {
-            "repo": "snapshot-labs/snapshot.js",
-            "pull_requests": [
-                "https://github.com/snapshot-labs/snapshot.js/pull/873",
-                "https://github.com/snapshot-labs/snapshot.js/pull/816"
-            ]
+    "absin-frontend": [
+      {
+        "sha": "c76dd77ef99f94722ff6b01e7fb1652f95f82f2a",
+        "commit": {
+          "author": {
+            "name": "Light Fury",
+            "email": "leech.developer@gmail.com",
+            "date": "2024-06-05T09:28:53-06:00"
+          },
+          "committer": {
+            "name": "Light Fury",
+            "email": "leech.developer@gmail.com",
+            "date": "2024-06-05T09:28:53-06:00"
+          },
+          "message": "chore: frontend v1\n"
         }
-    ],
-    "commits_to_other_repos": [
-        {
-            "repo": "Fantom-foundation/Fantom-FMint",
-            "commits": [
-                "2615ed6a38843d37d471412a47ad8a536c28b634",
-                "a77d6c1d765932b69f56780f72d0257448bdbe0c"
-            ]
-        },
-        {
-            "repo": "byteball/obyte-gui-wallet",
-            "commits": [
-                "f521c4f406339162290d9d07c35ef0bbe5214820"
-            ]
-        }
-    ],
-    "repos": [
-        {
-            "id": 810890062,
-            "node_id": "R_kgDOMFUzTg",
-            "name": "absin-backend",
-            "full_name": "light-fury/absin-backend",
-            "private": false,
-            "owner": {
-                "login": "light-fury",
-                "id": 29999749,
-                "node_id": "MDQ6VXNlcjI5OTk5NzQ5",
-                "avatar_url": "https://avatars.githubusercontent.com/u/29999749?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/light-fury",
-                "html_url": "https://github.com/light-fury",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/light-fury/absin-backend",
-            "description": null,
-            "fork": false,
-            "url": "https://api.github.com/repos/light-fury/absin-backend",
-            "created_at": "2024-06-05T14:41:13Z",
-            "updated_at": "2024-06-05T15:25:12Z",
-            "pushed_at": "2024-06-05T15:25:08Z",
-            "homepage": "https://absin-backend.vercel.app",
-            "size": 114,
-            "stargazers_count": 0,
-            "watchers_count": 0,
-            "language": "TypeScript",
-            "has_issues": true,
-            "has_projects": true,
-            "has_downloads": true,
-            "has_wiki": true,
-            "has_pages": false,
-            "has_discussions": false,
-            "forks_count": 0,
-            "mirror_url": null,
-            "archived": false,
-            "disabled": false,
-            "open_issues_count": 0,
-            "license": null,
-            "allow_forking": true,
-            "is_template": false,
-            "web_commit_signoff_required": false,
-            "topics": [],
-            "visibility": "public",
-            "forks": 0,
-            "open_issues": 0,
-            "watchers": 0,
-            "default_branch": "master",
-            "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
-                "pull": true
-            }
-        },
-        {
-            "id": 810911978,
-            "node_id": "R_kgDOMFWI6g",
-            "name": "absin-frontend",
-            "full_name": "light-fury/absin-frontend",
-            "private": false,
-            "owner": {
-                "login": "light-fury",
-                "id": 29999749,
-                "node_id": "MDQ6VXNlcjI5OTk5NzQ5",
-                "avatar_url": "https://avatars.githubusercontent.com/u/29999749?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/light-fury",
-                "html_url": "https://github.com/light-fury",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/light-fury/absin-frontend",
-            "description": null,
-            "fork": false,
-            "url": "https://api.github.com/repos/light-fury/absin-frontend",
-            "created_at": "2024-06-05T15:28:05Z",
-            "updated_at": "2024-06-05T15:30:14Z",
-            "pushed_at": "2024-06-05T15:29:06Z",
-            "homepage": "https://absin-frontend.vercel.app",
-            "size": 57,
-            "stargazers_count": 0,
-            "watchers_count": 0,
-            "language": "TypeScript",
-            "has_issues": true,
-            "has_projects": true,
-            "has_downloads": true,
-            "has_wiki": true,
-            "has_pages": false,
-            "has_discussions": false,
-            "forks_count": 0,
-            "mirror_url": null,
-            "archived": false,
-            "disabled": false,
-            "open_issues_count": 0,
-            "license": null,
-            "allow_forking": true,
-            "is_template": false,
-            "web_commit_signoff_required": false,
-            "topics": [],
-            "visibility": "public",
-            "forks": 0,
-            "open_issues": 0,
-            "watchers": 0,
-            "default_branch": "master",
-            "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
-                "pull": true
-            }
-        },
-        {
-            "id": 810400019,
-            "node_id": "R_kgDOME25Ew",
-            "name": "absin-points-sdk",
-            "full_name": "light-fury/absin-points-sdk",
-            "private": false,
-            "owner": {
-                "login": "light-fury",
-                "id": 29999749,
-                "node_id": "MDQ6VXNlcjI5OTk5NzQ5",
-                "avatar_url": "https://avatars.githubusercontent.com/u/29999749?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/light-fury",
-                "html_url": "https://github.com/light-fury",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/light-fury/absin-points-sdk",
-            "description": null,
-            "fork": false,
-            "url": "https://api.github.com/repos/light-fury/absin-points-sdk",
-            "created_at": "2024-06-04T16:09:32Z",
-            "updated_at": "2024-06-05T15:33:05Z",
-            "pushed_at": "2024-06-05T15:33:02Z",
-            "homepage": null,
-            "size": 38,
-            "stargazers_count": 0,
-            "watchers_count": 0,
-            "language": "TypeScript",
-            "has_issues": true,
-            "has_projects": true,
-            "has_downloads": true,
-            "has_wiki": true,
-            "has_pages": false,
-            "has_discussions": false,
-            "forks_count": 0,
-            "mirror_url": null,
-            "archived": false,
-            "disabled": false,
-            "open_issues_count": 0,
-            "license": null,
-            "allow_forking": true,
-            "is_template": false,
-            "web_commit_signoff_required": false,
-            "topics": [],
-            "visibility": "public",
-            "forks": 0,
-            "open_issues": 0,
-            "watchers": 0,
-            "default_branch": "master",
-            "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
-                "pull": true
-            }
-        }
-    ],
-    "commits": {
-        "absin-backend": [
-            {
-                "sha": "360216c8546204f0f8116e4bb040a66e74389659",
-                "commit": {
-                    "author": {
-                        "name": "Light Fury",
-                        "email": "leech.developer@gmail.com",
-                        "date": "2024-06-05T09:24:58-06:00"
-                    },
-                    "committer": {
-                        "name": "Light Fury",
-                        "email": "leech.developer@gmail.com",
-                        "date": "2024-06-05T09:24:58-06:00"
-                    },
-                    "message": "fix: update config for deployments\n"
-                }
-            },
-            {
-                "sha": "a2e47486b06a839ca4b0310efc412e1129160c6c",
-                "commit": {
-                    "author": {
-                        "name": "Light Fury",
-                        "email": "leech.developer@gmail.com",
-                        "date": "2024-06-05T09:16:28-06:00"
-                    },
-                    "committer": {
-                        "name": "Light Fury",
-                        "email": "leech.developer@gmail.com",
-                        "date": "2024-06-05T09:16:28-06:00"
-                    },
-                    "message": "fix: update vercel config\n"
-                }
-            }
-        ],
-        "absin-frontend": [
-            {
-                "sha": "c76dd77ef99f94722ff6b01e7fb1652f95f82f2a",
-                "commit": {
-                    "author": {
-                        "name": "Light Fury",
-                        "email": "leech.developer@gmail.com",
-                        "date": "2024-06-05T09:28:53-06:00"
-                    },
-                    "committer": {
-                        "name": "Light Fury",
-                        "email": "leech.developer@gmail.com",
-                        "date": "2024-06-05T09:28:53-06:00"
-                    },
-                    "message": "chore: frontend v1\n"
-                }
-            }
-        ]
-    },
-    "errors": [
-        {
-            "repo_name": "balance",
-            "clone_url": "https://github.com/light-fury/balance.git",
-            "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/light-fury/balance.git /home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_balance.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_balance.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.\nerror: 1601 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
-        }
+      }
     ]
+  },
+  "errors": [
+    {
+      "repo_name": "balance",
+      "clone_url": "https://github.com/light-fury/balance.git",
+      "reason": "Cmd('git') failed due to: exit code(128)\n  cmdline: git clone -v --bare --depth=100 -- https://github.com/light-fury/balance.git /home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_balance.git\n  stderr: 'Cloning into bare repository '/home/user/Github/PRs/gh-fake-analyzer/out/light-fury/light-fury_balance.git'...\nPOST git-upload-pack (164 bytes)\nPOST git-upload-pack (246 bytes)\nerror: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.\nerror: 1601 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: index-pack failed\n'"
+    }
+  ],
+  "commit_filter": [
+    {
+      "target_repo": "GaimzWeb",
+      "target_commit": "Merge pull request #29 from GaimzInc/DetailedForYou  ",
+      "search_results": 1,
+      "matching_repos": ["light-fury/GaimzWeb"]
+    },
+    {
+      "target_repo": "GaimzWeb",
+      "target_commit": "useParams() and erased comments ",
+      "search_results": 15,
+      "matching_repos": [
+        "light-fury/GaimzWeb",
+        "alkemyTech/OT127-CLIENT",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy",
+        "MattZ-2051/infinite-digital-ui-v1-legacy"
+      ]
+    },
+    {
+      "target_repo": "GaimzWeb",
+      "target_commit": "useParams() ",
+      "search_results": 21787,
+      "matching_repos": [
+        "muhammetakduman/reactDEPP",
+        "rebootedMoon/react-master",
+        "Kosto1221/react-masterclass",
+        "luucasdinoo/dsmovie",
+        "electrixky/router-practice",
+        "Innuska23/react-router-dom",
+        "KacperLudwiczak/Reactivities-React-ASPNET",
+        "Tausifqureshi/React_Revision",
+        "Tausifqureshi/React_Revision",
+        "Tausifqureshi/React_Revision",
+        "crnsingi/spotify-replica",
+        "nijesmik/study-react",
+        "do6roetyro/fake_social_network",
+        "PratikshaCoder01/cinemate",
+        "jungheeYoo/3-ReactJS-Master",
+        "Tausifqureshi/React_Revision",
+        "ediaz13/my-feedback-project",
+        "vybukhivka/react",
+        "vybukhivka/react",
+        "tinatin92/countries-app",
+        "Ryuuutaaa/react-udemy",
+        "SonMinSeock/react-router-dom-v6",
+        "LHanNhat20T2/Movie-App-with-React",
+        "Woolegend/Study",
+        "AngelIpina12/master-react",
+        "priyamkumar/Countries-Project",
+        "JessicaMier/CreaTuLanding-MierJessica",
+        "HyeonjuLee1/movie-box",
+        "numaanalikhan/Movie-Search-Engine",
+        "hasanbakhtiar/sheroes",
+        "divyamaurya/react",
+        "42-NextLevel/frontend",
+        "Cyberplata/microtasks-frontend",
+        "pouria-mobaraki/Blogs",
+        "MARUNGs/react-version",
+        "yoseftutian/learning-React-router",
+        "Mukulanandtiwari/learn-react-by-namaste",
+        "systic2/react-masterclass",
+        "AndreyZaytsev90/IT-INC-Dops",
+        "numaanalikhan/reviseRoute",
+        "mern-trainer/Althaf-Batch",
+        "easyrilwan/worldwise",
+        "AndreyZaytsev90/IT-INC-Dops",
+        "bae080311/TIL",
+        "HussainMBH/ReactJS_Reusabele_Codes",
+        "arbazzkhann/Learn-React.js",
+        "patrickoser/social-app",
+        "Orliland/adopt-me",
+        "sim-88/TR-103-2104193",
+        "MARUNGs/React",
+        "AndreyZaytsev90/IT-INC-Dops",
+        "BeTaJI-JS/googleBooks",
+        "swadhesh-bounteous/furniro",
+        "0xNedAlbo/coinflakes-v2-ui",
+        "ArturLimaiko/sneakerWebApp",
+        "Alexia-May/acebook-watermelon-club",
+        "Timaks/pizza-react",
+        "yyyn012/scssPractice",
+        "yz-choi/07_react",
+        "Souwg/Practice-react-router-Souwg",
+        "mynameistaeyoung/commerce-project",
+        "YuniGK/study",
+        "Juanivene/ejercicio-14-tpReact",
+        "fedepds/ParcialDePruebaDWM",
+        "tunourah/mini-project-react",
+        "Cyberplata/microtasks-frontend",
+        "DoryanAMT/reactservicios",
+        "peterlindre/Aurora_koolitus_GIT",
+        "khj20231204/khj20231204.github.io",
+        "pm-commits/namaste-react",
+        "pm-commits/namaste-react",
+        "basaktepe/react-dersleri",
+        "VienNguyen-Dev/tour-booking-admin",
+        "ArashZrg/e-commerce-project",
+        "ngando-agilityiovn/react-training",
+        "DOF1109/next-course",
+        "cokothon-425/frontend",
+        "MuzafferKocak/React",
+        "janak0ff/WorldWise",
+        "angelolev/curso-react",
+        "ibayrakli/react",
+        "aidencullo/perscholas",
+        "AngelGris76/preactSignalRouter",
+        "aidar2218/react-router-dom",
+        "reywald/code-cafe",
+        "ivorycassiopeia/reactnucampsite",
+        "BlackJr-Git/cheat-sheet",
+        "ngtuonghy/saokemttqvn",
+        "AinarKiison/Kood",
+        "MeinardEdrei/UMAK-Blog",
+        "ben594/align",
+        "mansournadiri/SimpleReactJsProject",
+        "vyshnav0/React-Challenges-Solutions",
+        "JannatulAfrozFaria/mystic-aura-client",
+        "iamkarthik0/dhanda-store",
+        "vahermihkel/front-end-09-2024",
+        "npmkael/react-typescript-journey",
+        "howooking/vetool",
+        "mr-vz/micro_tasks",
+        "serverwind/social-react"
+      ]
+    }
+  ],
+  "recent_events": [],
+  "issues": [
+    {
+      "repo": "buildcore-io/core",
+      "created_at": "2022-05-19T03:20:12Z",
+      "title": "Implement Interfaces of the smart contracts for DAO",
+      "url": "/buildcore-io/core/issues/850",
+      "body": "Add interfaces of the smart contracts for DAO including\n- DAO Registry\n- DAO SC\n- Reputation Station\n- Reputation SC\n- Badge SC",
+      "state": "closed",
+      "number": 850
+    }
+  ],
+  "comments": [
+    {
+      "repo": "buildcore-io/core",
+      "issue_title": "Design spec for initial SC architecture",
+      "issue_number": 753,
+      "issue_url": "/buildcore-io/core/issues/753",
+      "comment_url": "/buildcore-io/core/issues/753#issuecomment-1129041244",
+      "comment_id": 1129041244,
+      "created_at": "2022-05-17T15:53:59Z",
+      "updated_at": "2022-05-17T15:53:59Z",
+      "body": "@adamunchained \r\nHere's the Document for the smart contracts required.\r\nhttps://docs.google.com/document/d/1B5-e47AYqdIRSLXHLd4FFrlTnDKYNj8-mTpW6YjeZug/edit?usp=sharing\r\n"
+    }
+  ],
+  "potential_copy": []
 }
