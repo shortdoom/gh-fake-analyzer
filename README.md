@@ -2,7 +2,7 @@
 
 Download, analyze and monitor profile data of any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
-`gh-analyze` is designed to quickly build a dataset with accessible schema of github profiles you are targeting for the investigation. It is still work in progress.
+`gh-analyze` is designed to quickly build a dataset with accessible schema of GitHub profiles you are targeting for investigation. It is still a work in progress.
 
 ### Install
 
@@ -199,7 +199,7 @@ For Skid accounts - Example: eduales99 and sebastian4098
 4. Copied commit messages from real repository
 5. DMCA takedown on a repository (mirrored real repository)
 
-So called "Farmed accounts". Farms themselves only run those accounts in automatic way, breadcrumbs to follow are everywhere. A further modeling would probably unearth some dark patterns of such clusters. The best bet is to inspect follower/following pattern and quality of repositories. Farmed accounts usually won't host any original code, a lot of tutorial-level code and overcompensate on profile's README page. 
+So-called "Farmed accounts". Farms themselves only run those accounts in an automatic way, breadcrumbs to follow are everywhere. Further modeling would probably unearth some dark patterns of such clusters. The best bet is to inspect follower/following pattern and quality of repositories. Farmed accounts usually won't host any original code, a lot of tutorial-level code and overcompensate on profile's README page.
 
 [eduales99 analysis](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/eduales99/eduales99.json)
 
