@@ -123,6 +123,13 @@ gh-analyze --parse <username> --key unique_emails >> dump.txt
 
 See [INVESTIGATIONS](/profiles/INVESTIGATIONS/) for some high-confidence accounts dumped using `gh-analyze` tool.
 
+Additionally, here's the list of past investigations done with `gh-fake-analyzer`.
+
+[Network of Fake Recruiter and Developer Accounts Linked to Lazarus](https://medium.com/@-Heiner/cc361074bdc2)
+
+[Lazarus patterns discovered with gh-fake-analyzer](https://github.com/BlockOSINT/-threat-research-and-intelligence-/blob/main/Investigations/suspicious-activity-on-github/North-Korea-sponsored-APT/lazarus-group.md)
+
+
 **Disclaimer:**  The confidence in detecting "malicious" GitHub profiles is low. Many regular user accounts may appear in the analysis files; this does not indicate their participation in any illegal activity. ANYBODY can edit the `.git` file, and ANYBODY can commit code to GitHub. This tool is intended for reconnaissance purposes only. The information provided here **may** be incorrect. Please do not make any (baseless) accusations based on this content. All information is sourced from publicly available third-party sources and verified to the best of my ability (only).
 
 It's possible, to a certain degree, to define some metrics for classifying GitHub profiles as potentially malicious. However, motivated enough attackers can still bypass most of those checks and appear as professional engineers. If that's the case, a company should fall back to regular methods of judging a potential employee/contact. The `gh-analyze` can help out with finding some dark patterns if the attacker is not motivated enough :)
@@ -230,12 +237,6 @@ Very hard to distinguish from the regular account, but there are some flags. Ana
 [Light-fury cluster discussion](https://x.com/tayvano_/status/1824257014639497366)
 
 [0xm00neth cluster discussion](https://x.com/blackbigswan/status/1825247425574863176)
-
-# Ivestigations done with help of gh-fake-analyzer
-
-[Network of Fake Recruiter and Developer Accounts Linked to Lazarus](https://medium.com/@-Heiner/cc361074bdc2)
-
-[Lazarus patterns discovered with gh-fake-analyzer](https://github.com/BlockOSINT/-threat-research-and-intelligence-/blob/main/Investigations/suspicious-activity-on-github/North-Korea-sponsored-APT/lazarus-group.md)
 
 ### Dev notes
 
