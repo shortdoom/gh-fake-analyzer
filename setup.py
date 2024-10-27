@@ -36,7 +36,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/shortdoom/gh-fake-analyzer",
     package_dir={"": "src"},
-    packages=find_packages(where="src"),
+    packages=find_packages(where="src", include=["gh_fake_analyzer*"]),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Information Technology",
@@ -55,10 +55,11 @@ setup(
     ],
     python_requires=">=3.7",
     install_requires=[
-        "requests",
-        "python-dotenv",
-        "python-dateutil",
-        "gitpython",
+        "requests==2.32.3",
+        "python-dotenv==1.0.1",
+        "python-dateutil==2.9.0.post0",
+        "GitPython==3.1.43",
+        "urllib3==2.2.2",
     ],
     entry_points={
         "console_scripts": [
@@ -67,7 +68,7 @@ setup(
     },
     include_package_data=True,
     package_data={
-        "gh_fake_analyzer": ["config.ini"],
+        "gh_fake_analyzer": ["config.ini", "modules/*", "utils/*"],
     },
     cmdclass={
         "install": PostInstallCommand,
