@@ -8,21 +8,23 @@ Download, analyze and monitor profile data of any GitHub user or organization. T
 
 Scripts require `git` to be installed on your OS. (`sudo apt install git`)
 
-In `.env`, supply your GitHub API Key (generated in your profile). If you don't, the script will use global API limits (slow).
+```sh
+pip install gh-fake-analyzer
+```
 
-<small><i>Github API tokens have a time-to-live, you'll need to regenerate your token after that time.</i></small>
+You should either create `.env` file in the current working directory with `GH_TOKEN=<your_token>`, run `gh-analyze` with `--token <your_token>` flag or execute `export GH_TOKEN=<your_token>`. If you don't, the script will use global API limits (slow and error-prone).
 
-<small><i>See [Dev Notes](#dev-notes) to only `git clone` package code and not the `/profiles` data.</i></small>
-
-Only the development version is available now. PyPi package is in progress.
-
-Setup the new `venv`, then:
+For development, set the new `venv` and:
 
 ```sh
 git clone https://github.com/shortdoom/gh-fake-analyzer.git
 cd gh-fake-analyzer
 pip install -e . # installl_requires only, use requirements.txt for build tools
 ```
+
+<small><i>Github API tokens have a time-to-live, you'll need to regenerate your token after that time.</i></small>
+
+<small><i>See [Dev Notes](#dev-notes) to only `git clone` package code and not the `/profiles` data.</i></small>
 
 ### Analyze user
 

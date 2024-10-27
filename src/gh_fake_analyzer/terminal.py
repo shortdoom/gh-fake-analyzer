@@ -1,13 +1,12 @@
 import argparse
 import time
-import os
 import logging
 from .modules.output import parse_report
 from .modules.analyze import GitHubProfileAnalyzer
 from .modules.monitor import GitHubMonitor
 from .utils.api import APIUtils
 from .modules.output import Colors
-from .utils.config import setup_logging, get_config_path
+from .utils.config import setup_logging, get_config_path, load_github_token
 
 
 def read_targets(file_path):
@@ -85,7 +84,7 @@ def terminal():
         "--targets",
         nargs="?",
         const="targets",
-        help="File containing a list of GitHub usernames to analyze (defaults to 'targets')",
+        help="File containing a list of GitHub usernames to analyze",
     )
     parser.add_argument(
         "--monitor",
@@ -145,10 +144,7 @@ def terminal():
     else:
         setup_logging("script.log")
         
-    
-    with open(get_config_path(), 'r') as file:
-        logging.info(f"Config: \n{file.read()}")
-    
+        
     if args.parse:
         if parse_report(args.parse, args.key, args.summary, args.out_path):
             return
@@ -157,15 +153,20 @@ def terminal():
 
     if args.token:
         APIUtils.set_token(args.token)
-    elif os.getenv("GH_TOKEN"):
-        APIUtils.set_token(os.getenv("GH_TOKEN"))
         logging.info(
-            f"{Colors.GREEN}Using Github Token, higher rate limits apply{Colors.RESET}"
+            f"{Colors.GREEN}Using Github Token from command line argument{Colors.RESET}"
         )
     else:
-        logging.warning(
-            f"{Colors.RED}No GitHub token provided. Rate limits may apply.{Colors.RESET}"
-        )
+        token = load_github_token()
+        if token:
+            APIUtils.set_token(token)
+            logging.info(
+                f"{Colors.GREEN}Using Github Token from environment{Colors.RESET}"
+            )
+        else:
+            logging.warning(
+                f"{Colors.RED}No GitHub token provided. Rate limits may apply.{Colors.RESET}"
+            )
 
     if args.monitor:
         monitor = GitHubMonitor(APIUtils)
@@ -186,11 +187,17 @@ def terminal():
         return
 
     if args.username:
+        with open(get_config_path(), 'r') as file:
+            logging.info(f"Config: \n{file.read()}")
         logging.info(f"Processing single target: {args.username}")
+        
         process_target(args.username, args.commit_search, out_path=args.out_path)
 
     if args.targets:
         targets_file = args.targets
+        
+        with open(get_config_path(), 'r') as file:
+            logging.info(f"Config: \n{file.read()}")
         logging.info(f"Processing targets from file: {targets_file}")
 
         targets = read_targets(targets_file)

@@ -1,4 +1,7 @@
 include README.md
 include requirements.txt
 include src/gh_fake_analyzer/config.ini
+recursive-include src/gh_fake_analyzer/modules *
+recursive-include src/gh_fake_analyzer/utils *
 recursive-exclude profiles *
+recursive-exclude **/__pycache__ *
