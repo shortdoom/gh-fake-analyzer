@@ -7,7 +7,7 @@ from .modules.analyze import GitHubProfileAnalyzer
 from .modules.monitor import GitHubMonitor
 from .utils.api import APIUtils
 from .modules.output import Colors
-from .utils.config import setup_logging
+from .utils.config import setup_logging, get_config_path
 
 
 def read_targets(file_path):
@@ -137,13 +137,18 @@ def terminal():
 
     args = parser.parse_args()
     start_time = time.time()
+    
 
     if args.logoff:
         print("Logging disabled. You will only see error messages.")
         setup_logging("script.log", True)
     else:
         setup_logging("script.log")
-
+        
+    
+    with open(get_config_path(), 'r') as file:
+        logging.info(f"Config: \n{file.read()}")
+    
     if args.parse:
         if parse_report(args.parse, args.key, args.summary, args.out_path):
             return

@@ -1,31 +1,37 @@
 from setuptools import setup, find_packages
 from setuptools.command.install import install
+from setuptools.command.develop import develop
 import os
 from shutil import copyfile
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+def copy_config():
+    default_config = os.path.join(
+        os.path.dirname(__file__), "src", "gh_fake_analyzer", "config.ini"
+    )
+    user_config = os.path.expanduser("~/.gh_fake_analyzer_config.ini")
+    if not os.path.exists(user_config):
+        copyfile(default_config, user_config)
+        print(f"Created default configuration file at {user_config}")
 
 class PostInstallCommand(install):
     def run(self):
         install.run(self)
-        # Copy config.ini to the user's home directory
-        default_config = os.path.join(
-            os.path.dirname(__file__), "src", "gh_fake_analyzer", "config.ini"
-        )
-        user_config = os.path.expanduser("~/.gh_fake_analyzer_config.ini")
-        if not os.path.exists(user_config):
-            copyfile(default_config, user_config)
-            print(f"Created default configuration file at {user_config}")
+        copy_config()
 
+class PostDevelopCommand(develop):
+    def run(self):
+        develop.run(self)
+        copy_config()
 
 setup(
     name="gh-fake-analyzer",
     version="0.1.7",
     author="blackbigswan",
     author_email="blackbigswan@gmail.com",
-    description="A tool to analyze and monitor GitHub profiles",
+    description="An OSINT utility for downloading, analyzing and detecting potential suspicious activity patterns in GitHub profiles",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/shortdoom/gh-fake-analyzer",
@@ -33,7 +39,13 @@ setup(
     packages=find_packages(where="src"),
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "Intended Audience :: Developers",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: System Administrators",
+        "Topic :: Security",
+        "Topic :: Internet :: WWW/HTTP",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Utilities",
+        "Environment :: Console",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
@@ -59,5 +71,6 @@ setup(
     },
     cmdclass={
         "install": PostInstallCommand,
+        "develop": PostDevelopCommand,
     },
 )
