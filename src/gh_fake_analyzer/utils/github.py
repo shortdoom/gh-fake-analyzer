@@ -77,6 +77,17 @@ class GitCloneManager:
                     
         return commits_data, failed_repos
     
+    def extract_commit_messages(self, commits_data: Dict[str, List[Dict]]) -> Dict[str, List[str]]:
+        """Extract commit messages from commits data."""
+        messages = {}
+        try:
+            for repo, commits in commits_data.items():
+                messages[repo] = [commit["commit"]["message"] for commit in commits]
+        except Exception as e:
+            logging.error(f"Error extracting commit messages: {e}")
+            return {}
+        return messages
+    
     def _fetch_single_repo_commits(self, username: str, repo_name: str, clone_url: str) -> Tuple[List[Dict], Optional[str]]:
         """Clone and fetch commits for a single repository."""
         repo_dir = os.path.join(self.user_dir, f"{username}_{repo_name}.git")
