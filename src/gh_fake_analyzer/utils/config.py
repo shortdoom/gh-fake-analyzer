@@ -2,14 +2,36 @@ import os
 import configparser
 import logging
 
+DEFAULT_CONFIG = {
+    "LIMITS": {
+        "MAX_FOLLOWING": "1000",
+        "MAX_FOLLOWERS": "1000",
+        "MAX_REPOSITORIES": "1000",
+        "CLONE_DEPTH": "100",
+        "CLONE_BARE": "True",
+        "MONITOR_SLEEP": "10",
+        "REMOVE_REPO": "True"
+    }
+}
 
-# Get the path to the configuration file analyzer is using
 def get_config_path():
-    # Default configuration file in the user's home directory
+    """Get the path to the configuration file analyzer is using"""
     user_config = os.path.expanduser("~/.gh_fake_analyzer_config.ini")
-    # Optional local configuration file in the current working directory
     local_config = os.path.join(os.getcwd(), "config.ini")
-    return local_config if os.path.exists(local_config) else user_config
+    package_config = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config.ini")
+    
+    for config_path in [local_config, user_config, package_config]:
+        if os.path.exists(config_path):
+            return config_path
+            
+    # Fallback to default config
+    config = configparser.ConfigParser()
+    config.update(DEFAULT_CONFIG)
+    
+    with open(user_config, 'w') as f:
+        config.write(f)
+    
+    return user_config
 
 
 def setup_logging(log_name="script.log", logoff=False):
@@ -73,6 +95,6 @@ MAX_FOLLOWING = int(config["LIMITS"]["MAX_FOLLOWING"])
 MAX_FOLLOWERS = int(config["LIMITS"]["MAX_FOLLOWERS"])
 MAX_REPOSITORIES = int(config["LIMITS"]["MAX_REPOSITORIES"])
 CLONE_DEPTH = int(config["LIMITS"]["CLONE_DEPTH"])
-CLONE_BARE = bool(config["LIMITS"]["CLONE_BARE"])
+CLONE_BARE = config["LIMITS"]["CLONE_BARE"].lower() in ('true', '1', 'yes')
 MONITOR_SLEEP = int(config["LIMITS"]["MONITOR_SLEEP"])
-REMOVE_REPO = bool(config["LIMITS"]["REMOVE_REPO"])
+REMOVE_REPO = config["LIMITS"]["REMOVE_REPO"].lower() in ('true', '1', 'yes')

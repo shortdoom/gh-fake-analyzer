@@ -2,6 +2,8 @@
 
 Download, analyze and monitor profile data of any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
 
+`gh-analyze` is designed to quickly build a dataset with accessible schema of github profiles you are targeting for the investigation. It is still work in progress.
+
 ### Install
 
 Scripts require `git` to be installed on your OS. (`sudo apt install git`)
@@ -41,6 +43,17 @@ A `script.log` file is created after the first run in the current working direct
 - The default configuration is at `~/.gh_fake_analyzer_config.ini`
 - To use a local configuration, create a `config.ini` file in your working directory.
 - Use this file to set different MAX parameters (e.g., for accounts with large amounts of data, especially followers/following).
+
+```sh
+[LIMITS]
+MAX_FOLLOWING = 1000 # to dump
+MAX_FOLLOWERS = 1000 # to dump
+MAX_REPOSITORIES = 1000 # to clone
+CLONE_DEPTH = 100 # commit messages to clone
+CLONE_BARE = True # do not git clone the whole repository, only .git
+MONITOR_SLEEP = 10 # minutes to delay between monitor checks
+REMOVE_REPO = True # by default, remove repo codebase after cloning
+```
 
 ### Monitor user
 
@@ -105,8 +118,6 @@ gh-analyze --parse <username> --summary
 # a useful method for quick-dumping specific data
 gh-analyze --parse <username> --key unique_emails >> dump.txt
 ```
-
-Intented usage of `gh-analyze` tool it to quickly build a dataset with accessible schema of github profiles you are targeting for the investigation. You should provide your own analysis on top off it.
 
 # Malicious Github Accounts
 
