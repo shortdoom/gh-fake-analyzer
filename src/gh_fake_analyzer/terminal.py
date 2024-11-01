@@ -7,6 +7,7 @@ from .modules.monitor import GitHubMonitor
 from .utils.api import APIUtils
 from .modules.output import Colors
 from .utils.config import setup_logging, get_config_path, load_github_token
+from .tools.dump_search_results import dump_search_results
 
 
 def read_targets(file_path):
@@ -133,18 +134,26 @@ def terminal():
         action="store_true",
         help="Disable logging to script.log. Off by default.",
     )
+    parser.add_argument(
+        "--tool",
+        type=str,
+        help="Start a specific tool (e.g., dump_search_results)",
+    )
+    parser.add_argument(
+        "--search",
+        type=str,
+        help="Search query string or GitHub search URL for dump_search_results tool",
+    )
 
     args = parser.parse_args()
     start_time = time.time()
-    
 
     if args.logoff:
         print("Logging disabled. You will only see error messages.")
         setup_logging("script.log", True)
     else:
         setup_logging("script.log")
-        
-        
+
     if args.parse:
         if parse_report(args.parse, args.key, args.summary, args.out_path):
             return
@@ -167,6 +176,21 @@ def terminal():
             logging.warning(
                 f"{Colors.RED}No GitHub token provided. Rate limits may apply.{Colors.RESET}"
             )
+            
+    if args.tool:
+        if args.tool == "dump_search_results":
+            if not args.search:
+                logging.error("--search argument is required for dump_search_results tool")
+                return
+            try:
+                dump_search_results(args.search)
+                return
+            except Exception as e:
+                logging.error(f"Error running dump_search_results: {e}")
+                return
+        else:
+            logging.error(f"Tool '{args.tool}' not found.")
+            return
 
     if args.monitor:
         monitor = GitHubMonitor(APIUtils)
@@ -187,16 +211,16 @@ def terminal():
         return
 
     if args.username:
-        with open(get_config_path(), 'r') as file:
+        with open(get_config_path(), "r") as file:
             logging.info(f"Config: \n{file.read()}")
         logging.info(f"Processing single target: {args.username}")
-        
+
         process_target(args.username, args.commit_search, out_path=args.out_path)
 
     if args.targets:
         targets_file = args.targets
-        
-        with open(get_config_path(), 'r') as file:
+
+        with open(get_config_path(), "r") as file:
             logging.info(f"Config: \n{file.read()}")
         logging.info(f"Processing targets from file: {targets_file}")
 
