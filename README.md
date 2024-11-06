@@ -127,9 +127,9 @@ See [INVESTIGATIONS](/profiles/INVESTIGATIONS/) for some high-confidence account
 
 Additionally, here's the list of past investigations done with `gh-fake-analyzer`.
 
-[Network of Fake Recruiter and Developer Accounts Linked to Lazarus](https://medium.com/@-Heiner/cc361074bdc2)
-
 [Lazarus patterns discovered with gh-fake-analyzer](https://github.com/BlockOSINT/-threat-research-and-intelligence-/blob/main/Investigations/suspicious-activity-on-github/North-Korea-sponsored-APT/lazarus-group.md)
+
+[Network of Fake Recruiter and Developer Accounts Linked to Lazarus](https://medium.com/@-Heiner/cc361074bdc2)
 
 
 **Disclaimer:**  The confidence in detecting "malicious" GitHub profiles is low. Many regular user accounts may appear in the analysis files; this does not indicate their participation in any illegal activity. ANYBODY can edit the `.git` file, and ANYBODY can commit code to GitHub. This tool is intended for reconnaissance purposes only. The information provided here **may** be incorrect. Please do not make any (baseless) accusations based on this content. All information is sourced from publicly available third-party sources and verified to the best of my ability (only).
@@ -175,6 +175,8 @@ Some indicators teams can look out for in the future includes:
 Heuristics here is only informational. There can be a lot of edge cases, false positives and false negatives both happen and are hard to deduce from report files, the following are nothing else than a list of rules-of-thumb. See "External Sources" for attribution details.
 
 *PS. Analysis files follow still the old `gh-analyze` report format.*
+
+Detailed overview of how we are using the tool in [Lazarus patterns discovered with gh-fake-analyzer](https://github.com/BlockOSINT/-threat-research-and-intelligence-/blob/main/Investigations/suspicious-activity-on-github/North-Korea-sponsored-APT/lazarus-group.md)
 
 ### Features of regular accounts
 
