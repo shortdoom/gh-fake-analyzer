@@ -44,6 +44,4 @@ ENV/
 # Project-specific
 out/
 targets
-
-# Do not ignore profiles directory
-!profiles/
+profiles/
