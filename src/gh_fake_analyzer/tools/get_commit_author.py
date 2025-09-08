@@ -19,6 +19,29 @@ def get_commit_author(commit_sha: str) -> None:
         search_results = github_fetch.search_commits(message=commit_sha)
         
         if search_results:
+            # Signal if SHA appears across multiple repositories
+            unique_repos = []
+            seen_repos = set()
+            for res in search_results:
+                owner_login = res.get("repository", {}).get("owner", {}).get("login")
+                repo_name = res.get("repository", {}).get("name")
+                if owner_login and repo_name:
+                    full_name = f"{owner_login}/{repo_name}"
+                    if full_name not in seen_repos:
+                        seen_repos.add(full_name)
+                        unique_repos.append({
+                            "full_name": full_name,
+                            "url": res.get("html_url", "")
+                        })
+            if len(unique_repos) > 1:
+                print(f"\nFound this commit SHA in multiple repositories ({len(unique_repos)}):")
+                for idx, repo in enumerate(unique_repos, 1):
+                    if repo["url"]:
+                        print(f"  {idx}. {repo['full_name']} - {repo['url']}")
+                    else:
+                        print(f"  {idx}. {repo['full_name']}")
+                print("This may indicate the repository was copied or mirrored.")
+            
             commit = search_results[0]
             repo_owner = commit["repository"]["owner"]["login"]
             repo_name = commit["repository"]["name"]
