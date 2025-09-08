@@ -21,7 +21,7 @@ def read_search_terms(file_path: str) -> list:
         logging.error(f"Error reading search terms file {file_path}: {e}")
         return []
 
-def dump_search_results(search_string: str, endpoint: str = "users", search_terms_file: str = None) -> None:
+def dump_search_results(search_string: str, endpoint: str = None, search_terms_file: str = None) -> None:
     """
     Dump search results from GitHub based on the specified endpoint.
     
@@ -47,7 +47,7 @@ def dump_search_results(search_string: str, endpoint: str = "users", search_term
 
     # Create a single output directory for all results with timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    base_path = f"SearchResults_{endpoint}_{timestamp}"
+    base_path = f"SearchResults_{endpoint or 'all'}_{timestamp}"
     data_manager = DataManager(base_path)
     api_utils = APIUtils()
     github_fetch = GithubFetchManager(api_utils)
@@ -58,11 +58,8 @@ def dump_search_results(search_string: str, endpoint: str = "users", search_term
         try:
             logging.info(f"Processing search term: {search_term}")
             
-            # Get search results based on endpoint
-            if endpoint == "users":
-                search_results = github_fetch.search_users(search_term)
-            else:  # code endpoint
-                search_results = github_fetch.search_code(search_term)
+            # Get search results (specific endpoint or all endpoints when None)
+            search_results = github_fetch.search_endpoint(search_term, endpoint)
 
             if not search_results:
                 logging.warning(f"No search results found for term: {search_term}")
@@ -71,39 +68,53 @@ def dump_search_results(search_string: str, endpoint: str = "users", search_term
             total_results = len(search_results)
             logging.info(f"Found {total_results} results for term: {search_term}")
 
-            # Process results based on endpoint
-            if endpoint == "users":
-                for idx, user in enumerate(search_results, 1):
-                    try:
-                        if idx > 1:  # Don't delay the first request
-                            time.sleep(1)  # 1 second delay between requests
+            # Process results per item endpoint
+            profiles_processed = 0
+            for result in search_results:
+                try:
+                    item_endpoint = result.get('endpoint', endpoint or 'code')
 
-                        profile = github_fetch.fetch_profile_data(user['login'])
+                    if item_endpoint == "users":
+                        # Rate-limit profile fetches lightly
+                        if profiles_processed > 0:
+                            time.sleep(1)
+                        login = result.get('login')
+                        if not login:
+                            continue
+                        profile = github_fetch.fetch_profile_data(login)
                         if profile:
                             all_results.append({
                                 'search_term': search_term,
-                                'profile': profile
+                                'profile': profile,
+                                'endpoint': 'users'
                             })
-                            logging.info(f"Fetched profile for {user['login']} ({idx}/{total_results})")
+                            profiles_processed += 1
+                    else:
+                        # Extract repository name and browser URL generically across endpoints
+                        repo_name = ''
+                        if isinstance(result.get('repository'), dict):
+                            repo_name = result.get('repository', {}).get('full_name', '')
+                        if not repo_name and result.get('repository_url'):
+                            try:
+                                parts = result.get('repository_url', '').rstrip('/').split('/')
+                                if len(parts) >= 2:
+                                    repo_name = f"{parts[-2]}/{parts[-1]}"
+                            except Exception:
+                                repo_name = ''
+                        if not repo_name and result.get('full_name'):
+                            repo_name = result.get('full_name')
 
-                    except Exception as e:
-                        logging.error(f"Error fetching profile for {user['login']}: {e}")
-                        continue
-
-            else:  # code endpoint
-                for result in search_results:
-                    try:
-                        repo_name = result.get('repository', {}).get('full_name', '')
                         browser_url = result.get('html_url', '')
                         
                         all_results.append({
                             'search_term': search_term,
                             'repository': repo_name,
-                            'url': browser_url
+                            'url': browser_url,
+                            'endpoint': item_endpoint
                         })
-                    except Exception as e:
-                        logging.error(f"Error processing search result: {e}")
-                        continue
+                except Exception as e:
+                    logging.error(f"Error processing search result: {e}")
+                    continue
 
             # Add delay between different search terms
             time.sleep(2)

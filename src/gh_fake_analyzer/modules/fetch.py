@@ -258,54 +258,56 @@ class GithubFetchManager:
         except IOError as e:
             logging.error(f"Error saving avatar: {e}")
             return None
-
-    def search_users(self, search_query: str) -> List[Dict]:
+        
+    def search_endpoint(self, search_query: str, endpoint: Optional[str] = None) -> List[Dict]:
         """
-        Search for GitHub users using the GitHub Search API.
+        Search GitHub using the Search API.
+        - If a specific endpoint is provided (e.g., "users", "code"), only that endpoint is queried.
+        - If no endpoint is provided, query multiple search endpoints and return the combined results.
+
+        Each returned item will include an additional key 'endpoint' indicating the source endpoint
+        where the search term was found.
 
         Args:
             search_query (str): Search query string or full GitHub search URL
+            endpoint (Optional[str]): Specific search endpoint to use. If None, search across multiple endpoints.
 
         Returns:
-            List[Dict]: List of user search results
+            List[Dict]: List of search results (annotated with 'endpoint')
         """
-        # Extract query if full GitHub URL is provided
+
         if "github.com/search" in search_query:
             parsed = urlparse(search_query)
             params = parse_qs(parsed.query)
             search_query = params.get("q", [""])[0]
 
-        search_url = f"{self.api_utils.GITHUB_API_URL}/search/users"
-        search_params = {"q": search_query, "per_page": self.api_utils.ITEMS_PER_PAGE}
+        # Determine which endpoints to search
+        endpoints_to_search = [endpoint] if endpoint else [
+            "users",
+            "code",
+            "issues",
+            "repositories",
+            "commits",
+        ]
 
-        # The search API returns data in a different format with items key
-        results = self.api_utils.fetch_all_pages(search_url, search_params)
-        return results if isinstance(results, list) else results.get("items", [])
-    
-    def search_code(self, search_query: str) -> List[Dict]:
-        """
-        Search for content on GitHub using the GitHub Search API.
-        This is a general search that will find the search term in any content.
+        all_results: List[Dict] = []
+        for ep in endpoints_to_search:
+            search_url = f"{self.api_utils.GITHUB_API_URL}/search/{ep}"
+            search_params = {"q": search_query, "per_page": self.api_utils.ITEMS_PER_PAGE}
 
-        Args:
-            search_query (str): Search query string or full GitHub search URL
+            # The search API returns data in a different format with items key
+            results = self.api_utils.fetch_all_pages(search_url, search_params)
+            items = results if isinstance(results, list) else results.get("items", [])
 
-        Returns:
-            List[Dict]: List of search results
-        """
-        # Extract query if full GitHub URL is provided
-        if "github.com/search" in search_query:
-            parsed = urlparse(search_query)
-            params = parse_qs(parsed.query)
-            search_query = params.get("q", [""])[0]
+            # Annotate each item with the endpoint it came from
+            for item in items:
+                if isinstance(item, dict):
+                    item.setdefault("endpoint", ep)
+            
+            all_results.extend(items)
 
-        # Use the general search endpoint instead of /search/users
-        search_url = f"{self.api_utils.GITHUB_API_URL}/search/code"
-        search_params = {"q": search_query, "per_page": self.api_utils.ITEMS_PER_PAGE}
+        return all_results
 
-        # The search API returns data in a different format with items key
-        results = self.api_utils.fetch_all_pages(search_url, search_params)
-        return results if isinstance(results, list) else results.get("items", [])
 
     def fetch_commit_author(
         self, repo_owner: str, repo_name: str, commit_sha: str

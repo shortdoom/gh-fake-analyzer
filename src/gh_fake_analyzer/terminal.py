@@ -166,9 +166,9 @@ def terminal():
     parser.add_argument(
         "--endpoint",
         type=str,
-        choices=["users", "code"],
-        default="users",
-        help="Specify the search endpoint type for dump_search_results tool (users or code)",
+        choices=["users", "code", "issues", "repositories", "commits"],
+        default=None,
+        help="Specify the search endpoint type for dump_search_results tool. Omit to search across all endpoints.",
     )
     parser.add_argument(
         "--commit-author",
