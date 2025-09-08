@@ -28,7 +28,7 @@ class PostDevelopCommand(develop):
 
 setup(
     name="gh-fake-analyzer",
-    version="0.1.9",
+    version="1.0.0",
     author="blackbigswan",
     author_email="blackbigswan@gmail.com",
     description="An OSINT utility for downloading, analyzing and detecting potential suspicious activity patterns in GitHub profiles",
@@ -56,10 +56,12 @@ setup(
     python_requires=">=3.7",
     install_requires=[
         "requests==2.32.3",
+        "requests-cache>=1.1.1",
         "python-dotenv==1.0.1",
         "python-dateutil==2.9.0.post0",
         "GitPython==3.1.43",
         "urllib3==2.2.2",
+        "aiohttp>=3.9.1"
     ],
     entry_points={
         "console_scripts": [

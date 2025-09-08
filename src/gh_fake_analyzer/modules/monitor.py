@@ -52,12 +52,32 @@ class GitHubMonitor:
             "PublicEvent": f"{actor} made {repo} public",
             "MemberEvent": f"{actor} {payload.get('action')} a member in {repo}",
             "GollumEvent": f"{actor} updated the wiki in {repo}",
+            "SponsorshipEvent": f"{actor} {payload.get('action')} sponsorship in {repo}",
+            "FollowEvent": f"{actor} followed {payload.get('target', {}).get('login')}",
+            "ForkApplyEvent": f"{actor} applied a patch in {repo}",
+            "ProjectEvent": f"{actor} {payload.get('action')} a project in {repo}",
+            "ProjectCardEvent": f"{actor} {payload.get('action')} a project card in {repo}",
+            "ProjectColumnEvent": f"{actor} {payload.get('action')} a project column in {repo}",
+            "OrganizationEvent": f"{actor} {payload.get('action')} organization {repo}",
+            "TeamEvent": f"{actor} {payload.get('action')} team in {repo}",
+            "TeamAddEvent": f"{actor} added team to {repo}",
+            "MarketplacePurchaseEvent": f"{actor} {payload.get('action')} marketplace purchase for {repo}",
+            "CheckRunEvent": f"{actor} {payload.get('action')} check run in {repo}",
+            "CheckSuiteEvent": f"{actor} {payload.get('action')} check suite in {repo}",
+            "RepositoryDispatchEvent": f"{actor} dispatched repository event in {repo}",
+            "RepositoryImportEvent": f"{actor} imported repository {repo}",
+            "RepositoryVulnerabilityAlertEvent": f"{actor} {payload.get('action')} vulnerability alert in {repo}",
+            "SecurityAdvisoryEvent": f"{actor} {payload.get('action')} security advisory in {repo}",
+            "StarEvent": f"{actor} {payload.get('action', 'starred')} {repo}"
         }
 
         return interpretations.get(event_type, f"Unknown event type: {event_type}")
         
     def fetch_user_events(self, username: str, etag: Optional[str] = None) -> Tuple[List[Dict], Optional[str], int]:
         return self.github_fetch.fetch_user_events(username, etag)
+        
+    def fetch_user_received_events(self, username: str, etag: Optional[str] = None) -> Tuple[List[Dict], Optional[str], int]:
+        return self.github_fetch.fetch_user_received_events(username, etag)
     
     def fetch_user_info(self, username: str) -> Dict:
         return self.github_fetch.fetch_profile_data(username)
@@ -65,25 +85,45 @@ class GitHubMonitor:
     def fetch_user_following(self, username: str) -> List[Dict]:
         return self.github_fetch.fetch_following(username)
 
-    def process_events(self, events: List[Dict]) -> List[Dict]:
-        """Process raw GitHub events into a standardized format."""
+    def process_events(self, events: List[Dict], include_actor: bool = True) -> List[Dict]:
+        """Process raw GitHub events into a standardized format.
+        
+        Args:
+            events: List of GitHub events to process
+            include_actor: Whether to include the actor field (True for received events, False for created)
+        """
         if not events:
             return []
 
-        return [{
+        processed = [{
             "type": event.get("type"),
             "target": event.get("repo", {}).get("name"),
             "date": event.get("created_at"),
             "description": self.interpret_event(event)
         } for event in events]
-
-    def recent_events(self, username: str) -> List[Dict]:
-        """Fetch and process events from the last specified number of days."""
-        events, _, _ = self.fetch_user_events(username)
-        if not events:
-            return []
         
-        return self.process_events(events)
+        if include_actor:
+            for i, event in enumerate(events):
+                processed[i]["actor"] = event.get("actor", {}).get("login")
+                
+        return processed
+
+    def recent_events(self, username: str) -> Tuple[List[Dict], List[Dict]]:
+        """Fetch and process both created and received events."""
+        # Get events created by user (no actor needed since it's always the user)
+        created_events, _, _ = self.fetch_user_events(username)
+        processed_created = self.process_events(created_events, include_actor=False)
+        
+                
+        return processed_created
+    
+    def recent_events_by_user(self, username: str) -> List[Dict]:
+        """Fetch and process both created and received events by a specific user."""
+        # Get events received by user (include actor to show who performed the action)
+        received_events, _, _ = self.fetch_user_received_events(username)
+        processed_received = self.process_events(received_events, include_actor=True)
+        
+        return processed_received
 
     def monitor_user_changes(self, username: str, user_data: UserEventData) -> List[str]:
         """Monitor changes in user profile and following."""
@@ -152,7 +192,7 @@ class GitHubMonitor:
                     data.last_check = current_time
 
                     if events:
-                        processed_events = self.process_events(events)
+                        processed_events = self.process_events(events, include_actor=True)
                         for event in processed_events:
                             self.logger.info(f"User: {username}, {event['description']}, Date: {event['date']}")
 

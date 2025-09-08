@@ -55,32 +55,95 @@ def get_nested_value(data, key_path):
 def print_summary(data):
     """Print top-level summary of profile data"""
     print(f"{Colors.BLUE}Name:{Colors.RESET} {data['profile_info']['name']}")
+    print(f"{Colors.BLUE}Profile ID:{Colors.RESET} {data['profile_info']['id']}")
     print(f"{Colors.BLUE}URL:{Colors.RESET} {data['profile_info']['html_url']}")
-    print(
-        f"{Colors.BLUE}Created At:{Colors.RESET} {data['profile_info']['created_at']}"
-    )
-    print(
-        f"{Colors.BLUE}Updated At:{Colors.RESET} {data['profile_info']['updated_at']}"
-    )
-    print(f"{Colors.BLUE}Followers:{Colors.RESET} {data['profile_info']['followers']}")
-    print(f"{Colors.BLUE}Following:{Colors.RESET} {data['profile_info']['following']}")
-    print(
-        f"{Colors.BLUE}Mutual Following:{Colors.RESET} {len(data['mutual_followers'])}"
-    )
-    print(f"{Colors.BLUE}Repositories:{Colors.RESET} {data['original_repos_count']}")
+    print(f"{Colors.BLUE}Created At:{Colors.RESET} {data['profile_info']['created_at']}")
+    print(f"{Colors.BLUE}Updated At:{Colors.RESET} {data['profile_info']['updated_at']}")
+    print(f"{Colors.BLUE}Followers/Following:{Colors.RESET} ({data['profile_info']['followers']}/{data['profile_info']['following']})")
     
-    print(
-        f"{Colors.BLUE}Forked Repositories:{Colors.RESET} {data['forked_repos_count']}"
-    )
-    print(f"{Colors.BLUE}Pull Requests:{Colors.RESET} {len(data['pull_requests_to_other_repos'])}")
-    print(f"{Colors.BLUE}Unique Emails:{Colors.RESET} {len(data['unique_emails'])}")
-    print(f"{Colors.BLUE}Issues Opened:{Colors.RESET} {len(data['issues'])}")
-    print(f"{Colors.BLUE}Comments Made:{Colors.RESET} {len(data['comments'])}")
+    # Get mutual following list
+    mutual_following = sorted(data['mutual_followers'])
+    mutual_count = len(mutual_following)
+    first_10_mutual = mutual_following[:10]
+    mutual_list = ', '.join(first_10_mutual)
+    if mutual_count > 10:
+        mutual_list += ' <cut+10>'
+    print(f"{Colors.BLUE}Mutual Following:{Colors.RESET} {mutual_count} [{mutual_list}]")
+    
+    print(f"{Colors.BLUE}Repositories/Forks:{Colors.RESET} ({data['original_repos_count']}/{data['forked_repos_count']})")
+    print(f"{Colors.BLUE}Issues/Comments:{Colors.RESET} ({len(data['issues'])}/{len(data['comments'])})")
+    
+    # Get unique contributors
+    unique_contributors = set().union(*[set(contribs) for contribs in data['contributors'].values()])
+    contributor_count = len(unique_contributors)
+    first_10_contributors = sorted(list(unique_contributors))[:10]
+    contributor_list = ', '.join(first_10_contributors)
+    if contributor_count > 10:
+        contributor_list += ' <cut+10>'
+    print(f"{Colors.BLUE}Unique Contributors:{Colors.RESET} {contributor_count} [{contributor_list}]")
+
+    # Print email and name associations
+    email_groups = {}
+    
+    # Collect emails from identity_rotation
+    if data.get('identity_rotation', {}).get('multiple_names_per_email'):
+        for email, info in data['identity_rotation']['multiple_names_per_email'].items():
+            if email not in email_groups:
+                email_groups[email] = set()
+            email_groups[email].update(info['names'])
+    
+    # Collect emails from unique_emails
+    if data.get('unique_emails') and data['unique_emails'][0]:
+        # Print owner emails
+        if data['unique_emails'][0].get('owner'):
+            print(f"\n{Colors.BLUE}Emails owner:{Colors.RESET}")
+            owner_emails = {}
+            for entry in data['unique_emails'][0]['owner']:
+                email = entry['email']
+                name = entry['name']
+                if email not in owner_emails:
+                    owner_emails[email] = set()
+                owner_emails[email].add(name)
+            for email, names in sorted(owner_emails.items()):
+                if email:  # Skip empty emails
+                    print(f"- {email}: {', '.join(sorted(names))}")
+        
+        # Print contributor emails
+        if data['unique_emails'][0].get('contributors'):
+            print(f"\n{Colors.BLUE}Emails contributors:{Colors.RESET}")
+            contributor_emails = {}
+            for entry in data['unique_emails'][0]['contributors']:
+                email = entry['email']
+                name = entry['name']
+                if email not in contributor_emails:
+                    contributor_emails[email] = set()
+                contributor_emails[email].add(name)
+            for email, names in sorted(contributor_emails.items()):
+                if email:  # Skip empty emails
+                    print(f"- {email}: {', '.join(sorted(names))}")
+        
+        # Print other emails
+        if data['unique_emails'][0].get('other'):
+            print(f"\n{Colors.BLUE}Emails other:{Colors.RESET}")
+            other_emails = {}
+            for entry in data['unique_emails'][0]['other']:
+                email = entry['email']
+                name = entry['name']
+                if email not in other_emails:
+                    other_emails[email] = set()
+                other_emails[email].add(name)
+            for email, names in sorted(other_emails.items()):
+                if email:  # Skip empty emails
+                    print(f"- {email}: {', '.join(sorted(names))}")
+    
+    # Print PRs to other repos
+    if data.get('pull_requests_to_other_repos'):
+        print(f"\n{Colors.BLUE}PRs to:{Colors.RESET}")
+        for repo, pr_numbers in data['pull_requests_to_other_repos'].items():
+            print(f"{repo}: {len(pr_numbers)}")
     
     if "potential_copy" in data and data["potential_copy"]:
-        print(
-            f"\n{Colors.RED}WARNING: Profile contains potentially copied repository{Colors.RESET}"
-        )
+        print(f"\n{Colors.RED}WARNING: Profile contains {len(data['potential_copy'])} potentially copied repositories{Colors.RESET}")
 
     if "commit_filter" in data and data["commit_filter"]:
         for obj in data["commit_filter"]:
