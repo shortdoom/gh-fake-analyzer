@@ -6,11 +6,13 @@ from typing import List, Dict
 from ..utils.api import APIUtils
 from ..utils.data import DataManager
 from .check_activity import check_activity
+from ..modules.analyze import GitHubProfileAnalyzer
 
 # gh-analyze --tool scan_repository --repo-targets targets/TARGETS
 # gh-analyze --tool scan_repository --scan-repo "owner/repo"
 
-def scan_repository(repo_full_name: str, out_path: str = None, append_to_file: str = None) -> None:
+
+def scan_repository(repo_full_name: str, out_path: str = None, append_to_file: str = None, full_analysis: bool = False) -> None:
     """
     Scan a GitHub repository to collect contributors and analyze their activity.
     
@@ -18,6 +20,7 @@ def scan_repository(repo_full_name: str, out_path: str = None, append_to_file: s
         repo_full_name (str): The full name of the GitHub repository (owner/repo)
         out_path (str, optional): Custom output directory path
         append_to_file (str, optional): Path to CSV file to append results to
+        full_analysis (bool, optional): Perform full analysis for each contributor and generate reports
     """
     logging.info(f"Starting scan of repository: {repo_full_name}")
     
@@ -32,12 +35,14 @@ def scan_repository(repo_full_name: str, out_path: str = None, append_to_file: s
         final_output_file = os.path.join(output_dir, "repository_contributors_analysis.csv")
     else:
         final_output_file = append_to_file
+        output_dir = os.path.dirname(append_to_file) or (out_path or "out")
     
     # Split repository name into owner and repo
     owner, repo = repo_full_name.split('/')
     
     # Fetch all contributors for the repository
     logging.info(f"Fetching contributors for repository: {repo_full_name}")
+    contributor_logins: List[str] = []
     try:
         contributors = api_utils.fetch_all_pages(
             f"{api_utils.GITHUB_API_URL}/repos/{owner}/{repo}/contributors"
@@ -160,14 +165,28 @@ def scan_repository(repo_full_name: str, out_path: str = None, append_to_file: s
             logging.error(f"Activity check file not found at {source_file}")
     except Exception as e:
         logging.error(f"Error processing activity check results: {e}")
+    
+    # Optionally perform full analysis for each contributor
+    if full_analysis and contributor_logins:
+        logging.info("Performing full analysis for each contributor")
+        for contributor in contributor_logins:
+            try:
+                logging.info(f"Analyzing contributor: {contributor}")
+                analyzer = GitHubProfileAnalyzer(contributor, out_path=output_dir)
+                analyzer.run_analysis()
+                analyzer.generate_report()
+            except Exception as e:
+                logging.error(f"Error analyzing contributor {contributor}: {e}")
 
-def scan_repositories(repo_list: List[str], out_path: str = None) -> None:
+
+def scan_repositories(repo_list: List[str], out_path: str = None, full_analysis: bool = False) -> None:
     """
     Scan multiple GitHub repositories.
     
     Args:
         repo_list (List[str]): List of GitHub repository full names (owner/repo)
         out_path (str, optional): Custom output directory path
+        full_analysis (bool, optional): Perform full analysis for each contributor and generate reports
     """
     # Create a single output file for all repositories
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -177,6 +196,6 @@ def scan_repositories(repo_list: List[str], out_path: str = None) -> None:
     
     for repo_full_name in repo_list:
         try:
-            scan_repository(repo_full_name, out_path, append_to_file=final_output_file)
+            scan_repository(repo_full_name, out_path, append_to_file=final_output_file, full_analysis=full_analysis)
         except Exception as e:
             logging.error(f"Error scanning repository {repo_full_name}: {e}") 

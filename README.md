@@ -118,6 +118,14 @@ gh-analyze --tool scan_organization --scan-org <org_name>
 
 gh-analyze --tool scan_organization --scan-org <org_name> --full-analysis
 
+# you could also scan individual repository
+
+gh-analyze --tool scan_repository --scan-repo owner/repo_name --full-analysis
+
+# scan_organization and scan_repository will run `check_activity` tool in the background against all found contributors. for best effect, supply the list of usernames and organizations in targets/ files to signal if any of those were found in contributors data.
+
+gh-analyze --tool check_activity --targets <file>
+
 ```
 
 It is a good practice to create `targets/` folder in the directory you are running `gh-analyze` from. In there you can build your own list of `targets` to scan as well as create `connections_filter/usernames` file for `activity_check` and `scan_repository` tools.

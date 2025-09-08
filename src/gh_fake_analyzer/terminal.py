@@ -319,14 +319,14 @@ def terminal():
                 return
             try:
                 if args.scan_repo:
-                    scan_repositories([args.scan_repo], args.out_path)
+                    scan_repositories([args.scan_repo], args.out_path, args.full_analysis)
                 elif args.repo_targets:
                     with open(args.repo_targets, 'r') as f:
                         repo_list = [line.strip() for line in f if line.strip()]
                     if not repo_list:
                         logging.error(f"No repositories found in {args.repo_targets}. Exiting.")
                         return
-                    scan_repositories(repo_list, args.out_path)
+                    scan_repositories(repo_list, args.out_path, args.full_analysis)
                 return
             except Exception as e:
                 logging.error(f"Error running scan_repository: {e}")
