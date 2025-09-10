@@ -2,10 +2,9 @@ import csv
 import logging
 import os
 import datetime
-from typing import List, Dict, Set
+from typing import List
 from ..utils.api import APIUtils
 from ..modules.fetch import GithubFetchManager
-from ..modules.monitor import GitHubMonitor
 from ..utils.data import DataManager
 
 # NOTE: gh-analyze --tool check_activity --targets targets/crypto-ecosystem-activity-debug
@@ -14,29 +13,20 @@ from ..utils.data import DataManager
 
 # repository,username,suspicious,high_following_count,high_followers_count,target_contributors_list,follows_target_users_list,fork_target_contributors_list,target_orgs,large_orgs,pr_count,pr_list,pr_check_triggered_by,target_org_member,large_org_member,high_following,high_followers,follows_target_users,has_target_contributors,has_fork_target_contributors
 
-
-# List of organizations to check for membership
-# TODO: make this configurable
-TARGET_ORGS = {
-    "jazzband", "dev-protocol", "EddieHubCommunity", "Alphasian", "openAOD",
-    "Design-and-Code", "WarriorWhoCodes", "App-Choreography", "Jaidevstudio",
-    "WebXDAO", "CommunityPro", "Devs-Dungeon", "infraform", "accessibleForAll",
-    "yfosp", "fearlesstech"
-}
-
 # Load target usernames from debug file
-def load_target_usernames() -> List[str]:
+def load_targets(target) -> List[str]:
     """Load target usernames from the debug file."""
-    debug_file = os.path.join("targets", "connections_filter", "usernames")
+    target_file = os.path.join("target_list", f'{target}')
     try:
-        with open(debug_file, 'r') as f:
+        with open(target_file, 'r') as f:
             # Read lines and clean up usernames - remove commas, spaces, and empty lines
-            usernames = [line.strip().strip(',').strip() for line in f.readlines()]
+            targets = [line.strip().strip(',').strip() for line in f.readlines()]
             # Filter out empty lines and return non-empty usernames
-            return [username for username in usernames if username]
+            return [target for target in targets if target]
     except Exception as e:
         logging.error(f"Error loading target usernames: {e}")
         return []
+        
 
 def check_activity(usernames: List[str], output_file: str = "activity_check.csv") -> None:
     """
@@ -50,21 +40,22 @@ def check_activity(usernames: List[str], output_file: str = "activity_check.csv"
     try:
         api_utils = APIUtils()
         github_fetch = GithubFetchManager(api_utils)
-        monitor = GitHubMonitor(api_utils)
         
         # Initialize DataManager for output directory handling
         directory_name = "TOOL_CHECK_ACTIVITY_" + datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         data_manager = DataManager(directory_name)
         
         # Load target usernames for relationship checks
-        target_usernames = load_target_usernames()
+        target_usernames = load_targets("USERNAMES")
+        target_orgs = load_targets("ORGANIZATIONS")
         
-        # Clean usernames to remove any trailing spaces
-        usernames = [username.strip() for username in usernames]
+        # Use the provided usernames list for scanning; targets above are only for relationship/org checks
+        usernames_list = [username.strip() for username in usernames]
+        orgs_list = [org.strip().lower() for org in target_orgs]
         
         results = []
         
-        for username in usernames:
+        for username in usernames_list:
             logging.info(f"Checking activity for {username}...")
             
             # Initialize result with default values
@@ -95,7 +86,7 @@ def check_activity(usernames: List[str], output_file: str = "activity_check.csv"
                 
                 for org in user_orgs:
                     org_name = org.get("login", "").lower()
-                    if org_name in TARGET_ORGS:
+                    if org_name in orgs_list:
                         target_orgs_found.append(org_name)
                     else:
                         # Check if organization has more than 100 members
