@@ -2,18 +2,23 @@
 
 A powerful OSINT tool for analyzing GitHub profiles and detecting suspicious activity patterns. This tool helps identify potential bot accounts, scammers, and fake developer profiles by analyzing various aspects of GitHub activity.
 
+NOTE: If you cloned this repository before version 1.0.0 release, re-download the whole package. We did a significant commit re-write to make the repository more light-weight.
+
 ## Features
 
 - **Profile Analysis**: Download and analyze complete GitHub profile data
 - **Commit Analysis**: Detect copied commits and suspicious commit patterns
 - **Identity Detection**: Track email/name variations and potential identity rotation
-- **Organization Scanning**: Analyze contributors across entire organizations
+- **Organization Scanning**: Analyze contributors across entire organizations and repositories
 - **Activity Monitoring**: Real-time monitoring of profile changes and activities
 - **Advanced Tools**: 
   - Commit author lookup
   - Activity checking
   - Search result dumping
   - Organization scanning
+  - Repository scanning
+  - Finding interesting files in repositories
+  - Automatically flagging account against list of your own IOCs
 
 ## Installation
 
@@ -33,7 +38,6 @@ You need a GitHub API token for full functionality. Set it up in one of these wa
 
 ### Local Installation
 
-#### Option 1: Clone and Install
 ```sh
 # Clone the repository
 git clone https://github.com/shortdoom/gh-fake-analyzer.git
@@ -45,28 +49,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install the package in development mode
 pip install -e .
-```
-
-#### Option 2: Install Dependencies Manually
-```sh
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install required packages
-pip install requests==2.32.3
-pip install python-dotenv==1.0.1
-pip install python-dateutil==2.9.0.post0
-pip install GitPython==3.1.43
-pip install urllib3==2.2.2
-
-# Clone the repository
-git clone --filter=blob:none --sparse https://github.com/shortdoom/gh-fake-analyzer.git
-cd gh-fake-analyzer
-git sparse-checkout set --no-cone '*' '!profiles'
-
-# Add the package to Python path
-export PYTHONPATH=$PYTHONPATH:$(pwd)/src  # On Windows: set PYTHONPATH=%PYTHONPATH%;%CD%\src
 ```
 
 #### Configuration for Development
@@ -106,7 +88,7 @@ gh-analyze <username>
 
 gh-analyze --targets <path/to/newlinefile/targets>
 
-# then, for a quick view
+# then, for a quick view (or a full path if report is not in the standard out/ path)
 
 gh-analyze --parse <username> --summary
 
@@ -122,15 +104,15 @@ gh-analyze --tool scan_organization --scan-org <org_name> --full-analysis
 
 gh-analyze --tool scan_repository --scan-repo owner/repo_name --full-analysis
 
-# scan_organization and scan_repository will run `check_activity` tool in the background against all found contributors. for best effect, supply the list of usernames and organizations in targets/ files to signal if any of those were found in contributors data.
+# scan_organization and scan_repository will run `check_activity` tool in the background against all found contributors. for best effect, supply the list of usernames and organizations in target_list/ files to signal if any of those were found in contributors data.
 
 gh-analyze --tool check_activity --targets <file>
 
 ```
 
-It is a good practice to create `targets/` folder in the directory you are running `gh-analyze` from. In there you can build your own list of `targets` to scan as well as create `connections_filter/usernames` file for `activity_check` and `scan_repository` tools.
+It is a good practice to update `target_list/` files with your own indicators you want to find in the scanned account. 
 
-`github_cache.sqlite` file will be created on the first run to speed up potential re-downloading from the same endpoints. Feel free to remove it as needed.
+`github_cache.sqlite` file will be created on the first run to speed up potential re-downloading from the same endpoints within 1h window.
 
 ## All Commands
 
@@ -219,6 +201,8 @@ gh-analyze --tool find_interesting_files <username> --out_path /path/to/dir
 gh-analyze --logoff
 ```
 
+It's possible to develop your own tools by re-using methods accessible in `modules/analyze.py`.
+
 ## Configuration
 
 The tool uses a configuration file at `~/.gh_fake_analyzer/config.ini`. You can create a local `config.ini` to override settings:
@@ -273,6 +257,7 @@ The `report.json` file contains comprehensive data about the analyzed GitHub pro
 - `contributors`: User's repositories and their contributors
 - `pull_requests_to_other_repos`: List of PRs made to other repositories
 - `commits_to_other_repos`: List of commits made to repositories not owned by the user
+- `duplicate_hashes_found`: List of repositories with owner commits that do not belong to the owner
 - `commits`: Full commit data for every user repository
 - `issues`: List of issues opened by the user
 - `comments`: List of comments made by the user

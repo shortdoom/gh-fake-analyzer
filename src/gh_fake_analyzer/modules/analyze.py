@@ -90,6 +90,7 @@ class GitHubProfileAnalyzer:
         self.data["commits"] = commits_data
         self.data["errors"] = failed_repos
 
+
     def fetch_commit_messages(self):
         """Extract commit messages from fetched commits."""
         self.data["commits_msgs"] = self.git_manager.extract_commit_messages(
@@ -410,35 +411,92 @@ class GitHubProfileAnalyzer:
 
             # Find contributions to other repositories from commits data
             try:
+                # Build PR mapping directly from existing commits (avoid extra API call)
                 pull_requests_to_other_repos = {}
-                commits_to_other_repos = {}
+                for repo_key, commits in (self.data.get("commits", {}) or {}).items():
+                    if not isinstance(commits, list) or not commits:
+                        continue
+                    # Only consider external repos
+                    if "/" not in repo_key or repo_key.split("/")[0].lower() == self.username.lower():
+                        continue
+                    for c in commits:
+                        if not isinstance(c, dict):
+                            continue
+                        pr = c.get("pull_request")
+                        if not pr:
+                            continue
+                        pull_requests_to_other_repos.setdefault(repo_key, [])
+                        if pr not in pull_requests_to_other_repos[repo_key]:
+                            pull_requests_to_other_repos[repo_key].append(pr)
 
-                # Process commits data to find external contributions
-                # Get all PRs first - this is still necessary
-                pull_requests_to_other_repos = {}
-                search_results = self.github_fetch.search_pull_requests(self.username)
+                # Normalize commit keys: external repos => owner/repo, own repos => repo
+                normalized_commits = {}
+                for key, commits in (self.data.get("commits", {}) or {}).items():
+                    if not isinstance(commits, list) or not commits:
+                        continue
 
-                if search_results:
-                    for item in search_results:
-                        repo_name = item["repository_url"].split("/")[-1]
-                        owner_name = item["repository_url"].split("/")[-2]
-                        if owner_name != self.username:
-                            repo_key = f"{owner_name}/{repo_name}"
-                            if repo_key not in pull_requests_to_other_repos:
-                                pull_requests_to_other_repos[repo_key] = []
-                            if item["number"] not in pull_requests_to_other_repos[repo_key]:
-                                pull_requests_to_other_repos[repo_key].append(item["number"])
+                    # If key already owner/repo, keep as-is
+                    if "/" in key:
+                        new_key = key
+                    else:
+                        # Infer owner from commits (prefer first valid commit with owner)
+                        inferred_owner = None
+                        for c in commits:
+                            if isinstance(c, dict) and c.get("owner"):
+                                inferred_owner = c.get("owner")
+                                break
 
-                # Get commits from both the commits data and additional search
-                commits_to_other_repos = {}
-                for repo_name, commits in self.data.get("commits", {}).items():
-                    for commit in commits:
-                        repo_owner = commit.get("repository", {}).get("owner", {}).get("login")
-                        if repo_owner and repo_owner.lower() != self.username.lower():
-                            repo_key = f"{repo_owner}/{repo_name}"
-                            if repo_key not in commits_to_other_repos:
-                                commits_to_other_repos[repo_key] = []
-                            commits_to_other_repos[repo_key].append(commit["sha"])
+                        if inferred_owner and inferred_owner.lower() != self.username.lower():
+                            new_key = f"{inferred_owner}/{key}"  # external
+                        else:
+                            new_key = key  # own repo
+
+                    # Merge and deduplicate by SHA within the normalized key
+                    existing_shas = set(d.get("sha") for d in normalized_commits.get(new_key, []) if isinstance(d, dict))
+                    out_list = normalized_commits.setdefault(new_key, [])
+                    for c in commits:
+                        if not isinstance(c, dict):
+                            continue
+                        sha = c.get("sha")
+                        if not sha or sha in existing_shas:
+                            continue
+                        out_list.append(c)
+                        existing_shas.add(sha)
+
+                # Replace commits with normalized structure
+                self.data["commits"] = normalized_commits
+
+                # Build candidate external repos from normalized keys
+                candidate_external_keys = [
+                    rk for rk in self.data.get("commits", {}).keys()
+                    if "/" in rk and rk.split("/")[0].lower() != self.username.lower()
+                ]
+
+                # Exclude repos already accounted for via PRs
+                commits_to_other_repos_keys = [
+                    rk for rk in candidate_external_keys if rk not in pull_requests_to_other_repos
+                ]
+
+                # Gather SHAs from user's own repositories
+                own_commit_shas = set()
+                for rk, clist in self.data.get("commits", {}).items():
+                    if "/" in rk:
+                        continue  # external
+                    for c in clist or []:
+                        if isinstance(c, dict) and c.get("sha"):
+                            own_commit_shas.add(c["sha"])
+
+                # Detect duplicates vs own repos and produce list outputs
+                duplicate_hashes_found = []
+                commits_to_other_repos_list = []
+                for repo_key in commits_to_other_repos_keys:
+                    shas = {c.get("sha") for c in self.data.get("commits", {}).get(repo_key, []) if isinstance(c, dict) and c.get("sha")}
+                    if not shas:
+                        continue
+                    if all(sha in own_commit_shas for sha in shas):
+                        duplicate_hashes_found.append(repo_key)
+                    else:
+                        commits_to_other_repos_list.append(repo_key)
             except Exception as e:
                 logging.error(f"Error in external contributions processing: {e}")
                 raise
@@ -504,7 +562,8 @@ class GitHubProfileAnalyzer:
                     "forked_repo_list": forked_repo_list,
                     "pull_requests_to_other_repos": pull_requests_to_other_repos,
                     "prs_to_organizations": prs_to_organizations,
-                    "commits_to_other_repos": commits_to_other_repos,
+                    "commits_to_other_repos": commits_to_other_repos_list,
+                    "duplicate_hashes_found": duplicate_hashes_found,
                     "repos": cleaned_repos,
                     "commits": self.data.get("commits", {}),
                     "errors": self.data.get("errors", []),

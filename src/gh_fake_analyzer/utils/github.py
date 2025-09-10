@@ -204,7 +204,7 @@ class GitCloneManager:
                                     repo_commits.append(commit_dict)
                     
                     if repo_commits:
-                        commits_data[repo_name] = repo_commits
+                        commits_data[repo_key] = repo_commits
             
             # Search for direct commits (not through PRs)
             commit_results = self.github_fetch.search_commits(username)
@@ -223,26 +223,27 @@ class GitCloneManager:
                     if not repo_owner:
                         continue
                     
+                    repo_key = f"{repo_owner}/{repo_name}"
+                    
                     # Skip if it's user's own repository or we already have this repo's commits
-                    if repo_owner == username or repo_name in commits_data:
+                    if repo_owner == username:
                         continue
                     
-                    # Get full commit details
-                    commit_data = self.github_fetch.fetch_commit_author(
-                        repo_owner,
-                        repo_name,
-                        commit.get("sha", "")
-                    )
+                    # Use search result payload directly to avoid per-commit API calls
+                    if repo_key not in commits_data:
+                        commits_data[repo_key] = []
                     
-                    if commit_data:
-                        if repo_name not in commits_data:
-                            commits_data[repo_name] = []
-                        
-                        commit_obj = self._format_api_commit(commit_data)
+                    try:
+                        commit_obj = self._format_api_commit(commit)
                         commit_dict = commit_obj.to_dict()
                         commit_dict["owner"] = repo_owner
                         commit_dict["pull_request"] = ""
-                        commits_data[repo_name].append(commit_dict)
+                        # Deduplicate by SHA
+                        existing_shas = {c.get("sha") for c in commits_data[repo_key]}
+                        if commit_dict.get("sha") and commit_dict["sha"] not in existing_shas:
+                            commits_data[repo_key].append(commit_dict)
+                    except Exception as fe:
+                        logging.error(f"Error formatting commit from search for {repo_key}: {fe}")
                         
         except Exception as e:
             logging.error(f"Error fetching external contributions for {username}: {e}")
@@ -267,9 +268,10 @@ class GitCloneManager:
             try:
                 repo_name = repo["name"]
                 repo_owner = repo["owner"]["login"]
+                repo_key = f"{repo_owner}/{repo_name}"
                 
                 # Skip if we already have this repo's commits from PR/commit search
-                if repo_name in commits_data:
+                if repo_key in commits_data:
                     continue
                 
                 # Search for user's commits in this repository
@@ -287,7 +289,7 @@ class GitCloneManager:
                         commits.append(commit_dict)
                         
                     if commits:
-                        commits_data[repo_name] = commits
+                        commits_data[repo_key] = commits
                         
             except Exception as e:
                 logging.error(f"Error fetching commits for repository {repo_name}: {e}")
