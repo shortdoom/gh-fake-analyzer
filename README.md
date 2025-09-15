@@ -24,10 +24,12 @@ A powerful OSINT tool for analyzing GitHub profiles and detecting suspicious act
 
 ## Installation
 
-**NOTE**: If you cloned the repository before version 1.0.0 release, re-download the whole package. We did a significant commit re-write to make the repository more light-weight.
-
 ```sh
 pip install gh-fake-analyzer
+
+# or, if you are still using the old version
+
+pip install gh-fake-analyzer --upgrade
 ```
 
 ### Requirements
@@ -41,6 +43,8 @@ You need a GitHub API token for full functionality. Set it up in one of these wa
 3. Set environment variable: `export GH_TOKEN=<your_token>`
 
 ### Local Installation
+
+**NOTE**: If you cloned the repository before version 1.0.0 release, re-download the whole package. We did a significant commit re-write to make the repository more light-weight.
 
 ```sh
 # Clone the repository
