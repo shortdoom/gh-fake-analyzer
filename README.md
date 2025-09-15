@@ -1,251 +1,302 @@
-# Github Profile Analyzer (and database)
+# GitHub Profile Analyzer
 
-Download, analyze and monitor profile data of any GitHub user or organization. This reconnaissance tool is designed for the OSINT/security community, enabling the inspection of potential bot, scammer, blackhat, or fake employee accounts for dark patterns (see, [Malicious GitHub Accounts](#malicious-github-accounts))
+A powerful OSINT tool for analyzing GitHub profiles and detecting suspicious activity patterns. This tool helps identify potential bot accounts, scammers, and fake developer profiles by analyzing various aspects of GitHub activity. Comes together with a set of handy tools for scanning and extracting multiple types of metadata from Github profile, organization or repository.
 
-`gh-analyze` is designed to quickly build a dataset with accessible schema of GitHub profiles you are targeting for investigation. It is still a work in progress.
+**NOTE**: For the comprehensive solution of monitoring your Github organization, analyzing contributors and active alerting system against potential impersonation or other Github related threats - contact [SEAL911](https://securityalliance.org/). SEAL operates the *project-wide* version of the software. This package is not optimized for speed. Its main goal is supporting individual security researchers.
 
-### Install
+**NOTE**: The project was possible thanks to the contribution from [Ethereum Ecosystem Support Program](https://esp.ethereum.foundation/). All of the investigations conducted by [Ketman Project](https://ketman.org) were made with help of `gh-fake-analyzer`.
 
-Scripts require `git` to be installed on your OS. (`sudo apt install git`)
+## Features
+
+- **Profile Analysis**: Download and analyze complete GitHub profile data
+- **Commit Analysis**: Detect copied commits and suspicious commit patterns
+- **Identity Detection**: Track email/name variations and potential identity rotation
+- **Organization Scanning**: Analyze contributors across entire organizations and repositories
+- **Activity Monitoring**: Real-time monitoring of profile changes and activities
+- **Advanced Tools**: 
+  - Commit author lookup
+  - Activity checking
+  - Search result dumping
+  - Organization scanning
+  - Repository scanning
+  - Finding interesting files in repositories
+  - Automatically flagging account against list of your own IOCs
+
+## Installation
+
+**NOTE**: If you cloned the repository before version 1.0.0 release, re-download the whole package. We did a significant commit re-write to make the repository more light-weight.
 
 ```sh
 pip install gh-fake-analyzer
 ```
 
-You should either create `.env` file in the current working directory with `GH_TOKEN=<your_token>`, run `gh-analyze` with `--token <your_token>` flag or execute `export GH_TOKEN=<your_token>`. If you don't, the script will use global API limits (slow and error-prone).
+### Requirements
+- Python 3.7 or higher
+- Git installed on your system (`sudo apt install git`)
 
-For development, set the new `venv` and:
+### GitHub Token Setup
+You need a GitHub API token for full functionality. Set it up in one of these ways:
+1. Create a `.env` file with `GH_TOKEN=<your_token>`
+2. Use `--token <your_token>` flag when running commands
+3. Set environment variable: `export GH_TOKEN=<your_token>`
+
+### Local Installation
 
 ```sh
+# Clone the repository
 git clone https://github.com/shortdoom/gh-fake-analyzer.git
 cd gh-fake-analyzer
-pip install -e . # installl_requires only, use requirements.txt for build tools
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install the package in development mode
+pip install -e .
 ```
 
-<small><i>Github API tokens have a time-to-live, you'll need to regenerate your token after that time.</i></small>
-
-<small><i>See [Dev Notes](#dev-notes) to only `git clone` package code and not the `/profiles` data.</i></small>
-
-### Analyze user
-
-The `gh-analyze` is designed to download full github profile data of the specified user, see [Output](#output) for details.
-
-```sh
-gh-analyze <username> # analyze a single user
-gh-analyze --targets <path> # custom_file.txt to read from as "targets"
-gh-analyze <username> --out_path /path/to/dir # save to different than /out dir
-gh-analyze <username> --commit_search <repo_name> # without <repo_name> it will search all commits
-gh-analyze <username> --token <token> # provide GH_TOKEN to use for this run
-```
-
-Run `gh-analyze --help` for a full description of arguments. Most of arguments can be chained together.
-
-A `script.log` file is created after the first run in the current working directory of the pacakge. All profile data is downloaded to `out` directory within the current working directory.
-
-- The default configuration is at `~/.gh_fake_analyzer_config.ini`
-- To use a local configuration, create a `config.ini` file in your working directory.
-- Use this file to set different MAX parameters (e.g., for accounts with large amounts of data, especially followers/following).
-
-```sh
+#### Configuration for Development
+1. Create a local `config.ini` file in your working directory:
+```ini
 [LIMITS]
-MAX_FOLLOWING = 1000 # to dump
-MAX_FOLLOWERS = 1000 # to dump
-MAX_REPOSITORIES = 1000 # to clone
-CLONE_DEPTH = 100 # commit messages to clone
-CLONE_BARE = True # do not git clone the whole repository, only .git
-MONITOR_SLEEP = 10 # minutes to delay between monitor checks
-REMOVE_REPO = True # by default, remove repo codebase after cloning
+MAX_FOLLOWING = 1000
+MAX_FOLLOWERS = 1000
+MAX_REPOSITORIES = 1000
+CLONE_DEPTH = 100
+CLONE_BARE = True
+MONITOR_SLEEP = 10
+REMOVE_REPO = True
 ```
 
-### Monitor user
+2. Set up your GitHub token in `.env`:
+```sh
+echo "GH_TOKEN=your_token_here" > .env
+```
 
-The `--monitor` flag is designed to continously monitor the activity of specified Gituhb users. It works as an event watcher. On first run, it will return last past 90 days of events for an account.
+3. Test the installation:
+```sh
+gh-analyze --help
+```
+
+## Usage
+
+### Quick Start Recipe
+
+The most common flow for using the `gh-fake-analyzer` in CTI related tasks is to:
 
 ```sh
 
-gh-analyze <username> --monitor # Monitor single user
-gh-analyze --targets <file>  --monitor # Monitor multiple usernames
+gh-analyze <username>
 
-```
+# or
 
-Activity is logged to both `monitoring.log` file and terminal. It captures various events such as:
+gh-analyze --targets <path/to/newlinefile/targets>
 
-- New followers
-- Profile updates (e.g., changes in name, company, blog, location, email, bio, Twitter username)
-- GitHub events (e.g., stars, pushes, forks, issues, pull requests)
+# then, for a quick view (supply full path in place of <username> if report is not in the standard out/ path)
 
-# Output
-
-Inside the `/out` directory, there will be a `<username>` subdirectory for each account scanned.
-
-`report.json`, is the output file, see the [report_example.json](/profiles/report_example.json) to get a short overview of all keys and potential values in the report. 
-
-- `profile_info` - basic github user profile data (login, name, location, bio, etc.).
-- `original_repos_count` and `forked_repos_count` - counted repositories.
-- `unique_emails` - emails and associated names extracted from the commit data.
-- `mutual_followers` - list of mutual followers for the account.
-- `following` - list of accounts user follows.
-- `followers` - list of accounts following the user.
-- `repo_list` - list of names of all non-forked repositories on the user account.
-- `forked_repo_list` - list of names of all forked repositories on the user account.
-- `contributors` - user's repositories and associated contributors to those repositories.
-- `pull_requests_to_other_repos` - list of user's pull requests made to repositories.
-- `commits_to_other_repos` - list of user's commits made to repositories he doesn't own.
-- `repos` - full repository data for every user repository. (big)
-- `commits` - full commit data for every user repository. (big)
-- `errors` - list of repositories that script failed to retrieve data for (network errors, DMCA..)
-- `recent_events` - list of recent events on the analyzed account (last 90 days).
-- `issues` - list of issues opened by user.
-- `comments` - list of comments to issues made by user.
-
-Script will also download user avatar to the output directory.
-
-Additionally, optional keys in the file, depending on arguments used, can be present:
-
-- `potential_copy` - list of repositories with a first commit date earlier than account creation.
-- `commit_filter` - list of repositories with similar/duplicated commit messages across the Github. use `--commit_search` flag to generate a list.
-
-IMPORTANT NOTE: The `unique_emails` in `report.json` are not limited to the repository owner's emails. This list may include emails of external contributors to the repository or even completely spoofed emails. Copy the email address and search `commits` key to get the exact commit where e-mail was used. It may be far-detached from the account you're analyzing.
-
-### Parsing output
-
-It's possible to use CLI for extracting individual key data for any username in the `/out` directory `report.json` files. Parsing supports dot-notation for accessing nested keys, e.g,. `profile_info.location`. 
-
-`--summary` flag will output the basic summary information about the profile based on `report.json` found.
-
-```sh
-gh-analyze --parse <username> --key <output_key>
 gh-analyze --parse <username> --summary
 
-# a useful method for quick-dumping specific data
+# other often used command is to extract full contributors information from organizations. also works with list of --org-targets.
+
+gh-analyze --tool scan_organization --scan-org <org_name>
+
+# optionally, append --full-analysis to immediately perform full scan on each contributor
+
+gh-analyze --tool scan_organization --scan-org <org_name> --full-analysis
+
+# you could also scan individual repository
+
+gh-analyze --tool scan_repository --scan-repo owner/repo_name --full-analysis
+
+# scan_organization and scan_repository will run `check_activity` tool in the background against all found contributors. for best effect, supply the list of usernames and organizations in target_list/ files to signal if any of those were found in contributors data.
+
+gh-analyze --tool check_activity --targets <file>
+
+```
+
+It is a good practice to update `target_list/` files with your own indicators (usernames and names of organizations). Avoid commiting changed to those files in public.
+
+`USERNAMES` - list of usernames you consider suspicious and would like to be informed if scanned account has any relation to.
+`ORGANIZATIONS` - list of organizations you consider suspicious and would like to be informed if scanned account has any relation to.
+
+## All Commands
+
+### Basic Profile Analysis
+
+```sh
+# Analyze a single user
+gh-analyze <username>
+
+# Analyze multiple users from a file (one username per line)
+gh-analyze --targets <file>
+
+# Custom output directory
+gh-analyze <username> --out_path /path/to/dir
+
+# Include forked repositories in analysis (default: off)
+gh-analyze <username> --forks
+
+# Only fetch basic profile data (no commits, followers, etc.)
+gh-analyze <username> --only_profile
+
+# Regenerate report from existing data without fetching from GitHub
+gh-analyze <username> --regenerate
+```
+
+### Advanced Analysis
+```sh
+# Search for copied commits in a specific repository
+gh-analyze <username> --commit_search <repo_name>
+
+# Search for copied commits across all repositories
+gh-analyze <username> --commit_search
+
+# Monitor user activity in real-time
+gh-analyze <username> --monitor
+
+# Monitor multiple users from a file
+gh-analyze --targets <file> --monitor
+
+# Parse and display specific data from an existing report (<username> needs to be in the default out/ directory, otherwise - supply full path)
+gh-analyze --parse <username> --key <output_key>
+
+# Display summary of profile (<username> needs to be in the default out/ directory, otherwise - supply full path)
+gh-analyze --parse <username> --summary
+
+# Quick-dump specific data to a file
 gh-analyze --parse <username> --key unique_emails >> dump.txt
 ```
 
-# Malicious Github Accounts
-
-See [INVESTIGATIONS](/profiles/INVESTIGATIONS/) for some high-confidence accounts dumped using `gh-analyze` tool.
-
-Additionally, here's the list of past investigations done with `gh-fake-analyzer`.
-
-[Lazarus patterns discovered with gh-fake-analyzer](https://github.com/BlockOSINT/-threat-research-and-intelligence-/blob/main/Investigations/suspicious-activity-on-github/North-Korea-sponsored-APT/lazarus-group.md)
-
-[Network of Fake Recruiter and Developer Accounts Linked to Lazarus](https://medium.com/@-Heiner/cc361074bdc2)
-
-
-**Disclaimer:**  The confidence in detecting "malicious" GitHub profiles is low. Many regular user accounts may appear in the analysis files; this does not indicate their participation in any illegal activity. ANYBODY can edit the `.git` file, and ANYBODY can commit code to GitHub. This tool is intended for reconnaissance purposes only. The information provided here **may** be incorrect. Please do not make any (baseless) accusations based on this content. All information is sourced from publicly available third-party sources and verified to the best of my ability (only).
-
-It's possible, to a certain degree, to define some metrics for classifying GitHub profiles as potentially malicious. However, motivated enough attackers can still bypass most of those checks and appear as professional engineers. If that's the case, a company should fall back to regular methods of judging a potential employee/contact. The `gh-analyze` can help out with finding some dark patterns if the attacker is not motivated enough :)
-
-1. Does any (not forked) repository or commit predate the account creation date? If yes - suspicious.
-    - inspect the repository and search on github for similar repositories. it's potentially a copy of other repository
-    - non-malicious cases are: rebasing, transfering .git repo between the accounts etc.
-2. Does any (not forked) repository have more contributors than the owner? If yes - check contributors;
-    - is contributor profile suspicious? check contributors profiles themselves.
-    - are contributor contributions meaningful or low-effort all across?
-3. How many unique emails do you find in commit messages?
-    - non-malicious for fully legitimate accounts
-    - can be malicious if you recognize a pattern of:
-        - trying to hide the (owner's) identity, changing the identity often, using address/name attached to different person
-4. Does any commit message appear copied from another repository? 
-    - you need to run `--commit_filter` and inspect `matching_repos` number, look for *unique* commit messages
-    - merge commit messages, if copied, often preserve the original owner's nickname
-5. While getting "all repositories" for an onwer account, do some repositories return an error with DMCA takedown?
-    - non-malicious for fully legitimate accounts
-    - DMCA takedowns, deleted repositories and empty repositories, if existing together on the account, may suggest some automation software usage
-6. Issue-spamming on high-credibility organizations. Some accounts were collecting "github badges" using this method. After opening an issue on, for example, Ethereum organization, the organization "badge" will be visible on main profile page and account will be credited as a "contributor" to Ethereum organization.
-    - do not trust Activity Overview badges blindly, use report files from `gh-analyze` to check the actual commit (if there's any)
-7. Look "around" the account, not only on the account. Followers/Following patterns are often a tell-tale.
-
-Great list of (non-technical) flags by ZachXBT: https://x.com/zachxbt/status/1824047480121729425
-
-Some indicators teams can look out for in the future includes:
-
-1. They refer each other for roles
-2. Good looking resumes / GitHub activity although sometimes lie about work history.
-3. Typically are happy to KYC but submit fake IDs in hopes teams do not investigate further
-4. Ask specific questions about locations they claim to be from.
-5. Dev is fired and immediately new accounts appear looking for work
-6. May be good devs initially but typically start to underperform
-7. Review logs
-8. Like using popular NFT pfps
-9. Asia accent
-
-# Regular, Skid/MaaS and DPRK-style profile
-
-Heuristics here is only informational. There can be a lot of edge cases, false positives and false negatives both happen and are hard to deduce from report files, the following are nothing else than a list of rules-of-thumb. See "External Sources" for attribution details.
-
-*PS. Analysis files follow still the old `gh-analyze` report format.*
-
-Detailed overview of how we are using the tool in [Lazarus patterns discovered with gh-fake-analyzer](https://github.com/BlockOSINT/-threat-research-and-intelligence-/blob/main/Investigations/suspicious-activity-on-github/North-Korea-sponsored-APT/lazarus-group.md)
-
-### Features of regular accounts
-
-1. No commits before the account creation date
-2. Contributors (to the owner's repositories) are none/small amount and if there are any, the contributor profile itself is not suspicious
-3. Little amount of unique mails in commit messages, no often identity changes
-4. No commit messages copied
-5. No DMCA takedowns
-6. At least some repositories contain "original" code
-7. Non-toxic following/follower patterns, mutual following is present
-8. Legit contributors to owner's code
-
-### Features of Skid/Malware-as-a-service accounts
-
-For Skid accounts - Example: eduales99 and sebastian4098
-
-1. Commits before the creation date of acount (all eduales99 repositories)
-2. Weird contribution from sebastian4098 to a single repo, sebastian4098 itself is a suspicious account
-3. Weird non-owner emails as authors/contributors to owner repositories, indicates many accounts used for setting up/boosting credibility of this profile
-4. Copied commit messages from real repository
-5. DMCA takedown on a repository (mirrored real repository)
-
-So-called "Farmed accounts". Farms themselves only run those accounts in an automatic way, breadcrumbs to follow are everywhere. Further modeling would probably unearth some dark patterns of such clusters. The best bet is to inspect follower/following pattern and quality of repositories. Farmed accounts usually won't host any original code, a lot of tutorial-level code and overcompensate on profile's README page.
-
-[eduales99 analysis](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/eduales99/eduales99.json)
-
-[eduales99 report](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/eduales99/report.json)
-
-[sebastian4098 analysis](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/sebastian4098/sebastian4098.json)
-
-[sebastian4098 report](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/sebastian4098/report.json)
-
-**External Sources:**
-
-[Contagious Interview](https://github.com/tayvano/lazarus-bluenoroff-research?tab=readme-ov-file#%EF%B8%8F-contagious-interview)
-
-### Features of DPRK-style accounts
-
-For DPRK-style - Example: light-fury, 0xm00neth, bluesky0309
-
-1. No commits before the account creation date. Probably an old stolen GitHub account (for light-fury we can find sergeypt423 that made the first commit to this account in 2017, points to Kenyan freelancer forum). Time series analysis of commits is useful, are there any significant leaps in the activity? 
-2. Weird contributions by many accounts to some fairly big projects like GaimzWeb/Mobile, but this is not neccessarily a red flag, regular accounts can be similar, however, project itself seem suspicious.
-3. A ton of different emails in commit messages. A strong cluster of many accounts "working together" to boost light-fury's credibility. It's consistent with a pattern of "recommending a friend for a work"
-4. No commit messages copied
-
-Very hard to distinguish from the regular account, but there are some flags. Analyzing clusters of activity on such account and checking the merit of their work is basically the only way to distinguish DPRK-style hacker from a regular account. Light-fury was commiting working code to multiple legit organizations at the acceptable level of effort (Whitelisting is therefore not very efficient), same as 0xm00neth and bluesky0309, however, those users were far less careful with building up the history of their accounts and we can spot copied repositories for bluesky0309, sometimes with exact merge messages of the original repository. 
-
-[light-fury analysis](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/light-fury/light-fury.json)
-
-[light-fury report](/profiles/INVESTIGATIONS/ContagiousInterview_00.00.2024/light-fury/report.json)
-
-[0xm00neth analysis](/profiles/INVESTIGATIONS/InteligenceOnChain_17.08.2024/0xm00neth/0xm00neth.json)
-
-[0xm00neth report](/profiles/INVESTIGATIONS/InteligenceOnChain_17.08.2024/0xm00neth/report.json)
-
-[bluesky0309 analysis](/profiles/INVESTIGATIONS/InteligenceOnChain_17.08.2024/bluesky0309/bluesky0309.json)
-
-[bluesky0309 report](/profiles/INVESTIGATIONS/InteligenceOnChain_17.08.2024/bluesky0309/report.json)
-
-**External Sources:**
-
-[Light-fury cluster discussion](https://x.com/tayvano_/status/1824257014639497366)
-
-[0xm00neth cluster discussion](https://x.com/blackbigswan/status/1825247425574863176)
-
-### Dev notes
-
-Repository hosts a data dump of suspicious github accounts in `/profiles` directory. Because of this, size of repository is pretty large. Use something like below to only grab package code:
-
+### Organization Analysis
 ```sh
-git clone --filter=blob:none --sparse https://github.com/shortdoom/gh-fake-analyzer && cd gh-fake-analyzer && git sparse-checkout set --no-cone '*' '!profiles'
+# Scan a single organization
+gh-analyze --tool scan_organization --scan-org <org_name>
+
+# Scan multiple organizations from a file
+gh-analyze --tool scan_organization --org-targets <file>
+
+# Perform full analysis for each contributor (generates report.json file for each contributor)
+gh-analyze --tool scan_organization --scan-org <org_name> --full-analysis
+
+# scan individual repository
+gh-analyze --tool scan_repository --scan-repo owner/repo_name 
 ```
+
+### Advanced Tools
+```sh
+# Get detailed commit author information
+gh-analyze --tool get_commit_author --commit-author <sha>
+
+# Search GitHub users
+gh-analyze --tool dump_search_results --search "<query>" --endpoint users
+
+# Search GitHub code
+gh-analyze --tool dump_search_results --search "<query>" --endpoint code
+
+# Check activity patterns of multiple users, requires targets/connections_filter/usernames file with list of target usernames to check activity against
+gh-analyze --tool check_activity --targets <file>
+
+# Find interesting files in user's repositories (.txt, .pdf, binary files etc.)
+gh-analyze --tool find_interesting_files <username>
+
+# Find interesting files for multiple users from a file (.txt, .pdf, binary files etc.)
+gh-analyze --tool find_interesting_files --targets <file>
+
+# Custom output directory
+gh-analyze --tool find_interesting_files <username> --out_path /path/to/dir
+
+# Disable logging to script.log
+gh-analyze --logoff
+```
+
+It's possible to develop your own tools by re-using methods accessible in `modules/analyze.py`. Inspect existing `tools` code for examples and inspiration.
+
+## Configuration
+
+The tool uses a configuration file at `~/.gh_fake_analyzer/config.ini`. You can create a local `config.ini` to override settings:
+
+```ini
+[LIMITS]
+MAX_FOLLOWING = 1000
+MAX_FOLLOWERS = 1000
+MAX_REPOSITORIES = 1000
+CLONE_DEPTH = 100
+CLONE_BARE = True # False if you want to save the source code
+MONITOR_SLEEP = 10
+REMOVE_REPO = True # False if you want to save the source code
+```
+
+## Output
+
+Analysis results are saved in the `out` directory with the following structure:
+
+### report.json Structure
+
+The `report.json` file contains comprehensive data about the analyzed GitHub profile:
+
+#### Profile Information
+- `profile_info`: Basic GitHub user profile data
+  - `login`: GitHub username
+  - `name`: Display name
+  - `location`: User's location
+  - `bio`: Profile bio
+  - `company`: Company/organization
+  - `blog`: Website/blog URL
+  - `email`: Public email
+  - `created_at`: Account creation date
+  - `updated_at`: Last profile update
+  - `followers`: Number of followers
+  - `following`: Number of following
+
+#### Repository Statistics
+- `original_repos_count`: Number of original repositories
+- `forked_repos_count`: Number of forked repositories
+- `repo_list`: Names of all non-forked repositories
+- `forked_repo_list`: Names of all forked repositories
+- `repos`: Full repository data for every user repository (includes metadata, languages, stars, etc.)
+
+#### Social Network Analysis
+- `mutual_followers`: List of accounts that follow and are followed by the user
+- `following`: List of accounts the user follows
+- `followers`: List of accounts following the user
+
+#### Contribution Analysis
+- `unique_emails`: Emails and associated names extracted from commit data
+- `contributors`: User's repositories and their contributors
+- `pull_requests_to_other_repos`: List of PRs made to other repositories
+- `commits_to_other_repos`: List of commits made to repositories not owned by the user
+- `duplicate_hashes_found`: List of repositories with owner commits that do not belong to the owner
+- `commits`: Full commit data for every user repository
+- `issues`: List of issues opened by the user
+- `comments`: List of comments made by the user
+
+#### Activity Tracking
+- `recent_events`: List of recent events on the analyzed account (last 90 days)
+  - Stars
+  - Pushes
+  - Forks
+  - Issues
+  - Pull requests
+  - Profile updates
+
+#### Error Tracking
+- `errors`: List of repositories that failed to retrieve data
+  - Network errors
+  - DMCA takedowns
+  - Access denied
+  - Repository not found
+
+#### Suspicious Activity Indicators
+- `potential_copy`: List of repositories with first commit date earlier than account creation
+- `commit_filter`: List of repositories with similar/duplicated commit messages
+
+### Additional Output Files
+- User avatar downloaded to the output directory
+- `script.log`: Detailed logging of the analysis process
+- `monitoring.log`: Activity monitoring logs (when using --monitor)
+- `github_cache.sqlite` file will be created on the first run to speed up potential re-downloading from the same endpoints within the 1h window.
+
+
+## Disclaimer
+
+This tool is for reconnaissance purposes only. The confidence in detecting "malicious" GitHub profiles varies, and many regular user accounts may appear in analysis files. Do not make baseless accusations based on this content. All information is sourced from publicly available third-party sources.

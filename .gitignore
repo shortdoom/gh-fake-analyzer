@@ -45,3 +45,6 @@ ENV/
 out/
 targets
 profiles/
+
+# Cache
+github_cache.sqlite

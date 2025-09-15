@@ -31,9 +31,7 @@ class GitHubDataFilter:
         
         for repo_name, commits in commits_data.items():
             if commits:
-                first_commit_date = parser.parse(
-                    commits[-1]["commit"]["author"]["date"]
-                )
+                first_commit_date = parser.parse(commits[-1]["date"])
                 if first_commit_date < account_date:
                     date_filter.append({
                         "repo": repo_name,
@@ -98,7 +96,7 @@ class GitHubDataFilter:
         filtered_commits = []
         
         for commit in commits:
-            commit_message = commit["commit"]["message"]
+            commit_message = commit["message"]
             if self._valid_target_search(commit_message):
                 cleaned_message = self._clean_commit_message(commit_message)
                 search_result = self._search_similar_commits(
