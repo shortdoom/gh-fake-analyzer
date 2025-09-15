@@ -1,8 +1,10 @@
 # GitHub Profile Analyzer
 
-A powerful OSINT tool for analyzing GitHub profiles and detecting suspicious activity patterns. This tool helps identify potential bot accounts, scammers, and fake developer profiles by analyzing various aspects of GitHub activity.
+A powerful OSINT tool for analyzing GitHub profiles and detecting suspicious activity patterns. This tool helps identify potential bot accounts, scammers, and fake developer profiles by analyzing various aspects of GitHub activity. Comes together with a set of handy tools for scanning and extracting multiple types of metadata from Github profile, organization or repository.
 
-NOTE: If you cloned this repository before version 1.0.0 release, re-download the whole package. We did a significant commit re-write to make the repository more light-weight.
+**NOTE**: For the comprehensive solution of monitoring your Github organization, analyzing contributors and active alerting system against potential impersonation or other Github related threats - contact [SEAL911](https://securityalliance.org/). SEAL operates the *project-wide* version of the software. This package is not optimized for speed. Its main goal is supporting individual security researchers.
+
+**NOTE**: The project was possible thanks to the contribution from [Ethereum Ecosystem Support Program](https://esp.ethereum.foundation/). All of the investigations conducted by [Ketman Project](https://ketman.org) were made with help of `gh-fake-analyzer`.
 
 ## Features
 
@@ -21,6 +23,8 @@ NOTE: If you cloned this repository before version 1.0.0 release, re-download th
   - Automatically flagging account against list of your own IOCs
 
 ## Installation
+
+**NOTE**: If you cloned the repository before version 1.0.0 release, re-download the whole package. We did a significant commit re-write to make the repository more light-weight.
 
 ```sh
 pip install gh-fake-analyzer
@@ -45,7 +49,7 @@ cd gh-fake-analyzer
 
 # Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 
 # Install the package in development mode
 pip install -e .
@@ -88,11 +92,11 @@ gh-analyze <username>
 
 gh-analyze --targets <path/to/newlinefile/targets>
 
-# then, for a quick view (or a full path if report is not in the standard out/ path)
+# then, for a quick view (supply full path in place of <username> if report is not in the standard out/ path)
 
 gh-analyze --parse <username> --summary
 
-# other often used command is to extract full contributors information from organizations
+# other often used command is to extract full contributors information from organizations. also works with list of --org-targets.
 
 gh-analyze --tool scan_organization --scan-org <org_name>
 
@@ -110,9 +114,10 @@ gh-analyze --tool check_activity --targets <file>
 
 ```
 
-It is a good practice to update `target_list/` files with your own indicators you want to find in the scanned account. 
+It is a good practice to update `target_list/` files with your own indicators (usernames and names of organizations). Avoid commiting changed to those files in public.
 
-`github_cache.sqlite` file will be created on the first run to speed up potential re-downloading from the same endpoints within 1h window.
+`USERNAMES` - list of usernames you consider suspicious and would like to be informed if scanned account has any relation to.
+`ORGANIZATIONS` - list of organizations you consider suspicious and would like to be informed if scanned account has any relation to.
 
 ## All Commands
 
@@ -172,6 +177,9 @@ gh-analyze --tool scan_organization --org-targets <file>
 
 # Perform full analysis for each contributor (generates report.json file for each contributor)
 gh-analyze --tool scan_organization --scan-org <org_name> --full-analysis
+
+# scan individual repository
+gh-analyze --tool scan_repository --scan-repo owner/repo_name 
 ```
 
 ### Advanced Tools
@@ -201,7 +209,7 @@ gh-analyze --tool find_interesting_files <username> --out_path /path/to/dir
 gh-analyze --logoff
 ```
 
-It's possible to develop your own tools by re-using methods accessible in `modules/analyze.py`.
+It's possible to develop your own tools by re-using methods accessible in `modules/analyze.py`. Inspect existing `tools` code for examples and inspiration.
 
 ## Configuration
 
@@ -213,9 +221,9 @@ MAX_FOLLOWING = 1000
 MAX_FOLLOWERS = 1000
 MAX_REPOSITORIES = 1000
 CLONE_DEPTH = 100
-CLONE_BARE = True
+CLONE_BARE = True # False if you want to save the source code
 MONITOR_SLEEP = 10
-REMOVE_REPO = True
+REMOVE_REPO = True # False if you want to save the source code
 ```
 
 ## Output
@@ -286,6 +294,7 @@ The `report.json` file contains comprehensive data about the analyzed GitHub pro
 - User avatar downloaded to the output directory
 - `script.log`: Detailed logging of the analysis process
 - `monitoring.log`: Activity monitoring logs (when using --monitor)
+- `github_cache.sqlite` file will be created on the first run to speed up potential re-downloading from the same endpoints within the 1h window.
 
 
 ## Disclaimer

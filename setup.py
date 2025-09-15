@@ -16,19 +16,38 @@ def copy_config():
         copyfile(default_config, user_config)
         print(f"Created default configuration file at {user_config}")
 
+def copy_target_list():
+    """Copy default target_list files into the user's data dir if missing."""
+    package_target_dir = os.path.join(
+        os.path.dirname(__file__), "src", "gh_fake_analyzer", "target_list"
+    )
+    user_target_dir = os.path.expanduser("~/.gh_fake_analyzer/target_list")
+    try:
+        os.makedirs(user_target_dir, exist_ok=True)
+        for fname in ("USERNAMES", "ORGANIZATIONS"):
+            src = os.path.join(package_target_dir, fname)
+            dst = os.path.join(user_target_dir, fname)
+            if os.path.exists(src) and not os.path.exists(dst):
+                copyfile(src, dst)
+        print(f"Ensured default target_list at {user_target_dir}")
+    except Exception as e:
+        print(f"Warning: could not create default target_list in user dir: {e}")
+
 class PostInstallCommand(install):
     def run(self):
         install.run(self)
         copy_config()
+        copy_target_list()
 
 class PostDevelopCommand(develop):
     def run(self):
         develop.run(self)
         copy_config()
+        copy_target_list()
 
 setup(
     name="gh-fake-analyzer",
-    version="1.0.0",
+    version="1.0.2",
     author="blackbigswan",
     author_email="blackbigswan@gmail.com",
     description="An OSINT utility for downloading, analyzing and detecting potential suspicious activity patterns in GitHub profiles",
@@ -70,7 +89,7 @@ setup(
     },
     include_package_data=True,
     package_data={
-        "gh_fake_analyzer": ["config.ini", "modules/*", "utils/*"],
+        "gh_fake_analyzer": ["config.ini", "modules/*", "utils/*", "target_list/*", "tools/*"],
     },
     cmdclass={
         "install": PostInstallCommand,

@@ -2,6 +2,7 @@ import os
 import configparser
 import logging
 from dotenv import load_dotenv
+import shutil
 
 DEFAULT_CONFIG = {
     "LIMITS": {
@@ -124,3 +125,62 @@ CLONE_DEPTH = int(config["LIMITS"]["CLONE_DEPTH"])
 CLONE_BARE = config["LIMITS"]["CLONE_BARE"].lower() in ("true", "1", "yes")
 MONITOR_SLEEP = int(config["LIMITS"]["MONITOR_SLEEP"])
 REMOVE_REPO = config["LIMITS"]["REMOVE_REPO"].lower() in ("true", "1", "yes")
+
+
+def get_user_data_dir() -> str:
+    """Return the directory under the user's home used for analyzer data."""
+    return os.path.expanduser("~/.gh_fake_analyzer")
+
+
+def get_default_target_list_dir() -> str:
+    """Compute the default target_list directory path in the user's home."""
+    return os.path.join(get_user_data_dir(), "target_list")
+
+
+def ensure_default_target_list() -> str:
+    """
+    Ensure the default target_list directory and example files exist under the
+    user's data dir. Returns the directory path.
+    """
+    target_dir = get_default_target_list_dir()
+    try:
+        os.makedirs(target_dir, exist_ok=True)
+        # Create example files if missing
+        usernames_path = os.path.join(target_dir, "USERNAMES")
+        orgs_path = os.path.join(target_dir, "ORGANIZATIONS")
+        if not os.path.exists(usernames_path):
+            with open(usernames_path, "w") as f:
+                f.write("example_user\n")
+        if not os.path.exists(orgs_path):
+            with open(orgs_path, "w") as f:
+                f.write("example_org\n")
+    except Exception as e:
+        logging.debug(f"Failed to ensure default target_list directory: {e}")
+    return target_dir
+
+
+def get_package_target_list_dir() -> str:
+    """Return the path to the packaged target_list templates inside the package."""
+    return os.path.join(os.path.dirname(os.path.dirname(__file__)), "target_list")
+
+
+def ensure_local_target_list() -> str:
+    """
+    Ensure a ./target_list directory exists in the current working directory.
+    If missing, copy packaged templates into it. Returns the directory path.
+    """
+    dest_dir = os.path.join(os.getcwd(), "target_list")
+    if os.path.isdir(dest_dir) and os.listdir(dest_dir):
+        return dest_dir
+    try:
+        os.makedirs(dest_dir, exist_ok=True)
+        src_dir = get_package_target_list_dir()
+        for fname in ("USERNAMES", "ORGANIZATIONS"):
+            src = os.path.join(src_dir, fname)
+            dst = os.path.join(dest_dir, fname)
+            if os.path.exists(src) and not os.path.exists(dst):
+                shutil.copyfile(src, dst)
+        return dest_dir
+    except Exception as e:
+        logging.debug(f"Failed to prepare local ./target_list: {e}")
+        return dest_dir

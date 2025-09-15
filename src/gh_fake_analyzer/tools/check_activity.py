@@ -17,6 +17,15 @@ from ..utils.data import DataManager
 def load_targets(target) -> List[str]:
     """Load target usernames from the debug file."""
     target_file = os.path.join("target_list", f'{target}')
+    if not os.path.exists(target_file):
+        try:
+            # Fallback to user data dir default target_list
+            from ..utils.config import get_default_target_list_dir
+            fallback = os.path.join(get_default_target_list_dir(), f'{target}')
+            if os.path.exists(fallback):
+                target_file = fallback
+        except Exception:
+            pass
     try:
         with open(target_file, 'r') as f:
             # Read lines and clean up usernames - remove commas, spaces, and empty lines

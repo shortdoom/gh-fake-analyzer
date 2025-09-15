@@ -15,6 +15,7 @@ from .tools.scan_repository import scan_repositories
 from .tools.find_interesting_files import find_interesting_files
 from .tools.get_external_prs import get_external_prs
 
+
 def read_targets(file_path):
     """Reads a list of GitHub usernames from a file."""
     try:
@@ -26,6 +27,7 @@ def read_targets(file_path):
     except Exception as e:
         logging.error(f"Error reading targets file {file_path}: {e}")
         return []
+
 
 
 def process_target(username, commit_search=None, only_profile=False, out_path=None, regenerate=False):
@@ -83,6 +85,7 @@ def process_target(username, commit_search=None, only_profile=False, out_path=No
 
     except Exception as e:
         logging.error(f"Error processing target {username}: {e}")
+
 
 
 def terminal():
@@ -236,6 +239,13 @@ def terminal():
         setup_logging("script.log", True)
     else:
         setup_logging("script.log")
+    
+    try:
+        from .utils.config import ensure_default_target_list, ensure_local_target_list
+        ensure_default_target_list()
+        ensure_local_target_list()
+    except Exception:
+        pass
         
         
     if args.parse:
@@ -419,6 +429,7 @@ def terminal():
 
     end_time = time.time()
     logging.info(f"Processing completed in {end_time - start_time:.2f} seconds.")
+
 
 
 def start_terminal():
